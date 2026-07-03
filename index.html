@@ -18,23 +18,106 @@
 <link rel="preconnect" href="https://pbs.twimg.com" crossorigin>
 <link rel="preconnect" href="https://s3.tradingview.com" crossorigin>
 
-<!-- Resolución DNS anticipada para dominios usados por iconos/widgets -->
-<link rel="dns-prefetch" href="https://raw.githubusercontent.com">
-<link rel="dns-prefetch" href="https://play-lh.googleusercontent.com">
-<link rel="dns-prefetch" href="https://pbs.twimg.com">
-<link rel="dns-prefetch" href="https://yt3.googleusercontent.com">
-<link rel="dns-prefetch" href="https://encrypted-tbn0.gstatic.com">
-<link rel="dns-prefetch" href="https://ugc.production.linktr.ee">
-<link rel="dns-prefetch" href="https://upload.wikimedia.org">
-<link rel="dns-prefetch" href="https://cdn-1.webcatalog.io">
-<link rel="dns-prefetch" href="https://static-cdn.jtvnw.net">
-<link rel="dns-prefetch" href="https://is3-ssl.mzstatic.com">
-<link rel="dns-prefetch" href="https://media.licdn.com">
-<link rel="dns-prefetch" href="https://support.apple.com">
-<link rel="dns-prefetch" href="https://s3.tradingview.com">
-<link rel="dns-prefetch" href="https://api.open-meteo.com">
-<link rel="dns-prefetch" href="https://geocoding-api.open-meteo.com">
-<link rel="dns-prefetch" href="https://cdn.openwidget.com">
+<script>
+(function(){
+  "use strict";
+
+  var isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+  if (isMobile) {
+    var dnsDomains = [
+      "https://raw.githubusercontent.com",
+      "https://play-lh.googleusercontent.com",
+      "https://pbs.twimg.com",
+      "https://yt3.googleusercontent.com",
+      "https://encrypted-tbn0.gstatic.com",
+      "https://ugc.production.linktr.ee",
+      "https://upload.wikimedia.org",
+      "https://cdn-1.webcatalog.io",
+      "https://static-cdn.jtvnw.net",
+      "https://is3-ssl.mzstatic.com",
+      "https://media.licdn.com",
+      "https://support.apple.com",
+      "https://s3.tradingview.com",
+      "https://api.open-meteo.com",
+      "https://geocoding-api.open-meteo.com",
+      "https://cdn.openwidget.com"
+    ];
+
+    var fragment = document.createDocumentFragment();
+
+    dnsDomains.forEach(function(href){
+      var link = document.createElement("link");
+      link.rel = "dns-prefetch";
+      link.href = href;
+      fragment.appendChild(link);
+    });
+
+    document.head.appendChild(fragment);
+    return;
+  }
+
+  function upgradeIconImage(img){
+    if (!img || img.__facileDesktopEager) return;
+
+    if (!img.closest || !img.closest("main.intro section")) return;
+    if (!img.closest("a.logo")) return;
+
+    img.__facileDesktopEager = true;
+
+    img.loading = "eager";
+    img.setAttribute("loading", "eager");
+
+    img.decoding = "async";
+    img.setAttribute("decoding", "async");
+
+    if ("fetchPriority" in img) {
+      img.fetchPriority = "auto";
+    }
+
+    img.setAttribute("fetchpriority", "auto");
+  }
+
+  function upgradeExistingIcons(root){
+    var scope = root && root.querySelectorAll ? root : document;
+    var images = scope.querySelectorAll("main.intro section a.logo img");
+
+    images.forEach(upgradeIconImage);
+  }
+
+  var observer = new MutationObserver(function(mutations){
+    mutations.forEach(function(mutation){
+      mutation.addedNodes.forEach(function(node){
+        if (node.nodeType !== 1) return;
+
+        if (node.matches && node.matches("img")) {
+          upgradeIconImage(node);
+          return;
+        }
+
+        if (node.querySelectorAll) {
+          node.querySelectorAll("main.intro section a.logo img").forEach(upgradeIconImage);
+        }
+      });
+    });
+  });
+
+  observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true
+  });
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function(){
+      upgradeExistingIcons(document);
+      observer.disconnect();
+    }, { once: true });
+  } else {
+    upgradeExistingIcons(document);
+    observer.disconnect();
+  }
+})();
+</script>
 
      <link href="estilos.css" rel="stylesheet">
      <link href="eresma_estilos.css" rel="stylesheet">
