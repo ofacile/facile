@@ -1,15 +1,31 @@
 {
-  "updatedAt": "2026-07-04T15:10:50.009503+00:00",
+  "updatedAt": "2026-07-04T16:33:00.075651+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "El incendio en Girona quema 2.200 hectáreas y alcanza algunas casas en Calonge",
-      "source": "elDiario.es",
-      "summary": "El incendio en Girona quema 2.200 hectáreas y alcanza algunas casas en Calonge elDiario.es El incendio originado en La Bisbal d'Empordà (Girona) quema una casa en una urbanización de Calonge y la Generalitat cierra el acceso al macizo de Les Gavarres El Mundo",
+      "title": "Incendios forestales en Catalunya y resto de España, en directo | Última hora del fuego en la Bisbal",
+      "source": "El Periódico",
+      "summary": "Incendios forestales en Catalunya y resto de España, en directo | Última hora del fuego en la Bisbal El Periódico El incendio de las Gavarres y el milagro de Fitor La Vanguardia Bombers alerta de situación \"difícil\" en el incendio de La Bisbal (Girona) por cam",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWG9zUHdEVjd0cDR5QUNhcGV3YkxyT1lKLUQzdVpURVdjTFBaRzZxQzVaS3NFbE9ZdUQxZ3R0SnJqLXFVRXdtMjVtcWphbDdwUmxfeUlWNXpsUGtVU05ibGswaXJoRm1mVGYwMndPNjV4aDZQTWFkTkNDa3RtMFE3bjVlOHVPczdvY2pPczh6dW81SVlkS2xqdXQ2ZDFvZllUbXBsVllUSVVMWDFQeVpzY1dVZEhuLW5Ld3RYM19wYWM?oc=5",
-      "pubDate": "Sat, 04 Jul 2026 06:28:34 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUUwVmlHWWtwekRoSzJsemMycHh5SVpOSll2TExuTndVR3dDSy1TY2lLQnNZdGtXRTNWUG5pUTZFOWdkS2xUVzYxZUJTSUY4b0RNREl5cDlpYU9HYVJsd3JPUm9MUTJRclhFaFljRmJmZ0FiMVp4TVpnRzFDN29sRlNaSGpFR1FSTkppdm44VW9DeU1YTHA1ZkFyd05OWHpUQy1oUmxadw?oc=5",
+      "pubDate": "Sat, 04 Jul 2026 10:48:00 GMT"
+    },
+    {
+      "title": "Funeral de Jamenei: reaparece jefe de Guardia Revolucionaria",
+      "source": "DW.com",
+      "summary": "Funeral de Jamenei: reaparece jefe de Guardia Revolucionaria DW.com Irán convierte el funeral de Jamenei en un desafío a Washington: \"¡Venganza, muerte a EEUU!\" El Mundo Irán despide al ayatolá Alí Jameneí en un funeral de seis días cuatro meses después de su",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdHpmRmluRy05LTVsU1pHcEliMkZ5Tng3c19mUkJTZlI5U0M5VXp1QmJJcXFXQzg2R1E4Z3lYcVJ0MVhNRnB3a2Nxc2tOUWFGTTBoOVhKS2g4dzB1a01PbjVDVGQ3aWtfQWt6RzRURkVxeTBoQm5aOXFXZkpYb2w1bnZYX2xTRkVzQ2Rfa1E5MFNZd3ZyR25JbnBaU0wtcDRoMmFBVnJBVkJSWFdVTW1LNlFfU1FyQloxRzZwbTRXZHlDNHA3blJiMWk4NzRpRWVqNmxlVmlSYU91djNhOTBN0gHfAUFVX3lxTE9OM3BBQ0I0cWxWdHJzVzViNUlLTzZFZWEzSTdGajJxWTdFV1BlbUgxU21mLVNnR0N3bWJlaGV1cjEtMUdpODJveU55UFpnb3R4U2lFZUxlUTJzWWRjZHhNbXVLekJNdnpNTUxSOXZ2eEpwcTBUaFNzRURkOXVkdjJJRi1CclF4SkhqV0Z1TjVNd0tqTnROQVFoWkNyc013QmtwODhnb2pBckU3d0VoRGtqU1g4c3FMX3Z1bzVqYzQzX0MwMVd2c010bDZ5Uml2QVVESnpSNHN5YU5ydGxUMEU?oc=5",
+      "pubDate": "Fri, 03 Jul 2026 07:45:08 GMT"
+    },
+    {
+      "title": "Nueva York celebra los 250 años de Estados Unidos con un desfile de 40 veleros de todo el mundo",
+      "source": "EL PAÍS",
+      "summary": "Nueva York celebra los 250 años de Estados Unidos con un desfile de 40 veleros de todo el mundo EL PAÍS Trump reivindica en el Monte Rushmore el regreso del excepcionalismo americano ABC Trump celebra el Día de la Independencia de EEUU desde el monte Rushmore",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQUVqMzFkalhHSHVNb0Riazc1TnEtMTRNQlRvbF90Q0lLWTFNREdhYkQxS1FJYW9rV1h4UTRLMUZjNzU3N1RhaFRvRUs3MTBidGlEM0NzTkxvZ05oNFhpZkpfSHp5RjlwSjBQLWhaaUQxMWhZRUt2MVRoMnhKVHZoUkRaajVyYW5icUFFSkVfNElkc2NzSndCc0FPSGFKNlBLV0dIY21lNU5GTGZ6NEhacVRqUmNjdkRHMnBWY0R5ckVFeGV0bGRkd2lnMFNUUdIB4gFBVV95cUxPVXVLVWxpbGpIaVlXWmRLQ2xnMUxQWklibGZWcVFNNzl4cEtUSzBKaWgzbjJvbk1zWDRUVXA0VlMwaXhwd3ZGUW1sS0xpakJ2a1hnQ0F0dkNGcWk0ZXdxdktGTVhLNHRqWDdzc1lPUXhWR1FEX09oZ29BUk5Ud1BTUTUzSTVLN0lVOGNwOEl4VE0tTUR2d0IwY195VWtFSGQ4SFViakdWVUpubWZreDhlZVhZZEVGeWtpcHF3RXpEZE1STkpqMWdYamFfLUdsdC1FT1lxVzFybGhfc3Jsem1WWGp3?oc=5",
+      "pubDate": "Sat, 04 Jul 2026 15:48:32 GMT"
     },
     {
       "title": "Las claves del pacto PP-Vox en Andalucía: más toros, menos inmigración y prioridad nacional",
@@ -20,28 +36,12 @@
       "pubDate": "Thu, 02 Jul 2026 19:37:52 GMT"
     },
     {
-      "title": "Elisa Beni, tras la imputación de la directora de la Guardia Civil: \"Me imagino a Màxim Huerta después de por qué le hicieron dimitir\"",
-      "source": "Onda Cero",
-      "summary": "Elisa Beni, tras la imputación de la directora de la Guardia Civil: \"Me imagino a Màxim Huerta después de por qué le hicieron dimitir\" Onda Cero Mercedes González, la mujer de verde que siempre fue leal a Sánchez EL PAÍS Robles también sale en defensa del DAO",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPSjM4R3B3eVhoRndVcUx4VmNpNHRoUUQ5UEJoQlJmRGZpWW5pdzBVYk9wTFkzOEhsN1JiVUpSVEQ4dmFCZS1qMGRWMm5VM1pjZTB3WnVmZkV4czU3TlFVZWxxWm1Ud1l4bC14OW1Mb3NVN2hzMlJaZzI1cy15ck9oRkRPU1lpUjhXS01lbXhDSHpKdTRXWHhLYXp0SmZhMmZPbDc3WGMyTlZWRFFRUWJ0WjFGTEZDeGEyNVFfUXZIYzlRUmhwM0p5Zko4TW16akxHN3h0c3hOSExOT1hVUkNxSEpPUll0cUt1WlR1MHZacnpYd3NuZ3JRTjdHTzNtRHhQRm1z0gGDAkFVX3lxTE40MGtmZ3BVelJkNng4VmRlazJ2VjZvc3RmSkNubjZVc0tTMkZ4MmJlWTlfRE1jTXpjcHgwa0x2MS1tRE5rZmU5YThUaDhkTi11NFBaRVFrNmJ4Q2dJSDZWU2pJRm5lT0Zla2hrZElOaXdlUzNGeHpreXhEUGoycEpSN1JfbkpOeHczM1hsTWJJLW12M1NaODFiRmJLbWpGWVRVUEw1YlY4REVkQkZMaFRKWFhMWW5YWVQ4TUtWWkdTcUFNdW5YWjBKRmZobUhOZ3Q5akdBS1I0WTFrNkUwN3JzN1dVSzN4NFQ2RDQyU2hKcWFpSkY5Y0QybWpTcHRvMVdQcFU?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 16:08:05 GMT"
-    },
-    {
       "title": "Tour de Francia 2026: etapas, recorrido, calendario completo, horarios y dónde ver en vivo y online en México, Latinoamérica y USA",
       "source": "DAZN",
-      "summary": "Tour de Francia 2026: etapas, recorrido, calendario completo, horarios y dónde ver en vivo y online en México, Latinoamérica y USA DAZN Tour de Francia 2026, en directo hoy en vídeo: 1ª etapa, contrarreloj por equipos en Barcelona RTVE.es Tour de Francia 2026",
+      "summary": "Tour de Francia 2026: etapas, recorrido, calendario completo, horarios y dónde ver en vivo y online en México, Latinoamérica y USA DAZN Tour de Francia 2026, en directo hoy en vídeo: 1ª etapa, contrarreloj por equipos en Barcelona RTVE.es Tour de Francia, en d",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNOGllemtWRDE0OFlYS1U0cmtNbU5vVGpORjM1c2w0SWEyNWZHYWpDa0tIaERwbnhRcU5NSlBkRGR5ZmlHUDFrQ2RmbXFyckxSVGw4QzhQYmdSXzI4b1RpWHJ4OFR3X1ljQklWS2UyVlJSOEZhQ3VzM1hfSVUzbE5JaldoYzB2emJVNWdfYWhWRDdkb3luNlhVYmdhZjFQMDRCQ2pJY2pWb1JyTndrX284U2Q3LWV3MzNrLTFDdDFwaDZCTGllZUVhLXRzdmxCX2s2TjJNXzB6eUZtQjBvYVVyZFRVcW5raXY2NHlDS3FkTmhQb1h4eHBNQlBuMFRSSlQwYk96ZS1pTGF1QQ?oc=5",
       "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "250 años de la independencia de Estados Unidos, claves de redacción",
-      "source": "Fundación del Español Urgente",
-      "summary": "250 años de la independencia de Estados Unidos, claves de redacción Fundación del Español Urgente Trump reivindica en el Monte Rushmore, donde aspira a ver su rostro, el regreso de la grandeza americana El Correo EN VIVO | En su mensaje por el 4 de julio, Marc",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQl93NFNEczJBT09iS2xDVU9WVDhjajFjemJoZGNQWF9Cb2NLZXQyZTJwTktDcVZvQU9sckJmRnBXM0MyX1FKeThPbkR0Y0JHbUV4V2ZFMWVDc2cxSlo4YWhZd2ZJUDVzU3BGZkNwRHEzbUxJbjFGclBndlE1Qi1yTmd1bEhkVXNFeEt4MDdJeS13REJIcXRDcnVUQ3lNOXR1NllYTlln?oc=5",
-      "pubDate": "Fri, 03 Jul 2026 11:07:36 GMT"
     },
     {
       "title": "Hacienda empezó a investigar a Zapatero, su esposa y sus hijas un mes después del registro en el que aparecieron las joyas",
@@ -52,20 +52,20 @@
       "pubDate": "Fri, 03 Jul 2026 13:08:06 GMT"
     },
     {
-      "title": "Llega una segunda ola de calor con temperaturas extremas que podrán alcanzar los 43 grados",
+      "title": "Todo preparado para la manifestación del Orgullo en Madrid: \"Hay ganas de reivindicar\"",
+      "source": "El Diario Vasco",
+      "summary": "Todo preparado para la manifestación del Orgullo en Madrid: \"Hay ganas de reivindicar\" El Diario Vasco Orgullo LGTBIQ+ 2026, en directo | La marcha del Orgullo más multitudinaria de Europa recorrerá esta tarde las calles de Madrid EL PAÍS Orgullo de Madrid 202",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUNWd3pOWWNFbTNWeG9kVkdHazNjUnJPREJOd0M3YlplSUJvWThsckJuWWVJczJSb0dBN05TWERWY2lwZGxla0hrT3VpWllCREpvei1oYlBYS29mdzZhX2JkZmpJelA5UzdXeUlJMDFCZDlwZ2dNT1luQjNLdi1NMlhwRXFoOTRGdHhVejF5RHNCaVRpSVFCc0l4end4YU5Xb2dxMWU2Z0JmRFA0TTZ2MzVQUlV5UQ?oc=5",
+      "pubDate": "Sat, 04 Jul 2026 13:25:21 GMT"
+    },
+    {
+      "title": "La segunda ola de calor alcanzará su pico de temperaturas extremas este lunes con más de 40 grados",
       "source": "LaSexta",
-      "summary": "Llega una segunda ola de calor con temperaturas extremas que podrán alcanzar los 43 grados LaSexta La Aemet lanza el aviso especial por la segunda ola de calor del verano, que golpeará especialmente a Galicia y el País Vasco EL PAÍS Los españoles, abocados a p",
+      "summary": "La segunda ola de calor alcanzará su pico de temperaturas extremas este lunes con más de 40 grados LaSexta La Aemet lanza el aviso especial por la segunda ola de calor del verano, que golpeará especialmente a Galicia y el País Vasco EL PAÍS Domingo de temperat",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQb0p4RWxCR012U0NoRzl0bnREZzR3SU0wdXRtSkN6cVptUWYyOXBOdDlIcGxMOFpRY21DcWg4dXh3Z3RiM0VBVExQVWxubjZvRlZqcjUwbnJwR25FaWx1ajRURmxsZDRwS0NfRFdTTHNYV2ZCMVJGUXFtSi1VNU1JLVNNYWd5ZDVKWTB0clFMUjFqU3BlVkxxNXhYQXB4RGQ4cF9KZGNYSmdlbkh6REJfam9WaTZCY0E1UDFvQXVpQjlHaE9aUkh4MkpkMGFUOE1UVlhBVXE5aXl3ZDBUVzIzSkFPTVpkN05yV09mTdIB7AFBVV95cUxNY0hGR2lLeTZPSGd2Vzg4aWlsSlZfRXFMTmpkQVF6VURrSmhoLVdfX3ZtdDZvTm43Sm9PTXBQYjZjYmRGa3BaNUdsbXdjVzlISXBGVGl3QkRIdXp0d3ZYZUdQblVBNHV4YmNaQVBvNUNYZENadFpmb2FkRWppZTdhd3JtTG5vUDV0ejN5V2ktVFNHdFU0dmNnNlBvRm56WldIYks3MGZpYlEzbG8wQnYtQ1dnVXJnbkpjWm01SVdmazlXRTQ3Z0lZNlZvZjZjVDBwRkYtUW9SazBxQVFnZjRSdDRHX0VzOXJXOGFiaw?oc=5",
       "pubDate": "Sat, 04 Jul 2026 14:05:25 GMT"
-    },
-    {
-      "title": "Todo preparado para la manifestación del Orgullo en Madrid: \"Hay ganas de reivindicar\"",
-      "source": "Hoy",
-      "summary": "Todo preparado para la manifestación del Orgullo en Madrid: \"Hay ganas de reivindicar\" Hoy Orgullo de Madrid 2026: horario, recorrido y cortes de tráfico previstos por el desfile de carrozas hoy ABC Orgullo en Madrid manifestación: recorrido, a qué hora es y ú",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWDJpcU16V0w4RWNFWmV1b2c5S1VJN1RJaDgzNW8tT3JSZ1hhTGZ2NEdKUVVlS1BvV3hCNHJ3ZjdZU0l4d00tTGRhOUdNekFkdXJDOVdlQ3VrdXBmUWVpV3dvQkhUSlBwZnloNUsyZlV2dk9Kb0xibXdiRE1NdWZkaXdoc2c2VVBXcFR2a3dIVEdtWnRxUTBsZzBySXNxZ2VpbzV6c3k2dUp4dw?oc=5",
-      "pubDate": "Sat, 04 Jul 2026 13:25:21 GMT"
     }
   ]
 }
