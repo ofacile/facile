@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T15:22:24.029486+00:00",
+  "updatedAt": "2026-07-05T16:35:52.080486+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
@@ -10,14 +10,6 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRjJyN3UwclVPOW1iZGt0cnhYSEszR2o2VFNyM1Z4OUl1Y0JzcHVCdGVxLTZrUEJQb19KbnFJcjE5clZZOUp3YzVQOW1RWG81WlZLR0dKUm9oQ3VqcFllZEJjb282LW05Y1ZYYzIxWm5pWW5TeFZkdjNZRzNhdFJNS0JjQVNvamcyeEExVU9kTDR2YXNMajN0Qi04OXRzNjZtT3h6VWpyMkwxRENIM0c2WkhSdms?oc=5",
       "pubDate": "Sun, 05 Jul 2026 07:12:49 GMT"
-    },
-    {
-      "title": "Moreno toma posesión en Andalucía: “Los valores no cambian. La vía andaluza sigue vigente y es contraria a los cordones sanitarios”",
-      "source": "EL PAÍS",
-      "summary": "Moreno toma posesión en Andalucía: “Los valores no cambian. La vía andaluza sigue vigente y es contraria a los cordones sanitarios” EL PAÍS Juanma Moreno trata de minimizar el efecto de su pacto con Vox: \"Los valores no cambian, la vía andaluza sigue vigente\"",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX0VWYkk2X19yMFJ5UURyWjZqa0N1amdVd0o2THBDNUlGWDAwWExveC1OeHJkMHhYbFAtU0lkVmIwbFg4UGl2V2hhTGs1V25yR2ZsdjU5eVl4U0s2aG52SmhnSjJGTU1OdTNkTnRuNVc5N19acktpVEl5QXJHOVFZOGtsY01XS0ZLMlMzQXVrRDJmTDI0Z2c?oc=5",
-      "pubDate": "Sun, 05 Jul 2026 07:16:02 GMT"
     },
     {
       "title": "Levantan el confinamiento por el incendio de La Bisbal y en Huesca el fuego podría reactivarse",
@@ -36,36 +28,44 @@
       "pubDate": "Sun, 05 Jul 2026 03:40:00 GMT"
     },
     {
-      "title": "De Javi Hoyos y María Lamela a Dulceida y Belén Esteban: los rostros conocidos se dan cita en el Orgullo de Madrid",
-      "source": "El Economista",
-      "summary": "De Javi Hoyos y María Lamela a Dulceida y Belén Esteban: los rostros conocidos se dan cita en el Orgullo de Madrid El Economista El Orgullo planta cara en Madrid al auge de la extrema derecha: “Nuestros derechos no se negocian” EL PAÍS De Irene Montero a Dulce",
+      "title": "Moreno defiende su acuerdo con Vox y llama a \"todos\" a sumarse a la 'vía andaluza' en su toma de posesión",
+      "source": "RTVE.es",
+      "summary": "Moreno defiende su acuerdo con Vox y llama a \"todos\" a sumarse a la 'vía andaluza' en su toma de posesión RTVE.es Juanma Moreno trata de minimizar el efecto de su pacto con Vox: \"Los valores no cambian, la vía andaluza sigue vigente\" El Mundo Abanicos, música",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPM0pCQm80NDBFMzhsUVpmY3B3UVA3dlQ3YzJNeENWZ2FqbEthMXdsZHBXVTNhRVhXc24zQnUwOXMyc19BV21lS2NtbUVFbFFkYW9fWXFBekUyT2Z4ZU95X2Fvb3RDSmVaX201ZVJIN3luU3JrMnBPVDM4NFdKRGdkVjVzSG9MRzczWXBnV013UEdPWERjZi1ISlc5RWRRT2lMTUk4WHRhd1lGS095REFPS0N4ZGgtcnB1Z1U0OEk1QmRIWTdEY20wLXNpVThZU0ctTzA4OXBmMkdxOV9FWFdTSXFTcXN2VkdPY1l4QXVLWU95UFYwZjBENjU5c2dHcFR5YnM1djJsVTJfN2M4SE5qMVdlNHE1TU9D0gGDAkFVX3lxTE93bHY0dUg5ME8xTWhBcUtjdjJFbXRZTVdxbmcwLTdob3VsTjB2VlF1QmVnenZMamRZWEZCcjFWOW9Day1xWDJWamdNeXBONDVjd19SWk5hYUpiLUd0RGt1VHVLMVpkMHNhNGtVOFNtYldlVGlGb0xycEc5Q2p1cFotWkRYY3dCdmxqbk1lMzBIN08xUk5jRUtCejhxb2lzWlBEdUdzYVUyOVJDcFBhZnBNcm1lWTJla3lpN284OExQMnpXMVBPd1dVNU91bi1HT3Yta01kZkZENlpkSWhsSC1qcVBpaEttUWRkNDh2dm0wMnp6ZENiVUdZaFFzM1VTNHRUam8?oc=5",
-      "pubDate": "Sat, 04 Jul 2026 19:00:02 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ3pLbmVFLTREaDZoTWRVajEtNDF5V1RtM2hPR2JlSjBnbHlFUEs5eEFJV0FOR1htclZlRXlKbzVMU3JjMFVaMGFMTkRsLTh1TVB2TU1TcDlxNmcxR3gtbmZiNUZZNTdGUXBCWFlfbjJwZzNWVjlMdnZ3cmN5dm1nYXRULVRwS3F1S3hBZ1ZkLWhMN2loM1VQLXpmdmlIUl91Y3pXUzF4UDRWMUNiZ0RtVmE2VGcwVkdIbDIzLXowU2o?oc=5",
+      "pubDate": "Sun, 05 Jul 2026 04:00:34 GMT"
     },
     {
       "title": "Trump ensalza la grandeza de EE.UU. en su 250 aniversario",
       "source": "DW.com",
-      "summary": "Trump ensalza la grandeza de EE.UU. en su 250 aniversario DW.com Desfiles nazis, tormentas de verano y la vuelta del 'temor rojo': \"Esperaremos el tiempo que haga falta, no he cruzado el país para ahora asustarme por unos rayos\" El Mundo Trump pone a prueba 25",
+      "summary": "Trump ensalza la grandeza de EE.UU. en su 250 aniversario DW.com Desfiles nazis, tormentas de verano y la vuelta del 'temor rojo': \"Esperaremos el tiempo que haga falta, no he cruzado el país para ahora asustarme por unos rayos\" El Mundo El cuarto de milenio d",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSHVtMWFCYjBTQkpIU3NKUUlWcjFXSzVTWWZIWWpUX1lvS2tXcTN3M0FoWGxtV2hLRGZJWDZsNjI3a24wUjEtdHlmT3hZOXB5d2xBejFJUlpTUHRfYlM5QnpkNXl1aEdzUXFySTdhaXdtTE1GT05LcXdiOF9rQUVyUHJCQ21tXzBlNTZQWGVrQ0pUd9IBkgFBVV95cUxNN2ZfdW9BUlFTUFNaendwV2pTdE5vekVDNm9uczQyVXRfWjdraDF5WWVGd1J6dW12UTdFZFBHcWdMb3dGbnp1TDBOZGlyRmZoSEh1UGwwSXVQdDhRQndrSkRmUkJqcjVGSzFRODJTTHQ1N2tmYnRrNjA2eEtoV2V3ZzFieHZ1ODVmQ1VMbVJNNjZmUQ?oc=5",
       "pubDate": "Sun, 05 Jul 2026 05:15:54 GMT"
     },
     {
+      "title": "El tiempo, domingo 5 de julio: temperaturas altas en gran parte del país",
+      "source": "RTVE.es",
+      "summary": "El tiempo, domingo 5 de julio: temperaturas altas en gran parte del país RTVE.es Se aproxima el pico de la ola de calor a España: en tres provincias el riesgo será extremo con avisos rojos Meteored España La semana arranca con ola de calor y las temperaturas s",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc1dxMzBtVzRoUTRhY1pRc1N1elh0MnJYeVdTOVZoZlFPWUJmZ0NaM1FmdjdiVzFObEpWY2hTU21NSEo5WV9yVlV0QkNCaVNOcHpmd2ZPbXpsd0JkMTVkenFxMThCRWtYOXRrV1B6WWY0TUgzU09GMkJPVFE4QkdZaVo0UnU1dkoweUZpYjgtXzVCRW5NQ3c?oc=5",
+      "pubDate": "Sun, 05 Jul 2026 04:05:57 GMT"
+    },
+    {
+      "title": "Madrid, “epicentro europeo de la diversidad” en la manifestación del Orgullo",
+      "source": "El Salto",
+      "summary": "Madrid, “epicentro europeo de la diversidad” en la manifestación del Orgullo El Salto El Orgullo planta cara en Madrid al auge de la extrema derecha: “Nuestros derechos no se negocian” EL PAÍS De Irene Montero a Dulceida o Chanel: los famosos que no se perdier",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORU9JLVRwMGdvRm1NY1FtQXFRbEMxVHItLWJaNTNTaENpaVk5cWlsS3lsM2l6ekRJSnFkLXlwZUxrbEtScTdxSFNmbU9hWVp6cUtLNUdNaW16YzF3R3A5WmQzd2NYOGJ0OFlDckw1MWJ1VDRGU3FlZ2lQZTRTb0JHWWRWWF91TnhUVVE?oc=5",
+      "pubDate": "Sun, 05 Jul 2026 07:45:00 GMT"
+    },
+    {
       "title": "Exteriores eleva a 35 la cifra de españoles fallecidos tras el doble terremoto en Venezuela",
       "source": "Cadena SER",
-      "summary": "Exteriores eleva a 35 la cifra de españoles fallecidos tras el doble terremoto en Venezuela Cadena SER Última hora de los terremotos en Venezuela, en directo: aumentan a 35 los españoles muertos mientras 140 continúan desaparecidos antena3.com Exteriores eleva",
+      "summary": "Exteriores eleva a 35 la cifra de españoles fallecidos tras el doble terremoto en Venezuela Cadena SER Exteriores suma otro español muerto en los terremotos de Venezuela: ya son 35 fallecidos en la tragedia LaSexta Exteriores confirma 35 españoles fallecidos y",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcnMtTDZ4YkpiQ1A1Y2lGYzBPS1RUWE4tUTRvbk5ucFBrSlRld2diMFJmTC0xNno5ckNJSUlfa1JlREJkZjNMMG45NDd6bHFhSmUzWExYWHUxdzFMNE9JbHVLem1tVGxSNFJ4VkFBbzZQOVdFbFFvM2FsNlFaSzdibG1yWHo5TFR6eWY5NlFsWGVkMXhSMjFwcWp0X1dSaktQRmsySFJRMXJrR29xNjVCdDhDNW9iQXloY08wZjgtT0FEWExfSG95cGxFTFpPVmNfX0thTXVrdmlPcVhfRDdpMHhwV25ORVM5aTFBY3BOYUFCMjdZTlIwdTdR0gGOAkFVX3lxTE05bW1CV3REelhBOEQ3WUpYY0JFRXgxV1RQX2JJbS1DdDVjc3dpRWRabE5CMGY2Z09Rd1hmb3UwRm1fdEZ6VzhPZVM0X3V6Ry0xal9ENGtUcnEwVkZ5VUdJbzY4SXozSC1RdkRXMXBja09oeUVVSlV0TEFwY0gtQ080S243Vy1RR25XckYwWFJ0aU5tLTA2STEwR1hLTmhtckRpdXNUU1JFMWR5MFg1S05GUnh0cFc1RHkybVlGcVphcW9CdElWWTJIZE4taTJkVTcxN3VCdFJwSC1qTHRWWGxCR3d4TnR1SW9jVGhsQWlYaUtKZEIzM25kVHBpSmVUY2dSc0RSb0JUeHRGQ3dkZw?oc=5",
       "pubDate": "Sun, 05 Jul 2026 11:54:16 GMT"
-    },
-    {
-      "title": "Un millón de inmigrantes se suman al estado del bienestar: ¿hay sitio para todos?",
-      "source": "El Independiente",
-      "summary": "Un millón de inmigrantes se suman al estado del bienestar: ¿hay sitio para todos? El Independiente Una Cataluña \"al límite\" asume el mayor número de inmigrantes regularizados: \"Son más que la población de Sabadell\" El Mundo ¿Quiénes han solicitado la regulariz",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdHhRVzhZRUdFWURPQnN1OXpycTlSMVpiTVRGUVpRaTduMnlta1A3RGxVbTlwR2l1eFBmb1doRmZkZnd5c0xNRnMwZi0weFdDS3pEdkVxM2ZVSGt2LXRCUXVfMmw3cS1VTHNoNWFuRVkzd3YzNVFDOWotd0FqcG12T2Z5SXFvM2RsVkdYbVdLWGdXRHRkMEhTR2xPcmp3V1BLbF9zTFkxRnEyN09Zcm0tR9IBtgFBVV95cUxNeW9PVzNfb05hS05fWFZyMVlNOWlRWjdHdkJIUk9hOHkybkZPZWxqWEY2VnBXMTlILUVoaEJwakRCdEJIcjhsMEdKOUNpb0ZoeXVYV1Izc3VaUGRBYnl1REUzX01rZjFydnJMZWVQdVRTOFRiaGd2Ukp1QktGRExHajR3QURCakFTekpMVmV2UFduREp0dzF6Y2FmeV9SdFgxVTM4Snc5QWtHazBGeVJ5TlBFZ3FRZw?oc=5",
-      "pubDate": "Sat, 04 Jul 2026 22:07:31 GMT"
     }
   ]
 }
