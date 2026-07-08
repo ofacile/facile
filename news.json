@@ -1,24 +1,8 @@
 {
-  "updatedAt": "2026-07-08T03:55:32.380599+00:00",
+  "updatedAt": "2026-07-08T06:33:52.104389+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
-    {
-      "title": "Horario y los toreros de la corrida de hoy martes 7 de julio en la Feria de San Fermín en Pamplona",
-      "source": "heraldo.es",
-      "summary": "Horario y los toreros de la corrida de hoy martes 7 de julio en la Feria de San Fermín en Pamplona heraldo.es El primer encierro de San Fermín 2026 al detalle: los veloces Fuente Ymbro mejoran su última marca en 20 segundos RTVE.es San Fermín 2026 | Revive la",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVFFZm1DU1dlY1JudGE0THBBYjF3eXhQSHhjLVZmejB2QklycDlrYjE5cVBGeTJ6dVlvR0ktcFZ2TlBMbWNGVkN0R3NfY2xoV1RZR2FIdkIxVEhZR1RUbk1fVWRGbG1JNHdLelZYVEt2Y0RBeDh0a21PWEpRUi1XYjJjTjluR3R4cTViRS1Xa0ZkeWplc1RPUllEaXd2YzF0RzA3b1RUX1dUb3JSRU5BVEFJcW1ldkFPWnp1Q3dCaFhQaWI4MEg5T0Zkck9HM3NvOWZqWNIB2gFBVV95cUxPWFd3aFIzNXdXOEt0U016enB6VlNGbnBSWTJ2TTQ2UWZWNmpYcksyU2xPcGxuRk9acTF0b1JCSDJpSnJRbElPZ2xrRzFGWDc4dFExZWZfWHNuWDczbVljR0lXbDhRRWpXdG5rRWhUZVVNNlY0cVpyM29Jb0pubDNUOUFvS0IwdkpWb1JTSV9jMDM2RzNETDJtT3hRN0Q4djJSU2hWdVNHeFE1c3BHa0NzVDVMX0NfZHR3bG1nV01UZWIyaWJ5T0JjMGJEcm13SXA1Z003SzNsM3Rqdw?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 05:32:13 GMT"
-    },
-    {
-      "title": "El Gobierno acuerda el mayor techo de gasto de la historia para blindar el estado de bienestar",
-      "source": "La Moncloa",
-      "summary": "El Gobierno acuerda el mayor techo de gasto de la historia para blindar el estado de bienestar La Moncloa El Gobierno aprueba un techo de gasto récord de 226.032 millones para elaborar los Presupuestos de 2027, un 6,6% más El Mundo Hacienda no convence pese a",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzhRZTdUcWNXWXhiWV9LTXB0dTFwck93QzlkaFduQjJWX2tSeDdPa3YtLXdLc3lqUU5GVUlQd1BEcEFoeGlXWVN0VGF0ZUJLUUh1aW1lTEt4SWlucl94cGVHV2IzMWVPbGxTV3BPWEViNTB2OEE0UGFGQVRJc2F5bVYxZHpOOWo1OWNRYi0ybE5BS0VEN2lUM3ZSWG5TdlNRRFhoU0lHMjk?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 17:19:09 GMT"
-    },
     {
       "title": "Zapatero intenta paralizar la inspección de Hacienda y reclama al juez su suspensión inmediata",
       "source": "El Confidencial",
@@ -28,44 +12,60 @@
       "pubDate": "Tue, 07 Jul 2026 14:06:00 GMT"
     },
     {
-      "title": "Puente llama \"siniestro\" a Feijóo por ver \"impropio\" que Begoña Gómez acuda a la cumbre de la OTAN",
-      "source": "La Razón",
-      "summary": "Puente llama \"siniestro\" a Feijóo por ver \"impropio\" que Begoña Gómez acuda a la cumbre de la OTAN La Razón El ramo huérfano de España en la OTAN... ¿para Begoña Gómez? El Mundo Sí a Londres, pero no a Ankara: expertos ven en la decisión sobre Begoña Gómez un",
+      "title": "El Gobierno acuerda el mayor techo de gasto de la historia para blindar el estado de bienestar",
+      "source": "La Moncloa",
+      "summary": "El Gobierno acuerda el mayor techo de gasto de la historia para blindar el estado de bienestar La Moncloa El Gobierno da los primeros pasos para presentar los Presupuestos: ¿y ahora qué? EL PAÍS Hacienda tienta a las comunidades del PP con un sistema de nueva",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPV21mLTVDOHBpT1BtTmsybXN5LWQ5NlgzcFFpUTRXNC0wdThaRzdKaUd4c3lQU3Q3cmdXbjk4RzZNR21WdTJzbExUUk8zR3pJaFhkeFdtOVJZZUJaN0VOQjlGMzNCTTJtQ2tzVk5MWTZtblJnRVl4cGJvUGxHLThYN3BkcGMtZkR0czV6WEN6ZTk1ZEV2TjltMEUyU0FSUlphcUozZllyWVZQZkF1Nm0xVk9zTVdfMVZWX1d5bEdIZnpDblo2QmQ1enE4cEwzeTM4bzdtajVuV2NiczNoX0HSAfIBQVVfeXFMUHZOMzRjOHg3UkRDZkNQZmhvUUtrOTVMc3lyRHp3ZUZzMjgwdnp0WnV4NzJPUGUzQVgwVkJEd1dqMTBISWs4Y1JfcVB6YXZFcGxybTFlYy1WUHYxVXdZRUEzaHV2SGtBWEpDUzd4eU9OV05lWHdOQzJxbjRLY2VPTF8yX1ZBZ21jSXBSNGZYWHU4RkhSRTJ3cHpxMGFrc1ZoOGVhZmRUNHVjLXFsZlZkT2ZNbzZ1dUl6M3JVZUNRR3htU2pyVEdQbWQ1YnBuZ1pabXlxdmU0TExyaWxNYmtod0hZendra0FVZjM4SUh4c0ZUWWc?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 16:22:38 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzhRZTdUcWNXWXhiWV9LTXB0dTFwck93QzlkaFduQjJWX2tSeDdPa3YtLXdLc3lqUU5GVUlQd1BEcEFoeGlXWVN0VGF0ZUJLUUh1aW1lTEt4SWlucl94cGVHV2IzMWVPbGxTV3BPWEViNTB2OEE0UGFGQVRJc2F5bVYxZHpOOWo1OWNRYi0ybE5BS0VEN2lUM3ZSWG5TdlNRRFhoU0lHMjk?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 17:19:09 GMT"
+    },
+    {
+      "title": "Horario y los toreros de la corrida de hoy martes 7 de julio en la Feria de San Fermín en Pamplona",
+      "source": "heraldo.es",
+      "summary": "Horario y los toreros de la corrida de hoy martes 7 de julio en la Feria de San Fermín en Pamplona heraldo.es San Fermín 2026 | Revive la llegada de las peñas a la primera corrida Diario de Noticias de Navarra La mala suerte de un corredor vizcaino en el prime",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVFFZm1DU1dlY1JudGE0THBBYjF3eXhQSHhjLVZmejB2QklycDlrYjE5cVBGeTJ6dVlvR0ktcFZ2TlBMbWNGVkN0R3NfY2xoV1RZR2FIdkIxVEhZR1RUbk1fVWRGbG1JNHdLelZYVEt2Y0RBeDh0a21PWEpRUi1XYjJjTjluR3R4cTViRS1Xa0ZkeWplc1RPUllEaXd2YzF0RzA3b1RUX1dUb3JSRU5BVEFJcW1ldkFPWnp1Q3dCaFhQaWI4MEg5T0Zkck9HM3NvOWZqWNIB2gFBVV95cUxPWFd3aFIzNXdXOEt0U016enB6VlNGbnBSWTJ2TTQ2UWZWNmpYcksyU2xPcGxuRk9acTF0b1JCSDJpSnJRbElPZ2xrRzFGWDc4dFExZWZfWHNuWDczbVljR0lXbDhRRWpXdG5rRWhUZVVNNlY0cVpyM29Jb0pubDNUOUFvS0IwdkpWb1JTSV9jMDM2RzNETDJtT3hRN0Q4djJSU2hWdVNHeFE1c3BHa0NzVDVMX0NfZHR3bG1nV01UZWIyaWJ5T0JjMGJEcm13SXA1Z003SzNsM3Rqdw?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 05:32:13 GMT"
+    },
+    {
+      "title": "Se amplían las restricciones por peligro extremo de incendio",
+      "source": "Gencat",
+      "summary": "Se amplían las restricciones por peligro extremo de incendio Gencat Incendios forestales en Catalunya: última hora del avance del fuego en Sentmenat y Anoia, en directo hoy La Vanguardia Nuevos incendios simultáneos complican la labor de los bomberos en Catalu",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSHJrcWYwNEsyY1F1REIyTnQzbGJvOG9EMGRaa1JLVkFsNGxHRFllVE1qSGpoR1gySE1HM1l1NDE1UE1yY0w1XzRBcEotM3QzUGs2S0s0ME4xbnEtM0hVX0tLS3VDeUVBU1FIbDF1VHNXWVR6Mmo4WlkwTEFURHIxYXhPbE5RaXJjME9EYmRXZU1RMTFPcVNiTUtTWnUxd3NmcFAweA?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 13:18:43 GMT"
+    },
+    {
+      "title": "El juez que sustituye a Peinado permite a Begoña ir a Londres a la graduación de su hija, pero no a la cumbre de la OTAN",
+      "source": "El Español",
+      "summary": "El juez que sustituye a Peinado permite a Begoña ir a Londres a la graduación de su hija, pero no a la cumbre de la OTAN El Español El ramo huérfano de España en la OTAN... ¿para Begoña Gómez? El Mundo Sí podrá viajar a Londres, pero no a Ankara: la decisión d",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOX1JGeVRVQ3h6VURaTHB2OFloVHhpdTNhcFZReWxzZTBpU0NLejhteGxHRnBuaHZvSi1iYXp1ZXEyV0NTSVYyWGdCNTlUQTNUOW05ZzV2aTM2TjFIZENmMnM0bFp5Ry05VlBwUW1DMklROWk4X0l6Y3l1YVgzVVdsSlROM19FS1VqZFQ0dFBwTGdtV1JIWF9pSnZsRVFFQ1BYUzI5TVhJdHFTZlh2dzN4V29TUUpNbzJoWXBrRVdnOXJYWk52MVpKTU9kZUE3U3o3S2xpN1IzYzlFajZvTnk4YkY5Y3dLaDZSLTZHeG12ZmpZTFBGOEM40gH8AUFVX3lxTE5Uc2ZxUzV3VXBmRVRfOFUtYXNSV3FPOTZwNUtkVVhBZ1lQaXcwU1IxVFhSU01UTHdRUzFkVVhsdXdFcTFDVEc3aFZXbkVnVFh5RDk2NUJQM1hjRkc3a1ZzZmNNa1Rqa05Tb0kzMzZSVG16UW9NZEltbGRTeTZSZThFb1ZUT3NXd2V2eDlNeXpqTVJzRzE3bG5qVlFMZ0pUUl9GMmxRNGs3bUg4aHY4OXdScnlpY1ZxYk5wR3RxSW5CMjM2dHRvVy1sMk9vU0VFSk5RT3k5NnN1Y25ZUlRuN182a0VWNTVUVU1rejhsa3M1TzItd213dlVmcmJqNg?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 16:16:52 GMT"
     },
     {
       "title": "Un tribunal en Francia rebaja la pena a Marine Le Pen y abre la puerta para que se presente a las elecciones presidenciales usando un brazalete electrónico",
       "source": "BBC",
-      "summary": "Un tribunal en Francia rebaja la pena a Marine Le Pen y abre la puerta para que se presente a las elecciones presidenciales usando un brazalete electrónico BBC Le Pen, desprestigio y condena EL PAÍS La Justicia gala rebaja la pena a Le Pen, pero le impone un b",
+      "summary": "Un tribunal en Francia rebaja la pena a Marine Le Pen y abre la puerta para que se presente a las elecciones presidenciales usando un brazalete electrónico BBC Marine Le Pen anuncia que se presentará a las elecciones francesas después de que un tribunal le rev",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RSEJ3REVZMUlYN0h3ZzE3bFZQaFdCWHFIb0dRVDNmaVBUVmRDMGR0VTBpMEk4bDZIMnFsV01Rb3ZNeWZjMHhCTk03YWl5R1czQm8xNE1vVHhTM0nSAWBBVV95cUxNVjBXQkJ3OXQwT0luM1JialNTcmc2dkxRTW1ITXVZWTNlZFVVSXF1NElqUGZuWUVkc2Rsd25JZzNaMG92ZUJCakZ2VVB4OS0xMlZWY1lNZzZUY2hQY2xFcEQ?oc=5",
       "pubDate": "Tue, 07 Jul 2026 17:10:12 GMT"
     },
     {
-      "title": "La Consejería de Agricultura, Ganadería, Medio Rural y Política Ambiental exige al Ministerio un incremento de la financiación para los Programas Estatales de Erradicación de Enfermedades Animales | Comunicación | Junta de Castilla y León",
-      "source": "Junta de Castilla y León",
-      "summary": "La Consejería de Agricultura, Ganadería, Medio Rural y Política Ambiental exige al Ministerio un incremento de la financiación para los Programas Estatales de Erradicación de Enfermedades Animales | Comunicación | Junta de Castilla y León Junta de Castilla y L",
+      "title": "Feijóo sugiere que un trabajador de baja cobre menos y considera el absentismo laboral \"un cáncer\"",
+      "source": "RTVE.es",
+      "summary": "Feijóo sugiere que un trabajador de baja cobre menos y considera el absentismo laboral \"un cáncer\" RTVE.es Feijóo defiende que los trabajadores de baja cobren menos EL PAÍS 📩 BOLETÍN | El cáncer según Feijóo elDiario.es Feijoo sostiene que el absentismo en Esp",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTZEVnR2eENycEtaWkdHWFA1UXBTem5McHR6czVTQ0hXcjd2LWphLXotdTBPSkk3aVNfN1VCR3J2N0s5U2l1RWxNSGZWdm91WlBJM3VfN1VrWGNvNy03ZE0wYlIycXpyaDZEMHVnd3o0cFlxbG44cnB3RmVaQ0dzM2tTU2xiTmNRdk9kbHI3ekl1N2VBQU80Xzl5bXZjTl92VHFHNExXNDV3SGpsYy1ETWVpRDN6a2VUNHRwY0tIZk9mODA?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 16:47:11 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX1JWb0xlWkRSbkpRMDZyTGF5TXFCLXViaFBacXB3NjF5TktvNGRnVGxpRHV4U0U1NXBPSWVKbno0SlE1R1haSUpXY3NBRzZJWjBWZTFJdFhfS3B5eWoyTjFYV0pqWWdic2dWM0J2UGdiTkJOaFJ2b2p3REJWMXoxNDZia3pSVWk0eE1teDVKUzRxOGNxWWY2djFMQXRtcHBVdjRTNVUxQXBiZUJCSHNmSmw5ZUZHQnkycGRHMldtRjZRSlk?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 17:59:23 GMT"
     },
     {
-      "title": "Las madres solteras se revuelven contra la ley del concebido no nacido del PP: \"Ningunea a las familias que sí existimos\"",
-      "source": "Cadena SER",
-      "summary": "Las madres solteras se revuelven contra la ley del concebido no nacido del PP: \"Ningunea a las familias que sí existimos\" Cadena SER CCOO y UGT rechazan el anuncio de Feijóo de extender a toda España la ley del “concebido no nacido” de Ayuso Confederación Sind",
+      "title": "Hora, dónde ver en TV y claves del Segundo Encierro de San Fermín 2026",
+      "source": "RTVE.es",
+      "summary": "Hora, dónde ver en TV y claves del Segundo Encierro de San Fermín 2026 RTVE.es Segundo encierro de San Fermín 2026, en directo hoy | Vídeo RTVE.es Los Cebada Gago protagonizan un veloz segundo encierro con un herido por asta de toro Libertad Digital Segundo en",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbVlQVlU5cTEwNEhXWVVxSXp1VEx5aloyZHNVelROTjE4bFBQUGZ0LVdHNHBPbFZjdk9LQWVubDJkbVhLWmZ0Z1A0UVY0cURKcjRhcHZmeG1SZk9jVEg0TFl2cTNiaUFZSlpwVFBaUVBwZDRsVk9HZ1g1d1owU09manpXS0ppVkY1WjFvZjlIbkhJQk9OMHRLYzA3d1E0RktSYmtMM3NDTU9LdERMRGhSQ1RXR01jNUZ0ZUZXTlBnWUVjdEIta01TWS1CVnpsZExrZXdZSkdZXzBDd1FwU0Ytc0JnOGo3c3QyUW5IaDlQaWw4dDZ3S2NQTEt0ZnI0WW1XaTl0dVhpc1RLVFhjdHfSAaICQVVfeXFMTWtoNC1OVEVEc1ROWWdCYVA4N3NzUk9ZZFdSaE1fc3Y0OVMwV284N3J6ejZENS1jWkZKRWlITTJZNlBMSEJYdElZb0xaNUU2VTRWREIyTjVqTi1qc2JhdG9fMm1VMFBxdEVTR21hTHdJYVh3V0RnWmhzbXpwc2otaF9mb1kxZzJRb0d0NjRGWE04TUJqX04tUHRVdzdEN3BxTEJlNkdtaVlvRG45U1gyeExlTGxiODBhS1E2cVYyeTlnYzdpZ1NYc3dkdXZMdm11VUVSY1hBUld4cmZaZDNxTFJra0NjRzdMQjNhSGFpMW1TZ0pTdmNTeHRWUEZ6RmRMc25nYXF4WjJhNXVEMXRVejRwS3VqcW1sWTJWWmswVHpUd1E?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 10:18:43 GMT"
-    },
-    {
-      "title": "Sánchez llega debilitado a la cumbre de la OTAN",
-      "source": "ABC",
-      "summary": "Sánchez llega debilitado a la cumbre de la OTAN ABC Trump obvia a España en sus críticas uno por uno a los líderes europeos y Sánchez intenta evitar un choque EL PAÍS El Gobierno llega a la OTAN sacando pecho de su estrategia de 'verso suelto' ante Trump El Co",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaVFaT0w0cEoxcWhsTlhDMkRBYlV2Q19zSnE1MU41aVFRWTh6OW1xRWRpVHN0eUlWbkx5TUxod2wzT0NCODlNMXFYV0lKU09yVWJ6aWw1aGs3UFRhRXhZZGtzU2ZHcFRPSGtUS3hXZEwtZTh5Zzd1TDQ4ajBndWNMUjJEXzVmS2JudVRILXBn?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 18:09:42 GMT"
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV1BSMUFvalUwc01XZ0dRWkRPeWtPR0tZenFlaEUySXMxbTgzZ3NJQkJTQWJnbVowZDVGMjJ0TmdhaF9famVldGFrRWNFTXBKZHJmREJfVmFOOUtrbVBtemdmVXJ0NEk5Zm91QklMUUxPQ3lnbDI5cTVEcHc0ZzF1RU96aHJrR1g2M3BFaWZzNXNwbnZ3YWVBcTVobkV4TnU2ZVR3b0JlanpLSXNicncxVg?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 10:00:31 GMT"
     }
   ]
 }
