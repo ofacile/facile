@@ -5477,107 +5477,86 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE RADIO — PANEL MÁS ALTO + SCROLL FINAL VISIBLE */
+/* FACILE RADIO — RESTAU*AR PANEL + LISTA UN POCO MÁS ALTA */
 .facile-radio-panel{
   /*
-    El panel está anclado abajo, así que al darle más altura
-    crecerá hacia arriba y dejará más espacio para la lista de radios.
-  */
-  height: min(690px, calc(100vh - 24px)) !important;
-  max-height: min(690px, calc(100vh - 24px)) !important;
+    Re*uperamos el comportamiento natural*del menú:
+    NO forzamos altura f*ja gigante y NO usamos flex aquí.
+* */
+  height: auto !important;
+  m*x-height: min(620px, calc(100vh - *4px)) !important;
 
-  display: flex !important;
-  flex-direction: column !important;
-
-  /*
-    Mantiene la forma redondeada del panel sin recortar mal
-    el scroll interno de la lista.
-  */
-  overflow: hidden !important;
+  display: bloc* !important;
+  overflow: hidden !i*portant;
 
   /*
-    Evitamos contain: paint aquí porque puede provocar recortes visuales
-    en elementos internos con scroll.
-  */
-  contain: layout style !important;
+    Quitamos contai*: paint heredado de bloques anteri*res para evitar
+    recortes visua*es raros en el scroll interno.
+  **
+  contain: layout style !importan*;
 }
 
-/* Las zonas superiores de Radio no deben competir con la lista */
-.facile-radio-header,
-.facile-radio-search,
-.facile-radio-now,
-.facile-radio-controls,
-.facile-radio-volume,
-.facile-radio-note{
-  flex: 0 0 auto !important;
-}
-
-/* La lista de emisoras ocupa todo el espacio libre */
+/* Lista inferior de radios: *n poco más alta, pero sin romper e* panel */
 .facile-radio-results{
-  flex: 1 1 auto !important;
+ *display: grid !important;
+  grid-a*to-rows: max-content !important;
+ *gap: 7px !important;
 
-  min-height: 170px !important;
-  max-height: none !important;
-
-  display: grid !important;
-  grid-auto-rows: max-content !important;
-  gap: 7px !important;
-
-  margin-top: 10px !important;
-  box-sizing: border-box !important;
-
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
+  margin: 10*x auto 0 !important;
 
   /*
-    Espacio real a la derecha y abajo para que ni las radios
-    ni el indicador lateral queden cortados.
+    Sub*mos el alto útil de la lista, pero*de forma controlada.
+    Antes est*ba sobre 220px. Ahora gana espacio*sin crear un panel vacío.
   */
-  padding-right: 10px !important;
-  padding-bottom: 26px !important;
+  m*x-height: clamp(230px, 34vh, 285px* !important;
+  min-height: 0 !impo*tant;
 
-  overscroll-behavior: contain !important;
-  -webkit-overflow-scrolling: touch !important;
-  scrollbar-gutter: stable !important;
+  overflow-y: auto !importa*t;
+  overflow-x: hidden !important*
 
-  scrollbar-width: thin !important;
-  scrollbar-color:
-    rgba(255,255,255,0.74)
-    rgba(255,255,255,0.14) !important;
+  padding-right: 8px !important;*  padding-bottom: 16px !important;*
+  box-sizing: border-box !importa*t;
+
+  overscroll-behavior: contain*!important;
+  -webkit-overflow-scr*lling: touch !important;
+  scrollb*r-gutter: stable !important;
+
+  sc*ollbar-width: thin !important;
+  s*rollbar-color:
+    rgba(255,255,25*,0.72)
+    rgba(255,255,255,0.14) *important;
 }
 
-/* Espaciador final real dentro del scroll */
-.facile-radio-results::after{
+/* Espacio final rea* para que la última radio no quede*pegada */
+.facile-radio-results::a*ter{
   content: "" !important;
-  display: block !important;
-  grid-column: 1 / -1 !important;
-  width: 100% !important;
-  height: 22px !important;
-  min-height: 22px !important;
+  d*splay: block !important;
+  grid-co*umn: 1 / -1 !important;
+  width: 1*0% !important;
+  height: 12px !important;
+  min-height: 12px !important;
   pointer-events: none !important;
 }
 
-/* Última radio con aire extra */
 .facile-radio-results .facile-radio-row:last-of-type{
-  margin-bottom: 6px !important;
+  margin-bottom: 4px !important;
 }
 
-/* Scrollbar: Chrome / Edge / Safari */
+/* Scrollbar — Chrome / Edge / Safari */
 .facile-radio-results::-webkit-scrollbar{
   width: 8px !important;
 }
 
 .facile-radio-results::-webkit-scrollbar-track{
   margin-top: 8px !important;
-  margin-bottom: 24px !important;
+  margin-bottom: 14px !important;
   border-radius: 999px !important;
   background: rgba(255,255,255,0.13) !important;
 }
 
 .facile-radio-results::-webkit-scrollbar-thumb{
-  min-height: 36px !important;
+  min-height: 34px !important;
   border-radius: 999px !important;
-
   border: 2px solid transparent !important;
   background-clip: padding-box !important;
 
@@ -5599,24 +5578,24 @@ main.intro .container > section:not(#facile-news-widget){
   background-clip: padding-box !important;
 }
 
-/* Móvil y pantallas estrechas */
+/* Móvil/tablet: más compacto, sin panel gigante */
 @media only screen and (max-width: 767px){
   .facile-radio-panel{
-    height: min(620px, calc(100vh - 22px)) !important;
-    max-height: min(620px, calc(100vh - 22px)) !important;
+    height: auto !important;
+    max-height: min(560px, calc(100vh - 28px)) !important;
+    display: block !important;
+    overflow: hidden !important;
   }
 
   .facile-radio-results{
-    min-height: 145px !important;
-    max-height: none !important;
-
-    padding-right: 7px !important;
-    padding-bottom: 24px !important;
+    max-height: clamp(190px, 30vh, 240px) !important;
+    padding-right: 6px !important;
+    padding-bottom: 14px !important;
   }
 
   .facile-radio-results::after{
-    height: 22px !important;
-    min-height: 22px !important;
+    height: 12px !important;
+    min-height: 12px !important;
   }
 
   .facile-radio-results::-webkit-scrollbar{
@@ -5625,23 +5604,22 @@ main.intro .container > section:not(#facile-news-widget){
 
   .facile-radio-results::-webkit-scrollbar-track{
     margin-top: 7px !important;
-    margin-bottom: 22px !important;
+    margin-bottom: 14px !important;
   }
 
   .facile-radio-results::-webkit-scrollbar-thumb{
-    min-height: 32px !important;
+    min-height: 30px !important;
     border-width: 1.5px !important;
   }
 }
 
-/* Pantallas bajas: el panel sigue creciendo hacia arriba, pero sin salirse */
+/* Pantallas muy bajas */
 @media only screen and (max-height: 680px){
   .facile-radio-panel{
-    height: calc(100vh - 20px) !important;
-    max-height: calc(100vh - 20px) !important;
+    max-height: calc(100vh - 24px) !important;
   }
 
   .facile-radio-results{
-    min-height: 120px !important;
+    max-height: clamp(150px, 28vh, 210px) !important;
   }
 }
