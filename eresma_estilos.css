@@ -5164,3 +5164,142 @@ main.intro .container > section:not(#facile-news-widget){
     transform: none !important;
   }
 }
+/* FACILE FIX FINAL */
+@media only screen and (min-width: 768px){
+
+  #theme-menu.theme-menu{
+    display: block !important;
+
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+
+    transform: translateY(8px) scale(0.98) !important;
+    transform-origin: bottom right !important;
+
+    transition:
+      opacity 170ms ease,
+      transform 170ms ease,
+      visibility 170ms ease,
+      background var(--theme-transition-speed) ease,
+      border-color var(--theme-transition-speed) ease,
+      box-shadow var(--theme-transition-speed) ease !important;
+
+    will-change: auto !important;
+  }
+
+  #theme-panel.facile-theme-menu-open #theme-menu.theme-menu{
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: translateY(0) scale(1) !important;
+    will-change: opacity, transform !important;
+  }
+
+  #theme-panel:not(.facile-theme-menu-open) #theme-menu.theme-menu{
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: translateY(8px) scale(0.98) !important;
+  }
+
+  #theme-menu .theme-menu-close{
+    position: absolute !important;
+    top: 14px !important;
+    right: 14px !important;
+    z-index: 9999 !important;
+
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+
+    display: grid !important;
+    place-items: center !important;
+
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    touch-action: manipulation !important;
+
+    border-radius: 15px !important;
+    color: #ffffff !important;
+    background:
+      linear-gradient(
+        135deg,
+        color-mix(in srgb, var(--primary-color) 30%, rgba(255,255,255,0.20) 70%),
+        color-mix(in srgb, var(--secondary-color) 30%, rgba(255,255,255,0.14) 70%)
+      ) !important;
+
+    border: 1px solid rgba(255,255,255,0.20) !important;
+    box-shadow:
+      0 6px 14px rgba(0,0,0,0.17),
+      inset 0 1px 0 rgba(255,255,255,0.18) !important;
+
+    font-size: 1.55rem !important;
+    font-weight: 900 !important;
+    line-height: 1 !important;
+
+    transition:
+      transform 110ms ease,
+      filter 110ms ease,
+      background 130ms ease,
+      box-shadow 130ms ease !important;
+  }
+
+  #theme-menu .theme-menu-close:hover,
+  #theme-menu .theme-menu-close:focus-visible{
+    outline: none !important;
+    transform: translateY(-1px) scale(1.03) !important;
+    filter: brightness(1.06) saturate(1.03) !important;
+  }
+
+  #theme-menu .theme-menu-close:active{
+    transform: translateY(1px) scale(0.98) !important;
+  }
+}
+
+/* FACILE FIX — BOTONES FONDO PERSONALIZADO LIMPIOS */
+#theme-menu button[onclick="applyCustomBackground()"],
+#theme-menu button[onclick="clearCustomBackground()"]{
+  display: block !important;
+  width: 100% !important;
+  min-height: 42px !important;
+  margin: 8px auto 0 !important;
+  padding: 0 12px !important;
+
+  border-radius: 11px !important;
+  box-sizing: border-box !important;
+
+  text-align: center !important;
+  white-space: nowrap !important;
+
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  z-index: 4 !important;
+}
+
+#theme-menu button[onclick="applyCustomBackground()"]{
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.34), transparent 31%),
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--primary-color) 84%, white 16%),
+      color-mix(in srgb, var(--secondary-color) 84%, white 16%)
+    ) !important;
+}
+
+#theme-menu button[onclick="clearCustomBackground()"]{
+  background:
+    linear-gradient(
+      135deg,
+      #9aa3ad 0%,
+      #7e8791 52%,
+      #6d7580 100%
+    ) !important;
+}
+
+/* El botón SVG de subir imagen sigue integrado con la barra */
+#theme-menu .theme-bg-file-btn,
+#theme-menu .theme-bg-file-icon{
+  pointer-events: auto !important;
+}
