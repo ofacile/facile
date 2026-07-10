@@ -5477,3 +5477,80 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
+/* FACILE RADIO — SCROLLBAR*/
+
+.facile-radio-results{
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+
+  /* Deja espacio real para que el indicador no quede pegado/cortado */
+  padding-right: 8px !important;
+  padding-bottom: 8px !important;
+
+  /* Evita que el scrollbar se monte encima del contenido cuando el navegador lo soporte */
+  scrollbar-gutter: stable !important;
+
+  /* Firefox */
+  scrollbar-width: thin !important;
+  scrollbar-color:
+    rgba(255,255,255,0.72)
+    rgba(255,255,255,0.14) !important;
+}
+
+/* Chrome / Edge / Safari */
+.facile-radio-results::-webkit-scrollbar{
+  width: 8px !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-track{
+  margin: 8px 0 !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,0.13) !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-thumb{
+  min-height: 32px !important;
+  border-radius: 999px !important;
+
+  /* Este border transparente evita que el thumb se vea “cortado” */
+  border: 2px solid transparent !important;
+  background-clip: padding-box !important;
+
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--primary-color) 54%, white 46%),
+      color-mix(in srgb, var(--secondary-color) 54%, white 46%)
+    ) !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-thumb:hover{
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--primary-color) 68%, white 32%),
+      color-mix(in srgb, var(--secondary-color) 68%, white 32%)
+    ) !important;
+  background-clip: padding-box !important;
+}
+
+/* Móvil: scrollbar más fino, sin perder espacio interno */
+@media only screen and (max-width: 767px){
+  .facile-radio-results{
+    padding-right: 6px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .facile-radio-results::-webkit-scrollbar{
+    width: 6px !important;
+  }
+
+  .facile-radio-results::-webkit-scrollbar-track{
+    margin: 7px 0 !important;
+  }
+
+  .facile-radio-results::-webkit-scrollbar-thumb{
+    min-height: 28px !important;
+    border-width: 1.5px !important;
+  }
+}
