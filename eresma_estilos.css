@@ -4901,3 +4901,103 @@ main.intro .container > section:not(#facile-news-widget){
     right: 12px !important;
   }
 }
+/* FACILE TEMAS — SUBIR FONDO DESDE DISPOSITIVO */
+#theme-menu .theme-bg-row{
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 42px !important;
+  gap: 8px !important;
+  align-items: center !important;
+  margin: 8px 0 10px !important;
+}
+
+#theme-menu .theme-bg-row #bg-url{
+  width: 100% !important;
+  min-width: 0 !important;
+  height: 42px !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+}
+
+#theme-menu .theme-bg-file-btn{
+  width: 42px !important;
+  height: 42px !important;
+  min-width: 42px !important;
+  min-height: 42px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 1px solid rgba(255,255,255,0.22) !important;
+  border-radius: 12px !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  cursor: pointer !important;
+  color: #ffffff !important;
+  font-size: 1.05rem !important;
+  line-height: 1 !important;
+
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.34), transparent 31%),
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--primary-color) 84%, white 16%),
+      color-mix(in srgb, var(--secondary-color) 84%, white 16%)
+    ) !important;
+
+  box-shadow:
+    0 6px 14px rgba(0,0,0,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.22) !important;
+
+  -webkit-tap-highlight-color: transparent !important;
+  touch-action: manipulation !important;
+
+  transition:
+    filter 120ms ease,
+    box-shadow 140ms ease,
+    transform 120ms ease !important;
+}
+
+#theme-menu .theme-bg-file-btn:hover,
+#theme-menu .theme-bg-file-btn:focus-visible{
+  outline: none !important;
+  filter: brightness(1.06) saturate(1.04) !important;
+  transform: translateY(-1px) !important;
+}
+
+#theme-menu .theme-bg-file-btn:active{
+  transform: translateY(1px) scale(0.98) !important;
+}
+
+@media only screen and (max-width: 767px){
+  #theme-menu .theme-bg-row{
+    grid-template-columns: minmax(0, 1fr) 40px !important;
+    gap: 7px !important;
+  }
+
+  #theme-menu .theme-bg-row #bg-url{
+    height: 40px !important;
+  }
+
+  #theme-menu .theme-bg-file-btn{
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    border-radius: 11px !important;
+    font-size: 1rem !important;
+    transition:
+      filter 90ms linear,
+      box-shadow 90ms linear !important;
+    transform: none !important;
+  }
+
+  #theme-menu .theme-bg-file-btn:hover,
+  #theme-menu .theme-bg-file-btn:focus-visible,
+  #theme-menu .theme-bg-file-btn:active{
+    transform: none !important;
+  }
+}
