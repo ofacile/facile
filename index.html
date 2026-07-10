@@ -2890,6 +2890,13 @@ window.facileStartWeather = function(){
   }
 
   setThemeOpen(false);
+   if (closeButton) {
+  closeButton.addEventListener("click", function(event){
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    setThemeOpen(false);
+  }, true);
+}
 
   window.addEventListener("click", function(event){
     const target = event.target;
@@ -2970,6 +2977,15 @@ window.facileStartWeather = function(){
   este botón necesita que el click llegue a temas.js
 */
 if (fileBgTarget) {
+  event.preventDefault();
+  event.stopImmediatePropagation();
+
+  const fileInput = document.getElementById("bg-file-input");
+
+  if (fileInput) {
+    fileInput.click();
+  }
+
   setThemeOpen(true);
   return;
 }
