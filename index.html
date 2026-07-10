@@ -3047,6 +3047,98 @@ return;
 })();
 </script>
 <script>
+(function(){
+  "use strict";
+
+  function closeThemeMenuHard(event){
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (typeof event.stopImmediatePropagation === "function") {
+        event.stopImmediatePropagation();
+      }
+    }
+
+    const panel = document.getElementById("theme-panel");
+    const toggle = document.getElementById("theme-toggle");
+    const menu = document.getElementById("theme-menu");
+
+    if (!panel || !menu) return;
+
+    panel.classList.remove("facile-theme-menu-open");
+
+    if (toggle) {
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
+    menu.setAttribute("aria-hidden", "true");
+
+    window.clearTimeout(window.__facileThemeHardCloseTimer);
+
+    window.__facileThemeHardCloseTimer = window.setTimeout(function(){
+      if (!panel.classList.contains("facile-theme-menu-open")) {
+        menu.style.setProperty("display", "none", "important");
+      }
+    }, 180);
+  }
+
+  function isInsideCloseArea(event){
+    const closeButton = document.getElementById("theme-menu-close");
+    const menu = document.getElementById("theme-menu");
+
+    if (!closeButton || !menu) return false;
+
+    const target = event.target;
+
+    if (target === closeButton || closeButton.contains(target)) {
+      return true;
+    }
+
+    const rect = closeButton.getBoundingClientRect();
+    const x = event.clientX;
+    const y = event.clientY;
+
+    if (typeof x !== "number" || typeof y !== "number") {
+      return false;
+    }
+
+    /*
+      Zona de seguridad alrededor de la X.
+      Esto hace que cierre incluso si alguna capa visual/pseudo-elemento
+      está interceptando el click justo encima del botón.
+    */
+    return (
+      x >= rect.lef* - 10 &&
+      x <= rect.right + 1* &&
+      y >= rect.top - 10 &&
+  *   y <= rect.bottom + 10
+    );
+  *
+
+  function handleThemeCloseEvent(event){
+    const panel = document.getElementById("theme-panel");
+
+    if (!panel || !panel.classList.contains("facile-theme-menu-open")) {
+      return;
+    }
+
+    if (!isInsideCloseArea(event)) {
+      return;
+    }
+
+    closeThemeMenuHard(event);
+  }
+
+  window.facileCloseThemeMenu = closeThemeMenuHard;
+
+  window.addEventListener("pointerdown", handleThemeCloseEvent, true);
+  window.addEventListener("mousedown", handleThemeCloseEvent, true);
+  window.addEventListener("touchstart", handleThemeCloseEvent, true);
+  window.addEventListener("click", handleThemeCloseEvent, true);
+})();
+</script>
+<script>
 (function() {
     // Esperar a que Feedwind termine de cargar
     const observer = new MutationObserver(function(mutations, obs) {
