@@ -2693,19 +2693,36 @@ window.facileStartWeather = function(){
     
     <!-- Fondo personalizado -->
     <h4>Fondo personalizado</h4>
-    <input type="text" id="bg-url" placeholder="Pega URL de imagen..." 
-           style="width:auto;padding:8px;border-radius:5px;border:none;">
-    <button onclick="applyCustomBackground()" 
-            style="width:100%;margin-top:8px;padding:8px;cursor:pointer;
-                   background:var(--primary-color);color:white;border:none;border-radius:5px;">
-      Aplicar el fondo
-    </button>
-    
-    <button onclick="clearCustomBackground()" 
-            style="width:100%;margin-top:5px;padding:8px;cursor:pointer;
-                   background:#999;color:white;border:none;border-radius:5px;">
-      Limpiar el fondo
-    </button>
+
+<div class="theme-bg-row">
+  <input
+    type="text"
+    id="bg-url"
+    placeholder="Pega URL de imagen...">
+
+  <input
+    type="file"
+    id="bg-file-input"
+    accept="image/jpeg,image/png,image/webp,image/gif"
+    hidden>
+
+  <button
+    type="button"
+    id="bg-file-button"
+    class="theme-bg-file-btn"
+    aria-label="Elegir imagen desde este dispositivo"
+    title="Elegir imagen desde este dispositivo">
+    🖼️
+  </button>
+</div>
+
+<button onclick="applyCustomBackground()">
+  Aplicar el fondo
+</button>
+
+<button onclick="clearCustomBackground()">
+  Limpiar el fondo
+</button>
   </div>
 </div>
 
