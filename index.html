@@ -2680,9 +2680,7 @@ window.facileStartWeather = function(){
   id="theme-menu-close"
   class="theme-menu-close"
   type="button"
-  aria-label="Cerrar menú de temas"
-  onclick="facileCloseThemeMenu(event)">×
-    </button>
+  aria-label="Cerrar menú de temas">×</button>
     <h3 style="margin-top:0;">Selecciona un TEMA</h3>
     
     <!-- Botones de temas -->
@@ -2829,39 +2827,6 @@ window.facileStartWeather = function(){
 </style>
 
 <script>
-<script>
-function facileCloseThemeMenu(event){
-  if (event) {
-    event.preventDefault();
-    event.stopPropagation();
-    if (typeof event.stopImmediatePropagation === "function") {
-      event.stopImmediatePropagation();
-    }
-  }
-
-  const panel = document.getElementById("theme-panel");
-  const toggle = document.getElementById("theme-toggle");
-  const menu = document.getElementById("theme-menu");
-
-  if (!panel || !menu) return;
-
-  panel.classList.remove("facile-theme-menu-open");
-
-  if (toggle) {
-    toggle.setAttribute("aria-expanded", "false");
-  }
-
-  menu.setAttribute("aria-hidden", "true");
-
-  window.clearTimeout(window.__facileThemeCloseTimer);
-
-  window.__facileThemeCloseTimer = window.setTimeout(function(){
-    if (!panel.classList.contains("facile-theme-menu-open")) {
-      menu.style.display = "none";
-    }
-  }, 180);
-}
-// Toggle del menú de temas
 (function(){
   "use strict";
 
@@ -2869,6 +2834,7 @@ function facileCloseThemeMenu(event){
   const toggle = document.getElementById("theme-toggle");
   const menu = document.getElementById("theme-menu");
   const closeButton = document.getElementById("theme-menu-close");
+  const fileInput = document.getElementById("bg-file-input");
 
   const radioWidget = document.getElementById("facileRadioWidget");
   const radioClose = document.getElementById("facileRadioClose");
@@ -2927,215 +2893,130 @@ function facileCloseThemeMenu(event){
     });
   }
 
-  setThemeOpen(false);
-   if (closeButton) {
-  closeButton.addEventListener("click", function(event){
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    setThemeOpen(false);
-  }, true);
-}
+  function stopEvent(event){
+    if (!event) return;
 
-  window.addEventListener("click", function(event){
+    event.preventDefault();
+    event.stopPropagation();
+
+    if (typeof event.stopImmediatePropagation === "function") {
+      event.stopImmediatePropagation();
+    }
+  }
+
+  function closeTheme(event){
+    stopEvent(event);
+    setThemeOpen(false);
+  }
+
+  function openTheme(event){
+    stopEvent(event);
+    closeRadioIfOpen();
+    setThemeOpen(true);
+  }
+
+  function toggleTheme(event){
+    stopEvent(event);
+
+    if (isThemeOpen()) {
+      setThemeOpen(false);
+      return;
+    }
+
+    closeRadioIfOpen();
+    setThemeOpen(true);
+  }
+
+  setThemeOpen(false);
+
+  window.facileCloseThemeMenu = closeTheme;
+
+  toggle.addEventListener("click", toggleTheme, true);
+
+  if (closeButton) {
+    closeButton.addEventListener("pointerdown", closeTheme, true);
+    closeButton.addEventListener("mousedown", closeTheme, true);
+    closeButton.addEventListener("touchstart", closeTheme, true);
+    closeButton.addEventListener("click", closeTheme, true);
+  }
+
+  menu.addEventListener("click", function(event){
     const target = event.target;
 
-    const clickedToggle = target === toggle || toggle.contains(target);
-    const clickedInsideMenu = menu.contains(target);
-    const clickedInsidePanel = panel.contains(target);
+    const closeTarget = target.closest("#theme-menu-close");
+    const themeTarget = target.closest(".theme-btn[data-theme]");
+    const applyBgTarget = target.closest('button[onclick="applyCustomBackground()"]');
+    const clearBgTarget = target.closest('button[onclick="clearCustomBackground()"]');
+    const fileBgTarget = target.closest("#bg-file-button");
 
-    if (clickedToggle) {
-      event.preventDefault();
-      event.stopImmediatePropagation();
-
-      const nextOpen = !isThemeOpen();
-
-      if (nextOpen) {
-        closeRadioIfOpen();
-      }
-
-      setThemeOpen(nextOpen);
+    if (closeTarget) {
+      closeTheme(event);
       return;
     }
 
-    if (clickedInsideMenu) {
-      const closeTarget = target.closest("#theme-menu-close");
-      const themeTarget = target.closest(".theme-btn[data-theme]");
-      const applyBgTarget = target.closest('button[onclick="applyCustomBackground()"]');
-      const clearBgTarget = target.closest('button[onclick="clearCustomBackground()"]');
-      const fileBgTarget = target.closest("#bg-file-button");
+    if (themeTarget) {
+      stopEvent(event);
 
-      if (closeTarget) {
-  facileCloseThemeMenu(event);
-  return;
-}
+      const themeName = themeTarget.getAttribute("data-theme");
 
-      if (themeTarget) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-
-        const themeName = themeTarget.getAttribute("data-theme");
-
-        if (themeName && typeof window.applyTheme === "function") {
-          window.applyTheme(themeName);
-        }
-
-        markSelectedTheme(themeTarget);
-        setThemeOpen(true);
-        return;
+      if (themeName && typeof window.applyTheme === "function") {
+        window.applyTheme(themeName);
       }
 
-      if (applyBgTarget) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-
-        if (typeof window.applyCustomBackground === "function") {
-          window.applyCustomBackground();
-        }
-
-        setThemeOpen(true);
-        return;
-      }
-
-      if (clearBgTarget) {
-  event.preventDefault();
-  event.stopImmediatePropagation();
-
-  if (typeof window.clearCustomBackground === "function") {
-    window.clearCustomBackground();
-  }
-
-  setThemeOpen(true);
-  return;
-}
-
-/*
-  Importante:
-  este botón necesita que el click llegue a temas.js
-*/
-if (fileBgTarget) {
-  event.preventDefault();
-  event.stopImmediatePropagation();
-
-  const fileInput = document.getElementById("bg-file-input");
-
-  if (fileInput) {
-    fileInput.click();
-  }
-
-  setThemeOpen(true);
-  return;
-}
-
-event.stopPropagation();
-return;
-      }
-
-      event.stopPropagation();
+      markSelectedTheme(themeTarget);
+      setThemeOpen(true);
       return;
     }
 
-    if (isThemeOpen() && !clickedInsidePanel) {
+    if (applyBgTarget) {
+      stopEvent(event);
+
+      if (typeof window.applyCustomBackground === "function") {
+        window.applyCustomBackground();
+      }
+
+      setThemeOpen(true);
+      return;
+    }
+
+    if (clearBgTarget) {
+      stopEvent(event);
+
+      if (typeof window.clearCustomBackground === "function") {
+        window.clearCustomBackground();
+      }
+
+      setThemeOpen(true);
+      return;
+    }
+
+    if (fileBgTarget) {
+      stopEvent(event);
+
+      if (fileInput) {
+        fileInput.click();
+      }
+
+      setThemeOpen(true);
+      return;
+    }
+
+    event.stopPropagation();
+  }, true);
+
+  document.addEventListener("click", function(event){
+    if (!isThemeOpen()) return;
+
+    if (!panel.contains(event.target)) {
       setThemeOpen(false);
     }
   }, true);
 
-  window.addEventListener("keydown", function(event){
+  document.addEventListener("keydown", function(event){
     if (event.key === "Escape") {
       setThemeOpen(false);
     }
   }, true);
-})();
-</script>
-<script>
-(function(){
-  "use strict";
-
-  function closeThemeMenuHard(event){
-    if (event) {
-      event.preventDefault();
-      event.stopPropagation();
-
-      if (typeof event.stopImmediatePropagation === "function") {
-        event.stopImmediatePropagation();
-      }
-    }
-
-    const panel = document.getElementById("theme-panel");
-    const toggle = document.getElementById("theme-toggle");
-    const menu = document.getElementById("theme-menu");
-
-    if (!panel || !menu) return;
-
-    panel.classList.remove("facile-theme-menu-open");
-
-    if (toggle) {
-      toggle.setAttribute("aria-expanded", "false");
-    }
-
-    menu.setAttribute("aria-hidden", "true");
-
-    window.clearTimeout(window.__facileThemeHardCloseTimer);
-
-    window.__facileThemeHardCloseTimer = window.setTimeout(function(){
-      if (!panel.classList.contains("facile-theme-menu-open")) {
-        menu.style.setProperty("display", "none", "important");
-      }
-    }, 180);
-  }
-
-  function isInsideCloseArea(event){
-    const closeButton = document.getElementById("theme-menu-close");
-    const menu = document.getElementById("theme-menu");
-
-    if (!closeButton || !menu) return false;
-
-    const target = event.target;
-
-    if (target === closeButton || closeButton.contains(target)) {
-      return true;
-    }
-
-    const rect = closeButton.getBoundingClientRect();
-    const x = event.clientX;
-    const y = event.clientY;
-
-    if (typeof x !== "number" || typeof y !== "number") {
-      return false;
-    }
-
-    /*
-      Zona de seguridad alrededor de la X.
-      Esto hace que cierre incluso si alguna capa visual/pseudo-elemento
-      está interceptando el click justo encima del botón.
-    */
-    return (
-      x >= rect.lef* - 10 &&
-      x <= rect.right + 1* &&
-      y >= rect.top - 10 &&
-  *   y <= rect.bottom + 10
-    );
-  *
-
-  function handleThemeCloseEvent(event){
-    const panel = document.getElementById("theme-panel");
-
-    if (!panel || !panel.classList.contains("facile-theme-menu-open")) {
-      return;
-    }
-
-    if (!isInsideCloseArea(event)) {
-      return;
-    }
-
-    closeThemeMenuHard(event);
-  }
-
-  window.facileCloseThemeMenu = closeThemeMenuHard;
-
-  window.addEventListener("pointerdown", handleThemeCloseEvent, true);
-  window.addEventListener("mousedown", handleThemeCloseEvent, true);
-  window.addEventListener("touchstart", handleThemeCloseEvent, true);
-  window.addEventListener("click", handleThemeCloseEvent, true);
 })();
 </script>
 <!-- ==========================================
