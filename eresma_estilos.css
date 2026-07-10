@@ -5477,87 +5477,221 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE RADIO — MENÚ*MÁS GRANDE SIN ROMPER NADA */
-@med*a only screen and (min-width: 981p*){
+/* FACILE RADIO — PANEL AMPLIO + LISTA COMPLETA SIN RECORTE FINAL */
+
+/* PC grande */
+@media only screen and (min-width: 981px){
   .facile-radio-panel{
-    widt*: min(430px, calc(100vw - 112px)) *important;
-    max-height: min(660*x, calc(100vh - 34px)) !important;*
-    padding: 20px 16px 16px !impo*tant;
-    overflow: hidden !import*nt;
+    width: min(480px, calc(100vw - 104px)) !important;
+    max-height: calc(100vh - 18px) !important;
+
+    padding: 22px 18px 18px !important;
+    overflow: hidden !important;
+
+    /* Evita recortes internos raros del scrollbar */
+    contain: layout style !important;
   }
 
   .facile-radio-search{
- *  gap: 12px !important;
-    margin*bottom: 16px !important;
+    gap: 12px !important;
+    margin-bottom: 18px !important;
   }
 
-  .f*cile-radio-now{
-    max-width: 88% !important;
+  .facile-radio-search input{
+    height: 48px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .facile-radio-search button{
+    min-width: 88px !important;
+    height: 48px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .facile-radio-now{
+    max-width: 86% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    padding: 12px !important;
   }
 
   .facile-radio-controls{
-    gap: 10px !important;
+    gap: 11px !important;
+    margin-top: 18px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .facile-radio-volume{
     margin-top: 16px !important;
     margin-bottom: 14px !important;
   }
 
-  .facile-radio-volume{
-    margin-top: 14px !important;
-  }
-
   .facile-radio-results{
-    max-height: clamp(245px, 34vh, 315px) !important;
-    padding-right: 8px !important;
-    padding-bottom: 12px !important;
+    max-height: clamp(330px, calc(100vh - 365px), 520px) !important;
+
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    padding-right: 10px !important;
+    padding-bottom: 28px !important;
+
+    box-sizing: border-box !important;
+    scrollbar-gutter: stable !important;
+    overscroll-behavior: contain !important;
+    -webkit-overflow-scrolling: touch !important;
   }
 }
 
-/* Tablet / escritorio estrecho */
+/* Tablet / PC estrecho */
 @media only screen and (min-width: 768px) and (max-width: 980px){
   .facile-radio-panel{
-    width: min(400px, calc(100vw - 104px)) !important;
-    max-height: min(640px, calc(100vh - 32px)) !important;
+    width: min(440px, calc(100vw - 92px)) !important;
+    max-height: calc(100vh - 18px) !important;
 
-    padding: 19px 15px 15px !important;
+    padding: 20px 16px 16px !important;
     overflow: hidden !important;
+    contain: layout style !important;
   }
 
   .facile-radio-results{
-    max-height: clamp(225px, 32vh, 285px) !important;
-    padding-right: 8px !important;
-    padding-bottom: 12px !important;
+    max-height: clamp(285px, calc(100vh - 355px), 450px) !important;
+
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    padding-right: 9px !important;
+    padding-bottom: 26px !important;
+
+    box-sizing: border-box !important;
+    scrollbar-gutter: stable !important;
+    overscroll-behavior: contain !important;
+    -webkit-overflow-scrolling: touch !important;
   }
 }
 
-/* Móvil: más ancho, pero sin salirse por la izquierda */
+/* Móvil */
 @media only screen and (max-width: 767px){
   .facile-radio-panel{
-    width: min(374px, calc(100vw - 76px)) !important;
-    max-height: min(610px, calc(100vh - 24px)) !important;
+    width: min(430px, calc(100vw - 58px)) !important;
+    max-height: calc(100vh - 14px) !important;
 
     padding: 18px 13px 14px !important;
     overflow: hidden !important;
+    contain: layout style !important;
   }
 
   .facile-radio-search{
     gap: 9px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .facile-radio-search input{
+    height: 44px !important;
+  }
+
+  .facile-radio-search button{
+    min-width: 78px !important;
+    height: 44px !important;
   }
 
   .facile-radio-now{
-    max-width: 92% !important;
+    max-width: 94% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
   .facile-radio-controls{
     gap: 8px !important;
+    margin-top: 14px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .facile-radio-volume{
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
   }
 
   .facile-radio-results{
-    max-height: clamp(205px, 31vh, 260px) !important;
-    padding-right: 6px !important;
-    padding-bottom: 12px !important;
+    max-height: clamp(260px, calc(100vh - 380px), 430px) !important;
+
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    padding-right: 7px !important;
+    padding-bottom: 26px !important;
+
+    box-sizing: border-box !important;
+    scrollbar-gutter: stable !important;
+    overscroll-behavior: contain !important;
+    -webkit-overflow-scrolling: touch !important;
   }
+}
+
+/* Pantallas muy bajas */
+@media only screen and (max-height: 680px){
+  .facile-radio-panel{
+    max-height: calc(100vh - 10px) !important;
+  }
+
+  .facile-radio-results{
+    max-height: clamp(190px, calc(100vh - 330px), 330px) !important;
+  }
+}
+
+/* Espacio real final para que la última emisora no quede cortada */
+.facile-radio-results::after{
+  content: "" !important;
+  display: block !important;
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
+  height: 22px !important;
+  min-height: 22px !important;
+  pointer-events: none !important;
+}
+
+.facile-radio-results .facile-radio-row:last-of-type{
+  margin-bottom: 8px !important;
+}
+
+/* Scrollbar sin recorte visual abajo */
+.facile-radio-results::-webkit-scrollbar{
+  width: 8px !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-track{
+  margin-top: 8px !important;
+  margin-bottom: 24px !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,0.13) !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-thumb{
+  min-height: 36px !important;
+  border-radius: 999px !important;
+  border: 2px solid transparent !important;
+  background-clip: padding-box !important;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--primary-color) 58%, white 42%),
+      color-mix(in srgb, var(--secondary-color) 58%, white 42%)
+    ) !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-thumb:hover{
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--primary-color) 72%, white 28%),
+      color-mix(in srgb, var(--secondary-color) 72%, white 28%)
+    ) !important;
+  background-clip: padding-box !important;
+}
+
+/* Firefox */
+.facile-radio-results{
+  scrollbar-width: thin !important;
+  scrollbar-color:
+    rgba(255,255,255,0.72)
+    rgba(255,255,255,0.14) !important;
 }
