@@ -5258,7 +5258,7 @@ main.intro .container > section:not(#facile-news-widget){
   }
 }
 
-/* FACILE FIX — BOTONES FONDO PERSONALIZADO LIMPIOS */
+/* FACILE FIX 2 */
 #theme-menu button[onclick="applyCustomBackground()"],
 #theme-menu button[onclick="clearCustomBackground()"]{
   display: block !important;
@@ -5303,7 +5303,7 @@ main.intro .container > section:not(#facile-news-widget){
 #theme-menu .theme-bg-file-icon{
   pointer-events: auto !important;
 }
-/* FACILE FIX DEFINITIVO — X TEMAS + ANIMACIÓN COMO RADIO */
+/* FACILE FIX 3 */
 @media only screen and (min-width: 768px){
 
   #theme-menu.theme-menu{
@@ -5365,4 +5365,54 @@ main.intro .container > section:not(#facile-news-widget){
   #theme-menu > h3::after{
     pointer-events: none !important;
   }
+}
+/* FACILE FIX 4 */
+#theme-menu .theme-menu-close{
+  position: absolute !important;
+  top: 14px !important;
+  right: 14px !important;
+  z-index: 2147483647 !important;
+
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  touch-action: manipulation !important;
+
+  isolation: isolate !important;
+}
+
+#theme-menu .theme-menu-close::before{
+  content: "" !important;
+  position: absolute !important;
+  inset: -10px !important;
+  border-radius: 18px !important;
+  pointer-events: auto !important;
+}
+
+#theme-menu > h3,
+#theme-menu > h3::before,
+#theme-menu > h3::after{
+  pointer-events: none !important;
+}
+
+#theme-panel:not(.facile-theme-menu-open) #theme-menu.theme-menu{
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transform: translateY(8px) scale(0.98) !important;
+}
+
+#theme-panel.facile-theme-menu-open #theme-menu.theme-menu{
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transform: translateY(0) scale(1) !important;
 }
