@@ -2676,7 +2676,13 @@ window.facileStartWeather = function(){
   <button id="theme-toggle" class="theme-toggle-btn">🎨</button>
   
   <div id="theme-menu" class="theme-menu" style="display:none;">
-    <button id="theme-menu-close" class="theme-menu-close" type="button" aria-label="Cerrar menú de temas">×</button>
+    <button
+  id="theme-menu-close"
+  class="theme-menu-close"
+  type="button"
+  aria-label="Cerrar menú de temas"
+  onclick="facileCloseThemeMenu(event)">×
+    </button>
     <h3 style="margin-top:0;">Selecciona un TEMA</h3>
     
     <!-- Botones de temas -->
@@ -2823,6 +2829,38 @@ window.facileStartWeather = function(){
 </style>
 
 <script>
+<script>
+function facileCloseThemeMenu(event){
+  if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    if (typeof event.stopImmediatePropagation === "function") {
+      event.stopImmediatePropagation();
+    }
+  }
+
+  const panel = document.getElementById("theme-panel");
+  const toggle = document.getElementById("theme-toggle");
+  const menu = document.getElementById("theme-menu");
+
+  if (!panel || !menu) return;
+
+  panel.classList.remove("facile-theme-menu-open");
+
+  if (toggle) {
+    toggle.setAttribute("aria-expanded", "false");
+  }
+
+  menu.setAttribute("aria-hidden", "true");
+
+  window.clearTimeout(window.__facileThemeCloseTimer);
+
+  window.__facileThemeCloseTimer = window.setTimeout(function(){
+    if (!panel.classList.contains("facile-theme-menu-open")) {
+      menu.style.display = "none";
+    }
+  }, 180);
+}
 // Toggle del menú de temas
 (function(){
   "use strict";
@@ -2927,11 +2965,9 @@ window.facileStartWeather = function(){
       const fileBgTarget = target.closest("#bg-file-button");
 
       if (closeTarget) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        setThemeOpen(false);
-        return;
-      }
+  facileCloseThemeMenu(event);
+  return;
+}
 
       if (themeTarget) {
         event.preventDefault();
