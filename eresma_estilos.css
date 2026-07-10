@@ -5477,50 +5477,94 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE RADIO — SCROLLBAR*/
+/* FACILE RADIO — SCROLL IN*ERNO BIEN PROGRAMADO */
+.facile-ra*io-panel{
+  /*
+    El panel mantie*e su forma y no deja que nada se s*lga,
+    pero permite que la zona *e emisoras calcule bien su espacio*
+  */
+  display: flex !important;
+* flex-direction: column !important*
+  overflow: hidden !important;
+}
+*/* Elementos superiores fijos dent*o del panel */
+.facile-radio-heade*,
+.facile-radio-search,
+.facile-ra*io-now,
+.facile-radio-controls,
+.f*cile-radio-volume,
+.facile-radio-n*te{
+  flex: 0 0 auto !important;
+}*
+/* Subapartado de emisoras: único*bloque con scroll */
+.facile-radio*results{
+  flex: 1 1 auto !importa*t;
+  min-height: 118px !important;*  max-height: 220px !important;
 
-.facile-radio-results{
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
+ *display: grid !important;
+  grid-a*to-rows: max-content !important;
+ *gap: 7px !important;
 
-  /* Deja espacio real para que el indicador no quede pegado/cortado */
-  padding-right: 8px !important;
-  padding-bottom: 8px !important;
+  overflow-y* auto !important;
+  overflow-x: hi*den !important;
 
-  /* Evita que el scrollbar se monte encima del contenido cuando el navegador lo soporte */
-  scrollbar-gutter: stable !important;
+  /*
+    Aire rea* dentro del scroll:
+    evita que *a última emisora y el indicador ch*quen con el borde inferior.
+  */
+ *padding-right: 8px !important;
+  p*dding-bottom: 18px !important;
 
-  /* Firefox */
-  scrollbar-width: thin !important;
-  scrollbar-color:
+  *argin-top: 10px !important;
+  box-*izing: border-box !important;
+
+  o*erscroll-behavior: contain !import*nt;
+  -webkit-overflow-scrolling: *ouch !important;
+  scrollbar-gutte*: stable !important;
+
+  scrollbar-*idth: thin !important;
+  scrollbar*color:
     rgba(255,255,255,0.72)
-    rgba(255,255,255,0.14) !important;
+*   rgba(255,255,255,0.14) !importa*t;
 }
 
-/* Chrome / Edge / Safari */
-.facile-radio-results::-webkit-scrollbar{
-  width: 8px !important;
+/* Espaciador final real: al*llegar abajo, la última radio no q*eda pegada */
+.facile-radio-result*::after{
+  content: "" !important;*  display: block !important;
+  gri*-column: 1 / -1 !important;
+  widt*: 100% !important;
+  height: 14px *important;
+  min-height: 14px !imp*rtant;
+  pointer-events: none !imp*rtant;
 }
 
-.facile-radio-results::-webkit-scrollbar-track{
-  margin: 8px 0 !important;
+/* Última emisora con re*piración extra */
+.facile-radio-re*ults .facile-radio-row:last-of-typ*{
+  margin-bottom: 4px !important;*}
+
+/* Scrollbar en Chrome / Edge /*Safari */
+.facile-radio-results::-*ebkit-scrollbar{
+  width: 8px !imp*rtant;
+}
+
+.facile-radio-results::-*ebkit-scrollbar-track{
+  margin-top: 8px !important;
+  margin-bottom: 18px !important;
   border-radius: 999px !important;
   background: rgba(255,255,255,0.13) !important;
 }
 
 .facile-radio-results::-webkit-scrollbar-thumb{
-  min-height: 32px !important;
+  min-height: 34px !important;
   border-radius: 999px !important;
-
-  /* Este border transparente evita que el thumb se vea “cortado” */
   border: 2px solid transparent !important;
   background-clip: padding-box !important;
 
   background:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--primary-color) 54%, white 46%),
-      color-mix(in srgb, var(--secondary-color) 54%, white 46%)
+      color-mix(in srgb, var(--primary-color) 58%, white 42%),
+      color-mix(in srgb, var(--secondary-color) 58%, white 42%)
     ) !important;
 }
 
@@ -5528,17 +5572,25 @@ main.intro .container > section:not(#facile-news-widget){
   background:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--primary-color) 68%, white 32%),
-      color-mix(in srgb, var(--secondary-color) 68%, white 32%)
+      color-mix(in srgb, var(--primary-color) 72%, white 28%),
+      color-mix(in srgb, var(--secondary-color) 72%, white 28%)
     ) !important;
   background-clip: padding-box !important;
 }
 
-/* Móvil: scrollbar más fino, sin perder espacio interno */
+/* Móvil / tablets */
 @media only screen and (max-width: 767px){
   .facile-radio-results{
+    min-height: 110px !important;
+    max-height: 185px !important;
+
     padding-right: 6px !important;
-    padding-bottom: 8px !important;
+    padding-bottom: 18px !important;
+  }
+
+  .facile-radio-results::after{
+    height: 16px !important;
+    min-height: 16px !important;
   }
 
   .facile-radio-results::-webkit-scrollbar{
@@ -5546,11 +5598,20 @@ main.intro .container > section:not(#facile-news-widget){
   }
 
   .facile-radio-results::-webkit-scrollbar-track{
-    margin: 7px 0 !important;
+    margin-top: 7px !important;
+    margin-bottom: 18px !important;
   }
 
   .facile-radio-results::-webkit-scrollbar-thumb{
-    min-height: 28px !important;
+    min-height: 30px !important;
     border-width: 1.5px !important;
+  }
+}
+
+/* Pantallas bajas: no dejar que el subapartado se coma todo el panel */
+@media only screen and (max-height: 680px){
+  .facile-radio-results{
+    max-height: 165px !important;
+    min-height: 95px !important;
   }
 }
