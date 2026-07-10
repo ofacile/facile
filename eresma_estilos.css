@@ -5477,60 +5477,58 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE RADIO — PANEL COMPACTO + LISTA SCROLL COMPLETA */
+/* FACILE RADIO — EQUILIBRIO FINAL: MÁS LISTA, SIN PANEL GIGANTE */
 
-/* PC grande: más ancho que antes, pero no gigante */
+/* PC grande */
 @media only screen and (min-widt*: 981px){
   .facile-radio-panel{
- *  width: min(420px, calc(100vw - 1*2px)) !important;
-    max-height: *in(650px, calc(100vh - 34px)) !imp*rtant;
-
-    padding: 18px 15px 15p* !important;
-    overflow: hidden *important;
-    contain: layout sty*e !important;
+ *  width: min(430px, calc(100vw - 1*2px)) !important;
+    max-height: *in(670px, calc(100vh - 30px)) !imp*rtant;
+    padding: 18px 15px 15px*!important;
+    overflow: hidden !*mportant;
+    contain: layout styl* !important;
   }
 
-  .facile-radio*search{
+  .facile-radio-*earch{
     gap: 10px !important;
-*   margin-bottom: 14px !important;*  }
+ *  margin-bottom: 14px !important;
+* }
 
-  .facile-radio-search input{*    height: 44px !important;
-    f*nt-size: 0.90rem !important;
+  .facile-radio-search input{
+*   height: 44px !important;
+    fo*t-size: 0.9rem !important;
   }
 
-* .facile-radio-search button{
-    *in-width: 78px !important;
-    hei*ht: 44px !important;
-    font-size* 0.90rem !important;
+  *facile-radio-search button{
+    mi*-width: 78px !important;
+    heigh*: 44px !important;
+    font-size: *.9rem !important;
   }
 
-  .facil*-radio-now{
-    max-width: 82% !im*ortant;
-    margin-left: auto !imp*rtant;
-    margin-right: auto !imp*rtant;
-    padding: 10px !importan*;
-  }
+  .facile-r*dio-now{
+    max-width: 84% !impor*ant;
+    margin-left: auto !import*nt;
+    margin-right: auto !import*nt;
+    padding: 10px !important;
+* }
 
   .facile-radio-controls{
- *  gap: 9px !important;
-    margin-*op: 14px !important;
-    margin-bo*tom: 12px !important;
+    *ap: 9px !important;
+    margin-top* 14px !important;
+    margin-botto*: 12px !important;
   }
 
-  .faci*e-radio-volume{
+  .facile-*adio-volume{
     margin-top: 12px !important;
     margin-bottom: 10px !important;
   }
 
   .facile-radio-results{
-    max-height: clamp(230px, calc(100vh - 390px), 330px) !important;
-
+    max-height: clamp(270px, calc(100vh - 360px), 390px) !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-
     padding-right: 8px !important;
-    padding-bottom: 16px !important;
-
+    padding-bottom: 22px !important;
     box-sizing: border-box !important;
     scrollbar-gutter: stable !important;
     overscroll-behavior: contain !important;
@@ -5541,23 +5539,19 @@ main.intro .container > section:not(#facile-news-widget){
 /* Tablet / PC estrecho */
 @media only screen and (min-widt*: 768px) and (max-width: 980px){
  *.facile-radio-panel{
-    width: mi*(390px, calc(100vw - 104px)) !impo*tant;
-    max-height: min(620px, c*lc(100vh - 32px)) !important;
-
-   *padding: 17px 14px 14px !important;
+    width: mi*(400px, calc(100vw - 104px)) !impo*tant;
+    max-height: min(640px, c*lc(100vh - 28px)) !important;
+    *adding: 17px 14px 14px !important;
     overflow: hidden !important;
     contain: layout style !important;
   }
 
   .facile-radio-results{
-    max-height: clamp(210px, calc(100vh - 370px), 300px) !important;
-
+    max-height: clamp(240px, calc(100vh - 345px), 340px) !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-
     padding-right: 8px !important;
-    padding-bottom: 16px !important;
-
+    padding-bottom: 22px !important;
     box-sizing: border-box !important;
     scrollbar-gutter: stable !important;
     overscroll-behavior: contain !important;
@@ -5565,65 +5559,59 @@ main.intro .container > section:not(#facile-news-widget){
   }
 }
 
-/* Móvil: compacto y usable */
-@media only screen and (max-width: 767px){
+/* Móvil: cómodo, pero con más recorrido real para emisoras */
+@media only screen and (max-widt*: 767px){
   .facile-radio-panel{
-    /*
-      Más ancho que el original, pero sin invadir toda la pantalla.
-      El panel queda manejable con una mano y la lista baja con scroll.
-    */
-    width: min(350px, calc*100vw - 82px)) !important;
-    max*height: min(560px, calc(100vh - 34px)) !important;
-
-    padding: 15px 11px 12px !important;
-    overflow: hidden !important;
-    contain: layout style !important;
+ *  width: min(370px, calc(100vw - 7*px)) !important;
+    max-height: m*n(610px, calc(100vh - 28px)) !impo*tant;
+    padding: 15px 11px 12px *important;
+    overflow: hidden !i*portant;
+    contain: layout style*!important;
   }
 
-  .facile-radio-header{
-    min-height: 44px !important;
-    margin-bottom: 10px !important;
-    padding-left: 38px !important;
-    padding-right: 38px !important;
+  .facile-radio-h*ader{
+    min-height: 44px !import*nt;
+    margin-bottom: 10px !impor*ant;
+    padding-left: 38px !impor*ant;
+    padding-right: 38px !impo*tant;
   }
 
-  .facile-radio-header strong{
-    font-size: 1rem !important;
+  .facile-radio-header *trong{
+    font-size: 1rem !import*nt;
   }
 
-  .facile-radio-header span{
-    font-size: 0.74rem !important;
-    margin-top: 3px !important;
-  }
+  .facile-radio-header sp*n{
+    font-size: 0.74rem !importa*t;
+    margin-top: 3px !important;*  }
 
   .facile-radio-search{
-    gap: 7px !important;
-    margin-bottom: 10px !important;
+    g*p: 7px !important;
+    margin-bott*m: 10px !important;
   }
 
-  .facile-radio-search input{
-    height: 40px !important;
-    padding: 8px 10px !important;
-    font-size: 0.84rem !important;
+  .facile*radio-search input{
+    height: 40*x !important;
+    padding: 8px 10p* !important;
+    font-size: 0.84re* !important;
   }
 
-  .facile-radio-search button{
-    min-width: 68px !important;
-    height: 40px !important;
-    padding: 0 10px !important;
-    font-size: 0.82rem !important;
+  .facile-radio-*earch button{
+    min-width: 68px *important;
+    height: 40px !impor*ant;
+    padding: 0 10px !importan*;
+    font-size: 0.82rem !importan*;
   }
 
   .facile-radio-now{
-    max-width: 86% !important;
-    padding: 8px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 9px !important;
+    ma*-width: 88% !important;
+    paddin*: 8px !important;
+    margin-left:*auto !important;
+    margin-right:*auto !important;
+    margin-bottom* 9px !important;
   }
 
-  .facile-radio-logo{
-    width: 40px !important;
+  .facile-ra*io-logo{
+    width: 40px !importan*;
     height: 40px !important;
     border-radius: 13px !important;
   }
@@ -5650,21 +5638,18 @@ main.intro .container > section:not(#facile-news-widget){
 
   .facile-radio-results{
     /*
-      La clave: no hacemos el panel enorme.
-      Solo dejamos una lista con scroll interno cómodo.
+      Más alto que el compactado anterior.
+      No agranda todo el panel, solo da más recorrido al subapartado.
     */
-    max-height: clamp(165px, 30vh, 235px) !important;
-
+    max-height: clamp(210px, cal*(100vh - 345px), 310px) !important*
     overflow-y: auto !important;
-    overflow-x: hidden !important;
-
-    padding-right: 6px !important;
-    padding-bottom: 14px !important;
-
-    box-sizing: border-box !important;
-    scrollbar-gutter: stable !important;
-    overscroll-behavior: contain !important;
-    -webkit-overflow-scrolling: touch !important;
+*   overflow-x: hidden !important;
+*   padding-right: 6px !important;
+*   padding-bottom: 22px !important*
+    box-sizing: border-box !impor*ant;
+    scrollbar-gutter: stable *important;
+    overscroll-behavior* contain !important;
+    -webkit-o*erflow-scrolling: touch !important;
   }
 
   .facile-radio-row,
@@ -5690,46 +5675,46 @@ main.intro .container > section:not(#facile-news-widget){
   }
 }
 
-/* Pantallas muy bajas: todavía más compacto */
+/* Pantallas bajas: evitar panel gigante, pero sin cortar la última emisora */
 @media only screen and (max-height: 680px){
   .facile-radio-panel{
-    max-height: calc(100vh - 24px) !important;
+    max-height: calc(100vh - 22px) !important;
   }
 
   .facile-radio-results{
-    max-height: clamp(140px, 27vh, 205px) !important;
+    max-height: clamp(180px, calc(100vh - 315px), 265px) !important;
   }
 }
 
-/* Espacio final para que la última emisora no quede pegada */
+/* Espacio final real para que la última emisora no quede pegada ni cortada */
 .facile-radio-results::after{
   content: "" !important;
   display: block !important;
   grid-column: 1 / -1 !important;
   width: 100% !important;
-  height: 12px !important;
-  min-height: 12px !important;
+  height: 18px !important;
+  min-height: 18px !important;
   pointer-events: none !important;
 }
 
 .facile-radio-results .facile-radio-row:last-of-type{
-  margin-bottom: 4px !important;
+  margin-bottom: 8px !important;
 }
 
-/* Scrollbar más discreto */
+/* Scrollbar discreto, pero sin recorte inferior */
 .facile-radio-results::-webkit-scrollbar{
   width: 6px !important;
 }
 
 .facile-radio-results::-webkit-scrollbar-track{
   margin-top: 6px !important;
-  margin-bottom: 12px !important;
+  margin-bottom: 18px !important;
   border-radius: 999px !important;
   background: rgba(255,255,255,0.12) !important;
 }
 
 .facile-radio-results::-webkit-scrollbar-thumb{
-  min-height: 28px !important;
+  min-height: 30px !important;
   border-radius: 999px !important;
   border: 1.5px solid transparent !important;
   background-clip: padding-box !important;
