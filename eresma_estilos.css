@@ -5477,3 +5477,28 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
+/* FACILE TEMAS — ENSANCHAR MENÚ SIN TOCAR RADIO */
+@media only screen and (min-width: 768px){
+  #theme-menu.theme-menu{
+    /*
+      Antes estaba en torno a 320px.
+      Lo ampliamos de forma conservadora para que respire más,
+      pero sin cambiar posición, animación, altura ni comportamiento.
+    */
+    width: min(390px, calc(100vw - 112px)) !important;
+  }
+}
+
+/* Tablets / escritorio estrecho */
+@media only screen and (min-width: 768px) and (max-width: 980px){
+  #theme-menu.theme-menu{
+    width: min(365px, calc(100vw - 100px)) !important;
+  }
+}
+
+/* Móvil: un poco más ancho, pero sin invadir toda la pantalla */
+@media only screen and (max-width: 767px){
+  #theme-menu.theme-menu{
+    width: min(350px, calc(100vw - 76px)) !important;
+  }
+}
