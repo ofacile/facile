@@ -5388,14 +5388,6 @@ main.intro .container > section:not(#facile-news-widget){
   isolation: isolate !important;
 }
 
-#theme-menu .theme-menu-close::before{
-  content: "" !important;
-  position: absolute !important;
-  inset: -10px !important;
-  border-radius: 18px !important;
-  pointer-events: auto !important;
-}
-
 #theme-menu > h3,
 #theme-menu > h3::before,
 #theme-menu > h3::after{
@@ -5415,4 +5407,73 @@ main.intro .container > section:not(#facile-news-widget){
   visibility: visible !important;
   pointer-events: auto !important;
   transform: translateY(0) scale(1) !important;
+}
+/* FACILE — TEMAS CIERRE Y ANIMACIÓN LIMPIOS */
+#theme-menu .theme-menu-close{
+  position: absolute !important;
+  top: 14px !important;
+  right: 14px !important;
+  z-index: 999999 !important;
+
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  touch-action: manipulation !important;
+
+  border-radius: 15px !important;
+}
+
+#theme-menu .theme-menu-close::before,
+#theme-menu .theme-menu-close::after{
+  content: none !important;
+  display: none !important;
+  pointer-events: none !important;
+}
+
+#theme-menu > h3,
+#theme-menu > h3::before,
+#theme-menu > h3::after{
+  pointer-events: none !important;
+}
+
+@media only screen and (min-width: 768px){
+  #theme-menu.theme-menu{
+    display: block !important;
+
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+
+    transform: translateY(8px) scale(0.98) !important;
+    transform-origin: bottom right !important;
+
+    transition:
+      opacity 170ms ease,
+      transform 170ms ease,
+      visibility 170ms ease,
+      background var(--theme-transition-speed) ease,
+      border-color var(--theme-transition-speed) ease,
+      box-shadow var(--theme-transition-speed) ease !important;
+  }
+
+  #theme-panel.facile-theme-menu-open #theme-menu.theme-menu{
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: translateY(0) scale(1) !important;
+  }
+
+  #theme-panel:not(.facile-theme-menu-open) #theme-menu.theme-menu{
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: translateY(8px) scale(0.98) !important;
+  }
 }
