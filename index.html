@@ -2712,7 +2712,17 @@ window.facileStartWeather = function(){
     class="theme-bg-file-btn"
     aria-label="Elegir imagen desde este dispositivo"
     title="Elegir imagen desde este dispositivo">
-    🖼️
+    <button
+  type="button"
+  id="bg-file-button"
+  class="theme-bg-file-btn"
+  aria-label="Elegir imagen desde este dispositivo"
+  title="Elegir imagen desde este dispositivo">
+  <svg class="theme-bg-file-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M4.5 5.5h15v13h-15z" />
+    <path d="M7.2 15.5l3.2-3.3 2.4 2.3 2.2-2.5 3.2 3.5" />
+    <path d="M8.4 9.2h.1" />
+  </svg>
   </button>
 </div>
 
@@ -2913,6 +2923,7 @@ window.facileStartWeather = function(){
       const themeTarget = target.closest(".theme-btn[data-theme]");
       const applyBgTarget = target.closest('button[onclick="applyCustomBackground()"]');
       const clearBgTarget = target.closest('button[onclick="clearCustomBackground()"]');
+      const fileBgTarget = target.closest("#bg-file-button");
 
       if (closeTarget) {
         event.preventDefault();
@@ -2949,15 +2960,28 @@ window.facileStartWeather = function(){
       }
 
       if (clearBgTarget) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
+  event.preventDefault();
+  event.stopImmediatePropagation();
 
-        if (typeof window.clearCustomBackground === "function") {
-          window.clearCustomBackground();
-        }
+  if (typeof window.clearCustomBackground === "function") {
+    window.clearCustomBackground();
+  }
 
-        setThemeOpen(true);
-        return;
+  setThemeOpen(true);
+  return;
+}
+
+/*
+  Importante:
+  este botón necesita que el click llegue a temas.js
+*/
+if (fileBgTarget) {
+  setThemeOpen(true);
+  return;
+}
+
+event.stopPropagation();
+return;
       }
 
       event.stopPropagation();
