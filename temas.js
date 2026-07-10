@@ -95,6 +95,10 @@ function normalizeBackgroundUrl(value) {
   const url = (value || "").toString().trim();
   if (!url) return "";
 
+  if (/^data:image\/(jpeg|jpg|png|webp|gif);base64,/i.test(url)) {
+    return url;
+  }
+
   try {
     const parsed = new URL(url, window.location.href);
     if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return "";
@@ -188,6 +192,129 @@ function clearCustomBackground() {
   alert("✅ Fondo limpiado");
 }
 
+const FACILE_CUSTOM_BG_MAX_STORAGE_LENGTH = 4300000;
+const FACILE_CUSTOM_BG_MAX_SIDE = 1920;
+const FACILE_CUSTOM_BG_QUALITY = 0.84;
+
+function readFileAsDataUrl(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = () => reject(reader.error || new Error("No se pudo leer la imagen"));
+
+    reader.readAsDataURL(file);
+  });
+}
+
+function loadImageFromDataUrl(dataUrl) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+
+    image.onload = () => resolve(image);
+    image.onerror = () => reject(new Error("No se pudo cargar la imagen seleccionada"));
+
+    image.src = dataUrl;
+  });
+}
+
+async function prepareLocalBackgroundImage(file) {
+  if (!file || !file.type || !file.type.startsWith("image/")) {
+    throw new Error("Selecciona una imagen válida");
+  }
+
+  if (!/image\/(jpeg|jpg|png|webp|gif)/i.test(file.type)) {
+    throw new Error("Formato no compatible. Usa JPG, PNG, WEBP o GIF.");
+  }
+
+  const originalDataUrl = await readFileAsDataUrl(file);
+
+  if (file.type === "image/gif") {
+    if (originalDataUrl.length > FACILE_CUSTOM_BG_MAX_STORAGE_LENGTH) {
+      throw new Error("El GIF es demasiado grande para guardarlo. Prueba con JPG, PNG o WEBP.");
+    }
+
+    return originalDataUrl;
+  }
+
+  const image = await loadImageFromDataUrl(originalDataUrl);
+
+  const width = image.naturalWidth || image.width;
+  const height = image.naturalHeight || image.height;
+
+  if (!width || !height) {
+    throw new Error("No se pudo obtener el tamaño de la imagen");
+  }
+
+  const ratio = Math.min(1, FACILE_CUSTOM_BG_MAX_SIDE / Math.max(width, height));
+  const targetWidth = Math.max(1, Math.round(width * ratio));
+  const targetHeight = Math.max(1, Math.round(height * ratio));
+
+  const canvas = document.createElement("canvas");
+  canvas.width = targetWidth;
+  canvas.height = targetHeight;
+
+  const context = canvas.getContext("2d", { alpha: false });
+
+  if (!context) {
+    throw new Error("No se pudo optimizar la imagen");
+  }
+
+  context.fillStyle = "#000000";
+  context.fillRect(0, 0, targetWidth, targetHeight);
+  context.drawImage(image, 0, 0, targetWidth, targetHeight);
+
+  const optimizedDataUrl = canvas.toDataURL("image/jpeg", FACILE_CUSTOM_BG_QUALITY);
+
+  if (optimizedDataUrl.length > FACILE_CUSTOM_BG_MAX_STORAGE_LENGTH) {
+    throw new Error("La imagen sigue siendo demasiado grande. Prueba con una imagen más ligera.");
+  }
+
+  return optimizedDataUrl;
+}
+
+async function applyCustomBackgroundFile(file) {
+  try {
+    const dataUrl = await prepareLocalBackgroundImage(file);
+    const currentTheme = localStorage.getItem(FACILE_THEME_KEY) || "sol";
+
+    applyTheme(currentTheme, dataUrl);
+
+    const input = document.getElementById("bg-url");
+    if (input) {
+      input.value = "";
+      input.placeholder = "Imagen local aplicada y guardada";
+    }
+
+    alert("✅ Fondo del dispositivo aplicado y guardado");
+  } catch (error) {
+    alert("❌ " + (error && error.message ? error.message : "No se pudo aplicar la imagen"));
+  }
+}
+
+function initCustomBackgroundFilePicker() {
+  const fileInput = document.getElementById("bg-file-input");
+  const fileButton = document.getElementById("bg-file-button");
+
+  if (!fileInput || !fileButton) return;
+
+  fileButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    fileInput.click();
+  });
+
+  fileInput.addEventListener("change", () => {
+    const file = fileInput.files && fileInput.files[0];
+
+    if (!file) return;
+
+    applyCustomBackgroundFile(file);
+
+    fileInput.value = "";
+  });
+}
+
 function loadSavedTheme() {
   const savedTheme = localStorage.getItem(FACILE_THEME_KEY) || "sol";
   const savedBackground = localStorage.getItem(FACILE_CUSTOM_BG_KEY) || undefined;
@@ -200,4 +327,5 @@ function loadSavedTheme() {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadSavedTheme();
+  initCustomBackgroundFilePicker();
 });
