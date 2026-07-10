@@ -5477,28 +5477,87 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE TEMAS — ENSANCHAR MENÚ SIN TOCAR RADIO */
-@media only screen and (min-width: 768px){
-  #theme-menu.theme-menu{
-    /*
-      Antes estaba en torno a 320px.
-      Lo ampliamos de forma conservadora para que respire más,
-      pero sin cambiar posición, animación, altura ni comportamiento.
-    */
-    width: min(390px, calc(100vw - 112px)) !important;
+/* FACILE RADIO — MENÚ*MÁS GRANDE SIN ROMPER NADA */
+@med*a only screen and (min-width: 981p*){
+  .facile-radio-panel{
+    widt*: min(430px, calc(100vw - 112px)) *important;
+    max-height: min(660*x, calc(100vh - 34px)) !important;*
+    padding: 20px 16px 16px !impo*tant;
+    overflow: hidden !import*nt;
+  }
+
+  .facile-radio-search{
+ *  gap: 12px !important;
+    margin*bottom: 16px !important;
+  }
+
+  .f*cile-radio-now{
+    max-width: 88% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .facile-radio-controls{
+    gap: 10px !important;
+    margin-top: 16px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .facile-radio-volume{
+    margin-top: 14px !important;
+  }
+
+  .facile-radio-results{
+    max-height: clamp(245px, 34vh, 315px) !important;
+    padding-right: 8px !important;
+    padding-bottom: 12px !important;
   }
 }
 
-/* Tablets / escritorio estrecho */
+/* Tablet / escritorio estrecho */
 @media only screen and (min-width: 768px) and (max-width: 980px){
-  #theme-menu.theme-menu{
-    width: min(365px, calc(100vw - 100px)) !important;
+  .facile-radio-panel{
+    width: min(400px, calc(100vw - 104px)) !important;
+    max-height: min(640px, calc(100vh - 32px)) !important;
+
+    padding: 19px 15px 15px !important;
+    overflow: hidden !important;
+  }
+
+  .facile-radio-results{
+    max-height: clamp(225px, 32vh, 285px) !important;
+    padding-right: 8px !important;
+    padding-bottom: 12px !important;
   }
 }
 
-/* Móvil: un poco más ancho, pero sin invadir toda la pantalla */
+/* Móvil: más ancho, pero sin salirse por la izquierda */
 @media only screen and (max-width: 767px){
-  #theme-menu.theme-menu{
-    width: min(350px, calc(100vw - 76px)) !important;
+  .facile-radio-panel{
+    width: min(374px, calc(100vw - 76px)) !important;
+    max-height: min(610px, calc(100vh - 24px)) !important;
+
+    padding: 18px 13px 14px !important;
+    overflow: hidden !important;
+  }
+
+  .facile-radio-search{
+    gap: 9px !important;
+  }
+
+  .facile-radio-now{
+    max-width: 92% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .facile-radio-controls{
+    gap: 8px !important;
+  }
+
+  .facile-radio-results{
+    max-height: clamp(205px, 31vh, 260px) !important;
+    padding-right: 6px !important;
+    padding-bottom: 12px !important;
   }
 }
