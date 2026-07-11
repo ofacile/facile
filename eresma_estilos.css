@@ -5477,16 +5477,16 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE RADIO — AJUSTE SUAVE: UN POCO MÁS ANCHA Y MÁS ALTA */
+/* FACILE RADIO — AJUSTE SUAVE V2: MÁS ANCHA Y MÁS ALTA HACIA ARRIBA */
 @media only screen and (min-width: 981px){
   .facile-radio-panel{
-    width: min(382px, calc(100vw - 112px)) !important;
-    max-height: min(638px, calc(100vh - 30px)) !important;
+    width: min(398px, calc(100vw - 108px)) !important;
+    max-height: min(660px, calc(100vh - 26px)) !important;
     overflow: hidden !important;
   }
 
   .facile-radio-results{
-    max-height: 258px !important;
+    max-height: 278px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
     padding-right: 4px !important;
@@ -5497,13 +5497,13 @@ main.intro .container > section:not(#facile-news-widget){
 /* Tablet / PC estrecho */
 @media only screen and (min-width: 768px) and (max-width: 980px){
   .facile-radio-panel{
-    width: min(370px, calc(100vw - 104px)) !important;
-    max-height: min(618px, calc(100vh - 28px)) !important;
+    width: min(384px, calc(100vw - 98px)) !important;
+    max-height: min(640px, calc(100vh - 24px)) !important;
     overflow: hidden !important;
   }
 
   .facile-radio-results{
-    max-height: 246px !important;
+    max-height: 262px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
     padding-right: 4px !important;
@@ -5514,13 +5514,13 @@ main.intro .container > section:not(#facile-news-widget){
 /* Móvil */
 @media only screen and (max-width: 767px){
   .facile-radio-panel{
-    width: min(338px, calc(100vw - 76px)) !important;
-    max-height: min(578px, calc(100vh - 26px)) !important;
+    width: min(350px, calc(100vw - 66px)) !important;
+    max-height: min(595px, calc(100vh - 22px)) !important;
     overflow: hidden !important;
   }
 
   .facile-radio-results{
-    max-height: 242px !important;
+    max-height: 254px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
     padding-right: 4px !important;
@@ -5531,10 +5531,10 @@ main.intro .container > section:not(#facile-news-widget){
 /* Pantallas muy bajas */
 @media only screen and (max-height: 680px){
   .facile-radio-panel{
-    max-height: calc(100vh - 22px) !important;
+    max-height: calc(100vh - 18px) !important;
   }
 
   .facile-radio-results{
-    max-height: 218px !important;
+    max-height: 232px !important;
   }
 }
