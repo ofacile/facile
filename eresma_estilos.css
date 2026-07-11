@@ -5477,32 +5477,18 @@ main.intro .container > section:not(#facile-news-widget){
     transform: translateY(8px) scale(0.98) !important;
   }
 }
-/* FACILE RADIO — COMO ANTES, PERO UN POCO MÁS ANCHA Y MÁS ALTA */
+/* FACILE RADIO — AJUSTE SUAVE: UN POCO MÁS ANCHA Y MÁS ALTA */
 @media only screen and (min-width: 981px){
   .facile-radio-panel{
-    /*
-      Base actual: width 350px y max-height 590px.
-      Solo subimos un poco para que crezca hacia arriba.
-    */
-    width: min(370px, calc(100vw - 112px)) !important;
-    max-height: min(620px, calc(100vh - 34px)) !important;
-
-    /*
-      Mantener el comportamiento original del panel.
-      No añadir flex, no añadir padding raro, no tocar estructura.
-    */
+    width: min(382px, calc(100vw - 112px)) !important;
+    max-height: min(638px, calc(100vh - 30px)) !important;
     overflow: hidden !important;
   }
 
   .facile-radio-results{
-    /*
-      Base actual: 220px.
-      Solo un poco más para ver mejor el final de la lista.
-    */
-    max-height: 245px !important;
+    max-height: 258px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-
     padding-right: 4px !important;
     padding-bottom: 8px !important;
   }
@@ -5511,16 +5497,15 @@ main.intro .container > section:not(#facile-news-widget){
 /* Tablet / PC estrecho */
 @media only screen and (min-width: 768px) and (max-width: 980px){
   .facile-radio-panel{
-    width: min(360px, calc(100vw - 104px)) !important;
-    max-height: min(600px, calc(100vh - 32px)) !important;
+    width: min(370px, calc(100vw - 104px)) !important;
+    max-height: min(618px, calc(100vh - 28px)) !important;
     overflow: hidden !important;
   }
 
   .facile-radio-results{
-    max-height: 235px !important;
+    max-height: 246px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-
     padding-right: 4px !important;
     padding-bottom: 8px !important;
   }
@@ -5529,21 +5514,15 @@ main.intro .container > section:not(#facile-news-widget){
 /* Móvil */
 @media only screen and (max-width: 767px){
   .facile-radio-panel{
-    /*
-      Base actual móvil: width 318px y max-height 540px.
-      Solo lo abrimos un poco, sin volverlo gigante.
-    */
-    width: min(330px, calc(100vw - 82px)) !important;
-    max-height: min(560px, calc(100vh - 30px)) !important;
-
+    width: min(338px, calc(100vw - 76px)) !important;
+    max-height: min(578px, calc(100vh - 26px)) !important;
     overflow: hidden !important;
   }
 
   .facile-radio-results{
-    max-height: 230px !important;
+    max-height: 242px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-
     padding-right: 4px !important;
     padding-bottom: 8px !important;
   }
@@ -5552,10 +5531,10 @@ main.intro .container > section:not(#facile-news-widget){
 /* Pantallas muy bajas */
 @media only screen and (max-height: 680px){
   .facile-radio-panel{
-    max-height: calc(100vh - 24px) !important;
+    max-height: calc(100vh - 22px) !important;
   }
 
   .facile-radio-results{
-    max-height: 205px !important;
+    max-height: 218px !important;
   }
 }
