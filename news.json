@@ -1,20 +1,12 @@
 {
-  "updatedAt": "2026-07-14T11:08:11.360255+00:00",
+  "updatedAt": "2026-07-14T12:48:37.614847+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "El octavo encierro de San Fermín 2026 al detalle: dos corneados por el carácter encendido de los Jandilla",
-      "source": "RTVE.es",
-      "summary": "El octavo encierro de San Fermín 2026 al detalle: dos corneados por el carácter encendido de los Jandilla RTVE.es Así son los Jandilla: los temibles toros que hoy han creado el pánico en el encierro y serán toreados en Pamplona esta tarde El Confidencial Pelig",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNUtYSVUtWWNRYUQ3QllHVndSUjg1VGJ6X3p1UDZMbU5LdHN5ZWpaX0IwTHlRcFdjbXpBSVhQTk5rLUxZd0tLZGVxZy1lUEx4X01YSHRLZ01Id2N1ckJ6aVdSWEc4MnQwRmVPdVJkd2oxd3A0RkQtQ3lfc1RWaEhOSzRzSHNKOEtCcDlUV0QyTEFlYlMwaGc0OEYzUXMteVI0emdCNFNoajhUQQ?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 06:50:20 GMT"
-    },
-    {
       "title": "La Audiencia de Badajoz condena a nueve años de inhabilitación a David Sánchez por su contrato en la Diputación",
       "source": "RTVE.es",
-      "summary": "La Audiencia de Badajoz condena a nueve años de inhabilitación a David Sánchez por su contrato en la Diputación RTVE.es La Audiencia de Badajoz condena a nueve años de inhabilitación a David Sánchez, hermano del presidente del Gobierno, por prevaricación en su",
+      "summary": "La Audiencia de Badajoz condena a nueve años de inhabilitación a David Sánchez por su contrato en la Diputación RTVE.es Condenado David Sánchez, hermano del presidente del Gobierno, a 9 años de inhabilitación por un delito de prevaricación EL PAÍS El PSOE tach",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVHh3QVBWUXRGSGJHd2E4cFRfelplWkRQcEo4dG02eGVXRG5acU42RU93Um9tT2l6ajZ3WHNnUXA2LUQxM2wyUTRMMmJRV1NYWnhxUVBzNmpyWVJ5Q0kzRHhTMUw1eHZpYW56bVZONU1nOXVhWHZFamM2RmZLUHVpR0JubHNmRGMzUzVqRFRfdXgxYmt2Z0ZBbjJLNTVLR05iSTdrMURTb01Ma2JRQnF1Y0NBRlRBOVV3MWc?oc=5",
       "pubDate": "Tue, 14 Jul 2026 10:26:36 GMT"
@@ -22,50 +14,58 @@
     {
       "title": "La Seguridad Social suma más de 350.000 afiliados extranjeros en un año y supera los 3,4 millones en junio",
       "source": "La Moncloa. Gobierno de España",
-      "summary": "La Seguridad Social suma más de 350.000 afiliados extranjeros en un año y supera los 3,4 millones en junio La Moncloa. Gobierno de España España suma 160.000 nuevos cotizantes extranjeros gracias a la regularización El Correo El empleo extranjero marca récord",
+      "summary": "La Seguridad Social suma más de 350.000 afiliados extranjeros en un año y supera los 3,4 millones en junio La Moncloa. Gobierno de España España suma 160.000 nuevos cotizantes extranjeros gracias a la regularización La Voz de Galicia El empleo extranjero marca",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2hwNHVvNnpjTkZxS0c4ZUROZjVvNklWSG1SVTR6MC1fOXVMTGhDZmplcjlHVXlIblBiQ3psazFrai1XMW11TjhtN0R4X2VjNlVBbGtEYlZ5WlFTN2l1MmZkNElacnlJZThDeDlWeFhsT2FNQVg1WUxaUDZFUXRMMnFXbllzOXR2WkpfU2FLRDdBMG9xYzJlRk5kb0tFWk1IeUdtdmhhc1ZBeEVCVjNfLVdtTzRLM0ZieU1KeG9iYS1rOUQxOFNOUFlPRFM?oc=5",
       "pubDate": "Tue, 14 Jul 2026 09:00:55 GMT"
     },
     {
-      "title": "EE.UU. lanza ataques contra Irán por tercera noche seguida",
-      "source": "dw.com",
-      "summary": "EE.UU. lanza ataques contra Irán por tercera noche seguida dw.com Estados Unidos e Irán vuelven a la guerra abierta tras una semana de enfrentamientos en Ormuz EL PAÍS La factura del fin de la tregua con Irán: el petróleo se dispara un 18% en julio El Periódic",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ3dZUWhJbjc2c1Y4dVVKVDFQeTlWSktNQ2JZSllnRzhiMVo1SnFFbjFFZExoNWNRRFB0WV95cHAzNlZ5VXZ0azVpajZVcWEtczlZR0swTU83SE1LcDJFSG9YdUhIOWRtQ1hxbURkRzl0aWh6MVFSQTRtNXZCOUdYcm9qYU4xakdCNkszQ0p4T3pBV0dfZXdiTUJn0gGaAUFVX3lxTE94OERuUVRoUFg5RVUyU1NNQnZCYm93VTZBVjloWkR1bVQ3U0JIS1RtaHJZMlUxOVNCWmt1bHVodEFCUGwxTUg1VVljOEZMbGFmbWw0M05LX1c0THJyTFl0c1RaU2hvN1o4M3VhT0FCLXVpNGVTTkZSNXZ4MWtRNFF3X3hnbnpNdnZNVlczOUE4b18tdVVqQnhzeHc?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 00:44:25 GMT"
-    },
-    {
       "title": "El inicio de una nueva era en Gibraltar con la eliminación de los controles fronterizos entre España y Reino Unido",
       "source": "BBC",
-      "summary": "El inicio de una nueva era en Gibraltar con la eliminación de los controles fronterizos entre España y Reino Unido BBC Testigos de la historia en la verja de Gibraltar: de la reapertura de 1982 a su derribo EL PAÍS Gibraltar, el último confín del Brexit La Van",
+      "summary": "El inicio de una nueva era en Gibraltar con la eliminación de los controles fronterizos entre España y Reino Unido BBC La UE y el Reino Unido firman el acuerdo histórico que acaba con la verja de Gibraltar EL PAÍS Cae la Verja de Gibraltar y comienza una nueva",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVX2wyQTBmazdSQldVLWVBU2JWQm02TVQwMndvZXcxc29EUVlvUUZiTzhvdmNTX2lIWU5xekZDQjJoMFR2TVY2OUFNWXhHblVwUWtZblFGMHdpRGvSAWBBVV95cUxPVnJWbVNmRkttTTJ0Q2lMa0htSVhrWkJJQ2lBZVlXMklfWDBEV0UwOEtoS0kyRnBIazlnT21rWFFUWnpEVWI2a0JtVFRvS1Bnd01ha0dQUlBubm14ejFDMEI?oc=5",
       "pubDate": "Tue, 14 Jul 2026 04:09:04 GMT"
     },
     {
-      "title": "Última hora política, en directo | El juez del 'caso Leire' cita como investigados a la gerente del PSOE y al exabogado de Koldo García",
-      "source": "El Español",
-      "summary": "Última hora política, en directo | El juez del 'caso Leire' cita como investigados a la gerente del PSOE y al exabogado de Koldo García El Español El juez Pedraz cita a declarar como imputada el 9 de septiembre a la gerente del PSOE por el caso de las cloacas",
+      "title": "EE.UU. lanza ataques contra Irán por tercera noche seguida",
+      "source": "dw.com",
+      "summary": "EE.UU. lanza ataques contra Irán por tercera noche seguida dw.com Estados Unidos e Irán vuelven a la guerra abierta tras una semana de enfrentamientos en Ormuz EL PAÍS El despropósito de Trump con Ormuz Expansión Irán responde a la última oleada de ataques de",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNRlZlRENNLVJNd2NMWkh1V01BY3pUVWkwSEFkTkp6V1hhcS1GNnppRkNFdUtPME5hNnpWbEYxd1pnazFzRERPMGhRdXhuRTdrZi00MFZIVWRzZ3VfeHhYV3RiUkRiOWRFdG9WRFBZSFE1Y3RaMGJFbzhaZ3JyNVNVU2dpS3ZzcXJGUDhnRnNMTzZ0RjFRdG9ZNWZVYlFUNnQ4OUwyTFBYYWJHVHRYMXRfX2RrR2dYQTFtLTJiQkpWbFh5OVpHU3lING5Vb2hHVnBiOTVWeUd2S0ExV01RenpoZllMUXhjNDlELUhGX0ZIeEI1NUFOQzRfc1VTRUJnTXZULXltd3MxSQ?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 08:25:35 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ3dZUWhJbjc2c1Y4dVVKVDFQeTlWSktNQ2JZSllnRzhiMVo1SnFFbjFFZExoNWNRRFB0WV95cHAzNlZ5VXZ0azVpajZVcWEtczlZR0swTU83SE1LcDJFSG9YdUhIOWRtQ1hxbURkRzl0aWh6MVFSQTRtNXZCOUdYcm9qYU4xakdCNkszQ0p4T3pBV0dfZXdiTUJn0gGaAUFVX3lxTE94OERuUVRoUFg5RVUyU1NNQnZCYm93VTZBVjloWkR1bVQ3U0JIS1RtaHJZMlUxOVNCWmt1bHVodEFCUGwxTUg1VVljOEZMbGFmbWw0M05LX1c0THJyTFl0c1RaU2hvN1o4M3VhT0FCLXVpNGVTTkZSNXZ4MWtRNFF3X3hnbnpNdnZNVlczOUE4b18tdVVqQnhzeHc?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 00:44:25 GMT"
     },
     {
-      "title": "Últimas noticias de los incendios forestales, en directo | Continúan las labores para identificar a las víctimas mortales del incendio de los Gallardos",
-      "source": "EL PAÍS",
-      "summary": "Últimas noticias de los incendios forestales, en directo | Continúan las labores para identificar a las víctimas mortales del incendio de los Gallardos EL PAÍS La huida por separado que condenó a Stephanie y salvó a Jerome: \"Se miraba las manos y besaba su ani",
+      "title": "Sanidad oferta 12.850 plazas de Formación Sanitaria Especializada para 2027, un 53% más que en 2018",
+      "source": "Ministerio de Sanidad",
+      "summary": "Sanidad oferta 12.850 plazas de Formación Sanitaria Especializada para 2027, un 53% más que en 2018 Ministerio de Sanidad Sanidad aumenta un 4,3% la oferta de plazas MIR para paliar la falta de médicos en algunas especialidades EL PAÍS 484 plazas más y detecto",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcUdORXdTeUVudzBGM2cybU5FR0hqQ3RSYXluTjhYMzZvZHNFODlFRkpnemxtN2pmTDU5bVBtZnBHQl9zTTl2RVJUbVNVR0ZuUWtNbHpBVUxaSW5xb0JOR0tnY0hSRDBudHJuS3NqS1RCTDNCT0NEMmhua2FxQVBHaVM5MEZkUFY2ZWl2MFpyTmZtSEZuRnhGRVdHemZUdw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 08:49:55 GMT"
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZYWVpOWR0SVE3UzEwTWxGX3dQdkJkd3VPVHhJWXZWZUVCaGp1VjlhVF9zRUdrRjB0OUMySXh0Y182QXVRcktwNTlEdTk4QzFBaERfd2VjRTZsX0x2S29QR1Z2V0RDYjkwWUhGM25n?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 08:40:27 GMT"
+    },
+    {
+      "title": "La AEMET eleva a nivel rojo la alerta por altas temperaturas anunciada para mañana",
+      "source": "Ayuntamiento de Sagunto",
+      "summary": "La AEMET eleva a nivel rojo la alerta por altas temperaturas anunciada para mañana Ayuntamiento de Sagunto Avisos rojos por calor y altas temperaturas en Aragón y Comunidad Valenciana EL PAÍS La Aemet activa aviso rojo por un día \"muy adverso\" en Valencia: cal",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRzVYUVdzcDlZVjJlSTBRSEl0Rk8zRHZMVl9JdXJSY25mMG1XUk9GYmlKQ1J3eEUtYkRQbkltWnBkZXJ2WHAtV19xanFCZEFocHdGbWkxeE1Ha3FxbWtOX0R2bldHR0UxSC1xWjc0d0J1VnhyZERwZ3ZDbnRWc1RTSi1nam1lY3ZpaTJiX2R1NmR1T0dXekx6eFg3Ymk4MndOLUYybkxXSlQxX0JtYWpKNTJmNnFmcm9FdGh6TzVtNlV5bnA1ZGVOTHZmcw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 10:58:40 GMT"
     },
     {
       "title": "El Congreso vota la senda de déficit público, que previsiblemente será rechazada",
       "source": "Diario de Noticias de Navarra",
-      "summary": "El Congreso vota la senda de déficit público, que previsiblemente será rechazada Diario de Noticias de Navarra Última hora de la actualidad política, en directo | Albares considera al PP “un estorbo” para la política exterior española EL PAÍS El Gobierno somet",
+      "summary": "El Congreso vota la senda de déficit público, que previsiblemente será rechazada Diario de Noticias de Navarra Última hora de la actualidad política, en directo | Albares considera al PP “un estorbo” para la política exterior española EL PAÍS El Congreso tumba",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS0h4Ylh1b0RIRkFwck1fSnU1WnJ2eFFPZ2MyVVc0VVdWV2NmM1JoZ0ZVdm9ETXplYy1hNE1yMmYtZVNWcEpTRTlJbU5Bcy1UVXJuNk9mOUFHNUtybERrYnFNU3lNSzhSOVQxRVJ1eWo0cUpvbkg2czVTQzB4VkJVUzEtSUg0NV9XaktRRzQ5VlItN2lyN0NYVWhnUXVVcUhiczJpUzhn0gGrAUFVX3lxTE5TQ1pKNk9TdmJCQkstb1NMNW1aalh2anlNZVVsUXNBT1NvQ2p3SEMxTUg1VmFyTFBBbl9ETkJYYW1PRGhHa1hRY2JLMUR2ZmJxZWxielNENXgtQjIxang4ZElvUFAyTGhFLVg1TlpMSFdyeW1Jek9yNlp2VGI5UEdlbWotaFN2QkpHdXZoNUhtRFpGVnM2Q21PeVhEM2pHcTREdHgwNnVsazg4OA?oc=5",
       "pubDate": "Tue, 14 Jul 2026 05:30:35 GMT"
+    },
+    {
+      "title": "Albares afea a Feijóo su postura con Francia tras las palabras de Rajoy: \"Es el momento para ser español, no para envenenar\"",
+      "source": "Cadena SER",
+      "summary": "Albares afea a Feijóo su postura con Francia tras las palabras de Rajoy: \"Es el momento para ser español, no para envenenar\" Cadena SER Salvador Illa improvisa una reunión con la cónsul de Francia en Barcelona para agitar la polémica sobre las declaraciones de",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOMnNPVjNHOXVwWDAxcG1qSVZZMjJsbjVvR1Jsa1lHSmdEUXA5amFXSVFvanhwbUFNdWZ5bTQxWGRJWnc1NTRLXzhDMU9BbEFTemEzaVk3SVlBcGNOUDRfVUZBMjFVaEIwX2lhRWU4U04xSnA1V0R3Y0JRdFpzazVUVV9jLVdQYUQyLVl0STdtS002bzI0cDJjejU0aWNhZ0ppWmg5cjMxckdIX1YzUlR4WEp3bGZpOXhHTHoxWmt6Slc0eUh0QUcwR2NoSS01U2ozZHBLYThabHlhaUxaUkJ6aTNnSGhYeHQ2OGs3RW1VVGE3SFFHX2x1di1XU3c1VVNXVlNOR3Bkbm1FQ3NOMUJR0gGjAkFVX3lxTE9zZzdtdW8wRGxyS0VaYXdXc045RzJvYWp2d0tEaWlmaTliR3ZaSDZscHJqV1ZUUTgySkNGYnlWa1c2WG5DVVhXaXJUUHl0S2pZT0Y3b3FQcW9TelNWdGR3SVh0TUZ2YkR2aDduNzE3UW5pdzRBTG1sdlA4M3dfV0pGSzQwMnY4ZEVSdkhZRkp5R0NzWFdrVVBaTUhKUFRqa29zeGNwa0tTeXUtVmZEWmtlU2xRb2xpOHdTV2I2YWlkc3VkZkRST2hwb05HcTlVOVZrakVVTmw3NnZvRC1qelR2VEFWekJId0pCQ2ZWeWlfOEpwMlB2R3FCcFV1aHNWd29RWXBPNFQ2YldZUFR4Mnc3UG10SHQyYzAyQ3ZuMG5CcHlCOA?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 10:01:48 GMT"
     }
   ]
 }
