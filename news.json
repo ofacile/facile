@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-14T23:26:10.282886+00:00",
+  "updatedAt": "2026-07-15T00:53:41.434617+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "Pablo Fernández cree que hay \"una clarísima intencionalidad política\" en la condena a David Sánchez",
       "source": "elDiario.es",
-      "summary": "Pablo Fernández cree que hay \"una clarísima intencionalidad política\" en la condena a David Sánchez elDiario.es 377 páginas: la convicción de un tribunal EL PAÍS Las claves de la condena al 'hermanísimo': \"Gallardo quería congraciarse con Sánchez\" El Mundo Cla",
+      "summary": "Pablo Fernández cree que hay \"una clarísima intencionalidad política\" en la condena a David Sánchez elDiario.es David Sánchez y Miguel Ángel Gallardo: diez años de amistad y un último café en un hotel de Villanueva de la Serena antes de la inhabilitación El Mu",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc01vMWlRN25kVkpnanBxa0tvcVJpN0hlR0hLRVRaTEg4NTRPU3JHNnZIY2ZYbjBNYlVQaW9YaExRSWtQM2NsNEZnUjBNa2MtQUU5VWNxRGxFR3BMMFBoaUdlTmRuajRHTHRKLVJvMm83MmVEXzJNRG15U1F6eWlmMGdKbkVmX3plTlhJeDF0ZWVhOXNuY0NkUE5HaTDSAaIBQVVfeXFMTzMyNU1sMkQzSGNmN3lEeUJiejItQ0piZ2QyM0paYTdaMzRpNE96WkNpTF9zY2doT1haTEdHN2dFd1lyMEU4bDJ3enJpeloyWVhWRzJKeTI3Q0xDMGpRTUtLY2F1N3BzWUprRnB6c0tXS0VHMHJ5aWxvbWttX0lMVW53M0JWcVFMczNwalJCUkRmNm9MeTVlRmY3VW1QU1QxQWJB?oc=5",
       "pubDate": "Tue, 14 Jul 2026 17:49:03 GMT"
@@ -30,10 +30,18 @@
     {
       "title": "PP, Vox y Junts unen fuerzas para asestar un golpe al Gobierno y tumban el primer examen del Congreso al Presupuesto",
       "source": "elDiario.es",
-      "summary": "PP, Vox y Junts unen fuerzas para asestar un golpe al Gobierno y tumban el primer examen del Congreso al Presupuesto elDiario.es El primer paso hacia los Presupuestos fracasa en el Congreso EL PAÍS PP, Vox y Junts tumban la senda de déficit para los presupuest",
+      "summary": "PP, Vox y Junts unen fuerzas para asestar un golpe al Gobierno y tumban el primer examen del Congreso al Presupuesto elDiario.es PP, Vox y Junts tumban la senda de déficit para los presupuestos y disparan las apuestas de adelanto electoral RTVE.es El primer pa",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNG5QT1VGN1dlTzBKaEVmNHNxVDhIRWxfZ2JMb1ptbTZwLUlQOHpRV19UcG8xamx0SFFFUkVIdTJ4WHp1Z3lSVVBvbFhqZmZPUVpnSHpsaGY4RnQtb3ZTOG51LVJjVFBHQVJ0b1l5QURTWHhXZ3VTaEhGT3J6SnFWZEExcHR3Nk12bkVLUjVxOS1WWTVlUU5IVmE4Zmo4aDJIdGRYUEpQY0U5b1VvczJjZHd6by1SUy1xXzVjeGdtTmQzUjNCelpZMjNKVkNrcUlWVTVjcUdB?oc=5",
       "pubDate": "Tue, 14 Jul 2026 18:02:49 GMT"
+    },
+    {
+      "title": "Francia - España: Mundial 2026, en directo | Pedro Porro amplía la ventaja para España tras una gran jugada con Dani Olmo",
+      "source": "EL PAÍS",
+      "summary": "Francia - España: Mundial 2026, en directo | Pedro Porro amplía la ventaja para España tras una gran jugada con Dani Olmo EL PAÍS Aprobados y suspensos de España contra Francia: Porro fue Lamine Diario AS Toledo vibra tras la victoria de España ante Francia en",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMVREamo2UG1UNUlIdXY5cVpXYnpFaGtOUzZDaVJwZFVuSmFneGFXU3FGeTJYRVBlTmpyb1pXLUZLTW1abDFFMG5fOURNT3M4VnppOVhxSjZPV3o3ZDZEQjFMR2xtYVV2dWg3SHpfMkk2RVNiOUFNMUtEVVdrRV9KZVk4R2JtdXRONXZELW5CeHNJTWwwM3E4UzNjSkU5WVFfRzMzU2FBTVhpZFZENkxVRmdfd2I1cHR2eXVmT3pJdl9wU1JFdm43UndLUzJiYmvSAeMBQVVfeXFMUEFPVEdReFV6a1NUbmhJemN5MDF2bUF1dFZwT3gtOHNXejVmM29aaVZJVlB0M1lOQm53M25OSm01UnlSaVAxSTZQT1JkU2J5RHAtM0VRLVU1Wlp3R1NTd3JqM1dtLXRXUmEwaGNlQ1J2T1JrbFZWRTFXREV5MFRpLVQwY0JjMzN0dThPNVlQa2pyRktDdDFmZm04TTFZUmMyMXZXX0RjOWJ2SFBVcXhXUml3V1hnVTRqS21sUFpTMnBtYWY0UTJpbUNSSDdUNWZJMFFjSnNFWng3VGthU2tMbXdpQ2M?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 20:39:28 GMT"
     },
     {
       "title": "AIDPROSEC 2026 / 2027. Secundaria y otros cuerpos. Vacantes",
@@ -44,28 +52,20 @@
       "pubDate": "Tue, 14 Jul 2026 12:00:00 GMT"
     },
     {
-      "title": "Francia - España: Mundial 2026, en directo | Pedri es suplente y De la Fuente repite el once con el que ganó a Bélgica",
-      "source": "EL PAÍS",
-      "summary": "Francia - España: Mundial 2026, en directo | Pedri es suplente y De la Fuente repite el once con el que ganó a Bélgica EL PAÍS Una lección para el mundo Diario AS Cristian Ortiz, experto en deportes, sobre el pase a la final del Mundial: “España es la favorita",
+      "title": "España y Gibraltar ponen fin a los controles fronterizos",
+      "source": "SWI swissinfo.ch",
+      "summary": "España y Gibraltar ponen fin a los controles fronterizos SWI swissinfo.ch La frontera de Gibraltar hace historia a medianoche: “Hemos esquivado el Brexit” EL PAÍS La noche en que Gibraltar derribó la Verja mientras media España veía el fútbol Europa Sur La UE",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMVREamo2UG1UNUlIdXY5cVpXYnpFaGtOUzZDaVJwZFVuSmFneGFXU3FGeTJYRVBlTmpyb1pXLUZLTW1abDFFMG5fOURNT3M4VnppOVhxSjZPV3o3ZDZEQjFMR2xtYVV2dWg3SHpfMkk2RVNiOUFNMUtEVVdrRV9KZVk4R2JtdXRONXZELW5CeHNJTWwwM3E4UzNjSkU5WVFfRzMzU2FBTVhpZFZENkxVRmdfd2I1cHR2eXVmT3pJdl9wU1JFdm43UndLUzJiYmvSAeMBQVVfeXFMUEFPVEdReFV6a1NUbmhJemN5MDF2bUF1dFZwT3gtOHNXejVmM29aaVZJVlB0M1lOQm53M25OSm01UnlSaVAxSTZQT1JkU2J5RHAtM0VRLVU1Wlp3R1NTd3JqM1dtLXRXUmEwaGNlQ1J2T1JrbFZWRTFXREV5MFRpLVQwY0JjMzN0dThPNVlQa2pyRktDdDFmZm04TTFZUmMyMXZXX0RjOWJ2SFBVcXhXUml3V1hnVTRqS21sUFpTMnBtYWY0UTJpbUNSSDdUNWZJMFFjSnNFWng3VGthU2tMbXdpQ2M?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 17:39:28 GMT"
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2pCeFlScmJXZUx1cE03VlR3SnBKTnUzRXZmTDhjbjhWMldjQ1M2c0xWVXBZeGtYd2tCbG5IdjZ6TEZlcEUzcTBPeWZqS1d4MVhuZmR4eTlGeEc0NVVEUFJVQk55Ukg2QXgyeUVWaVZjRlhPNDczano3UDFNSWtBWVNrVFhaMTZNUkQ0NE0wd1JKZVBla0pRT0h2YlZrY0Mx?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 00:15:29 GMT"
     },
     {
-      "title": "El fin de la verja de Gibraltar, en directo en vídeo el acto en la histórica frontera con Reino Unido",
+      "title": "Claves de las sentencias del TJUE sobre la amnistía y Puigdemont",
       "source": "RTVE.es",
-      "summary": "El fin de la verja de Gibraltar, en directo en vídeo el acto en la histórica frontera con Reino Unido RTVE.es La UE y Reino Unido firman el acuerdo para derribar de manera inmediata la verja de Gibraltar: \"Le damos la vuelta a tres siglos de confrontación\" El",
+      "summary": "Claves de las sentencias del TJUE sobre la amnistía y Puigdemont RTVE.es El abogado de Puigdemont le aconseja no volver ya a España aunque el TJUE le dé la razón ABC El Supremo da por hecho el aval del TJUE a la amnistía El Independiente Illa reclama que la am",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUzl2UENPemQ5ZDl4ZWJwQnNPTXotSWgyLUZoeVB5WlI4ZU5sZnBrR1hUTHhUaDFSQjA0MWhYdTFuOTdZcV9ZWUdXcFF6eE82cllPWEZrMWJoV2g2SV9nTVFaRFFzWWxRZ0g5anBzR0NsRkt0dVhtR3ctWWZTZkFGNEs1d1JRWjVVbGYzTUJBWUNvLW9sekV0bDBJR2ZpczdPTlZwZWEzbGFtQW9QaTQ4QXFUZy1sZw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 20:55:38 GMT"
-    },
-    {
-      "title": "El 'Pobre de mí' pone fin a San Fermín 2026, en directo en vídeo desde Pamplona",
-      "source": "RTVE.es",
-      "summary": "El 'Pobre de mí' pone fin a San Fermín 2026, en directo en vídeo desde Pamplona RTVE.es Resumen del Pobre de Mí de San Fermín 2026 en Pamplona Diario de Navarra Jerónimo Taracena Guijosa, presidente de la Federación Taurina de Guadalajara, es el corneado en el",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTDdnVEhxN1IxaHBpRmtUbEdLeTVMTDE2dVFKNGNqczlyc1Qta3ppdDczTTBicWc5LS1NZWJucElObXdpa3hZMUN4T19IS0xLUHpna2Z3V1FPNEpocmxweXhMTE0tVl9EN0RfTmJRN1dLNk0zNFd5ei1fcXM3cW5nZ2tQcFltRmhPVG1pbkE2N3ZRVXh2LWk5VS1SVHQ1dndDMV8zUmdIRE15U0R5UWtpNjVwc1dtcjRfbDZtWFp4OA?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 20:51:32 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaF9icEs5MldpNFc2N0t5SE1tbElNc2VUZTNKWTJpVngwdnBOQmhqY1Y2dGNxcS12TzAxTDkxY19fS3c5LTZPRmdNNm1UTVVHOHV5QnNieU9zYkFhU0lRRmtLY1NmQ2dJVjNXaVZiejNxd000dGZBamw2dlRUMXUyeHBvWUJMN0hYQkZ0UUcwLU9LM0xCV1hyUFV1UjR0RW9qMFZN?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 23:34:21 GMT"
     }
   ]
 }
