@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T06:21:35.867182+00:00",
+  "updatedAt": "2026-07-17T08:36:09.154621+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
@@ -12,6 +12,14 @@
       "pubDate": "Thu, 16 Jul 2026 18:30:23 GMT"
     },
     {
+      "title": "Aragón pendiente de que cambie el viento para salvar Uncastillo",
+      "source": "EL PAÍS",
+      "summary": "Aragón pendiente de que cambie el viento para salvar Uncastillo EL PAÍS Incendios en Zaragoza y Huesca, en directo: Uncastillo y otros cuatro pueblos de las Cinco Villas evacuados por el fuego que devora 7.600 hectáreas heraldo.es El incendio del municipio ara",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXRvM1ZiVU5tWm1Sem85OGtkdl84Uk1DeE5QcVU0Zld2NUZnRnRqRzRYb3FjczQxRWtzRThDVENGcDZ0enMtTnEtbU53WHRxQmZienpfWlJ6S1g4V21EZm9PM1A0cmZ2WS1mSlpJN0RaUXhFT2hRcEF2UGo1aGRxdzNYRUtlVmRtUHBmdmFxZk5zYWtsNjJtZFhLSEdTWGVsZ2IzZHZmQmFrLURTNnBVdXdoeGxhdnhfR2NtbXpKWGZ2TndEZ3BzTzlZX0RjRFBzcDgtbGhQT1PSAewBQVVfeXFMUEF5MDNDWHJiaEQ3bl9OTjllOTYzb0VqdEdUVHZiSC1xelZqaFVtSjVQQVNkQ0tBTEFRZXVyQlhMQ0JESUZSUW5QTnVRXzh0elU3S014RklZVVpzbUtmYXJtemNLakZ1eUdmcjE3aHJjRUdaUDhWaWNnMlpoYldGeGN0TmhVVk95d3ZzNDMydlpSZDJEbzhXT2Jna3hibHV0eFVVcWJTSllWV0hyb0FWZExSMUlCd0JfcDFiTXJ0REZrd25kbXB5R2Jnc1M5S2c1UVc5TnBjNlN3REJzN0k2SnIxbjY3MzdINHhzTGI?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 13:37:53 GMT"
+    },
+    {
       "title": "El 'tres' de la directora de la Guardia Civil amenazó con agredir físicamente al general que se negó a boicotear a Ayuso",
       "source": "El Debate",
       "summary": "El 'tres' de la directora de la Guardia Civil amenazó con agredir físicamente al general que se negó a boicotear a Ayuso El Debate El número dos del DAO amenazó con cesar al general que se negó al boicot contra Ayuso: «Atente a las consecuencias» ABC \"Es de ex",
@@ -20,52 +28,44 @@
       "pubDate": "Thu, 16 Jul 2026 15:18:45 GMT"
     },
     {
-      "title": "El PSOE defiende la inocencia de Begoña Gómez y tilda el proceso de “causa política basada en noticias falsas”",
+      "title": "Por qué miles de personas salieron a protestar en Ucrania tras la destitución del ministro de Defensa",
+      "source": "BBC",
+      "summary": "Por qué miles de personas salieron a protestar en Ucrania tras la destitución del ministro de Defensa BBC Zelenski sacrifica al arquitecto de la revolución de los drones y abre una crisis dentro del poder El Mundo Miles de personas protestan en varias ciudades",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1obkFhZHMwZG1WUFpydmlzTm1hby1ybjRlOTVOS2R0TXJMcnZBaktvdVAtS1JGaXRYcVBKWWRKSUxrd1lfcDhoeDdQLVhCelRIaDFLTUlVTmdiaGc?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 03:05:46 GMT"
+    },
+    {
+      "title": "Óscar Puente insinúa que la Audiencia de Madrid ha avalado hoy a Peinado para desviar la atención de la sentencia del TJUE",
+      "source": "elDiario.es",
+      "summary": "Óscar Puente insinúa que la Audiencia de Madrid ha avalado hoy a Peinado para desviar la atención de la sentencia del TJUE elDiario.es Pablo Gutiérrez de Cabiedes, catedrático de Derecho Procesal: \"Moncloa tiene motivos para la preocupación; Begoña Gómez puede",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaVZFdU95VHZmcDA0OExqM2ExOXd3TDlNQ3M4ZU1QbFVJTVhKVFFoSW8yZU5pOGU5QUNvbk5mNlJzb2NDdGprUUZuV1ZHb3V3YXpfczdScGgwdWZjd1VPNnVESml2dzJrUldKWnczTHktSy1ST3lzaE42N0xuUDgtN08wVElmMjV1Sm1GTDJySURKQVBDVDZFMWxSdmjSAaIBQVVfeXFMTVU2Q2l2cHdOZzhsWTlyeU9oUm5fUlZKYVJ5NElieWM3dW0wTUxyYkdoUnVwYmtHZGRiZ01UaHRWWHVfUm5wZHpCOHVHYnlCbnQwb2dVWVZPbGc2dE5RSFpXY18wZUtKcV9FaVRBNXNQemNZTmFkaGU2THo5V0oycHg3b0swc0VYUEtaRmpUOGVQRnhJYmtySF9wQ3ZYZGY0eTBn?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 11:54:56 GMT"
+    },
+    {
+      "title": "Cientos de incendios forestales ponen en alerta por mala calidad del aire a Canadá y EE.UU.",
+      "source": "BBC",
+      "summary": "Cientos de incendios forestales ponen en alerta por mala calidad del aire a Canadá y EE.UU. BBC Nueva York preocupa: la ciudad, gris Diario AS El humo de los incendios forestales de Canadá llega a Nueva York, donde se recomienda no salir de casa El Mundo Alert",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zaXZMczVIcS1sS2JxMGY1dTJCbF83cHdfdTRUSDB4YmwyTjlMWjRCcEhhN0RGTGlLU0pqMnZMQTV6d1VHdXk1SlN4dnhOV0lYNDF5WTJKVm5qOEU?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 03:25:54 GMT"
+    },
+    {
+      "title": "El incendio de Lozoyuela supera ya las 700 hectáreas mientras la Guardia Civil mantiene detenido al presunto autor",
       "source": "EL PAÍS",
-      "summary": "El PSOE defiende la inocencia de Begoña Gómez y tilda el proceso de “causa política basada en noticias falsas” EL PAÍS Ellos con Begoña El Mundo La Audiencia de Madrid avala que un jurado popular juzgue a Begoña Gómez por tráfico de influencias y malversación",
+      "summary": "El incendio de Lozoyuela supera ya las 700 hectáreas mientras la Guardia Civil mantiene detenido al presunto autor EL PAÍS El incendio de Lozoyuela, en la sierra de Madrid, aún no está controlado ni perimetrado El Mundo 28 medios terrestres, 9 aéreos y la UME",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY0lRTlI3V3ZFdkROMm1taWQ2a1J6eUYxYURDM25JRG92TWl3UHlyLWE3dGd3c0RkQk45dVM1MVd3RkIxc2s5VXhCU3VENXpYaUxFR0FKMkJiemw2TW51MURnUzU1NER1QnlPTDBzV25PZUREYkJ2RzE2Ul9uZVM1M1R6T05sOWd0SWtiX0ZhVWZNQ2RjdUY4cVFidFdiWHJrWk41STlmaFhpX1g3aHAtbUdYcWZIQlM5TlFQSGx1OW4tV1JNMFHSAdoBQVVfeXFMTkd6THhtcjdHQ01jWEk1a0hRT1ljeGVKRUJ1VjkwZFRNYkFfdnU5NGdpcjkxQzEwdnhMbTlZT25yOThUVzdCY0NqTTdRc1ZoOFYxejlEN1dxTGNxUkZFQmJHRDQ5bEJySk5tbGJZWTNoaWtBczZkTnlpQUk5a0RnUWhrS0d4eElQTS05Z3BhVFgteC03NS13ZGR5TGtQS1Vhb3RJZDBFUUMzcFBtSEFNck1tcTJVWmlWZ2Y4ME9NdzNXNzY4dE1Zdjdvb3RoZF9obDVMX2JtWGlQLWc?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 12:58:55 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPckpwUk1JcmRyMjg3Z21JSVlxZEExaW9SWVRpLVR6UmJXU3oxTEppaC1nM0RJYWE2YlVxaXdjWXY0R255bWZ1cldjTTAzeERvZ0tZSW9hODVtdjBGNzJEVWh5ZHlUZF9fWXlpOGE1MVdYVHlUX2FUQm1vNU5UQnJWaFMzTkRSOUtXSXFiOUN6TTdfQ3kzZUtiNS1qd2JQQ25aeTlhMEdNdUNGUDJoZHFsZkZycVY2cnRfV0dNR0d4d1BRWk90QjIxc3NGNGo3enpMUnduaF9SZnZhSXR4dnVKLUc0cUtma3dLem9Lc3c1dXYwMV9oNXfSAYoCQVVfeXFMUGczbFRvbjRPNFlXal9qWGo3T1FVVTRaTnAtUHRuSDdrLWpjenN3RUVpcDZkeGRyRHItaUZBb1h2UlQ3LTVSdzJjZlR3alhxb0VaNTJreXM0dUNsbmV0ZmUxODVrbHpNODhBTkE1dHp3bUl1LXFhemM0UDlhWTZCNlZUdFBzajBYSUc0ME0tR3Y1cWVfX2ZYMW9KZDBFVmxiNXpoM0hVajNFYXdQOW10S3dXUU02N2otU18tLUpTbjd6OEVNeFhYLWdOaGpPemhqbFFDTEoxTmhiQWd3Ty1lZ2l5QVpiZHVNUzJsR051ZERTNlh0aC16YWZQQ2RyU01BZTY4VnhoSUdSR0E?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 06:07:37 GMT"
     },
     {
-      "title": "Aragón pendiente de que cambie el viento para salvar Uncastillo",
-      "source": "EL PAÍS",
-      "summary": "Aragón pendiente de que cambie el viento para salvar Uncastillo EL PAÍS 7.600 hectáreas quemadas y un millar de evacuados: el balance de un incendio sin control que abre esta noche una ventana de oportunidad EL PAÍS La tarde en la que el fuego atrapó a los bom",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXRvM1ZiVU5tWm1Sem85OGtkdl84Uk1DeE5QcVU0Zld2NUZnRnRqRzRYb3FjczQxRWtzRThDVENGcDZ0enMtTnEtbU53WHRxQmZienpfWlJ6S1g4V21EZm9PM1A0cmZ2WS1mSlpJN0RaUXhFT2hRcEF2UGo1aGRxdzNYRUtlVmRtUHBmdmFxZk5zYWtsNjJtZFhLSEdTWGVsZ2IzZHZmQmFrLURTNnBVdXdoeGxhdnhfR2NtbXpKWGZ2TndEZ3BzTzlZX0RjRFBzcDgtbGhQT1PSAewBQVVfeXFMUEF5MDNDWHJiaEQ3bl9OTjllOTYzb0VqdEdUVHZiSC1xelZqaFVtSjVQQVNkQ0tBTEFRZXVyQlhMQ0JESUZSUW5QTnVRXzh0elU3S014RklZVVpzbUtmYXJtemNLakZ1eUdmcjE3aHJjRUdaUDhWaWNnMlpoYldGeGN0TmhVVk95d3ZzNDMydlpSZDJEbzhXT2Jna3hibHV0eFVVcWJTSllWV0hyb0FWZExSMUlCd0JfcDFiTXJ0REZrd25kbXB5R2Jnc1M5S2c1UVc5TnBjNlN3REJzN0k2SnIxbjY3MzdINHhzTGI?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 13:37:53 GMT"
-    },
-    {
-      "title": "España se asfixia con sensaciones térmicas de hasta 51 grados: estas son las regiones más afectadas",
-      "source": "Cadena SER",
-      "summary": "España se asfixia con sensaciones térmicas de hasta 51 grados: estas son las regiones más afectadas Cadena SER Mario Picazo avisa: posible nueva ola de calor a la vista Eltiempo.es Una masa de aire africano dispara las temperaturas este fin de semana y acerca",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWUwtdEtYWUJWYUdRMkJVNjduaXdNUVYtcnR6THZLbE1WSkpMZWlUY00zMG1PSGVVVnQ4bGl0eDRDbXVUalRrZ1VqOUNiZDRiQlUtdUM1bUFNNlFySW5jRDQtRDhDTUZ0aXVUZXpvYUx5a1IxMmZqVU9CY0tMOWxhMGhtRkRLRUFaZF9VMktvTFQtZ1Nwbm5aLUZXNmpEenlqWXV4UXBZdHFUdTJCMHB5S0RpQ1JRcjF2aXM3Wl90NUhGTkREQTJFRUdWWFVpNXpiM21ndDdRcE5XU0FMbExRa3pCRjdLZVnSAfsBQVVfeXFMT0lCT3BVTWdqeHVIbndlZXJJcjM4MTFPVG13MDFHWTV6R2tkUWRFQkV4dDQ4SE5qUnViYmFhRlBKUnEtR3JROVhIeWF3bHI4Tm1MLVhGalhoMERHeWI3YmwxdlRRSlFIbFpNR2d0c053X0czVEFlb01KQXpjWmRUVWVoZFJFYVpVblZlcldZNVlvMXdSd1g0NmJIVGE4bk5sTzFYZ1lXRGRzT0JoV0xScngxaUxGRlhPS3VSY2VhZDZwZXlQSkxaamtaRXc0ZUVWb0t4endPOV9SWnB4YkNvTnZyMUdXQUtTRkZfQ3dlYnBmQnMtWk14eEctVkU?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 07:33:00 GMT"
-    },
-    {
-      "title": "SALUD MENTAL ESPAÑA celebra la aprobación de la reforma de las leyes de Discapacidad y Dependencia",
-      "source": "Confederación Salud Mental España",
-      "summary": "SALUD MENTAL ESPAÑA celebra la aprobación de la reforma de las leyes de Discapacidad y Dependencia Confederación Salud Mental España El Gobierno calcula que se crearán hasta 115.000 empleos gracias a la inversión en dependencia El Mundo Catalunya será la comun",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOakdMOERlOXM3YThnSjduWVVIbk9IZS1KSWlyanFhemFJUnluUTU3WWpKNnBPNE9SbE13VDlLTnE2RHYxZ0xqTHNNV0xFRTlHdmQ3dEw0cF9rNGlrOWt4Zjc2TGVuUVpvdWNYNjBfQUI0dWhLbnlKdUgxc2huVEpiRGljWG50Ql9TYlE0RzlqV1pFNDhWdS1fejBha0pkUlprNUNoOE00ZFZCTFdPVjFZaThicUFfRGJS?oc=5",
-      "pubDate": "Wed, 15 Jul 2026 13:37:01 GMT"
-    },
-    {
-      "title": "El incendio en la comarca de las Cinco Villas de Zaragoza continúa activo y ha obligado ya a desalojar seis localidades",
+      "title": "“Después de muchos años por pueblos he conseguido trabajar en mi provincia, ahora voy solo a firmar”",
       "source": "RTVE.es",
-      "summary": "El incendio en la comarca de las Cinco Villas de Zaragoza continúa activo y ha obligado ya a desalojar seis localidades RTVE.es Incendios en Orés y el resto de España, en directo | El fuego en la comarca de Cinco Villas (Zaragoza) calcina ya 7.600 hectáreas y",
+      "summary": "“Después de muchos años por pueblos he conseguido trabajar en mi provincia, ahora voy solo a firmar” RTVE.es Las claves tras la debacle en las oposiciones de Secundaria en Castilla y León: \"Voy solo a firmar\" RTVE.es El calvario de los tribunales de oposicione",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWUx0bnduYmdNUmJoOXJaQmtWd3ZYYURzMHNObG1oN0pGNXlCUTg2bzNBaWFhbXNlQWlTRGZmd1lEYVZwZFpiY2E1TWNpWUZpZy1tcksxLXVSRWZ2eUwzZmg4WUl3cVI1OGhHNFh1aWpwVTdjdUttejBEcWhoUFFpQmlWcTlSWTNIa2pXS1MwS0ttQkFkYnI4cnlR?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 06:00:11 GMT"
-    },
-    {
-      "title": "Un incendio en Lozoyuela (Madrid) obliga a activar la UME, cortar una salida de la A1 y al desalojo preventivo de viviendas: hay un detenido",
-      "source": "Cadena SER",
-      "summary": "Un incendio en Lozoyuela (Madrid) obliga a activar la UME, cortar una salida de la A1 y al desalojo preventivo de viviendas: hay un detenido Cadena SER El incendio de Lozoyuela supera ya las 700 hectáreas mientras la Guardia Civil mantiene detenido al presunto",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPYjc5MC03UmxaVmFaRE9sYm9hamQ4c1FsSG1UOVRpVjh2aTFKVjlWTndYUFo1SjdZZm81UmhiSWVIeENBVnprVEo5WHdQR1VWMHJpeXpSMUJNQllaVWJhcE5XSEtfbXMxOERaWDVmR1JNWW8yNWxOdFNCVkllUTl1YWN2N2k0ODM5NFlna3JucnVWbDhfM0lJQ21FOFZ4V2FtNmFNYjFkMDVGcVZWZlp5LW5UU1hMRnA5NGtxRFZwRDBXZG50MDE1VVRZTzF4QU1tS1c3TVd3N2hMTHdwd1N4bXJwbjI4TmxGQnhCTW9SSzFKTUF0LTY5WWdtSHdYZ9IBkgJBVV95cUxPbHo5MFF4V2pDbUtHeXRDdmZwLWhOdnRFWmNicmlrV053VUFsZVRzdzRyVm93RHFRanBoNkM4ZjJsc3oxSlZZUTBSR25wRGRmNDQtNUg4UVVCODNYd0pGTmFCMTVJU1RwX3pDeHlCaE5ybkNBc3B2RWNfdjAxSGNqYng4QWUwYXppbEdVdEhUaDhaRHUxSUFMR0NnSDU4WnhLVjlDOXpvdWR0WmdHY1ZjQ0dLUkpTcnB1NDBXUHpUbzZ6SGxYMnNvTlJPeFdzMDR1VzVLTmtjOTVXNGIzSUNFN1RkWXhFbzN6d2tiMndJY2xldkNVWWFBVkVPVHNJV2VScEpMbjEwUEkxWTZMWEctQXlB?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 20:29:57 GMT"
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU0NjQmlRVVQ0WnFEWXh5YzRBa1NhOFhnNi1IRnRySzJHZnVSRHNxSnlzQkc0a204NmwzQzFnSWRPRy1vU0NGYkpDZ3QyNXhMa01rQmoxV1pWRFhIMXZ3TDhZOG82SE96OVg5NTBMTlBuV0k1OFJGeGJzdWNqS1BEYnNFT1RWbXRES1JreFl2M0xVdE9xTmZBeHV6dVpDX2k1N3ZRQ1plc0tycnhycFlTZWR2TllVNzRoZk51YW1R?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 07:10:20 GMT"
     }
   ]
 }
