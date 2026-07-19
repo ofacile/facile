@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T15:31:42.371609+00:00",
+  "updatedAt": "2026-07-19T17:03:17.402173+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
@@ -14,10 +14,18 @@
     {
       "title": "A qué hora juega España contra Argentina la final del Mundial 2026: dónde ver por TV y en directo",
       "source": "EL PAÍS",
-      "summary": "A qué hora juega España contra Argentina la final del Mundial 2026: dónde ver por TV y en directo EL PAÍS España - Argentina en directo hoy | Última hora de la final del Mundial 2026 en vivo MARCA La maldición del Balón de Oro, otro récord a tiro para Messi...",
+      "summary": "A qué hora juega España contra Argentina la final del Mundial 2026: dónde ver por TV y en directo EL PAÍS España - Argentina, final del Mundial en directo: horario, alineación y última hora de la previa hoy El Mundo España - Argentina I Final Mundial 2026, Nar",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUZsODViSjB1SzcySW5kOU01MWJsOXowMTZkcG91bzgxSDZva0l1YnY1QkdmYk9jd1lvMXlmRk0zY3FERTJYNGpKUFpzaDE3UDhVcWw2UHJwV0lwVEJmWUlHMWpvdXpCOF9YNTQyeWdmRGh1c3hvaWNFZkdmWmlLUVdwMDN4aVlNdXlKYXl5eVRwQnI2ZnhEandrbHItYW53VkJtZVNPbUladWNBWjVHZW52d01Mbkk?oc=5",
       "pubDate": "Sun, 19 Jul 2026 14:10:12 GMT"
+    },
+    {
+      "title": "Evacúan tres pueblos más por el fuego de La Mierla y se decreta el confinamiento en Hiendelaencina",
+      "source": "Europa Press",
+      "summary": "Evacúan tres pueblos más por el fuego de La Mierla y se decreta el confinamiento en Hiendelaencina Europa Press El incendio del Parque Natural de la Sierra Norte de Guadalajara ha quemado ya 13.000 hectáreas y deja 800 personas afectadas y 21 municipios evacua",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTU51TU1Kb1A2SjAxY2JkbnZKZ2JKVVR3c3RLc3hIbUJTT19tRVYxMmJoMzBRanZzX2JyZWVzSFZMSF9Bc0EyS0ladkFiOVVrdGtLTDA0cHl1UzR2aUkwU1pwSlZPb1lNRGZXd3pXeWFJdUE5R3V0M2hsZENHWTlZRFhsMklwQ1E2VG02dG9XS3hKWmIwYjBpNFVmd244eXRNS01oMzRNQzhreWZQenpUQzd5MlotSU55cjBOLWFZOXI4c1FTRUZ1cnphZEZHOWVqaUl5NXFJZldBeTdkdDc0dw?oc=5",
+      "pubDate": "Sat, 18 Jul 2026 17:26:34 GMT"
     },
     {
       "title": "Irán ataca bases en Kuwait y amenaza a EE. UU.",
@@ -25,23 +33,7 @@
       "summary": "Irán ataca bases en Kuwait y amenaza a EE. UU. DW.com El líder supremo iraní afirma que los incumplimientos de EE.UU. demuestran que la firma de Trump \"no vale nada\" RTVE.es La guerra después del Mundial El Mundo Irán promete \"lecciones inolvidables para el gr",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUDdGNnN4akt3cGhicGN4cS14bDZUU1FwdXRseXBFd0p4aDcwOXVnT19DbXAzb2lSakFncTRlV0lqcnNhM016Q210eUJLcFZkdElOMDBLb1BtY0E1MUVBSGtmRENEeHBOR1FqNm01a2E4YWJOMk9namJQNzl6ODN6YkNTNDBkczY4LWfSAYoBQVVfeXFMTVY2aUJlaEY4ZlZZcUwtS0sxemNrNVFoM21Yc18xRS1wbm5KNmxGcTdoV1JENEZJNW8xZWpzV0hIalFLSUItYnlDZ2JYbnJ3VGVaUjdCVEFYUjRyTms2UkhoT3hLdkpMOUoxVkM3WWJiQ2NsdnczLUlheVFVVkZJNjZyU1dPelgySjdn?oc=5",
-      "pubDate": "Sun, 19 Jul 2026 09:01:13 GMT"
-    },
-    {
-      "title": "El incendio de La Mierla ya afecta a 9.000 hectáreas y obliga a evacuar 16 localidades",
-      "source": "RTVE.es",
-      "summary": "El incendio de La Mierla ya afecta a 9.000 hectáreas y obliga a evacuar 16 localidades RTVE.es El incendio del Parque Natural de la Sierra Norte de Guadalajara ha quemado ya 13.000 hectáreas y deja 800 personas afectadas y 21 municipios evacuados El Mundo El a",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVWsxYkttblRQbkZUeXBMOHRrNEM0RUF5OUhLcWF6em1jVzlMSXI0UFpBNkVCZE0xNWF5Ui1oYXVwV3BLZzhYY1J1Rkw0Q014NVktTkQxcEU3eWNDWVM0b3UzTzZ0VWVJQzlNREpYZFByVFYwMWRxRENWb21kNm5mNVZ6LUt4VjBfT2xBc0ZlT2piamdXRXJ3R3BBMXhkR29ldkpFa25Qc0ltRWRlNnQ5MEV4VWFZZw?oc=5",
-      "pubDate": "Sat, 18 Jul 2026 09:41:11 GMT"
-    },
-    {
-      "title": "​El incendio de las Cinco Villas quema ya 16.000 hectáreas, preocupa Malpica de Arba y siguen el prealerta nueve municipios",
-      "source": "heraldo.es",
-      "summary": "​El incendio de las Cinco Villas quema ya 16.000 hectáreas, preocupa Malpica de Arba y siguen el prealerta nueve municipios heraldo.es Azcón, sobre el incendio de Orés: “Hoy es el primer día que respiramos” EL PAÍS Los agricultores aparcan sus tractores tras i",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQamNtOHVQUnNSNEVlMXhPanJfNEJGVWxCVWpvcEdPTHRxb2E0NTBDY2o1NEk0WEhXZFVVYzVtV0tYbnA5V1Zzb3NZMG5WdlMyXzZVMTdpaTByYWVYWnExbmRGQ3EwNlhqaS0wVC11aUVXWVltaF9yTnE5bXZma3pRX1VqVk5PXzFOcEk2MFhKUk5kOGRCSER4WnlDVWZMZTY0Z19GdGpkb0xxOGtmT3J2WlNDZkl4dF9lNkl3NmFXUUYzUkNWN0llbVNOSlVOVjd5SGRGRVZQWlY2WVgzSTBrX0NCV3dNS3hOaE5WaENicTB4bUZJV19ZX1J3a3lmMlBw?oc=5",
-      "pubDate": "Sat, 18 Jul 2026 09:29:19 GMT"
+      "pubDate": "Sun, 19 Jul 2026 09:49:31 GMT"
     },
     {
       "title": "Representantes de instituciones públicas de todo Euskal Herria renuevan la memoria de la abolición de los fueros y del Movimiento de Alcaldes",
@@ -52,20 +44,28 @@
       "pubDate": "Sun, 19 Jul 2026 14:24:55 GMT"
     },
     {
-      "title": "El PP pide la comparecencia de Marlaska y de la directora de la Guardia Civil por un supuesto boicot contra Ayuso",
-      "source": "RTVE.es",
-      "summary": "El PP pide la comparecencia de Marlaska y de la directora de la Guardia Civil por un supuesto boicot contra Ayuso RTVE.es Un general denuncia a la cúpula de la Guardia Civil por coaccionarle para boicotear a Ayuso ABC El PP de Ayuso redobla la presión ante el",
+      "title": "​El incendio de las Cinco Villas quema ya 16.000 hectáreas, preocupa Malpica de Arba y siguen el prealerta nueve municipios",
+      "source": "heraldo.es",
+      "summary": "​El incendio de las Cinco Villas quema ya 16.000 hectáreas, preocupa Malpica de Arba y siguen el prealerta nueve municipios heraldo.es Así se ve desde el aire la zona arrasada por el incendio de Orés EL PAÍS Los agricultores aparcan sus tractores tras intensas",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONllLUEYxR3E1RXB0U1UxVEJUNHZxWTdCbzl2akdoSVZHcDM4Uk5HMU1ONndQWlVIUC04RUJlZER3R3pHdnZ5bTdwRUw2U3RnY0I3S1g2TkkyU1Qtay1XendPS09LQUFFWjZjbkhudEp1Y2NoZmdZdEsycVZULWZpeG9kVS1ZTWpDRXdGLWZGV1BTOEx5M2hfaVNtSGFRLXZwNFJGTVhOSngzYVFRMkUyVjlWeDBBZw?oc=5",
-      "pubDate": "Sun, 19 Jul 2026 11:07:48 GMT"
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQamNtOHVQUnNSNEVlMXhPanJfNEJGVWxCVWpvcEdPTHRxb2E0NTBDY2o1NEk0WEhXZFVVYzVtV0tYbnA5V1Zzb3NZMG5WdlMyXzZVMTdpaTByYWVYWnExbmRGQ3EwNlhqaS0wVC11aUVXWVltaF9yTnE5bXZma3pRX1VqVk5PXzFOcEk2MFhKUk5kOGRCSER4WnlDVWZMZTY0Z19GdGpkb0xxOGtmT3J2WlNDZkl4dF9lNkl3NmFXUUYzUkNWN0llbVNOSlVOVjd5SGRGRVZQWlY2WVgzSTBrX0NCV3dNS3hOaE5WaENicTB4bUZJV19ZX1J3a3lmMlBw?oc=5",
+      "pubDate": "Sat, 18 Jul 2026 09:29:19 GMT"
     },
     {
-      "title": "Suben las temperaturas en la previa de la ola de calor: 12 comunidades autónomas están en aviso",
-      "source": "LaSexta",
-      "summary": "Suben las temperaturas en la previa de la ola de calor: 12 comunidades autónomas están en aviso LaSexta El calor persistirá en todo el país este lunes, con siete CCAA en alerta por temperaturas que rozarán los 40ºC El Confidencial La Aemet lanza un aviso espec",
+      "title": "El PP pide la comparecencia de Marlaska por presuntas presiones a mandos de la Guardia Civil",
+      "source": "La Voz de Galicia",
+      "summary": "El PP pide la comparecencia de Marlaska por presuntas presiones a mandos de la Guardia Civil La Voz de Galicia El teniente general Luis del Castillo, 'el Puñales' de la Guardia Civil que presionó para boicotear a Ayuso ABC El PP de Ayuso redobla la presión ant",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTDZJdTh6YS05MFdha09vaF83YVdtVFJiYlRYQzJoSTQ4eWZmbWRyRno0MFhUaDdtcjhaeEYwZXVHdi1jd0JwWFVFTzlwMG9QUFdSaEJUazE2UFJubUZFZm53RnloYVZfaUFoM0F4Ykstd0hlLXNLLVlaZDktNTRmTTFlc05vUkM2d0trR3E1UzJfWHd5elpCNDlUbi1TQkJYOWg4QUg5elI0TXZ0ZE9HT2xvMnR1WmpRRTM1Q1U2UmJNbUo0WlhXbEVKcXVCOWVVdmJkM1RMb1ZrSkkyZjlTcWF5V3M4SmZi0gHoAUFVX3lxTFBrQmZ5U1cwWUMwN2Z6eUtsQzVjUUcxSWEyajFBN1Rpd2hzc2ZkU2JQS2p6dWxTOWNZTHIxWmV3MDdwYURKQlU0Wml0ZWh2RWdrZk5ldlJFVUhRN2ZzTkxOMlpoRDJ1UjNtN1pzZHBzc2s5TlV1YlRTZ3RqcjBQTHhkRUpSbHF0TTNnVTd2bEthdUpZQ1ZibEo3RDJuS2NaQkhJaG1Ld3Y2Y04zS1BKQTVrcE9wSHNtbHpKdGdCd1VocEhESnJibnZFclJndTg0RlN2QnRvLThhV0lWLVBVVmR2M1JYYmx5TlU?oc=5",
-      "pubDate": "Sun, 19 Jul 2026 08:25:08 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVE54WXZSOTlLeXlYRnFyMGpXM0JtVHYzem9BeVBud3NRUnZ6NGZsUlRlRzMta25fQXBvaHdINlhDM016ZnBsUGozcFdTQlhjUHgtUGFIUE52NnRTT2M0dkZTQ2RQU0FhV2RsaFh0YTR3VUZkaVZWdDh4VlV4UVY0MnBZN192YmcybGdXOUtIcDlWMGVyMmlDaWkxcXgyclZrVDZSZVZRenJfT1ljRldHdzF6Z09ETFg5T2UwRmVzel9faENKRG9leVdndHRpOUFEVWlLSDdLTnlnbUo2Qy1FZV9OdXdUYXBOV1NF0gGHAkFVX3lxTE1wTWdURTJDUzI1MUgyblpfRGtsM2hpVmpobjlZZ05FZDRVdFJpdHF1MjlLbENBMERsMmRNekRldkJabmNfNjFQWDRBZkgtelM0TEJwdXI1YzkxNzA3VWZkMTdXNEItVEE0bXppVXZleEdGWUJPc2VnczlId3lIcFV6cGN4Y0U4VUxaWEMwbEhrektZSUFYZXp5TlNLd3RFVHAxSkhZZDQ0c1U1YzN4WkpWWjJxWVlqSFUwcy16N2M3cl9fcFZ1VlA3ZnBzdmFvdmdZRG9xbnNKYmg0QkpPaDVmSVZnZVlIX1JYUEstQV95YXhhaG84TDNRUm93OHphV3pENG83TFRn?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 16:50:02 GMT"
+    },
+    {
+      "title": "La Aemet avisa sobre la llegada de la tercera ola de calor del verano: ¿Afectará a Gipuzkoa?",
+      "source": "El Diario Vasco",
+      "summary": "La Aemet avisa sobre la llegada de la tercera ola de calor del verano: ¿Afectará a Gipuzkoa? El Diario Vasco La Aemet lanza el aviso por la tercera ola de calor del verano EL PAÍS El calor persistirá en todo el país este lunes, con siete CCAA en alerta por tem",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRWFadnBzU2NlTHdVVGJMZGhWMGUzQjRUSUdIaXJVVFVvejR2OG5LOXdsMUJNTTY4cUdRbUd2SjBzbElibHFHOUtrNEtzVlJvYW9TX091NkwxaDRLUThKa0dKLXdCVm5xZDRRZkVFaVIxNEF3ZnRFZnVXUzNBTDJNYmdXX1N4MlcwenhjOUFwdEV5QU44WUlmRlpEbHZJM3Q5aS00b1Ztd2VFUGZpNXZLNTFEMUJQMzEzVk9aVtIBwgFBVV95cUxNeFE0TUNCdk5ud1NwQzl4WWYtanE5M3JtMDJ4MElSOGhsc3lJRDBndGxvd3JoZE9KTnB6S2pSRTRqbXA4aUdFZTlhRnhuR2k3bU5QcVdSWll0RndpemVkWnNnaU1UenFVUzg4c3h5QVRiQWljV1ZoMUI4bnJTckNUaVNpLXJJZjhzZVdlRV9nYU1nZTdjTVBqZlgzRVhHMmZ0MVBUOTRLYklIUTFxa2Y2TlJySk1JSEhfZy1mdVRhNzhCdw?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 15:19:44 GMT"
     }
   ]
 }
