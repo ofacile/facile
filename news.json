@@ -1,28 +1,36 @@
 {
-  "updatedAt": "2026-07-20T05:08:21.536276+00:00",
+  "updatedAt": "2026-07-20T08:25:35.911636+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Reyes Maroto se impone como candidata del PSOE a la alcaldía de Madrid frente a Enma López",
-      "source": "EL PAÍS",
-      "summary": "Reyes Maroto se impone como candidata del PSOE a la alcaldía de Madrid frente a Enma López EL PAÍS Reyes Maroto se impone a Enma López en las primarias y repetirá como candidata del PSOE a la Alcaldía de Madrid El Mundo El \"sanchismo pata negra\" se impone en l",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTzFfUDNnUWRfT0xMUnhYc1RGcE1LZ1JkTkFHdzY3N05QOGhqaG9QSmUyVVpFRGJJaFdWS1FZX1R4dENPWkVJNjB3RjlDb1RZLVVtTGtZVGI0aVhzajgxc2NWZk1BdTRhMkJzaDdZZjM3V25zSHM5RDFSWU5BYXFOSG41VmwwN3phWWNtNXQ0em1VRzJoNWpNWXl0am9XVXd5U0gxeExRaFJtV2NRX1NpS2prdWtidDBOT3lsUWNaaTJTSGN6Wk9Fa1VxcFB0NFluaC0zVVdR0gHqAUFVX3lxTE1XenBUeDBObTZ4ZW52cmU2V1BXNmZTekIzYmRrN3p0Z3dGNHdxTUlFb0h0NDF3UkRTc20td1NxN3VlV3RqYk9BMWxLM2N3TUdQaFgwd1U1WHcwYnhfRXZnelYxRG5kUVJaMXBvenJqSVdGY3R6Ukd0M1c1MHl0X3ByVlpLSUVEOEwxNFQ5NUViUXoxTm1JZDRjZFZjcldtMWV3R0tpTk92Z0lIUk83Ty1Oa1E3QVIzLXAxY3dEUlpsUlc3QXQ1djJYZVZpUDdOLUZORVpxRXJRaWpyNTR4SmxwQWtNR1NHWjFuZw?oc=5",
-      "pubDate": "Sun, 19 Jul 2026 18:14:23 GMT"
-    },
-    {
       "title": "EE.UU. bombardea Irán por noveno día consecutivo",
       "source": "DW.com",
-      "summary": "EE.UU. bombardea Irán por noveno día consecutivo DW.com EE UU redobla los ataques contra Irán tras la muerte de tres soldados EL PAÍS EE.UU. ataca a las fuerzas iraníes que mataron a dos de sus soldados en Jordania RTVE.es La guerra después del Mundial El Mund",
+      "summary": "EE.UU. bombardea Irán por noveno día consecutivo DW.com EE UU redobla los ataques contra Irán tras la muerte de tres soldados EL PAÍS Guerra en Irán, en directo | El precio del petróleo supera los 90 dólares con el incremento de la tensión en Oriente Medio Exp",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY1ZLT0NNS3IzdWFJMnkxSzVaZXI4TEo2UkVzR2tnbFNyZmZjWW9pcTFwY3hPQ1JpU0VxNHRIYXE3STctX25hVTR0VjloaG1HQnktVTVfTkdENGI5VHRobzV4VXI4RVlJWFFyVm11TVBEcU9RaGlybEpGdjZieTNLbXFmRUlwMzV5YUlmYjZxY2xVaGPSAZMBQVVfeXFMTV9zRFlndFFnQ1JsUGFwRkJyRlhSSWVxclFSQTFDWVA1TERyYkNScGJQMHBzdDg4eV9IckN6bnhZLVNsUzZ3eFFPOV9sOWdWaXVCbUdVZmlPa2hnTEE2QWdVbjFzZjBfaFM0T2h3VGVxZDE5YmhCYjZjbk1Hc011VUhqdmg2dlJydm5jeDB6bi01cndv?oc=5",
       "pubDate": "Mon, 20 Jul 2026 01:50:33 GMT"
     },
     {
+      "title": "Reyes Maroto se impone como candidata del PSOE a la alcaldía de Madrid frente a Enma López",
+      "source": "EL PAÍS",
+      "summary": "Reyes Maroto se impone como candidata del PSOE a la alcaldía de Madrid frente a Enma López EL PAÍS Reyes Maroto gana las primarias del PSOE y será la candidata a la alcaldía de Madrid en 2027 EL PAÍS El \"sanchismo pata negra\" se impone en las elecciones del PS",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTzFfUDNnUWRfT0xMUnhYc1RGcE1LZ1JkTkFHdzY3N05QOGhqaG9QSmUyVVpFRGJJaFdWS1FZX1R4dENPWkVJNjB3RjlDb1RZLVVtTGtZVGI0aVhzajgxc2NWZk1BdTRhMkJzaDdZZjM3V25zSHM5RDFSWU5BYXFOSG41VmwwN3phWWNtNXQ0em1VRzJoNWpNWXl0am9XVXd5U0gxeExRaFJtV2NRX1NpS2prdWtidDBOT3lsUWNaaTJTSGN6Wk9Fa1VxcFB0NFluaC0zVVdR0gHqAUFVX3lxTE1XenBUeDBObTZ4ZW52cmU2V1BXNmZTekIzYmRrN3p0Z3dGNHdxTUlFb0h0NDF3UkRTc20td1NxN3VlV3RqYk9BMWxLM2N3TUdQaFgwd1U1WHcwYnhfRXZnelYxRG5kUVJaMXBvenJqSVdGY3R6Ukd0M1c1MHl0X3ByVlpLSUVEOEwxNFQ5NUViUXoxTm1JZDRjZFZjcldtMWV3R0tpTk92Z0lIUk83Ty1Oa1E3QVIzLXAxY3dEUlpsUlc3QXQ1djJYZVZpUDdOLUZORVpxRXJRaWpyNTR4SmxwQWtNR1NHWjFuZw?oc=5",
+      "pubDate": "Sun, 19 Jul 2026 18:14:23 GMT"
+    },
+    {
+      "title": "Las imágenes tras el pitido final: de la alegría de los jugadores españoles y la familia real a las lágrimas de Messi",
+      "source": "RTVE.es",
+      "summary": "Las imágenes tras el pitido final: de la alegría de los jugadores españoles y la familia real a las lágrimas de Messi RTVE.es Una victoria por aplastamiento: el brutal 12-0 de España a Argentina MARCA Luis de la Fuente tras el triunfo de España: \"La felicidad",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYXh4X19vMExHOUlKaFl2UTdud1BYa2haR2JCUl9obTktbkpMOF92REs2S2pmX2QwTlJSSXJmeWdaQnczWTFDYXdfM05PelQwWXhaRTVpNnFNSjVUOTI4VDhRQUpmaTlJN3poNzlFVWFwVG1XQkM2dEJjbndkd2Q5R1FIMWNETk5QbDZsRGZVa3lnNmIzeHBmeE4xajlxUmNCbmJr?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 04:32:39 GMT"
+    },
+    {
       "title": "Última hora de los incendios forestales - 19 de julio de 2026 | Estabilizado el incendio en Orés (Zaragoza) tras quemar cerca de 15.000 hectáreas",
       "source": "EL PAÍS",
-      "summary": "Última hora de los incendios forestales - 19 de julio de 2026 | Estabilizado el incendio en Orés (Zaragoza) tras quemar cerca de 15.000 hectáreas EL PAÍS Azcón, sobre el incendio de Orés: “Hoy es el primer día que respiramos” EL PAÍS ¿Está Aragón ante su prime",
+      "summary": "Última hora de los incendios forestales - 19 de julio de 2026 | Estabilizado el incendio en Orés (Zaragoza) tras quemar cerca de 15.000 hectáreas EL PAÍS Así se ve desde el aire la zona arrasada por el incendio de Orés EL PAÍS Protección Civil permite volver a",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWXMzNTBDV1FMSTNwenVsWFJDa0RUMFBQWXRncGxFakZ1eEVEODIyM3ZNa05VbEQwTERlNjZOMGR5OW9xOXlVSFFwZFBUSGJ6a08xTF95d1BoRkx0R25JaHB2RXFfQndueFdHekt3NC03SERyUkNhTnMweGF6NDhGZHlVUnhRaEViT0RpWVBCQ09Fbmw3bjg40gGrAUFVX3lxTFB1LV9vc3dxOS1zRDZfMUZNUHJPWUlJU2ZQLWh0eFRyalFmNlBTN1NubjczTG1HMUo4WUZwakhZOUJGc1MtckdLUGV6Njl5MmE0SkpPN3Q2OGtkb1MtQm1JTTJpdDZvQy00Zk9Gb3hDcXFKejRxTVp6WS1MZ0ZmcWw4RGJzdGlCR1pRb1hHeDFNYW1GS0Q4SVY2MlVEeWtCbjJ2T1k2VlhaRXhSSQ?oc=5",
       "pubDate": "Sun, 19 Jul 2026 19:54:26 GMT"
@@ -36,20 +44,20 @@
       "pubDate": "Sun, 19 Jul 2026 15:40:30 GMT"
     },
     {
-      "title": "Boicot de Argentina a los reconocimientos a España en el Mundial 2026: así ha sido su feo gesto durante la entrega de trofeos",
-      "source": "Cadena SER",
-      "summary": "Boicot de Argentina a los reconocimientos a España en el Mundial 2026: así ha sido su feo gesto durante la entrega de trofeos Cadena SER España habita la eternidad EL PAÍS Las imágenes tras el pitido final: de la alegría de los jugadores españoles y la familia",
+      "title": "Sánchez busca en Argelia cerrar la crisis por el Sáhara y garantizar el suministro de gas ante el bloqueo de Ormuz",
+      "source": "RTVE.es",
+      "summary": "Sánchez busca en Argelia cerrar la crisis por el Sáhara y garantizar el suministro de gas ante el bloqueo de Ormuz RTVE.es El deshielo con Argelia entra en su fase decisiva de la mano del gas (y de la visita de Sánchez a Argel) EL PAÍS Sánchez, del palco a Arg",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQN0wwUlE3blJTaDNyLW42YS01VkRpdWdJeFhhdUZLZ0pvTkZ0Z1ZyT2QyTHU1ZEpTaFRMeXpscklXRjRjOUtkbUFfdWI4bEdjUlRjdHpIaHdibHRKeDcxdzJUY2V2WjMzelk2ZjRoZWF4WkI3OTd5U283Tm9JR25SZDk0eDc4UTRPR3JnZE1XQWZIaDgtNFFpNWVhR2hteGx1OVVuMWtTT3h1elFvRVNjUlZPeHM2dWdPSW0zTHFfYlJFWWJCNThZNUIxZU5Vb1JrQnQwYTBJY2tmeXRyVEJGNno4ZkNkckFxSnV6TEZrX3BfekpDT0dFYVNnQ0dXMTlrRjk1WDRVc2VMQdIBngJBVV95cUxOdVl1eDlQU3RKRFhBN05XZG1rMmxMejNaRnU3RXZOdEJVal9TNjhvTHVPdkJLU19KRnJ2dThlN0dXOUhvcVBYUTVsTEZ5Wm9CbmdxYXg5OUh0UVc1RDlyT3lodHBJU0Q3TkdNdFFNdlNwLUVwMWpCNDBCNnFwOTNMSDEwMFhuNFROZ2lMMS14RmQtVWJPUTlQSUhkV3lYZVdOR2szWVZuZE00bThRM18zMk0yTlpYWHdENlBseUY3bzUteXdWSnNHNXNUdEp4MTlNUV9oX2pvN0NrRmRpWE9zUHE2M19ZMnBDc3ZqbS1GeWdMR0E1Qjk0UkxOQ2w4SWJ1WjBfMU42b3Nqd2tNZVNyR2tvc08yR0FBVXczQVp3?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 00:37:28 GMT"
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbFV2QkhUV2pOWHZyYVc1cS1LRmJ1NzFOdDlvX0s1Q2MxSzEzM2tvN3JDdlhFNDIwMmp0anJva3B6MVc0OWRMaDdCQ3BPZ2ozREFsQWNZSVhiNDRwQXpFVHZCRmlEcXFQb0RwYS1JeGdXRXBzSHhCdEkxaUxGc1lOVnpmcWxfNjRfc1JncWlLZlFSUUI3?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 08:04:29 GMT"
     },
     {
-      "title": "El presidente de Hungría firma la reforma Constitucional de Magyar que le destituye",
-      "source": "EL PAÍS",
-      "summary": "El presidente de Hungría firma la reforma Constitucional de Magyar que le destituye EL PAÍS El presidente de Hungría firma la ley de Magyar que le destituye del cargo La Vanguardia El presidente de Hungría promulga la reforma que acaba con su mandato pero carg",
+      "title": "La votación de la senda de déficit pone a prueba otra vez la sintonía entre PP y CC",
+      "source": "Canarias7",
+      "summary": "La votación de la senda de déficit pone a prueba otra vez la sintonía entre PP y CC Canarias7 El Congreso vota el jueves por segunda vez la senda de déficit de los Presupuestos sin mayoría para aprobarse El Economista El Gobierno tirará de los objetivos de déf",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa21GemFwbzBmc2E3MXFLUEJuTzFsc25ldGVmYzhrX0kxY1dxcHVTZ0NQbF82eExscGVCbjdhQjVuNkJnZFBEMy1hLWFudWozeXNvWXhnWFJwYnR2b2xVZG0zVzVpSFozdHpWZ1B6WF9uV1d3U0JXM05RX2NyTnc1SkNTUTBlV3d4bFlnTnNEQ2RObl9NZi14UlExZEExeDhLd0tCN3BtSk5HaVM0R01ITmxwLWNHb2xkMElNU3hmb2hBamtFbWRRbURNdHg?oc=5",
-      "pubDate": "Sun, 19 Jul 2026 06:33:17 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaV9sOElVNGsyWlVrOVUyZW1TSW9lbFVrNDhFbzY2X3FkNHFwR0lYVkFxUXNsVXk2VndabFNKbkJiSnE3M3pGTUZfMXNFTXJXd3E4bjV0OWM3TTJLTThkbkxPaU9HMG02YkxuNDBqTGJGcTFPTHRKR1VxRmI1UXFMZGxBSDlkc3NnbVlSSGtDQVltTHJmNEpIOFkya3dVMU1zYU9FS3ZJUdIBrAFBVV95cUxNd0V6Y0ZMOFZseEZoTmZfbVBzOG94dkNTMTQtaG9EX2NoVjE2RHBxNG13Q1dXV0E3RHFaU0hRSHlFN0pLSzRvT0FaSUpHdTFQLXFBdE5fYmRvU0c5RVJyUHpQNDAxNjZLZGpzWWhBVnVyMW42M2lRRlF2UVBHRHhoMlduSGNacF9IVFFpUWY3QzJ6czJvU2FicUlOc2Q1dURfUXotZ0g2ZFpSWjFB?oc=5",
+      "pubDate": "Mon, 20 Jul 2026 05:00:11 GMT"
     },
     {
       "title": "Rita Maestre: “Es importante no caer en la teoría de la gran conspiración, pero tampoco ser ingenuos”",
@@ -57,14 +65,6 @@
       "summary": "Rita Maestre: “Es importante no caer en la teoría de la gran conspiración, pero tampoco ser ingenuos” EL PAÍS",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTmtvU3k3MDhraDFXMDFwME50MTNTb210R0hKekVwSUpVNl9vZVNoTnh1bTdkRW1URVAxeUJ3NEljMEIzV01JZHRMQ2ctTWNzYy1jUWpBemZoMXB1QUN4Z01iLUJjaUtNSTh2b2lEQmlPWjN2SnFkajZzdkZGaHlCQ3NEYWtYSVptelRCTjJlbnZ3RkJfVzd2R2o4eFRCSkdULTdnU1pTSHp6WDZ1WUwyRmhoaUh3UlgxbVZ0dUpHb3RWVUZ5c0FkUHNEQTZ2UlJjclpNaUNn0gHqAUFVX3lxTE1vM0sydkhoVnJscTNTRXFBWGJHZjViY01YRExFcG9NRGtTMFVvalROeHV0OUhfNFlfdEFPNUlyc0dkMDByMEJsMUQtbjJ0ek9MaVdiTG5XUU5jWUJtR3AzaHJEVUt4V1FYMC02UmpJMFl2TTJIbTRiR2VtYlVxU3d2S1JyV1YxSEt5QXR2dTZtRTR3Sk1yUHQ1WFdrYmx5ZThzc0lubzNuYnZ0cnJYeUVvSGlXX3U0SW9vTUh6b1ZoNFhjQXdNRGNpRjFWVXRjY1JSbVlmdkxQSXdvYXZGUjVrV2FXOVVrNm9Jdw?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 03:30:01 GMT"
-    },
-    {
-      "title": "El año frenético del Senado: de las gafas de Sánchez al váper de Arenas y las 40 ‘leyes Feijóo’",
-      "source": "EL PAÍS",
-      "summary": "El año frenético del Senado: de las gafas de Sánchez al váper de Arenas y las 40 ‘leyes Feijóo’ EL PAÍS",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX1Q3UURDNmJfNGg0bGhGaDBwOWQ5czJneHg4OWdDSERuTnJRVTNUbGEtMXg3OEFPQmlPb1hnRlB4clppc3UxVXoyN3lIZXQ3aTRiblFzNWN3SFZ3UXZldFhiM1pxblR3UF90NkNxazdOTjgtSmxKR1lWRXY0Uzhyd0EzdmpqMjdUcWV4TU1yMjFOdFJYSVpnUVUzOVYwQmY2dEF4bHU0Y1p0YUZiMFFINTRra1lsV2tFMDJFZHlmN3lNT3Y3ek82ZHBmNGFCSWfSAeMBQVVfeXFMTXFYWVJxaTllMzhmUEtjWmdtRnJRaC1hRGNTVlg5Nzd2dDQxd2RBMExpaTM1TXBtZHJTMzBQT2oyYWRtTlZ2QWhCZV9sQ1M0dzBQRkVaX0IzVTdCdlFoX0xzcnN3dFJjWmNUc1RnVFZYNF9yLTdyaElpTEJQOFhXY2tqM3gzTzhveVlNbTBkaUJOVmJkbklWa3NITVlxbjkxV1g0SGJEQnh4V3liSXpUaHVQeG02WFBRNHdCcDMwT0w2Yk8tSmpzQ3VaNHptaS1uTjYtRm8tQVFzNFdUM01FSWlvVHM?oc=5",
       "pubDate": "Mon, 20 Jul 2026 03:30:01 GMT"
     }
   ]
