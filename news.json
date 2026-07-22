@@ -1,23 +1,47 @@
 {
-  "updatedAt": "2026-07-22T18:16:01.188287+00:00",
+  "updatedAt": "2026-07-22T19:53:30.470814+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Pedro Sánchez reitera su llamamiento a las fuerzas políticas a unirse en un gran Pacto de Estado contra la Emergencia Climática: \"Es imperativo\"",
-      "source": "La Moncloa. Gobierno de España",
-      "summary": "Pedro Sánchez reitera su llamamiento a las fuerzas políticas a unirse en un gran Pacto de Estado contra la Emergencia Climática: \"Es imperativo\" La Moncloa. Gobierno de España Sánchez pide un gran pacto de Estado sobre emergencia climática en su visita al ince",
+      "title": "La Comisión Europea señala que corresponde a los tribunales españoles \"aplicar la sentencia\" de la amnistía tras la denuncia de Puigdemont",
+      "source": "elDiario.es",
+      "summary": "La Comisión Europea señala que corresponde a los tribunales españoles \"aplicar la sentencia\" de la amnistía tras la denuncia de Puigdemont elDiario.es La Comisión Europea se limita a confirmar que ha recibido la denuncia de Puigdemont: \"No tenemos más comentar",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbkVxcHk5QnB2RmdxcmU2TkkxOTM1WDZpMUFtdXlqOUZmWHlEeURQRHo2dUM2OHE5YlJKblVOUVhxZ1FGWVF1eUJZaG8wNDJnQkFrb1I0Y2Z6TDF0SUlqSk92ZjctU3JSWDVLQ3lYMUNiQVI1VWZ6VkRCamRUTENnTHN4YjlCT3l3RmpGZkkyWllIang0aGZ2NC14cWVIY3B1eWY1V1JqZEpEZklSakFPR09zRXFsVUVZd1pyaw?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 14:31:33 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRnpZQVBQb09SZ2NWSzRQY004cUZMcHBsTlZHQVYyT3RaWDk5YWNHMHdkcndEaVdDWllNRTBUM2tsb2RWckU5LXl4cC1ZY3hVdVdxYnJ6TTFGWlNjdlc3c2F3Z1BYMDRoaDRhc29JakpfcHJxUjVILUxEOVFCUWkxOXRyN0hPb28xM2hnY3B4NHRwUF9SS3hNaUdWdXRMWm9lU0dONEx6aWo1cnUzQmoycHRxc0tZMnJ2UVNyTUEzNFFpeDhtTnBETHM3ZkMyVTNFVXBuczFhOHp6c0RocjVTUlFsdWIzMk1t0gHuAUFVX3lxTFBmcncwdDg1ODM1NzREYVFvSTZ6RXVtRUhRTmdkX3F2TUVwSzRFbjBPMUlGRkFjWUpYR2swakdoNm9KRmVtRXoxWVJod2NGaUR0cHU0bzRTLUI0eUl5RFpBMkxBTUwxdVo4eHN4M0haYkd4LUpoSGxOTC1HOHIyWmhDVUlDNEFSRDFPTEt6cEpCUV9vd2FiVXdzZTJDNE5wejFicG9LRmthVTVYMWNJYnFYQ2VfaldLVF9HUkVpZTVOQmNhVUd3QndfNDJ1c212V3RkclF3S2xFR0J3WHY3Y25vUFFvaXVZNm13cXc2R0E?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 13:58:37 GMT"
+    },
+    {
+      "title": "El PSOE responde a la \"cuenta atrás\" de Feijóo para echar a Sánchez: \"Solo transmite ansiedad por llegar a Moncloa\"",
+      "source": "La Razón",
+      "summary": "El PSOE responde a la \"cuenta atrás\" de Feijóo para echar a Sánchez: \"Solo transmite ansiedad por llegar a Moncloa\" La Razón Feijóo promete una “limpieza total” en el Gobierno y espera votar “en más ocasiones” con Vox y Junts en el Congreso EL PAÍS Vicente Val",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTm43c2FMQUVjOVlsdEhJMG81bDVvby1aVFBnWmhONE4ySXBHR1JqWEViR2RnZzF3YW5nX1pleEZVVXFZdUJxVkp0RDN2RDdITWRaNU5VSWdVdjZidFpFLUhlbmlicERnUE1ZUU8yLTdnRmdsSVBsVUhzSDkySFg3VFNVcnl1NlBrdHhJdEdneHRSSkpmOU5qTklDUklSSDJMbGVON0g2MnJGNkdyVG1UNVBJVHVGOXhRSmRTclQxOVNvS0xsQWVBVzhkQXVDQV9MelRKRmpfdFVnaUtWRG5qT1ZuMHNXMkdCT2fSAf4BQVVfeXFMT19iRUpqNE93aERtaVdJZE5ORlg4ZjVYXzkwNHppU01jS1RsMlpKMmtxdTY4WjF5alN0OE1uNGpORG4zcEVXRnFtbnlYZHd0bTA0czIxckZUN0d4Q1BZVXRicmlfckg5eU9vYTVyNFVmbEdBcWx6aUdnQ3B2U0FIVHltcTdRVlJZMVJ1VllXSWdWTkRENG1ITXFKei16NEZ5Sm5MMDRsNGRrdmt2cVZEeHBYR0dENWM0aFh5SU9DWnYyMUR1LXRwcFpTYUN1U0ttSHp4alNVNHBRNV9nQ1I3X3k3WTByTXBsQmZWaVpybll1X0pha1lnOE83RkVQRHc?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 16:54:28 GMT"
+    },
+    {
+      "title": "Javier Ruiz logra la exclusiva del momento en TVE: José Luis Rodríguez Zapatero será entrevistado en 'Mañaneros 360'",
+      "source": "El Televisero",
+      "summary": "Javier Ruiz logra la exclusiva del momento en TVE: José Luis Rodríguez Zapatero será entrevistado en 'Mañaneros 360' El Televisero Javier Ruiz entrevista este jueves a Zapatero en Mañaneros: la primera vez que se sienta en un plató tras su imputación El Mundo",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVnh4UlVtbFZvOFFhOG10T3d4MUNxa2JGcl96aUNjS3BSOGFqOE5Eb0plYjI3V1QwWUd6LUctc1cwNVZYZXhhUnlwRHJKS3lfWDFjd1dxSFBuZmpnc0FlcGJYYXd6M29iYmtQX1ludVZHa2o1M1hTazEzaGx6M2RMS2ZtcEl2Z2I0YktOZTZjeHo5dDZyOC13UVNKUktsSmJWYWlFeE4yQUV0dU5hOC1veUNyaEE3TG9XTkI0enRYeGRmREdCRVBjaFYwaHcwN0tuT0hvZGUxWlEtVUVtSDhCRXJMdHlWcnBLYjNWU2VlRWJrRTQ?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 17:19:23 GMT"
     },
     {
       "title": "García-Page avanza el regreso de los habitantes de varios municipios evacuados por el incendio de La Mierla, aún “en fase de estabilización”",
       "source": "Gobierno de Castilla-La Mancha",
-      "summary": "García-Page avanza el regreso de los habitantes de varios municipios evacuados por el incendio de La Mierla, aún “en fase de estabilización” Gobierno de Castilla-La Mancha Ver más titulares y perspectivas en Google News",
+      "summary": "García-Page avanza el regreso de los habitantes de varios municipios evacuados por el incendio de La Mierla, aún “en fase de estabilización” Gobierno de Castilla-La Mancha El incendio de Guadalajara entra en fase de “estabilización” tras arrasar más de 32.000",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQTNJRm43Z29PR1hMcDlfSGlKcDRoMS1GNkdtRUNfMFpOejdtUDc1Z0ZDTWxLSHpTQm9hVUtaejA3NmE1SGd4cFAydjNrT3JwcllFTGctVktNRjFMTVBGUDNHTG9meFdrLWxKelRGbllaWGxraEJZQ1R0M3VnX3J1aFIzY2hDSkJfS21rUWRycENWT2xheFZGN1ZqVEhPRkUtcHNmcVBVWk1tT3g5UGRxMjZIZjFVeG5MdUNhUEJXTU9Fek5rcTEyYkhZX0ttQkgtR0JEN2w2dGdpalJsbDF6VllBbVpObF9GT1pLRVNB?oc=5",
       "pubDate": "Wed, 22 Jul 2026 10:46:42 GMT"
+    },
+    {
+      "title": "Evacuadas dos urbanizaciones por el incendio en el pinar de Almorox, en Toledo, que amenaza el sur de Madrid",
+      "source": "elDiario.es",
+      "summary": "Evacuadas dos urbanizaciones por el incendio en el pinar de Almorox, en Toledo, que amenaza el sur de Madrid elDiario.es Desalojada una urbanización en Villa del Prado por el incendio declarado en Almorox (Toledo) El Mundo Un incendio en Almorox (Toledo) llega",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeTlMQUlRMEZvM0tLSFV2SWktdzVoS2t1RG45VWttUVNMUUZjakdQUkdEaUVEU0c5cHdZQ2JFakpPdHUyclFyQW5taGplTG14Tm43SndNN1hBYm1zY0ViUExfcTRibmtTNEhiVTlseVQwN0liRUlIZE8wS1h2U1JOSDFkQWJJNGN4SENrNXJMRzRUcVJwV3hWRml0aHdrQ1N0RU1oYkJqZGxVTnZBM01RY2pJdHdOb1dHTHhWdlFaQVhlTDdVc2F30gHMAUFVX3lxTE0xTmhUazZFU25YZngyaEtIZEo4T1lrVHk1akJyU2NnZGtid3JucEJ6VWJGY3o4S2tmN05PU1lLZkZ0RFZ0QzV5R1hMYzZfVU9ZM0J1TVhraGtycnNnR1laZW1DYUl3X0tncG5xNk1CWHNwUFZHZF9MUGFvMHNHWkFmTWhXOXpvQnpkeVhfVFNRYUpGUlRncklBSXFuN2V1QkpMSWlXWWdiNzhjMC1OVmZMNk1LVnhjaGoyQmZmRlVZaVctQmZuWV9SanZNOA?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 17:15:09 GMT"
     },
     {
       "title": "Zelensky destituye al comandante en jefe de Ucrania después de días de protestas en las calles por el relevo del ministro de Defensa",
@@ -28,44 +52,20 @@
       "pubDate": "Tue, 21 Jul 2026 23:33:12 GMT"
     },
     {
-      "title": "La AEMET activa dos avisos rojos por calor extremo para este jueves: se superarán los 42ºC en dos comunidades",
+      "title": "Hosteleros y clientes reciben con división la prohibición de fumar en las terrazas de bares y restaurantes",
+      "source": "RTVE.es",
+      "summary": "Hosteleros y clientes reciben con división la prohibición de fumar en las terrazas de bares y restaurantes RTVE.es Aprobado el proyecto de ley del tabaco que amplía los espacios sin humo a terrazas, playas y otros espacios al aire libre Ministerio de Sanidad G",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMnFDSWluQ0RjOW0wZ1Rfbk16SkxGbTZnNHZncldsem1vVmV2RngwTEJGV3dhb20xc1ZrRXFIeUoxbUhLanVKazloTVBkZWZRUDNodzg5YWpGbXZCaURUV0dRVGZadElQVUlGZUxRR0RCamh2ZGJsNEJwbklxSFlLWm1laHZkckh6Y2RjU3FSTXFmTlpwNGJVcWcwTWo2emUwX1BTVUdrNk1sWWhZSzVtX09oRWl2RGctQTJZT2VYX21PNW1zMkE?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 14:24:14 GMT"
+    },
+    {
+      "title": "Murcia responde a la ola de calor con verde, sombra y transformación digital",
       "source": "Cadena SER",
-      "summary": "La AEMET activa dos avisos rojos por calor extremo para este jueves: se superarán los 42ºC en dos comunidades Cadena SER La alerta roja asedia este jueves el sur de Valencia y Murcia con temperaturas de 44°C La Vanguardia Aviso rojo por calor extremo: más de 4",
+      "summary": "Murcia responde a la ola de calor con verde, sombra y transformación digital Cadena SER La Aemet activa la alerta roja por calor extremo para este jueves en la Región de Murcia La Verdad Previsión meteorológica en Murcia: alertas por temperaturas máximas y tor",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQWXl6MzJXanV0TmpRVGw4UVdQOGlOZkFZbHVhbFJ6MXhtMWU0S2o1QUpESGVGcVZBdi1DSFFCYjBISWxpZThDcmxvOFlWNkt1dlNRb2JULU44eF9RQ1gxVnYtRGFZVUFTaXpoaTdzTmVKQXlsOTJQakJrU2ZNRnpGd3ktSkx2OFgyUDJSU29qazFUdk9HTk1KTF92OGtvSmprVXFsM3Iwa1BTRHNoeTRFdkpaVmFsd0VlV3B5OXpXTkhIcVVXWFNGbEIyZFVSdWhfRkdrSllHZW5paHB2Mm4zRzVKTGkxN0c1WG5CLUQ0VEtNaEXSAYcCQVVfeXFMTlluaXhBdjNnWTZnXzNienZyVGk2bU5hdkdxdDBBU19uQVBBTnNzVVR6eEFHMXJFU0wyN0ZZN1psV1BsNV9XdzJhLU9jaW9xM25xSmIyNU01RjFTdFRMTTRhUDZ1ZTJnTTNQMEZhMU13XzZKSUhKdS1Ob1hRVHc2LTEwTXRXRXFLaDM0eWZCUGpQamNzbVV4RGVOYnpzWThDYVAzZ1NpaW1YRjl2aENtamlxWVVCeVJhOXBBbWpjS3FwOF9fenJHMkowZDh4RVRuX18wT0NNN2xEUVlNdldSbXBrUG1KRjk1UlNKaTJycHVnc0dfVXFOdnlHRi05bGRXLXZLWEdVcVE?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 10:19:18 GMT"
-    },
-    {
-      "title": "El asesino de Facundo en Las Tablas sospechaba que era amante de su mujer y se suicidó después de cometer el crimen",
-      "source": "El Debate",
-      "summary": "El asesino de Facundo en Las Tablas sospechaba que era amante de su mujer y se suicidó después de cometer el crimen El Debate Crimen de Las Tablas: a Facundo lo asesinó Alberto, un marido obsesionado con la infidelidad de su esposa EL PAÍS Resuelto el crimen d",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdEt0TWNzVTJBUGtJMldkaEdEMWthd195elZZc1VUOW8yUzZ1amJFZDVsUGNwbXVUbzJKb1NGOTFKMEZ6QnpJZ05ZR1FwN2wxQ2pGRDlYM0tqTzFoZF9yUmpEbFpoeHZxZlJKTFFtWGlxX3hZLWl0VVlLU1RhMkEtOEdKdXM5WmtqakNlWmU2X2hXWVJmUHRfRV9ZcFk5MHFRa3M3N1dBQ3ZxWHI5b0ljbDhQeXNuS25LME5oV2lOanhBQnpXNjBqMDE1YXNVQ0HSAdQBQVVfeXFMT2l4MUNndlVZaWZFbUNMejdnRjUyeXlBQkdxanhrMkE0X0xfQ05INEQ2SE9HVUVicXNfRkhkbDZubUhPQUUwZ3RFa2dkR1V1WFQzMkxVMzBSMENtbHp6ZDhPU3AyYVNVSzJZYi01SWRrbGM3YU11SVlDeFlMYkx5aEFvUzdBWHV2cjF1NXNoVnV6WWMtZ3hKQmNSNTk1T3JYeER0a1BneWFNMGc5d21pWVhJSDBERGdVNm9GdUpmY2k0d285WGc1VVY2LUppWDFKckdmZHA?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 12:47:32 GMT"
-    },
-    {
-      "title": "Monzón, y los consejeros del resto de CCAA, instan al Ministerio a retomar la reforma del Estatuto Marco",
-      "source": "Gobierno de Canarias",
-      "summary": "Monzón, y los consejeros del resto de CCAA, instan al Ministerio a retomar la reforma del Estatuto Marco Gobierno de Canarias El Interterritorial cierra el curso sin avances en el Estatuto Marco ni consenso sobre listas de espera iSanidad Aragón y el resto de",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMXNqdzNPSENya0hZZ21uUWl3REF0RG9wbEQ3MmJ0YlZIYkVDU2FkcUlDdm1jd000SDMzaU9iRUI4amE5NHBLaFVfUTJLN0d1cEVqb1c2bGxSSmF6Zmxoa0VsUS1lX3dkR0ZtRGdKN0REeTdPUXpnZXFVR3ZHUS1TQkw2V1k5clIyczNURUVEdTNzekY2RG9GcjRUS2pGV2hQUlJnd2VSS2FHbHc3TmJ3TWh5a0lRLTF2WWloWUhJU2Fqc2ZpWVpKNGNxZ3ozbWRCU1FiLUl2WkpMYktTUzlJQQ?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 12:17:07 GMT"
-    },
-    {
-      "title": "Feijóo asegura que \"sin Sánchez, Zapatero no habría podido delinquir\" y le acusa de \"corrupción sistémica\": \"Lo peor está por llegar\"",
-      "source": "LaSexta",
-      "summary": "Feijóo asegura que \"sin Sánchez, Zapatero no habría podido delinquir\" y le acusa de \"corrupción sistémica\": \"Lo peor está por llegar\" LaSexta Feijóo sitúa a Sánchez como \"el señor X\" de todos los casos del PSOE y promete \"una limpieza a fondo\" de las instituci",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOR0IwVldpSUt4VU1IQ0dMc1d2U1h1Vjd3NV9RaDUxWjQ2UUNzNkthWEMxRm93MVBxMmxNd3dtYmVDME1vanFmUkt0ZGxqN0I5NWZ5bVVLWWlieko1ckxBMmtiaFhLVU1xMVpuanNMUURnanhFTVZ3MjIzcC1IaHdsLXRfQy0yeGhLSnQwUjZiWTdrSXhaV1dTb2dEQ05KNGJmMnFyakZvSTJRYzZDSzVnMEZaRjdsM2JXNE5SenlaZTZlV2FUS01QSy0zeFJwR1E0a0l1UlQ2a2FCQzBRNkRiN0kzdHl5SGY2bVc4WlYzRmFOUzV5WTBFN3pINC1iZWhFY1FKWkl6VEs2dlhpRU9SM9IBkAJBVV95cUxNdzdmM0dVdW51MV9qMm5tYkJVNm15eUs2N3gydzhibENzUzdWTDJuNWMxa3Q4UEtYY1lHWEhROVJ2bE5WejczT19EQmFfc3NPel93c0RoUzZSQ0NPNjZhdmY2RmJDeXFtVjYwYmx0TEJrdHB2NmFHcEdSZ1ZTckpzalo3MHJGRHV6cmh0QzBiRUtEY0lQMGVtT3lqYzNuNkZrSnZqbURtNDdUZFZyY2hGRF9lTWdUR0d2TVlaOTJ3QnA2WXJCbWJUQ2FzT3NXd2NERGllWnJwOWtuYjQ2YnhXMjZPdEE5dGdiaFBSc011WWNpakpWek5rMEFqeWlueUt6TDF1YzBxTlUyS19jYVRTWg?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 11:06:51 GMT"
-    },
-    {
-      "title": "Bruselas recuerda que corresponde a los tribunales españoles aplicar la sentencia del TJUE sobre la amnistía",
-      "source": "Cadena SER",
-      "summary": "Bruselas recuerda que corresponde a los tribunales españoles aplicar la sentencia del TJUE sobre la amnistía Cadena SER La Comisión Europea se limita a confirmar que ha recibido la denuncia de Puigdemont: \"No tenemos más comentarios\" El Mundo Bruselas dice que",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONzdtc3hLM0lDRVRSZHdlRVMyYzh0V2lhQ2tZOVRUb2x3dVRJQzdNak9TNE9lTjk1bm9YZVlyLUZ6c1hMamhkWXF5X1FBa0NGUkVVczZLVk51bWE2Sld1Ml9ZR24ySmVfV0lKWEhsQm00bkxNZzFGcXJhR3VwUzRZUzItcm5vaWx6RmN6cHBiYkdCbkUyVHBxV3hrajNoaGlMT01lOXpVYVZlUGw5bThvLTh5djkwM3pib2lyOENmUmJZaUp3Q180azlMUi1qLWlfVEZIVHNPNHc4Q3ZGNlBrb1JSdzAzSnVsaFlXaGFrT0Zvcno10gGIAkFVX3lxTE0wRmdLdC1mUnlTcHBxY1puQU9SdkFiMHl0b19DZjNYMkItYWhDejlKMk40YkNBLVVEX1p2MGpJWTJYajZIa2hra29NWmEzTkpKYm1qRjdaVG1ZSjhfQnA0Q3U5bTJITUl5Slp2b3Q4eFN6aGNpUzk0THFMNk96U2dTSC1UXzVzaGFjQWpBWkR2MVVFTEtMVGpGV3JCRHZ6TFFleUd4WTZiemdKbWN6SnVDUzRHeTMwNjFGNGxWVVNoZDJCdnZNR1VGNVg4dEsyaVA5X1dDSGxDbXJLak1mRWZacGRFTThyekdaa2VhcmMzN2JpOFUzenk1UXEwOFZxaVl5M2FhTEFkVg?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 15:44:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb0JMbHA5S3VLQUxvUFZ2cGNRUlZON3E4UEpuelZLMlhON2hrUWJvZVlOYzlZQmJ1WUVrZktaei1uYUQzcHpob3g5REs3ZDY3QU5RWHdXTTF3aTBzY2tDNkdlbUEtemJDMW5Kc2RZbFhQMXBEYklXQzRfdndKbjExa090UlpkZkFnTkJvLVNjOTJnaF8ycUVLMDh2NlRJbktsREZ5dkkxZnVtWWFacEpHY3FISWxnRUZvN0Vqb3J0Zk91aXlaS2liVNIB3AFBVV95cUxQZGpqMkZSZ01RaTJvVV82aGk4YkYya19xcHlHZGhOWjg2dVhDVGJMdkk5dlR0QVk0Ym01NE9iRG95Qi1BWk5aZjN2ZWF2YUx5ZjZCV1hUMmV2WUI2V2VqVUw4MVNlRGd6RzctalFHdDJDcVBObXQ4UGVaWndBeU5BODVobHZLb0NDX0I1bHowTzRHMFBRdmo2a1RoVTB0Y2ZMVDJpM2hFV0s1cWRlWDlXSHh4bjdzRXdkbll3UnJ4Njh5WkNyYTlmdHBvay0yZTlVNzFaY1NyVXIxNHlj?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 14:09:49 GMT"
     }
   ]
 }
