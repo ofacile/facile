@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-07-22T21:24:21.678652+00:00",
+  "updatedAt": "2026-07-22T22:34:12.715542+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
+    {
+      "title": "García-Page avanza el regreso de los habitantes de varios municipios evacuados por el incendio de La Mierla, aún “en fase de estabilización”",
+      "source": "Gobierno de Castilla-La Mancha",
+      "summary": "García-Page avanza el regreso de los habitantes de varios municipios evacuados por el incendio de La Mierla, aún “en fase de estabilización” Gobierno de Castilla-La Mancha El incendio de Guadalajara entra en fase de “estabilización” tras arrasar más de 32.000",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQTNJRm43Z29PR1hMcDlfSGlKcDRoMS1GNkdtRUNfMFpOejdtUDc1Z0ZDTWxLSHpTQm9hVUtaejA3NmE1SGd4cFAydjNrT3JwcllFTGctVktNRjFMTVBGUDNHTG9meFdrLWxKelRGbllaWGxraEJZQ1R0M3VnX3J1aFIzY2hDSkJfS21rUWRycENWT2xheFZGN1ZqVEhPRkUtcHNmcVBVWk1tT3g5UGRxMjZIZjFVeG5MdUNhUEJXTU9Fek5rcTEyYkhZX0ttQkgtR0JEN2w2dGdpalJsbDF6VllBbVpObF9GT1pLRVNB?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 10:46:42 GMT"
+    },
     {
       "title": "La Comisión Europea señala que corresponde a los tribunales españoles \"aplicar la sentencia\" de la amnistía tras la denuncia de Puigdemont",
       "source": "elDiario.es",
@@ -10,14 +18,6 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRnpZQVBQb09SZ2NWSzRQY004cUZMcHBsTlZHQVYyT3RaWDk5YWNHMHdkcndEaVdDWllNRTBUM2tsb2RWckU5LXl4cC1ZY3hVdVdxYnJ6TTFGWlNjdlc3c2F3Z1BYMDRoaDRhc29JakpfcHJxUjVILUxEOVFCUWkxOXRyN0hPb28xM2hnY3B4NHRwUF9SS3hNaUdWdXRMWm9lU0dONEx6aWo1cnUzQmoycHRxc0tZMnJ2UVNyTUEzNFFpeDhtTnBETHM3ZkMyVTNFVXBuczFhOHp6c0RocjVTUlFsdWIzMk1t0gHuAUFVX3lxTFBmcncwdDg1ODM1NzREYVFvSTZ6RXVtRUhRTmdkX3F2TUVwSzRFbjBPMUlGRkFjWUpYR2swakdoNm9KRmVtRXoxWVJod2NGaUR0cHU0bzRTLUI0eUl5RFpBMkxBTUwxdVo4eHN4M0haYkd4LUpoSGxOTC1HOHIyWmhDVUlDNEFSRDFPTEt6cEpCUV9vd2FiVXdzZTJDNE5wejFicG9LRmthVTVYMWNJYnFYQ2VfaldLVF9HUkVpZTVOQmNhVUd3QndfNDJ1c212V3RkclF3S2xFR0J3WHY3Y25vUFFvaXVZNm13cXc2R0E?oc=5",
       "pubDate": "Wed, 22 Jul 2026 13:58:37 GMT"
-    },
-    {
-      "title": "El PSOE responde a la \"cuenta atrás\" de Feijóo para echar a Sánchez: \"Solo transmite ansiedad por llegar a Moncloa\"",
-      "source": "La Razón",
-      "summary": "El PSOE responde a la \"cuenta atrás\" de Feijóo para echar a Sánchez: \"Solo transmite ansiedad por llegar a Moncloa\" La Razón Feijóo da por hecha su llegada a Moncloa sin esperar a las elecciones: \"Será una limpieza a fondo\" elDiario.es Pablo Tallón: \"Según Fei",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTm43c2FMQUVjOVlsdEhJMG81bDVvby1aVFBnWmhONE4ySXBHR1JqWEViR2RnZzF3YW5nX1pleEZVVXFZdUJxVkp0RDN2RDdITWRaNU5VSWdVdjZidFpFLUhlbmlicERnUE1ZUU8yLTdnRmdsSVBsVUhzSDkySFg3VFNVcnl1NlBrdHhJdEdneHRSSkpmOU5qTklDUklSSDJMbGVON0g2MnJGNkdyVG1UNVBJVHVGOXhRSmRTclQxOVNvS0xsQWVBVzhkQXVDQV9MelRKRmpfdFVnaUtWRG5qT1ZuMHNXMkdCT2fSAf4BQVVfeXFMT19iRUpqNE93aERtaVdJZE5ORlg4ZjVYXzkwNHppU01jS1RsMlpKMmtxdTY4WjF5alN0OE1uNGpORG4zcEVXRnFtbnlYZHd0bTA0czIxckZUN0d4Q1BZVXRicmlfckg5eU9vYTVyNFVmbEdBcWx6aUdnQ3B2U0FIVHltcTdRVlJZMVJ1VllXSWdWTkRENG1ITXFKei16NEZ5Sm5MMDRsNGRrdmt2cVZEeHBYR0dENWM0aFh5SU9DWnYyMUR1LXRwcFpTYUN1U0ttSHp4alNVNHBRNV9nQ1I3X3k3WTByTXBsQmZWaVpybll1X0pha1lnOE83RkVQRHc?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 16:54:28 GMT"
     },
     {
       "title": "Javier Ruiz logra la exclusiva del momento en TVE: José Luis Rodríguez Zapatero será entrevistado en 'Mañaneros 360'",
@@ -28,12 +28,20 @@
       "pubDate": "Wed, 22 Jul 2026 17:19:23 GMT"
     },
     {
-      "title": "El antes y el después del incendio de La Mierla visto desde el satélite",
-      "source": "elDiario.es",
-      "summary": "El antes y el después del incendio de La Mierla visto desde el satélite elDiario.es El incendio de Guadalajara entra en fase de “estabilización” tras arrasar más de 32.000 hectáreas EL PAÍS \"Los vecinos afectados por los incendios de Guadalajara no paran de re",
+      "title": "Julio Martínez señala que las hijas de Zapatero cobraron \"una tarifa plana\" sin trabajar durante tres años",
+      "source": "Telecinco",
+      "summary": "Julio Martínez señala que las hijas de Zapatero cobraron \"una tarifa plana\" sin trabajar durante tres años Telecinco La nueva dimensión del ‘caso Zapatero’ no mueve al Gobierno mientras el expresidente mantiene su silencio EL PAÍS La Audiencia ve como un \"gran",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlZiYWR6ckJvWnFLcUNXNXVtdGdsRXVHeS1VRkt6X18tQmdmN0FVdDZ5VXN4VEFUSzlsazFUZVVaWmcwMkRldXgxVnIteEY1QWJpdGlFNnoxUkt1cW9aUjBDaVlDeEJzbVRLVHA0QkViVXFNQVhiWFZzb3R1Wi1CaC1TOXo2VjR5dzhTeTl5eGsteEdDdHNlZVU0ME9hZw?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 12:21:46 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWmdlcWFQbXJ5YUJLSk1aQ0ZsVDdFdTdPQlRBaEtJX1FQV1ltY05hY1REX1dhZUs5YTl5OGkxVFlaOGhsWlpuTXpfd2FhQ3dxalFTeUxZWmowUWhwYkhISTR5c2NYWTA3QWdzSGxSUW1ZeUlWS29kSXUyOXZOMC1JYmQ0bXVsYThfTXJKQkxVMWxWemNCemxQcExNSk9odW9aV09lTmJ5SmUtSEJ3YXlZWDhfeVg3V2VWcndnYmlLVnp5Tm1Ra1l0UXpxdy1DMHNIQl9jdnJ3?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 19:18:22 GMT"
+    },
+    {
+      "title": "El PSOE responde a la \"cuenta atrás\" de Feijóo para echar a Sánchez: \"Solo transmite ansiedad por llegar a Moncloa\"",
+      "source": "La Razón",
+      "summary": "El PSOE responde a la \"cuenta atrás\" de Feijóo para echar a Sánchez: \"Solo transmite ansiedad por llegar a Moncloa\" La Razón Feijóo da por hecha su llegada a Moncloa sin esperar a las elecciones: \"Será una limpieza a fondo\" elDiario.es Más reconstrucción que r",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTm43c2FMQUVjOVlsdEhJMG81bDVvby1aVFBnWmhONE4ySXBHR1JqWEViR2RnZzF3YW5nX1pleEZVVXFZdUJxVkp0RDN2RDdITWRaNU5VSWdVdjZidFpFLUhlbmlicERnUE1ZUU8yLTdnRmdsSVBsVUhzSDkySFg3VFNVcnl1NlBrdHhJdEdneHRSSkpmOU5qTklDUklSSDJMbGVON0g2MnJGNkdyVG1UNVBJVHVGOXhRSmRTclQxOVNvS0xsQWVBVzhkQXVDQV9MelRKRmpfdFVnaUtWRG5qT1ZuMHNXMkdCT2fSAf4BQVVfeXFMT19iRUpqNE93aERtaVdJZE5ORlg4ZjVYXzkwNHppU01jS1RsMlpKMmtxdTY4WjF5alN0OE1uNGpORG4zcEVXRnFtbnlYZHd0bTA0czIxckZUN0d4Q1BZVXRicmlfckg5eU9vYTVyNFVmbEdBcWx6aUdnQ3B2U0FIVHltcTdRVlJZMVJ1VllXSWdWTkRENG1ITXFKei16NEZ5Sm5MMDRsNGRrdmt2cVZEeHBYR0dENWM0aFh5SU9DWnYyMUR1LXRwcFpTYUN1U0ttSHp4alNVNHBRNV9nQ1I3X3k3WTByTXBsQmZWaVpybll1X0pha1lnOE83RkVQRHc?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 16:54:28 GMT"
     },
     {
       "title": "Zelensky destituye al comandante en jefe de Ucrania después de días de protestas en las calles por el relevo del ministro de Defensa",
@@ -44,28 +52,20 @@
       "pubDate": "Tue, 21 Jul 2026 23:33:12 GMT"
     },
     {
-      "title": "La AEMET activa dos avisos rojos por calor extremo para este jueves: se superarán los 42ºC en dos comunidades",
-      "source": "Cadena SER",
-      "summary": "La AEMET activa dos avisos rojos por calor extremo para este jueves: se superarán los 42ºC en dos comunidades Cadena SER La alerta roja asedia este jueves Valencia, Alicante y Murcia con temperaturas hasta 44°C La Vanguardia Aviso rojo por calor extremo: más d",
+      "title": "PP y Vox aprueban en Valencia los primeros presupuestos de España que incluyen la prioridad nacional",
+      "source": "LaSexta",
+      "summary": "PP y Vox aprueban en Valencia los primeros presupuestos de España que incluyen la prioridad nacional LaSexta Llorca aprueba sus primeros presupuestos con la \"prioridad nacional\" que Vox promete llevar a ley estatal \"más pronto que tarde\" El Mundo PP y Vox apru",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQWXl6MzJXanV0TmpRVGw4UVdQOGlOZkFZbHVhbFJ6MXhtMWU0S2o1QUpESGVGcVZBdi1DSFFCYjBISWxpZThDcmxvOFlWNkt1dlNRb2JULU44eF9RQ1gxVnYtRGFZVUFTaXpoaTdzTmVKQXlsOTJQakJrU2ZNRnpGd3ktSkx2OFgyUDJSU29qazFUdk9HTk1KTF92OGtvSmprVXFsM3Iwa1BTRHNoeTRFdkpaVmFsd0VlV3B5OXpXTkhIcVVXWFNGbEIyZFVSdWhfRkdrSllHZW5paHB2Mm4zRzVKTGkxN0c1WG5CLUQ0VEtNaEXSAYcCQVVfeXFMTlluaXhBdjNnWTZnXzNienZyVGk2bU5hdkdxdDBBU19uQVBBTnNzVVR6eEFHMXJFU0wyN0ZZN1psV1BsNV9XdzJhLU9jaW9xM25xSmIyNU01RjFTdFRMTTRhUDZ1ZTJnTTNQMEZhMU13XzZKSUhKdS1Ob1hRVHc2LTEwTXRXRXFLaDM0eWZCUGpQamNzbVV4RGVOYnpzWThDYVAzZ1NpaW1YRjl2aENtamlxWVVCeVJhOXBBbWpjS3FwOF9fenJHMkowZDh4RVRuX18wT0NNN2xEUVlNdldSbXBrUG1KRjk1UlNKaTJycHVnc0dfVXFOdnlHRi05bGRXLXZLWEdVcVE?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 10:19:18 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTTgxNHV4cXpUSTZfeTl0X0lyYV9UeUN4WFRfTzhFeWlsLWZGUDhNMGJVaU92aGpHeFdSMmVxUk5tUHU0d1l5LWdCTUsxenF4ZmtmeGpsZ0hrcjZNcnFacUJ6c3dZQ1paVWFWWHU4b2FENzV5Ym9PTEZOUUpDQzZONFZnbHNpOHhJbFE0OW1fdnZ2eWRTYUhocWw1NkNHNDJtT1VyOGN3dmxFYS1FMldweU53QVJtN0tVbFJRLW9BNXQ4NXJmUXZpZ0lMdU5aZnc1S1QwZnVrc2pEQ0tBS2VjbkxJNzk1ZzRxcVpQNUlDdlBwQkRx0gH0AUFVX3lxTE9uWmtKQlJ5QllxRE1BVnRDbFRHY01GX2RwQ2hwc0hWclFqN3VhQ05PRHZLZWdPbVRSTy1PMmF0RThVeDZ4bm5PbzktaDlOUUVsSVJJTFZUUGNHZnJXZE1jcE5sVmU5ODFya19rcElxS3BHeXprdlZpdzdtbVI2LTlkSm93cmN3bWw4d3lIMjV1Y2FVUXZLQ1ltZzBlUlpaQ2h4aU5nRXRwMG9wbnNQUk1MRkpKREVzeWN0dTYxcl9MOHJJTnNLaTEzLTFUbVdoZjJhMlZNTE15eXZXUFZUOWpsOXBoZ0dFQXctYTc1cm82WjBoU0o?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 11:47:17 GMT"
     },
     {
-      "title": "El PP se pliega a Vox y Les Corts Valencianes aprueban los primeros presupuestos en España que incluyen la “prioridad nacional”",
-      "source": "EL PAÍS",
-      "summary": "El PP se pliega a Vox y Les Corts Valencianes aprueban los primeros presupuestos en España que incluyen la “prioridad nacional” EL PAÍS Llorca aprueba sus primeros presupuestos con la \"prioridad nacional\" que Vox promete llevar a ley estatal \"más pronto que ta",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbzNJU3Fmc25kaEk5bG1BN2U0bjV6SkJEdlpDMF9ueklJREZRV0Z6V29Xb3dXZVR1bWx4b05Qc1R1YS1zY3l3NnoyUGJoQTU5RW1xVTNlVkhOUmhiV3dvLU5Yb1VtbUNoVnI1QzhpdFdBUmJIR0xyWmtfZ3doVkl3MG53SHJoS2F2V3A2dW05X2RiU2pIenFSaUZxZG5kbTQ0Sk9PQzlTdDNjSjRUMThNVksza21TM2RzdGNVT3BlVDVQSFVfSm5pLVU0bWpaMk5pcWlja21XSlZleFpiZVFPZWxrZzhpOWw5UHd4alJmVzNFMjRqMkpxdlZ1OFV4QXRD0gGUAkFVX3lxTFBCQlpjaF9MUTd0Q1pmWEFXQUhMR0s5Q1BNckxKSzY5ejRHVzJVRGhFRkJHT3djVjVoOWljdklxQjlrUlhTSzlSQmg3aUZvbGRUS3djRDJaRHdXRUJEMWNpX05HOG4wV3MzZkN0NmJOX2duYVFoS3d0UWtkbFpXX3FSZUtiVFU1MWVaYXZqVlhWMVh0UnMtMDVLdlBkcXg1N0V2enlTS3lJNjVjYlJXZlNRQjZ0b0NyMl9ldlJlbkt2LU5TWlRvMHF6d3Z0WDN4dGExR1kzLUVJVVN1SmFFTVFxVWo0c2FVY1paY0F1LTc2RDJLVGo3bnNzM3pua3Y2NmVRaU5HMDhWejFiTDBXN3RxQjZRYQ?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 10:01:40 GMT"
-    },
-    {
-      "title": "La evolución del incendio forestal de Almorox (Toledo) obliga a desalojar dos núcleos de población en Madrid",
+      "title": "La evolución del incendio forestal de Almorox (Toledo) obliga a movilizar a la UME y a desalojar dos núcleos de población en Madrid",
       "source": "Cadena SER",
-      "summary": "La evolución del incendio forestal de Almorox (Toledo) obliga a desalojar dos núcleos de población en Madrid Cadena SER El fuego de Almorox llega a Madrid y activa la UME: confinan Villa del Prado y desalojan varias urbanizaciones El Mundo El incendio de Almor",
+      "summary": "La evolución del incendio forestal de Almorox (Toledo) obliga a movilizar a la UME y a desalojar dos núcleos de población en Madrid Cadena SER El fuego de Almorox llega a Madrid y activa la UME: confinan Villa del Prado y desalojan varias urbanizaciones El Mun",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTXBCLWk2UkUxalJxU19mRnhnaGFuRm5GN2wzRlpGaUlEa0k2NFpMNHUyRlUyOUVQSnlvS0dOSms1WENJUTNpc18xZEFzczNBZ1M2cGJZRmVOelB1OGIzNHRHMVk5UE5WTFZCZXVXU2dHOUF6Q25FWXJsekJPbTNGMFI3Q1gzNWFtQ0hGT1ZYVkdLUl9hVmdIUy1qb0xFR210anpoejkyYjB3RmMwVDFfRS1jelktUdIBygFBVV95cUxPZ3BaaXlHSU56ZzU1ZklnbjBZc0NXNUo4aWZtMGM1VlVfYjIyQW8ySktCRjMxR0FwTV85T29DSmZpOWtTQnpaelhrcml1YzVrZ3pScl9pRUtId2oxWU9NaUJvOHE3YWc1ZnljaEFzS2wxUEZWOEU2bE9JdFlNN0ZzSGpvS3VWcFhzM2VuajdWalo1ajQ4ODNPem50c1dhNTZfTzhHNDh6QmI4c0FfWkJnTE5NdDZ0SzJHaHVNNWlWaVVST0dwTTNUclNR?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 17:29:23 GMT"
+      "pubDate": "Wed, 22 Jul 2026 20:19:19 GMT"
     }
   ]
 }
