@@ -1,39 +1,47 @@
 {
-  "updatedAt": "2026-07-26T17:07:54.870170+00:00",
+  "updatedAt": "2026-07-26T18:33:32.067491+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Los incendios en Madrid y Ávila queman ya 77.000 hectáreas y obligan a evacuar nuevos municipios",
+      "title": "Los incendios de Madrid, Ávila y Toledo obligan a evacuar o confinar a 90.000 personas",
+      "source": "EL PAÍS",
+      "summary": "Los incendios de Madrid, Ávila y Toledo obligan a evacuar o confinar a 90.000 personas EL PAÍS El incendio de Ávila es ya el más grande de la historia de España: 50.000 hectáreas quemadas La Voz de Galicia Ayuso anuncia una \"recuperación inédita\" de Madrid fre",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYWJaU2xhSzlIQW16X1ZWbmMzWUNZYjFISGx0aTlLREZTUk5zSTRsaFBEWWtqNkVYWjF2X1FCQjk5QW04SFd5UEpuQ1hLRUdvdWZlZ1U1RlJrMnNOS0hGNjR6cFpxWXB2V2szXzEwVXMyckFqU2U2S3NfZk5sdlRkNDRaNDByTTB6SXlGVlFmM2E4dklFcjZYd21ueDJRYVNKMnp6azh4WllXeFlHQ2NjR005akZFZFhSM3pxZWE3Tkp6eDJuZGc?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 16:02:27 GMT"
+    },
+    {
+      "title": "Los reyes destacan la coordinación en la lucha contra los incendios: \"Unidos se puede afrontar cualquier riesgo\"",
       "source": "RTVE.es",
-      "summary": "Los incendios en Madrid y Ávila queman ya 77.000 hectáreas y obligan a evacuar nuevos municipios RTVE.es Mapa de incendios activos en España en tiempo real: dónde hay fuego hoy en Madrid, Ávila, Toledo y el resto de Diario AS Las lágrimas de Ayuso al valorar l",
+      "summary": "Los reyes destacan la coordinación en la lucha contra los incendios: \"Unidos se puede afrontar cualquier riesgo\" RTVE.es El Rey destaca una coordinación ejemplar en la lucha contra los incendios: “Unidos se puede afrontar cualquier riesgo” EL PAÍS Los Reyes pi",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaHUybUVfbEZlRnprdXpXMnFUcVR2cEFKTjNaZlJ2NkJJMmNMdXBOcnlZWU9SdTNBcXZ3MUdaZmhEdUk1Vnl5VnlmWlphbk1pcGdDUnVQaHdsc2lhM1c0VkctYV9jR09VRThuU1lQZW5TaWxyNGY4aC0yQVVMODFRRmdkQXNHelIzbDZqS29HWWxKY19TRmJkTg?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 16:14:20 GMT"
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYXd0QkI2S0pwYkR5ZUxjMUtlWGg4UXZpR0NxOVhJd1Z6QnVsVDQzWEtCbjZxUGcxZUlZaFlBc0dPS0FuZ0VPNW9FV3hIc1NfeTB1V3h5c0ltZy1KTXlvamJlZllYcnJBWnBsMmZNZEE1QWoyX1RGcFZiMzJOS3Zsc3JZcUNJdHdPblBwQzFmd3JzYzdPWGdnbmp3dnMwdEphaHgzTmkxQkwzUFRNTTlCWA?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 12:08:38 GMT"
     },
     {
-      "title": "Díaz Ayuso acompaña a S.M. el Rey en su visita al punto de acogida por los incendios en Villamanta",
-      "source": "Comunidad de Madrid |",
-      "summary": "Díaz Ayuso acompaña a S.M. el Rey en su visita al punto de acogida por los incendios en Villamanta Comunidad de Madrid | El Rey destaca una coordinación ejemplar en la lucha contra los incendios: “Unidos se puede afrontar cualquier riesgo” EL PAÍS Felipe VI y",
+      "title": "Un muerto y más de 300.000 evacuados en Francia y España en medio del avance de los incendios forestales hacia las ciudades",
+      "source": "CNN en Español",
+      "summary": "Un muerto y más de 300.000 evacuados en Francia y España en medio del avance de los incendios forestales hacia las ciudades CNN en Español El fuego del suroeste de Francia gana terreno y obliga a nuevas evacuaciones masivas EL PAÍS 'Animo a los turistas a que",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2OE43VEJzYlc1X3A0a2xPejBVX3FfU0dITTNiamh6ZkRWRHpnSUJkUUs3N3FHMjlpaVRUZ0x1V0gzRmIxVkJfSVlVU0JfOXk1NFprWGxlbWt0VHhJaDRybTFBelhMX2JROV9FblRSZldTUQ?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 10:31:07 GMT"
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeDBENlFFejNfVTE3ZjRSYTE1UE9IU3ZPUlZ0TG5mUUtuMXZIODRlT2pZWS1KUzdpc1FQTlZWZXFuZGEwMUdGT0xmNlpZZmM0WTAxaFZEUFliOUZhcGNZYzFFOEtiVmJMY3h3aURSd2VmdlNaenZNbzlSV0JZNS1hc3k4R0FJakhWRFpzSmstSmxyUUFkRjN3?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 08:57:00 GMT"
     },
     {
-      "title": "Desalojados también Almedíjar y Azúebar: el incendio de Vall d'Uixó calcina 4.300 hectáreas",
+      "title": "Emergencias ordena el confinamiento de Onda \"por prevención\" en el marco del incendio forestal de La Vall d'Uixó",
       "source": "Cadena SER",
-      "summary": "Desalojados también Almedíjar y Azúebar: el incendio de Vall d'Uixó calcina 4.300 hectáreas Cadena SER El incendio de la Vall d'Uixó sigue \"fuera de control\" tras calcinar 4.300 hectáreas y se sospecha que fue intencionado El Mundo El incendio forestal en la V",
+      "summary": "Emergencias ordena el confinamiento de Onda \"por prevención\" en el marco del incendio forestal de La Vall d'Uixó Cadena SER El incendio de la Vall d'Uixó sigue \"fuera de control\" tras calcinar 4.300 hectáreas y se sospecha que fue intencionado El Mundo Alerta",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYlRmbGtZVEJQNmVuVzVjTnNseURrLTBmVjB5VVV4ZWV4aHFoWU16dFVRaEVPbmFnVXFjbi1RWnYzcm1xVkxqQXBGT1FMY2JhZHlMNG5Rb1VPakRNRkxiMGJZUUNjV1VsS2VpcV80OXVGaGZWVkl0SGhEU19FYlFSUnRTTlVwU2w1UkNTYjlvblg4OGhBSFNWbzUybl8xZFNMRnFQS2tVcWl6VHVfVEJ0aXpfZWQtS3U1bldKZ183YktWSW91RjhCWVNudTFTVmM0M1I0WGdyN1FXNTJfdDQ5WlVHNjYtX28yRDM1bXAwaUZ4d9IBhgJBVV95cUxQS0tnQWh2cGJabzhBU1JRTEZKOUlRY0ZldXV1Qmt4aFQwUFRlMFNpeG9la19lakJYZGx0eWE2NkFMdlpRWTBfbmNKYlpsUUd5N1RwY3N0OVI2eW14cHphVzlSR1ZueVZUd1IxLXpEcFFlcVpHcGx3MVNxbHZJcl9lQ2NOQmlXTDZXTXh5b2Y4NmZVNXY3ZVIxS0RqbENHZUh2THJNNlQyWDhRNzcxaTctX2VGT3NCaUoxRWlEYjR3UWtQVmFISDZFUURLVkxkWFhlMDVFNU9rVmJnTlNvY3VPeVBVZ0V1Y3FpXzdOV0dkS2FYLWJlQ05QdC1EX1BWa3ByTEVaSmJn?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 13:26:16 GMT"
+      "pubDate": "Sun, 26 Jul 2026 16:27:17 GMT"
     },
     {
-      "title": "Incendios: dramática situación en España y Francia",
-      "source": "DW.com",
-      "summary": "Incendios: dramática situación en España y Francia DW.com El fuego del suroeste de Francia gana terreno y obliga a nuevas evacuaciones masivas EL PAÍS Megaincendio en el sur de Francia: 42.000 hectáreas arrasadas y 220.000 personas evacuadas El Mundo El incend",
+      "title": "El atropello en Berlín fue un \"ataque terrorista islamista\"",
+      "source": "dw.com",
+      "summary": "El atropello en Berlín fue un \"ataque terrorista islamista\" dw.com Las autoridades alemanas creen que dos terroristas perpetraron el atentado del Orgullo de Berlín El Mundo La Policía alemana abate al sospechoso del atropello múltiple en Berlín durante el Día",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUFU4OUhfWUZtYmhEa3c3dTJ3WFhIeG1MblRacEVWRnlfS3hoTktGVEpOb2ktYkM2VWpYcU1VVTZTX0paR3ZjcHU1OFN0dFB3b2J2M2Y5TmNmLUt4YkY3WEg3aDJhX2Nqa2g5T2FUM0JqY3hoTmt6ZTZrY3BPQ1hoYjNpeWk3amlBVHdkRFNxc2pLMDdaV2Vuc3JISkluZU5NTGdIbnl2M2ZuVjgx?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 13:43:25 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFZrYjJZOFYtS0hZd2pzVXRVMGFTZ29JSWJTMUp1TXpMOFpvRVgtUmFrYlNiOEZxMXhVVVEtNXBWMTFWTlcwa0ZfdmJ1enhRWHNTZ2dhWXM1ZVV5LVEwRTBzNHd1WXhlcGlBWmEwcnFkemdQZHowMlBmLWtLN0J2U1hJYU9PZjhiMjYteS1ubzZNMGJjVVBRT2h5Z9IBmwFBVV95cUxPVzNTS2VEbzRIUnNxaG80aXFJU0xtYVloa2t4bUpDaDF2U0cxcHhXUndHek5uLWFabnNKREd3UkdiR3pLQ19XWUgyYjhlNFFKVldlT1JRR21RelhsZHpNSnNVN0hJZHJ4X3NrTjVlYUUyMUpwamFSMmtkcGN1QU5ZQlhTRkpNSkRXUGR3YnpDZlFweWtpZk5SaUI3Yw?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 13:36:42 GMT"
     },
     {
       "title": "Madrid no se olvida del «tesoro» que son los que nos criaron",
@@ -44,12 +52,12 @@
       "pubDate": "Sun, 26 Jul 2026 11:09:28 GMT"
     },
     {
-      "title": "Un muerto y al menos 16 heridos en la Marcha del Orgullo en Berlín después de que un vehículo arrollara a la multitud",
-      "source": "BBC",
-      "summary": "Un muerto y al menos 16 heridos en la Marcha del Orgullo en Berlín después de que un vehículo arrollara a la multitud BBC Las autoridades alemanas creen que dos terroristas perpetraron el atentado del Orgullo de Berlín El Mundo Quién es Abdul Ballout, el sospe",
+      "title": "El incendio centra todos los esfuerzos en evitar su avance hacia el puerto de Mijares",
+      "source": "Tribuna de Ávila.",
+      "summary": "El incendio centra todos los esfuerzos en evitar su avance hacia el puerto de Mijares Tribuna de Ávila. Ver más titulares y perspectivas en Google News",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnM0k4SFh6VWJ3Y1ZGaGJYU0FWeDJnQllHUkJmcmtsZzBUTk9iN2YwbEQzdF9CSjg3Z2NrTTBabVB4bzhULXBmYm01RW8xSTdLWml3TlVVT0lDcnPSAWBBVV95cUxPVFlmMnJJdTFYUkI1blRIMjM3VlZ1OUYwZHFaQTBQVXVGMXNZOXNaSmVid0RnNTAwX1V4ODI3TU8xSkdPSXJyNGlveWVZMVpJekRpSkZRcjI3UEx5M1ZGT0U?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 05:35:03 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd0lDcllGNmlBZVJfXzV4NHMydlJrZzNqSi10QTIwbmg0eHlUUHQ1Zk40bGRjUUZiSmcwWV9haGQ3b3hRYldkN1hoSFhLUkNrQllId1lmZXp1YWt2VF9GLVNhZWludVhZN1Y3ZFdrZHRLbFFvRm1QcnhKSHkwekdWdDdEOXZCNC1sUF9fcXYzOVFmbEJROEkzVmN1SmYwVi1PaE1HUl9peEVWUktkbmlndmpRMzdZa2JHNTgwNUVjS2hxRjA4RHJzZTdR?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 18:30:42 GMT"
     },
     {
       "title": "Estabilizado el incendio de Ejulve: los vecinos evacuados ya pueden volver a sus casas",
@@ -58,14 +66,6 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU0ZNUE1EOHN3MTI5U3FvSUpyeVhNb09vVU5vMUlvOHFxd0N3WXR5MmE4MVdSR2hjS2M5bFBJbHF5a2NrckNCbzBRUDZWMXdBT05Vay1KZUlyUUZaMkVwU3JxSE5SNk5xOEpVcm00d1JTeExjdGNSdFM1aXF1OWJPZHBzOU92bFE0TW52aVJXdUZKdFljdVl5Vm9VdEN5Qm9LdVhUOXJwcGxUWXRscnV2VmdUdHpQT2YwSmdtUV94bW82YU5HcjVwb0R0Y9IB3wFBVV95cUxPVEo1RkE5TVBscEVmMHR2UTRQbW9qUXJYMUYzOEJtWExJcW1SR09nSFM0QXVnWXUwWUVkVlhrWGtWZ2xCZW9CekxWV1IwT0hsYkVNRE9TS3Zqc01kZ3duZDRVREJFUmpGQTA0MUxOaEFtdkxxMWVYbk9iSHRVV1RFbzMtOXlNTTNzVDRnc0F3RFdtNF9yQXdBTmhhVWYydk9wUjc1MGx3Q2ktYjR0a3BvLUpOVVNFekR3ajFuank4ckFWQXc4OEhsTS1LUFpSNExUbkxWYzVjenhQUnFqQUFN?oc=5",
       "pubDate": "Sun, 26 Jul 2026 13:30:00 GMT"
-    },
-    {
-      "title": "Granada vuelve a temblar con un fuerte terremoto en la capital y su Cinturón y otra réplica",
-      "source": "Ideal",
-      "summary": "Granada vuelve a temblar con un fuerte terremoto en la capital y su Cinturón y otra réplica Ideal Granada registra un terremoto de magnitud 3,6 con epicentro en Armilla El Mundo Granada registra varios terremotos: el más fuerte, de magnitud 3,7 con epicentro e",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYm5Fd3BFYzhXOG8ybktBUVB2SnhjOUFaNnotZHNMV2p5UGN4YWY1ajljMVR5X19ZbF83dlNCdm96QjZnREQ5N1ZoSm5OYlYtQmRzSDh1bzZQcG5QRk1fa1RXYjItYzhlQzJrT0h4RzFZbkVNa0EtXzdXa2dQVTluekNSRFlCN3pTd3lIQ190dmloZG5sbFVDRk1hZEhfQXdVZTJoY0wxSVYwWldYOTFB?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 16:11:49 GMT"
     }
   ]
 }
