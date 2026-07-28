@@ -1,15 +1,31 @@
 {
-  "updatedAt": "2026-07-28T19:39:18.675622+00:00",
+  "updatedAt": "2026-07-28T21:12:33.391290+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Los incendios que asolan España, en imágenes | Día 28 de julio",
-      "source": "EL PAÍS",
-      "summary": "Los incendios que asolan España, en imágenes | Día 28 de julio EL PAÍS Última hora de los incendios forestales, en directo | Marlaska anuncia que en las últimas 24 horas “no ha habido ningún avance del fuego” en el incendio de Ávila y Madrid EL PAÍS De torment",
+      "title": "El Gobierno activa las ayudas frente a los incendios y aprueba una protección laboral extraordinaria para los afectados",
+      "source": "La Moncloa",
+      "summary": "El Gobierno activa las ayudas frente a los incendios y aprueba una protección laboral extraordinaria para los afectados La Moncloa ¿Cuántas hectáreas han ardido? El mapa de los incendios activos más graves EL PAÍS Pedro Sánchez asiste a la reunión del Comité E",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQkpaMEdwZGhKTm1CN2M0NlFVZ2JTWFhNYWVMN2VCUVNCejlpb0lIN0tuMm0zNmNReUxVRTBYZ2dmNTdlMHdOaW5YLUFBZFdQeUR2SUVNSzNqYzdtNWNvX0NVY0kwYWMxd3pPcm82U216UEQzYzBOaEYwODRRanB1TVBSb3g0RjRMVFBZWnNOaVoyN1RqUUpLZW91S1pGdEIzcFlr?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 09:15:45 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHR5ZnFjZF9JMzNOZ3VRczhIU1dLNXk4SGtyaHgzb2pENVB4Rmctcks2UXpOdk1lSEo2N05EZU5RN1RnR19YWVBTeVNEMEJnaDdwVVEtVU5qQm9kMkp0bGlZZVQwdG5NVFhaM0hnOXhVb09wbzJPbTRfdThMZjQ3V0Nmd0hVX1BtWUtsZWZFZ0ZZNERwLVVUVEEzazhmZUt3UjhJQ0wwNUM?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 18:37:12 GMT"
+    },
+    {
+      "title": "Sánchez asegura que el pacto contra el cambio climático es “lo más necesario para el país” pero no prevé llamar a Feijóo",
+      "source": "EL PAÍS",
+      "summary": "Sánchez asegura que el pacto contra el cambio climático es “lo más necesario para el país” pero no prevé llamar a Feijóo EL PAÍS No habrá pacto de Estado: dos no negocian si uno no llama El Mundo En directo: Pedro Sánchez pide unidad por un pacto climático: «¿",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0JVMXRyN3F5RE5qU1hxSlkzQ3A5UjJjdVVtUWFJVFU0UXNlVWtCMGhlTHB2OXg3SWpTTUJoaldzcmhHZ09uTElGdTVnOXRoaW82bHhmTjBqMVhKVWk4M053SC1wY0oxUWZNNU9SXzZBN0duOTNKT2RQSjNvNWpWNUx6WFJZY0cyd1dnY1BlTzHSAaQBQVVfeXFMTWNzTjJpOE5jRnRqMlNuZWZqYWRwMDVBNW9la1pPQjBCbnhkdkpmNGxHVlVqbUxZSWxRUms4TEVwcWJsMl80dFNiNlc2dlh3TnVndEtMQnA0dVlYUTVuVmpoQWFrSURCd3M5UV9RdTkySzBEc0NwLWhSSUJJY1lVN1k3OENuZEV4RjdoQmtOYUQ2cjhXUExpUk1TbEJhYTIyaUpHZE8?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 09:51:27 GMT"
+    },
+    {
+      "title": "El Gobierno indulta parcialmente a la expresidenta de Junts Laura Borràs para evitar que entre en prisión",
+      "source": "elDiario.es",
+      "summary": "El Gobierno indulta parcialmente a la expresidenta de Junts Laura Borràs para evitar que entre en prisión elDiario.es El Gobierno indulta la pena de prisión a la dirigente independentista Laura Borràs, ex presidenta del parlamento catalán El Mundo El Gobierno",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMjNWRUNGV085X0FLSlQzLXJqUXUyd1NkaGViaHBLM3drR0VQbVNvdzN1dkxWOTN4dkJVRkhsTjNmR0hib29KLTRkc2sxSDkzaElKRDdMWTd0X0NrY0hPY1dWemtqRC0xd3NHTVlJdXAya2o4dTFLWkVXN2R6TWhFVVRDY3hjYktHSkNJZTZ1VmxPc1lPX2RJRGFhSjRmMU1aMFZKM1VGVVZIRVlNaGZ2QWFqRkNUcFVkbU9nZkdtejJYMEdO0gHKAUFVX3lxTE50dGtqaEFUNE8zRWpiQnVoRHhyM2x4MEpmODlEVktoVlJVTTJqNVdSNEJTU3d5ZHB6RUl6R0xjOGJGNDJ3UGxpYnZGUnprWEwwRlpTbFVuTUd4cFAteGFvUEpXWWxxbV8xeFFzQ0FtOTZ1QWE0c2g0ZzZfVXFKSlNnbmViZnNmVnBVSlZ0TU1oV21BU0U2cHhGYjhlYkF5WThKSlc1bUFwNFpDNzFJd2N4by1ialdfMnl4OUxLN05BYXg5X0hROHNleFE?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 18:14:20 GMT"
     },
     {
       "title": "Rueda de prensa del presidente del Gobierno para efectuar un balance del curso político y presentar el informe periódico de rendición de cuentas \"Cumpliendo\"",
@@ -20,52 +36,36 @@
       "pubDate": "Tue, 28 Jul 2026 18:19:22 GMT"
     },
     {
-      "title": "Impulsar el Pacto de Estado frente a la Emergencia Climática es clave para proteger a las personas y el territorio",
-      "source": "Confederación Sindical de Comisiones Obreras",
-      "summary": "Impulsar el Pacto de Estado frente a la Emergencia Climática es clave para proteger a las personas y el territorio Confederación Sindical de Comisiones Obreras Sánchez asegura que el pacto contra el cambio climático es “lo más necesario para el país” pero no p",
+      "title": "Los incendios que asolan España, en imágenes | Día 28 de julio",
+      "source": "EL PAÍS",
+      "summary": "Los incendios que asolan España, en imágenes | Día 28 de julio EL PAÍS Última hora de los incendios forestales en España: crece el de Castellón y mejora la situación en el centro con realojos COPE MAPA | Así evoluciona el incendio de Madrid y Ávila en las hora",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPQXhHRG1LQ1pncHJMVkd5RnM5QXgwdUFwUXhOYkZVZFdKYnoxQWdmbjBfZGhfeXotU1lxWmZGYkNrY1FmcmZyZmViMGdDLVNocTdueHVSRjZVQm5VRUZBcnk3N3NFaldiNUh4OW52Q2FNbzZFWnBfY3hfQWVjdmZHUmpfb0JwRURMQ2Z2YzYwVktxb2VWLWF2bnBTZXVub3dxdDc4b0pBX3BFc1VyVk40MkxOZnhZTjczNW83cVNhOVo1eWZjSUNhTDlpNDVlYjNyeWFuZV92bWlnY3hlZEJuY1FSSkU1WENUMjhyV0c2bGU2ZUFQaVBodlJSMUhnSlpPcFpJb3pUMDByMURFcV8zSGMzYm1TbUdjbXc?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 12:07:05 GMT"
-    },
-    {
-      "title": "El Gobierno activa las ayudas frente a los incendios y aprueba una protección laboral extraordinaria para los afectados",
-      "source": "La Moncloa",
-      "summary": "El Gobierno activa las ayudas frente a los incendios y aprueba una protección laboral extraordinaria para los afectados La Moncloa ¿Cuántas hectáreas han ardido? El mapa de los incendios activos más graves EL PAÍS Recorrido por los pueblos arrasados por el fue",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHR5ZnFjZF9JMzNOZ3VRczhIU1dLNXk4SGtyaHgzb2pENVB4Rmctcks2UXpOdk1lSEo2N05EZU5RN1RnR19YWVBTeVNEMEJnaDdwVVEtVU5qQm9kMkp0bGlZZVQwdG5NVFhaM0hnOXhVb09wbzJPbTRfdThMZjQ3V0Nmd0hVX1BtWUtsZWZFZ0ZZNERwLVVUVEEzazhmZUt3UjhJQ0wwNUM?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 18:37:12 GMT"
-    },
-    {
-      "title": "Un rebrote en Alcudia de Veo complica el incendio forestal de La Vall d'Uixó",
-      "source": "Cadena SER",
-      "summary": "Un rebrote en Alcudia de Veo complica el incendio forestal de La Vall d'Uixó Cadena SER “Dolor y rabia”: el regreso de los vecinos de La Vall d’Uixó a sus casas en un monte calcinado EL PAÍS Informe a cámara: La Vilavella (Castellón) \"vuelve a la vida\" con el",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOeXJlcGRlOUEtUXFBS0NVWHFpV1A1c3BFVXVYUkpOM2FZOU9POXN5YzhDS3ZKcEM0aGVDS3hxdUtqWWRlaDhhRG1uc0Rtakk4MWlUd0V6UWpJRng2UVV4Z0hCdDc5cmhxVGttMmFFcmtPRTlPNzdHQmlEdVYzYWpINUc1cGtJSHRXM0w0c3dmUEJnTUpobHJHVzdsQVd6SDdyZ3d1YkcyVTNuS29BdkZSQVA0QUZ6NkpFb1BBOUpvQVJHczNzWWpaTUFtYmpoSDZidE5GMUg0UlRJR0hnMlJJZ2pib3VzOWJnbGVza1VDeFpzRmRWZkM2TkFNX2RBLXZabHVYN3hweGFfU1l1ODBDb0d3SVZBbGRpdkhVcEV2MFBsa0tSUzRfWFVRN1d5Tkd0ZXB2VWhKaGQ4cHdsbmlTQ1o1SHZzSFZIdHk0MHF30gHiAkFVX3lxTE9UU0Zlb2xKeE5rRXVsakt6T0RSUFdaNXRDUWdCcVFUM3lvNGlHeHFDRXlFQ2puQzh5YklMaVdPUEM1VHl6RzdBUi1RbWRiUXlKcmVCVU56UmxtT0dGTWFzUGF1b29VZGtjVWU1RUMydFh3V25vMUgzR3BLWjg5d0xpdC1qS3RCbV9IUXBTb2MtNXM2cHBCeUcxaEtoMmtoWThocjZGVTJIYjJwTW9JQy1DSmlNTzlVVGI1UHFKZmlaSzRvUUNxaGtkRkg0TmplakpXTC1QX3l0dThrQXE4eGl5M1RibXozTy1qU3N5Q1ZJVTlFNUpvaVhtSGE2TG41T05XOE41RXI2MWtCR0ZkRWs2WmU5QzZaNk82TmpWclpDZXpNVV80MThrRU4xSzFKaTFsVXJaeTB2M1pMajhTVHBSUkRjeHdNSDEtaldzY0tHUmUzVnIzOV9mYWUxYVlBcDlFUQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 14:17:45 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQkpaMEdwZGhKTm1CN2M0NlFVZ2JTWFhNYWVMN2VCUVNCejlpb0lIN0tuMm0zNmNReUxVRTBYZ2dmNTdlMHdOaW5YLUFBZFdQeUR2SUVNSzNqYzdtNWNvX0NVY0kwYWMxd3pPcm82U216UEQzYzBOaEYwODRRanB1TVBSb3g0RjRMVFBZWnNOaVoyN1RqUUpLZW91S1pGdEIzcFlr?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 09:15:45 GMT"
     },
     {
       "title": "Pedro Sánchez confirma que Zaragoza será la sede de la nueva Agencia Estatal de Salud Pública",
       "source": "heraldo.es",
-      "summary": "Pedro Sánchez confirma que Zaragoza será la sede de la nueva Agencia Estatal de Salud Pública heraldo.es Zaragoza será la sede de la Agencia Estatal de Salud Pública, un organismo previsto por una ley de hace 15 años EL PAÍS La elección de Zaragoza como sede d",
+      "summary": "Pedro Sánchez confirma que Zaragoza será la sede de la nueva Agencia Estatal de Salud Pública heraldo.es Zaragoza será la sede de la Agencia Estatal de Salud Pública, un organismo previsto por una ley de hace 15 años EL PAÍS Cuatro años y dos gobiernos: así se",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWTJfN25NT0Q1V3FISjc0eUlUQ0FKRE42VC1BSnVYYmVzcU40Ymx0THZWVG5jNnVId0R5T1BHR1NIdHRjbElZdl8yVzVtX3lOR2JVX05ZSS1zYmY3SDNCN2NVSmJCSi1TampiajktRkVGM3BWYy1PTkM0NUZrM0l6d2xTbkJGaTRzeUFRaXhveE9pRlpRbTQyeGkyMktzb3N4T3pLXzIwcm9KdXdMNE9YVUtHYk1QOUtfQTZYUThBR0dvZmhDcTVaQTBobnJibDZhc0J2bl9zZElEU1Jl?oc=5",
       "pubDate": "Tue, 28 Jul 2026 10:58:45 GMT"
     },
     {
-      "title": "Eclipse solar 2026: horario, cuánto durará y mejores ciudades para verlo",
-      "source": "El Periódico",
-      "summary": "Eclipse solar 2026: horario, cuánto durará y mejores ciudades para verlo El Periódico Eclipse solar de agosto de 2026: a qué hora es, dónde verlo en España y consejos para observarlo Diario Público El espectáculo astronómico del siglo ya tiene cita en nuestra",
+      "title": "El mapa de Aemet para el 12 de agosto, el día del eclipse: dónde se podrá ver y dónde no (probabilidad)",
+      "source": "Las Provincias",
+      "summary": "El mapa de Aemet para el 12 de agosto, el día del eclipse: dónde se podrá ver y dónde no (probabilidad) Las Provincias Los seis municipios de Gipuzkoa donde el eclipse se verá en su totalidad durante 43 segundos El Diario Vasco El espectáculo astronómico del s",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRU5xR284czhMc1A4ck9nTkNmVWx3LXZrY3kxNndYR29MelNnWkRMRThYVlhvQnAxYlB2THZQQlpNM1F4N2dMU0hVLWJ2WEtJYldRT0pMVUtYQVNudjJ1czBVeF9meDI0ckgtWVJQZ1FPcnBTSXlzV3NZMHdHMXVwZzAyMVVTTF9DbVdsUzAxSS1sOGsxUkZhN3E0dEhLMEo2c0HSAaIBQVVfeXFMTkZtWjNqbzVvTXhMbkpZcGZSQzltb0htbXlNdEZhaG5qS1k5aTJZa1dOZTNnbDBuSHBSSVNpOUNxc2REckRjUmRiTjViMUU5ZFFTLWRLbExHUjlObHVrMlE0T2I3dnlwb2h0SFpDMHFpRXc4d000dDdsbjBEcGN2bjhGRzJYUDNVcW8yTnhxdDdEcTdFOTlEbTZnT3dBYzhSRkt3?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 06:20:42 GMT"
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMWt2ZC1tSkprVVhZc05qUGxTWXdfNDdjVk9LcnUwd1lYX1Y1RUtDYTIyLXloeXNUSWVLdE9XZDI2NWpiX2RoQTljbzRPQXZLc3Z6Y0xIcGVnMGZmeUVGRTV1cm4xWmdtakFGYU9qUWUxQmVWRXhzdDl5ZS1JZUg5elViS2hOOWNSc0ItOG1laFhfNnRENEJmSTNPVmJBbW42ZS04YXhxZEI1TkwybVg1S9IBtgFBVV95cUxPWTNsOEtMVmpmNXFJQ3dLN05menZSOEdfdDJieGMxQ3pPdWVMQV9kdjJBOVJ5dEdEazVPSFFidDBlb1dFbkNzZEl5ZkZSZDJRSFdSeDFQek1tdFh1cm9Mc3NGS2t0aC1NOEtNaXE0Vmlsd3FhZF84bnFEZkV3VldmUjFPajNTeUFpZlFKSl9UTVdPN244RWNkRGxhSHhTUnBScHlMVjBHak5WTWhCS294bjBldWtCZw?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 19:21:07 GMT"
     },
     {
-      "title": "La tasa de paro cae al 9,87%, mínimo desde 2008, pero España pierde 100.000 autónomos en un año",
-      "source": "ABC",
-      "summary": "La tasa de paro cae al 9,87%, mínimo desde 2008, pero España pierde 100.000 autónomos en un año ABC La tasa de paro cae al 9,87%, mínimo desde 2008, con un récord de 22,78 millones de ocupados El Mundo España bate récord de empleo con más de 22,7 millones de o",
+      "title": "¿Sin gafas para ver el eclipse total? El Gobierno y la ONCE repartirán dos millones de forma gratuita",
+      "source": "RTVE.es",
+      "summary": "¿Sin gafas para ver el eclipse total? El Gobierno y la ONCE repartirán dos millones de forma gratuita RTVE.es El Gobierno y el Grupo Social ONCE repartirán de manera gratuita dos millones de gafas seguras para ver el eclipse total de sol del próximo 12 de agos",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFBQQUdPLWM1T0RJczlKbU8yZEdtY2REalFCZ1ctYWd6cFVOTmhXeV81Umo3OXhiVEZZcjBpT0JqTS0xa0sxUEJWb19sR05jdE5UNHg2QmxDMW9mMHdaUzh1eTRqenBpVi1KLUxsQ3VrcjhmVWhJcHBERGxmZjMyVXcwWFpncVl2V2tsYUZidmVHRknSAZgBQVVfeXFMTkFVeHRkc2hCY2s3NGRuWDVrUTJmZl9vbG8xdEg5Q3luNlRlUW5wNjRHRnRKSm9vWFFHdEYzSW5UNk5FZjY5NkhxcHRwd0tLeUpRZ0lfU0lNTFRpVy1keU9KQXFubGNmVWVnYnFQTDJTRTNFMzEtbzhlSTAxNWRVOWFKUGZfQUJReTBXQ0NvTGN6b2JkcUJxUUs?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 16:39:12 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa2ZLNTVMaWZUUERrM2hra2dQbTVNTDlwLUtiQUkzTjlNTlg5SWMtZFNhbE82Nl9RUElzTS1Jd01IUmdhWlRpeWV6ZXJPZXhrRFFZbGQzcU94UlFWTlhhR3ZSTFRTMDhkRHkzNU9YZDYyY0xPNkR3LVUxbzFYWFlMUXc3dUVtR1dHZ2dJODVxRzNYb3lHb0tkU2dPVkE5bklxdWVsZkJ5LVRram9nNWh0UzhEV2FaNHdPcXlQQW1SbEgxVldPS0hUZHc1SDBmNFozM2J3Zw?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 13:32:50 GMT"
     }
   ]
 }
