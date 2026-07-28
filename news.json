@@ -1,31 +1,47 @@
 {
-  "updatedAt": "2026-07-27T23:35:34.452396+00:00",
+  "updatedAt": "2026-07-28T02:54:32.320021+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "MAPA | La evolución del incendio de la Vall d'Uixó en su tercer día: los bomberos limitan su extensión, pero sigue sin estar controlado",
-      "source": "elDiario.es",
-      "summary": "MAPA | La evolución del incendio de la Vall d'Uixó en su tercer día: los bomberos limitan su extensión, pero sigue sin estar controlado elDiario.es Los bomberos fían el control del incendio de la Vall d'Uixó a un cambio del tiempo: \"Luchamos contra reloj\" El M",
+      "title": "Extinguido el incendio en la L1 del metro de Barcelona, tras obligar a desalojar la parada de Glòries y cerrar El Clot",
+      "source": "RTVE.es",
+      "summary": "Extinguido el incendio en la L1 del metro de Barcelona, tras obligar a desalojar la parada de Glòries y cerrar El Clot RTVE.es Un incendio en el metro de Barcelona obliga a evacuar estaciones de la línea 1 y deja a 137 atendidos por Emergències El Periódico Un",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVC10TGlJMDRHRFdVN1RPanF6UUg1MmwzMTN0YVhWZEFncWJlVy1iT1YwY0R4ZXlRX2VUaG9pb1pSdEJrcUR1a01iYTFVZlhnNkpNcGstNElVbDdBdEtGQ1R4TjRnQUtHRUhlV3Axb1kxTDdoSEFUc3JhRVJaM09IeElFZzd2RGRPbVZVaW5tZXIyaVhvSkJGc1hBWjZ3b251aUFxQXFyQmJFc0dpc2F5SlFZaEROUXhNdVBQVkE3TU1Xc0g3VGoxQUE2QmRQZmhCQW5aaVJXUG9OSXBQYlVKOW1UZ2NVUdIB6wFBVV95cUxQLUpTczdhZUI5MUw1TFNITUh5YVZaNmxZSlhTa2s3dXZWNVdWdVVLUnp1XzZZSWZIZGd2NUdNRmlCR0FKMlRCZDNORy1Zd3pYX196MXB5NWdEcXNwWl84eEwzSGh4OUozUmNVeTR1bHZtN2t2Z0xFOGowSFREZXRncGRiNWZtMk5SQkdyZjd4dm5icHhlbnZ4Nm9hNWpRSWllaUNxbEdIdmJhSmYzMlBOUUF5cXREQW5EM0dlemozeTZOZk5GRDFvNHRRbWdoMkFnX2ZCZTlJNG1pX1RlZ1hSOGg3ZUt0c1NqSHMw?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 10:27:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdGIzaHdCd0E5b3FneTVXWE41NXVjWDNCdG4yU0ZxRUlETllRdTcyMTNNR2YtMzdsNHRCdVMzeEVJNUh4a0JFd3Zzc0xzcnJVUlJEZm1QNWpHMkVjME93ZjFyNFdsMjVyWlRDMW5jRkRocjBGV2NUc3N3a2JqNkxMN0ZOcTVWaEFVY0RwU1g4MWpON1lRMmpvM0ZobS1rNEU5b05nbUNvRWJKMThoNWJjdDNqNjBSbU1f?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 18:21:43 GMT"
     },
     {
-      "title": "El incendio arrasa el corazón turístico del Pantano de San Juan: viviendas y negocios calcinados",
-      "source": "Telecinco",
-      "summary": "El incendio arrasa el corazón turístico del Pantano de San Juan: viviendas y negocios calcinados Telecinco Última hora de los incendios forestales en España, en directo | Protección Civil informa de que la situación en el incendio de Ávila es “bastante más fav",
+      "title": "Bomberos tras la gran crisis de fuego, que no saben si será la última: “Parece que se ha dormido el monstruo”",
+      "source": "EL PAÍS",
+      "summary": "Bomberos tras la gran crisis de fuego, que no saben si será la última: “Parece que se ha dormido el monstruo” EL PAÍS Cuánto son 50.000 hectáreas: como quemar Madrid o cinco veces Barcelona El Correo Incendios forestales en España, última hora en directo: Ávil",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXcyd2pXQVBXTmpjMllQXzhVTkR2ZzZROW56dC1ob24xSzYyUUdfOXhJazlMZzBMZmhjX1RFNGxtRmlPaXZ3QzN3dTYyMmhMTUtseWpheUhicGQ5MUFxUHJWT0xvc0RUMWs1REFqM0Nyb2h3Ty1sWVFZaFgwUjN1a3VrVzNkb3pjMWhENnVia3F2OHZuOWNVMkVYa0xvQVUzMlY2bDBBT1RaaVlq?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 13:53:20 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdE5LTVBDX2NZR1NyNE5MS3lYZUJSRkNvb2ttYkJYY1ZJSXdZdU1NVXRFZjNGQ3c0Q1M4WFg0VzhnMEkzczZwX01wUmkySThVOW5hbUtTY1EtWXdFRXE4Z1lWRHBGT3lYNURqc21WME1sMndrRXd6U2dCVjhBVkl4NXB1S05xb3ptNmQwTnZzOFlIRzJELXppNEZ5czFEclpDTjVlVjRJc2NQOUXSAb8BQVVfeXFMTlR0akhQZVI2N3B5VXRuX1VIT0lzNEI3MGYwb2tVX2x5RFJPYW1sWE1QVWVqbFh5bi1rNTlTOGdDQTRuYXNZSGdmcEUwZ2V4SjEySkR3U09WVF9WOXFSdWJzTkVYTTFGOXIxZnhNSWdnaFdmZENNRVZRNTBkUHZyenE0ZGg1OThTZHlEU05PSktiN0JtS1JUTzlQenVwWkk4bm5yMWw3QWlpM1cwM0NFMU5jQ25OMndvc1hxdWRBVDg?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 08:49:52 GMT"
+    },
+    {
+      "title": "MAPA | El incendio de la Vall d'Uixó amenaza al parque natural de la Serra d'Espadà, en el interior de Castelló",
+      "source": "elDiario.es",
+      "summary": "MAPA | El incendio de la Vall d'Uixó amenaza al parque natural de la Serra d'Espadà, en el interior de Castelló elDiario.es Los bomberos fían el control del incendio de la Vall d'Uixó a un cambio del tiempo: \"Luchamos contra reloj\" El Mundo El fuego devora la",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTWhUcm9FcG9xQTJZM0NQWFZPZ1RRQU80MmVYMDNudFZGY1VfVkFjSUpBVS1SVXFfdU55MHh1cFNjVk1zTEltSmI1TGhrUGIwTUc4SnpXaXhSb0hXdWZ2OEppTjJ5V0FDX2x3QUw5OEVvMFFkeFVDenBUUTJEMTI3OV9EZjRRRHVUV0xkWGJRRDVVbHlQUGU3RmRzX3JUSlV5MXEydUZEQW4tLWJwVjF4R09zdGJUNDZMN2JzNy1JakJicTdsRnBXYUlSUkZ0UVAyczgwNV9kdkVBQdIB3wFBVV95cUxQM3NkelBFUjl3WTBGYWxoZjhVdDk2UklVRm9LcUhLTFV6SndycXBVNjlGREdwUFZ0TUEzOGo2ZWRYTkxCOFhzdlNtUjBvNmhDWFlzN1QwWGJETE9aZGJKLXhLZmw5MDNoQ2xYTmpmZzE4REJoSlRvM3VBS09IQmVrTHhMc2hWVzlRVGUtSFYxV3pleVJEcXp4bm1ZZUhDTDdwVURCMEZwWDk4VUR2RFJRb0x6cXZ6cjVySnhXMFo5bnM1dzg5X1BCbmljbzZVMFBBN2pDMU8tSElkbEVUZXpv?oc=5",
+      "pubDate": "Sun, 26 Jul 2026 15:57:09 GMT"
     },
     {
       "title": "El Gobierno presenta la Red de Refugios Climáticos en el marco del Pacto de Estado frente a la Emergencia Climática",
       "source": "La Moncloa",
-      "summary": "El Gobierno presenta la Red de Refugios Climáticos en el marco del Pacto de Estado frente a la Emergencia Climática La Moncloa Sánchez insiste en su Pacto de Estado contra la Emergencia Climática en pleno azote del fuego: «Es una prioridad nacional» ABC Pacto",
+      "summary": "El Gobierno presenta la Red de Refugios Climáticos en el marco del Pacto de Estado frente a la Emergencia Climática La Moncloa PSOE y PP se culpan de que no haya pacto contra los incendios y esquivan todo acercamiento El Mundo El Gobierno anuncia 10 millones d",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMFFqamJHdjBNQmVhUTFLRW8tX0Q2eV9pNTA0eFFlZ19ZaXJkc29lck1SY2tDNV9rYXg3WElxS05HUUZLUVlZSXRLT1hMZ1JpVHhoWVNfVXJTMEZOTUVJcndHVktWQnVNZ2hsRl9hbFNOQlhxNVNjTWFBWXhDRm1QRHVoSW1vX3hZVERSdjNFR3pkdGdWUmdNVk5xWXo4N0xINzdqWmRiMWF1bGlURjJ4bTRlbmZJOG9tbkxTRUVrMFBXYlBWMEozMnoya2FlTnFs?oc=5",
       "pubDate": "Mon, 27 Jul 2026 13:53:48 GMT"
+    },
+    {
+      "title": "¿Hacen falta más medios de extinción para luchar contra los incendios forestales?",
+      "source": "The Conversation",
+      "summary": "¿Hacen falta más medios de extinción para luchar contra los incendios forestales? The Conversation No echar más leña al fuego La Vanguardia Un infierno evitable EL PAÍS Una evacuación histórica, una prevención urgente El Mundo La emergencia y la hipocresía Exp",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlNLSUVycThKZ3NMQ3JIWlVtaEc1dFYxdHVBaTBOMS1IQnRSLV9Wb2Y4bThCaVh4d1psbXlTMmplc1pYNkk5RkxKZi1hMWUxSFk3YUREZWhUM1ZhcEdBWTJVdW00WU0tcHdOQXM5bHE0eTktZ1BKNDRHelJrZzVUMC1VODRJblYwaFVuX2Z0RXlGSklKMnZRY1lnRUFBd2RzUnhTREdHLWQ0T1owNlIzaWJibXo?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 16:49:28 GMT"
     },
     {
       "title": "La consejera de Movilidad, Transformación Digital e Inteligencia Artificial visita a personas del Valle del Tiétar realojadas en Talavera de la Reina tras su evacuación por los incendios | Comunicación | Junta de Castilla y León",
@@ -36,36 +52,20 @@
       "pubDate": "Mon, 27 Jul 2026 18:56:12 GMT"
     },
     {
-      "title": "¿Hacen falta más medios de extinción para luchar contra los incendios forestales?",
-      "source": "The Conversation",
-      "summary": "¿Hacen falta más medios de extinción para luchar contra los incendios forestales? The Conversation Nos estamos quemando Diario Público Creerse la realidad elDiario.es Un infierno evitable EL PAÍS Ignacio Camacho: Ni política de país ni política de paisaje ABC",
+      "title": "Vox aplica su prioridad nacional en Aragón atacando a los más vulnerables: los menores migrantes no acompañados",
+      "source": "LaSexta",
+      "summary": "Vox aplica su prioridad nacional en Aragón atacando a los más vulnerables: los menores migrantes no acompañados LaSexta El Gobierno de Aragón suprime la ayuda semanal de 17 euros a los menores migrantes no acompañados tutelados RTVE.es Vox elimina la \"paga sem",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlNLSUVycThKZ3NMQ3JIWlVtaEc1dFYxdHVBaTBOMS1IQnRSLV9Wb2Y4bThCaVh4d1psbXlTMmplc1pYNkk5RkxKZi1hMWUxSFk3YUREZWhUM1ZhcEdBWTJVdW00WU0tcHdOQXM5bHE0eTktZ1BKNDRHelJrZzVUMC1VODRJblYwaFVuX2Z0RXlGSklKMnZRY1lnRUFBd2RzUnhTREdHLWQ0T1owNlIzaWJibXo?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 16:49:28 GMT"
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOWEotaVgxS0lrNzNueTFoTFpWV3pXZjJzTzBNSTNFSHFNYTBhTGRDM2V2NVRUeE8zRVZTcXBUSS1xcVlDRG9WTG1BMmxlRWFiaGl6eHNBTG9hc1dmTXdYSDF3OFhPTnNDNV9sTWxLcVgtQVZoSmRfclVoOUtmcnlQbEYxNVdfV2ZuVWxXeE5TQ3RvdG1oVVNvQllWZ0tpYXk2R2VrY01MZzZpdjlpZnFTZUROQUV1RnAxNFBGTG5XUXVOMDhEdzlhcVZkeC01NnQ2TUNidE1DU2t6ZVJ2bnl3QkVuWElibEh3U2tUcTV4clY2d0NnYmRlWUdSNkVkVHhK0gGAAkFVX3lxTE9wWU8tWjFtX05mRDFHNGdaRXNQQ2QyMjFTcFpqN1FGV2RZY1F6djZrRE1lUjR1RWxsclN0V1hXYzlFbXFfTGltMm1HUExyeWR2TEhucVh1Q0F5WjhFa2xTemtMdXUyNVB6SlZhTVJtQlJjRE1PeGpxdEQ5NUoza3BKTXZQQWdwUHNMelNVbVoydnZFMnU3OXZreGR6TXhLalF4aFhKRjlkcEVSYmN4bEZ3S3FDOTZuRDl2ZVNFWGI1MzBWUlhuMTRpdlphM2pwd1AxbmU3UnNaMlVwS0RVVEdWU2RCNmtxdUg1anlybk42QUhLbTVxQkFnOHdOSHRHNG4?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 19:10:21 GMT"
     },
     {
-      "title": "El Gobierno pospone la aprobación del real decreto de vivienda para después del verano ante la falta de apoyos",
+      "title": "Última hora de los incendios forestales en España, en directo | Protección Civil informa de que la situación en el incendio de Ávila es “bastante más favorable”",
       "source": "EL PAÍS",
-      "summary": "El Gobierno pospone la aprobación del real decreto de vivienda para después del verano ante la falta de apoyos EL PAÍS Sánchez, obligado a retrasar el decreto de vivienda por el veto de sus socios ABC El nuevo decreto de vivienda endurece el alquiler: estas so",
+      "summary": "Última hora de los incendios forestales en España, en directo | Protección Civil informa de que la situación en el incendio de Ávila es “bastante más favorable” EL PAÍS La factura de extinguir la ola de incendios que arrasa España en 2026 ya supera los 3.362 m",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUk00c1lTYXhEa2xvdzJkMWRUbXdFZ2ZBZXhKWGpXT1ZpeGVXZFBBWE4zbUJQM2xWLW5KcHNFN3lsVklLYS1Qek90WHp3Y2lkTVJVSlVWaGFrZTJIazlnQXgyQTl0NUkxYXFTS2tBVHFJXzk1YnlQTl91VUdBTjlxOUNfOWd3OE9pRkFLX3VJRGZFRkdmMDd5OHBIX3RLZWZrWTQxYWRlRS05SUR1SmRDYnFMTzVKU0JrSW1peHdRSk0zX2lhQVI3TE9Sb1kybm1QR21yeTRXX1ZQaXBrVFBVSEw5NDl4eVnSAfsBQVVfeXFMTzFJcURCTGpmeFoweGZTVzNiNDlVeWs1a1pSSms3WlRiN3djU2NabFloTVdUbWlQTDY0cUltdUFLSWZ1Y1NNa0pBWHZvVTFycy1fQ3pPSGpYQUlsU0V3aXdGQjlzRzZnenRPU1NlUHZBM0Ryell3M21nNjFkOGt1MXpVSXU3MUl4UUlXQ3VoeXRWMmRjWTdlaHJqZF9hUWVzTTJoTE5uVHRrNGR3MkpidUQ1R0J6Wmx2QzFLelBDUFRnTTcyc0R1MlZsWG45djlfenYyd18tNU11TldvWmh1VU90YWxtTTNLblkyX3J1V0hsRldQdnROUWFnenc?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 09:01:16 GMT"
-    },
-    {
-      "title": "Extinguido el incendio en la L1 del metro de Barcelona, tras obligar a desalojar la parada de Glòries y cerrar El Clot",
-      "source": "RTVE.es",
-      "summary": "Extinguido el incendio en la L1 del metro de Barcelona, tras obligar a desalojar la parada de Glòries y cerrar El Clot RTVE.es Un incendio en el metro de Barcelona deja más de 130 afectados, varios de ellos trasladados a hospitales, y obliga a evacuar la estac",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdGIzaHdCd0E5b3FneTVXWE41NXVjWDNCdG4yU0ZxRUlETllRdTcyMTNNR2YtMzdsNHRCdVMzeEVJNUh4a0JFd3Zzc0xzcnJVUlJEZm1QNWpHMkVjME93ZjFyNFdsMjVyWlRDMW5jRkRocjBGV2NUc3N3a2JqNkxMN0ZOcTVWaEFVY0RwU1g4MWpON1lRMmpvM0ZobS1rNEU5b05nbUNvRWJKMThoNWJjdDNqNjBSbU1f?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 18:21:43 GMT"
-    },
-    {
-      "title": "Tres eclipses solares en tres años: las fechas en las que España volverá a quedarse a oscuras y los mejores sitios para verlos",
-      "source": "Cadena SER",
-      "summary": "Tres eclipses solares en tres años: las fechas en las que España volverá a quedarse a oscuras y los mejores sitios para verlos Cadena SER Los seis municipios de Gipuzkoa donde el eclipse se verá en su totalidad durante 43 segundos El Diario Vasco Eclipse solar",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQXQwNEdHVkx0UGxJdlBNWmtRS1g0V3h2b3JZVUdNV0U5ZmZaRTFRX0xvRHFQS2g0NFdnNDUxOWRDUW56dlkzOERKb0JBTHItQkNYZjZvVm5yZWVaTkZ4eDFEZmYxU3VReEltLTZFYlVaV1R1dFNMRlM5dDBRdGZ3R2tTSkhIRkJuU1BVMGFyN1MtSThNckdFUklybDRPaGxXM2hRT3BudUVjZHhvVzFrNTJoc0lRWmk2ZUhyaFdPb04xYzB4d1BVLWNWVE9hMzFWcW5xT3dwVUd6aUdhYy1TeFZVY0gzWmxxY1gwVnJ6ZU1tcFR2SGYwbjRxS284QzRYS0dzTi1VanM3V3PSAZ8CQVVfeXFMT09zYlNmclVIcWpycW1ZZ2tQaHdLU05CdXRURlQyUkxGTTRCZU8yMFJSS2NTam1RVjVHQ2RoOEd1ajdNcU9HSHBEODgtOFVVaVdJcFU0Z25VejhIRF9VU1VnSVFzY2ltc1pVZEY0cWlpVzB2b3hGM1NQWkwwa1lqZmZ0UXl6OFJJeUV3a3VFMEVHWWpqaG96YWh6RExTRW1JYm41S01fc0d0SlprQmpRUXBMNGg3RnNIWUhEU2s1UC1MNWZtRXVRSkcyM0VKTGk1cDFQT0NBWnFIYlY5eTg3eG40QlBIZFlzckc2WUFsWVNSMDM2WkxTUURFRHFWM2ZRS1Y4MHRGMEFOdFNPN2Zqd2xYV3ZPTlpRYW5OV3BpUnM?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 11:26:13 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZDdxUDFocEExOTZRTnNtUFAzTFlnZmh2UnBjNk1jS0swcUp2bWs5QzVhVFoyUHNxMDl2SDdjMzVodFBObmdsUzQzcWpaeXF1NE82TjFMc0lUVTd2T21qMEJEWVAybm85enBlV2VWZEQzeEdrRTJJZm5WZFlvZzQ1c05TbWpmazFVTzVFci1VaEhaTGREZ3BFNVdMaVNLY0dfZy1DetIBuAFBVV95cUxQa3Z2SnVYT2JEOEVIRzYxc0w2Z19uS1JmWmo4SkpUcFdPQ3pHNU94Xzh0Y3Q5bWtheFgxdDR5aXplblhCa1I0Rk5tNm9jYWdkQWh4Ujh2VXRGaXRjam04VWpidmRIdGo2T0tJUGs4VDJyRlZpNzllUGtTQy1SeGw2dnZaZ3RsRmZ1T1YtQTZYaTEzNUJxbDBja2ZwOV9yY2VVVjZ3LUc5TW9tYmFtc1V4U3RfT0Z3bFBn?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 21:28:57 GMT"
     }
   ]
 }
