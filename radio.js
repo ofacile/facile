@@ -168,7 +168,7 @@ function initVolumeControl() {
     try {
       localStorage.setItem(CACHE_KEY, JSON.stringify({
         savedAt: Date.now(),
-        items: items.slice(0, 30)
+        items: items.slice(0, 80)
       }));
     } catch (_) {}
   }
@@ -276,7 +276,7 @@ function initVolumeControl() {
       return;
     }
 
-    items.slice(0, 24).forEach((station) => {
+    items.forEach((station) => {
       const row = document.createElement("button");
       row.type = "button";
       row.className = "facile-radio-row";
