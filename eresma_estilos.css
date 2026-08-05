@@ -5586,3 +5586,141 @@ body{
       scroll !important;
   }
 }
+/* FACILE RADIO — LISTA COMPLETA VISIBLE Y PANEL UN POCO MÁS ANCHO */
+
+/* Quitamos paint containment solo en Radio, porque puede recortar el scroll interno */
+.facile-radio-panel{
+  contain: layout style !important;
+  overflow: hidden !important;
+}
+
+/* PC grande */
+@media only screen and (min-width: 981px){
+  .facile-radio-panel{
+    width: min(400px, calc(100vw - 108px)) !important;
+    max-height: min(660px, calc(100vh - 28px)) !important;
+  }
+
+  .facile-radio-results{
+    max-height: min(340px, calc(100vh - 345px)) !important;
+  }
+}
+
+/* Tablet y PC estrecho */
+@media only screen and (min-width: 768px) and (max-width: 980px){
+  .facile-radio-panel{
+    width: min(385px, calc(100vw - 98px)) !important;
+    max-height: min(635px, calc(100vh - 26px)) !important;
+  }
+
+  .facile-radio-results{
+    max-height: min(315px, calc(100vh - 335px)) !important;
+  }
+}
+
+/* Móvil */
+@media only screen and (max-width: 767px){
+  .facile-radio-panel{
+    width: min(350px, calc(100vw - 66px)) !important;
+    max-height: min(595px, calc(100vh - 22px)) !important;
+  }
+
+  .facile-radio-results{
+    max-height: min(280px, calc(100vh - 330px)) !important;
+  }
+}
+
+/* Pantallas de poca altura */
+@media only screen and (max-height: 680px){
+  .facile-radio-panel{
+    max-height: calc(100vh - 18px) !important;
+  }
+
+  .facile-radio-results{
+    max-height: min(245px, calc(100vh - 310px)) !important;
+  }
+}
+
+/* Lista inferior: scroll completo y sin recorte en la última emisora */
+.facile-radio-results{
+  display: grid !important;
+  grid-auto-rows: max-content !important;
+  gap: 7px !important;
+
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+
+  padding-right: 8px !important;
+  padding-bottom: 22px !important;
+
+  box-sizing: border-box !important;
+  overscroll-behavior: contain !important;
+  -webkit-overflow-scrolling: touch !important;
+  scrollbar-gutter: stable !important;
+
+  scrollbar-width: thin !important;
+  scrollbar-color:
+    rgba(255,255,255,0.72)
+    rgba(255,255,255,0.14) !important;
+}
+
+/* Espacio real al final del scroll */
+.facile-radio-results::after{
+  content: "" !important;
+  display: block !important;
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
+  height: 18px !important;
+  min-height: 18px !important;
+  pointer-events: none !important;
+}
+
+.facile-radio-results .facile-radio-row:last-of-type{
+  margin-bottom: 8px !important;
+}
+
+/* Scrollbar Chrome, Edge, Safari */
+.facile-radio-results::-webkit-scrollbar{
+  width: 7px !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-track{
+  margin-top: 6px !important;
+  margin-bottom: 18px !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,0.12) !important;
+}
+
+.facile-radio-results::-webkit-scrollbar-thumb{
+  min-height: 30px !important;
+  border-radius: 999px !important;
+  border: 1.5px solid transparent !important;
+  background-clip: padding-box !important;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--primary-color) 58%, white 42%),
+      color-mix(in srgb, var(--secondary-color) 58%, white 42%)
+    ) !important;
+}
+
+/* Móvil: mismo comportamiento, scrollbar más fino */
+@media only screen and (max-width: 767px){
+  .facile-radio-results{
+    padding-right: 6px !important;
+    padding-bottom: 22px !important;
+  }
+
+  .facile-radio-results::after{
+    height: 20px !important;
+    min-height: 20px !important;
+  }
+
+  .facile-radio-results::-webkit-scrollbar{
+    width: 6px !important;
+  }
+
+  .facile-radio-results::-webkit-scrollbar-track{
+    margin-bottom: 20px !important;
+  }
+}
