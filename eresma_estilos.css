@@ -5538,3 +5538,51 @@ main.intro .container > section:not(#facile-news-widget){
     max-height: 232px !important;
   }
 }
+/* FACILE — FONDO PERSONALIZADO A PANTALLA COMPLETA */
+html,
+body{
+  min-height: 100%;
+}
+
+body{
+  background-image:
+    var(--custom-background),
+    var(--background-gradient) !important;
+
+  background-size:
+    cover,
+    cover !important;
+
+  background-position:
+    center center,
+    center center !important;
+
+  background-repeat:
+    no-repeat,
+    no-repeat !important;
+
+  background-attachment:
+    fixed,
+    fixed !important;
+}
+
+/* Móvil: mismo efecto visual, pero más ligero */
+@media only screen and (max-width: 767px){
+  body{
+    background-size:
+      cover,
+      cover !important;
+
+    background-position:
+      center center,
+      center center !important;
+
+    background-repeat:
+      no-repeat,
+      no-repeat !important;
+
+    background-attachment:
+      scroll,
+      scroll !important;
+  }
+}
