@@ -5681,3 +5681,96 @@ body{
     padding-bottom: 16px !important;
   }
 }
+/* FACILE ICONOS — FIX DEFINITIVO BASE INFERIOR EN ÚLTIMA/ÚNICA FILA */
+
+/*
+  Corrige SOLO el bug visual de la base inferior de los iconos.
+  No modifica @keyframes float.
+  No modifica .logo img:hover.
+  No toca Radio.
+  No toca Temas.
+  No toca fondo.
+  No toca header.
+  No toca widgets.
+*/
+
+/* Cada icono de página queda dentro de una ventana visual exacta */
+main.intro .container > section:not(#facile-news-widget) > a.logo{
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+
+  /*
+    CLAVE:
+    oculta la parte inferior que antes se veía en la última fila
+    o cuando solo había una fila de iconos.
+  */
+  overflow: hidden !important;
+  overflow: clip !important;
+
+  border-radius: 10px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+
+  isolation: isolate !important;
+  contain: paint !important;
+}
+
+/* El icono se mantiene centrado dentro de esa ventana */
+main.intro .container > section:not(#facile-news-widget) > a.logo img{
+  width: 40px !important;
+  height: 40px !important;
+  max-width: none !important;
+  max-height: none !important;
+
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  object-fit: cover !important;
+  object-position: center center !important;
+
+  border-radius: 10px !important;
+  background: transparent !important;
+
+  /*
+    Recorta cualquier sombra/base generada por el propio renderizado del icono.
+    La animación sigue existiendo, solo no deja pintar basura por debajo.
+  */
+  clip-path: inset(0 0 0 0 round 10px) !important;
+}
+
+/* En hover, el enlace nunca pinta una base propia */
+main.intro .container > section:not(#facile-news-widget) > a.logo:hover,
+main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible,
+main.intro .container > section:not(#facile-news-widget) > a.logo:active{
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+  overflow: clip !important;
+}
+
+/* La sombra inferior generada por .logo img:hover no puede salir de la caja */
+main.intro .container > section:not(#facile-news-widget) > a.logo:hover img,
+main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible img,
+main.intro .container > section:not(#facile-news-widget) > a.logo:active img{
+  clip-path: inset(0 0 0 0 round 10px) !important;
+}
+
+/* Seguridad: ninguna pseudo-capa debajo del icono */
+main.intro .container > section:not(#facile-news-widget) > a.logo::before,
+main.intro .container > section:not(#facile-news-widget) > a.logo::after{
+  content: none !important;
+  display: none !important;
+}
