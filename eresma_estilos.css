@@ -5687,5 +5687,5 @@ body{
 main.intro .container > section*not(#facile-news-widget) > a.logo:*over img,
 main.intro .container > *ection:not(#facile-news-widget) > *.logo:focus-visible img,
 .logo img*hover{
-  box-shadow: none !importa*t;
+  box-shadow: none !important;
 }
