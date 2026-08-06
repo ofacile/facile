@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-08-06T10:10:42.415334+00:00",
+  "updatedAt": "2026-08-06T12:26:52.751571+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
+    {
+      "title": "Dónde ver el eclipse solar sin salir de Madrid: los 40 pueblos donde será total",
+      "source": "EL PAÍS",
+      "summary": "Dónde ver el eclipse solar sin salir de Madrid: los 40 pueblos donde será total EL PAÍS El eclipse une la España vaciada con Marruecos para revelar los secretos de la corona solar EL PAÍS Tarragona vivirá un eclipse entre el calor y las tormentas: se prevé un",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVjIwVl81Snk5Yk9NeWg1aG9ITF9LejBfa2dOU3JHT2hHVjE1S1NwbzB2UEM1YlZEQVh0akZvOEV5NlgtM21uX015T2pvdHlqS2pTdEF3dkFidHkwMHJOazd3Y2ZCRGh1bGdOcXk2bWRmQ3dVQjNsY0k4Y2psZkp6bU4xZ0g5RXNJbE1UbU9fM3U2Tm0xZTlhckJMRnNNbTlpR1R0Z2gtN3EwTEwzWlR5eGNqSVFQbnkxM3NyaWZVclBveEEwVEE?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 03:30:01 GMT"
+    },
+    {
+      "title": "Los ministros Marlaska y Saiz plantan al Parlamento europeo en el debate sobre Ceuta",
+      "source": "Libertad Digital",
+      "summary": "Los ministros Marlaska y Saiz plantan al Parlamento europeo en el debate sobre Ceuta Libertad Digital El PP abre el Senado por Ceuta y apunta a Marlaska, Robles y Albares frente al silencio de Armengol El Confidencial El rechazo de la derecha a la acogida de m",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdjN4czI0M0V4RmpkZmlmN05iS3RmZEpiU0U3QjNpUXZZcTE2U2l0Z0ZYOWRabktPb2ZJMXB0YkUzM282TFNIazFTWVp3SUcxcWhMSEhYTk1Ca3NuWkh5cERCZGM5MUxaSWVDMVlLc0xIbHQya3p0a2d0ZVU3QTJxSnJSa1E1N2M2Q1B6MDZ3UDJiYjJhTmtROXlyZktVb2RJT1Z6aG1nOHBZSHI4aFF2MlJxWHhqMUlIYUVLYmZURlNvU2Vrc0RsMWdIaFVraHpQRXE5VkFXbUFndzNMRU5SX25ScEFhcHJ1eHc5MWNjQm1tbkRPcUhYRVMxWjhHd1haU0V3?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 16:06:36 GMT"
+    },
     {
       "title": "El PP se enreda con la acogida de menores: dice ahora que \"cumplirán la ley\" mientras varias comunidades en las que gobiernan con Vox se oponen",
       "source": "elDiario.es",
@@ -12,60 +28,44 @@
       "pubDate": "Wed, 05 Aug 2026 08:58:48 GMT"
     },
     {
+      "title": "La guardia civil asesinada en Llanes, “una madre ejemplar y una compañera que siempre estaba\"",
+      "source": "Telecinco",
+      "summary": "La guardia civil asesinada en Llanes, “una madre ejemplar y una compañera que siempre estaba\" Telecinco Dámaso, el guardia civil famoso como guía de Donald, convertido en el asesino del cuartel de Llanes El Mundo Dámaso, el instructor canino elogiado 29 veces",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHk5a0ctVlFsdUhxVHdfaWdyQnZuSEFkaU1nQnAtRVB0LWpHVTgwOGZ5cndVbncyZmxHek1qNEIwRVAwc29aNEFMekJ2MmZmVDllZmhYZ19KZUVfNUlzb0FoQTRjUHVBNmQ2RFlUbExnZFZsQ1NrcTdpcEhFaHprZGxZU20tSEJxVW1GeTlBZmNBdkl4ckM1Rjd0WS10bG1rNU1aa1cxUnlMTlFJVkhIT3RPNHpCQzJ3QmwyOFFSSFVTZGJ6eE11aXF3?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 06:34:31 GMT"
+    },
+    {
+      "title": "Hoy comienza la novena a la Virgen de los Reyes: síguela en directo en Catedral de Sevilla TV",
+      "source": "Catedral de Sevilla",
+      "summary": "Hoy comienza la novena a la Virgen de los Reyes: síguela en directo en Catedral de Sevilla TV Catedral de Sevilla La Virgen de los Reyes ya está preparada para el primer besamanos con el Manto de los Apóstoles Catedral de Sevilla Cientos de sevillanos acuden a",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSnJVVTRpbENDdDJNZG53dEhPNzZzdkVwS0JNc2ZOTVhBeTNmZmxwZ3NqTXVTMTdoLWhSb2xNb3pTZUhJOXg2VnY5dlFsY1JGY29JOW5INEFLRDZtMkVRTXpxQ2xtdnRzU2VYR3p5T045RVk4TFdrbS04dXFmU0lIYk9tMXVVeXpzNWpPRU5XNzN3Q3dvTng1WGdYZWJFTC1vRzFwR0ltVVlCUlhjQkxaY05XOWV5RFpCcTdPX2tzMHo5T3Qz?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 05:20:23 GMT"
+    },
+    {
       "title": "“Nos vemos allí el 15 de agosto”. Así debaten miles de marroquíes en Facebook y WhatsApp si habrá una nueva entrada masiva a Ceuta",
       "source": "EL PAÍS",
-      "summary": "“Nos vemos allí el 15 de agosto”. Así debaten miles de marroquíes en Facebook y WhatsApp si habrá una nueva entrada masiva a Ceuta EL PAÍS La Guardia Civil investiga ya una posible movilización masiva y coordinada para entrar en Ceuta en diez días ABC La Guard",
+      "summary": "“Nos vemos allí el 15 de agosto”. Así debaten miles de marroquíes en Facebook y WhatsApp si habrá una nueva entrada masiva a Ceuta EL PAÍS La Guardia Civil investiga ya una posible movilización masiva y coordinada para entrar en Ceuta en diez días ABC \"¿Cuál e",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1ZjdEliSkhLNEs0cjFma2FidUZuR21lVmlWTTJtdzhveEcwNVJGNDFObUxQdG9ITXROY1VBOGlSQXgyOWRmMG1xNXM0Y0xLMDdLR29NT1lTSkp1X2NuTzdrZHEwSlE1VEd6b3hJTU5aNGplWmhtbk5QdWpHaGg5UVItQzRlclo4VE1XMVRReS16MmswUFRXcmN3bXRxQ0ZrTTc5Z2RQUTZPUTJVaDlsYWlFSjZBQUNmeWVRUm9hQ042Q0lhUkJwYl9SUDkwN3doakhxZjhkQWZVRDBTaGpaZjB4Y1VLSFdQdEhZQ1FXY05qLU1sMFhSdndJdEtwVG4xbV9j?oc=5",
       "pubDate": "Tue, 04 Aug 2026 14:10:37 GMT"
     },
     {
-      "title": "Illa ignoró el informe que advertía de que prohibir la compra de pisos para invertir era inconstitucional",
-      "source": "El Debate",
-      "summary": "Illa ignoró el informe que advertía de que prohibir la compra de pisos para invertir era inconstitucional El Debate El sector de la vivienda pide un pacto al Govern tras el fiasco de la ley para restringir la compra La Vanguardia Propietarios y patronales exig",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb2txdGMwbW1QN0R3SFI4MEdyWXdVSjRiaG9PMGUyMmtHellsN2s0eWs5TlVGUmVoNFRCUXVEYUtXTlAzanBzS1V0aE0wRnZrU0NCOG5LUExhdmF0NTNEWUk5TGJVLXc5UDZ1Q3laeng4dVRWOHRTRllrSXB6V1UxSjBhYWVLSld5TUJpZHUtRm13Y05NdldSUURZS05VM2RScFdlZmdwM1FhTnRobGVaS0RZYXppU1JyQzdIT3FtZkZ3X0lxeFpzMGZOdUd1eHNuak5LV9IB2gFBVV95cUxNWWFOb0hYR3F5WUY2cjFFOG85TGk0bkxIc0xZUmNxWG9xalAwaVM3VjlYWGlrU3VNZndtNGpzbG1fUDExZVh2U3ZWN0ZTcnJjcEpHeEd3S0JLVmFOYlM3al9FNjN4YklTWEthX3kzdXhOd1UwZUdSZF9hNFoxOGVsUWh0c2wwM3NOeXM1RGRWblkybm83N0c5VmtjNWY2Ny1NTWZNUkNIZmdfMGFHdDBtNEpRUkt3RGJlOGZFdDlxNkxROWVYWW9NdU9lUVFQVzRITFRWeEdTR0V5Zw?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 02:30:00 GMT"
-    },
-    {
-      "title": "El nuevo Reglamento Europeo de Envases, que entra en vigor la próxima semana, se queda corto",
-      "source": "Greenpeace",
-      "summary": "El nuevo Reglamento Europeo de Envases, que entra en vigor la próxima semana, se queda corto Greenpeace Un nuevo comienzo para los envases EL PAÍS Si te gusta el café en cápsulas, este es el gran cambio que llegará a España a partir del 12 de agosto Diario AS",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcWhBaHl4QWZkeGVmckJYTUtDRkJaNklLRDZvazF2OEZPMzhlWEJjNm1ETkJjN2RmUHV3QUxlajJac01JczBfOG02MmVlMmVIWDFxWDh4cFE1NWhPWGJMWjZUVHBsM0FkZDNjLXU3RGJlNDdvTV9RbEc2SklmeEZpaEFjb2c5S1hEbnhQRnlOUU1xakc1SENId3FGRGxsczNCN1RMVDVheFBPTnRRRmM3WVNJRnpNSC1ITkFSZHZIVzNQSEIyWkQ3cGVuT19vSXA1YnBjOGF4RFBqUHdvemNNQg?oc=5",
-      "pubDate": "Thu, 06 Aug 2026 07:52:04 GMT"
-    },
-    {
-      "title": "El avance de los misiles balísticos rusos: cómo superaron las defensas de Ucrania y provocaron una nueva escalada en la guerra",
-      "source": "Infobae",
-      "summary": "El avance de los misiles balísticos rusos: cómo superaron las defensas de Ucrania y provocaron una nueva escalada en la guerra Infobae Último ataque ruso en la región de Kiev, en imágenes | Fotos | Internacional EL PAÍS Editorial: Putin dispara puro terror El",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNb3BXZzNZbGg1dTdaQzk5UExidlhtNF9YTkpTbmFkdS1HZVhtdDU1YlExNXJkSTdqeFBMd0VRZTdObzV0dGM2clJ4SjVlYzk4S0xHbWhVcEpMZXd3cXFDaVZ5cnBIS3F5S3MwMl9oVklHY1IxdEVJWnBJdWhkWnJabzdiWGhlWmhCT2ZEcWhrVlV6MEo3M3lhWDNLV1FyeUZDQWVOa3V3R1pJLVhVUEhtZkJ2MkpjTFBsVlF2dDFzazhQSjRzUG1CdU9jNWVmYUU1ZDJoQ1B6M0FfUjdFZ1ByVkpLdGRudkU3U3NmT2NGSC1QcTdTRUVQRXBYOVBFQXJjY1ZCQVVn0gGgAkFVX3lxTFBYRVBlMlR3R1d3bE5UdDBhMDM1dmN5QmhiSjFNWnZwUXROUXhUMWpQTGpoc3lJMnA5WDl4cWRhU2ZwRU40RFJTMlRKcWlrWnhScG83VVJnVEI3X0R6b2RpWVdHNUl6Rlc2bkZuX1pUZ0dqdjFvaGRCQi1NaUpmYUtILTczUzBZQm0zMlR3Qlc0T1JEalA3ZklyT0dLdUJvakNKQjFOdC1RaHJoaC1SLTFTY0xWZ1RnX3VZMDNXWGJoVFZNdVVxcU13bjl6elFET1NIc3RBQUFOeUF1M2NJOU9MeTZKenNjMTZ4X2hRUVVVVkhSS2NVM3lUNlRVOE9KUUNkbkVvNEJGcHl2X3pEMjdxaS10WDZrM0Naekt2U2hUMQ?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 22:19:00 GMT"
-    },
-    {
-      "title": "La empresa pública del ático de lujo solo ha comprado dos inmuebles en los últimos ejercicios aunque Ayuso dice que realiza compraventas \"todo el año\"",
-      "source": "elDiario.es",
-      "summary": "La empresa pública del ático de lujo solo ha comprado dos inmuebles en los últimos ejercicios aunque Ayuso dice que realiza compraventas \"todo el año\" elDiario.es El Gobierno de Ayuso no puede destinar directamente la venta del ático de Chamberí a ayudas por l",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWklDeVc4dnpmdFhzX2kzMzdvWUsyR0FTcDVtampHYlpQeVRjeExoVExVM0o2bkRZYUl4REJRX2ZGYkJsanB0Z3VReml2d0VsajN2R1BiUExyQzRqQ3FNQzluLVliM0F1N3pkakVtTFkxcHU3RGRUZXpUOTZGemJCRTlLXzlkTDFaSk00Q0wya2ZpS2R0Q1gydkdoWXVIUFlJZFpHQmR2LXpxZWExS0tpbFJLUnNydjYzcW01OXQ1aTVLUi1mX0hwTEd3RUYzN196SWdCeE0zdXY4M2FjQzVIZg?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 18:55:29 GMT"
-    },
-    {
-      "title": "Última hora de la entrada de inmigrantes a Ceuta, en directo | Un centenar de menores migrantes ha pasado la noche en un colegio de Ceuta",
+      "title": "La acogida de menores por la crisis de Ceuta tensiona los pactos de PP y Vox",
       "source": "EL PAÍS",
-      "summary": "Última hora de la entrada de inmigrantes a Ceuta, en directo | Un centenar de menores migrantes ha pasado la noche en un colegio de Ceuta EL PAÍS Cientos de menores migrantes siguen por las calles del Príncipe sin acogida: “Están durmiendo a la intemperie\" elD",
+      "summary": "La acogida de menores por la crisis de Ceuta tensiona los pactos de PP y Vox EL PAÍS Entrada de inmigrantes a Ceuta desde Marruecos, en directo | Ceuta alerta de que la situación de los menores migrantes es \"insostenible\" El Mundo Unicef: Ceuta no tiene capaci",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSzNGTFpHUFk1ZUVMNFdLcTNvb213WkxoOXBYZ1ktb21OLTN3QVhnUEktZ2RLVzZ5eGJYM1hIQlFnZjBjZDRDSWkyNXpmcXd5MWx3M3NWVTJCd1JxOEpxbkFzclVhVmc4clVBaU5KNnhSOWF1bFhVelNsc1E3ZE5MSWxxdlVtM3lTU01kckNWUXgweDUzZjlDUWZqWUUwWkZnMDhJ0gG3AUFVX3lxTE0tdDA5SWd1b3RKbkdscG4wVmxlNldEcjVNRHQwUHhtcXdyeVZoUDloVDlHLXlFck1NZFAxSG1KbF8zMlJRSUUtdVRhZ0hKT0NQbTV5RjFNM3ZaTXpDYzJKMktNVjFjMWFVclBsb3U3M1VXZFByaHpLMmhnQjhTNnJ6S3RlWlp5a3dEZ01aeVk3emdGZk1sR3ZXMC0tMFY0a3I1aXV5ckdmT2k0WGJFejRYQ29hTWxpUQ?oc=5",
-      "pubDate": "Thu, 06 Aug 2026 07:14:45 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUhyRldHNEplMy1FUGQ3dW51dkNxUUtneS1WNlUyamQ2a3ZPTTFWNUs3dmE3Z1J4dU0xdFE0dlgwcnRzQVAtNWozUkFTQ0pudU5QTHRVeVFkZjdrSm5kb0Zna1g2RVFDWGN2T0t6YklMeDVXdVNUUW4yNlF2OUNrRmZIN1JSSHppenpwMXpkNUZnQy1HYjgyWm1Pb085OGU5VjZ0Qzk5U2NUcV92VGg3RTBhVll6WHo0SHc?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 05:25:00 GMT"
     },
     {
-      "title": "Ceuta no entrará en la franja del eclipse total del 12 de agosto: así se verá el fenómeno",
-      "source": "elconfidencial.com",
-      "summary": "Ceuta no entrará en la franja del eclipse total del 12 de agosto: así se verá el fenómeno elconfidencial.com ¿En qué parte de España se verá mejor el eclipse? Cadena SER Rubén del Campo. meteorólogo de la Aemet, sobre el tiempo el día del eclipse: \"No es desca",
+      "title": "El consejero de Presidencia de Ayuso dice que el ático se ha sacado de contexto para tapar las \"vergüenzas\" del Gobierno",
+      "source": "rtve.es",
+      "summary": "El consejero de Presidencia de Ayuso dice que el ático se ha sacado de contexto para tapar las \"vergüenzas\" del Gobierno rtve.es Ayuso dice que es la Consejería de Presidencia quien debe dar explicaciones sobre la compra del ático: “Yo no tengo la menor idea”",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdF9UcEMyYThCY1J6RDgxczlRTXJ5cFdHeTBUT0J2VjN4em54a0NfdmFlb2pzMVduN2pnZjNma0dtMmx5clNWN1JjazU5VW94RTYtU3FnY1ZnbmNBMW4yQ3M1QldtYm1hdU1HWmFja3ZacGNTUXZhUVcyaDhvb19KcWJBbzUtZ2dUVWFYVmczcmY1UGNVX3gwLXRSd0NlaG14VkxlRElBZ2F5b2Vt?oc=5",
-      "pubDate": "Thu, 06 Aug 2026 05:44:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNzZ4ekFJYzBfaWJfRVF4VHFTSHM1aEs3cWRoVFBjTDQtOFF3cW0yQ3N6NXdKNmgyODF2WFp3dVVWX1lreC1QeUxHV1NUSlJKWXVnVzNYRHRDb2lxTmliWmcxeXpkRW9lZmxrRTM5Q01uS2IyNGlXTGk3WmlZTlR6dmN0ek8taWdTVlc4LTZmcFNPNTVubjI5cFByRllBMVRIOThXMDltVlFWa0tlZ1EzSUk3TUgxak9Td0hKZThEbF9nX3FiLVJtM2E2N1JkTFF2MklNODVWQ2ktamcyTXVYbDV4d1RiX1U?oc=5",
+      "pubDate": "Thu, 06 Aug 2026 11:06:45 GMT"
     }
   ]
 }
