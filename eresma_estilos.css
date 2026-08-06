@@ -5554,7 +5554,7 @@ body{
     Eso es demasiado para el espacio real visible del panel.
     Bajamos la lista para que no se meta bajo el borde inferior.
   */
-  max-height: 240px !important;
+  max-height: 225px !important;
 
   display: grid !important;
   grid-auto-rows: max-content !important;
@@ -5651,7 +5651,7 @@ body{
       En móvil no puede ser 270px o 280px.
       Esa altura es la que hacía que la lista se comiera el borde inferior.
     */
-    max-height: 210px !important;
+    max-height: 200px !important;
 
     padding-right: 6px !important;
     padding-bottom: 18px !important;
