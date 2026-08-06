@@ -5647,11 +5647,7 @@ body{
   }
 
   .facile-radio-results{
-    /*
-      En móvil no puede ser 270px o 280px.
-      Esa altura es la que hacía que la lista se comiera el borde inferior.
-    */
-    max-height: 200px !important;
+    max-height: 180px !important;
 
     padding-right: 6px !important;
     padding-bottom: 18px !important;
