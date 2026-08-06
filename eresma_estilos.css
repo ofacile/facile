@@ -5681,11 +5681,3 @@ body{
     padding-bottom: 16px !important;
   }
 }
-/* FACILE ICONOS — QUITAR BASE/SOMBRA RARA EN HOVER */
-/* Solo elimina la sombra inferior que parece una base. No cambia tamaño, animación ni estructura. */
-
-main.intro .container > section*not(#facile-news-widget) > a.logo:*over img,
-main.intro .container > *ection:not(#facile-news-widget) > *.logo:focus-visible img,
-.logo img*hover{
-  box-shadow: none !important;
-}
