@@ -5681,3 +5681,55 @@ body{
     padding-bottom: 16px !important;
   }
 }
+/* FACILE ICONOS — QUITAR FONDO/BASE INFERIOR EN HOVER */
+
+/*
+  Fix específico:
+  El fondo/base inferior aparece porque la animación float mueve el icono hacia arriba.
+  Aquí mantenemos el efecto de hover, pero sin desplazamiento vertical.
+  No toca Radio, Temas, fondo, header, widgets ni estructura.
+*/
+
+main.intro .container > section:not(#facile-news-widget) > a.logo,
+main.intro .container > section:not(#facile-news-widget) > a.logo:hover,
+main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible,
+main.intro .container > section:not(#facile-news-widget) > a.logo:active{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+main.intro .container > section:not(#facile-news-widget) > a.logo::before,
+main.intro .container > section:not(#facile-news-widget) > a.logo::after{
+  content: none !important;
+  display: none !important;
+}
+
+main.intro .container > section:not(#facile-news-widget) > a.logo img{
+  background: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+/* Hover sin base inferior: no se mueve hacia arriba */
+main.intro .container > section:not(#facile-news-widget) > a.logo:hover img,
+main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible img{
+  animation: facileIconHoverNoBase 1.2s ease-in-out infinite !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+/* Sustituye visualmente el float vertical por un pulso limpio */
+@keyframes facileIconHoverNoBase{
+  0%{
+    transform: scale(1.12) translateY(0);
+  }
+
+  50%{
+    transform: scale(1.15) translateY(0);
+  }
+
+  100%{
+    transform: scale(1.12) translateY(0);
+  }
+}
