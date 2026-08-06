@@ -2660,26 +2660,9 @@ main.intro .container > section:not(#facile-news-widget){
 
 main.intro .container > section:not(#facile-news-widget) > a.logo{
   position: relative !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   z-index: 0 !important;
-
-  width: 40px !important;
-  height: 40px !important;
-  min-width: 40px !important;
-  min-height: 40px !important;
-
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  padding: 0 !important;
-  border-radius: 10px !important;
-  line-height: 0 !important;
-
-  background: transparent !important;
-  box-shadow: none !important;
 }
-
 
 main.intro .container > section:not(#facile-news-widget) > a.logo:hover,
 main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible,
@@ -5697,42 +5680,4 @@ body{
     max-height: 196px !important;
     padding-bottom: 16px !important;
   }
-}
-/* FACILE ICONOS — FIX BASE INFERIOR SIN CAMBIAR ANIMACIÓN */
-
-/* No cambia float, no cambia scale, no cambia la animación. Solo recorta la franja inferior. */
-
-main.intro .container > section:not(#facile-news-widget) > a.logo img{
-  display: block !important;
-
-  width: 42px !important;
-  height: 42px !important;
-  max-width: none !important;
-  max-height: none !important;
-
-  margin: -1px !important;
-  padding: 0 !important;
-
-  object-fit: cover !important;
-  object-position: center center !important;
-
-  border-radius: 10px !important;
-  background: transparent !important;
-
-  box-shadow: none !important;
-}
-
-/* Quita solo la sombra/base. La animación hover sigue siendo la misma. */
-main.intro .container > section:not(#facile-news-widget) > a.logo:hover img,
-main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible img,
-.logo img:hover{
-  box-shadow: none !important;
-}
-
-/* Evita que el enlace pinte fondo propio debajo del icono */
-main.intro .container > section:not(#facile-news-widget) > a.logo:hover,
-main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible,
-main.intro .container > section:not(#facile-news-widget) > a.logo:active{
-  background: transparent !important;
-  box-shadow: none !important;
 }
