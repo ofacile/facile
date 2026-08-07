@@ -1105,89 +1105,45 @@ h3 {
 
 
 /* =========================================================
-   FACILE CLASICO - HEADER CUADRADO + MENU RETRO SECO V4
-   Quita el redondeado del header interior, elimina transiciones suaves
-   y resalta el icono del boton de menu en estilo clasico.
+   FACILE CLASICO - WIDGETS PRINCIPALES PORTADOS V1
 ========================================================= */
-.header .container.logo-nav-container {
-  border-radius: 0 !important;
-  background:
-    linear-gradient(180deg, #d2aa76 0%, #bf894e 52%, #9b612c 100%) !important;
-  border-top: 2px solid #f2d7b1 !important;
-  border-left: 2px solid #e7c89d !important;
-  border-right: 3px solid #54341d !important;
-  border-bottom: 3px solid #54341d !important;
-  box-shadow:
-    4px 4px 0 rgba(43,29,19,0.38),
-    inset 1px 1px 0 rgba(255,255,255,0.22) !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
+:root{
+  --primary-color: var(--facile-brown-mid);
+  --secondary-color: var(--facile-accent-blue);
+  --background-gradient: linear-gradient(180deg, var(--facile-desktop), #315a4c);
+  --header-bg: linear-gradient(180deg, var(--facile-brown-light), var(--facile-brown-dark));
+  --text-color:#fff;
+  --text-dark:var(--facile-text);
+  --glass-bg:rgba(214,208,196,0.92);
+  --custom-background:none;
+  --widgets-max-width:1400px;
 }
-
-/* Boton menu: respuesta seca, sin animacion suave. */
-.menu-icon,
-.menu-icon img {
-  transition: none !important;
-  animation: none !important;
-}
-
-@media only screen and (max-width: 767px) {
-  .menu-icon {
-    border-radius: 0 !important;
-    background: #eee8dc !important;
-    border-top: 2px solid #ffffff !important;
-    border-left: 2px solid #ffffff !important;
-    border-right: 4px solid #4e3a2b !important;
-    border-bottom: 4px solid #4e3a2b !important;
-    box-shadow: 3px 3px 0 rgba(43,29,19,0.42) !important;
-    filter: none !important;
-  }
-
-  .menu-icon:hover,
-  .menu-icon:focus-visible {
-    background: #f7f1e6 !important;
-    outline: 2px dotted var(--facile-focus) !important;
-    outline-offset: 3px !important;
-  }
-
-  /* Icono mas visible dentro del boton. */
-  .menu-icon img {
-    width: 40px !important;
-    height: auto !important;
-    padding: 3px !important;
-    background: rgba(255,255,255,0.18) !important;
-    filter:
-      brightness(1.32)
-      contrast(1.38)
-      drop-shadow(1px 1px 0 #4e3a2b)
-      drop-shadow(-1px -1px 0 rgba(255,255,255,0.65)) !important;
-    image-rendering: auto !important;
-    transform: none !important;
-  }
-
-  /* Estado abierto: queda hundido de forma instantanea y retro. */
-  .header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
-    transform: translate(3px, 3px) !important;
-    background: #d1c6b5 !important;
-    border-top: 4px solid #4e3a2b !important;
-    border-left: 4px solid #4e3a2b !important;
-    border-right: 2px solid #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-    box-shadow:
-      inset 3px 3px 0 rgba(43,29,19,0.34),
-      inset -1px -1px 0 rgba(255,255,255,0.65) !important;
-  }
-
-  .header .container.logo-nav-container:has(.navigation ul.show) .menu-icon img {
-    transform: translate(1px, 1px) !important;
-    filter:
-      brightness(1.42)
-      contrast(1.48)
-      drop-shadow(1px 1px 0 #2b1d13)
-      drop-shadow(-1px -1px 0 rgba(255,255,255,0.75)) !important;
-  }
-
-  .header .navigation ul {
-    border-radius: 0 !important;
-  }
-}
+body{background-image:var(--custom-background), url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg) !important;background-size:cover, cover !important;background-attachment:fixed, fixed !important;background-position:center, center !important;}
+.facile-classic-widgets{width:min(calc(100% - 40px),var(--widgets-max-width));max-width:var(--widgets-max-width);margin:0 auto 1.5rem;box-sizing:border-box;}
+#widgets-container{margin:0 auto 1rem !important;}
+.widgets-bar{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:.7rem;width:100%;padding:.65rem;background:var(--facile-window);border-top:2px solid #fff;border-left:2px solid #fff;border-right:3px solid #4e3a2b;border-bottom:3px solid #4e3a2b;box-shadow:4px 4px 0 rgba(0,0,0,.3);}
+.widget-box,.facile-info-widget,.facile-search-widget{color:var(--facile-text)!important;background:#f6f1e8!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:3px solid #4e3a2b!important;border-bottom:3px solid #4e3a2b!important;border-radius:0!important;box-shadow:none!important;font-family:Tahoma,Verdana,Arial,"MS Sans Serif",sans-serif!important;font-weight:800!important;}
+.facile-info-widget{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:.55rem .8rem;text-decoration:none!important;white-space:nowrap;}
+.facile-search-widget{flex:1 1 420px;max-width:620px;padding:.55rem!important;}
+.facile-search-form{display:grid;grid-template-columns:46px minmax(150px,1fr) auto;gap:.5rem;align-items:center;}
+.facile-search-engine-wrap{position:relative;width:46px;height:40px;overflow:hidden;background:var(--facile-window-soft);border-top:2px solid #fff;border-left:2px solid #fff;border-right:2px solid #4e3a2b;border-bottom:2px solid #4e3a2b;border-radius:0!important;}
+.facile-search-engine{position:absolute;inset:0;opacity:0;cursor:pointer;}.facile-search-engine-badge{width:100%;height:100%;display:grid;place-items:center;color:#fff;background:linear-gradient(90deg,var(--facile-accent-blue),var(--facile-brown-mid));font-weight:900;}.facile-search-engine-badge img{width:24px;height:24px;object-fit:contain;}
+.facile-search-input,#city-input,.facile-radio-search input,.facile-radio-controls select,#bg-url{width:100%;min-width:0;background:#fff!important;color:var(--facile-text)!important;border-top:2px solid #4e3a2b!important;border-left:2px solid #4e3a2b!important;border-right:2px solid #fff!important;border-bottom:2px solid #fff!important;border-radius:0!important;padding:.55rem .7rem!important;font-family:Tahoma,Verdana,Arial,"MS Sans Serif",sans-serif!important;box-sizing:border-box;}
+.facile-search-submit,.facile-news-button,#weather-widget button,.theme-btn,.theme-menu button,.facile-radio-search button,.facile-radio-main-control,.facile-radio-small-control,.facile-radio-home-control,.facile-radio-favs-control,.facile-radio-volume-toggle,.theme-toggle-btn,.facile-radio-button,.theme-menu-close,.facile-radio-close,.theme-bg-file-btn{border-radius:0!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:3px solid #4e3a2b!important;border-bottom:3px solid #4e3a2b!important;background:var(--facile-window-soft)!important;color:#1e1308!important;font-weight:900!important;cursor:pointer!important;transition:none!important;}
+.facile-search-submit:hover,.facile-news-button:hover,#weather-widget button:hover,.theme-btn:hover,.theme-toggle-btn:hover,.facile-radio-button:hover,.facile-radio-search button:hover{color:#fff!important;background:var(--facile-accent-blue)!important;}
+#facile-news-widget.facile-news-shell,#weather-widget.weather-widget,.widget-box.ticker-widget{width:100%!important;max-width:var(--widgets-max-width)!important;margin:1rem auto!important;padding:1rem!important;color:var(--facile-text)!important;background:var(--facile-window)!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:4px solid #4e3a2b!important;border-bottom:4px solid #4e3a2b!important;border-radius:0!important;box-shadow:5px 5px 0 rgba(0,0,0,.3)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;overflow:hidden;}
+#facile-news-widget .facile-news-title,#weather-content>h3{display:inline-flex!important;width:auto!important;margin:0 0 1rem!important;padding:.45rem .8rem!important;color:#fff!important;background:linear-gradient(90deg,var(--facile-accent-blue),var(--facile-brown-mid))!important;border-top:2px solid rgba(255,255,255,.8)!important;border-left:2px solid rgba(255,255,255,.8)!important;border-right:2px solid #2b1d13!important;border-bottom:2px solid #2b1d13!important;border-radius:0!important;box-shadow:none!important;}
+#facile-news-widget .facile-news-card{background:#f6f1e8!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:3px solid #4e3a2b!important;border-bottom:3px solid #4e3a2b!important;border-radius:0!important;box-shadow:none!important;}
+#facile-news-widget .facile-news-headline{color:#fff!important;background:linear-gradient(90deg,var(--facile-accent-blue),var(--facile-brown-mid))!important;border-radius:0!important;}
+#facile-news-widget .facile-news-summary,#weather-content,#weather-content p{color:var(--facile-text)!important;}
+#facile-news-widget .facile-news-media,#weather-content>div:last-child>div{background:#eee8dc!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:2px solid #8b8172!important;border-bottom:2px solid #8b8172!important;border-radius:0!important;}
+.tradingview-widget-container{border:0!important;box-shadow:none!important;background:transparent!important;margin:0!important;}
+#weather-widget.weather-widget{text-align:center;}#weather-content>div:first-of-type{font-size:64px!important;line-height:1!important;}#weather-content>p:first-of-type{font-size:clamp(2.2rem,5vw,4rem)!important;line-height:1.05!important;margin:.4rem 0!important;}#weather-widget>div:last-child{display:flex;justify-content:center;gap:.55rem;flex-wrap:wrap;margin-top:1rem;}
+.theme-panel,.facile-radio-widget{position:fixed!important;right:24px!important;z-index:2145!important;width:46px!important;height:46px!important;}.theme-panel{bottom:18px!important}.facile-radio-widget{bottom:72px!important}.theme-toggle-btn,.facile-radio-button{width:46px!important;height:46px!important;min-width:46px!important;min-height:46px!important;display:grid!important;place-items:center!important;font-size:1.1rem!important;}
+.theme-menu,.facile-radio-panel{position:absolute!important;right:calc(100% + 12px)!important;bottom:0!important;width:min(360px,calc(100vw - 92px))!important;max-height:min(640px,calc(100vh - 36px))!important;overflow:auto!important;padding:1rem!important;color:var(--facile-text)!important;background:var(--facile-window)!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:4px solid #4e3a2b!important;border-bottom:4px solid #4e3a2b!important;border-radius:0!important;box-shadow:5px 5px 0 rgba(0,0,0,.28)!important;display:block!important;opacity:0!important;visibility:hidden!important;pointer-events:none!important;transform:none!important;}
+#theme-panel.facile-theme-menu-open .theme-menu,.facile-radio-widget.is-open .facile-radio-panel{opacity:1!important;visibility:visible!important;pointer-events:auto!important;}
+.theme-menu h3,.facile-radio-header strong{color:#fff!important;background:linear-gradient(90deg,var(--facile-accent-blue),var(--facile-brown-mid))!important;padding:.45rem .7rem!important;margin:0 2.6rem .8rem 0!important;border-radius:0!important;display:block!important;}.theme-menu-close,.facile-radio-close{position:absolute!important;top:8px!important;right:8px!important;width:34px!important;height:34px!important;}
+.theme-buttons,.facile-radio-results{display:grid!important;gap:.45rem!important}.theme-buttons{grid-template-columns:repeat(2,minmax(0,1fr))!important}.theme-bg-row,.facile-radio-search,.facile-radio-now,.facile-radio-controls,.facile-radio-volume{display:grid!important;gap:.5rem!important;margin:.65rem 0!important}.theme-bg-row{grid-template-columns:minmax(0,1fr) 42px!important}.facile-radio-search{grid-template-columns:minmax(0,1fr) auto!important}.facile-radio-now{grid-template-columns:46px minmax(0,1fr)!important;align-items:center!important}.facile-radio-controls{grid-template-columns:42px 42px 42px 42px minmax(0,1fr)!important}.facile-radio-volume{grid-template-columns:42px minmax(0,1fr) 48px!important;align-items:center!important}
+.facile-radio-logo,.facile-radio-row-logo{width:42px!important;height:42px!important;display:grid!important;place-items:center!important;overflow:hidden!important;background:#f6f1e8!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:2px solid #8b8172!important;border-bottom:2px solid #8b8172!important}.facile-radio-logo img,.facile-radio-row-logo img{width:100%!important;height:100%!important;object-fit:cover!important}
+.facile-radio-row,.facile-radio-loading-row{display:grid!important;grid-template-columns:34px minmax(0,1fr)!important;gap:.5rem!important;align-items:center!important;width:100%!important;padding:.45rem!important;background:#f6f1e8!important;color:var(--facile-text)!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:2px solid #8b8172!important;border-bottom:2px solid #8b8172!important;text-align:left!important}.facile-radio-row-text strong,.facile-radio-row-text em,.facile-radio-now-text strong,.facile-radio-now-text span{display:block!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}.facile-radio-volume-range{width:100%!important;accent-color:var(--facile-brown-mid)!important;}
+@media only screen and (max-width:767px){body{background-attachment:scroll,scroll!important}.facile-classic-widgets{width:92%}.widgets-bar{padding:.55rem}.facile-search-form{grid-template-columns:42px minmax(0,1fr) 76px}#facile-news-widget .facile-news-card{display:grid!important;grid-template-columns:1fr!important}#facile-news-widget .facile-news-media{min-height:120px!important}.theme-panel,.facile-radio-widget{right:18px!important}.theme-menu,.facile-radio-panel{width:min(330px,calc(100vw - 84px))!important}.facile-radio-controls{grid-template-columns:38px 38px 38px 38px minmax(0,1fr)!important}}
