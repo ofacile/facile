@@ -480,8 +480,9 @@ section {
 
 section a,
 section a:visited {
-  color: var(--facile-link) !important;
+  color: var(--facile-link);
   background: #ffffff !important;
+  border-left: 4px solid currentColor !important;
   font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
   font-size: 0.96rem;
   font-weight: 800;
