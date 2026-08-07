@@ -719,3 +719,307 @@ h3 {
     width: 34px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - HEADER ESTABLE V2
+   Objetivo: clonar la distribucion de la pagina principal sin inflar el header.
+   - Escritorio: logo izquierda, enlaces a la derecha, caja interior amplia.
+   - Movil: logo izquierda, boton menu derecha, menu overlay bajo la caja.
+   - El menu abierto NO empuja widgets ni contenido hacia abajo.
+========================================================= */
+:root {
+  --facile-header-max: 1400px;
+  --facile-header-width: min(calc(100% - 48px), var(--facile-header-max));
+  --facile-header-height-desktop: 118px;
+  --facile-header-height-mobile: 116px;
+}
+
+.header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+  padding: 18px 0 !important;
+  color: #ffffff !important;
+  background:
+    linear-gradient(180deg, var(--facile-brown-light), var(--facile-brown) 48%, var(--facile-brown-dark)) !important;
+  border-bottom: 4px solid var(--facile-window-dark) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.55),
+    inset 0 -1px 0 rgba(0,0,0,0.42),
+    0 4px 0 rgba(0,0,0,0.26) !important;
+  overflow: visible !important;
+}
+
+.header .container.logo-nav-container {
+  position: relative !important;
+  width: var(--facile-header-width) !important;
+  max-width: var(--facile-header-max) !important;
+  min-height: 86px !important;
+  margin: 0 auto !important;
+  padding: 16px clamp(18px, 3vw, 42px) !important;
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: clamp(18px, 3vw, 44px) !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.22), rgba(255,255,255,0.08)),
+    rgba(238,232,220,0.18) !important;
+  border: 1px solid rgba(255,255,255,0.28) !important;
+  border-radius: 28px !important;
+  box-shadow:
+    0 12px 26px rgba(43,29,19,0.26),
+    inset 0 1px 0 rgba(255,255,255,0.28) !important;
+  overflow: visible !important;
+}
+
+.header .logo {
+  flex: 0 1 auto !important;
+  min-width: 0 !important;
+  max-width: min(42vw, 360px) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  line-height: 0 !important;
+}
+
+.header .logo img {
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: min(100%, 360px) !important;
+  max-height: 78px !important;
+  object-fit: contain !important;
+}
+
+.header .navigation {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  position: static !important;
+}
+
+.header .navigation ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 8px 10px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.header .navigation ul li {
+  display: inline-flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header .navigation ul li a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 38px !important;
+  margin: 0 !important;
+  padding: 8px 14px !important;
+  color: #1e1308 !important;
+  background: var(--facile-window-soft) !important;
+  border-top: 2px solid var(--facile-window-light) !important;
+  border-left: 2px solid var(--facile-window-light) !important;
+  border-right: 3px solid rgba(43,29,19,0.76) !important;
+  border-bottom: 3px solid rgba(43,29,19,0.76) !important;
+  border-radius: 0 !important;
+  font-size: clamp(0.88rem, 1vw, 1rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.header .navigation ul li a:hover,
+.header .navigation ul li a:focus-visible {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+}
+
+.menu-icon {
+  display: none !important;
+}
+
+.main {
+  padding-top: calc(var(--facile-header-height-desktop) + 22px) !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1120px) {
+  .header .container.logo-nav-container {
+    width: min(calc(100% - 32px), var(--facile-header-max)) !important;
+    padding: 14px 18px !important;
+    gap: 16px !important;
+  }
+
+  .header .logo {
+    max-width: min(34vw, 260px) !important;
+  }
+
+  .header .logo img {
+    max-height: 70px !important;
+  }
+
+  .header .navigation ul {
+    gap: 7px !important;
+  }
+
+  .header .navigation ul li a {
+    padding: 7px 10px !important;
+    font-size: 0.86rem !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --facile-header-width: min(calc(100% - 26px), 720px);
+  }
+
+  .header {
+    padding: 12px 0 !important;
+  }
+
+  .header .container.logo-nav-container {
+    min-height: 86px !important;
+    padding: 14px 16px !important;
+    flex-flow: row nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    border-radius: 24px !important;
+  }
+
+  .header .logo {
+    flex: 1 1 auto !important;
+    max-width: calc(100% - 74px) !important;
+  }
+
+  .header .logo img {
+    max-width: min(100%, 280px) !important;
+    max-height: 66px !important;
+  }
+
+  .menu-icon {
+    flex: 0 0 58px !important;
+    width: 58px !important;
+    height: 58px !important;
+    min-width: 58px !important;
+    min-height: 58px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid !important;
+    place-items: center !important;
+    cursor: pointer !important;
+    border-radius: 16px !important;
+    background:
+      linear-gradient(135deg, rgba(255,255,255,0.36), rgba(238,232,220,0.88)) !important;
+    border-top: 2px solid rgba(255,255,255,0.95) !important;
+    border-left: 2px solid rgba(255,255,255,0.95) !important;
+    border-right: 3px solid rgba(43,29,19,0.78) !important;
+    border-bottom: 3px solid rgba(43,29,19,0.78) !important;
+    box-shadow: 0 8px 16px rgba(43,29,19,0.24) !important;
+  }
+
+  .menu-icon img {
+    width: 38px !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  .header .navigation {
+    position: absolute !important;
+    top: calc(100% + 10px) !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    z-index: 1002 !important;
+    pointer-events: none !important;
+  }
+
+  .header .navigation ul {
+    display: none !important;
+    width: 100% !important;
+    max-height: min(44vh, 360px) !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain !important;
+    background: rgba(246,241,232,0.98) !important;
+    border-top: 2px solid var(--facile-window-light) !important;
+    border-left: 2px solid var(--facile-window-light) !important;
+    border-right: 3px solid rgba(43,29,19,0.78) !important;
+    border-bottom: 3px solid rgba(43,29,19,0.78) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 14px 30px rgba(43,29,19,0.28) !important;
+    pointer-events: auto !important;
+  }
+
+  .header .navigation ul.show {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+  }
+
+  .header .navigation ul li {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .header .navigation ul li a {
+    display: flex !important;
+    width: 100% !important;
+    min-height: 52px !important;
+    padding: 12px 14px !important;
+    font-size: 1.04rem !important;
+    white-space: normal !important;
+  }
+
+  .main {
+    padding-top: calc(var(--facile-header-height-mobile) + 18px) !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header .logo img {
+    max-width: min(100%, 224px) !important;
+    max-height: 58px !important;
+  }
+
+  .menu-icon {
+    flex-basis: 54px !important;
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    min-height: 54px !important;
+  }
+
+  .menu-icon img {
+    width: 34px !important;
+  }
+}
