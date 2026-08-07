@@ -5774,3 +5774,87 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   content: none !important;
   display: none !important;
 }
+/* FACILE ICONOS — CORRECCIÓN FINAL SIN CAMBIAR ANIMACIÓN */
+
+/*
+  Corrige el error causado por el bloque anterior de recorte.
+  - No cambia @keyframes float.
+  - No cambia la animación.
+  - No toca Radio.
+  - No toca Temas.
+  - No toca fondo.
+  - No toca header.
+  - Solo evita el recorte del icono y elimina la base/sombra inferior.
+*/
+
+/* El enlace del icono NO debe recortar la animación */
+main.intro .container > section:not(#facile-news-widget) > a.logo{
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+
+  overflow: visible !important;
+  contain: none !important;
+  isolation: auto !important;
+
+  border-radius: 10px !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* El icono vuelve a su tamaño normal, sin clip-path */
+main.intro .container > section:not(#facile-news-widget) > a.logo img{
+  width: 40px !important;
+  height: 40px !important;
+  max-width: none !important;
+  max-height: none !important;
+
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  object-fit: cover !important;
+  object-position: center center !important;
+
+  border-radius: 10px !important;
+  background: transparent !important;
+
+  clip-path: none !important;
+}
+
+/* Mantiene la animación original, pero elimina la base/sombra inferior */
+main.intro .container > section:not(#facile-news-widget) > a.logo:hover img,
+main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible img,
+main.intro .container > section:not(#facile-news-widget) > a.logo:active img{
+  animation: float 1.2s infinite !important;
+  box-shadow: none !important;
+  clip-path: none !important;
+}
+
+/* El enlace tampoco debe pintar una base en hover */
+main.intro .container > section:not(#facile-news-widget) > a.logo:hover,
+main.intro .container > section:not(#facile-news-widget) > a.logo:focus-visible,
+main.intro .container > section:not(#facile-news-widget) > a.logo:active{
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  contain: none !important;
+}
+
+/* Anula cualquier pseudo-capa del fix anterior */
+main.intro .container > section:not(#facile-news-widget) > a.logo::before,
+main.intro .container > section:not(#facile-news-widget) > a.logo::after{
+  content: none !important;
+  display: none !important;
+}
