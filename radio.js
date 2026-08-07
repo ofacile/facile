@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const playBtn = document.getElementById("facileRadioPlay");
   const favBtn = document.getElementById("facileRadioFav");
   const homeBtn = document.getElementById("facileRadioHome");
+  const showFavsBtn = document.getElementById("facileRadioShowFavs");
   const volumeToggle = document.getElementById("facileRadioVolumeToggle");
   const volumeRange = document.getElementById("facileRadioVolumeRange");
   const volumeValue = document.getElementById("facileRadioVolumeValue");
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentList = [];
   let isPlaying = false;
   let initialized = false;
+  let showingFavorites = false;
 
   function safeText(value, fallback = "") {
     return (value || fallback).toString().trim();
@@ -207,6 +209,56 @@ function initVolumeControl() {
   function syncFavButton() {
     if (favBtn) favBtn.textContent = isFav(currentStation) ? "★" : "☆";
   }
+  
+  function updateFavoritesControl() {
+  if (!showFavsBtn) return;
+
+  const favs = loadFavs();
+  const count = favs.length;
+
+  showFavsBtn.textContent = count > 0 ? "★ " + count : "★";
+  showFavsBtn.title = count > 0
+    ? "Ver " + count + " favoritas"
+    : "Mis favoritas";
+
+  showFavsBtn.setAttribute(
+    "aria-label",
+    count > 0
+      ? "Ver " + count + " radios favoritas"
+      : "Ver radios favoritas"
+  );
+
+  showFavsBtn.classList.toggle("has-favs", count > 0);
+  showFavsBtn.classList.toggle("is-active", showingFavorites);
+}
+
+function renderFavoriteStations() {
+  showingFavorites = true;
+  updateFavoritesControl();
+
+  if (searchInput) searchInput.value = "";
+  if (preset) preset.value = "";
+
+  const favs = loadFavs();
+
+  clearResults();
+
+  if (!favs.length) {
+    currentList = [];
+
+    const empty = document.createElement("button");
+    empty.type = "button";
+    empty.className = "facile-radio-loading-row";
+    empty.textContent = "Todavía no tienes radios favoritas. Pulsa ☆ en una emisora para guardarla.";
+    results.appendChild(empty);
+
+    setStatus("Sin favoritas");
+    return;
+  }
+
+  renderStations(favs);
+  setStatus("Tus favoritas");
+}
 
   async function fetchWithFallback(path, options = {}) {
     const timeoutMs = options.timeoutMs || 7000;
@@ -431,8 +483,11 @@ function initVolumeControl() {
   }
 
   async function loadFeatured(options = {}) {
-    const preserveCurrent = options.preserveCurrent === true;
-    setStatus("Cargando...");
+  showingFavorites = false;
+  updateFavoritesControl();
+
+  const preserveCurrent = options.preserveCurrent === true;
+  setStatus("Cargando...");
 
     const cached = loadCache();
     if (cached.length) {
@@ -486,8 +541,11 @@ async function goHomeRadio() {
   }
 }
   async function searchStations(query) {
-    setStatus("Buscando...");
-    clearResults();
+  showingFavorites = false;
+  updateFavoritesControl();
+
+  setStatus("Buscando...");
+  clearResults();
 
     const loading = document.createElement("button");
     loading.type = "button";
@@ -550,6 +608,7 @@ async function goHomeRadio() {
   }
   
   initVolumeControl();
+  updateFavoritesControl();
   
   if (playBtn) {
     playBtn.addEventListener("click", () => {
@@ -563,21 +622,33 @@ async function goHomeRadio() {
 if (homeBtn) {
   homeBtn.addEventListener("click", goHomeRadio);
 }
+if (showFavsBtn) {
+  showFavsBtn.addEventListener("click", () => {
+    renderFavoriteStations();
+  });
+}
   if (favBtn) {
-    favBtn.addEventListener("click", () => {
-      if (!currentStation) return;
+  favBtn.addEventListener("click", () => {
+    if (!currentStation) return;
 
-      const favs = loadFavs();
-      const exists = favs.some((item) => item.stationuuid === currentStation.stationuuid);
+    const favs = loadFavs();
+    const exists = favs.some((item) => item.stationuuid === currentStation.stationuuid);
 
-      const nextFavs = exists
-        ? favs.filter((item) => item.stationuuid !== currentStation.stationuuid)
-        : [currentStation, ...favs];
+    const nextFavs = exists
+      ? favs.filter((item) => item.stationuuid !== currentStation.stationuuid)
+      : [currentStation, ...favs];
 
-      saveFavs(nextFavs);
-      syncFavButton();
-    });
-  }
+    saveFavs(nextFavs);
+    syncFavButton();
+    updateFavoritesControl();
+
+    if (showingFavorites) {
+      renderFavoriteStations();
+    } else {
+      setStatus(exists ? "Eliminada de favoritas" : "Añadida a favoritas");
+    }
+  });
+}
 
   if (preset) {
     preset.addEventListener("change", () => {
