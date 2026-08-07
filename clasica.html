@@ -6,6 +6,10 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link href="estilossimples.css" rel="stylesheet">
+     <script defer src="widgets.js"></script>
+     <script defer src="temas.js"></script>
+     <script defer src="radio.js"></script>
+     <script defer src="botones.js"></script>
      <!-- Start of OpenWidget (www.openwidget.com) code -->
      <script>
      window.__ow = window.__ow || {};
@@ -32,12 +36,1001 @@
        </div>      
     </header>
     <main class="main">
-<div id="ww_68a36aa83ed7d" v='1.3' loc='id' a='{"t":"responsive","lang":"es","sl_lpl":1,"ids":["wl6516"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","cl_odd":"#FFFFFF17","sl_tof":"7"}'>Más previsiones: <a href="https://oneweather.org/es/madrid/25_days/" id="ww_68a36aa83ed7d_u" target="_blank">Tiempo 25 días Madrid</a></div><script async src="https://app3.weatherwidget.org/js/?id=ww_68a36aa83ed7d"></script>
-      <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
+
+<!-- FACILE CLASICO: widgets antiguos sustituidos por widgets de la pagina principal -->
+<div class="facile-classic-widgets" aria-label="Widgets principales de Facile">
+  <div id="widgets-container"></div>
+<section id="facile-news-widget" class="facile-news-shell">
+  <div class="facile-news-title-wrap">
+    <div class="facile-news-title">📰 INFORMACIÓN FÁCIL</div>
+  </div>
+
+  <div id="facile-news-root" class="facile-news-root" aria-live="polite">
+    <div class="facile-news-loading">Cargando noticias...</div>
+  </div>
+</section>
+
+<style>
+  #facile-news-widget{
+    --facile-widget-pill-text:#ffffff;
+    --facile-widget-headline:#ffffff;
+    --facile-widget-summary:#18212b;
+    --facile-widget-meta:#21303f;
+    --facile-widget-date:var(--secondary-color, #0b57d0);
+    --facile-widget-shell-bg:var(--glass-bg, rgba(255,255,255,0.12));
+    --facile-widget-gradient:linear-gradient(
+      90deg,
+      var(--primary-color, #4a88f7),
+      var(--secondary-color, #08a700)
+    );
+  }
+
+  /* CONTENEDOR GENERAL */
+  #facile-news-widget.facile-news-shell{
+    width:100%;
+    max-width:1160px;
+    margin:14px auto;
+    padding:14px 14px 16px;
+    box-sizing:border-box;
+    background:var(--facile-widget-shell-bg);
+    backdrop-filter:blur(12px);
+    border-radius:30px;
+    box-shadow:0 10px 22px rgba(0,0,0,0.12);
+  }
+
+  /* TÍTULO */
+  #facile-news-widget .facile-news-title-wrap{
+    text-align:center;
+    margin-bottom:12px;
+  }
+
+  #facile-news-widget .facile-news-title{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:10px 20px;
+    border-radius:999px;
+    background:var(--facile-widget-gradient);
+    color:var(--facile-widget-pill-text);
+    font-size:1.35rem;
+    font-weight:700;
+    letter-spacing:.4px;
+    box-shadow:0 6px 14px rgba(0,0,0,0.14);
+    text-align:center;
+  }
+
+  /* ESTADOS */
+  #facile-news-widget .facile-news-root{
+    min-height:220px;
+  }
+
+  #facile-news-widget .facile-news-loading,
+  #facile-news-widget .facile-news-error,
+  #facile-news-widget .facile-news-empty{
+    min-height:170px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:var(--text-color, #ffffff);
+    padding:14px;
+    font-size:.96rem;
+  }
+
+  /* TARJETA */
+  #facile-news-widget .facile-news-stage{
+    width:100%;
+  }
+
+  #facile-news-widget .facile-news-card{
+    width:100%;
+    display:grid;
+    grid-template-columns:205px 1fr;
+    gap:12px;
+    align-items:stretch;
+    background:rgba(255,255,255,0.62);
+    background:color-mix(in srgb, var(--glass-bg, rgba(255,255,255,0.16)) 65%, white 35%);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.24);
+    border-radius:18px;
+    padding:12px;
+    box-sizing:border-box;
+    box-shadow:0 5px 14px rgba(0,0,0,0.08);
+    overflow:hidden;
+    animation:facileNewsFade .22s ease;
+  }
+
+  /* MEDIA */
+  #facile-news-widget .facile-news-media{
+    min-height:150px;
+    width:100%;
+    border-radius:14px;
+    overflow:hidden;
+    background:linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+
+  /* SOLO la imagen principal llena el contenedor */
+  #facile-news-widget .facile-news-media img:not(.facile-news-fallback-icon){
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+
+  /* FALLBACK CUANDO NO HAY IMAGEN */
+  #facile-news-widget .facile-news-media.facile-news-fallback{
+    background:var(--facile-widget-gradient);
+    color:#ffffff;
+    flex-direction:column;
+    gap:8px;
+    text-align:center;
+    padding:14px;
+    box-sizing:border-box;
+  }
+
+  #facile-news-widget .facile-news-fallback-icon{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.18);
+    backdrop-filter:blur(6px);
+    padding:6px;
+    box-sizing:border-box;
+    object-fit:contain;
+    display:block;
+    flex:0 0 auto;
+    margin:0 auto;
+  }
+
+  #facile-news-widget .facile-news-fallback-badge{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.18);
+    backdrop-filter:blur(6px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:800;
+    font-size:.92rem;
+    color:#ffffff;
+    letter-spacing:.5px;
+    flex:0 0 auto;
+    margin:0 auto;
+  }
+
+  #facile-news-widget .facile-news-fallback-text{
+    font-size:.88rem;
+    font-weight:700;
+    line-height:1.25;
+    text-shadow:0 1px 2px rgba(0,0,0,0.18);
+  }
+
+  /* CONTENIDO */
+  #facile-news-widget .facile-news-content{
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+  }
+
+  /* TITULAR BLANCO */
+  #facile-news-widget .facile-news-headline{
+    margin:0 0 8px 0;
+    display:inline-block;
+    width:fit-content;
+    max-width:100%;
+    padding:7px 10px;
+    border-radius:12px;
+    background:var(--facile-widget-gradient);
+    color:var(--facile-widget-headline);
+    font-size:1.02rem;
+    line-height:1.25;
+    font-weight:700;
+    word-break:break-word;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  /* RESUMEN / SUBTÍTULOS */
+  #facile-news-widget .facile-news-summary{
+    margin:0 0 10px 0;
+    color:var(--facile-widget-summary);
+    font-size:.90rem;
+    line-height:1.42;
+    display:-webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+
+  #facile-news-widget .facile-news-footer{
+    margin-top:auto;
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+  }
+
+  /* METADATOS */
+  #facile-news-widget .facile-news-meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+    color:var(--facile-widget-meta);
+    font-size:.84rem;
+  }
+
+  /* MEDIO */
+  #facile-news-widget .facile-news-source-wrap{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    min-width:0;
+  }
+
+  #facile-news-widget .facile-news-source-icon{
+    width:20px;
+    height:20px;
+    border-radius:5px;
+    object-fit:contain;
+    flex:0 0 auto;
+    background:#ffffff;
+    padding:2px;
+    box-sizing:border-box;
+  }
+
+  #facile-news-widget .facile-news-source-badge{
+    width:20px;
+    height:20px;
+    border-radius:5px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:.62rem;
+    font-weight:800;
+    color:#ffffff;
+    background:var(--facile-widget-gradient);
+    flex:0 0 auto;
+  }
+
+  #facile-news-widget .facile-news-source{
+    font-weight:700;
+    color:var(--facile-widget-meta);
+    min-width:0;
+    word-break:break-word;
+  }
+
+  /* FECHA */
+  #facile-news-widget .facile-news-date{
+    color:var(--facile-widget-date);
+    font-weight:700;
+  }
+
+  /* BOTONES */
+  #facile-news-widget .facile-news-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:7px;
+    align-items:center;
+  }
+
+  #facile-news-widget .facile-news-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    border-radius:9px;
+    padding:7px 10px;
+    text-decoration:none;
+    font-weight:700;
+    cursor:pointer;
+    transition:transform .2s ease, opacity .2s ease;
+    font-size:.84rem;
+    line-height:1;
+  }
+
+  #facile-news-widget .facile-news-button:hover{
+    transform:translateY(-1px);
+    opacity:.97;
+  }
+
+  #facile-news-widget .facile-news-button.primary{
+    color:#ffffff;
+    background:var(--facile-widget-gradient);
+    box-shadow:0 5px 12px rgba(0,0,0,0.08);
+  }
+
+  #facile-news-widget .facile-news-button.secondary{
+    color:var(--facile-widget-meta);
+    background:rgba(255,255,255,0.55);
+    border:1px solid rgba(255,255,255,0.35);
+    backdrop-filter:blur(6px);
+  }
+
+  /* NAVEGACIÓN */
+  #facile-news-widget .facile-news-nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    margin-top:10px;
+    flex-wrap:wrap;
+  }
+
+  #facile-news-widget .facile-news-arrow{
+    width:34px;
+    height:34px;
+    border-radius:999px;
+    border:none;
+    cursor:pointer;
+    background:var(--glass-bg, rgba(255,255,255,0.24));
+    color:#ffffff;
+    font-size:.95rem;
+    backdrop-filter:blur(8px);
+    transition:transform .2s ease, background .2s ease;
+  }
+
+  #facile-news-widget .facile-news-arrow:hover{
+    transform:scale(1.05);
+    background:rgba(255,255,255,0.32);
+  }
+
+  #facile-news-widget .facile-news-dots{
+    display:flex;
+    gap:6px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  #facile-news-widget .facile-news-dot{
+    width:8px;
+    height:8px;
+    border-radius:999px;
+    border:none;
+    cursor:pointer;
+    background:rgba(255,255,255,0.48);
+    transition:transform .2s ease, background .2s ease;
+  }
+
+  #facile-news-widget .facile-news-dot.active{
+    background:#ffffff;
+    transform:scale(1.18);
+  }
+
+  @keyframes facileNewsFade{
+    from{opacity:0; transform:translateY(4px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+
+  @media only screen and (max-width:1024px){
+    #facile-news-widget .facile-news-card{
+      grid-template-columns:180px 1fr;
+      gap:10px;
+      padding:10px;
+    }
+
+    #facile-news-widget .facile-news-media{
+      min-height:135px;
+    }
+
+    #facile-news-widget .facile-news-headline{
+      font-size:.96rem;
+    }
+  }
+
+  @media only screen and (max-width:767px){
+    #facile-news-widget.facile-news-shell{
+      padding:14px 10px 16px;
+      border-radius:22px;
+      margin:12px auto;
+    }
+
+    #facile-news-widget .facile-news-title{
+      font-size:1.05rem;
+      padding:9px 16px;
+      max-width:95%;
+    }
+
+    #facile-news-widget .facile-news-root{
+      min-height:290px;
+    }
+
+    #facile-news-widget .facile-news-card{
+      grid-template-columns:1fr;
+      gap:10px;
+      padding:10px;
+      border-radius:16px;
+    }
+
+    #facile-news-widget .facile-news-media{
+      min-height:165px;
+    }
+
+    #facile-news-widget .facile-news-headline{
+      font-size:.95rem;
+      margin-bottom:7px;
+    }
+
+    #facile-news-widget .facile-news-summary{
+      font-size:.88rem;
+      -webkit-line-clamp:5;
+    }
+
+    #facile-news-widget .facile-news-meta{
+      font-size:.82rem;
+      gap:7px;
+    }
+
+    #facile-news-widget .facile-news-button{
+      font-size:.82rem;
+      padding:7px 9px;
+    }
+
+    /* LOGOS MÁS PEQUEÑOS EN MÓVIL */
+    #facile-news-widget .facile-news-source-icon{
+      width:14px;
+      height:14px;
+      border-radius:4px;
+      padding:1px;
+    }
+
+    #facile-news-widget .facile-news-source-badge{
+      width:14px;
+      height:14px;
+      border-radius:4px;
+      font-size:.48rem;
+    }
+
+    #facile-news-widget .facile-news-source-wrap{
+      gap:4px;
+    }
+
+    /* ICONO GRANDE DEL FALLBACK MUCHO MÁS PEQUEÑO */
+    #facile-news-widget .facile-news-fallback-icon{
+      width:30px !important;
+      height:30px !important;
+      border-radius:8px;
+      padding:4px;
+      object-fit:contain !important;
+      flex:0 0 auto;
+      margin:0 auto;
+    }
+
+    #facile-news-widget .facile-news-fallback-badge{
+      width:30px !important;
+      height:30px !important;
+      border-radius:8px;
+      font-size:.68rem;
+      flex:0 0 auto;
+      margin:0 auto;
+    }
+
+    #facile-news-widget .facile-news-fallback-text{
+      font-size:.76rem;
+      line-height:1.15;
+    }
+  }
+</style>
+
+<script>
+(function () {
+  "use strict";
+
+  const NEWS_JSON_URL = "./news.json";
+  const IS_MOBILE = window.matchMedia("(max-width: 767px)").matches;
+  const AUTOPLAY = !IS_MOBILE;
+  const AUTOPLAY_MS = 8000;
+  const CACHE_KEY = "facile-news-cache-v1";
+
+  function safeUrl(value, fallback) {
+    const fb = fallback || "about:blank";
+    try {
+      if (!value || typeof value !== "string") return fb;
+      const url = new URL(value, window.location.href);
+      if (url.protocol === "http:" || url.protocol === "https:" || url.protocol === "about:") {
+        return url.href;
+      }
+      return fb;
+    } catch {
+      return fb;
+    }
+  }
+
+  function normalizeText(text) {
+    return (text || "")
+      .toString()
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/&amp;/g, "and")
+      .replace(/[^a-z0-9]/g, "");
+  }
+
+  function getInitials(text) {
+    const clean = (text || "").replace(/[^\p{L}\p{N}\s]/gu, " ").trim();
+    if (!clean) return "NP";
+    const parts = clean.split(/\s+/).filter(Boolean);
+    if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+    return (parts[0][0] + parts[1][0]).toUpperCase();
+  }
+
+  function formatDate(dateString) {
+    try {
+      const date = new Date(dateString);
+      if (Number.isNaN(date.getTime())) return "";
+      return new Intl.DateTimeFormat("es-ES", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(date);
+    } catch {
+      return "";
+    }
+  }
+
+  function buildPublisherCatalog() {
+    const catalog = [];
+    const logoImages = document.querySelectorAll(".logo img");
+
+    logoImages.forEach(function (img) {
+      const src = img.getAttribute("src") || "";
+      const alt = img.getAttribute("alt") || "";
+      const parentLink = img.closest("a[href]");
+      const href = parentLink ? (parentLink.getAttribute("href") || "") : "";
+
+      if (!src) return;
+
+      catalog.push({
+        src: src,
+        alt: alt,
+        altNorm: normalizeText(alt),
+        href: href,
+        srcNorm: normalizeText(src.split("/").pop() || src)
+      });
+    });
+
+    return catalog;
+  }
+
+  const SOURCE_ALIASES = {
+    "la razon": ["larazon", "la razon"],
+    "el pais": ["elpais", "el pais"],
+    "el mundo": ["elmundo", "el mundo"],
+    "abc": ["abc"],
+    "20 minutos": ["20minutos", "20 minutos"],
+    "okdiario": ["okdiario"],
+    "el espanol": ["elespanol", "elespañol", "el espanol"],
+    "libertad digital": ["libertaddigital", "libertad digital"],
+    "periodista digital": ["periodistadigital", "periodista digital"],
+    "el debate": ["eldebate", "el debate"],
+    "the objective": ["theobjective", "the objective"],
+    "efe": ["efe"],
+    "europa press": ["europapress", "europa press"],
+    "infobae": ["infobae"],
+    "huffington post": ["huffingtonpost", "huffpost", "huffington post"],
+    "eldiarioes": ["eldiario", "eldiarioes", "eldiario.es"],
+    "publico": ["publico"],
+    "el confidencial": ["elconfidencial", "el confidencial"],
+    "vozpopuli": ["vozpopuli"],
+    "expansion": ["expansion"],
+    "eleconomista": ["eleconomista", "el economista"],
+    "marca": ["marca"],
+    "as": ["as"],
+    "mundo deportivo": ["mundodeportivo", "mundo deportivo"],
+    "sport": ["sport"],
+    "la voz de galicia": ["lavozdegalicia", "la voz de galicia"],
+    "la vanguardia": ["lavanguardia", "la vanguardia"],
+    "new york times": ["nytimes", "newyorktimes", "new york times"],
+    "the guardian": ["theguardian", "guardian", "the guardian"],
+    "washington post": ["washingtonpost", "washington post"],
+    "le monde": ["lemonde", "le monde"],
+    "spiegel": ["spiegel"],
+    "corriere della sera": ["corriere", "corrieredellasera", "corriere della sera"],
+    "clarin": ["clarin"]
+  };
+
+  function resolvePublisherLogo(sourceName, publisherCatalog) {
+    const sourceNorm = normalizeText(sourceName);
+    if (!sourceNorm || sourceNorm === "googlenews" || sourceNorm === "google") {
+      return null;
+    }
+
+    const candidates = new Set();
+    candidates.add(sourceName);
+    candidates.add(sourceNorm);
+
+    if (SOURCE_ALIASES[sourceNorm]) {
+      SOURCE_ALIASES[sourceNorm].forEach(function (alias) {
+        candidates.add(alias);
+      });
+    }
+
+    const candidateKeys = Array.from(candidates);
+
+    let bestItem = null;
+    let bestScore = 0;
+
+    publisherCatalog.forEach(function (logoItem) {
+      const isGoogleLogo =
+        logoItem.altNorm.includes("google") ||
+        logoItem.srcNorm.includes("google");
+
+      if (isGoogleLogo) return;
+
+      let score = 0;
+
+      candidateKeys.forEach(function (key) {
+        const keyNorm = normalizeText(key);
+        if (!keyNorm) return;
+
+        if (logoItem.altNorm === keyNorm) score += 120;
+        if (logoItem.srcNorm === keyNorm) score += 90;
+
+        if (logoItem.altNorm.includes(keyNorm)) score += 60;
+        if (logoItem.srcNorm.includes(keyNorm)) score += 45;
+
+        if (keyNorm.includes(logoItem.altNorm) && logoItem.altNorm) score += 25;
+      });
+
+      if (score > bestScore) {
+        bestScore = score;
+        bestItem = logoItem;
+      }
+    });
+
+    return bestItem && bestItem.src ? bestItem.src : null;
+  }
+
+  function buildShareUrl(item) {
+    const shareText = [item.title, item.source].filter(Boolean).join(" | ");
+    return (
+      "https://twitter.com/intent/tweet?text=" +
+      encodeURIComponent(shareText) +
+      "&url=" +
+      encodeURIComponent(item.link || "")
+    );
+  }
+
+  function createEl(tag, className, text) {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (typeof text === "string") el.textContent = text;
+    return el;
+  }
+
+  function clearNode(node) {
+    while (node.firstChild) node.removeChild(node.firstChild);
+  }
+
+  function renderState(root, className, text) {
+    clearNode(root);
+    root.appendChild(createEl("div", className, text));
+  }
+
+  function buildSourceBadge(sourceName) {
+    return createEl("span", "facile-news-source-badge", getInitials(sourceName || "NP"));
+  }
+
+  function buildSourceMeta(item) {
+    const wrap = createEl("span", "facile-news-source-wrap");
+
+    if (item.sourceIcon) {
+      const icon = document.createElement("img");
+      icon.className = "facile-news-source-icon";
+      icon.src = item.sourceIcon;
+      icon.alt = item.source ? "Icono de " + item.source : "Icono del medio";
+      icon.loading = "lazy";
+      icon.referrerPolicy = "no-referrer";
+      icon.onerror = function () {
+        icon.replaceWith(buildSourceBadge(item.source));
+      };
+      wrap.appendChild(icon);
+    } else {
+      wrap.appendChild(buildSourceBadge(item.source));
+    }
+
+    wrap.appendChild(createEl("span", "facile-news-source", item.source || "Google Noticias"));
+    return wrap;
+  }
+
+  function buildFallbackMedia(item) {
+    const media = createEl("div", "facile-news-media facile-news-fallback");
+
+    if (item.sourceIcon) {
+      const icon = document.createElement("img");
+      icon.className = "facile-news-fallback-icon";
+      icon.src = item.sourceIcon;
+      icon.alt = item.source ? "Icono del medio " + item.source : "Icono del medio";
+      icon.loading = "lazy";
+      icon.referrerPolicy = "no-referrer";
+      icon.onerror = function () {
+        icon.replaceWith(createEl("div", "facile-news-fallback-badge", getInitials(item.source)));
+      };
+      media.appendChild(icon);
+    } else {
+      media.appendChild(createEl("div", "facile-news-fallback-badge", getInitials(item.source)));
+    }
+
+    const text = createEl("div", "facile-news-fallback-text", item.source || "Google Noticias");
+    media.appendChild(text);
+
+    return media;
+  }
+
+  function buildMedia(item) {
+    if (!item.image) {
+      return buildFallbackMedia(item);
+    }
+
+    const media = createEl("div", "facile-news-media");
+    const img = document.createElement("img");
+    img.src = item.image;
+    img.alt = item.title ? "Imagen de la noticia: " + item.title : "Imagen de noticia";
+    img.loading = "lazy";
+    img.referrerPolicy = "no-referrer";
+    img.onerror = function () {
+      media.replaceWith(buildFallbackMedia(item));
+    };
+
+    media.appendChild(img);
+    return media;
+  }
+
+  function buildCard(item) {
+    const card = createEl("article", "facile-news-card");
+    const media = buildMedia(item);
+
+    const content = createEl("div", "facile-news-content");
+    const headline = createEl("h3", "facile-news-headline", item.title);
+    const summary = createEl("p", "facile-news-summary", item.summary || "");
+    const footer = createEl("div", "facile-news-footer");
+
+    const actions = createEl("div", "facile-news-actions");
+
+    const readBtn = document.createElement("a");
+    readBtn.className = "facile-news-button primary";
+    readBtn.href = safeUrl(item.link, "about:blank");
+    readBtn.target = "_blank";
+    readBtn.rel = "noopener noreferrer";
+    readBtn.textContent = "Descubrir más";
+
+    const shareBtn = document.createElement("a");
+    shareBtn.className = "facile-news-button secondary";
+    shareBtn.href = buildShareUrl(item);
+    shareBtn.target = "_blank";
+    shareBtn.rel = "noopener noreferrer";
+    shareBtn.textContent = "Compartir en Twitter / X";
+    shareBtn.title = "Compartir noticia en Twitter / X";
+
+    actions.appendChild(readBtn);
+    actions.appendChild(shareBtn);
+
+    const meta = createEl("div", "facile-news-meta");
+    meta.appendChild(buildSourceMeta(item));
+
+    const dateText = formatDate(item.pubDate);
+    if (dateText) {
+      meta.appendChild(createEl("span", "facile-news-date", dateText));
+    }
+
+    footer.appendChild(actions);
+    footer.appendChild(meta);
+
+    content.appendChild(headline);
+    content.appendChild(summary);
+    content.appendChild(footer);
+
+    card.appendChild(media);
+    card.appendChild(content);
+
+    return card;
+  }
+
+  function mountTicker(root, items) {
+    let index = 0;
+    let timer = null;
+
+    clearNode(root);
+
+    const stage = createEl("div", "facile-news-stage");
+    const nav = createEl("div", "facile-news-nav");
+    const prev = createEl("button", "facile-news-arrow", "←");
+    const next = createEl("button", "facile-news-arrow", "→");
+    const dots = createEl("div", "facile-news-dots");
+
+    prev.type = "button";
+    next.type = "button";
+    prev.setAttribute("aria-label", "Noticia anterior");
+    next.setAttribute("aria-label", "Noticia siguiente");
+
+    items.forEach(function (_, i) {
+      const dot = createEl("button", "facile-news-dot");
+      dot.type = "button";
+      dot.setAttribute("aria-label", "Ir a la noticia " + (i + 1));
+      dot.addEventListener("click", function () {
+        render(i);
+        restartAuto();
+      });
+      dots.appendChild(dot);
+    });
+
+    function render(i) {
+      index = (i + items.length) % items.length;
+      clearNode(stage);
+      stage.appendChild(buildCard(items[index]));
+
+      Array.from(dots.children).forEach(function (dot, pos) {
+        dot.classList.toggle("active", pos === index);
+      });
+    }
+
+    function nextItem() {
+      render(index + 1);
+    }
+
+    function prevItem() {
+      render(index - 1);
+    }
+
+    function stopAuto() {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    }
+
+    function startAuto() {
+      stopAuto();
+      if (!AUTOPLAY || items.length <= 1) return;
+      timer = setInterval(nextItem, AUTOPLAY_MS);
+    }
+
+    function restartAuto() {
+      stopAuto();
+      startAuto();
+    }
+
+    root.addEventListener("mouseenter", stopAuto);
+    root.addEventListener("mouseleave", startAuto);
+    root.addEventListener("focusin", stopAuto);
+    root.addEventListener("focusout", startAuto);
+
+    prev.addEventListener("click", function () {
+      prevItem();
+      restartAuto();
+    });
+
+    next.addEventListener("click", function () {
+      nextItem();
+      restartAuto();
+    });
+
+    nav.appendChild(prev);
+    nav.appendChild(dots);
+    nav.appendChild(next);
+
+    root.appendChild(stage);
+    root.appendChild(nav);
+
+    render(0);
+    startAuto();
+  }
+
+  function normalizeItems(items, publisherCatalog) {
+    return (items || [])
+      .map(function (item) {
+        const sourceIcon = resolvePublisherLogo(item.source, publisherCatalog);
+
+        return {
+          title: item.title || "Titular no disponible",
+          source: item.source || "Google Noticias",
+          summary: item.summary || "",
+          image: safeUrl(item.image || "", ""),
+          sourceIcon: sourceIcon,
+          link: safeUrl(item.link || "", "about:blank"),
+          pubDate: item.pubDate || ""
+        };
+      })
+      .filter(function (item) {
+        return item.title && item.link;
+      });
+  }
+
+  function saveCache(data) {
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+    } catch (_) {}
+  }
+
+  function loadCache() {
+    try {
+      const raw = localStorage.getItem(CACHE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  async function fetchNewsJson(timeoutMs) {
+    const controller = new AbortController();
+    const timer = setTimeout(function () {
+      controller.abort();
+    }, timeoutMs);
+
+    try {
+      const response = await fetch(NEWS_JSON_URL + "?v=" + Date.now(), {
+        cache: "no-store",
+        signal: controller.signal
+      });
+
+      if (!response.ok) {
+        throw new Error("HTTP " + response.status);
+      }
+
+      const data = await response.json();
+      return data;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  async function initFacileNewsWidget() {
+    const root = document.getElementById("facile-news-root");
+    if (!root) return;
+
+    const publisherCatalog = buildPublisherCatalog();
+
+    try {
+      renderState(root, "facile-news-loading", "Cargando noticias...");
+      const data = await fetchNewsJson(8000);
+
+      if (!data || !Array.isArray(data.items) || !data.items.length) {
+        throw new Error("news.json vacío o inválido");
+      }
+
+      saveCache(data);
+
+      const items = normalizeItems(data.items, publisherCatalog);
+      if (!items.length) {
+        renderState(root, "facile-news-empty", "No hay noticias disponibles.");
+        return;
+      }
+
+      mountTicker(root, items);
+    } catch (error) {
+      const cached = loadCache();
+
+      if (cached && Array.isArray(cached.items) && cached.items.length) {
+        const items = normalizeItems(cached.items, publisherCatalog);
+        mountTicker(root, items);
+        console.warn("[FacileNews] usando caché local:", error);
+        return;
+      }
+
+      console.error("[FacileNews]", error);
+      renderState(root, "facile-news-error", "No se pudieron cargar las noticias.");
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initFacileNewsWidget);
+  } else {
+    initFacileNewsWidget();
+  }
+})();
+</script>
+<div class="widget-box ticker-widget" style="margin: 20px auto; max-width:1100px;">
+ <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  <script type="application/json" id="facile-tradingview-config">
+{
   "symbols": [
     {
       "description": "IBEX 35",
@@ -212,8 +1205,8 @@
       "proName": "BINANCE:BTCEUR"
     },
     {
-      "description": "Índice S&P 500",
-      "proName": "FOREXCOM:SPXUSD"
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "Índice S&P 500"
     },
     {
       "proName": "PEPPERSTONE:NAS100",
@@ -231,11 +1224,201 @@
   "locale": "es"
 }
   </script>
+  </div>
 </div>
 <!-- TradingView Widget END -->
-<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Cargando..." data-fw-param="174041/"></script> <!-- end feedwind code -->
+<div id="weather-widget" class="weather-widget">
+
+<div id="weather-content">🌍 Cargando clima...</div>
+
+<div style="margin-top:10px;">
+<input id="city-input" placeholder="Escribe tu ciudad..."
+style="
+padding:8px;
+border-radius:10px;
+border:none;
+outline:none;
+width:220px;
+">
+
+<button onclick="searchCity()" style="
+padding:8px 12px;
+border:none;
+border-radius:10px;
+margin-left:5px;
+cursor:pointer;
+background:#5bd3ff;
+color:white;
+">
+Buscar
+</button>
+</div>
+
+</div>
+
+<script>
+/* ===============================
+   CARGAR CLIMA POR COORDENADAS
+================================ */
+function loadWeather(lat, lon, name="Tu ubicación"){
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&daily=temperature_2m_max,temperature_2m_min,weathercode&timezone=auto`;
+
+  fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      const w = data.current_weather;
+      const daily = data.daily;
+
+      /* ===============================
+         ICONOS DÍA / NOCHE
+      ================================= */
+      function getIcon(code, isDay=true){
+        if(isDay){
+          if(code === 0) return "☀️";
+          if(code <= 3) return "⛅";
+          if(code <= 48) return "🌫️";
+          if(code <= 67) return "🌧️";
+          if(code <= 77) return "❄️";
+          if(code <= 82) return "🌦️";
+          if(code <= 99) return "⛈️";
+        }else{
+          if(code === 0) return "🌙";
+          if(code <= 3) return "🌙☁️";
+          if(code <= 48) return "🌫️";
+          if(code <= 67) return "🌧️";
+          if(code <= 77) return "❄️";
+          if(code <= 82) return "🌧️";
+          if(code <= 99) return "⛈️";
+        }
+        return "🌍";
+      }
+
+      /* ===============================
+         DÍA
+      ================================= */
+      function getDay(dateStr){
+        const d = new Date(dateStr);
+        return d.toLocaleDateString('es-ES', { weekday: 'short' });
+      }
+
+      /* ===============================
+         PREVISIÓN 6 DÍAS
+      ================================= */
+      let forecastHTML = `
+        <div style="
+          display:flex;
+          justify-content:center;
+          gap:12px;
+          margin-top:15px;
+          flex-wrap:wrap;
+        ">
+      `;
+
+      for(let i=1;i<=6;i++){
+        forecastHTML += `
+          <div style="
+            background:rgba(255,255,255,0.25);
+            padding:10px;
+            border-radius:15px;
+            min-width:85px;
+            backdrop-filter:blur(6px);
+          ">
+            <div style="font-size:12px;">${getDay(daily.time[i])}</div>
+            <div style="font-size:24px;margin:5px 0;">
+              ${getIcon(daily.weathercode[i], true)}
+            </div>
+            <div style="font-size:12px;">
+              ${daily.temperature_2m_max[i]}° / ${daily.temperature_2m_min[i]}°
+            </div>
+          </div>
+        `;
+      }
+
+      forecastHTML += `</div>`;
+
+      /* ===============================
+         RENDER FINAL
+      ================================= */
+      document.getElementById("weather-content").innerHTML = `
+        <h3 style="margin:5px 0 15px 0;">
+  ${name}
+</h3>
+
+<div style="
+  font-size:70px;
+  margin:10px 0 20px 0;
+  line-height:1;
+">
+  ${getIcon(w.weathercode, w.is_day === 1)}
+</div>
+
+        <p style="font-size:34px;margin:5px 0;">
+          ${w.temperature}°C
+        </p>
+
+        <p style="font-size:14px;">
+          Viento: ${w.windspeed} km/h
+        </p>
+
+        ${forecastHTML}
+      `;
+    })
+    .catch(()=>{
+      document.getElementById("weather-content").innerHTML = "❌ No se pudo cargar el clima";
+    });
+}
+/* ===============================
+   BUSCAR CIUDAD
+================================ */
+function searchCity(){
+  const city = document.getElementById("city-input").value;
+
+  if(!city) return;
+
+  fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${city}&count=1`)
+    .then(res => res.json())
+    .then(data => {
+      if(!data.results){
+        document.getElementById("weather-content").innerHTML = "❌ Ciudad no encontrada";
+        return;
+      }
+
+      const place = data.results[0];
+
+      localStorage.setItem("weatherCity", city);
+
+      loadWeather(place.latitude, place.longitude, place.name);
+    })
+    .catch(()=>{
+      document.getElementById("weather-content").innerHTML = "❌ Error buscando ciudad";
+    });
+}
+
+/* ===============================
+   INICIO INTELIGENTE
+================================ */
+
+window.facileStartWeather = function(){
+  if(window.__facileWeatherStarted) return;
+  window.__facileWeatherStarted = true;
+  const savedCity = localStorage.getItem("weatherCity");
+  if(savedCity){
+    document.getElementById("city-input").value = savedCity;
+    searchCity();
+  }else if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(
+      pos => loadWeather(pos.coords.latitude, pos.coords.longitude, "Tu ubicación"),
+      () => loadWeather(40.4168, -3.7038, "Madrid"),
+      { maximumAge: 1800000, timeout: 2500, enableHighAccuracy: false }
+    );
+  }else{
+    loadWeather(40.4168, -3.7038, "Madrid");
+  }
+};
+</script>
+</div>
+
 <div class="container">
-        <script async="async" data-cfasync="false" src="https://ripenhopperwitty.com/425c44500552d69f3a26b7f0836c2dae/invoke.js"></script><div id="container-425c44500552d69f3a26b7f0836c2dae"></div>
         <h3><a href="#noticias" style="color:peru; text-decoration: none;">>Noticias 📰🇪🇸</a></h3>
         <div id="noticias" style="position: relative; top: -200px;"></div> 
         <section id="noticias">
@@ -1216,7 +2399,82 @@
         <a href="https://www.shazam.com/es-es/" target="_blank" data-legacy-p="" style="color:dodgerblue;">Shazam</a>
         <a href="https://soundcloud.com" target="_blank" data-legacy-p="" style="color:rgb(255, 140, 32);">SoundCloud</a>
         </section>
-        </body>
+        
+<!-- FACILE CLASICO: botones flotantes portados de la pagina principal -->
+<div id="theme-panel" class="theme-panel classic-theme-panel">
+  <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Abrir temas" aria-expanded="false">🎨</button>
+  <div id="theme-menu" class="theme-menu" aria-hidden="true">
+    <button id="theme-menu-close" class="theme-menu-close" type="button" aria-label="Cerrar menú de temas">×</button>
+    <h3>Selecciona un TEMA</h3>
+    <div class="theme-buttons">
+      <button onclick="applyTheme('sol')" data-theme="sol" class="theme-btn" type="button">☀️ Sol</button>
+      <button onclick="applyTheme('luna')" data-theme="luna" class="theme-btn" type="button">🌙 Luna</button>
+      <button onclick="applyTheme('forest')" data-theme="forest" class="theme-btn" type="button">🌲 Bosque</button>
+      <button onclick="applyTheme('sunset')" data-theme="sunset" class="theme-btn" type="button">🌅 Atardecer</button>
+      <button onclick="applyTheme('ocean')" data-theme="ocean" class="theme-btn" type="button">🌊 Océano</button>
+      <button onclick="applyTheme('aurora')" data-theme="aurora" class="theme-btn" type="button">🌌 Aurora</button>
+    </div>
+    <hr>
+    <h4>Fondo personalizado</h4>
+    <div class="theme-bg-row">
+      <input type="text" id="bg-url" placeholder="Pega URL de imagen...">
+      <input type="file" id="bg-file-input" accept="image/jpeg,image/png,image/webp,image/gif" hidden>
+      <button type="button" id="bg-file-button" class="theme-bg-file-btn" aria-label="Elegir imagen desde este dispositivo" title="Elegir imagen desde este dispositivo">▣</button>
+    </div>
+    <button onclick="applyCustomBackground()" type="button">Aplicar el fondo</button>
+    <button onclick="clearCustomBackground()" type="button">Limpiar el fondo</button>
+  </div>
+</div>
+
+<div class="facile-radio-widget" id="facileRadioWidget">
+  <button type="button" id="facileRadioToggle" class="facile-radio-button" aria-label="Abrir radio" aria-expanded="false">📻</button>
+  <section class="facile-radio-panel" id="facileRadioPanel" aria-hidden="true">
+    <button type="button" id="facileRadioClose" class="facile-radio-close" aria-label="Cerrar radio">×</button>
+    <header class="facile-radio-header"><div><strong>Mini radio Facile</strong><span id="facileRadioStatus">Con el poder de Radio Browser</span></div></header>
+    <form class="facile-radio-search" id="facileRadioSearch">
+      <input type="search" id="facileRadioQuery" placeholder="Buscar emisora..." autocomplete="off" aria-label="Buscar emisora">
+      <button type="submit">Buscar</button>
+    </form>
+    <div class="facile-radio-now">
+      <span class="facile-radio-logo" id="facileRadioLogo">📻</span>
+      <span class="facile-radio-now-text"><strong id="facileRadioName">Selecciona una emisora</strong><span id="facileRadioMeta">Radio online</span></span>
+    </div>
+    <audio id="facileRadioAudio" preload="none"></audio>
+    <div class="facile-radio-controls">
+      <button type="button" id="facileRadioPlay" class="facile-radio-main-control" aria-label="Reproducir o pausar">▶</button>
+      <button type="button" id="facileRadioFav" class="facile-radio-small-control" aria-label="Guardar emisora">☆</button>
+      <button type="button" id="facileRadioHome" class="facile-radio-home-control" aria-label="Volver a emisoras destacadas" title="Inicio">⌂</button>
+      <button type="button" id="facileRadioShowFavs" class="facile-radio-favs-control" aria-label="Ver radios favoritas" title="Mis favoritas">❤</button>
+      <select id="facileRadioPreset" aria-label="Emisoras destacadas"><option value="">Emisoras destacadas</option></select>
+    </div>
+    <div class="facile-radio-volume" id="facileRadioVolume">
+      <button type="button" id="facileRadioVolumeToggle" class="facile-radio-volume-toggle" aria-label="Silenciar radio">🔊</button>
+      <input type="range" id="facileRadioVolumeRange" class="facile-radio-volume-range" min="0" max="100" step="1" value="80" aria-label="Volumen de la radio">
+      <span id="facileRadioVolumeValue" class="facile-radio-volume-value">80%</span>
+    </div>
+    <div class="facile-radio-results" id="facileRadioResults"><button type="button" class="facile-radio-loading-row">Cargando emisoras...</button></div>
+  </section>
+</div>
+
+<script>
+(function(){
+  function ready(cb){ if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', cb, {once:true}); else cb(); }
+  ready(function(){
+    const themePanel=document.getElementById('theme-panel');
+    const themeToggle=document.getElementById('theme-toggle');
+    const themeMenu=document.getElementById('theme-menu');
+    const themeClose=document.getElementById('theme-menu-close');
+    const radioWidget=document.getElementById('facileRadioWidget');
+    function closeTheme(){ if(!themePanel || !themeMenu || !themeToggle) return; themePanel.classList.remove('facile-theme-menu-open'); themeMenu.setAttribute('aria-hidden','true'); themeToggle.setAttribute('aria-expanded','false'); }
+    function openTheme(){ if(!themePanel || !themeMenu || !themeToggle) return; if(radioWidget) radioWidget.classList.remove('is-open'); themePanel.classList.add('facile-theme-menu-open'); themeMenu.setAttribute('aria-hidden','false'); themeToggle.setAttribute('aria-expanded','true'); }
+    if(themeToggle) themeToggle.addEventListener('click', function(){ themePanel.classList.contains('facile-theme-menu-open') ? closeTheme() : openTheme(); });
+    if(themeClose) themeClose.addEventListener('click', closeTheme);
+    document.addEventListener('keydown', function(event){ if(event.key === 'Escape') closeTheme(); });
+  });
+})();
+</script>
+
+</body>
      </div>
     </main>
     <footer class="footer">
