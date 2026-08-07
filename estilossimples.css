@@ -1422,3 +1422,365 @@ body{background-image:var(--custom-background), url(https://raw.githubuserconten
     max-height: min(600px, calc(100vh - 34px)) !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - PULIDO FINO V3
+   Botones flotantes mas pequenos, menus compactos, selector de noticias
+   y temas clasicos coherentes con Windows 90/Y2K.
+========================================================= */
+:root {
+  --classic-float-size: 42px;
+  --classic-float-gap: 8px;
+  --classic-panel-bg: color-mix(in srgb, var(--glass-bg, #d6d0c4) 88%, #eee8dc 12%);
+  --classic-panel-title: linear-gradient(90deg, var(--secondary-color, #0b4f9c), var(--primary-color, #9f6632));
+}
+
+body {
+  background-color: var(--facile-desktop) !important;
+  background-image: var(--custom-background), var(--background-gradient), url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg) !important;
+  background-blend-mode: normal, multiply, normal !important;
+}
+
+.header,
+.header .container.logo-nav-container {
+  background: var(--header-bg) !important;
+}
+
+#facile-news-widget .facile-news-title,
+#facile-news-widget .facile-news-headline,
+#weather-content > h3,
+.theme-menu h3,
+.facile-radio-header strong,
+h3 {
+  background: var(--classic-panel-title) !important;
+}
+
+.facile-search-engine-wrap {
+  width: 40px !important;
+  height: 36px !important;
+  border-radius: 8px !important;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.45) !important;
+}
+
+.facile-search-engine-badge {
+  border-radius: 5px !important;
+  background: var(--classic-panel-title) !important;
+  font-size: 0.82rem !important;
+}
+
+.facile-search-engine-badge img {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+/* Selector de noticias: compacto, legible y con aspecto de control de sistema. */
+#facile-news-widget .facile-news-nav {
+  display: inline-flex !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0.9rem auto 0 !important;
+  padding: 0.34rem 0.45rem !important;
+  gap: 0.34rem !important;
+  background: #eee8dc !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 3px solid #4e3a2b !important;
+  border-bottom: 3px solid #4e3a2b !important;
+  border-radius: 12px !important;
+  box-shadow: 2px 2px 0 rgba(43,29,19,0.22) !important;
+}
+
+#facile-news-widget .facile-news-arrow {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  border-radius: 8px !important;
+  color: #1e1308 !important;
+  background: #f6f1e8 !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 2px solid #4e3a2b !important;
+  border-bottom: 2px solid #4e3a2b !important;
+  font-weight: 900 !important;
+  transition: none !important;
+}
+
+#facile-news-widget .facile-news-arrow:hover,
+#facile-news-widget .facile-news-arrow:focus-visible {
+  color: #ffffff !important;
+  background: var(--secondary-color, #0b4f9c) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+}
+
+#facile-news-widget .facile-news-arrow:active {
+  transform: translate(1px, 1px) !important;
+  border-top-color: #4e3a2b !important;
+  border-left-color: #4e3a2b !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
+
+#facile-news-widget .facile-news-dots {
+  gap: 4px !important;
+  padding: 0 0.18rem !important;
+}
+
+#facile-news-widget .facile-news-dot {
+  width: 11px !important;
+  height: 11px !important;
+  border-radius: 50% !important;
+  background: #ffffff !important;
+  border: 1px solid #8b8172 !important;
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,0.12) !important;
+  transition: none !important;
+}
+
+#facile-news-widget .facile-news-dot.active {
+  width: 18px !important;
+  border-radius: 999px !important;
+  background: var(--primary-color, #9f6632) !important;
+  border-color: #4e3a2b !important;
+  transform: none !important;
+}
+
+/* Botones flotantes: mas pequenos y menos invasivos. */
+.theme-panel,
+.facile-radio-widget {
+  right: 18px !important;
+  width: var(--classic-float-size) !important;
+  height: var(--classic-float-size) !important;
+}
+
+.theme-panel { bottom: 12px !important; }
+.facile-radio-widget { bottom: calc(12px + var(--classic-float-size) + var(--classic-float-gap)) !important; }
+
+.theme-toggle-btn,
+.facile-radio-button {
+  width: var(--classic-float-size) !important;
+  height: var(--classic-float-size) !important;
+  min-width: var(--classic-float-size) !important;
+  min-height: var(--classic-float-size) !important;
+  border-radius: 14px !important;
+  font-size: 1rem !important;
+  padding: 0 !important;
+  background: linear-gradient(180deg, #fffaf0 0%, #eee8dc 52%, #d1c6b5 100%) !important;
+  box-shadow: 2px 2px 0 rgba(43,29,19,0.38), inset 1px 1px 0 rgba(255,255,255,0.58) !important;
+}
+
+.theme-toggle-btn::after,
+.facile-radio-button::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border-radius: 10px;
+  border: 1px dotted rgba(43,29,19,0.36);
+  pointer-events: none;
+}
+
+#theme-panel.facile-theme-menu-open .theme-toggle-btn,
+.facile-radio-widget.is-open .facile-radio-button {
+  transform: translate(1px, 1px) !important;
+}
+
+.theme-menu,
+.facile-radio-panel {
+  right: calc(100% + 10px) !important;
+  width: min(344px, calc(100vw - 82px)) !important;
+  max-height: min(640px, calc(100vh - 28px)) !important;
+  padding: 0.75rem !important;
+  background: var(--classic-panel-bg) !important;
+  border-radius: 14px !important;
+  box-shadow: 5px 5px 0 rgba(43,29,19,0.34) !important;
+}
+
+.facile-radio-panel {
+  width: min(372px, calc(100vw - 82px)) !important;
+}
+
+.theme-menu h3,
+.facile-radio-header strong {
+  margin: 0 2.25rem 0.65rem 0 !important;
+  min-height: 34px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 9px !important;
+  font-size: 0.92rem !important;
+  line-height: 1.15 !important;
+}
+
+.theme-menu-close,
+.facile-radio-close {
+  top: 8px !important;
+  right: 8px !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+  transition: transform 90ms steps(1,end), background-color 90ms steps(1,end), color 90ms steps(1,end) !important;
+}
+
+.theme-menu-close:hover,
+.facile-radio-close:hover,
+.theme-menu-close:focus-visible,
+.facile-radio-close:focus-visible {
+  color: #ffffff !important;
+  background: #b22222 !important;
+  transform: rotate(7deg) scale(1.06) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+}
+
+.theme-menu-close:active,
+.facile-radio-close:active {
+  transform: translate(1px, 1px) rotate(0deg) scale(0.96) !important;
+}
+
+.theme-buttons {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 0.45rem !important;
+  margin: 0.45rem 0 0.65rem !important;
+}
+
+.theme-btn {
+  min-height: 34px !important;
+  padding: 0.35rem 0.45rem !important;
+  border-radius: 10px !important;
+  font-size: 0.82rem !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+.theme-btn.is-selected,
+.theme-btn:hover,
+.theme-btn:focus-visible {
+  color: #ffffff !important;
+  background: var(--classic-panel-title) !important;
+}
+
+.theme-menu hr {
+  margin: 0.65rem 0 !important;
+  border: 0 !important;
+  border-top: 2px solid #8b8172 !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.theme-menu h4 {
+  margin: 0.35rem 0 0.5rem !important;
+  padding: 0.35rem !important;
+  background: #eee8dc !important;
+  border-top: 1px solid #ffffff !important;
+  border-left: 1px solid #ffffff !important;
+  border-right: 2px solid #8b8172 !important;
+  border-bottom: 2px solid #8b8172 !important;
+  border-radius: 8px !important;
+}
+
+.theme-bg-row {
+  grid-template-columns: minmax(0, 1fr) 34px !important;
+  gap: 0.42rem !important;
+}
+
+#bg-url {
+  height: 34px !important;
+  font-size: 0.72rem !important;
+}
+
+.theme-bg-file-btn {
+  width: 34px !important;
+  height: 34px !important;
+  min-height: 34px !important;
+  padding: 0 !important;
+  border-radius: 8px !important;
+}
+
+.theme-menu > button:not(.theme-menu-close),
+.theme-menu .theme-bg-row + button,
+.theme-menu .theme-bg-row + button + button {
+  min-height: 34px !important;
+  padding: 0.38rem 0.55rem !important;
+  border-radius: 9px !important;
+  font-size: 0.78rem !important;
+}
+
+.facile-radio-search {
+  grid-template-columns: minmax(0,1fr) 72px !important;
+  gap: 0.45rem !important;
+}
+
+.facile-radio-search input {
+  height: 34px !important;
+  font-size: 0.78rem !important;
+}
+
+.facile-radio-search button {
+  min-height: 34px !important;
+  padding: 0.35rem 0.45rem !important;
+  border-radius: 9px !important;
+  font-size: 0.78rem !important;
+}
+
+.facile-radio-now {
+  grid-template-columns: 38px minmax(0,1fr) !important;
+  padding: 0.5rem !important;
+  border-radius: 10px !important;
+}
+
+.facile-radio-logo,
+.facile-radio-row-logo {
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 9px !important;
+}
+
+.facile-radio-controls {
+  grid-template-columns: 34px 34px 34px 34px minmax(0,1fr) !important;
+  gap: 0.38rem !important;
+}
+
+.facile-radio-main-control,
+.facile-radio-small-control,
+.facile-radio-home-control,
+.facile-radio-favs-control,
+.facile-radio-volume-toggle {
+  width: 34px !important;
+  height: 34px !important;
+  min-height: 34px !important;
+  padding: 0 !important;
+  border-radius: 9px !important;
+  font-size: 0.82rem !important;
+}
+
+.facile-radio-controls select {
+  height: 34px !important;
+  font-size: 0.74rem !important;
+}
+
+.facile-radio-volume {
+  grid-template-columns: 34px minmax(0,1fr) 42px !important;
+  gap: 0.42rem !important;
+}
+
+.facile-radio-row,
+.facile-radio-loading-row {
+  grid-template-columns: 38px minmax(0,1fr) !important;
+  min-height: 52px !important;
+  padding: 0.45rem !important;
+  border-radius: 9px !important;
+}
+
+.facile-radio-row-text strong { font-size: 0.82rem !important; }
+.facile-radio-row-text em { font-size: 0.7rem !important; }
+
+@media only screen and (max-width: 767px) {
+  :root { --classic-float-size: 40px; }
+  .theme-panel,
+  .facile-radio-widget { right: 14px !important; }
+  .theme-menu,
+  .facile-radio-panel { width: min(330px, calc(100vw - 76px)) !important; }
+  #facile-news-widget .facile-news-nav { max-width: calc(100% - 12px) !important; }
+  #facile-news-widget .facile-news-dot { width: 9px !important; height: 9px !important; }
+  #facile-news-widget .facile-news-dot.active { width: 16px !important; }
+}
