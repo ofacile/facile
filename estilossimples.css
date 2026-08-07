@@ -417,3 +417,96 @@ section a:active {
     animation-iteration-count: 1 !important;
   }
 }
+
+
+/* =========================================================
+   Ajuste final Facile: consistencia de apartados y legibilidad
+   Mantiene el estilo Windows 90/Y2K con marrón característico.
+========================================================= */
+
+h3 {
+  display: block;
+  clear: both;
+  width: 100%;
+  max-width: 850px;
+  min-height: 2.35rem;
+  margin: 1.65rem auto 0.65rem;
+  padding: 0;
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid), var(--facile-brown));
+  border-top: 2px solid rgba(255,255,255,0.8);
+  border-left: 2px solid rgba(255,255,255,0.8);
+  border-right: 3px solid #2b1d13;
+  border-bottom: 3px solid #2b1d13;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.32);
+  text-align: left;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif;
+}
+
+h3 a,
+h3 a:visited {
+  display: block;
+  width: 100%;
+  padding: 0.48rem 0.75rem;
+  color: #ffffff !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+h3 a:hover,
+h3 a:focus-visible {
+  color: #fff3a6 !important;
+  background: rgba(0,0,0,0.12) !important;
+  outline: 2px dotted var(--facile-focus);
+  outline-offset: -4px;
+}
+
+section {
+  display: block;
+  clear: both;
+  width: 100%;
+  margin: 0 auto 1.35rem;
+  padding: 1rem 0.75rem;
+  text-align: center;
+  background: #f6f1e8;
+}
+
+section a,
+section a:visited {
+  color: var(--facile-link) !important;
+  background: #ffffff !important;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
+  font-size: 0.96rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+section a:hover,
+section a:focus-visible {
+  color: #ffffff !important;
+  background: var(--facile-link-hover-bg) !important;
+  text-decoration: none;
+}
+
+.footer p,
+.footer-copy {
+  margin: 0;
+  color: #ffffff;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 { text-align: center; }
+  h3 a,
+  h3 a:visited,
+  section a,
+  section a:visited { font-size: 0.96rem; }
+}
