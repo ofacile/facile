@@ -421,7 +421,6 @@ section a:active {
 
 /* =========================================================
    Ajuste final Facile: consistencia de apartados y legibilidad
-   Mantiene el estilo Windows 90/Y2K con marrón característico.
 ========================================================= */
 
 h3 {
@@ -510,4 +509,32 @@ section a:focus-visible {
   h3 a:visited,
   section a,
   section a:visited { font-size: 0.96rem; }
+}
+:root {
+  --facile-container-max: 1400px;
+  --facile-container-width: min(calc(100% - 40px), var(--facile-container-max));
+}
+
+.container,
+.main > .container,
+h3 {
+  max-width: var(--facile-container-max) !important;
+}
+
+.container {
+  width: var(--facile-container-width) !important;
+}
+
+.main > .container {
+  width: var(--facile-container-width) !important;
+}
+
+h3 {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --facile-container-width: 92%;
+  }
 }
