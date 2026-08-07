@@ -2417,12 +2417,12 @@ window.facileStartWeather = function(){
     <button id="theme-menu-close" class="theme-menu-close" type="button" aria-label="Cerrar menú de temas">×</button>
     <h3>Selecciona un TEMA</h3>
     <div class="theme-buttons">
-      <button onclick="applyTheme('sol')" data-theme="sol" class="theme-btn" type="button">🪟 Clásico 98</button>
-      <button onclick="applyTheme('luna')" data-theme="luna" class="theme-btn" type="button">🌙 Terminal nocturno</button>
-      <button onclick="applyTheme('forest')" data-theme="forest" class="theme-btn" type="button">🌲 Bosque IBM</button>
-      <button onclick="applyTheme('sunset')" data-theme="sunset" class="theme-btn" type="button">🌇 Y2K ámbar</button>
-      <button onclick="applyTheme('ocean')" data-theme="ocean" class="theme-btn" type="button">🌊 Océano CRT</button>
-      <button onclick="applyTheme('aurora')" data-theme="aurora" class="theme-btn" type="button">💿 Aurora CD-ROM</button>
+      <button onclick="applyTheme('sol')" data-theme="sol" class="theme-btn" type="button">🟫 Clásico 98</button>
+      <button onclick="applyTheme('luna')" data-theme="luna" class="theme-btn" type="button">🟩 Fósforo CRT</button>
+      <button onclick="applyTheme('forest')" data-theme="forest" class="theme-btn" type="button">🟦 Windows NT</button>
+      <button onclick="applyTheme('sunset')" data-theme="sunset" class="theme-btn" type="button">🟪 Y2K Morado</button>
+      <button onclick="applyTheme('ocean')" data-theme="ocean" class="theme-btn" type="button">⬛ MS-DOS</button>
+      <button onclick="applyTheme('aurora')" data-theme="aurora" class="theme-btn" type="button">🟥 Arcade Rojo</button>
     </div>
     <hr>
     <h4>Fondo personalizado</h4>
@@ -2534,67 +2534,108 @@ window.facileStartWeather = function(){
 <script id="facile-classic-theme-engine">
 (function(){
   "use strict";
+  const CLASSIC_THEME_VERSION = "classic-v3-brown-default";
   const CLASSIC_THEMES = {
     sol: {
       name: "Clásico 98",
       colors: {
-        primary: "#9f6632", secondary: "#0b4f9c",
-        background: "linear-gradient(180deg, #0b7676, #315a4c)",
-        headerBg: "linear-gradient(180deg, #d9ad75, #9f6632, #6f431f)",
-        textColor: "#ffffff", textDark: "#16110c", glass: "rgba(214,208,196,0.94)"
+        primary: "#a77745",
+        secondary: "#6f431f",
+        background: "linear-gradient(180deg, #dcc09a 0%, #c7a37a 42%, #8a552b 100%)",
+        headerBg: "linear-gradient(180deg, #d9ad75 0%, #af783a 48%, #6f431f 100%)",
+        textColor: "#ffffff",
+        textDark: "#16110c",
+        glass: "rgba(214,208,196,0.96)",
+        window: "#d6d0c4",
+        windowSoft: "#f6f1e8",
+        link: "#003399"
       }
     },
     luna: {
-      name: "Terminal nocturno",
+      name: "Fósforo CRT",
       colors: {
-        primary: "#30343b", secondary: "#44d17a",
-        background: "linear-gradient(180deg, #111820, #1d2833)",
-        headerBg: "linear-gradient(180deg, #4c4f58, #2d3138, #15191f)",
-        textColor: "#e8ffe8", textDark: "#e7efe5", glass: "rgba(35,39,43,0.95)"
+        primary: "#1f8b4c",
+        secondary: "#003b22",
+        background: "linear-gradient(180deg, #08140d 0%, #10321f 48%, #1f8b4c 100%)",
+        headerBg: "linear-gradient(180deg, #0b2a19 0%, #114322 52%, #06140b 100%)",
+        textColor: "#d6ffe3",
+        textDark: "#102015",
+        glass: "rgba(190,208,181,0.96)",
+        window: "#c9d0bd",
+        windowSoft: "#eef6e4",
+        link: "#00552d"
       }
     },
     forest: {
-      name: "Bosque IBM",
+      name: "Windows NT",
       colors: {
-        primary: "#2f5d3a", secondary: "#93a85a",
-        background: "linear-gradient(180deg, #234225, #5f753d)",
-        headerBg: "linear-gradient(180deg, #b7c58a, #60733d, #2f3d22)",
-        textColor: "#fbffef", textDark: "#17220f", glass: "rgba(203,211,178,0.94)"
+        primary: "#245a9d",
+        secondary: "#00a6a6",
+        background: "linear-gradient(180deg, #004e7c 0%, #008080 55%, #2e6f73 100%)",
+        headerBg: "linear-gradient(180deg, #6eb4ff 0%, #245a9d 50%, #0d274a 100%)",
+        textColor: "#ffffff",
+        textDark: "#10151c",
+        glass: "rgba(202,211,216,0.96)",
+        window: "#cfd7dc",
+        windowSoft: "#edf4f7",
+        link: "#003399"
       }
     },
     sunset: {
-      name: "Y2K ámbar",
+      name: "Y2K Morado",
       colors: {
-        primary: "#b45f2b", secondary: "#b58d00",
-        background: "linear-gradient(180deg, #d9ad75, #7a3f1e)",
-        headerBg: "linear-gradient(180deg, #f0c178, #b45f2b, #653318)",
-        textColor: "#fff7e6", textDark: "#241405", glass: "rgba(224,198,154,0.95)"
+        primary: "#7b4bd1",
+        secondary: "#ff8ac8",
+        background: "linear-gradient(180deg, #2d1a55 0%, #7b4bd1 48%, #ff8ac8 100%)",
+        headerBg: "linear-gradient(180deg, #cbb9ff 0%, #7b4bd1 52%, #2d1a55 100%)",
+        textColor: "#fff7ff",
+        textDark: "#21142d",
+        glass: "rgba(219,205,231,0.96)",
+        window: "#d8cde3",
+        windowSoft: "#f7efff",
+        link: "#4b1fa8"
       }
     },
     ocean: {
-      name: "Océano CRT",
+      name: "MS-DOS",
       colors: {
-        primary: "#0b4f9c", secondary: "#00a1b5",
-        background: "linear-gradient(180deg, #09365f, #0b7676)",
-        headerBg: "linear-gradient(180deg, #59a4c6, #0b4f9c, #06233f)",
-        textColor: "#eefaff", textDark: "#091622", glass: "rgba(194,213,218,0.94)"
+        primary: "#111111",
+        secondary: "#00aaaa",
+        background: "linear-gradient(180deg, #050505 0%, #111111 50%, #003b3b 100%)",
+        headerBg: "linear-gradient(180deg, #3c3c3c 0%, #111111 55%, #000000 100%)",
+        textColor: "#eaffff",
+        textDark: "#0a0a0a",
+        glass: "rgba(198,198,188,0.97)",
+        window: "#c6c6bc",
+        windowSoft: "#f1f1e8",
+        link: "#006666"
       }
     },
     aurora: {
-      name: "Aurora CD-ROM",
+      name: "Arcade Rojo",
       colors: {
-        primary: "#6b4cae", secondary: "#0fae91",
-        background: "linear-gradient(180deg, #2c235c, #0f6b67)",
-        headerBg: "linear-gradient(180deg, #b5a2d9, #6b4cae, #2f2555)",
-        textColor: "#f7f2ff", textDark: "#1c1630", glass: "rgba(216,204,226,0.94)"
+        primary: "#b11226",
+        secondary: "#ffb000",
+        background: "linear-gradient(180deg, #2b0710 0%, #b11226 52%, #ffb000 100%)",
+        headerBg: "linear-gradient(180deg, #ffcc88 0%, #b11226 50%, #4b0710 100%)",
+        textColor: "#fff8e8",
+        textDark: "#2a0707",
+        glass: "rgba(229,203,177,0.96)",
+        window: "#dfc9b5",
+        windowSoft: "#fff1df",
+        link: "#8c0017"
       }
     }
   };
   const THEME_KEY = "selectedTheme";
   const CUSTOM_BG_KEY = "customBackground";
+  const VERSION_KEY = "facileClassicThemeVersion";
+  function cssUrl(value){ return "url(\"" + String(value).replace(/\/g,"\\").replace(/"/g,"\\"") + "\")"; }
   function syncButtons(themeName){
     document.querySelectorAll(".theme-btn").forEach(function(button){
       button.classList.toggle("is-selected", button.dataset.theme === themeName);
+      const theme = CLASSIC_THEMES[button.dataset.theme];
+      if(theme){ button.title = theme.name; }
     });
   }
   function applyClassicTheme(themeName, backgroundUrl){
@@ -2608,6 +2649,9 @@ window.facileStartWeather = function(){
     root.style.setProperty("--text-color", theme.colors.textColor);
     root.style.setProperty("--text-dark", theme.colors.textDark);
     root.style.setProperty("--glass-bg", theme.colors.glass);
+    root.style.setProperty("--facile-window", theme.colors.window);
+    root.style.setProperty("--facile-window-soft", theme.colors.windowSoft);
+    root.style.setProperty("--facile-link", theme.colors.link);
     try { localStorage.setItem(THEME_KEY, key); } catch(_) {}
     syncButtons(key);
     if (typeof backgroundUrl !== "undefined") {
@@ -2615,13 +2659,13 @@ window.facileStartWeather = function(){
         root.style.setProperty("--custom-background", "none");
         try { localStorage.removeItem(CUSTOM_BG_KEY); } catch(_) {}
       } else {
-        root.style.setProperty("--custom-background", "url(\"" + String(backgroundUrl).replace(/\\/g,"\\\\").replace(/"/g,"\\\"") + "\")");
+        root.style.setProperty("--custom-background", cssUrl(backgroundUrl));
         try { localStorage.setItem(CUSTOM_BG_KEY, backgroundUrl); } catch(_) {}
       }
     } else {
       try {
         const savedBg = localStorage.getItem(CUSTOM_BG_KEY);
-        root.style.setProperty("--custom-background", savedBg ? "url(\"" + savedBg.replace(/\\/g,"\\\\").replace(/"/g,"\\\"") + "\")" : "none");
+        root.style.setProperty("--custom-background", savedBg ? cssUrl(savedBg) : "none");
       } catch(_) { root.style.setProperty("--custom-background", "none"); }
     }
   }
@@ -2629,7 +2673,15 @@ window.facileStartWeather = function(){
   window.applyTheme = applyClassicTheme;
   document.addEventListener("DOMContentLoaded", function(){
     let saved = "sol";
-    try { saved = localStorage.getItem(THEME_KEY) || "sol"; } catch(_) {}
+    try {
+      if (localStorage.getItem(VERSION_KEY) !== CLASSIC_THEME_VERSION) {
+        localStorage.setItem(VERSION_KEY, CLASSIC_THEME_VERSION);
+        localStorage.setItem(THEME_KEY, "sol");
+        saved = "sol";
+      } else {
+        saved = localStorage.getItem(THEME_KEY) || "sol";
+      }
+    } catch(_) {}
     applyClassicTheme(saved);
   });
 })();
