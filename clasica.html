@@ -2417,12 +2417,12 @@ window.facileStartWeather = function(){
     <button id="theme-menu-close" class="theme-menu-close" type="button" aria-label="Cerrar menú de temas">×</button>
     <h3>Selecciona un TEMA</h3>
     <div class="theme-buttons">
-      <button onclick="applyTheme('sol')" data-theme="sol" class="theme-btn" type="button">☀️ Sol</button>
-      <button onclick="applyTheme('luna')" data-theme="luna" class="theme-btn" type="button">🌙 Luna</button>
-      <button onclick="applyTheme('forest')" data-theme="forest" class="theme-btn" type="button">🌲 Bosque</button>
-      <button onclick="applyTheme('sunset')" data-theme="sunset" class="theme-btn" type="button">🌅 Atardecer</button>
-      <button onclick="applyTheme('ocean')" data-theme="ocean" class="theme-btn" type="button">🌊 Océano</button>
-      <button onclick="applyTheme('aurora')" data-theme="aurora" class="theme-btn" type="button">🌌 Aurora</button>
+      <button onclick="applyTheme('sol')" data-theme="sol" class="theme-btn" type="button">🪟 Clásico 98</button>
+      <button onclick="applyTheme('luna')" data-theme="luna" class="theme-btn" type="button">🌙 Terminal nocturno</button>
+      <button onclick="applyTheme('forest')" data-theme="forest" class="theme-btn" type="button">🌲 Bosque IBM</button>
+      <button onclick="applyTheme('sunset')" data-theme="sunset" class="theme-btn" type="button">🌇 Y2K ámbar</button>
+      <button onclick="applyTheme('ocean')" data-theme="ocean" class="theme-btn" type="button">🌊 Océano CRT</button>
+      <button onclick="applyTheme('aurora')" data-theme="aurora" class="theme-btn" type="button">💿 Aurora CD-ROM</button>
     </div>
     <hr>
     <h4>Fondo personalizado</h4>
@@ -2530,6 +2530,111 @@ window.facileStartWeather = function(){
   });
 })();
 </script>
+
+<script id="facile-classic-theme-engine">
+(function(){
+  "use strict";
+  const CLASSIC_THEMES = {
+    sol: {
+      name: "Clásico 98",
+      colors: {
+        primary: "#9f6632", secondary: "#0b4f9c",
+        background: "linear-gradient(180deg, #0b7676, #315a4c)",
+        headerBg: "linear-gradient(180deg, #d9ad75, #9f6632, #6f431f)",
+        textColor: "#ffffff", textDark: "#16110c", glass: "rgba(214,208,196,0.94)"
+      }
+    },
+    luna: {
+      name: "Terminal nocturno",
+      colors: {
+        primary: "#30343b", secondary: "#44d17a",
+        background: "linear-gradient(180deg, #111820, #1d2833)",
+        headerBg: "linear-gradient(180deg, #4c4f58, #2d3138, #15191f)",
+        textColor: "#e8ffe8", textDark: "#e7efe5", glass: "rgba(35,39,43,0.95)"
+      }
+    },
+    forest: {
+      name: "Bosque IBM",
+      colors: {
+        primary: "#2f5d3a", secondary: "#93a85a",
+        background: "linear-gradient(180deg, #234225, #5f753d)",
+        headerBg: "linear-gradient(180deg, #b7c58a, #60733d, #2f3d22)",
+        textColor: "#fbffef", textDark: "#17220f", glass: "rgba(203,211,178,0.94)"
+      }
+    },
+    sunset: {
+      name: "Y2K ámbar",
+      colors: {
+        primary: "#b45f2b", secondary: "#b58d00",
+        background: "linear-gradient(180deg, #d9ad75, #7a3f1e)",
+        headerBg: "linear-gradient(180deg, #f0c178, #b45f2b, #653318)",
+        textColor: "#fff7e6", textDark: "#241405", glass: "rgba(224,198,154,0.95)"
+      }
+    },
+    ocean: {
+      name: "Océano CRT",
+      colors: {
+        primary: "#0b4f9c", secondary: "#00a1b5",
+        background: "linear-gradient(180deg, #09365f, #0b7676)",
+        headerBg: "linear-gradient(180deg, #59a4c6, #0b4f9c, #06233f)",
+        textColor: "#eefaff", textDark: "#091622", glass: "rgba(194,213,218,0.94)"
+      }
+    },
+    aurora: {
+      name: "Aurora CD-ROM",
+      colors: {
+        primary: "#6b4cae", secondary: "#0fae91",
+        background: "linear-gradient(180deg, #2c235c, #0f6b67)",
+        headerBg: "linear-gradient(180deg, #b5a2d9, #6b4cae, #2f2555)",
+        textColor: "#f7f2ff", textDark: "#1c1630", glass: "rgba(216,204,226,0.94)"
+      }
+    }
+  };
+  const THEME_KEY = "selectedTheme";
+  const CUSTOM_BG_KEY = "customBackground";
+  function syncButtons(themeName){
+    document.querySelectorAll(".theme-btn").forEach(function(button){
+      button.classList.toggle("is-selected", button.dataset.theme === themeName);
+    });
+  }
+  function applyClassicTheme(themeName, backgroundUrl){
+    const key = CLASSIC_THEMES[themeName] ? themeName : "sol";
+    const theme = CLASSIC_THEMES[key];
+    const root = document.documentElement;
+    root.style.setProperty("--primary-color", theme.colors.primary);
+    root.style.setProperty("--secondary-color", theme.colors.secondary);
+    root.style.setProperty("--background-gradient", theme.colors.background);
+    root.style.setProperty("--header-bg", theme.colors.headerBg);
+    root.style.setProperty("--text-color", theme.colors.textColor);
+    root.style.setProperty("--text-dark", theme.colors.textDark);
+    root.style.setProperty("--glass-bg", theme.colors.glass);
+    try { localStorage.setItem(THEME_KEY, key); } catch(_) {}
+    syncButtons(key);
+    if (typeof backgroundUrl !== "undefined") {
+      if (backgroundUrl === null || backgroundUrl === "") {
+        root.style.setProperty("--custom-background", "none");
+        try { localStorage.removeItem(CUSTOM_BG_KEY); } catch(_) {}
+      } else {
+        root.style.setProperty("--custom-background", "url(\"" + String(backgroundUrl).replace(/\\/g,"\\\\").replace(/"/g,"\\\"") + "\")");
+        try { localStorage.setItem(CUSTOM_BG_KEY, backgroundUrl); } catch(_) {}
+      }
+    } else {
+      try {
+        const savedBg = localStorage.getItem(CUSTOM_BG_KEY);
+        root.style.setProperty("--custom-background", savedBg ? "url(\"" + savedBg.replace(/\\/g,"\\\\").replace(/"/g,"\\\"") + "\")" : "none");
+      } catch(_) { root.style.setProperty("--custom-background", "none"); }
+    }
+  }
+  window.facileClassicThemes = CLASSIC_THEMES;
+  window.applyTheme = applyClassicTheme;
+  document.addEventListener("DOMContentLoaded", function(){
+    let saved = "sol";
+    try { saved = localStorage.getItem(THEME_KEY) || "sol"; } catch(_) {}
+    applyClassicTheme(saved);
+  });
+})();
+</script>
+
 </body>
 </html>    
      
