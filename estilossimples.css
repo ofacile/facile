@@ -1023,3 +1023,82 @@ h3 {
     width: 34px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - HEADER SIN GLASS + MENU PULSADO V3
+   Este bloque final elimina el aspecto translucido del header interior
+   y mantiene el boton de menu en estado hundido cuando el menu esta abierto.
+========================================================= */
+.header .container.logo-nav-container {
+  background:
+    linear-gradient(180deg, #d8b484 0%, #c79b64 48%, #a87540 100%) !important;
+  border-top: 2px solid rgba(255,255,255,0.72) !important;
+  border-left: 2px solid rgba(255,255,255,0.58) !important;
+  border-right: 2px solid rgba(73,45,24,0.82) !important;
+  border-bottom: 2px solid rgba(73,45,24,0.86) !important;
+  box-shadow:
+    0 10px 22px rgba(43,29,19,0.26),
+    inset 0 1px 0 rgba(255,255,255,0.26),
+    inset 0 -1px 0 rgba(55,32,18,0.22) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Boton del menu: estado normal mas limpio y clasico. */
+.menu-icon {
+  transition:
+    transform 120ms ease,
+    filter 120ms ease,
+    box-shadow 120ms ease,
+    background 120ms ease,
+    border-color 120ms ease !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-icon {
+    background:
+      linear-gradient(180deg, #fffaf0 0%, #eee8dc 48%, #d1c6b5 100%) !important;
+    border-top: 2px solid #ffffff !important;
+    border-left: 2px solid #ffffff !important;
+    border-right: 3px solid rgba(67,47,32,0.88) !important;
+    border-bottom: 3px solid rgba(67,47,32,0.92) !important;
+    box-shadow:
+      0 7px 14px rgba(43,29,19,0.24),
+      inset 0 1px 0 rgba(255,255,255,0.72) !important;
+  }
+
+  .menu-icon:hover,
+  .menu-icon:focus-visible {
+    filter: brightness(1.04) !important;
+    outline: 2px dotted var(--facile-focus) !important;
+    outline-offset: 3px !important;
+  }
+
+  /* Estado abierto: el boton queda visualmente pulsado mientras ul.show exista. */
+  .header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
+    transform: translate(2px, 2px) !important;
+    background:
+      linear-gradient(180deg, #d1c6b5 0%, #eee8dc 58%, #fffaf0 100%) !important;
+    border-top: 3px solid rgba(67,47,32,0.92) !important;
+    border-left: 3px solid rgba(67,47,32,0.88) !important;
+    border-right: 2px solid #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+    box-shadow:
+      inset 3px 3px 0 rgba(67,47,32,0.28),
+      inset -1px -1px 0 rgba(255,255,255,0.70) !important;
+    filter: brightness(0.97) !important;
+  }
+
+  .header .container.logo-nav-container:has(.navigation ul.show) .menu-icon img {
+    transform: translate(1px, 1px) !important;
+    filter: drop-shadow(0 1px 0 rgba(255,255,255,0.45)) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-icon,
+  .menu-icon img {
+    transition-duration: 0.001ms !important;
+  }
+}
