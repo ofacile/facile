@@ -2399,7 +2399,17 @@ window.facileStartWeather = function(){
         <a href="https://www.shazam.com/es-es/" target="_blank" data-legacy-p="" style="color:dodgerblue;">Shazam</a>
         <a href="https://soundcloud.com" target="_blank" data-legacy-p="" style="color:rgb(255, 140, 32);">SoundCloud</a>
         </section>
-        
+     </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copy">©2026 por Facile. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="scripts.js"></script>
+
 <!-- FACILE CLASICO: botones flotantes portados de la pagina principal -->
 <div id="theme-panel" class="theme-panel classic-theme-panel">
   <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Abrir temas" aria-expanded="false">🎨</button>
@@ -2458,34 +2468,68 @@ window.facileStartWeather = function(){
 
 <script>
 (function(){
-  function ready(cb){ if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', cb, {once:true}); else cb(); }
+  "use strict";
+  function ready(cb){
+    if(document.readyState === "loading") document.addEventListener("DOMContentLoaded", cb, { once:true });
+    else cb();
+  }
   ready(function(){
-    const themePanel=document.getElementById('theme-panel');
-    const themeToggle=document.getElementById('theme-toggle');
-    const themeMenu=document.getElementById('theme-menu');
-    const themeClose=document.getElementById('theme-menu-close');
-    const radioWidget=document.getElementById('facileRadioWidget');
-    function closeTheme(){ if(!themePanel || !themeMenu || !themeToggle) return; themePanel.classList.remove('facile-theme-menu-open'); themeMenu.setAttribute('aria-hidden','true'); themeToggle.setAttribute('aria-expanded','false'); }
-    function openTheme(){ if(!themePanel || !themeMenu || !themeToggle) return; if(radioWidget) radioWidget.classList.remove('is-open'); themePanel.classList.add('facile-theme-menu-open'); themeMenu.setAttribute('aria-hidden','false'); themeToggle.setAttribute('aria-expanded','true'); }
-    if(themeToggle) themeToggle.addEventListener('click', function(){ themePanel.classList.contains('facile-theme-menu-open') ? closeTheme() : openTheme(); });
-    if(themeClose) themeClose.addEventListener('click', closeTheme);
-    document.addEventListener('keydown', function(event){ if(event.key === 'Escape') closeTheme(); });
+    const themePanel = document.getElementById("theme-panel");
+    const themeToggle = document.getElementById("theme-toggle");
+    const themeMenu = document.getElementById("theme-menu");
+    const themeClose = document.getElementById("theme-menu-close");
+    const radioWidget = document.getElementById("facileRadioWidget");
+    const radioToggle = document.getElementById("facileRadioToggle");
+    if(!themePanel || !themeToggle || !themeMenu) return;
+
+    function closeTheme(){
+      themePanel.classList.remove("facile-theme-menu-open");
+      themeMenu.style.display = "none";
+      themeMenu.setAttribute("aria-hidden", "true");
+      themeToggle.setAttribute("aria-expanded", "false");
+    }
+
+    function openTheme(){
+      if(radioWidget){
+        radioWidget.classList.remove("is-open");
+        const radioPanel = document.getElementById("facileRadioPanel");
+        if(radioPanel) radioPanel.setAttribute("aria-hidden", "true");
+        if(radioToggle) radioToggle.setAttribute("aria-expanded", "false");
+      }
+      themePanel.classList.add("facile-theme-menu-open");
+      themeMenu.style.display = "block";
+      themeMenu.setAttribute("aria-hidden", "false");
+      themeToggle.setAttribute("aria-expanded", "true");
+    }
+
+    function toggleTheme(event){
+      if(event){
+        event.preventDefault();
+        event.stopPropagation();
+        if(typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+      }
+      themePanel.classList.contains("facile-theme-menu-open") ? closeTheme() : openTheme();
+    }
+
+    // Capture phase intentionally wins over other theme handlers from imported scripts.
+    themeToggle.addEventListener("click", toggleTheme, true);
+    if(themeClose){
+      themeClose.addEventListener("click", function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        closeTheme();
+      }, true);
+    }
+    document.addEventListener("keydown", function(event){ if(event.key === "Escape") closeTheme(); });
+    document.addEventListener("click", function(event){
+      if(!themePanel.classList.contains("facile-theme-menu-open")) return;
+      if(themePanel.contains(event.target)) return;
+      closeTheme();
+    });
+    closeTheme();
   });
 })();
 </script>
-
-</body>
-     </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p class="footer-copy">©2026 por Facile. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="scripts.js"></script>
-
 </body>
 </html>    
      
