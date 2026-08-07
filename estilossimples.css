@@ -2049,3 +2049,191 @@ body {
     max-height: min(600px, calc(100vh - 34px)) !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - ALINEACION FACILECHAT + ANIMACIONES V6
+   Alinea Radio y Temas con el boton verde de FacileChat/OpenWidget
+   y anima todos los botones internos de Radio y Temas.
+========================================================= */
+:root {
+  --facile-chat-right: 20px;
+  --facile-chat-size: 50px;
+  --facile-chat-stack-gap: 10px;
+}
+
+/* Columna flotante: mismo eje visual que el boton verde de FacileChat. */
+#theme-panel.classic-theme-panel,
+.theme-panel,
+.facile-radio-widget {
+  right: var(--facile-chat-right) !important;
+  width: var(--facile-chat-size) !important;
+  height: var(--facile-chat-size) !important;
+  z-index: 2147482200 !important;
+}
+
+#theme-panel.classic-theme-panel,
+.theme-panel {
+  bottom: 12px !important;
+}
+
+.facile-radio-widget {
+  bottom: calc(12px + var(--facile-chat-size) + var(--facile-chat-stack-gap)) !important;
+}
+
+#theme-toggle.theme-toggle-btn,
+.theme-toggle-btn,
+.facile-radio-button {
+  width: var(--facile-chat-size) !important;
+  height: var(--facile-chat-size) !important;
+  min-width: var(--facile-chat-size) !important;
+  min-height: var(--facile-chat-size) !important;
+  border-radius: 17px !important;
+  font-size: 1.15rem !important;
+  transform-origin: center center !important;
+}
+
+/* Los paneles salen desde el mismo eje, sin mover la columna. */
+#theme-menu.theme-menu,
+.theme-menu,
+.facile-radio-panel {
+  right: calc(100% + 12px) !important;
+}
+
+/* Animacion retro universal para botones de Temas y Radio. */
+@keyframes facileClassicButtonPop {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-1px, -1px) scale(1.035); }
+  100% { transform: translate(-1px, -1px) scale(1.02); }
+}
+
+@keyframes facileClassicButtonPress {
+  0% { transform: translate(-1px, -1px) scale(1.02); }
+  100% { transform: translate(2px, 2px) scale(0.98); }
+}
+
+#theme-menu button,
+#theme-toggle.theme-toggle-btn,
+.theme-toggle-btn,
+.facile-radio-button,
+#facileRadioPanel button,
+.facile-radio-row,
+.facile-radio-loading-row {
+  position: relative !important;
+  transform-origin: center center !important;
+  transition:
+    transform 90ms steps(2, end),
+    filter 90ms steps(2, end),
+    box-shadow 90ms steps(2, end),
+    background-color 90ms steps(2, end),
+    border-color 90ms steps(2, end) !important;
+  will-change: transform !important;
+}
+
+#theme-menu button:hover,
+#theme-menu button:focus-visible,
+#theme-toggle.theme-toggle-btn:hover,
+#theme-toggle.theme-toggle-btn:focus-visible,
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus-visible,
+.facile-radio-button:hover,
+.facile-radio-button:focus-visible,
+#facileRadioPanel button:hover,
+#facileRadioPanel button:focus-visible,
+.facile-radio-row:hover,
+.facile-radio-row:focus-visible,
+.facile-radio-loading-row:hover,
+.facile-radio-loading-row:focus-visible {
+  animation: facileClassicButtonPop 110ms steps(2, end) both !important;
+  filter: brightness(1.06) contrast(1.04) !important;
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+  box-shadow: 3px 3px 0 rgba(43,29,19,0.36) !important;
+}
+
+#theme-menu button:active,
+#theme-toggle.theme-toggle-btn:active,
+.theme-toggle-btn:active,
+.facile-radio-button:active,
+#facileRadioPanel button:active,
+.facile-radio-row:active,
+.facile-radio-loading-row:active {
+  animation: facileClassicButtonPress 80ms steps(1, end) both !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  box-shadow: inset 3px 3px 0 rgba(43,29,19,0.30) !important;
+  filter: brightness(0.96) contrast(1.08) !important;
+}
+
+/* Estado abierto: el boton queda pulsado y alineado con FacileChat. */
+#theme-panel.facile-theme-menu-open #theme-toggle.theme-toggle-btn,
+#theme-panel.facile-theme-menu-open .theme-toggle-btn,
+.facile-radio-widget.is-open .facile-radio-button {
+  transform: translate(2px, 2px) scale(0.99) !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  box-shadow: inset 3px 3px 0 rgba(43,29,19,0.28) !important;
+}
+
+/* Los botones de tema activos tienen animacion propia sin perder el check. */
+#theme-menu .theme-btn.is-active,
+#theme-menu .theme-btn[aria-pressed="true"],
+.theme-btn.is-selected {
+  animation: facileClassicButtonPop 120ms steps(2, end) both !important;
+  color: #ffffff !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.22) !important;
+}
+
+/* Radio: filas clicables tambien se comportan como botones. */
+.facile-radio-row {
+  cursor: pointer !important;
+}
+
+.facile-radio-row:hover .facile-radio-row-logo,
+.facile-radio-row:focus-visible .facile-radio-row-logo {
+  transform: scale(1.06) !important;
+  filter: brightness(1.08) contrast(1.08) !important;
+}
+
+.facile-radio-row-logo,
+.facile-radio-logo {
+  transition: transform 90ms steps(2, end), filter 90ms steps(2, end) !important;
+}
+
+/* Menus un poco mas consistentes con la columna de botones. */
+#theme-menu.theme-menu,
+.facile-radio-panel {
+  border-radius: 14px !important;
+  box-shadow: 6px 6px 0 rgba(43,29,19,0.36), 0 0 0 1px rgba(255,255,255,0.24) inset !important;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --facile-chat-right: 16px;
+    --facile-chat-size: 48px;
+    --facile-chat-stack-gap: 9px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #theme-menu button,
+  #theme-toggle.theme-toggle-btn,
+  .theme-toggle-btn,
+  .facile-radio-button,
+  #facileRadioPanel button,
+  .facile-radio-row,
+  .facile-radio-loading-row {
+    animation: none !important;
+    transition-duration: 0.001ms !important;
+  }
+}
