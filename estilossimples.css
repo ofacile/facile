@@ -538,3 +538,184 @@ h3 {
     --facile-container-width: 92%;
   }
 }
+
+
+/* =========================================================
+   Facile clásico: header/menu con distribución tipo página principal
+   Mantiene el marrón clásico, pero organiza logo + menú como una barra interior.
+========================================================= */
+:root {
+  --facile-header-shell-max: 1400px;
+  --facile-header-shell-width: min(calc(100% - 40px), var(--facile-header-shell-max));
+  --facile-header-shell-bg: rgba(238, 232, 220, 0.18);
+  --facile-header-shell-border: rgba(255,255,255,0.22);
+  --facile-header-shell-shadow: 0 10px 24px rgba(43, 29, 19, 0.24), inset 0 1px 0 rgba(255,255,255,0.24);
+}
+
+.header {
+  padding: 1.35rem 0 1.25rem !important;
+  background:
+    linear-gradient(180deg, var(--facile-brown-light), var(--facile-brown) 52%, var(--facile-brown-dark)) !important;
+  border-bottom: 4px solid var(--facile-window-dark) !important;
+}
+
+.header .container.logo-nav-container {
+  width: var(--facile-header-shell-width) !important;
+  max-width: var(--facile-header-shell-max) !important;
+  min-height: 96px !important;
+  margin: 0 auto !important;
+  padding: clamp(0.9rem, 2vw, 1.6rem) clamp(1rem, 3vw, 2.4rem) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
+  gap: clamp(1rem, 2.4vw, 2.5rem) !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.08)),
+    var(--facile-header-shell-bg) !important;
+  border: 1px solid var(--facile-header-shell-border) !important;
+  border-radius: 28px !important;
+  box-shadow: var(--facile-header-shell-shadow) !important;
+  overflow: visible !important;
+}
+
+.header .logo {
+  flex: 0 1 auto !important;
+  min-width: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  margin: 0 !important;
+}
+
+.header .logo img {
+  width: auto !important;
+  height: auto !important;
+  max-width: clamp(210px, 30vw, 360px) !important;
+  max-height: 92px !important;
+  object-fit: contain !important;
+}
+
+.header .navigation {
+  flex: 1 1 auto !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+.header .navigation ul {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+}
+
+.header .navigation ul li a {
+  margin: 0 !important;
+}
+
+/* Móvil y vista con hamburguesa: logo izquierda, botón derecha y desplegable debajo. */
+@media only screen and (max-width: 767px) {
+  :root {
+    --facile-header-shell-width: min(calc(100% - 28px), 720px);
+  }
+
+  .header {
+    padding: 0.9rem 0 0.85rem !important;
+  }
+
+  .header .container.logo-nav-container {
+    min-height: 88px !important;
+    padding: 0.85rem 1rem !important;
+    border-radius: 24px !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+
+  .header .logo {
+    flex: 1 1 auto !important;
+    max-width: calc(100% - 78px) !important;
+  }
+
+  .header .logo img {
+    width: auto !important;
+    max-width: min(100%, 265px) !important;
+    max-height: 68px !important;
+  }
+
+  .menu-icon {
+    flex: 0 0 auto !important;
+    display: grid !important;
+    place-items: center !important;
+    width: 58px !important;
+    height: 58px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 16px !important;
+    background:
+      linear-gradient(135deg, rgba(255,255,255,0.34), rgba(238,232,220,0.78)) !important;
+    border-top: 2px solid rgba(255,255,255,0.92) !important;
+    border-left: 2px solid rgba(255,255,255,0.92) !important;
+    border-right: 3px solid rgba(43,29,19,0.72) !important;
+    border-bottom: 3px solid rgba(43,29,19,0.72) !important;
+    box-shadow: 0 8px 18px rgba(43,29,19,0.24) !important;
+  }
+
+  .menu-icon img {
+    width: 38px !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  .header .navigation {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    margin-top: 0.8rem !important;
+  }
+
+  .header .navigation ul {
+    display: none !important;
+    width: 100% !important;
+    padding: 0.55rem !important;
+    margin: 0 !important;
+    border-radius: 18px !important;
+    background: rgba(246,241,232,0.96) !important;
+    border-top: 2px solid var(--facile-window-shadow) !important;
+    border-left: 2px solid var(--facile-window-shadow) !important;
+    border-right: 2px solid var(--facile-window-light) !important;
+    border-bottom: 2px solid var(--facile-window-light) !important;
+  }
+
+  .header .navigation ul.show {
+    display: grid !important;
+    gap: 0.35rem !important;
+  }
+
+  .header .navigation ul li,
+  .header .navigation ul li a {
+    width: 100% !important;
+  }
+
+  .main {
+    padding-top: 8.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header .logo img {
+    max-width: min(100%, 220px) !important;
+  }
+
+  .menu-icon {
+    width: 54px !important;
+    height: 54px !important;
+  }
+
+  .menu-icon img {
+    width: 34px !important;
+  }
+}
