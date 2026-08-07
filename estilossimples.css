@@ -1147,3 +1147,278 @@ body{background-image:var(--custom-background), url(https://raw.githubuserconten
 .facile-radio-logo,.facile-radio-row-logo{width:42px!important;height:42px!important;display:grid!important;place-items:center!important;overflow:hidden!important;background:#f6f1e8!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:2px solid #8b8172!important;border-bottom:2px solid #8b8172!important}.facile-radio-logo img,.facile-radio-row-logo img{width:100%!important;height:100%!important;object-fit:cover!important}
 .facile-radio-row,.facile-radio-loading-row{display:grid!important;grid-template-columns:34px minmax(0,1fr)!important;gap:.5rem!important;align-items:center!important;width:100%!important;padding:.45rem!important;background:#f6f1e8!important;color:var(--facile-text)!important;border-top:2px solid #fff!important;border-left:2px solid #fff!important;border-right:2px solid #8b8172!important;border-bottom:2px solid #8b8172!important;text-align:left!important}.facile-radio-row-text strong,.facile-radio-row-text em,.facile-radio-now-text strong,.facile-radio-now-text span{display:block!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}.facile-radio-volume-range{width:100%!important;accent-color:var(--facile-brown-mid)!important;}
 @media only screen and (max-width:767px){body{background-attachment:scroll,scroll!important}.facile-classic-widgets{width:92%}.widgets-bar{padding:.55rem}.facile-search-form{grid-template-columns:42px minmax(0,1fr) 76px}#facile-news-widget .facile-news-card{display:grid!important;grid-template-columns:1fr!important}#facile-news-widget .facile-news-media{min-height:120px!important}.theme-panel,.facile-radio-widget{right:18px!important}.theme-menu,.facile-radio-panel{width:min(330px,calc(100vw - 84px))!important}.facile-radio-controls{grid-template-columns:38px 38px 38px 38px minmax(0,1fr)!important}}
+
+
+/* =========================================================
+   FACILE CLASICO - PULIDO WIDGETS, TEMAS Y RADIO V2
+   Baja el contenido, redondea botones flotantes y arregla apertura de Temas.
+========================================================= */
+:root {
+  --facile-header-height-desktop: 136px;
+  --facile-header-height-mobile: 126px;
+}
+
+.main {
+  padding-top: calc(var(--facile-header-height-desktop) + 46px) !important;
+}
+
+.facile-classic-widgets {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.8rem !important;
+}
+
+.main > .container {
+  margin-top: 1.3rem !important;
+}
+
+#widgets-container {
+  margin-top: 0.2rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.widgets-bar {
+  padding: 0.82rem !important;
+  gap: 0.72rem !important;
+}
+
+#facile-news-widget.facile-news-shell,
+#weather-widget.weather-widget,
+.widget-box.ticker-widget {
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Botones flotantes: mas abajo, redondeados y con bisel clasico. */
+.theme-panel,
+.facile-radio-widget {
+  right: 22px !important;
+  width: 54px !important;
+  height: 54px !important;
+  z-index: 2147482100 !important;
+}
+
+.theme-panel {
+  bottom: 12px !important;
+}
+
+.facile-radio-widget {
+  bottom: 74px !important;
+}
+
+.theme-toggle-btn,
+.facile-radio-button {
+  width: 54px !important;
+  height: 54px !important;
+  min-width: 54px !important;
+  min-height: 54px !important;
+  border-radius: 18px !important;
+  display: grid !important;
+  place-items: center !important;
+  font-size: 1.25rem !important;
+  background: linear-gradient(180deg, #fffaf0 0%, #eee8dc 52%, #d1c6b5 100%) !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 4px solid #4e3a2b !important;
+  border-bottom: 4px solid #4e3a2b !important;
+  box-shadow: 3px 3px 0 rgba(43,29,19,0.38) !important;
+  line-height: 1 !important;
+}
+
+.theme-toggle-btn:hover,
+.facile-radio-button:hover,
+.theme-toggle-btn:focus-visible,
+.facile-radio-button:focus-visible {
+  background: linear-gradient(180deg, #ffffff 0%, #f3ecdf 50%, #d8ccb8 100%) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 3px !important;
+}
+
+#theme-panel.facile-theme-menu-open .theme-toggle-btn,
+.facile-radio-widget.is-open .facile-radio-button {
+  transform: translate(2px, 2px) !important;
+  background: linear-gradient(180deg, #d1c6b5 0%, #eee8dc 62%, #fffaf0 100%) !important;
+  border-top: 4px solid #4e3a2b !important;
+  border-left: 4px solid #4e3a2b !important;
+  border-right: 2px solid #ffffff !important;
+  border-bottom: 2px solid #ffffff !important;
+  box-shadow: inset 3px 3px 0 rgba(43,29,19,0.28) !important;
+}
+
+/* Menus flotantes pulidos. */
+.theme-menu,
+.facile-radio-panel {
+  right: calc(100% + 14px) !important;
+  bottom: 0 !important;
+  width: min(390px, calc(100vw - 96px)) !important;
+  max-height: min(680px, calc(100vh - 42px)) !important;
+  padding: 1rem !important;
+  color: var(--facile-text) !important;
+  background: #d6d0c4 !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 4px solid #4e3a2b !important;
+  border-bottom: 4px solid #4e3a2b !important;
+  border-radius: 12px !important;
+  box-shadow: 6px 6px 0 rgba(43,29,19,0.34) !important;
+  overflow: auto !important;
+  scrollbar-color: #8b8172 #eee8dc;
+}
+
+.theme-menu {
+  display: none !important;
+}
+
+#theme-panel.facile-theme-menu-open .theme-menu {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+.facile-radio-widget.is-open .facile-radio-panel {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+.theme-menu h3,
+.facile-radio-header strong {
+  margin: 0 2.7rem 0.85rem 0 !important;
+  padding: 0.58rem 0.72rem !important;
+  display: block !important;
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top: 2px solid rgba(255,255,255,0.75) !important;
+  border-left: 2px solid rgba(255,255,255,0.75) !important;
+  border-right: 2px solid #2b1d13 !important;
+  border-bottom: 2px solid #2b1d13 !important;
+  border-radius: 6px !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+}
+
+.facile-radio-header span,
+.theme-menu h4 {
+  display: block !important;
+  margin: 0.35rem 0 0.75rem !important;
+  color: #2f261d !important;
+  font-size: 0.86rem !important;
+  text-align: center !important;
+  font-weight: 800 !important;
+}
+
+.theme-menu-close,
+.facile-radio-close {
+  top: 8px !important;
+  right: 8px !important;
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 8px !important;
+  font-size: 1.1rem !important;
+}
+
+.theme-buttons {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0.55rem !important;
+}
+
+.theme-btn,
+.theme-menu button,
+.facile-radio-search button,
+.facile-radio-main-control,
+.facile-radio-small-control,
+.facile-radio-home-control,
+.facile-radio-favs-control,
+.facile-radio-volume-toggle {
+  border-radius: 7px !important;
+}
+
+.theme-btn,
+.theme-menu button {
+  min-height: 38px !important;
+}
+
+.theme-bg-row,
+.facile-radio-search,
+.facile-radio-now,
+.facile-radio-controls,
+.facile-radio-volume {
+  gap: 0.55rem !important;
+  margin: 0.75rem 0 !important;
+}
+
+.facile-radio-panel {
+  width: min(420px, calc(100vw - 96px)) !important;
+}
+
+.facile-radio-now {
+  padding: 0.58rem !important;
+  background: #eee8dc !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 2px solid #8b8172 !important;
+  border-bottom: 2px solid #8b8172 !important;
+  border-radius: 8px !important;
+}
+
+.facile-radio-logo,
+.facile-radio-row-logo {
+  border-radius: 7px !important;
+}
+
+.facile-radio-row,
+.facile-radio-loading-row {
+  grid-template-columns: 42px minmax(0, 1fr) !important;
+  min-height: 58px !important;
+  border-radius: 7px !important;
+  padding: 0.55rem !important;
+}
+
+.facile-radio-row:hover,
+.facile-radio-loading-row:hover {
+  background: #fffaf0 !important;
+}
+
+.facile-radio-row-text em,
+.facile-radio-now-text span {
+  color: #564635 !important;
+  font-size: 0.78rem !important;
+}
+
+.facile-radio-controls {
+  grid-template-columns: 42px 42px 42px 42px minmax(0, 1fr) !important;
+}
+
+.facile-radio-volume-value {
+  font-size: 0.82rem !important;
+  font-weight: 800 !important;
+  color: #2f261d !important;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --facile-header-height-mobile: 126px;
+  }
+
+  .main {
+    padding-top: calc(var(--facile-header-height-mobile) + 34px) !important;
+  }
+
+  .facile-classic-widgets {
+    margin-top: 0.85rem !important;
+  }
+
+  .theme-panel,
+  .facile-radio-widget {
+    right: 16px !important;
+  }
+
+  .theme-panel { bottom: 12px !important; }
+  .facile-radio-widget { bottom: 74px !important; }
+
+  .theme-menu,
+  .facile-radio-panel {
+    width: min(350px, calc(100vw - 86px)) !important;
+    max-height: min(600px, calc(100vh - 34px)) !important;
+  }
+}
