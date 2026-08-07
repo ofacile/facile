@@ -1102,3 +1102,92 @@ h3 {
     transition-duration: 0.001ms !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - HEADER CUADRADO + MENU RETRO SECO V4
+   Quita el redondeado del header interior, elimina transiciones suaves
+   y resalta el icono del boton de menu en estilo clasico.
+========================================================= */
+.header .container.logo-nav-container {
+  border-radius: 0 !important;
+  background:
+    linear-gradient(180deg, #d2aa76 0%, #bf894e 52%, #9b612c 100%) !important;
+  border-top: 2px solid #f2d7b1 !important;
+  border-left: 2px solid #e7c89d !important;
+  border-right: 3px solid #54341d !important;
+  border-bottom: 3px solid #54341d !important;
+  box-shadow:
+    4px 4px 0 rgba(43,29,19,0.38),
+    inset 1px 1px 0 rgba(255,255,255,0.22) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Boton menu: respuesta seca, sin animacion suave. */
+.menu-icon,
+.menu-icon img {
+  transition: none !important;
+  animation: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-icon {
+    border-radius: 0 !important;
+    background: #eee8dc !important;
+    border-top: 2px solid #ffffff !important;
+    border-left: 2px solid #ffffff !important;
+    border-right: 4px solid #4e3a2b !important;
+    border-bottom: 4px solid #4e3a2b !important;
+    box-shadow: 3px 3px 0 rgba(43,29,19,0.42) !important;
+    filter: none !important;
+  }
+
+  .menu-icon:hover,
+  .menu-icon:focus-visible {
+    background: #f7f1e6 !important;
+    outline: 2px dotted var(--facile-focus) !important;
+    outline-offset: 3px !important;
+  }
+
+  /* Icono mas visible dentro del boton. */
+  .menu-icon img {
+    width: 40px !important;
+    height: auto !important;
+    padding: 3px !important;
+    background: rgba(255,255,255,0.18) !important;
+    filter:
+      brightness(1.32)
+      contrast(1.38)
+      drop-shadow(1px 1px 0 #4e3a2b)
+      drop-shadow(-1px -1px 0 rgba(255,255,255,0.65)) !important;
+    image-rendering: auto !important;
+    transform: none !important;
+  }
+
+  /* Estado abierto: queda hundido de forma instantanea y retro. */
+  .header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
+    transform: translate(3px, 3px) !important;
+    background: #d1c6b5 !important;
+    border-top: 4px solid #4e3a2b !important;
+    border-left: 4px solid #4e3a2b !important;
+    border-right: 2px solid #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+    box-shadow:
+      inset 3px 3px 0 rgba(43,29,19,0.34),
+      inset -1px -1px 0 rgba(255,255,255,0.65) !important;
+  }
+
+  .header .container.logo-nav-container:has(.navigation ul.show) .menu-icon img {
+    transform: translate(1px, 1px) !important;
+    filter:
+      brightness(1.42)
+      contrast(1.48)
+      drop-shadow(1px 1px 0 #2b1d13)
+      drop-shadow(-1px -1px 0 rgba(255,255,255,0.75)) !important;
+  }
+
+  .header .navigation ul {
+    border-radius: 0 !important;
+  }
+}
