@@ -1886,3 +1886,166 @@ section,
 .theme-btn{position:relative!important;overflow:hidden!important;background:linear-gradient(90deg,var(--theme-chip-a),var(--theme-chip-b))!important;color:#fff!important;text-shadow:1px 1px 0 rgba(0,0,0,.5)!important;padding-left:1.35rem!important;}
 .theme-btn::before{content:"";position:absolute;left:7px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:#fff;border:1px solid rgba(0,0,0,.35);}
 .theme-btn.is-selected::after{content:"✓";position:absolute;right:8px;top:50%;transform:translateY(-50%);color:#fff;font-weight:900;}
+
+
+/* =========================================================
+   FACILE CLASICO - TEMAS.JS DEDICADO V1
+   Reglas mínimas para que el nuevo temas.js no dependa del sistema moderno.
+========================================================= */
+body {
+  background-image: var(--custom-background), url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg) !important;
+  background-size: cover, cover !important;
+  background-position: center, center !important;
+  background-attachment: fixed, fixed !important;
+}
+
+#theme-panel.classic-theme-panel {
+  position: fixed !important;
+  right: 22px !important;
+  bottom: 12px !important;
+  z-index: 2147482200 !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
+#theme-toggle.theme-toggle-btn {
+  width: 56px !important;
+  height: 56px !important;
+  min-width: 56px !important;
+  min-height: 56px !important;
+  border-radius: 18px !important;
+  display: grid !important;
+  place-items: center !important;
+  font-size: 1.28rem !important;
+  background: linear-gradient(180deg, #fffaf0 0%, var(--facile-window-soft) 52%, #d1c6b5 100%) !important;
+  color: #1e1308 !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 4px solid var(--facile-window-dark) !important;
+  border-bottom: 4px solid var(--facile-window-dark) !important;
+  box-shadow: 3px 3px 0 rgba(43,29,19,0.42) !important;
+  cursor: pointer !important;
+  transition: none !important;
+}
+
+#theme-panel.facile-theme-menu-open #theme-toggle.theme-toggle-btn {
+  transform: translate(2px, 2px) !important;
+  border-top: 4px solid var(--facile-window-dark) !important;
+  border-left: 4px solid var(--facile-window-dark) !important;
+  border-right: 2px solid #ffffff !important;
+  border-bottom: 2px solid #ffffff !important;
+  box-shadow: inset 3px 3px 0 rgba(43,29,19,0.30) !important;
+  background: linear-gradient(180deg, #d1c6b5 0%, var(--facile-window-soft) 62%, #fffaf0 100%) !important;
+}
+
+#theme-menu.theme-menu {
+  position: absolute !important;
+  right: calc(100% + 14px) !important;
+  bottom: 0 !important;
+  width: min(400px, calc(100vw - 98px)) !important;
+  max-height: min(680px, calc(100vh - 42px)) !important;
+  overflow: auto !important;
+  padding: 1rem !important;
+  color: var(--facile-text) !important;
+  background: var(--facile-window) !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 4px solid var(--facile-window-dark) !important;
+  border-bottom: 4px solid var(--facile-window-dark) !important;
+  border-radius: 14px !important;
+  box-shadow: 6px 6px 0 rgba(43,29,19,0.34) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+#theme-panel.facile-theme-menu-open #theme-menu.theme-menu {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+#theme-menu.theme-menu h3 {
+  margin: 0 2.7rem 0.85rem 0 !important;
+  padding: 0.58rem 0.72rem !important;
+  display: block !important;
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top: 2px solid rgba(255,255,255,0.75) !important;
+  border-left: 2px solid rgba(255,255,255,0.75) !important;
+  border-right: 2px solid #2b1d13 !important;
+  border-bottom: 2px solid #2b1d13 !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+  font-size: 1rem !important;
+}
+
+#theme-menu.theme-menu h4 {
+  margin: 0.7rem 0 0.45rem !important;
+  color: #2f261d !important;
+  text-align: center !important;
+  font-size: 0.88rem !important;
+  font-weight: 900 !important;
+}
+
+#theme-menu-close.theme-menu-close {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px !important;
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 8px !important;
+}
+
+#theme-menu .theme-buttons {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0.55rem !important;
+}
+
+#theme-menu .theme-btn,
+#theme-menu > button:not(.theme-menu-close),
+#bg-file-button.theme-bg-file-btn {
+  min-height: 38px !important;
+  border-radius: 8px !important;
+  white-space: normal !important;
+}
+
+#theme-menu .theme-btn.is-active,
+#theme-menu .theme-btn[aria-pressed="true"] {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.24) !important;
+}
+
+#theme-menu .theme-bg-row {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 42px !important;
+  gap: 0.5rem !important;
+  margin: 0.65rem 0 !important;
+}
+
+#bg-url {
+  min-width: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-attachment: scroll, scroll !important;
+  }
+
+  #theme-panel.classic-theme-panel {
+    right: 16px !important;
+    bottom: 12px !important;
+  }
+
+  #theme-menu.theme-menu {
+    width: min(350px, calc(100vw - 86px)) !important;
+    max-height: min(600px, calc(100vh - 34px)) !important;
+  }
+}
