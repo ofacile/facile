@@ -5858,3 +5858,42 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   content: none !important;
   display: none !important;
 }
+/* FACILE BUSCADOR — QUITAR BASE INFERIOR DEL BOTÓN BUSCAR */
+
+.facile-search-submit{
+  /*
+    Eliminamos la sombra inferior que crea la "base" visual.
+    Dejamos solo un brillo interno superior muy suave.
+  */
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.22) !important;
+
+  /*
+    Evita que el recorte del propio botón marque una línea inferior fea.
+  */
+  overflow: visible !important;
+
+  /*
+    Mantiene el botón limpio y con forma estable.
+  */
+  border: 0 !important;
+  border-radius: 15px !important;
+}
+
+.facile-search-submit:hover,
+.facile-search-submit:focus-visible{
+  /*
+    En hover también quitamos la sombra inferior.
+    Conserva el brillo mediante filter, pero sin crear "suela".
+  */
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.24) !important;
+}
+
+.facile-search-submit:active{
+  /*
+    Al pulsar, tampoco debe aparecer base inferior.
+  */
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.16) !important;
+}
