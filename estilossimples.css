@@ -3057,3 +3057,328 @@ body {
     animation: none !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - RADIO LIMPIA + BOTONES MAS PEQUENOS V9
+   Ajuste posterior a captura: radio inteligible, submenú amplio,
+   filas sin solape y botones flotantes/interiores más discretos.
+========================================================= */
+:root {
+  --facile-float-btn-size: 44px;
+  --facile-float-btn-gap: 8px;
+  --facile-radio-panel-width: min(460px, calc(100vw - 112px));
+  --facile-theme-panel-width: min(340px, calc(100vw - 112px));
+  --facile-radio-control-h: 26px;
+}
+
+/* Botones flotantes algo más pequeños, manteniendo alineación con FacileChat. */
+#theme-panel.classic-theme-panel,
+.theme-panel,
+.facile-radio-widget {
+  width: var(--facile-float-btn-size) !important;
+  height: var(--facile-float-btn-size) !important;
+}
+
+#theme-toggle.theme-toggle-btn,
+.theme-toggle-btn,
+.facile-radio-button {
+  width: var(--facile-float-btn-size) !important;
+  height: var(--facile-float-btn-size) !important;
+  min-width: var(--facile-float-btn-size) !important;
+  min-height: var(--facile-float-btn-size) !important;
+  border-radius: 14px !important;
+  font-size: 1rem !important;
+}
+
+.facile-radio-widget {
+  bottom: calc(12px + var(--facile-float-btn-size) + var(--facile-float-btn-gap)) !important;
+}
+
+/* Panel de Temas: compacto y sin scroll interno. */
+#theme-menu.theme-menu,
+.theme-menu {
+  width: var(--facile-theme-panel-width) !important;
+  max-height: none !important;
+  overflow: visible !important;
+  padding: 7px !important;
+}
+
+#theme-menu .theme-buttons,
+.theme-buttons {
+  gap: 4px !important;
+}
+
+#theme-menu .theme-btn,
+.theme-btn,
+#theme-menu > button:not(.theme-menu-close),
+.theme-menu > button:not(.theme-menu-close) {
+  height: 26px !important;
+  min-height: 26px !important;
+  padding: 2px 6px !important;
+  font-size: 0.68rem !important;
+}
+
+#theme-menu .theme-bg-row,
+.theme-bg-row {
+  grid-template-columns: minmax(0,1fr) 26px !important;
+}
+
+#bg-url,
+#bg-file-button.theme-bg-file-btn,
+.theme-bg-file-btn {
+  height: 26px !important;
+  min-height: 26px !important;
+  font-size: 0.66rem !important;
+}
+
+/* Panel de Radio: ventana más limpia y más ancha para que nada se pise. */
+.facile-radio-panel {
+  width: var(--facile-radio-panel-width) !important;
+  max-height: min(640px, calc(100vh - 86px)) !important;
+  padding: 8px !important;
+  overflow: hidden !important;
+  background: var(--facile-window) !important;
+}
+
+.facile-radio-header strong {
+  height: 28px !important;
+  min-height: 28px !important;
+  margin: 0 32px 6px 0 !important;
+  font-size: 0.78rem !important;
+}
+
+.facile-radio-header span {
+  margin: 0 0 6px !important;
+  height: 24px !important;
+  min-height: 24px !important;
+  padding: 4px 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.facile-radio-search {
+  grid-template-columns: minmax(0, 1fr) 64px !important;
+  gap: 6px !important;
+  margin: 6px 0 !important;
+}
+
+.facile-radio-search input,
+.facile-radio-search button,
+.facile-radio-controls select,
+#facileRadioPreset {
+  height: var(--facile-radio-control-h) !important;
+  min-height: var(--facile-radio-control-h) !important;
+  padding: 2px 6px !important;
+  font-size: 0.68rem !important;
+  line-height: 1 !important;
+}
+
+.facile-radio-search button {
+  padding: 2px 5px !important;
+}
+
+/* Emisora actual: clara, con logo y texto sin solaparse. */
+.facile-radio-now {
+  display: grid !important;
+  grid-template-columns: 38px minmax(0, 1fr) !important;
+  gap: 8px !important;
+  align-items: center !important;
+  min-height: 48px !important;
+  margin: 6px 0 !important;
+  padding: 6px !important;
+  background: #f6f1e8 !important;
+  border-top: 1px solid #ffffff !important;
+  border-left: 1px solid #ffffff !important;
+  border-right: 2px solid var(--facile-window-shadow) !important;
+  border-bottom: 2px solid var(--facile-window-shadow) !important;
+}
+
+.facile-radio-logo,
+.facile-radio-row-logo {
+  width: 38px !important;
+  height: 38px !important;
+  min-width: 38px !important;
+  min-height: 38px !important;
+  display: grid !important;
+  place-items: center !important;
+  overflow: hidden !important;
+}
+
+.facile-radio-logo img,
+.facile-radio-row-logo img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  background: #ffffff !important;
+}
+
+.facile-radio-now-text,
+.facile-radio-row-text {
+  display: grid !important;
+  gap: 2px !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+.facile-radio-now-text strong,
+.facile-radio-row-text strong {
+  font-size: 0.76rem !important;
+  line-height: 1.15 !important;
+  color: var(--facile-text) !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: left !important;
+}
+
+.facile-radio-now-text span,
+.facile-radio-row-text em {
+  font-size: 0.62rem !important;
+  line-height: 1.1 !important;
+  color: var(--facile-muted-text) !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  text-align: left !important;
+  font-style: italic !important;
+}
+
+/* Controles: botones más pequeños y select de emisoras legible. */
+.facile-radio-controls {
+  display: grid !important;
+  grid-template-columns: 26px 26px 26px 26px minmax(160px, 1fr) !important;
+  gap: 5px !important;
+  align-items: center !important;
+  margin: 6px 0 !important;
+}
+
+.facile-radio-main-control,
+.facile-radio-small-control,
+.facile-radio-home-control,
+.facile-radio-favs-control,
+.facile-radio-volume-toggle {
+  width: 26px !important;
+  height: 26px !important;
+  min-width: 26px !important;
+  min-height: 26px !important;
+  padding: 0 !important;
+  font-size: 0.72rem !important;
+  line-height: 1 !important;
+}
+
+#facileRadioPreset,
+.facile-radio-controls select {
+  width: 100% !important;
+  min-width: 0 !important;
+  background-color: #ffffff !important;
+}
+
+/* Volumen más ordenado. */
+.facile-radio-volume {
+  display: grid !important;
+  grid-template-columns: 26px minmax(0,1fr) 38px !important;
+  gap: 5px !important;
+  align-items: center !important;
+  margin: 6px 0 !important;
+}
+
+.facile-radio-volume-range {
+  height: 18px !important;
+  min-width: 0 !important;
+}
+
+.facile-radio-volume-value {
+  font-size: 0.66rem !important;
+  line-height: 1 !important;
+  text-align: right !important;
+}
+
+/* Solo la lista tiene scroll. Filas aireadas, sin texto flotando encima de otras filas. */
+.facile-radio-results {
+  display: grid !important;
+  gap: 5px !important;
+  max-height: min(330px, calc(100vh - 330px)) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  padding: 2px 6px 2px 2px !important;
+  margin-top: 6px !important;
+  background: var(--facile-window) !important;
+  border-top: 1px solid var(--facile-window-shadow) !important;
+  border-left: 1px solid var(--facile-window-shadow) !important;
+  border-right: 1px solid #ffffff !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.facile-radio-row,
+.facile-radio-loading-row {
+  display: grid !important;
+  grid-template-columns: 38px minmax(0, 1fr) !important;
+  gap: 8px !important;
+  align-items: center !important;
+  width: 100% !important;
+  min-height: 52px !important;
+  height: auto !important;
+  padding: 6px !important;
+  text-align: left !important;
+  background: #f6f1e8 !important;
+  color: var(--facile-text) !important;
+  border-top: 1px solid #ffffff !important;
+  border-left: 1px solid #ffffff !important;
+  border-right: 2px solid var(--facile-window-shadow) !important;
+  border-bottom: 2px solid var(--facile-window-shadow) !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+.facile-radio-row:hover,
+.facile-radio-row:focus-visible,
+.facile-radio-loading-row:hover,
+.facile-radio-loading-row:focus-visible {
+  background: var(--facile-button-hover-bg) !important;
+  color: #ffffff !important;
+}
+
+.facile-radio-row:hover strong,
+.facile-radio-row:hover em,
+.facile-radio-row:focus-visible strong,
+.facile-radio-row:focus-visible em,
+.facile-radio-row.is-active strong,
+.facile-radio-row.is-active em {
+  color: #ffffff !important;
+}
+
+.facile-radio-row.is-active {
+  background: var(--facile-button-hover-bg) !important;
+  color: #ffffff !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  transform: translate(1px,1px) !important;
+}
+
+/* Cerrar rojo mantiene prioridad. */
+.facile-radio-close,
+.theme-menu-close,
+#theme-menu-close.theme-menu-close {
+  background: #b91c1c !important;
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --facile-float-btn-size: 42px;
+    --facile-radio-panel-width: min(380px, calc(100vw - 82px));
+    --facile-theme-panel-width: min(320px, calc(100vw - 82px));
+  }
+
+  .facile-radio-controls {
+    grid-template-columns: 26px 26px 26px 26px minmax(120px, 1fr) !important;
+  }
+
+  .facile-radio-results {
+    max-height: min(300px, calc(100vh - 324px)) !important;
+  }
+}
