@@ -1784,3 +1784,175 @@ h3 {
   #facile-news-widget .facile-news-dot { width: 9px !important; height: 9px !important; }
   #facile-news-widget .facile-news-dot.active { width: 16px !important; }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - TEMAS DIFERENCIADOS Y MENU ICONICO V4
+   Predeterminado marron suave, header/footer marron Facile,
+   botones flotantes discretos e icono de menu mas visible.
+========================================================= */
+:root {
+  --primary-color: #a77745;
+  --secondary-color: #6f431f;
+  --background-gradient: linear-gradient(180deg, #dcc09a 0%, #c7a37a 42%, #8a552b 100%);
+  --header-bg: linear-gradient(180deg, #d9ad75 0%, #af783a 48%, #6f431f 100%);
+  --glass-bg: rgba(214,208,196,0.96);
+  --facile-window: #d6d0c4;
+  --facile-window-soft: #f6f1e8;
+  --classic-float-size: 36px;
+}
+
+body {
+  background-color: #9f6632 !important;
+  background-image: var(--custom-background), var(--background-gradient), url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg) !important;
+  background-size: cover, cover, cover !important;
+  background-position: center, center, center !important;
+  background-blend-mode: normal, soft-light, normal !important;
+}
+
+.header,
+.footer {
+  background: var(--header-bg) !important;
+}
+
+.header .container.logo-nav-container {
+  background: var(--header-bg) !important;
+  border-top-color: rgba(255,255,255,0.70) !important;
+  border-left-color: rgba(255,255,255,0.55) !important;
+  border-right-color: rgba(73,45,24,0.90) !important;
+  border-bottom-color: rgba(73,45,24,0.95) !important;
+}
+
+#facile-news-widget.facile-news-shell,
+#weather-widget.weather-widget,
+.widget-box.ticker-widget,
+.widgets-bar,
+.main > .container {
+  background: var(--facile-window) !important;
+}
+
+#facile-news-widget .facile-news-card,
+section,
+.facile-radio-now,
+.theme-menu h4 {
+  background: var(--facile-window-soft) !important;
+}
+
+#facile-news-widget .facile-news-title,
+#facile-news-widget .facile-news-headline,
+#weather-content > h3,
+.theme-menu h3,
+.facile-radio-header strong,
+h3 {
+  background: linear-gradient(90deg, var(--secondary-color), var(--primary-color)) !important;
+}
+
+/* El icono de menu se hace notar sin romper el estilo clasico. */
+.menu-icon {
+  position: relative !important;
+  isolation: isolate !important;
+  border-radius: 12px !important;
+  background: linear-gradient(180deg, #fffaf0, #e6d9c4) !important;
+  box-shadow: 3px 3px 0 rgba(43,29,19,0.42), inset 1px 1px 0 rgba(255,255,255,0.75) !important;
+}
+
+.menu-icon::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  z-index: -1;
+  border-radius: 16px;
+  border: 2px dotted var(--facile-focus);
+  background: rgba(255,243,166,0.10);
+  opacity: 0.95;
+  pointer-events: none;
+}
+
+.menu-icon img {
+  filter: brightness(1.35) contrast(1.45) drop-shadow(1px 1px 0 #2b1d13) drop-shadow(-1px -1px 0 rgba(255,255,255,0.75)) !important;
+  transform: scale(1.08) !important;
+}
+
+.menu-icon:hover img,
+.menu-icon:focus-visible img {
+  transform: scale(1.14) !important;
+}
+
+.header .container.logo-nav-container:has(.navigation ul.show) .menu-icon img {
+  transform: translate(1px, 1px) scale(1.08) !important;
+}
+
+/* Botones flotantes aun mas discretos, como accesos rapidos. */
+.theme-panel,
+.facile-radio-widget {
+  width: var(--classic-float-size) !important;
+  height: var(--classic-float-size) !important;
+  right: 16px !important;
+}
+
+.theme-panel { bottom: 10px !important; }
+.facile-radio-widget { bottom: 52px !important; }
+
+.theme-toggle-btn,
+.facile-radio-button {
+  width: var(--classic-float-size) !important;
+  height: var(--classic-float-size) !important;
+  min-width: var(--classic-float-size) !important;
+  min-height: var(--classic-float-size) !important;
+  border-radius: 12px !important;
+  font-size: 0.88rem !important;
+}
+
+.theme-toggle-btn::after,
+.facile-radio-button::after {
+  inset: 4px !important;
+  border-radius: 8px !important;
+}
+
+/* Tarjetas de tema visualmente diferentes. */
+.theme-btn[data-theme="sol"] { --theme-chip-a:#d9ad75; --theme-chip-b:#6f431f; }
+.theme-btn[data-theme="luna"] { --theme-chip-a:#44d17a; --theme-chip-b:#06140b; }
+.theme-btn[data-theme="forest"] { --theme-chip-a:#6eb4ff; --theme-chip-b:#0d274a; }
+.theme-btn[data-theme="sunset"] { --theme-chip-a:#ff8ac8; --theme-chip-b:#2d1a55; }
+.theme-btn[data-theme="ocean"] { --theme-chip-a:#00aaaa; --theme-chip-b:#000000; }
+.theme-btn[data-theme="aurora"] { --theme-chip-a:#ffb000; --theme-chip-b:#4b0710; }
+
+.theme-btn {
+  position: relative !important;
+  overflow: hidden !important;
+  background: linear-gradient(90deg, var(--theme-chip-a, #eee8dc), var(--theme-chip-b, #8b8172)) !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.45) !important;
+}
+
+.theme-btn::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.35);
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,0.18);
+}
+
+.theme-btn.is-selected::after {
+  content: "✓";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 767px) {
+  :root { --classic-float-size: 34px; }
+  .theme-panel,
+  .facile-radio-widget { right: 12px !important; }
+  .theme-panel { bottom: 9px !important; }
+  .facile-radio-widget { bottom: 49px !important; }
+}
