@@ -2534,114 +2534,85 @@ window.facileStartWeather = function(){
 <script id="facile-classic-theme-engine">
 (function(){
   "use strict";
-  const CLASSIC_THEME_VERSION = "classic-v3-brown-default";
+  const CLASSIC_THEME_VERSION = "classic-v4-hard-override";
+  const THEME_KEY = "selectedTheme";
+  const CUSTOM_BG_KEY = "customBackground";
+  const VERSION_KEY = "facileClassicThemeVersion";
   const CLASSIC_THEMES = {
     sol: {
       name: "Clásico 98",
       colors: {
-        primary: "#a77745",
-        secondary: "#6f431f",
-        background: "linear-gradient(180deg, #dcc09a 0%, #c7a37a 42%, #8a552b 100%)",
-        headerBg: "linear-gradient(180deg, #d9ad75 0%, #af783a 48%, #6f431f 100%)",
-        textColor: "#ffffff",
-        textDark: "#16110c",
-        glass: "rgba(214,208,196,0.96)",
-        window: "#d6d0c4",
-        windowSoft: "#f6f1e8",
-        link: "#003399"
+        primary: "#a77745", secondary: "#6f431f",
+        background: "linear-gradient(180deg, #ead6bc 0%, #c9aa83 45%, #8a552b 100%)",
+        headerBg: "linear-gradient(180deg, #d9ad75 0%, #af783a 52%, #6f431f 100%)",
+        textColor: "#ffffff", textDark: "#16110c", glass: "rgba(214,208,196,0.96)",
+        window: "#d6d0c4", windowSoft: "#f6f1e8", link: "#003399", desktop: "#9f6632"
       }
     },
     luna: {
       name: "Fósforo CRT",
       colors: {
-        primary: "#1f8b4c",
-        secondary: "#003b22",
-        background: "linear-gradient(180deg, #08140d 0%, #10321f 48%, #1f8b4c 100%)",
-        headerBg: "linear-gradient(180deg, #0b2a19 0%, #114322 52%, #06140b 100%)",
-        textColor: "#d6ffe3",
-        textDark: "#102015",
-        glass: "rgba(190,208,181,0.96)",
-        window: "#c9d0bd",
-        windowSoft: "#eef6e4",
-        link: "#00552d"
+        primary: "#1f8b4c", secondary: "#003b22",
+        background: "linear-gradient(180deg, #06140b 0%, #11351f 50%, #1f8b4c 100%)",
+        headerBg: "linear-gradient(180deg, #0c331d 0%, #134d29 54%, #06140b 100%)",
+        textColor: "#d6ffe3", textDark: "#102015", glass: "rgba(190,208,181,0.96)",
+        window: "#c9d0bd", windowSoft: "#eef6e4", link: "#00552d", desktop: "#102b1a"
       }
     },
     forest: {
       name: "Windows NT",
       colors: {
-        primary: "#245a9d",
-        secondary: "#00a6a6",
-        background: "linear-gradient(180deg, #004e7c 0%, #008080 55%, #2e6f73 100%)",
-        headerBg: "linear-gradient(180deg, #6eb4ff 0%, #245a9d 50%, #0d274a 100%)",
-        textColor: "#ffffff",
-        textDark: "#10151c",
-        glass: "rgba(202,211,216,0.96)",
-        window: "#cfd7dc",
-        windowSoft: "#edf4f7",
-        link: "#003399"
+        primary: "#245a9d", secondary: "#008080",
+        background: "linear-gradient(180deg, #0d274a 0%, #245a9d 47%, #008080 100%)",
+        headerBg: "linear-gradient(180deg, #6eb4ff 0%, #245a9d 52%, #0d274a 100%)",
+        textColor: "#ffffff", textDark: "#10151c", glass: "rgba(202,211,216,0.96)",
+        window: "#cfd7dc", windowSoft: "#edf4f7", link: "#003399", desktop: "#0b4f9c"
       }
     },
     sunset: {
       name: "Y2K Morado",
       colors: {
-        primary: "#7b4bd1",
-        secondary: "#ff8ac8",
-        background: "linear-gradient(180deg, #2d1a55 0%, #7b4bd1 48%, #ff8ac8 100%)",
+        primary: "#7b4bd1", secondary: "#ff4fb0",
+        background: "linear-gradient(180deg, #251049 0%, #7b4bd1 48%, #ff8ac8 100%)",
         headerBg: "linear-gradient(180deg, #cbb9ff 0%, #7b4bd1 52%, #2d1a55 100%)",
-        textColor: "#fff7ff",
-        textDark: "#21142d",
-        glass: "rgba(219,205,231,0.96)",
-        window: "#d8cde3",
-        windowSoft: "#f7efff",
-        link: "#4b1fa8"
+        textColor: "#fff7ff", textDark: "#21142d", glass: "rgba(219,205,231,0.96)",
+        window: "#d8cde3", windowSoft: "#f7efff", link: "#4b1fa8", desktop: "#3a206f"
       }
     },
     ocean: {
       name: "MS-DOS",
       colors: {
-        primary: "#111111",
-        secondary: "#00aaaa",
-        background: "linear-gradient(180deg, #050505 0%, #111111 50%, #003b3b 100%)",
+        primary: "#111111", secondary: "#00aaaa",
+        background: "linear-gradient(180deg, #000000 0%, #111111 55%, #003b3b 100%)",
         headerBg: "linear-gradient(180deg, #3c3c3c 0%, #111111 55%, #000000 100%)",
-        textColor: "#eaffff",
-        textDark: "#0a0a0a",
-        glass: "rgba(198,198,188,0.97)",
-        window: "#c6c6bc",
-        windowSoft: "#f1f1e8",
-        link: "#006666"
+        textColor: "#eaffff", textDark: "#0a0a0a", glass: "rgba(198,198,188,0.97)",
+        window: "#c6c6bc", windowSoft: "#f1f1e8", link: "#006666", desktop: "#000000"
       }
     },
     aurora: {
       name: "Arcade Rojo",
       colors: {
-        primary: "#b11226",
-        secondary: "#ffb000",
+        primary: "#b11226", secondary: "#ffb000",
         background: "linear-gradient(180deg, #2b0710 0%, #b11226 52%, #ffb000 100%)",
         headerBg: "linear-gradient(180deg, #ffcc88 0%, #b11226 50%, #4b0710 100%)",
-        textColor: "#fff8e8",
-        textDark: "#2a0707",
-        glass: "rgba(229,203,177,0.96)",
-        window: "#dfc9b5",
-        windowSoft: "#fff1df",
-        link: "#8c0017"
+        textColor: "#fff8e8", textDark: "#2a0707", glass: "rgba(229,203,177,0.96)",
+        window: "#dfc9b5", windowSoft: "#fff1df", link: "#8c0017", desktop: "#4b0710"
       }
     }
   };
-  const THEME_KEY = "selectedTheme";
-  const CUSTOM_BG_KEY = "customBackground";
-  const VERSION_KEY = "facileClassicThemeVersion";
   function cssUrl(value){ return "url(\"" + String(value).replace(/\/g,"\\").replace(/"/g,"\\"") + "\")"; }
   function syncButtons(themeName){
     document.querySelectorAll(".theme-btn").forEach(function(button){
       button.classList.toggle("is-selected", button.dataset.theme === themeName);
       const theme = CLASSIC_THEMES[button.dataset.theme];
-      if(theme){ button.title = theme.name; }
+      if(theme) button.title = theme.name;
     });
   }
   function applyClassicTheme(themeName, backgroundUrl){
     const key = CLASSIC_THEMES[themeName] ? themeName : "sol";
     const theme = CLASSIC_THEMES[key];
     const root = document.documentElement;
+    root.setAttribute("data-classic-theme", key);
     root.style.setProperty("--primary-color", theme.colors.primary);
     root.style.setProperty("--secondary-color", theme.colors.secondary);
     root.style.setProperty("--background-gradient", theme.colors.background);
@@ -2652,6 +2623,7 @@ window.facileStartWeather = function(){
     root.style.setProperty("--facile-window", theme.colors.window);
     root.style.setProperty("--facile-window-soft", theme.colors.windowSoft);
     root.style.setProperty("--facile-link", theme.colors.link);
+    root.style.setProperty("--facile-desktop", theme.colors.desktop);
     try { localStorage.setItem(THEME_KEY, key); } catch(_) {}
     syncButtons(key);
     if (typeof backgroundUrl !== "undefined") {
@@ -2669,21 +2641,28 @@ window.facileStartWeather = function(){
       } catch(_) { root.style.setProperty("--custom-background", "none"); }
     }
   }
-  window.facileClassicThemes = CLASSIC_THEMES;
-  window.applyTheme = applyClassicTheme;
-  document.addEventListener("DOMContentLoaded", function(){
-    let saved = "sol";
+  function installClassicThemeEngine(forceDefault){
+    window.facileClassicThemes = CLASSIC_THEMES;
+    window.applyTheme = applyClassicTheme;
+    let selected = "sol";
     try {
-      if (localStorage.getItem(VERSION_KEY) !== CLASSIC_THEME_VERSION) {
+      if (forceDefault || localStorage.getItem(VERSION_KEY) !== CLASSIC_THEME_VERSION) {
         localStorage.setItem(VERSION_KEY, CLASSIC_THEME_VERSION);
         localStorage.setItem(THEME_KEY, "sol");
-        saved = "sol";
+        selected = "sol";
       } else {
-        saved = localStorage.getItem(THEME_KEY) || "sol";
+        selected = localStorage.getItem(THEME_KEY) || "sol";
       }
     } catch(_) {}
-    applyClassicTheme(saved);
+    applyClassicTheme(selected);
+  }
+  installClassicThemeEngine(false);
+  document.addEventListener("DOMContentLoaded", function(){
+    // temas.js is deferred and also listens to DOMContentLoaded. This late pass wins over it.
+    window.setTimeout(function(){ installClassicThemeEngine(false); }, 0);
+    window.setTimeout(function(){ installClassicThemeEngine(false); }, 50);
   });
+  window.addEventListener("load", function(){ installClassicThemeEngine(false); }, { once:true });
 })();
 </script>
 
