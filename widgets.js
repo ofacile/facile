@@ -108,12 +108,54 @@
     fragment.appendChild(clockWidget);
 
     const SEARCH_ENGINES = {
-      google: { label: "Google", action: "https://www.google.com/search", param: "q", placeholder: "Buscar en Google...", badge: "G" },
-      bing: { label: "Bing", action: "https://www.bing.com/search", param: "q", placeholder: "Buscar en Bing...", badge: "B" },
-      startpage: { label: "Startpage", action: "https://www.startpage.com/sp/search", param: "query", placeholder: "Buscar en Startpage...", badge: "S" },
-      duckduckgo: { label: "DuckDuckGo", action: "https://duckduckgo.com/", param: "q", placeholder: "Buscar en DuckDuckGo...", badge: "D" },
-      brave: { label: "Brave Search", action: "https://search.brave.com/search", param: "q", placeholder: "Buscar en Brave Search...", badge: "B" },
-      yahoo: { label: "Yahoo", action: "https://search.yahoo.com/search", param: "p", placeholder: "Buscar en Yahoo...", badge: "Y" }
+      google: {
+        label: "Google",
+        action: "https://www.google.com/search",
+        param: "q",
+        placeholder: "Buscar en Google...",
+        badge: "G",
+        icon: "https://play-lh.googleusercontent.com/xqk8hd6dMyffxE6iQa59cUt75EA-0YDvjnJlxH4z8W63-e5KwaWXbrNob6Q-OoH5SSDa78Y0I0YA3BB0zDVnB8w=w240-h480-rw"
+      },
+      bing: {
+        label: "Bing",
+        action: "https://www.bing.com/search",
+        param: "q",
+        placeholder: "Buscar en Bing...",
+        badge: "B",
+        icon: "https://play-lh.googleusercontent.com/QRIZ4daMDMSMar3I4RRdR4WeZrBGZ6GhKCi67iWJIIggplWjckmizIvOejreclDC4w"
+      },
+      startpage: {
+        label: "Startpage",
+        action: "https://www.startpage.com/sp/search",
+        param: "query",
+        placeholder: "Buscar en Startpage...",
+        badge: "S",
+        icon: "https://www.startpage.com/startpageblog/wp-content/uploads/2021/05/linkedin-profile-image.png"
+      },
+      duckduckgo: {
+        label: "DuckDuckGo",
+        action: "https://duckduckgo.com/",
+        param: "q",
+        placeholder: "Buscar en DuckDuckGo...",
+        badge: "D",
+        icon: "https://play-lh.googleusercontent.com/NW2ASwJ4qtxfThhVIpm4641sR4o-yGv80yqaJnOnpC4lEmdxEcNTFcF6-TlZYtmdaA=w240-h480"
+      },
+      brave: {
+        label: "Brave Search",
+        action: "https://search.brave.com/search",
+        param: "q",
+        placeholder: "Buscar en Brave Search...",
+        badge: "B",
+        icon: "https://play-lh.googleusercontent.com/I1foi2Irrv7tW9ee9kgP0wfnMzaVb6y17muvpKsFcUrKYsDlmCyWuTRh5m93KJZ24dY"
+      },
+      yahoo: {
+        label: "Yahoo",
+        action: "https://search.yahoo.com/search",
+        param: "p",
+        placeholder: "Buscar en Yahoo...",
+        badge: "Y",
+        icon: "https://play-lh.googleusercontent.com/xWZvkiGh8swIP2th1KT_Nf5skmDoC0a8v2oE6kJq-zP5FVm1Gr643ITaEwcdR3KLZqc"
+      }
     };
 
     const searchWidget = document.createElement("div");
@@ -200,7 +242,8 @@
         brave: "brave",
         yahoo: "yahoo"
       };
-      return iconCache[normalize(aliases[engineKey] || engineKey)] || "";
+      const engine = SEARCH_ENGINES[engineKey] || SEARCH_ENGINES.google;
+      return iconCache[normalize(aliases[engineKey] || engineKey)] || engine.icon || "";
     }
 
     function setBadge(engineKey, allowIcon){
@@ -309,7 +352,7 @@
     document.addEventListener("visibilitychange", resumeTimers, { passive: true });
 
     select.addEventListener("change", function(){
-      syncSearchEngine(select.value, { useIcon: !!iconCache });
+      syncSearchEngine(select.value, { useIcon: true });
       if (!isMobile()) input.focus();
     });
 
