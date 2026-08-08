@@ -6311,3 +6311,9 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.20) !important;
   }
 }
+/* FACILE MENU MOVIL — SUBIR CONTENIDO DEL PANEL */
+@media only screen and (max-width: 767px){
+  .mobile-menu-native > ul.mobile-menu-list{
+    top: calc(100% + 8px) !important;
+  }
+}
