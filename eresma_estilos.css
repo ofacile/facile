@@ -6190,3 +6190,83 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     max-height: 20px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE NORMAL - BADGE BUSCADOR ALINEADO V4
+   Centra el rectangulo interior y el icono del buscador de forma optica.
+   Corrige el desajuste del badge sin tocar el layout general del buscador.
+========================================================= */
+.facile-search-engine-wrap {
+  position: relative !important;
+  display: grid !important;
+  place-items: center !important;
+  overflow: visible !important;
+  padding: 2px !important;
+  box-sizing: border-box !important;
+}
+
+.facile-search-engine-badge {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+  display: grid !important;
+  place-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 9px !important;
+  overflow: visible !important;
+  transform: translate(calc(-50% + 1px), calc(-50% + 0.5px)) !important;
+  transform-origin: center center !important;
+}
+
+.facile-search-engine-badge img {
+  width: 21px !important;
+  height: 21px !important;
+  max-width: 21px !important;
+  max-height: 21px !important;
+  display: block !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  transform-origin: center center !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge {
+  transform: translate(calc(-50% + 1px), calc(-50% + 0.5px)) !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge {
+  transform: translate(calc(-50% + 1px), calc(-50% + 1.5px)) !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge img,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge img,
+.facile-search-engine-wrap:active .facile-search-engine-badge img,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge img {
+  transform: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .facile-search-engine-badge {
+    width: 27px !important;
+    height: 27px !important;
+    min-width: 27px !important;
+    min-height: 27px !important;
+    transform: translate(calc(-50% + 1px), calc(-50% + 0.5px)) !important;
+  }
+
+  .facile-search-engine-badge img {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+  }
+}
