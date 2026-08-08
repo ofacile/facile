@@ -5335,3 +5335,24 @@ body[data-classic-theme="facile-dos"] {
     max-height: 22px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - MICROAJUSTE CENTRADO ICONO BUSCADOR V23
+   Ajuste optico minimo: el icono queda 1px a la derecha y 0.5px abajo
+   dentro del badge para compensar la sombra/borde y evitar sensacion de descentrado.
+========================================================= */
+.facile-search-engine-badge img {
+  transform: translate(1px, 0.5px) !important;
+  transform-origin: center center !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge img,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge img {
+  transform: translate(1px, 0.5px) !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge img,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge img {
+  transform: translate(1px, 0.5px) !important;
+}
