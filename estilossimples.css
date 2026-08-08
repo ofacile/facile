@@ -5108,3 +5108,86 @@ body[data-classic-theme="facile-dos"] {
     min-width: 0 !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - BUSCADOR CON ICONOS REALES V21
+   Sustituye la letra G por iconos reales de Google/Bing/Startpage/
+   DuckDuckGo/Brave/Yahoo, usando los enlaces de index.html.
+========================================================= */
+.facile-search-engine-wrap {
+  width: 44px !important;
+  height: 40px !important;
+  min-width: 44px !important;
+  display: grid !important;
+  place-items: center !important;
+  overflow: hidden !important;
+  background: var(--facile-window-soft) !important;
+  border-top: 2px solid var(--facile-window-light) !important;
+  border-left: 2px solid var(--facile-window-light) !important;
+  border-right: 3px solid var(--facile-window-dark) !important;
+  border-bottom: 3px solid var(--facile-window-dark) !important;
+  border-radius: 8px !important;
+  box-shadow: 2px 2px 0 rgba(43,29,19,0.22), inset 1px 1px 0 rgba(255,255,255,0.35) !important;
+}
+
+.facile-search-engine-badge {
+  width: 32px !important;
+  height: 32px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 7px !important;
+  background: #ffffff !important;
+  color: var(--facile-text) !important;
+  border-top: 1px solid #ffffff !important;
+  border-left: 1px solid #ffffff !important;
+  border-right: 2px solid var(--facile-window-shadow) !important;
+  border-bottom: 2px solid var(--facile-window-shadow) !important;
+  box-shadow: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.facile-search-engine-badge img {
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 24px !important;
+  max-height: 24px !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+.facile-search-engine {
+  cursor: pointer !important;
+}
+
+.facile-search-engine-wrap:hover,
+.facile-search-engine-wrap:focus-within {
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge {
+  border-right-color: var(--facile-window-dark) !important;
+  border-bottom-color: var(--facile-window-dark) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .facile-search-engine-wrap {
+    width: 42px !important;
+    height: 38px !important;
+    min-width: 42px !important;
+  }
+
+  .facile-search-engine-badge {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .facile-search-engine-badge img {
+    width: 23px !important;
+    height: 23px !important;
+  }
+}
