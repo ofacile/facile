@@ -4317,162 +4317,21 @@ body {
 
 
 /* =========================================================
-   FACILE CLASICO - RADIO LISTA SIN RECORTES V13
-   Correccion clave: las filas son botones, y una regla anterior con
-   #facileRadioPanel button estaba forzando height: 26/28px.
-   Este bloque usa mayor especificidad para que cada emisora pueda mostrar
-   logo + nombre + metadatos completos.
+   FACILE CLASICO - COLUMNA FLOTANTE CENTRADA V15
+   Microajuste: Radio y Temas un poco mas a la izquierda para que
+   el centro visual coincida mejor con FacileChat/OpenWidget.
 ========================================================= */
 :root {
-  --radio-row-final-h: 72px;
-  --radio-row-logo-final: 44px;
-  --radio-row-gap-final: 12px;
+  --facile-classic-floating-nudge-left: 4px;
+  --facile-classic-floating-right: calc(
+    var(--facile-chat-button-right) +
+    ((var(--facile-chat-button-size) - var(--facile-classic-floating-size)) / 2) +
+    var(--facile-classic-floating-nudge-left)
+  );
 }
 
-#facileRadioPanel .facile-radio-results {
-  display: grid !important;
-  gap: 8px !important;
-  max-height: min(430px, calc(100vh - 375px)) !important;
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
-  padding: 8px 11px 8px 8px !important;
-  align-content: start !important;
-}
-
-/* Prioridad sobre #facileRadioPanel button:not(.facile-radio-close). */
-#facileRadioPanel button.facile-radio-row,
-#facileRadioPanel .facile-radio-row {
-  display: grid !important;
-  grid-template-columns: var(--radio-row-logo-final) minmax(0, 1fr) !important;
-  grid-template-rows: auto !important;
-  gap: var(--radio-row-gap-final) !important;
-  align-items: center !important;
-  width: 100% !important;
-  min-width: 0 !important;
-  height: var(--radio-row-final-h) !important;
-  min-height: var(--radio-row-final-h) !important;
-  max-height: none !important;
-  padding: 10px 12px !important;
-  overflow: hidden !important;
-  text-align: left !important;
-  white-space: normal !important;
-  line-height: normal !important;
-  box-sizing: border-box !important;
-  background: #f6f1e8 !important;
-  color: var(--facile-text) !important;
-  border-top: 1px solid #ffffff !important;
-  border-left: 1px solid #ffffff !important;
-  border-right: 2px solid var(--facile-window-shadow) !important;
-  border-bottom: 2px solid var(--facile-window-shadow) !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-#facileRadioPanel button.facile-radio-row .facile-radio-row-logo,
-#facileRadioPanel .facile-radio-row .facile-radio-row-logo {
-  width: var(--radio-row-logo-final) !important;
-  height: var(--radio-row-logo-final) !important;
-  min-width: var(--radio-row-logo-final) !important;
-  min-height: var(--radio-row-logo-final) !important;
-  max-width: var(--radio-row-logo-final) !important;
-  max-height: var(--radio-row-logo-final) !important;
-  align-self: center !important;
-}
-
-#facileRadioPanel button.facile-radio-row .facile-radio-row-logo img,
-#facileRadioPanel .facile-radio-row .facile-radio-row-logo img {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
-  object-fit: contain !important;
-  display: block !important;
-}
-
-#facileRadioPanel button.facile-radio-row .facile-radio-row-text,
-#facileRadioPanel .facile-radio-row .facile-radio-row-text {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  gap: 4px !important;
-  min-width: 0 !important;
-  min-height: 0 !important;
-  height: auto !important;
-  overflow: hidden !important;
-  text-align: left !important;
-  white-space: normal !important;
-}
-
-#facileRadioPanel button.facile-radio-row .facile-radio-row-text strong,
-#facileRadioPanel .facile-radio-row .facile-radio-row-text strong {
-  display: block !important;
-  color: var(--facile-text) !important;
-  font-size: 0.88rem !important;
-  line-height: 1.16 !important;
-  font-weight: 900 !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  max-width: 100% !important;
-}
-
-#facileRadioPanel button.facile-radio-row .facile-radio-row-text em,
-#facileRadioPanel .facile-radio-row .facile-radio-row-text em {
-  display: block !important;
-  color: var(--facile-muted-text) !important;
-  font-size: 0.72rem !important;
-  line-height: 1.2 !important;
-  font-style: italic !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  max-width: 100% !important;
-}
-
-/* Mensajes, favoritos vacios y errores: no deben heredar altura de boton. */
-#facileRadioPanel button.facile-radio-message-row,
-#facileRadioPanel button.facile-radio-loading-row:not(.facile-radio-row),
-#facileRadioPanel .facile-radio-message-row {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  min-height: 46px !important;
-  max-height: none !important;
-  padding: 12px 14px !important;
-  white-space: normal !important;
-  overflow: visible !important;
-  text-align: center !important;
-  line-height: 1.25 !important;
-  color: #ffffff !important;
-  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
-  border-top: 1px solid #ffffff !important;
-  border-left: 1px solid #ffffff !important;
-  border-right: 2px solid var(--facile-window-dark) !important;
-  border-bottom: 2px solid var(--facile-window-dark) !important;
-}
-
-#facileRadioPanel button.facile-radio-row:hover,
-#facileRadioPanel button.facile-radio-row:focus-visible,
-#facileRadioPanel button.facile-radio-row.is-active,
-#facileRadioPanel button.facile-radio-row[aria-pressed="true"] {
-  background: var(--facile-button-hover-bg) !important;
-  color: #ffffff !important;
-}
-
-#facileRadioPanel button.facile-radio-row:hover strong,
-#facileRadioPanel button.facile-radio-row:hover em,
-#facileRadioPanel button.facile-radio-row:focus-visible strong,
-#facileRadioPanel button.facile-radio-row:focus-visible em,
-#facileRadioPanel button.facile-radio-row.is-active strong,
-#facileRadioPanel button.facile-radio-row.is-active em,
-#facileRadioPanel button.facile-radio-row[aria-pressed="true"] strong,
-#facileRadioPanel button.facile-radio-row[aria-pressed="true"] em {
-  color: #ffffff !important;
-}
-
-@media only screen and (max-width: 640px) {
-  :root {
-    --radio-row-final-h: 68px;
-    --radio-row-logo-final: 40px;
-  }
+#theme-panel.classic-theme-panel,
+.theme-panel,
+.facile-radio-widget {
+  right: var(--facile-classic-floating-right) !important;
 }
