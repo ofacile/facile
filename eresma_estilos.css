@@ -6192,81 +6192,122 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
 }
 
 
-/* =========================================================
-   FACILE NORMAL - BADGE BUSCADOR ALINEADO V4
-   Centra el rectangulo interior y el icono del buscador de forma optica.
-   Corrige el desajuste del badge sin tocar el layout general del buscador.
-========================================================= */
-.facile-search-engine-wrap {
-  position: relative !important;
-  display: grid !important;
-  place-items: center !important;
-  overflow: visible !important;
-  padding: 2px !important;
-  box-sizing: border-box !important;
-}
-
-.facile-search-engine-badge {
-  position: absolute !important;
-  left: 50% !important;
-  top: 50% !important;
-  width: 28px !important;
-  height: 28px !important;
-  min-width: 28px !important;
-  min-height: 28px !important;
-  display: grid !important;
-  place-items: center !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border-radius: 9px !important;
-  overflow: visible !important;
-  transform: translate(calc(-50% + 1px), calc(-50% + 0.5px)) !important;
-  transform-origin: center center !important;
-}
-
-.facile-search-engine-badge img {
-  width: 21px !important;
-  height: 21px !important;
-  max-width: 21px !important;
-  max-height: 21px !important;
-  display: block !important;
-  object-fit: contain !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  transform: none !important;
-  transform-origin: center center !important;
-}
-
-.facile-search-engine-wrap:hover .facile-search-engine-badge,
-.facile-search-engine-wrap:focus-within .facile-search-engine-badge {
-  transform: translate(calc(-50% + 1px), calc(-50% + 0.5px)) !important;
-}
-
-.facile-search-engine-wrap:active .facile-search-engine-badge,
-.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge {
-  transform: translate(calc(-50% + 1px), calc(-50% + 1.5px)) !important;
-}
-
-.facile-search-engine-wrap:hover .facile-search-engine-badge img,
-.facile-search-engine-wrap:focus-within .facile-search-engine-badge img,
-.facile-search-engine-wrap:active .facile-search-engine-badge img,
-.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge img {
-  transform: none !important;
-}
-
-@media only screen and (max-width: 767px) {
-  .facile-search-engine-badge {
-    width: 27px !important;
-    height: 27px !important;
-    min-width: 27px !important;
-    min-height: 27px !important;
-    transform: translate(calc(-50% + 1px), calc(-50% + 0.5px)) !important;
+/* FACILE MOBILE PERFORMANCE FINAL V8 */
+/* Capa de optimización conservadora para móvil: reduce repintados, blur, sombras y animaciones decorativas sin cambiar la estructura. */
+@media only screen and (max-width: 767px){
+  body{
+    background-attachment: scroll !important;
   }
 
-  .facile-search-engine-badge img {
-    width: 20px !important;
-    height: 20px !important;
-    max-width: 20px !important;
-    max-height: 20px !important;
+  .header,
+  .header .container.logo-nav-container,
+  .mobile-menu-native > ul.mobile-menu-list,
+  .container,
+  .widget-box,
+  .weather-widget,
+  .ticker-widget,
+  #facile-news-widget.facile-news-shell,
+  #facile-news-widget .facile-news-card,
+  #facile-news-widget .facile-news-media,
+  #weather-content > div:last-child > div,
+  .facile-radio-panel,
+  #theme-menu.theme-menu,
+  footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .header,
+  .container,
+  .widget-box,
+  .weather-widget,
+  .ticker-widget,
+  #facile-news-widget.facile-news-shell,
+  #facile-news-widget .facile-news-card,
+  footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10) !important;
+  }
+
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    transform: none !important;
+    transition:
+      opacity 80ms linear,
+      visibility 0ms linear,
+      background var(--theme-transition-speed) ease,
+      border-color var(--theme-transition-speed) ease !important;
+    will-change: auto !important;
+  }
+
+  .facile-radio-widget.is-open .facile-radio-panel,
+  #theme-panel.facile-theme-menu-open #theme-menu.theme-menu{
+    transform: none !important;
+    will-change: auto !important;
+  }
+
+  .facile-search-engine-wrap,
+  #theme-menu .theme-btn::after,
+  #theme-menu button[onclick="applyCustomBackground()"]::after,
+  #theme-menu button[onclick="clearCustomBackground()"]::after,
+  #facile-news-widget .facile-news-card{
+    animation: none !important;
+  }
+
+  #theme-menu .theme-btn::after,
+  #theme-menu button[onclick="applyCustomBackground()"]::after,
+  #theme-menu button[onclick="clearCustomBackground()"]::after{
+    opacity: 0.18 !important;
+  }
+
+  .navigation a:hover,
+  .mobile-menu-native > ul.mobile-menu-list > li > a:hover,
+  .facile-radio-row:hover,
+  .facile-radio-main-control:hover,
+  .facile-radio-small-control:hover,
+  .facile-radio-home-control:hover,
+  .facile-radio-favs-control:hover,
+  .facile-radio-volume-toggle:hover,
+  .facile-radio-search button:hover,
+  .facile-search-submit:hover,
+  #theme-menu .theme-btn:hover,
+  #theme-menu .theme-menu-close:hover,
+  .facile-radio-button:hover,
+  #theme-toggle.theme-toggle-btn:hover{
+    transform: none !important;
+  }
+
+  main.intro .container > section:not(#facile-news-widget),
+  #facile-news-widget,
+  #weather-widget,
+  .widget-box.ticker-widget{
+    content-visibility: auto !important;
+    contain: layout style !important;
+  }
+
+  .navigation a,
+  .mobile-menu-native > ul.mobile-menu-list,
+  .mobile-menu-native > ul.mobile-menu-list > li > a,
+  .facile-search-submit,
+  .facile-radio-row,
+  .facile-radio-main-control,
+  .facile-radio-small-control,
+  .facile-radio-home-control,
+  .facile-radio-favs-control,
+  .facile-radio-volume-toggle,
+  #theme-menu .theme-btn{
+    transition-duration: 0.01ms !important;
+  }
+
+  .facile-search-submit,
+  .facile-search-submit:hover,
+  .facile-search-submit:focus-visible,
+  .facile-search-submit:active{
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.20) !important;
   }
 }
