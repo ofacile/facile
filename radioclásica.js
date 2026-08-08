@@ -248,7 +248,7 @@ function renderFavoriteStations() {
 
     const empty = document.createElement("button");
     empty.type = "button";
-    empty.className = "facile-radio-loading-row";
+    empty.className = "facile-radio-loading-row facile-radio-message-row";
     empty.textContent = "Todavía no tienes radios favoritas. Pulsa ☆ en una emisora para guardarla.";
     results.appendChild(empty);
 
@@ -322,7 +322,7 @@ function renderFavoriteStations() {
     if (!items.length) {
       const empty = document.createElement("button");
       empty.type = "button";
-      empty.className = "facile-radio-loading-row";
+      empty.className = "facile-radio-loading-row facile-radio-message-row";
       empty.textContent = "No se encontraron emisoras.";
       results.appendChild(empty);
       return;
@@ -532,7 +532,7 @@ function renderFavoriteStations() {
 
         const row = document.createElement("button");
         row.type = "button";
-        row.className = "facile-radio-loading-row";
+        row.className = "facile-radio-loading-row facile-radio-message-row";
         row.textContent = "No se pudieron cargar emisoras.";
         results.appendChild(row);
 
@@ -562,7 +562,7 @@ async function goHomeRadio() {
 
     const loading = document.createElement("button");
     loading.type = "button";
-    loading.className = "facile-radio-loading-row";
+    loading.className = "facile-radio-loading-row facile-radio-message-row";
     loading.textContent = "Buscando emisoras...";
     results.appendChild(loading);
 
@@ -583,7 +583,7 @@ async function goHomeRadio() {
 
       const row = document.createElement("button");
       row.type = "button";
-      row.className = "facile-radio-loading-row";
+      row.className = "facile-radio-loading-row facile-radio-message-row";
       row.textContent = "No se pudo buscar ahora.";
       results.appendChild(row);
 
