@@ -6003,3 +6003,93 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     font-size: 0.80rem !important;
   }
 }
+
+
+/* =========================================================
+   FACILE NORMAL - BUSCADOR ICONO CENTRADO + ANIMACION V1
+   Aplica al selector de buscadores y al boton Buscar una animacion
+   sutil, similar al pulso de Fecha/Hora y Reloj, sin alterar layout.
+========================================================= */
+@keyframes facileSearchWidgetPulse {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: translateY(-1px) scale(1.015);
+    filter: brightness(1.035);
+  }
+}
+
+.facile-search-engine-wrap {
+  position: relative !important;
+  display: grid !important;
+  place-items: center !important;
+  width: 48px !important;
+  height: 44px !important;
+  min-width: 48px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  transform-origin: center center !important;
+  animation: facileSearchWidgetPulse 3.4s ease-in-out infinite !important;
+}
+
+.facile-search-engine-badge {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  display: grid !important;
+  place-items: center !important;
+  width: 30px !important;
+  height: 30px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.facile-search-engine-badge img {
+  display: block !important;
+  width: 22px !important;
+  height: 22px !important;
+  max-width: 22px !important;
+  max-height: 22px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+  transform: none !important;
+}
+
+.facile-search-submit {
+  transform-origin: center center !important;
+  animation: facileSearchWidgetPulse 3.4s ease-in-out infinite !important;
+  animation-delay: 0.35s !important;
+}
+
+.facile-search-engine-wrap:hover,
+.facile-search-engine-wrap:focus-within,
+.facile-search-submit:hover,
+.facile-search-submit:focus-visible {
+  animation-play-state: paused !important;
+}
+
+.facile-search-engine-wrap:hover,
+.facile-search-engine-wrap:focus-within {
+  transform: translateY(-1px) scale(1.015) !important;
+}
+
+.facile-search-engine-wrap:active,
+.facile-search-engine-wrap:has(.facile-search-engine:active) {
+  transform: scale(0.98) !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge {
+  transform: translate(-50%, -50%) scale(0.98) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .facile-search-engine-wrap,
+  .facile-search-submit {
+    animation: none !important;
+  }
+}
