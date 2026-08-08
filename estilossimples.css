@@ -4476,3 +4476,17 @@ body {
     --radio-row-logo-final: 40px;
   }
 }
+/* FACILE CLASICO - MICROAJUSTE BOTONES FLOTANTES V15 */
+#theme-panel.classic-theme-panel,
+.theme-panel,
+.facile-radio-widget {
+  right: 24px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  #theme-panel.classic-theme-panel,
+  .theme-panel,
+  .facile-radio-widget {
+    right: 20px !important;
+  }
+}
