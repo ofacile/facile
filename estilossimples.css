@@ -5394,3 +5394,136 @@ body[data-classic-theme="facile-dos"] {
 .facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge img {
   transform: none !important;
 }
+
+
+/* =========================================================
+   FACILE CLASICO - TEMAS CABECERA COMO RADIO V25
+   Calca la parte superior del menu de Radio en el menu de Temas:
+   ventana recta, barra de titulo compacta y boton cerrar rojo alineado.
+========================================================= */
+#theme-menu.theme-menu,
+.theme-menu {
+  width: min(380px, calc(100vw - 96px)) !important;
+  padding: 10px !important;
+  overflow: visible !important;
+  background: var(--facile-window) !important;
+  border-top: 2px solid #ffffff !important;
+  border-left: 2px solid #ffffff !important;
+  border-right: 4px solid var(--facile-window-dark) !important;
+  border-bottom: 4px solid var(--facile-window-dark) !important;
+  border-radius: 2px !important;
+  box-shadow: 5px 5px 0 rgba(0,0,0,0.42) !important;
+  outline: 1px solid rgba(0,0,0,0.24) !important;
+}
+
+/* Barra superior igual a la radio: titulo centrado y hueco exacto para la X. */
+#theme-menu.theme-menu h3,
+.theme-menu h3 {
+  height: 31px !important;
+  min-height: 31px !important;
+  margin: 0 39px 9px 0 !important;
+  padding: 0 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.25) !important;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
+  font-size: 0.86rem !important;
+  line-height: 1 !important;
+  font-weight: 900 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Boton cerrar de Temas calcado del de Radio. */
+#theme-menu-close.theme-menu-close,
+.theme-menu-close {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  z-index: 5 !important;
+  width: 28px !important;
+  height: 26px !important;
+  min-width: 28px !important;
+  min-height: 26px !important;
+  padding: 0 !important;
+  display: grid !important;
+  place-items: center !important;
+  color: #ffffff !important;
+  background: #b91c1c !important;
+  border-top: 1px solid #ffd7d7 !important;
+  border-left: 1px solid #ffd7d7 !important;
+  border-right: 2px solid #4b0000 !important;
+  border-bottom: 2px solid #4b0000 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+}
+
+#theme-menu-close.theme-menu-close:hover,
+#theme-menu-close.theme-menu-close:focus-visible,
+.theme-menu-close:hover,
+.theme-menu-close:focus-visible {
+  color: #ffffff !important;
+  background: #dc2626 !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+}
+
+#theme-menu-close.theme-menu-close:active,
+.theme-menu-close:active {
+  background: #7f1d1d !important;
+  border-top-color: #4b0000 !important;
+  border-left-color: #4b0000 !important;
+  border-right-color: #ffd7d7 !important;
+  border-bottom-color: #ffd7d7 !important;
+  transform: translate(1px, 1px) !important;
+}
+
+/* Ajuste de contenido para que la cabecera no se sienta aislada. */
+#theme-menu .theme-buttons,
+.theme-buttons {
+  margin: 0 0 9px 0 !important;
+  gap: 6px !important;
+}
+
+#theme-menu.theme-menu h4,
+.theme-menu h4 {
+  height: 27px !important;
+  min-height: 27px !important;
+  margin: 9px 0 8px 0 !important;
+  padding: 0 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: var(--facile-window-soft) !important;
+  color: var(--facile-muted-text) !important;
+  border-top: 1px solid #ffffff !important;
+  border-left: 1px solid #ffffff !important;
+  border-right: 2px solid var(--facile-window-shadow) !important;
+  border-bottom: 2px solid var(--facile-window-shadow) !important;
+  border-radius: 0 !important;
+  font-size: 0.74rem !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+}
+
+#theme-menu .theme-bg-row,
+.theme-bg-row {
+  margin: 0 0 8px 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  #theme-menu.theme-menu,
+  .theme-menu {
+    width: min(350px, calc(100vw - 84px)) !important;
+  }
+}
