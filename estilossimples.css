@@ -5191,3 +5191,147 @@ body[data-classic-theme="facile-dos"] {
     height: 23px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - SELECTOR BUSCADOR CENTRADO + ANIMACION V22
+   El selector de buscador usa el mismo lenguaje de boton que Radio/Temas:
+   hover clasico, pulsacion seca y estado activo hundido.
+========================================================= */
+.facile-search-engine-wrap {
+  position: relative !important;
+  isolation: isolate !important;
+  width: 44px !important;
+  height: 40px !important;
+  min-width: 44px !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: var(--facile-window-soft) !important;
+  border-top: 2px solid var(--facile-window-light) !important;
+  border-left: 2px solid var(--facile-window-light) !important;
+  border-right: 3px solid var(--facile-window-dark) !important;
+  border-bottom: 3px solid var(--facile-window-dark) !important;
+  border-radius: 8px !important;
+  box-shadow: 2px 2px 0 rgba(43,29,19,0.24), inset 1px 1px 0 rgba(255,255,255,0.35) !important;
+  transform: translate(0, 0) !important;
+  transition:
+    background 55ms steps(1,end),
+    color 55ms steps(1,end),
+    transform 55ms steps(1,end),
+    border-color 55ms steps(1,end),
+    box-shadow 55ms steps(1,end) !important;
+}
+
+.facile-search-engine {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0 !important;
+  cursor: pointer !important;
+  z-index: 3 !important;
+}
+
+.facile-search-engine-badge {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 7px !important;
+  background: #ffffff !important;
+  color: var(--facile-text) !important;
+  border-top: 1px solid #ffffff !important;
+  border-left: 1px solid #ffffff !important;
+  border-right: 2px solid var(--facile-window-shadow) !important;
+  border-bottom: 2px solid var(--facile-window-shadow) !important;
+  box-shadow: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+.facile-search-engine-badge img {
+  display: block !important;
+  width: 23px !important;
+  height: 23px !important;
+  max-width: 23px !important;
+  max-height: 23px !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+/* Mismo hover visual que Radio/Temas y botones clasicos. */
+.facile-search-engine-wrap:hover,
+.facile-search-engine-wrap:focus-within {
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top-color: var(--facile-window-light) !important;
+  border-left-color: var(--facile-window-light) !important;
+  border-right-color: var(--facile-window-dark) !important;
+  border-bottom-color: var(--facile-window-dark) !important;
+  box-shadow: 3px 3px 0 rgba(43,29,19,0.30) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+  transform: translate(0, 0) !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge {
+  border-right-color: var(--facile-window-dark) !important;
+  border-bottom-color: var(--facile-window-dark) !important;
+}
+
+/* Pulsacion seca, igual al lenguaje de Radio y Temas. */
+.facile-search-engine-wrap:active,
+.facile-search-engine-wrap:has(.facile-search-engine:active) {
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: var(--facile-window-light) !important;
+  border-bottom-color: var(--facile-window-light) !important;
+  transform: translate(1px, 1px) !important;
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.24) !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge {
+  transform: translate(calc(-50% + 1px), calc(-50% + 1px)) !important;
+  border-top-color: var(--facile-window-shadow) !important;
+  border-left-color: var(--facile-window-shadow) !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .facile-search-engine-wrap {
+    width: 42px !important;
+    height: 38px !important;
+    min-width: 42px !important;
+  }
+
+  .facile-search-engine-badge {
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
+    min-height: 30px !important;
+  }
+
+  .facile-search-engine-badge img {
+    width: 22px !important;
+    height: 22px !important;
+    max-width: 22px !important;
+    max-height: 22px !important;
+  }
+}
