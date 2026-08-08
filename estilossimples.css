@@ -4759,3 +4759,220 @@ body[data-classic-theme="facile-dos"] {
     width: min(340px, calc(100vw - 34px)) !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - MENU INICIO WIN98 V19
+   Pulido del desplegable: más cercano al menú Inicio antiguo,
+   compacto, con franja lateral y selección clásica.
+========================================================= */
+:root {
+  --classic-start-menu-width: 330px;
+  --classic-start-rail-width: 42px;
+  --classic-start-row-h: 34px;
+  --classic-menu-icon-color: var(--facile-accent-blue);
+  --classic-start-rail-bg: linear-gradient(180deg, var(--facile-accent-blue), var(--facile-brown-mid));
+  --classic-start-selection: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid));
+}
+
+html[data-classic-theme="sol"],
+body[data-classic-theme="sol"] {
+  --classic-menu-icon-color: var(--facile-brown-dark);
+  --classic-start-rail-bg: linear-gradient(180deg, var(--facile-brown-dark), var(--facile-brown-mid));
+  --classic-start-selection: linear-gradient(90deg, var(--facile-brown-dark), var(--facile-brown-mid));
+}
+
+html[data-classic-theme="ocean"],
+body[data-classic-theme="ocean"],
+html[data-classic-theme="dos"],
+body[data-classic-theme="dos"],
+html[data-classic-theme="facile-dos"],
+body[data-classic-theme="facile-dos"] {
+  --classic-menu-icon-color: #050505;
+  --classic-start-rail-bg: linear-gradient(180deg, #050505, #303030);
+  --classic-start-selection: linear-gradient(90deg, #050505, #303030);
+}
+
+/* Header interior recto, sin cápsula. */
+.header .container.logo-nav-container {
+  border-radius: 0 !important;
+}
+
+/* Botón: mantiene tamaño/posición, pero el icono se colorea por tema. */
+.menu-icon {
+  color: var(--classic-menu-icon-color) !important;
+  background: color-mix(in srgb, var(--facile-window-soft) 88%, var(--facile-window) 12%) !important;
+  border-top-color: var(--facile-window-light) !important;
+  border-left-color: var(--facile-window-light) !important;
+  border-right-color: var(--facile-window-shadow) !important;
+  border-bottom-color: var(--facile-window-shadow) !important;
+  border-radius: 6px !important;
+}
+
+.menu-icon::before {
+  content: none !important;
+}
+
+.menu-icon img {
+  opacity: 0 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+.menu-icon::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 28px !important;
+  height: 22px !important;
+  transform: translate(-50%, -50%) !important;
+  background:
+    linear-gradient(currentColor, currentColor) 0 2px / 100% 4px no-repeat,
+    linear-gradient(currentColor, currentColor) 0 9px / 100% 4px no-repeat,
+    linear-gradient(currentColor, currentColor) 0 16px / 100% 4px no-repeat !important;
+  filter: drop-shadow(1px 1px 0 rgba(255,255,255,0.48)) !important;
+  pointer-events: none !important;
+}
+
+.menu-icon:hover,
+.menu-icon:focus-visible,
+.menu-icon:active,
+.header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
+  color: #ffffff !important;
+  background: var(--classic-start-selection) !important;
+}
+
+/* Desplegable tipo menú Inicio antiguo. */
+.header .navigation ul.show {
+  position: absolute !important;
+  top: calc(100% + 10px) !important;
+  right: 0 !important;
+  left: auto !important;
+  width: var(--classic-start-menu-width) !important;
+  max-width: calc(100vw - 32px) !important;
+  min-width: 280px !important;
+  margin: 0 !important;
+  padding: 4px 4px 4px calc(var(--classic-start-rail-width) + 4px) !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 1px !important;
+  background: var(--facile-window) !important;
+  border-top: 2px solid var(--facile-window-light) !important;
+  border-left: 2px solid var(--facile-window-light) !important;
+  border-right: 3px solid var(--facile-window-dark) !important;
+  border-bottom: 3px solid var(--facile-window-dark) !important;
+  border-radius: 0 !important;
+  box-shadow: 4px 4px 0 rgba(43,29,19,0.36) !important;
+  overflow: hidden !important;
+}
+
+/* Franja vertical tipo Windows 95/98. */
+.header .navigation ul.show::before {
+  content: "Facile" !important;
+  position: absolute !important;
+  left: 4px !important;
+  top: 4px !important;
+  bottom: 4px !important;
+  width: var(--classic-start-rail-width) !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  padding-bottom: 8px !important;
+  color: #ffffff !important;
+  background: var(--classic-start-rail-bg) !important;
+  writing-mode: vertical-rl !important;
+  transform: rotate(180deg) !important;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.04em !important;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.45) !important;
+  pointer-events: none !important;
+}
+
+.header .navigation ul.show li {
+  width: 100% !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header .navigation ul.show li a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  min-height: var(--classic-start-row-h) !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 5px 28px 5px 34px !important;
+  position: relative !important;
+  color: var(--facile-text) !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-align: left !important;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
+  font-size: 0.9rem !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Icono pequeño de opción, más parecido a menú de sistema. */
+.header .navigation ul.show li a::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 8px !important;
+  top: 50% !important;
+  width: 18px !important;
+  height: 18px !important;
+  transform: translateY(-50%) !important;
+  background:
+    linear-gradient(90deg, var(--facile-window-light), var(--facile-window-soft)) padding-box,
+    var(--classic-start-selection) border-box !important;
+  border: 1px solid transparent !important;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.55), 1px 1px 0 rgba(0,0,0,0.18) !important;
+  box-sizing: border-box !important;
+}
+
+/* Flecha de submenú al estilo Windows, aunque no haya submenú real. */
+.header .navigation ul.show li a::after {
+  content: "›" !important;
+  position: absolute !important;
+  right: 9px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  color: var(--facile-text) !important;
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+}
+
+.header .navigation ul.show li a:hover,
+.header .navigation ul.show li a:focus-visible {
+  color: #ffffff !important;
+  background: var(--classic-start-selection) !important;
+  outline: 1px dotted var(--facile-focus) !important;
+  outline-offset: -3px !important;
+}
+
+.header .navigation ul.show li a:hover::before,
+.header .navigation ul.show li a:focus-visible::before {
+  background: var(--facile-window-light) !important;
+  border-color: rgba(0,0,0,0.36) !important;
+}
+
+.header .navigation ul.show li a:hover::after,
+.header .navigation ul.show li a:focus-visible::after {
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .header .navigation ul.show {
+    width: min(330px, calc(100vw - 32px)) !important;
+    min-width: 0 !important;
+  }
+}
