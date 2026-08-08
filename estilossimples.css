@@ -4976,3 +4976,135 @@ body[data-classic-theme="facile-dos"] {
     min-width: 0 !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - MENU INICIO ICONOS REALES V20
+   Pulido del menu Inicio:
+   - Inicio con casita.
+   - Version normal con favicon de Facile normal.
+   - Twitter/X con icono de X.
+   - Franja lateral mas cuidada sin romper estructura.
+========================================================= */
+:root {
+  --classic-start-menu-width: 370px;
+  --classic-start-rail-width: 52px;
+  --classic-start-row-h: 40px;
+  --classic-start-icon-size: 22px;
+}
+
+/* Panel un poco mas ancho para que quepan texto, icono y flecha. */
+.header .navigation ul.show {
+  width: var(--classic-start-menu-width) !important;
+  min-width: 330px !important;
+  max-width: calc(100vw - 32px) !important;
+  padding: 5px 5px 5px calc(var(--classic-start-rail-width) + 6px) !important;
+  gap: 1px !important;
+}
+
+/* Franja lateral mas elegante, tematica y menos plana. */
+.header .navigation ul.show::before {
+  width: var(--classic-start-rail-width) !important;
+  left: 5px !important;
+  top: 5px !important;
+  bottom: 5px !important;
+  padding-bottom: 10px !important;
+  content: "Facile" !important;
+  color: #ffffff !important;
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--facile-accent-blue) 88%, #ffffff 12%) 0%,
+      var(--facile-brown-mid) 58%,
+      var(--facile-brown-dark) 100%) !important;
+  border-top: 1px solid rgba(255,255,255,0.55) !important;
+  border-left: 1px solid rgba(255,255,255,0.55) !important;
+  border-right: 2px solid rgba(0,0,0,0.42) !important;
+  border-bottom: 2px solid rgba(0,0,0,0.42) !important;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.25) !important;
+  font-size: 1.14rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.08em !important;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.55) !important;
+}
+
+/* Entradas mas compactas que en la captura, pero con aire suficiente. */
+.header .navigation ul.show li a {
+  min-height: var(--classic-start-row-h) !important;
+  padding: 7px 30px 7px 42px !important;
+  font-size: 0.93rem !important;
+  line-height: 1.1 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Base del icono de cada entrada. */
+.header .navigation ul.show li a::before {
+  left: 10px !important;
+  width: var(--classic-start-icon-size) !important;
+  height: var(--classic-start-icon-size) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 1. Inicio: casita. */
+.header .navigation ul.show li:nth-child(1) a::before {
+  content: "🏠" !important;
+  display: grid !important;
+  place-items: center !important;
+  font-size: 1.06rem !important;
+  line-height: 1 !important;
+  background: transparent !important;
+}
+
+/* 2. Version normal: icono real de Facile normal. */
+.header .navigation ul.show li:nth-child(2) a::before {
+  content: "" !important;
+  background-image: url("https://raw.githubusercontent.com/ofacile/facile/refs/heads/master/facile.ico") !important;
+  background-color: #ffffff !important;
+  border: 1px solid var(--facile-window-shadow) !important;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.45) !important;
+}
+
+/* 3. Twitter/X: icono real de X. */
+.header .navigation ul.show li:nth-child(3) a::before {
+  content: "" !important;
+  background-image: url("https://play-lh.googleusercontent.com/XyI6Hyz9AFg7E_joVzX2zh6CpWm9B2DG2JuEz5meCFVm4-wTKTnHgqbmg62iFKe4Gzca=w240-h480-rw") !important;
+  background-color: #ffffff !important;
+  border: 1px solid var(--facile-window-shadow) !important;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.45) !important;
+}
+
+/* Flecha con menos protagonismo, estilo submenu antiguo. */
+.header .navigation ul.show li a::after {
+  right: 10px !important;
+  font-size: 1rem !important;
+}
+
+.header .navigation ul.show li a:hover::before,
+.header .navigation ul.show li a:focus-visible::before {
+  filter: brightness(1.08) contrast(1.04) !important;
+}
+
+.header .navigation ul.show li:nth-child(1) a:hover::before,
+.header .navigation ul.show li:nth-child(1) a:focus-visible::before {
+  filter: drop-shadow(1px 1px 0 rgba(0,0,0,0.35)) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    --classic-start-menu-width: 350px;
+    --classic-start-rail-width: 48px;
+    --classic-start-row-h: 38px;
+    --classic-start-icon-size: 21px;
+  }
+
+  .header .navigation ul.show {
+    width: min(var(--classic-start-menu-width), calc(100vw - 34px)) !important;
+    min-width: 0 !important;
+  }
+}
