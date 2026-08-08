@@ -4476,3 +4476,18 @@ body {
     --radio-row-logo-final: 40px;
   }
 }
+/* FACILE CLASICO - COLUMNA FLOTANTE CENTRADA V15 */
+:root {
+  --facile-classic-floating-nudge-left: 4px;
+  --facile-classic-floating-right: calc(
+    var(--facile-chat-button-right) +
+    ((var(--facile-chat-button-size) - var(--facile-classic-floating-size)) / 2) +
+    var(--facile-classic-floating-nudge-left)
+  );
+}
+
+#theme-panel.classic-theme-panel,
+.theme-panel,
+.facile-radio-widget {
+  right: var(--facile-classic-floating-right) !important;
+}
