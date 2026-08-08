@@ -6093,3 +6093,71 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     animation: none !important;
   }
 }
+
+
+/* =========================================================
+   FACILE NORMAL - BUSCADOR ICONO SIN RECORTE V2
+   Evita que la figura redondeada del icono se vea cortada durante
+   la animacion o la pulsacion. Mantiene el layout del buscador normal.
+========================================================= */
+.facile-search-engine-wrap {
+  overflow: visible !important;
+  padding: 2px !important;
+  box-sizing: border-box !important;
+}
+
+.facile-search-engine {
+  inset: -2px !important;
+  width: calc(100% + 4px) !important;
+  height: calc(100% + 4px) !important;
+}
+
+.facile-search-engine-badge {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+  border-radius: 9px !important;
+  overflow: visible !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.facile-search-engine-badge img {
+  width: 21px !important;
+  height: 21px !important;
+  max-width: 21px !important;
+  max-height: 21px !important;
+  object-fit: contain !important;
+}
+
+.facile-search-engine-wrap:active,
+.facile-search-engine-wrap:has(.facile-search-engine:active) {
+  transform: translateY(1px) scale(0.98) !important;
+  filter: brightness(0.96) saturate(1.04) !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge {
+  transform: translate(-50%, -50%) scale(0.94) !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge {
+  transform: translate(-50%, -50%) scale(1.02) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .facile-search-engine-badge {
+    width: 27px !important;
+    height: 27px !important;
+    min-width: 27px !important;
+    min-height: 27px !important;
+  }
+
+  .facile-search-engine-badge img {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+  }
+}
