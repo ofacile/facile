@@ -4490,3 +4490,89 @@ body {
     right: 20px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - HEADER RECTO + MENU TEMATICO V17
+   Ajuste seguro: solo header interior y boton de menu.
+   No toca la distribucion, el logo, los widgets ni los paneles.
+========================================================= */
+
+/* El marco interior del header vuelve a ser recto, acorde al estilo clasico. */
+.header .container.logo-nav-container {
+  border-radius: 0 !important;
+}
+
+/* Boton de menu: discreto y ligado a las variables del tema activo. */
+.menu-icon {
+  position: relative !important;
+  isolation: isolate !important;
+  color: var(--facile-accent-blue) !important;
+  background: color-mix(in srgb, var(--facile-window-soft) 82%, var(--facile-window) 18%) !important;
+  border-top: 2px solid var(--facile-window-light) !important;
+  border-left: 2px solid var(--facile-window-light) !important;
+  border-right: 3px solid var(--facile-window-shadow) !important;
+  border-bottom: 3px solid var(--facile-window-shadow) !important;
+  border-radius: 6px !important;
+  box-shadow: 2px 2px 0 rgba(43,29,19,0.24), inset 1px 1px 0 rgba(255,255,255,0.32) !important;
+  overflow: hidden !important;
+}
+
+/* Elimina halos anteriores sin tocar posicion ni tamaño del boton. */
+.menu-icon::before {
+  content: none !important;
+}
+
+/* El PNG original lleva una caja clara fija. Se mantiene en el DOM, pero no pinta. */
+.menu-icon img {
+  opacity: 0 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+/* Icono hamburguesa creado con color tematico. */
+.menu-icon::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 28px !important;
+  height: 22px !important;
+  transform: translate(-50%, -50%) !important;
+  background:
+    linear-gradient(currentColor, currentColor) 0 2px / 100% 4px no-repeat,
+    linear-gradient(currentColor, currentColor) 0 9px / 100% 4px no-repeat,
+    linear-gradient(currentColor, currentColor) 0 16px / 100% 4px no-repeat !important;
+  filter: drop-shadow(1px 1px 0 rgba(255,255,255,0.45)) !important;
+}
+
+.menu-icon:hover,
+.menu-icon:focus-visible {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 3px !important;
+}
+
+.menu-icon:active,
+.header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top-color: var(--facile-window-shadow) !important;
+  border-left-color: var(--facile-window-shadow) !important;
+  border-right-color: var(--facile-window-light) !important;
+  border-bottom-color: var(--facile-window-light) !important;
+  transform: translate(1px, 1px) !important;
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.24) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .header .container.logo-nav-container {
+    border-radius: 0 !important;
+  }
+
+  .menu-icon::after {
+    width: 26px !important;
+    height: 21px !important;
+  }
+}
