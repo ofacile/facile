@@ -4576,3 +4576,186 @@ body {
     height: 21px !important;
   }
 }
+
+
+/* =========================================================
+   FACILE CLASICO - MENU TEMATICO WIN95 V18
+   Ajuste final controlado:
+   - Icono marron en Clasico 98.
+   - Icono negro en Facile-DOS / MS-DOS.
+   - Header interior recto.
+   - Desplegable inspirado en menus Windows 95.
+========================================================= */
+:root {
+  --classic-menu-icon-color: var(--facile-accent-blue);
+  --classic-menu-surface: var(--facile-window-soft);
+  --classic-menu-surface-hover: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid));
+  --classic-menu-text: var(--facile-text);
+}
+
+html[data-classic-theme="sol"],
+body[data-classic-theme="sol"] {
+  --classic-menu-icon-color: var(--facile-brown-dark);
+}
+
+html[data-classic-theme="ocean"],
+body[data-classic-theme="ocean"],
+html[data-classic-theme="dos"],
+body[data-classic-theme="dos"],
+html[data-classic-theme="facile-dos"],
+body[data-classic-theme="facile-dos"] {
+  --classic-menu-icon-color: #050505;
+}
+
+/* El header interior debe ser recto, no tipo capsula. */
+.header .container.logo-nav-container {
+  border-radius: 0 !important;
+}
+
+/* Boton de menu: conserva posicion y tamano existentes, solo cambia pintura. */
+.menu-icon {
+  color: var(--classic-menu-icon-color) !important;
+  background: color-mix(in srgb, var(--classic-menu-surface) 88%, var(--facile-window) 12%) !important;
+  border-top-color: var(--facile-window-light) !important;
+  border-left-color: var(--facile-window-light) !important;
+  border-right-color: var(--facile-window-shadow) !important;
+  border-bottom-color: var(--facile-window-shadow) !important;
+  border-radius: 6px !important;
+  box-shadow: 2px 2px 0 rgba(43,29,19,0.24), inset 1px 1px 0 rgba(255,255,255,0.34) !important;
+}
+
+.menu-icon::before {
+  content: none !important;
+}
+
+/* El PNG original arrastra un tono crema fijo. Lo anulamos y pintamos el icono por CSS. */
+.menu-icon img {
+  opacity: 0 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+.menu-icon::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 28px !important;
+  height: 22px !important;
+  transform: translate(-50%, -50%) !important;
+  background:
+    linear-gradient(currentColor, currentColor) 0 2px / 100% 4px no-repeat,
+    linear-gradient(currentColor, currentColor) 0 9px / 100% 4px no-repeat,
+    linear-gradient(currentColor, currentColor) 0 16px / 100% 4px no-repeat !important;
+  filter: drop-shadow(1px 1px 0 rgba(255,255,255,0.45)) !important;
+  pointer-events: none !important;
+}
+
+.menu-icon:hover,
+.menu-icon:focus-visible,
+.menu-icon:active,
+.header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
+  color: #ffffff !important;
+  background: var(--classic-menu-surface-hover) !important;
+}
+
+.menu-icon:active,
+.header .container.logo-nav-container:has(.navigation ul.show) .menu-icon {
+  border-top-color: var(--facile-window-shadow) !important;
+  border-left-color: var(--facile-window-shadow) !important;
+  border-right-color: var(--facile-window-light) !important;
+  border-bottom-color: var(--facile-window-light) !important;
+  transform: translate(1px, 1px) !important;
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.24) !important;
+}
+
+/* Desplegable: menu antiguo tipo Windows, compacto, no tarjeta gigante. */
+.header .navigation ul.show {
+  width: min(360px, calc(100vw - 40px)) !important;
+  margin: 10px 0 0 auto !important;
+  padding: 4px !important;
+  display: grid !important;
+  gap: 0 !important;
+  background: var(--facile-window) !important;
+  border-top: 2px solid var(--facile-window-light) !important;
+  border-left: 2px solid var(--facile-window-light) !important;
+  border-right: 3px solid var(--facile-window-dark) !important;
+  border-bottom: 3px solid var(--facile-window-dark) !important;
+  border-radius: 0 !important;
+  box-shadow: 4px 4px 0 rgba(43,29,19,0.32) !important;
+}
+
+.header .navigation ul.show li {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header .navigation ul.show li a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  min-height: 34px !important;
+  margin: 0 !important;
+  padding: 7px 10px 7px 34px !important;
+  position: relative !important;
+  color: var(--classic-menu-text) !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-align: left !important;
+  font-family: Tahoma, Verdana, Arial, "MS Sans Serif", sans-serif !important;
+  font-size: 0.92rem !important;
+  font-weight: 900 !important;
+  line-height: 1.15 !important;
+  white-space: normal !important;
+}
+
+.header .navigation ul.show li a::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 10px !important;
+  top: 50% !important;
+  width: 14px !important;
+  height: 14px !important;
+  transform: translateY(-50%) !important;
+  background: linear-gradient(135deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-top: 1px solid var(--facile-window-light) !important;
+  border-left: 1px solid var(--facile-window-light) !important;
+  border-right: 1px solid var(--facile-window-shadow) !important;
+  border-bottom: 1px solid var(--facile-window-shadow) !important;
+  box-sizing: border-box !important;
+}
+
+.header .navigation ul.show li a:hover,
+.header .navigation ul.show li a:focus-visible {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  border-color: var(--facile-window-dark) !important;
+  outline: 1px dotted var(--facile-focus) !important;
+  outline-offset: -3px !important;
+}
+
+.header .navigation ul.show li a:hover::before,
+.header .navigation ul.show li a:focus-visible::before {
+  background: #ffffff !important;
+  border-color: rgba(0,0,0,0.35) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .header .container.logo-nav-container {
+    border-radius: 0 !important;
+  }
+
+  .menu-icon::after {
+    width: 26px !important;
+    height: 21px !important;
+  }
+
+  .header .navigation ul.show {
+    width: min(340px, calc(100vw - 34px)) !important;
+  }
+}
