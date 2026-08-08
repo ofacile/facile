@@ -5356,3 +5356,41 @@ body[data-classic-theme="facile-dos"] {
 .facile-search-engine-wrap:focus-within .facile-search-engine-badge img {
   transform: translate(1px, 0.5px) !important;
 }
+
+
+/* =========================================================
+   FACILE CLASICO - BADGE BUSCADOR CENTRADO V24
+   Corrige el rectangulo interior que sostiene los iconos.
+   El descentrado venia del badge completo, no solo del icono.
+========================================================= */
+.facile-search-engine-badge {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(calc(-50% + 2px), calc(-50% + 1px)) !important;
+  transform-origin: center center !important;
+}
+
+.facile-search-engine-badge img {
+  transform: none !important;
+  transform-origin: center center !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge {
+  transform: translate(calc(-50% + 2px), calc(-50% + 1px)) !important;
+}
+
+.facile-search-engine-wrap:hover .facile-search-engine-badge img,
+.facile-search-engine-wrap:focus-within .facile-search-engine-badge img {
+  transform: none !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge {
+  transform: translate(calc(-50% + 3px), calc(-50% + 2px)) !important;
+}
+
+.facile-search-engine-wrap:active .facile-search-engine-badge img,
+.facile-search-engine-wrap:has(.facile-search-engine:active) .facile-search-engine-badge img {
+  transform: none !important;
+}
