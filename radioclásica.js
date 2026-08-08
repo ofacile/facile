@@ -216,7 +216,7 @@ function initVolumeControl() {
   const favs = loadFavs();
   const count = favs.length;
 
-  showFavsBtn.textContent = count > 0 ? "★ " + count : "★";
+  showFavsBtn.textContent = count > 0 ? "❤ " + count : "❤";
   showFavsBtn.title = count > 0
     ? "Ver " + count + " favoritas"
     : "Mis favoritas";
