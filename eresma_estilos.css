@@ -1,3 +1,231 @@
+/* FACILE CSS UNIFICADO - CONTENIDO ORIGINAL DE estilos.css */
+body{
+    font-family: georgia, times, serif;
+    color:#333;
+    font-size: 1.0rem;
+    line-height: 1.5em;
+    margin:0;
+    text-align: center;
+}
+.intro,
+.main{   
+    height: 200%;
+    padding-top: 10px; 
+}
+@media only screen and (max-width: 767px) {
+    .intro,
+    .main {
+        padding-top: 140px;
+    }
+}
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p {
+ margin-bottom: 1.6em;
+}
+.container {
+ width: 85%;
+ max-width: 850px;
+ margin: 0 auto;
+}
+
+.header {
+  background: transparent;
+  color: white;
+  padding: 2rem 0;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+    .header {
+        position: sticky;
+        top: 0;
+    }
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+.menu-icon {
+    display: none;
+} 
+.navigation ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ .navigation ul li{
+    display: inline-block;
+ }
+  .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4 s linear;
+    border-radius: 5px;
+  }
+   .navigation ul li a:hover {
+    background: linear-gradient(90deg, #5bd3ff, #b2f1ff) !important;
+   }
+
+.footer{
+    background: rgb(175, 120, 58);
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 767px) {
+    
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+    } 
+    .navigation {
+      width: 100%;
+      margin-top: 1rem; 
+     } 
+     .navigation ul {
+        display: none;
+     }
+     .navigation ul.show {
+     display: block;
+     background: var(--glass-bg) !important;
+     backdrop-filter: blur(12px) !important;
+     border-radius: 15px !important;
+     padding: 12px !important;
+     margin: 10px auto !important;
+     max-width: 95% !important;
+     align-items:center;
+     text-align:center;
+      }
+      .navigation ul li{
+        display: block;
+       }
+        .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4 s linear;
+        border-radius: 5px;
+        }
+        .navigation ul li a:hover {
+        background: linear-gradient(90deg, #5bd3ff, #b2f1ff) !important;
+         }  
+}
+@media only screen and (max-width: 767px) {
+    .header {
+        position: sticky !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    .intro,
+    .main {
+        padding-top: 0;
+    }
+}
+
+/* FACILE SEGUNDA OPTIMIZACION WIDGETS */
+#widgets-container,
+.widgets-bar,
+.facile-info-widget,
+.facile-search-widget,
+.facile-search-form{
+  contain: layout paint style;
+}
+
+.widgets-bar{
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 74px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.facile-info-widget,
+.facile-search-widget,
+.facile-search-engine-wrap,
+.facile-search-input,
+.facile-search-submit{
+  will-change: auto !important;
+}
+
+.facile-date-widget,
+.facile-clock-widget{
+  min-height: 38px;
+}
+
+.facile-search-engine-badge img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+}
+
+@media only screen and (max-width: 767px){
+  #widgets-container{
+    contain: layout paint style;
+    isolation: isolate;
+  }
+
+  .widgets-bar{
+    gap: 8px !important;
+    transform: none !important;
+  }
+
+  .widgets-bar,
+  .widget-box,
+  .facile-info-widget,
+  .facile-search-widget,
+  .facile-search-engine-wrap{
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .facile-info-widget,
+  .facile-search-submit,
+  .facile-search-engine-wrap{
+    box-shadow: 0 3px 8px rgba(0,0,0,0.10) !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .facile-info-widget:hover,
+  .facile-info-widget:focus-visible,
+  .facile-search-submit:hover,
+  .facile-search-submit:focus-visible{
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .facile-search-input{
+    font-size: 16px !important;
+  }
+}
+
+body.facile-mobile-menu-open #widgets-container,
+body.facile-mobile-menu-open .widgets-bar,
+body.facile-mobile-menu-open .facile-info-widget,
+body.facile-mobile-menu-open .facile-search-widget{
+  transition: none !important;
+  animation: none !important;
+}
+/* FIN FACILE CSS UNIFICADO - CONTENIDO ORIGINAL DE estilos.css */
+
 /* ===============================
    ESTILO FRUTIGER AERO MODERNO
 ================================ */
