@@ -3127,6 +3127,61 @@ window.facileStartWeather = function(){
     </div>
   </section>
 </div>
+
+<script>
+/* FACILE MENU MOVIL CIERRE EXTERIOR V1 */
+(function(){
+  "use strict";
+
+  function ready(callback){
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback, { once: true });
+      return;
+    }
+
+    callback();
+  }
+
+  ready(function(){
+    const mobileMenu = document.querySelector(".mobile-menu-native");
+
+    if (!mobileMenu) {
+      return;
+    }
+
+    function closeMobileMenu(){
+      if (!mobileMenu.open) {
+        return;
+      }
+
+      mobileMenu.open = false;
+      document.body.classList.remove("facile-mobile-menu-open");
+    }
+
+    document.addEventListener("pointerdown", function(event){
+      if (!mobileMenu.open) {
+        return;
+      }
+
+      if (mobileMenu.contains(event.target)) {
+        return;
+      }
+
+      closeMobileMenu();
+    }, true);
+
+    document.addEventListener("keydown", function(event){
+      if (event.key === "Escape") {
+        closeMobileMenu();
+      }
+    }, true);
+
+    mobileMenu.addEventListener("toggle", function(){
+      document.body.classList.toggle("facile-mobile-menu-open", mobileMenu.open);
+    });
+  });
+})();
+</script>
 </body>
 </html>    
 
