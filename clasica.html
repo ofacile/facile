@@ -2472,6 +2472,131 @@ window.facileStartWeather = function(){
 
 
 
+
+<script>
+/* FACILE CLASICO - CIERRE MENU AL PULSAR FUERA V1 */
+(function(){
+  "use strict";
+
+  function ready(callback){
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback, { once: true });
+      return;
+    }
+
+    callback();
+  }
+
+  ready(function(){
+    const menuButton = document.querySelector(".menu-icon");
+    const navigation = document.querySelector(".navigation");
+    const menuList = navigation ? navigation.querySelector("ul") : null;
+
+    if (!menuButton || !navigation || !menuList) {
+      return;
+    }
+
+    const mobileQuery = window.matchMedia("(max-width: 767px)");
+    const openClasses = [
+      "show",
+      "open",
+      "opened",
+      "active",
+      "is-open",
+      "menu-open",
+      "visible"
+    ];
+
+    function isMobile(){
+      return mobileQuery.matches;
+    }
+
+    function hasOpenClass(element){
+      return openClasses.some(function(className){
+        return element.classList.contains(className);
+      });
+    }
+
+    function isMenuOpen(){
+      if (!isMobile()) {
+        return false;
+      }
+
+      if (hasOpenClass(menuButton) || hasOpenClass(navigation) || hasOpenClass(menuList) || document.body.classList.contains("menu-open")) {
+        return true;
+      }
+
+      const navStyle = window.getComputedStyle(navigation);
+      const listStyle = window.getComputedStyle(menuList);
+
+      return (
+        navStyle.display !== "none" &&
+        navStyle.visibility !== "hidden" &&
+        listStyle.display !== "none" &&
+        listStyle.visibility !== "hidden" &&
+        menuList.getBoundingClientRect().height > 0
+      );
+    }
+
+    function forceCloseMenu(){
+      openClasses.forEach(function(className){
+        menuButton.classList.remove(className);
+        navigation.classList.remove(className);
+        menuList.classList.remove(className);
+      });
+
+      document.body.classList.remove("menu-open", "facile-mobile-menu-open");
+
+      menuButton.setAttribute("aria-expanded", "false");
+      navigation.setAttribute("aria-hidden", "true");
+
+      /* Si scripts.js abre/cierra con estilos inline, esto garantiza el cierre solo en móvil. */
+      if (isMobile()) {
+        navigation.style.display = "none";
+      }
+    }
+
+    function closeMenu(){
+      if (!isMenuOpen()) {
+        return;
+      }
+
+      /* Primero intentamos usar el mismo mecanismo de scripts.js para no romper animaciones. */
+      menuButton.click();
+
+      /* Si el script externo no lo cerró, cierre seguro. */
+      window.setTimeout(function(){
+        if (isMenuOpen()) {
+          forceCloseMenu();
+        }
+      }, 0);
+    }
+
+    document.addEventListener("pointerdown", function(event){
+      if (!isMenuOpen()) {
+        return;
+      }
+
+      if (menuButton.contains(event.target) || navigation.contains(event.target)) {
+        return;
+      }
+
+      closeMenu();
+    }, true);
+
+    document.addEventListener("keydown", function(event){
+      if (event.key === "Escape") {
+        closeMenu();
+      }
+    }, true);
+
+    mobileQuery.addEventListener("change", function(){
+      navigation.style.display = "";
+      navigation.removeAttribute("aria-hidden");
+    });
+  });
+})();
+</script>
 </body>
 </html>    
      
