@@ -11,7 +11,12 @@
 
   const THEME_KEY = "facile-classic-theme-v1";
   const BG_KEY = "facile-classic-custom-bg-v1";
+  const BG_SOURCE_KEY = "facile-classic-background-source-v1";
+  const IDB_NAME = "facile-classic-background-db";
+  const IDB_STORE = "backgrounds";
+  const IDB_BACKGROUND_ID = "custom-background";
   const DEFAULT_THEME = "sol";
+  let activeBackgroundObjectUrl = "";
 
   const THEMES = {
     sol: {
@@ -165,6 +170,97 @@
     try { localStorage.removeItem(key); } catch (_) {}
   }
 
+
+  function revokeActiveBackgroundObjectUrl() {
+    if (!activeBackgroundObjectUrl) return;
+    try { URL.revokeObjectURL(activeBackgroundObjectUrl); } catch (_) {}
+    activeBackgroundObjectUrl = "";
+  }
+
+  function openBackgroundDb() {
+    return new Promise(function (resolve, reject) {
+      if (!window.indexedDB) {
+        reject(new Error("IndexedDB no esta disponible en este navegador"));
+        return;
+      }
+      const request = indexedDB.open(IDB_NAME, 1);
+      request.onupgradeneeded = function () {
+        const db = request.result;
+        if (!db.objectStoreNames.contains(IDB_STORE)) {
+          db.createObjectStore(IDB_STORE, { keyPath: "id" });
+        }
+      };
+      request.onsuccess = function () { resolve(request.result); };
+      request.onerror = function () { reject(request.error || new Error("No se pudo abrir IndexedDB")); };
+      request.onblocked = function () { reject(new Error("IndexedDB esta bloqueado por otra pestana")); };
+    });
+  }
+
+  async function saveBackgroundBlob(file) {
+    const db = await openBackgroundDb();
+    return new Promise(function (resolve, reject) {
+      const transaction = db.transaction(IDB_STORE, "readwrite");
+      transaction.objectStore(IDB_STORE).put({
+        id: IDB_BACKGROUND_ID,
+        blob: file,
+        type: file.type,
+        name: file.name || "fondo-personalizado",
+        size: file.size || 0,
+        savedAt: Date.now()
+      });
+      transaction.oncomplete = function () { db.close(); resolve(); };
+      transaction.onerror = function () { const error = transaction.error; db.close(); reject(error); };
+      transaction.onabort = function () { const error = transaction.error; db.close(); reject(error); };
+    });
+  }
+
+  async function loadBackgroundBlob() {
+    const db = await openBackgroundDb();
+    return new Promise(function (resolve, reject) {
+      const transaction = db.transaction(IDB_STORE, "readonly");
+      const request = transaction.objectStore(IDB_STORE).get(IDB_BACKGROUND_ID);
+      request.onsuccess = function () { resolve(request.result && request.result.blob ? request.result.blob : null); };
+      request.onerror = function () { reject(request.error || new Error("No se pudo leer la imagen guardada")); };
+      transaction.oncomplete = function () { db.close(); };
+      transaction.onerror = function () { db.close(); };
+      transaction.onabort = function () { db.close(); };
+    });
+  }
+
+  async function deleteBackgroundBlob() {
+    try {
+      const db = await openBackgroundDb();
+      await new Promise(function (resolve, reject) {
+        const transaction = db.transaction(IDB_STORE, "readwrite");
+        transaction.objectStore(IDB_STORE).delete(IDB_BACKGROUND_ID);
+        transaction.oncomplete = function () { db.close(); resolve(); };
+        transaction.onerror = function () { const error = transaction.error; db.close(); reject(error); };
+        transaction.onabort = function () { const error = transaction.error; db.close(); reject(error); };
+      });
+    } catch (_) {}
+  }
+
+  function setBackgroundFromObjectUrl(objectUrl) {
+    document.documentElement.style.setProperty("--custom-background", cssUrl(objectUrl));
+  }
+
+  async function restoreIndexedDbBackground() {
+    try {
+      const blob = await loadBackgroundBlob();
+      if (!blob) {
+        safeLocalRemove(BG_SOURCE_KEY);
+        document.documentElement.style.setProperty("--custom-background", "none");
+        return;
+      }
+      revokeActiveBackgroundObjectUrl();
+      activeBackgroundObjectUrl = URL.createObjectURL(blob);
+      setBackgroundFromObjectUrl(activeBackgroundObjectUrl);
+    } catch (error) {
+      console.warn("[Facile clasico temas] No se pudo restaurar la imagen local guardada:", error);
+      document.documentElement.style.setProperty("--custom-background", "none");
+    }
+  }
+
   function cssUrl(value) {
     if (!value) return "none";
     return "url(\"" + String(value).replace(/\\/g, "\\\\").replace(/"/g, "\\\"") + "\")";
@@ -175,6 +271,7 @@
     if (!url) return "";
     if (/^https?:\/\//i.test(url)) return url;
     if (/^data:image\//i.test(url)) return url;
+    if (/^blob:/i.test(url)) return url;
     return "";
   }
 
@@ -203,19 +300,30 @@
     if (typeof backgroundValue !== "undefined") {
       const normalized = backgroundValue === null ? "" : normalizeBackgroundUrl(backgroundValue);
       if (normalized) {
+        revokeActiveBackgroundObjectUrl();
         root.style.setProperty("--custom-background", cssUrl(normalized));
         safeLocalSet(BG_KEY, normalized);
+        safeLocalSet(BG_SOURCE_KEY, "url");
+        deleteBackgroundBlob();
       } else {
+        revokeActiveBackgroundObjectUrl();
         root.style.setProperty("--custom-background", "none");
         safeLocalRemove(BG_KEY);
+        safeLocalRemove(BG_SOURCE_KEY);
+        deleteBackgroundBlob();
       }
+      return;
+    }
+
+    const source = safeLocalGet(BG_SOURCE_KEY);
+    if (source === "indexeddb") {
+      restoreIndexedDbBackground();
       return;
     }
 
     const savedBackground = safeLocalGet(BG_KEY);
     root.style.setProperty("--custom-background", savedBackground ? cssUrl(savedBackground) : "none");
   }
-
   function closeRadioIfOpen() {
     const radioWidget = $("facileRadioWidget");
     const radioToggle = $("facileRadioToggle");
@@ -277,7 +385,6 @@
     const input = $("bg-url");
     if (input) input.value = "";
   }
-
   function readFileAsDataUrl(file) {
     return new Promise(function (resolve, reject) {
       const reader = new FileReader();
@@ -303,25 +410,25 @@
         input.value = "";
         return;
       }
-      if (file.size > 4.5 * 1024 * 1024) {
-        alert("La imagen es demasiado grande para guardarla en este navegador. ¡Prueba con una imagen más ligera!");
-        input.value = "";
-        return;
-      }
       try {
-        const dataUrl = await readFileAsDataUrl(file);
-        applyTheme(safeLocalGet(THEME_KEY) || DEFAULT_THEME, dataUrl);
+        revokeActiveBackgroundObjectUrl();
+        activeBackgroundObjectUrl = URL.createObjectURL(file);
+        setBackgroundFromObjectUrl(activeBackgroundObjectUrl);
+
+        await saveBackgroundBlob(file);
+        safeLocalSet(BG_SOURCE_KEY, "indexeddb");
+        safeLocalRemove(BG_KEY);
+
         const urlInput = $("bg-url");
         if (urlInput) urlInput.value = "";
       } catch (error) {
         console.warn("[Facile clasico temas]", error);
-        alert("No se pudo aplicar bien la imagen seleccionada.");
+        alert("No se pudo guardar la imagen en este navegador. Puede que el almacenamiento del navegador este lleno o bloqueado.");
       } finally {
         input.value = "";
       }
     });
   }
-
   function wireThemeMenu() {
     const panel = $("theme-panel");
     const toggle = $("theme-toggle");
@@ -363,10 +470,11 @@
 
   function restoreInputs() {
     const bg = safeLocalGet(BG_KEY);
+    const source = safeLocalGet(BG_SOURCE_KEY);
     const input = $("bg-url");
     if (input && bg && /^https?:\/\//i.test(bg)) input.value = bg;
+    if (source === "indexeddb") restoreIndexedDbBackground();
   }
-
   function init() {
     window.facileClassicThemes = THEMES;
     window.applyTheme = applyTheme;
