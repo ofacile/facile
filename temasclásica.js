@@ -192,7 +192,7 @@
       };
       request.onsuccess = function () { resolve(request.result); };
       request.onerror = function () { reject(request.error || new Error("No se pudo abrir IndexedDB")); };
-      request.onblocked = function () { reject(new Error("IndexedDB esta bloqueado por otra pestana")); };
+      request.onblocked = function () { reject(new Error("IndexedDB está bloqueado por otra pestaña")); };
     });
   }
 
@@ -423,7 +423,7 @@
         if (urlInput) urlInput.value = "";
       } catch (error) {
         console.warn("[Facile clasico temas]", error);
-        alert("No se pudo guardar la imagen en este navegador. Puede que el almacenamiento del navegador este lleno o bloqueado.");
+        alert("No se pudo guardar la imagen en este navegador. Puede que el almacenamiento del navegador esté lleno o bloqueado.");
       } finally {
         input.value = "";
       }
