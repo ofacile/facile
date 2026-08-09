@@ -304,7 +304,7 @@
         return;
       }
       if (file.size > 4.5 * 1024 * 1024) {
-        alert("La imagen es demasiado grande para guardarla en este navegador. Prueba con una imagen mas ligera.");
+        alert("La imagen es demasiado grande para guardarla en este navegador. ¡Prueba con una imagen más ligera!");
         input.value = "";
         return;
       }
@@ -315,7 +315,7 @@
         if (urlInput) urlInput.value = "";
       } catch (error) {
         console.warn("[Facile clasico temas]", error);
-        alert("No se pudo aplicar la imagen seleccionada.");
+        alert("No se pudo aplicar bien la imagen seleccionada.");
       } finally {
         input.value = "";
       }
