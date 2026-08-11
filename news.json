@@ -1,15 +1,31 @@
 {
-  "updatedAt": "2026-08-11T18:29:12.077264+00:00",
+  "updatedAt": "2026-08-11T19:39:33.802147+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Una familia se salva por poco antes de que el terremoto de Colombia sacuda su casa",
-      "source": "BBC",
-      "summary": "Una familia se salva por poco antes de que el terremoto de Colombia sacuda su casa BBC Colombia frente a los terremotos: cuando el riesgo también está construido El Mundo Los reyes Felipe y Letizia interrumpen sus vacaciones para enviar un mensaje a Colombia:",
+      "title": "Última hora del terremoto en Colombia, en directo: al menos 224 muertos y 164 españoles en paradero desconocido",
+      "source": "elDiario.es",
+      "summary": "Última hora del terremoto en Colombia, en directo: al menos 224 muertos y 164 españoles en paradero desconocido elDiario.es Las diferencias que separan a los terremotos de Colombia y Venezuela La Vanguardia Pereira vive entre la búsqueda de desaparecidos y la",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52LWxVNmVLTVpLOFRJQkhtRUZDRDJtQkc5WmhnOEpnZnFaTkJMYnFaZ3BOVTJDYWxraTNFTnJIYTFVWWcxcVRPc01xTHM0dDFfdWhzUVdRZDdnTjTSAWBBVV95cUxQUmFxSmNaT3BueThLanIxeFVVM0dMSDdsdlAyTmJDYnAzcl9rYURXVXV1YWFVZjdUMFRLa1pVVElmZXRZZmp2d2NPTGl3U1hRU3Z6blRDT1NQblhQdHo3RkU?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 11:39:22 GMT"
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaGtYQ1h3ZVMwWHJlUms0ZFJscUpsUmN3MjZNMzZLZC16eE10NTdLWmJFNU9UNU5ZTjF2YzBqVmlYdk5PRG1Ndm9aMmNibmVkTGUzaHE2aTkwaFBELWozUlhmWEZxUmotOEw5blllMnlRRm5KVVJ0bVA4RFMzcm1JWlVPcVQ4cmNidV9mTW9XVF82OWZobkpqQ3NTc3ZsRnpONzFjNWJmdkQ1eXdLZFhjdWk4dTVHN0pTNkYyWENuOA?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 14:27:34 GMT"
+    },
+    {
+      "title": "Los preparativos del eclipse solar de agosto de 2026 en España, en imágenes | Fotos | Ciencia",
+      "source": "EL PAÍS",
+      "summary": "Los preparativos del eclipse solar de agosto de 2026 en España, en imágenes | Fotos | Ciencia EL PAÍS ¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España RTVE.es Todos pendientes del cielo: la amenaza de nubes obliga a cambiar",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNWxYVFl6RTlobW9LajdpQlp1Z29XOEExMmh5U2hkandSODd2c2Z2bkU0ZWpEbHZCMVY3NzRmZXoyYTlCZHkxZkhoQUFWVWZpZWdGT29EdmFIekhnLXdBWm5qbFpvc2xqY0VUdnNKNzFnUnB6V1hibFByVUhqUU1Qc2NLWHZ2RE01ZUUzVTdsWUpSdnZEUDlqcF8tSWJiUUdyU0x4RGQxandZdDB5VEE?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 13:35:09 GMT"
+    },
+    {
+      "title": "Nota informativa: Gafas eclipse",
+      "source": "Euskadi.eus",
+      "summary": "Nota informativa: Gafas eclipse Euskadi.eus Ana Martínez Palmer, oftalmóloga: “La retina no tiene receptores del dolor y puede estar lesionándose sin que nos demos cuenta” La Vanguardia Retirados hasta seis modelos de gafas homologadas para el eclipse solar en",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN3dsRFNIOUJMSXY0RjNyTWt2aXctVWp1V2EwUEFHZUpNVjRYMUFSRUdhckJOcmpSaEhiSWcyMXo1TWZRci1FQlBzODlYYmFZTUwwS2owdHAzUDFNLWtBN0Y0WGMtanAwa2I0bjVhMlNCNGRQemxvMUlHaUQ5Q2RPWHE5Z0pjMU9SN0Ruc3N3?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 17:42:28 GMT"
     },
     {
       "title": "Albares visita Ceuta y traslada su compromiso total y permanente con la Ciudad Autónoma",
@@ -20,52 +36,36 @@
       "pubDate": "Tue, 11 Aug 2026 15:44:21 GMT"
     },
     {
-      "title": "¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España",
-      "source": "RTVE.es",
-      "summary": "¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España RTVE.es ¿Dónde ver el eclipse solar en Castilla y León? Los mejores sitios y lugares para verlo en Salamanca, Valladol Diario AS Penúltimo parte: posibilidad de nubes bajas po",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjlqNWU3Z19Ea3UxNmFSTUgwQjlVNjROMzYzelQzVHZiMXJacGJZQ0phbHdNRWJTRXZQNmVNbTl2ckszSUs2WVRxUHpKNFhUTndJbUxoeGVtTXpKSUk3MVN3YnhBRXJxdEp2YVlaVEpkcnJsNkpMQVNhS3Z3WlBSVXZNWEVoXzhsSG5oZ2M4MTZsSWFTeTVGZXNta3BZRWhJejAwdFR0NA?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 12:09:08 GMT"
-    },
-    {
-      "title": "Nota informativa: Gafas eclipse",
-      "source": "Euskadi.eus",
-      "summary": "Nota informativa: Gafas eclipse Euskadi.eus La carrera de último minuto por las gafas de eclipse: “Han estado dos meses muertas de risa y en cinco días se vendieron todas” EL PAÍS David de la Iglesia, fotógrafo de eventos, pone el 'foco' en el eclipse con un c",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN3dsRFNIOUJMSXY0RjNyTWt2aXctVWp1V2EwUEFHZUpNVjRYMUFSRUdhckJOcmpSaEhiSWcyMXo1TWZRci1FQlBzODlYYmFZTUwwS2owdHAzUDFNLWtBN0Y0WGMtanAwa2I0bjVhMlNCNGRQemxvMUlHaUQ5Q2RPWHE5Z0pjMU9SN0Ruc3N3?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 17:42:28 GMT"
-    },
-    {
       "title": "Abiertas todas las hipótesis en la investigación del incendio de Niebla, que recorre 25.000 ha",
       "source": "Hoy",
-      "summary": "Abiertas todas las hipótesis en la investigación del incendio de Niebla, que recorre 25.000 ha Hoy Ver más titulares y perspectivas en Google News",
+      "summary": "Abiertas todas las hipótesis en la investigación del incendio de Niebla, que recorre 25.000 ha Hoy El fuego sigue activo en Niebla: “Es un incendio al que todavía le quedan días de trabajo” EL PAÍS Los desalojados por el incendio de Niebla reviven la pesadilla",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekhvU2JwRjU0X3ExS2t3Y29sV0ZUUF93NEdsM0JyemwxQXlhSHBjX1V5WF9seWFPdVlPQ0twSkR0SjFkZUhsaHM0ZjdwdUFRTy1pTHIxdWtSeUhWbGcyWFRyR3M4NHhHY0xYd2Z3STh1TDZWRjlNTG1OSS1mQ3lmd3ZUbnZaSlRWeDZKX1oxdXNiNVJCRnpwaVViLVJKMnhnVnpqLUNnTXJnS2J3SkZWOQ?oc=5",
       "pubDate": "Tue, 11 Aug 2026 12:15:10 GMT"
     },
     {
-      "title": "Los nueve destinos oficiales de la Comunitat Valenciana para disfrutar del eclipse solar del 12 de agosto",
-      "source": "elDiario.es",
-      "summary": "Los nueve destinos oficiales de la Comunitat Valenciana para disfrutar del eclipse solar del 12 de agosto elDiario.es Cortes de tráfico en Valencia por el eclipse solar el miércoles 12 de agosto ABC Emergencias recomienda llevar agua y comida en el coche ante",
+      "title": "Los cinco \"autocines\" naturales para ver el eclipse sin bajarte del coche en Castilla-La Mancha: vistas privilegiadas",
+      "source": "El Español",
+      "summary": "Los cinco \"autocines\" naturales para ver el eclipse sin bajarte del coche en Castilla-La Mancha: vistas privilegiadas El Español Prestigiosos medios del Reino Unido lanzan un aviso de lo que podría pasar en España justo a la hora del eclipse: \"Existe el temor\"",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVhYdmg5UWlYQ0d5QWVMdmNZOGlWWEpNY0J0N0h0OU5jLUVCWnlMZ0tuZkd2cFJGZ0tUdzhRTE5nQURpYUh6dk1NVUpHTVdOMTdPeGJjaXFDSkV4X3V4TEcwMHBtTkFsSUgxbkI1VF9iODNWa1ZLaGFGcDZuMkdiS3AyZzlfOGZUOXNvV2pBc0djRlhRSUs3djQya3BPSnFfUFlXc0ZhMkZ3RzhDUldXZUlXY19yMlVBTk44US1kR0NTNmdr?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 10:59:17 GMT"
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRTBoR3VLaXJZS2NqT3ZJMWp5SmxCWVVXSHRtdXFZQ29PQ2lNWTNHWUpfZFlSN2VMOW13OGJJQklwS3VPb2VmRjlXdzdfNEFIQXYxWHhxTlV2YnFDSW5RbVhaRFN3M0NraXNSYjZlb0VsWUI3QlFMS0NkdTNXbnNUVDctbU16TTRrNWNjSThfdE4zZW5RQkxjUXU5Zno0Qzh3TGhEYmFjRU1JSFhVd1RZMzYxd0hIN192U0o0RUIycmQ1LWJwaXk2a1dFUWkya09TdWd1dVFYVWlDaEJMYkd6Mngzbk5GblU0WGR3T3doaEhVMHpZMG1hZUV1WmlLS183YzVwMFVSU0NwRjVjNjF5RkRwYm_SAZoCQVVfeXFMTkxzbk8zSnNiNGQ5M2Z6VlI1bS1PQlIyWkxweGw0WkppSUhPNVNrQm0wS2dRcFhWb2pXcm9HTVg5cjVVTDI4T3R6XzdGSVFPWGZNRlEyc1h5MjA5dnBmSEJyTU85VjYxNWlNNUJyMnJCSW9NRTNrazBYSlgtaDVSTnpXa2xuckpVeGlrTVZXWFA1dE5neS1KQ2tpWHVqeXpKV1oyYzJvNU5HakNpVi1KMml3YjBHaUFjZjhSdmdFc2FLSmgzUEN6bWJud3lPWVd5Y2FYSWI4eUVKQk55Z0tQNG5RT3ZZM1lfLUxVSmJIbUhOdUphbnFYenpOb25Ea1VoYkQwX2Q1RzBFR1U3MFk0TnhpS1poUldCcERB?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 15:00:01 GMT"
     },
     {
       "title": "Los expertos coinciden y avisan sobre el eclipse en España: \"Notaremos una bajada de temperatura; en casos extremos de hasta 10 ºC\"",
       "source": "El Confidencial",
-      "summary": "Los expertos coinciden y avisan sobre el eclipse en España: \"Notaremos una bajada de temperatura; en casos extremos de hasta 10 ºC\" El Confidencial De los presagios divinos a la teoría de Einstein: así han cambiado los eclipses la historia EL PAÍS Los bulos so",
+      "summary": "Los expertos coinciden y avisan sobre el eclipse en España: \"Notaremos una bajada de temperatura; en casos extremos de hasta 10 ºC\" El Confidencial \"Una noche rara y breve\": las sensaciones que nunca olvidaremos del eclipse total del 12 de agosto RTVE.es Yolan",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTHVUQmFOQjZ6dEFwR1FyR01nYzg0Q3ZaNlRsVUFEeW44OGg2eUxra0haMGdHU29aMm9IYVdrbk1XcTRNWFo0TWRkd1RKcTJLN2lYSUxHNWdqN2cyaEVBVGhQVEd3NDgxT1g5cll5MDU4dXNvbTVJcExLOEx1SHhvVDAyVjF1aEotV1VWbXRTV2V6anJHVzR4MGlQNU1EdE01Y0dPRWY5RzFURFVVRUNOdlBvaS1EakM1b2lMNXhJeFljYjBDZTdxaWdIXzhZNU42?oc=5",
       "pubDate": "Tue, 11 Aug 2026 08:56:00 GMT"
     },
     {
-      "title": "El informe del Ministerio de Defensa avala la instalación en Ferrol de la fábrica de coches de SAIC",
+      "title": "Así eligió SAIC el puerto de Ferrol para su fábrica de MG: ubicación privilegiada, veinte metros de calado e inminente conexión ferroviaria",
       "source": "La Voz de Galicia",
-      "summary": "El informe del Ministerio de Defensa avala la instalación en Ferrol de la fábrica de coches de SAIC La Voz de Galicia El plan de la china SAIC en España que preocupa al CNI: 120.000 coches ‘made in Ferrol’ para esquivar los aranceles EL PAÍS Robles traslada a",
+      "summary": "Así eligió SAIC el puerto de Ferrol para su fábrica de MG: ubicación privilegiada, veinte metros de calado e inminente conexión ferroviaria La Voz de Galicia El plan de la china SAIC en España que preocupa al CNI: 120.000 coches ‘made in Ferrol’ para esquivar",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQeXp4X3NWelAybVpzc0E5eG9qeGRjemdHUUlDWDNLUGEyWXZlQ0t5YlZOb21rYXNFTjdYd1Z1MUt4OF93T1F0V0pOU2NyNXBGT2V2YXpfeEUxOU1hZnZsb3Bsc2NEeUlEQmJteXFtcUhOOHRGSXhFUjlWYml6V2laYldxMnlfWGdrSFRCY3VobUpQSk5TMWJSWXBzQkRSQmhjdFQyRDlBcHZNUjNZOGVaYmZ0YVZvbktXTWhPV0xKbmRGc05uMUwxLVVBZWRaNWFSN3U3eW1ESkhVVkVLcmE0X0VnM2YyU3pfQ0ZVaXpn?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 14:41:18 GMT"
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRWRQQlFuRERtSXk1d3FVZkVTYy1veWNGS2dnOGtwQUJhZ2ZsOUNFcmxOcHAxR1hRWXMzVzR0WkVaN0IySGtYMlJFUnFoZ1RDSjZaT21tV294cTNxZ29nOTZPaUlzbWNkb29CNXAzVlltYUZET0lfdHBUa2o2QkdWNUlYdFhKU2NQR21DOFpJdmRNSG9VaklvblNKQlF5a2lsNGVSamRncUg0ZVNxT01ETmxZY1dkMG5iOGdDYV9XdUV6RVFZRVB1T21WSlp5eDFlRDA4NDNKeG8xdVpaMEg4aHpNU0puNm41SGtEckdSMnlJNmhaQnhOSW1YUjRVN28zZ19iY1J1NklrN25tRTNEMjlfRGI3OVlTYmpCa0xoRQ?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 18:56:47 GMT"
     }
   ]
 }
