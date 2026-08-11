@@ -1,23 +1,15 @@
 {
-  "updatedAt": "2026-08-11T17:29:57.158761+00:00",
+  "updatedAt": "2026-08-11T18:29:12.077264+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Última hora del terremoto en Colombia, en directo | Asciende a 224 la cifra de muertos por el seísmo en Colombia de magnitud 7,4",
-      "source": "EL PAÍS",
-      "summary": "Última hora del terremoto en Colombia, en directo | Asciende a 224 la cifra de muertos por el seísmo en Colombia de magnitud 7,4 EL PAÍS Terremoto en Colombia: ¿cómo se reconstruye una ciudad después de un seísmo? EL PAÍS Los reyes Felipe y Letizia interrumpen",
+      "title": "Una familia se salva por poco antes de que el terremoto de Colombia sacuda su casa",
+      "source": "BBC",
+      "summary": "Una familia se salva por poco antes de que el terremoto de Colombia sacuda su casa BBC Colombia frente a los terremotos: cuando el riesgo también está construido El Mundo Los reyes Felipe y Letizia interrumpen sus vacaciones para enviar un mensaje a Colombia:",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPelNIeWtab2FseEZJQ0xUbThYbG1aRUdxd1FxdFJrdjBmdUtJLXFFMkkxM3JLTnpudmFra2tkdFlzYUU4RkI1dFlRLXJ6ZHhUOFNBak9BRzJoTGlCU3hvVGZZaWtha2ttQ0Nmb2Zod2IzZHViRWNYQmNpSmxSenZvWEdCZUc4VGJpaGk5LWZuZlU1UzNuVUVfZ05aaVhNMkJ0Vmc?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 14:26:20 GMT"
-    },
-    {
-      "title": "¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España",
-      "source": "RTVE.es",
-      "summary": "¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España RTVE.es ¿A qué hora es el eclipse en Madrid este 12 de agosto? El Mundo Penúltimo parte: posibilidad de nubes bajas por la tarde en la costa occidental y «optimismo» en el res",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjlqNWU3Z19Ea3UxNmFSTUgwQjlVNjROMzYzelQzVHZiMXJacGJZQ0phbHdNRWJTRXZQNmVNbTl2ckszSUs2WVRxUHpKNFhUTndJbUxoeGVtTXpKSUk3MVN3YnhBRXJxdEp2YVlaVEpkcnJsNkpMQVNhS3Z3WlBSVXZNWEVoXzhsSG5oZ2M4MTZsSWFTeTVGZXNta3BZRWhJejAwdFR0NA?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 12:09:08 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52LWxVNmVLTVpLOFRJQkhtRUZDRDJtQkc5WmhnOEpnZnFaTkJMYnFaZ3BOVTJDYWxraTNFTnJIYTFVWWcxcVRPc01xTHM0dDFfdWhzUVdRZDdnTjTSAWBBVV95cUxQUmFxSmNaT3BueThLanIxeFVVM0dMSDdsdlAyTmJDYnAzcl9rYURXVXV1YWFVZjdUMFRLa1pVVElmZXRZZmp2d2NPTGl3U1hRU3Z6blRDT1NQblhQdHo3RkU?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 11:39:22 GMT"
     },
     {
       "title": "Albares visita Ceuta y traslada su compromiso total y permanente con la Ciudad Autónoma",
@@ -28,28 +20,36 @@
       "pubDate": "Tue, 11 Aug 2026 15:44:21 GMT"
     },
     {
-      "title": "Cómo saber si tus gafas para el eclipse solar son seguras y no pertenecen a los lotes retirados",
-      "source": "heraldo.es",
-      "summary": "Cómo saber si tus gafas para el eclipse solar son seguras y no pertenecen a los lotes retirados heraldo.es La carrera de último minuto por las gafas de eclipse: “Han estado dos meses muertas de risa y en cinco días se vendieron todas” EL PAÍS Daniela, la mujer",
+      "title": "¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España",
+      "source": "RTVE.es",
+      "summary": "¿A qué hora es el eclipse? Inicio y duración de la totalidad por municipio en España RTVE.es ¿Dónde ver el eclipse solar en Castilla y León? Los mejores sitios y lugares para verlo en Salamanca, Valladol Diario AS Penúltimo parte: posibilidad de nubes bajas po",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNnRUdTd5QklCMEd2cGcydmFlbmNMTlZOMkIzbkdoZUhtTFU4aDZnSWNsSGJseG9qS19QbG5EMjRuYmdwYVI1M2l1czNpRFRGeGZnSDJBMnlqdWN5d3dRS0Y3VmM5QUV1U1o5Q0x3SGtkMmhKX3UxQjBuSERLbVpOOGZSUEFJOTZlQ1I5dTZsbThrZVVYTElEb09JWEtHcUMzelVCOWFZOTdaZjNkUExzTTFKbUc3TVRiWXQ3VS1xY0Jvd1Y0Q2fSAcsBQVVfeXFMTklBb1FqaWlkQTBQZHVnRTVNR3ZmRzNfd2o0RGxwalFKTG10NG5iSkN2SVRtYzFVVHBDYUtkT2F4Z3Y3VlVfcDk4UXBPNFJvNEJ1blpfdkVIOTdpZDNNVURBa3JRdjZkSE5vRjFKRXJqNVQtdHg5elB3SmExblRReTZDLU9PbmRaRVoyYkxXczFadmVDRmlsMWxxdHd1REF3Z1VraGMtd2tXUzkzOE5kTFZ5X0xzeXkyY25LdW9WckJ1Uk1STzNFX1BRNGc?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 15:42:18 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjlqNWU3Z19Ea3UxNmFSTUgwQjlVNjROMzYzelQzVHZiMXJacGJZQ0phbHdNRWJTRXZQNmVNbTl2ckszSUs2WVRxUHpKNFhUTndJbUxoeGVtTXpKSUk3MVN3YnhBRXJxdEp2YVlaVEpkcnJsNkpMQVNhS3Z3WlBSVXZNWEVoXzhsSG5oZ2M4MTZsSWFTeTVGZXNta3BZRWhJejAwdFR0NA?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 12:09:08 GMT"
     },
     {
-      "title": "Prestigiosos medios del Reino Unido lanzan un aviso de lo que podría pasar en España justo a la hora del eclipse: \"Existe el temor\"",
-      "source": "El HuffPost",
-      "summary": "Prestigiosos medios del Reino Unido lanzan un aviso de lo que podría pasar en España justo a la hora del eclipse: \"Existe el temor\" El HuffPost Rifirrafe entre el Gobierno de Ayuso y la Delegación a cuenta de limitar los accesos a los montes durante el eclipse",
+      "title": "Nota informativa: Gafas eclipse",
+      "source": "Euskadi.eus",
+      "summary": "Nota informativa: Gafas eclipse Euskadi.eus La carrera de último minuto por las gafas de eclipse: “Han estado dos meses muertas de risa y en cinco días se vendieron todas” EL PAÍS David de la Iglesia, fotógrafo de eventos, pone el 'foco' en el eclipse con un c",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSTJUWjNGa3dnQmVPOHFaM2tmUUd4VktxTld6eVdiYVByOXJKWlJINWpzb21PVW1mNXpNemVhdzZtcEcxVWRZMWJSanhwT3UycFRmRHozallRZEdfVEhBSnRjSEU3MXpGRUUydExfVl9UaGtNdUV5c3VUNEpuQkdGdkdHTHFSMDhQWmptbzhXRlYycnpLUFF5MEZ4eXFLZFZlRDd5OXdIZHdUZDUxOFJBcmc2dXpJX1lvYmlvRlhmcEFsTmZfV3c1UU9wT0pLNjBFQTRtNndoONIB6wFBVV95cUxONFZRT3ZWVEVfa0JQdllXclJpWE1LNE1CXzFRbExlYjFjZmFMMDlSQU0zX3U5dk5kdFFuRV91cEQ1ZGVjdlBRWmlybXFHVVZFdWFCUVpmZWFxZlBQUWczNXUxR215SldRV3hSTkJUTE54VGpyM0hablUzdF9KZkNPSzNIX2NVWFozeEFlanlwcGotTUx5VlVjTVRIWnpNYy14cGVmdWVMMmp1b0hhTkoybXl4cGRnUFZ1TWh1SGZuS1NrNXlMTlpHS3JRYmNRMG5COEFBTVFENUhYTVdWV2FnSFdqdHloc2MydDlV?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 07:14:43 GMT"
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN3dsRFNIOUJMSXY0RjNyTWt2aXctVWp1V2EwUEFHZUpNVjRYMUFSRUdhckJOcmpSaEhiSWcyMXo1TWZRci1FQlBzODlYYmFZTUwwS2owdHAzUDFNLWtBN0Y0WGMtanAwa2I0bjVhMlNCNGRQemxvMUlHaUQ5Q2RPWHE5Z0pjMU9SN0Ruc3N3?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 17:42:28 GMT"
     },
     {
-      "title": "Una app calcula minuto a minuto cómo se verá el eclipse del 12 de agosto desde Navarra",
-      "source": "Noticias de Navarra",
-      "summary": "Una app calcula minuto a minuto cómo se verá el eclipse del 12 de agosto desde Navarra Noticias de Navarra “Con tanto tráfico, se pueden hacer embudos en los peajes; es mejor salir por la mañana” Noticias de Navarra Alerta sanitaria por altas temperaturas en N",
+      "title": "Abiertas todas las hipótesis en la investigación del incendio de Niebla, que recorre 25.000 ha",
+      "source": "Hoy",
+      "summary": "Abiertas todas las hipótesis en la investigación del incendio de Niebla, que recorre 25.000 ha Hoy Ver más titulares y perspectivas en Google News",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYl9hdGxkVndfWFBKdkJaajJIYk9vUDhYUU9JcUZ6Z1ptY2pCS29GRjQ4Mm8wS3o2R0l6OHBuTFE1RmV6X3FwbWJ0NUZKbDdhZUJxYkdRWWYyVHRFcmVzWmZBTmdyTzYyNmlrY2twZUUtVGp6cS1HMk1NcU83azBZZjhPc3czSG9JT2tVa3dWUF9KZXdGWmtFSUdpU19qNHPSAaQBQVVfeXFMT0dRU0J5ZDVpUWdqRFlsVDl5U0JNcHhsSm4zeTl3Yjd3aWNOUk9sd2Vkd2hXdHoyNkxtbHFKaEtVdUZscThVdjFwNEVsVlF2ZHJ5T0lBSFpwNUU1Qm1OOURxU3pBNWplVzliUkR0VmQ0a0VzUGphcEVBdlM0XzRDb1dVRDl3ZzF0MjRaSmZveGxGdkNnNVhLaVFDWWRxQlF4V0FLcDY?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 09:20:28 GMT"
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekhvU2JwRjU0X3ExS2t3Y29sV0ZUUF93NEdsM0JyemwxQXlhSHBjX1V5WF9seWFPdVlPQ0twSkR0SjFkZUhsaHM0ZjdwdUFRTy1pTHIxdWtSeUhWbGcyWFRyR3M4NHhHY0xYd2Z3STh1TDZWRjlNTG1OSS1mQ3lmd3ZUbnZaSlRWeDZKX1oxdXNiNVJCRnpwaVViLVJKMnhnVnpqLUNnTXJnS2J3SkZWOQ?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 12:15:10 GMT"
+    },
+    {
+      "title": "Los nueve destinos oficiales de la Comunitat Valenciana para disfrutar del eclipse solar del 12 de agosto",
+      "source": "elDiario.es",
+      "summary": "Los nueve destinos oficiales de la Comunitat Valenciana para disfrutar del eclipse solar del 12 de agosto elDiario.es Cortes de tráfico en Valencia por el eclipse solar el miércoles 12 de agosto ABC Emergencias recomienda llevar agua y comida en el coche ante",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVhYdmg5UWlYQ0d5QWVMdmNZOGlWWEpNY0J0N0h0OU5jLUVCWnlMZ0tuZkd2cFJGZ0tUdzhRTE5nQURpYUh6dk1NVUpHTVdOMTdPeGJjaXFDSkV4X3V4TEcwMHBtTkFsSUgxbkI1VF9iODNWa1ZLaGFGcDZuMkdiS3AyZzlfOGZUOXNvV2pBc0djRlhRSUs3djQya3BPSnFfUFlXc0ZhMkZ3RzhDUldXZUlXY19yMlVBTk44US1kR0NTNmdr?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 10:59:17 GMT"
     },
     {
       "title": "Los expertos coinciden y avisan sobre el eclipse en España: \"Notaremos una bajada de temperatura; en casos extremos de hasta 10 ºC\"",
@@ -60,12 +60,12 @@
       "pubDate": "Tue, 11 Aug 2026 08:56:00 GMT"
     },
     {
-      "title": "El PP avanza que Robles comparecerá la semana que viene en el Senado para tratar la crisis migratoria en Ceuta",
-      "source": "RTVE.es",
-      "summary": "El PP avanza que Robles comparecerá la semana que viene en el Senado para tratar la crisis migratoria en Ceuta RTVE.es Robles y Marlaska insisten en plantar al PP en el Senado esta semana EL PAÍS Moncloa desmiente que Robles haya confirmado que va a comparecer",
+      "title": "El informe del Ministerio de Defensa avala la instalación en Ferrol de la fábrica de coches de SAIC",
+      "source": "La Voz de Galicia",
+      "summary": "El informe del Ministerio de Defensa avala la instalación en Ferrol de la fábrica de coches de SAIC La Voz de Galicia El plan de la china SAIC en España que preocupa al CNI: 120.000 coches ‘made in Ferrol’ para esquivar los aranceles EL PAÍS Robles traslada a",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSWNCMmRqWTFnbTNzNG9RUnhaQTYzOHFWbGI0c25ia3BjU3RDMTdxSG5PM3FQeDhJUVpYNC1lajFfek42ZHExZXUxaUhRVllpRTRXNHg1SFI4NXM3amdRWXp6bU00OFd6R2d2YXVmdUZEWndZcnpNN2V2QUtEWUFNVC1nX0ltUG80ZVJxNm1xdlRwU2FEdkVNd3BEWWp1SzZxcmY0SDctby1KZFg4dEdJbmM1Q25tS2h5YnhoVHJTT21aMS1DTzVnQTlFSmJsRzExbEpZ?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 12:35:33 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQeXp4X3NWelAybVpzc0E5eG9qeGRjemdHUUlDWDNLUGEyWXZlQ0t5YlZOb21rYXNFTjdYd1Z1MUt4OF93T1F0V0pOU2NyNXBGT2V2YXpfeEUxOU1hZnZsb3Bsc2NEeUlEQmJteXFtcUhOOHRGSXhFUjlWYml6V2laYldxMnlfWGdrSFRCY3VobUpQSk5TMWJSWXBzQkRSQmhjdFQyRDlBcHZNUjNZOGVaYmZ0YVZvbktXTWhPV0xKbmRGc05uMUwxLVVBZWRaNWFSN3U3eW1ESkhVVkVLcmE0X0VnM2YyU3pfQ0ZVaXpn?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 14:41:18 GMT"
     }
   ]
 }
