@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-13T17:31:49.258222+00:00",
+  "updatedAt": "2026-08-13T19:08:31.993556+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "Las impresionantes imágenes del eclipse solar total que se pudo ver en Europa",
       "source": "BBC",
-      "summary": "Las impresionantes imágenes del eclipse solar total que se pudo ver en Europa BBC Las 10 lecciones que aprendimos del eclipse solar que hechizó a España El Mundo La resaca de los astrónomos tras su gran momento con el eclipse: “Me costará tiempo procesar todo",
+      "summary": "Las impresionantes imágenes del eclipse solar total que se pudo ver en Europa BBC El mapa de las fotos del eclipse: así se vivió en distintos lugares de España EL PAÍS Los científicos ante el eclipse: «Entendí los mitos de la Antigüedad y experimenté yo mismo",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ubm1vZklocW5oUjB5cmQ3LXdrWi1XRTB1ZHdGMXdhVm10RGIydUo2ai12eXNyenB0ak1qVGs0V1dEa28wUFNxZFF3dFBuNW41Z09hLTZjdHNDQTTSAWBBVV95cUxQZGpFN3BqWDlIR1lmSTJVY3NwMFpjemZmclEwSkc0Y1VTOFhFUVJCbDNqbl9yTFZ4WnlXWnFMc1ktb244N3hLMGkzWUd3b0ZvQTByd3ZLc041aWdhOEJHTjg?oc=5",
       "pubDate": "Thu, 13 Aug 2026 07:46:20 GMT"
@@ -20,14 +20,6 @@
       "pubDate": "Thu, 13 Aug 2026 13:55:09 GMT"
     },
     {
-      "title": "El Gobierno fuerza el choque con el Senado por Ceuta y aboca el caso a los tribunales",
-      "source": "El Confidencial",
-      "summary": "El Gobierno fuerza el choque con el Senado por Ceuta y aboca el caso a los tribunales El Confidencial Última hora de la entrada de inmigrantes a Ceuta | Robles anuncia que no irá al Senado la semana próxima y apunta a la vuelta del verano EL PAÍS Robles aplaza",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbU1TRVdFTlFuRndCMWc2WmdsZHZYNjFieXBBM19xZUFScGd6WkpEUmhTaUR2Ynk0ajlCYUh3M21aMXJtdjVSUElfdnBuYUxQSEtZa2FmUG51Zzdyb1d6YTZtMTFPYnRKRXNLMUtybUlRc056M0FoY3BZaTA4YzRfbkswbDFLOHZ3Nmxob0V0Mk1nSncwRk5YeC1kUkRtNTd0U2VoWGluRQ?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 03:00:00 GMT"
-    },
-    {
       "title": "El incendio de Riglos amenaza la cuna de Aragón: las llamas entran en el entorno de San Juan de la Peña y acechan el Monasterio Nuevo",
       "source": "elDiario.es",
       "summary": "El incendio de Riglos amenaza la cuna de Aragón: las llamas entran en el entorno de San Juan de la Peña y acechan el Monasterio Nuevo elDiario.es El incendio de Riglos amenaza San Juan de la Peña y la UME rescata in extremis los bienes históricos heraldo.es El",
@@ -36,36 +28,44 @@
       "pubDate": "Thu, 13 Aug 2026 16:35:17 GMT"
     },
     {
-      "title": "Última hora del terremoto en Colombia, en directo | La cifra de muertos asciende a 265",
-      "source": "EL PAÍS",
-      "summary": "Última hora del terremoto en Colombia, en directo | La cifra de muertos asciende a 265 EL PAÍS Tres días de duelo nacional en Colombia por la tragedia que deja ya 188 víctimas mortales El Mundo El terremoto expone carencias históricas de Chocó, una de las zona",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZW5YV0dmSTdFWE5zTUpTTVNObVlfMC1xME15b3M4aFdSSDQwZW5pTmVjbEMxajRCaFN1X0JQRUIxMzRjZWFtUi1rWFY5RDRadDV5QV9HYTdUWGNIUWNuT2JsYlQ0a21FZlVuRDhKLUwzM2dZQU91OUZvTFpDZ25Qa0hlYnFyXzF5cFFrUUU2Y2ZjcEU3d1ZfTUItb3E4SzNtTlE?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 14:59:21 GMT"
-    },
-    {
-      "title": "Protección Civil y Emergencias alerta por chubascos y tormentas intensos en amplias zonas del interior peninsular",
-      "source": "ministerio-interior",
-      "summary": "Protección Civil y Emergencias alerta por chubascos y tormentas intensos en amplias zonas del interior peninsular ministerio-interior Fuertes lluvias y tormentas este fin de semana: las zonas más afectadas Eltiempo.es Llega una vaguada y cambia el tiempo en Es",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdi1kM1czQ09Ob3E4MnBHMFdzYnRGd2VwMXVLNk9mbUJ5SnkwU2lhQk92SndmRzJKSWhnbHZpQnRNR3VnY09Kd2F0OGZHaTZLSjJWSEtMd3Rjc3ZYUEhuaU0wcTZ4TEM3c2JrT240NGc3d2FUdFU0U1BCNmFkb1F5aDV5ZUM4dDZHNWJFaUg1QUNueDR6d1FoOExNZHN0S2VtMnJNczBlRHR4TTYyTk5kZXptYnJzZkc5WXYwNEotbWVMbDBGYXI3ZHhDUXhYQzVPTlE5V09PREtycXhsX2FZbC0yYXdoWC1UNkpKYzRqd29GWllYRUdyd3BjWmw3dFU?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 14:12:09 GMT"
-    },
-    {
-      "title": "Marlaska vuelve a Ceuta: el ministro de todas las crisis de Sánchez",
-      "source": "La Razón",
-      "summary": "Marlaska vuelve a Ceuta: el ministro de todas las crisis de Sánchez La Razón Marlaska envía a Ceuta más policías de Extranjería para acelerar la expulsión de 5.000 migrantes EL PAÍS INFORMATIVO DE CEUTA 13/08/2026 RTVE.es Marlaska llega entre protestas a la De",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdVNuR1dKOVJwWjc5SnBfcHQ0cmtDZ2hTdWR1d3JkV0V0ZHBtNUVIYkNmX2VVRURSLXMtcm9zS25XMHlYOGROWEpueVFxQnM5Mk52N1lNUURBR3k4cGRSUDhHWUc3Q0dYMjVJWEFCUlBlelFxREtUZ05ialdUbzNueUpwU05BZlJ2cG1KT0ZaLVplSTc1RlBrSF9oaHZYb2dpTWQ5Zkc5SUQ0R1VsZnFvSm5XNldhUG9Ld1Qw0gHPAUFVX3lxTFBtVUUyOGNtTDBJUFhUR1QyX3RXbFY0SXBjejFNcnp2dC1EQ0c5QmV3bU02cUhaUTdfV1lYOExuZEZydFlSVHBWNUo3UjI1YWFUWGJlTEkwanNWdXEzdWdrZU1rWWdYamdmODcwOHZ4VEFGZnF3Rk4taTRGblc1Mk9yNHRNbFRHbnhWSF9UazU0clV2THNJcGZCZE5NcEIwaG0zWUxwVERHekctOWNvRjBmRlg1S3lYQ19OeXhmOVNlM0xBaVNxZzVuR1NLaVVtVQ?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 09:01:27 GMT"
-    },
-    {
       "title": "Marlaska cifra en 5.000 los inmigrantes que quedan en Ceuta y envía agentes para acelerar las expulsiones",
       "source": "El Confidencial",
-      "summary": "Marlaska cifra en 5.000 los inmigrantes que quedan en Ceuta y envía agentes para acelerar las expulsiones El Confidencial Última hora política, en directo | Interior cifra en 5.000 los migrantes que permanecen en Ceuta y eleva a 1.898 los menores identificados",
+      "summary": "Marlaska cifra en 5.000 los inmigrantes que quedan en Ceuta y envía agentes para acelerar las expulsiones El Confidencial Vivas denuncia \"máximo riesgo\" en Ceuta y pide al Gobierno \"desestimar\" las solicitudes de asilo cope.es Al menos 5.000 migrantes siguen e",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWm5WSmtuYVpScW5ObWpsNUEwUzFsUTVQR3RCYTJoWHAxMzZ3a0REUnpmZndZUTlndnB2NnlVTmxBUkNDMEFsNnc3VmxGU1M3OWVCMzN5Y2k2ZTVmbEFGM3pRSzF0SElIaFdLUkJ2TWtCeFBOVmp2R1dHMUxBb2hvVUo0dEZWTEMwZUxZRzBiaWRmTlRscUtBMk9yNWpPQklrVGNLWEYwQWZXQWxWSWluazRfR29kaWxxZWtkR3ZfdlNOX25ZTzYzQnNfVVpJZWNjd3E2M2hsLTVvUFhIN21VTzRnLUNhSmpJSWVrNXNnWlhrUFE?oc=5",
       "pubDate": "Thu, 13 Aug 2026 13:11:00 GMT"
+    },
+    {
+      "title": "El PP amenaza con \"decisiones legales y políticas\" tras el plantón de Marlaska al Senado",
+      "source": "La Razón",
+      "summary": "El PP amenaza con \"decisiones legales y políticas\" tras el plantón de Marlaska al Senado La Razón Robles aplaza su comparecencia en el Senado para poder ser más \"precisa y exhaustiva\" en sus explicaciones sobre la crisis de Ceuta elmundo.es Robles también rech",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM0d2d0pWUjdJLXRLUWl1WDRiUFhFZG0xR3JiM2N5ck5VSHpsR2hMQ3VsT2dadzNEU0p1c0VqalpLTFFOYlY5YXBoRzRUNTdLcUFmeEE2RFZQRW1VUkwzbERLNEtyVmJjMDhJbTkya2pqdmdtMUZ3VHhSaGFOSXYzRG11Q0ZMZVVHdEw5WGo1T0hqbTdZN3J6ME51RU96aTlPV2dLV005U1QyemNISjJtWmJMVWlFUVo2ckpvYlFGTGJWNkFCU0pr0gHbAUFVX3lxTE9vYi1GaWhzZHpwbWlSNS1jTXc3eDJjX1NteHI3RXF5cUNjemVtZlZIMlVkd1ZfeWJiMkEyOF9HZ0I4bnZrdG9oeU5GZDI0aG5XRDJhUGVWOEpaSk5SelVmYklOMGRGT3I4dDFoQUxXRjZ4XzM3bVJEOVJpNTlsT0dRaEl1RkFyUFo3UEJPUzVObzl1S1JnaGk0am9fT2VBcUQwSW1UWk10a0VoOTZsYTJRbkVpeTdwenYxOG1CRlF2bmJTYm9jNnByZFA3V0xwcTdtem9fVDFpb0Z3NA?oc=5",
+      "pubDate": "Wed, 12 Aug 2026 10:05:58 GMT"
+    },
+    {
+      "title": "Última hora del terremoto en Colombia, en directo | La cifra de muertos asciende a 273",
+      "source": "EL PAÍS",
+      "summary": "Última hora del terremoto en Colombia, en directo | La cifra de muertos asciende a 273 EL PAÍS Colombia eleva a 273 la cifra de fallecidos por el terremoto mientras busca supervivientes más de 72 horas después RTVE.es Sube a 273 la cifra de muertos y a 377 la",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZW5YV0dmSTdFWE5zTUpTTVNObVlfMC1xME15b3M4aFdSSDQwZW5pTmVjbEMxajRCaFN1X0JQRUIxMzRjZWFtUi1rWFY5RDRadDV5QV9HYTdUWGNIUWNuT2JsYlQ0a21FZlVuRDhKLUwzM2dZQU91OUZvTFpDZ25Qa0hlYnFyXzF5cFFrUUU2Y2ZjcEU3d1ZfTUItb3E4SzNtTlE?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 16:57:50 GMT"
+    },
+    {
+      "title": "Marlaska envía a Ceuta más policías de Extranjería para acelerar la expulsión de 5.000 migrantes",
+      "source": "EL PAÍS",
+      "summary": "Marlaska envía a Ceuta más policías de Extranjería para acelerar la expulsión de 5.000 migrantes EL PAÍS El Gobierno admite por primera vez que su política potenció la avalancha sobre Ceuta: \"Ninguno de ellos se va a regularizar\" elmundo.es Marlaska vuelve a C",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQnhRTUhIclRLNE5pTkswdmNrUHpiNDMzb3ZXNjA2aVJoenV3bVNadGVycVNWY1BicW80YlFYVG1EVmdwbS1MYzBjdS1EVlZEcXBlVnc2MVRwZjFTMFI4NDhJdkZqbVJkZXdXRmtxYnh2RXc5Y2RaVXQtaWpEUUhvZnZxa2pNRlY2RDQyY2lXNEFyRV9NLURjRUlRcDdWUG9RRGlvVmxHTXdFaUd6VnhReU9lQktPdkZ6TE5kZDgwamszMU5CN1p1c2RYYlY?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 12:43:31 GMT"
+    },
+    {
+      "title": "Prisión provivisional sin fianza para la hija y del matrimonio asesinado en Tauste y su pareja",
+      "source": "Cadena SER",
+      "summary": "Prisión provivisional sin fianza para la hija y del matrimonio asesinado en Tauste y su pareja Cadena SER Envían a prisión a la hija del matrimonio asesinado en Tauste y a su pareja elmundo.es Más Vale Tarde (13-08-26) Un embarazo, una relación conflictiva y u",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQQVh5eHN1QTdId1FtTWVIeExTMXhDOWo3R3JsMXlTcDNhNnJIVnBCQjFUOHJqU1JlNldzRGNnSzFLZ2Nlb2MxaFZ5bUtnTTllUEFwODZtWnFtQURlVlZoLXJFcHFFeDk4MDQ4N1VrWjdGa1kwU1d1Q1M5MTMwMDZseFRpSmV1TlZMc3hFdjV4aE9hRjJVZm54V21rdDNzNnV2eGl0LXVOaXBsMHpEQ3pjU2hvV1hrcjEwNlJWVUdzb25BaE9Kc3ZGS2puQWFQRGV3elBrZ1hYdTVsbk5FbzJuVzQzQ1d5dllQT1ZnYkNvcnVfNGxPMTRVUS1mZjZ2WGx1bkhyTFM5d2V6b2k1LWVfcmd30gGmAkFVX3lxTFBSMk1lMl9QMUZYd19VRl9ZOGlsbFJUV2Z5Vlpfdl9ZMElHQjhQUkdVNG85OU9idUJJWG9MYUJVUjRhNXEtU2Fic3J2MVJaY0hyYS1QTXFheU9UMXlmREZKcXhqbVFYTU12b0JQZ05HUUE3V1dWU21UU09BZk9GVWs4Y0l4N1p4Q0ZuM1hDQnRpM24walgtcTl2bVA0N0hYcjVuSEpISTV0M2ZmQTRMRDFPakwxVjRRbXBNcUJxX0ltSUY5dWs0VjU1WHc1NWdFbzBpWEZteGJ1UElyWWMwQ013ZmFsTHd6bjNxZVVvWkNZQTVGbXhSeG1zN1RobVloRFRXUDZDNjBaRmZfbTRxekkxRmVlMFRzOU9XMG1SVk1TUGFUX0pTdw?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 15:33:45 GMT"
     }
   ]
 }
