@@ -1,47 +1,31 @@
 {
-  "updatedAt": "2026-08-15T10:27:50.108390+00:00",
+  "updatedAt": "2026-08-15T10:51:36.202584+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "La desinformación se cuela en los grupos de WhatsApp donde se habla de otro intento de entrada a Ceuta",
-      "source": "RTVE.es",
-      "summary": "La desinformación se cuela en los grupos de WhatsApp donde se habla de otro intento de entrada a Ceuta RTVE.es Última hora de la entrada de inmigrantes a Ceuta, en directo | Marruecos frustra un nuevo intento de alcanzar Ceuta de cientos de migrantes EL PAÍS D",
+      "title": "¿Se abrirá la frontera de Ceuta el 15 de agosto? : las noticias falsas se propagan por las redes sociales",
+      "source": "France 24",
+      "summary": "¿Se abrirá la frontera de Ceuta el 15 de agosto? : las noticias falsas se propagan por las redes sociales France 24 Última hora de la entrada de inmigrantes a Ceuta, en directo | Marruecos frustra un nuevo intento de alcanzar Ceuta de cientos de migrantes EL P",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPazFUMkV1SnNLUHQ3TkNtQm5qQ1NxNUFkV3pKQURQMDRjQnBNYWJoT0c2LVVfczM3WmJVZlQ5V0tHX09nd2JTaVJKbjE1RmVNLWlKRGtxYlU4OW5GRVNPRlMzRXBlY3lHd1Q2aHBjLTlfeWZyZDl1NVpmVjVRSWdiLW9rNXhXclpvNDBTTFZYb0JIMUxGbW90RmhQWTcxRzgtQzJ1ZU1QUkE?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 06:00:15 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTldXT1pzeVJJQ3Nja284TjFidURkSmZIQkJpSTRPenhmYVJUTDFyLTl3cncwRnIxMjFVVWtnT1c2TUJScWZIeDdyaXZ4UHA1TE01YzB5X19XbklmdVFDTk1BR1VWbVFDdGw5cUw4cmpFRU1NVkJtMkdZRGQxU2RTTi1GdkFGdmpWLV9GQWo2RWo5anFpZFBMZUFCLUg0RnNoNDZnZ3JTaFg4eXVYRHNZTzBUSjFDdTRDRXJ6MWt2clVZWEFqY1lfNmtRRnVEWVl3Sko1Tlc3UmdweFpUYW5rckR2SUI?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 17:07:55 GMT"
     },
     {
-      "title": "Un terremoto de magnitud 5 hizo temblar Granada: provocó daños materiales y evacuaciones de emergencia",
-      "source": "infobae.com",
-      "summary": "Un terremoto de magnitud 5 hizo temblar Granada: provocó daños materiales y evacuaciones de emergencia infobae.com Un terremoto de magnitud 5 sacude Granada sin causar víctimas EL PAÍS Alhendín no registra daños pese a ser el epicentro del terremoto de Granada",
+      "title": "Un sismo de magnitud 5,2 golpeó el sur de España y provocó destrozos en Granada",
+      "source": "La Nación",
+      "summary": "Un sismo de magnitud 5,2 golpeó el sur de España y provocó destrozos en Granada La Nación Un terremoto de magnitud 5 sacude Granada sin causar víctimas EL PAÍS Un terremoto de magnitud 5 sacude Granada durante la madrugada El Mundo Nota de Prensa: Situación de",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd2plLVZ6TElBQXIxamJJbHJyMEV6REpaQ3pLN3dDQkFFd0RicWtWVlA3RGRIUm9tTU5VaEd5SndGdXJTb0kxbGtQTWp4WDhwMnlTR0pGSVdBM2VPenBKa0JaUlZIMnFuRmVScVd4UmZOMHFpcVhTZ1NRd0VNY2Vvd2Z6UDdoNWNINXRseTF5YTRBUEJmbEMtQ1VDUHlQanhxbXRkb282R2V1VHNhOTlvWVU4bHlrV24wRmZoNFhheDlhZm83Ym9uNEd1YmxOOFRzS0ZmZTBzdWVUNzN60gH3AUFVX3lxTFBQOE5xUlBJUm5DbF9tUDFCUXRZOUpsUnI3YjUxSDJ0bEpaSWNGaDF5N2pVbE5kVFFfanhBOUZIT3NuZlVTRkZnYVJ5OVhwX2tlbFh2WngtdGJ1Y0gyaHo2MDl4WUlOTFdscWh3UEc0MmUteEpHNVluN3ktWUZDWW5idkF6Q0tCOG5hTEFYdV9ndk9tRGtvWHpKM2E4Wlk3dWI5a3RGd0laNEFaUDNQZms1eDR6Y081T21oNDNBODBTSnRZWjBtYWhUVHIwZ3VxX1U1SUJETGtIY2hPbVBFVjRRYmlrME9la0laeE9weVd4NkRaQ2tjQ2s?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 03:41:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdEZTd1VaT0puU0JlZ1UtaXdzZXlXVFlVdzRvNF9ILUVLRnNmRHAzT1pGT3dxcGF5SVpwNEFPcVlpcF9zdjRUcjE1RHA2X2o1bDhYMmN1N2JldDVaMjRiX1NRQ2hlS0pQRkxmRVF1MEt3UlktV1JHSHMwUmNtWnJOSFpSN2NNYTJua21TS3poTHoyX3ZYNUYtUnZxUnhhdw?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 05:45:00 GMT"
     },
     {
-      "title": "Noche complicada en el incendio de Riglos, que supera las 15.000 hectáreas y obliga a mantener el máximo despliegue",
-      "source": "elDiario.es",
-      "summary": "Noche complicada en el incendio de Riglos, que supera las 15.000 hectáreas y obliga a mantener el máximo despliegue elDiario.es Los restos de los Reyes de Aragón, desalojados por un incendio en Huesca: \"No hay un solo reino de Europa que tenga los restos de su",
+      "title": "La Universidad de Granada consolida su posición entre las mejores universidades del mundo en el Ranking de Shanghái 2026 y se sitúa como quinta universidad española",
+      "source": "Canal UGR",
+      "summary": "La Universidad de Granada consolida su posición entre las mejores universidades del mundo en el Ranking de Shanghái 2026 y se sitúa como quinta universidad española Canal UGR España pierde peso en el ranking de Shanghái: solo 30 universidades en la élite lastr",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPajAxRmFjMDlFcGJEaEx0ZlpIdldocWNVQTl1NWNZZHNOYVZuN2hxRUxiZFNlY0NXMmRIQkNBc3NsY1JiYnRrQkdlclVGaTJqY3hWQlRiQnJIczJ3Y2VhQ1FxWG1lMHRZemJEM3JIVnV6by15Sy1SYnJBQ1NRQ2p1NklFaTVoS3BjZjl2QWdLajctaEd5ZlJ4d0w2YzU1QVhaVEFNSGV2eE1qeFJFMTFVb2czOWF5ZVVGb2s0SXk4RUJYQWF3YXJCd0w4S3lBRkwxUVpvbGUtbmJhZngzY1Vj0gHkAUFVX3lxTE9NUUJIYVRjdVdEenE4SU1HRTR3UXRTX0dheHpIRUtVemZoV1JlX1d6cDk5SjRPWkh5SzRuQ0wwVl9oQnZhU3VoN3ZlSWlIb2RwRTlIbjV4TEt1dFN6RTdPcFQ2Rm05NUpVbUotZkhvUGZYdk53MWc3cFc0emk0enlad2pDd3BVckZPVXVlcWZraldNZmIzUzVZTGlQWmVBOGI5YVdkSjZhYnlhNG94a3RuRkhha0F5YUN1YWVHdWtNMm1feld4bE4xTHk4ejduNUEyUkVuYXlwQXdwTTRDWnFMYU9kNQ?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 07:50:50 GMT"
-    },
-    {
-      "title": "Incendios forestales en Catalunya y resto de España, en directo: una semana del fuego de Niebla (Huelva)",
-      "source": "El Periódico",
-      "summary": "Incendios forestales en Catalunya y resto de España, en directo: una semana del fuego de Niebla (Huelva) El Periódico Las llamas no dan tregua: así avanzan los incendios de Huelva y Huesca EL PAÍS Una semana del incendio de Niebla (Huelva): más de 1.000 efecti",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkNHTmF1VzZhcVE2NDBjNVpQOHExUlk4ZUw2UFM2TWt0dUx0bER4T2FpV3U2MGh3WmVCdTZKUnlnek8yZDNTOEIwTkpHRnpfWlY4ZHA3WDlsLWxHenpNY3NVOVF3Ymo5dl9OMWZlWnpvN3FzWGtHbnROdkhqcUVZQk9RS1hwak8ybXFma2F3UUc0Q0lEV0RMeTJ4X0FQQU1xVWZZZHl2MEg1Q2FBTnc?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 07:36:00 GMT"
-    },
-    {
-      "title": "España se movió para ver el eclipse: en las provincias de la totalidad hubo un 18% más de visitantes que de normal",
-      "source": "RTVE.es",
-      "summary": "España se movió para ver el eclipse: en las provincias de la totalidad hubo un 18% más de visitantes que de normal RTVE.es El eclipse, en cifras: un minuto de oscuridad, medio millón de astroturistas y 350 millones de impacto económico RTVE.es El eclipse, un n",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYkI0VGdaR290VGZDRktGRjJ4WXROaG96WFl4QWxrRm92a3pmX3M5NXdHMlZDd0w1TFdzQ2FsX2FTb2VTZ3dLSFJFTGZXUl9QcTA1dkRaT2NhTGY0Rmg3YjBlTVlMTXo0VHFqZ0JtM3pzOFRpWEMtWVJLXzg2R2hzeHVwdC1kbV92UHVySG1TWDFna0tCS3lXT0tnRE9kQmdsUWlxUkljVVdJRDZhUkt4akxYNDQ2Y182UkhrT00zQ04?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 17:19:44 GMT"
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObDR5WHh6MVNVYkliWFNuMzIzb0RGbkhCaG91Uzg3ZUVqLXZtUGVQSXVZQ002c3RFNWl0NC16S21fYzEybDVORVAzM1UzX2Y2ZGVUMGJtWHItUmgyQ3VMVDRDdWlmSi1GaklxY3FlUDE4cE1MYnJZZ2t5Z01lM2QxaWM5SDNmc3BBOFJqaF91dV9jU1Y1NUxIdG56VHprbTBkaGVPNG1ndzF4NE1FUWlUbnU5cGlNRzRrbUM3UC1td3FqQnlpY0FOVUsyWE9OSFRFM3Rzc3BpaWNtUVV4NG9KaVIzUm9ldFdqOXFVcE1fVkQwRE9Ld0UzUEpNVkVwZjlxaEV4cnRzb3FsUW9LRG1Yb21CT1pJSzFycW03M3lYZw?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 08:51:55 GMT"
     },
     {
       "title": "El Gobierno finaliza la situación de alerta por riesgo de incendios forestales en Gran Canaria y Tenerife",
@@ -52,20 +36,36 @@
       "pubDate": "Sat, 15 Aug 2026 06:51:24 GMT"
     },
     {
+      "title": "Las \"batallas\" de los afganos a 5 años del ascenso del Talibán",
+      "source": "bbc.com",
+      "summary": "Las \"batallas\" de los afganos a 5 años del ascenso del Talibán bbc.com El régimen talibán cumple cinco años en el poder entre el orden forzado y el colapso humanitario El Mundo Los talibanes celebran los cinco años de su regreso al poder en Afganistán como una",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lTDVMMjV2WlBZc3B1cFFXR3VsRmdaWjRHUzBiU3Itb0IzaEdLS255cC1DdEZjbGpMazdmcmRMS0dZMHBIb1puR2IwUmZWUWZFZUdxRWVOX2ZqM2fSAWBBVV95cUxNZ1JvQUNLemMtNmIzeDJuVXFBb3M5U2FVaGFieENrYmR0VFhEUXdYLTBWNmxHRXRKV0hIbE9IOGdPQnlmLU4ycm5TajU1NjVMWnNYLWFaUDY0Um5lNDRvakE?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 22:47:54 GMT"
+    },
+    {
+      "title": "El fuego de Las Peñas obliga a desalojar Atarés y Anzánigo y suspender circulación ferroviaria",
+      "source": "La Vanguardia",
+      "summary": "El fuego de Las Peñas obliga a desalojar Atarés y Anzánigo y suspender circulación ferroviaria La Vanguardia El juez decreta prisión provisional sin fianza para el presunto autor del incendio de Las Peñas de Riglos elDiario.es El fuego en Riglos (Huesca) super",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV3hhQ0NZMGtpT2hNWFZDMWFEQ3JqMFpfbmkzMjRsOGU3QVMydTlBem9nemVOR1E5M044WFJ6SEt0OVRfb3VkTjVIVlQ5cEs1ZURMTTVVb3hxVE9DLS0xemJqbVpoQTJtbmFPYWM0bzFwalYwMTc1VFdLcUZfVDdGX0JtNXNFQmdkVWFXMXpJdFE5S3VvQ3owOWQyLW1uQ1QydEx2QjhSUjN0eFdmYW9PVFNEczNxWWctT1JJQmxvSVB1Rk1tbnZYSzFDb1J6U3hw0gHWAUFVX3lxTE4xek8xNHN2cGw4azQ2enhZYjRreVM2XzhYNWt4aTBHNkxIS0FYeEpGNm80RmEwM2R3N3VSay0xT2NydHVJN191ZThWbFRpMEVGX1NuZV9aZkliWnVHSDJxdmtIMFNXWV90NUYyVTg4RHhQTGhmZGVGaHdIWnNlbzdqS1hyTU1nQ0hwUmo5TjJLQ1BCT2FtaWtMSWpqdEpRbEVsR2NiTkdDRUNqZWFzSmdVNVNxV0ltRnFlcVhKTXpUSC0zZDk3MUd6dWhFNGZpR0ZpSHYwRmc?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 15:09:34 GMT"
+    },
+    {
+      "title": "Tres incendios sin control en España",
+      "source": "es.euronews.com",
+      "summary": "Tres incendios sin control en España es.euronews.com Las llamas no dan tregua: así avanzan los incendios de Huelva y Huesca EL PAÍS El fuego de Niebla frena su avance por primera vez en nueve días y ya está perimetrado RTVE.es Una semana del incendio de Niebla",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORlNfZzBDWWdNbjBOSWhNOVFfOEdZQVFPTTVOVi1xQk5ZLXFTZTJpTlJrczN4N0owNWdRN1JfVDUycXd2RnVqNkozY0hfZEJPd3RHZDc4YzVhWkNRdmg0VDlQX0I3SVA1S1o1WDU4UFpmUUpxekVWdEJ6d3pQYmNYbk9Lc1dtZW9iU2lNeG5maVF2eWl3ellhMjlqZ09iUVhyaEF1blpKMi1icHFobmNqdlBmZldFVmpOQmFOOUZsY295RjdkcFE?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 08:29:58 GMT"
+    },
+    {
       "title": "Peregrinación nocturna para ver a la patrona de Sevilla",
       "source": "Archidiócesis de Sevilla",
-      "summary": "Peregrinación nocturna para ver a la patrona de Sevilla Archidiócesis de Sevilla Más de un millar de fieles retiran el diploma de la peregrinación a la Virgen de los Reyes Diario de Sevilla Saiz Meneses, en la Asunción: «Santa María de los Reyes, no permitas q",
+      "summary": "Peregrinación nocturna para ver a la patrona de Sevilla Archidiócesis de Sevilla Procesión de la Virgen de los Reyes 2026: El último reducto de pureza Diario de Sevilla Miles de sevillanos acompañan a la Virgen de los Reyes en una procesión de hora y media mar",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTTdoU2lTeWs1SE1yaUQ0NGxoQmlkdHVzQm1LMVV1ZWRnVERrb0dkcjlNeXYxTEpWbWFhYkZxbHJ0WGJROHM3RmdxOGRLM21ZdmZGRGZhaWp0cW1DZDdXcWFxSng3T0ZKMWZLYnUybDJ5cmVPa09BdDNxaExKNlJmVm9qaTU1SmZjbWp2QlZLVnduczhjdzFFNQ?oc=5",
       "pubDate": "Sat, 15 Aug 2026 08:02:09 GMT"
-    },
-    {
-      "title": "Ocho universidades españolas desaparecen del ranking de Shanghái, el más prestigioso",
-      "source": "EL PAÍS",
-      "summary": "Ocho universidades españolas desaparecen del ranking de Shanghái, el más prestigioso EL PAÍS La Universitat de Barcelona, la única española entre las 200 mejores del mundo elDiario.es La universidad gallega se aleja de las 500 mejores instituciones en el ránki",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTdGSjJwX0NpLVV4YzVYc09qb1JFMWR3bzNndEZSTTMzRWVYWlNnSTZTeTNBaURHZ3d5WGxWU1o0aHRLVHNqNUZuZVd0SVgwU0lpLXN4ZElKb3hlMjdZdVVRc2trdXhzUnhaaVI0WnZ0ZHdib0dVTmx6elREVlRDajFkb1FGQ2REYTBJVWJBQ20xRENtN1lKV1Bac0M1QjAzdzFvNkhJdTdDVzRrWVViVmJfbUxmMmFobngwMnpvOUpSZkVxTW5z0gHbAUFVX3lxTE5GTUxyZmhoT3ctS1cxTldjeGg4ZW5yUDJCMTlteldHNlhhVzhLaDNrdkNvcEROaFNkcXlYLW5sSlQ2X25PQzd2dmN0cEkyNEZYY3REdV9ic1RxellndURuOUI4bjVjUGQybHRrbU9MUU1VekVRZkZ2LTdBd1BDYzUwTGNnQWZTd0NfaEVkbkVCWHdjVktEYngxSFFDdVI4R01vaWZjejM2MzBzckdNOFV5V2VpcE1rNlh6VTE2bHRmWU1ub3Z0aHpENGN1Y2FyWW54eVNrWmd0cG1ucw?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 04:01:00 GMT"
     }
   ]
 }
