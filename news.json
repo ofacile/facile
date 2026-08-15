@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-15T15:48:22.772257+00:00",
+  "updatedAt": "2026-08-15T16:30:05.062430+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "Marruecos carga contra decenas de migrantes tras un nuevo intento fallido de cruzar a Ceuta",
       "source": "RTVE.es",
-      "summary": "Marruecos carga contra decenas de migrantes tras un nuevo intento fallido de cruzar a Ceuta RTVE.es Última hora de la entrada de inmigrantes a Ceuta, en directo | Marruecos bloquea el paso a Ceuta de cientos de migrantes subsaharianos EL PAÍS La frontera de Ce",
+      "summary": "Marruecos carga contra decenas de migrantes tras un nuevo intento fallido de cruzar a Ceuta RTVE.es De la paranoia marroquí a la pachorra española en sólo 7.199 pasos: así se vive la \"amenaza\" del 15-A a ambos lados de la frontera de Ceuta El Mundo Marruecos f",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUHRYdmdmSFhGd3F5b2VIc192Q3ZidjJ0V2I2d3ZNaVpGejdMWmlJX2tNNTFUWHBkQ2tyT3pZa0JobUpSV1FVM1hNX2thWUpjbTVHakY0ckFBcFJKQ2tfRm9rSHQ4WHhXbDJaWnVtb3pYaUxjS0c0UHlBbGR1cFFmamI0SW9iR0VUUWlnaDhxbw?oc=5",
       "pubDate": "Sat, 15 Aug 2026 13:01:43 GMT"
@@ -14,42 +14,50 @@
     {
       "title": "Un fuerte terremoto de 5 grados en Granada se siente en 10 provincias españolas, seis de ellas en Andalucía",
       "source": "El Periódico",
-      "summary": "Un fuerte terremoto de 5 grados en Granada se siente en 10 provincias españolas, seis de ellas en Andalucía El Periódico ¿Sabes qué hacer en caso de terremoto? El Mundo Un terremoto de magnitud 5 sacude Granada y deja daños materiales sin víctimas ABC Andalucí",
+      "summary": "Un fuerte terremoto de 5 grados en Granada se siente en 10 provincias españolas, seis de ellas en Andalucía El Periódico ¿Sabes qué hacer en caso de terremoto? El Mundo La cámara de seguridad de una casa filma los 10 segundos del terremoto de Granada El Debate",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX2ZlZGNma2QwUTcwLVJPNkdMV05EYU9HWmRtY0FqWmsxZEpidlRlWnFWZGhZRTVpXzlSaHJyS0xMQ1locEp5bEc5blRXUHo4TjdaaE5CampJNDVBcXdxanFFSjRaQ09aYTZoY2RmZ19jVk9hMzRkNTNjamE1WXU4b0llU284RkNma0E4YW1kQ1Q2dUYzQkVJ0gGXAUFVX3lxTE5pRGpyeWlpTG9oaUg5WlZFYzNSXzFuakVpM0ZUb09oa2xxRkNFM0VGaUN6Mk5uOG84ekItTDJyRWl6V240N29FLW9qU1hGNWVETW9nREE5WDQwd194ZWJPT1ZieG5PbWRQZXZidm9OUjhlOU5uUmI3LVM1VWw4cld0cVB5c0tDM2RMUkhiSW9YUmpLZDZkZEk?oc=5",
       "pubDate": "Sat, 15 Aug 2026 11:59:31 GMT"
     },
     {
+      "title": "Las autoridades marroquíes ordenan a los periodistas de TVE y la agencia EFE que abandonen Castillejos",
+      "source": "RTVE.es",
+      "summary": "Las autoridades marroquíes ordenan a los periodistas de TVE y la agencia EFE que abandonen Castillejos RTVE.es Última hora de la entrada de inmigrantes a Ceuta, en directo | Rabat expulsa a los periodistas de Efe y TVE de Castillejos EL PAÍS Las autoridades ma",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeldwUU5zUlNuc2lOeFBBR2JWaWUzSTJsOWJ2azVjWklfTzJmWVJiTHlPMkJacnQ5eHkzRTdDLWtJcWV1ZnUyUW1kTmZybnJaVmd2UzJpYWdha3ItVjZ1Z2dpemlYWmRlYllkWFhMdFlrM09TeFFTN0ZKVmVNZC1VVjhWOHR3UGNORmY1Z2tQZG5FSHQxMDE5MzVJeVh5eE5qeFFacEFmR3JOc2c0aUZPdm4zUWI1U3RWN01jM1hqcGhuNlphVTJDRDdIYVYzbTBz?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 14:55:26 GMT"
+    },
+    {
+      "title": "El fuego de Niebla frena su avance por primera vez en nueve días y ya está perimetrado",
+      "source": "RTVE.es",
+      "summary": "El fuego de Niebla frena su avance por primera vez en nueve días y ya está perimetrado RTVE.es El fuego de Niebla, en \"evolución favorable\" tras lograr frenar su avance por primera vez ABC Las llamas no dan tregua: así avanzan los incendios de Huelva y Huesca",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmdORy16Uk9yWDlDa3lIczE1VjNiTlhzQVh0UHNBLWlmTFExMldHRVkteFprb0xEbDNVQm9xUzh6SXQ5Y1ZPN0pFNzFIY0lyS0wzQXNCcUtYS3BPOHRrUm15RnlfVldqMWFoc0EwWUFfakJXT2Z4cjVaUmRFTUQ2RldYM0pfbmQzMVVXbXYxeWFPTUJk?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 13:46:00 GMT"
+    },
+    {
+      "title": "Talibanes conmemoran cinco años en el poder en Afganistán",
+      "source": "dw.com",
+      "summary": "Talibanes conmemoran cinco años en el poder en Afganistán dw.com Los talibanes celebran los cinco años de su regreso al poder en Afganistán como una “gran victoria” sobre Occidente EL PAÍS Cartas al director: Afganistán,un lustro de olvido ABC Afganistán, el p",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQy1RUlNWd054OGRJSXhEVFNaRVlHNC1FVGVicDBlUWtSWHZhZU81UjhZNXFIek1MQW5BSGJSTFY4Y2VTM0pvamlJODd6b2NXTDA3WVhNQlQxVnFhR0RUbTl5akVKZFJTODFETkhXTmstZktLZ0lQNVZURHFtei15Um5qQ2x1aHlrYjg5ZGU2MkFkbG15TUxnV2xTVk43emM0RHfSAaIBQVVfeXFMT3F4ZTgtdEJkTmQ4cVBlOVltLUhkQ09wY0lvZFd0R1BmX2Z1M3hENDVFUVN5VTJLNHNYYUc3WEZIVy1DaG11OTc5YVp2SmZQSHBBLXR0MkxvOXFZdUJmRDJNUkNjRTBaekhKTjVISjJXVzJqQ3c0ZGk0UFVUSzJ2TUtBWG1aM19pTmltSEhXVHBzaVJBTkVBNVR0Ull1bW1fdUZB?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 12:19:26 GMT"
+    },
+    {
       "title": "Pérez Iglesias muestra su satisfacción por la consolidación de la Universidad del País Vasco entre las 400 mejores universidades del mundo - Gobierno Vasco",
       "source": "Euskadi.eus",
-      "summary": "Pérez Iglesias muestra su satisfacción por la consolidación de la Universidad del País Vasco entre las 400 mejores universidades del mundo - Gobierno Vasco Euskadi.eus La Universidad de Cantabria desaparece de entre las mil mejores del mundo del ranking de Sha",
+      "summary": "Pérez Iglesias muestra su satisfacción por la consolidación de la Universidad del País Vasco entre las 400 mejores universidades del mundo - Gobierno Vasco Euskadi.eus Sólo 12 universidades españolas se sitúan entre las 500 mejores del mundo﻿ ABC La Universida",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNExoYmZIcnpoOC1POUttNXFpSXprd2x1XzVuVnU2dDg2RTZIV2NNaUJXZGdDcWNPNV8wb3EyZ0txSThzei1tbTl2OWk4d3puVFNGc1V4ZVBuU1BIUWxnNGo0MlJ4WkpNUWpxbEpVcGNLVC1KOUxVeVhmV3JCUVM1UFNMRm94YzVXVDZCZ1dqQnVTRkdGWDFxa0pFWFBhVjZPcUI3M3JEWnJOUVYwTWVpV2l6eENtSTZyTXFMdFo3a0p1NFdxWWRZdVdoN3pDS0wzRURZMFRuN1dsbG9xZGtnWWR4dExkM3h3Nk5ORzNENnBrUmloMGxiejdnaEctdTg?oc=5",
       "pubDate": "Sat, 15 Aug 2026 10:02:22 GMT"
     },
     {
-      "title": "El juez decreta prisión provisional sin fianza para el presunto autor del incendio de Las Peñas de Riglos",
-      "source": "elDiario.es",
-      "summary": "El juez decreta prisión provisional sin fianza para el presunto autor del incendio de Las Peñas de Riglos elDiario.es Más de 1.000 personas desalojadas en el incendio de Huesca, que amenaza municipios y el monasterio de San Juan de la Peña EL PAÍS Ignacio Farj",
+      "title": "El incendio de las Peñas de Riglos aumenta su perímetro en una noche complicada con condiciones algo más favorables por el cambio del tiempo",
+      "source": "Cadena SER",
+      "summary": "El incendio de las Peñas de Riglos aumenta su perímetro en una noche complicada con condiciones algo más favorables por el cambio del tiempo Cadena SER Ignacio Farjas, jefe de bomberos: \"Llegamos los primeros y sofocamos la caseta, pero el incendio salta al mo",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORm9JcDJYd21WZUJrWTZlb016OGRqZXJCckJNakhtYWU4QnppTkVBSTdPRDVwWHl1ckdEYkpnQU1PUEthaFFVNnR5UlJNNTR3RWFMWE1IZHQ4eUhOY3lqWVJrZ01ScVl2X2RwTHZpXzlnU0xoMzh0a1RzWTBwNlZpZGcyb2pDbXhiNjJSTUJpR0J0OGE3UjduVGV1Vzk4c3RfZTA5SGk1YzdFRWw1VVdMeVV3RDJvZ0FLNUZvZkp1U05VY3IxanF4RHRwTXnSAdIBQVVfeXFMTVEwOGhpUEJ3ZVR2dXNLelRFdXRXMnFtRkdBQ21lcnFHNThBQkY2UEN2NGlsMnNvS1hZTk5FX1F3TUVWNXFfT0g2TjFGZFF0Zi1qVWg5c2VOWVVxNzBzazBPeC16NEdpX3hzbG5PRVYtLVNOTjVvTzFQbU5KV3hjYnlDMkFlYjNkdUV2N1UxU2x1Z3diOWZzbUxNc0x5bU1QM290ZG9NcEtVVXEyU3J6bXV5VGI5ejcwRUFva0hES3I2a3VrNzRiYzlDWDZaYzRkX3B3?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 18:13:49 GMT"
-    },
-    {
-      "title": "El Gobierno finaliza la situación de alerta por riesgo de incendios forestales en Gran Canaria y Tenerife",
-      "source": "Gobierno de Canarias",
-      "summary": "El Gobierno finaliza la situación de alerta por riesgo de incendios forestales en Gran Canaria y Tenerife Gobierno de Canarias El Gobierno rebaja a prealerta por riesgo de incendios forestales en Gran Canaria y Tenerife elDiario.es El Cabildo de Tenerife pide",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRWVudlJZdk1nNlRhclc0bC10anRoRFpVUm1WMGRDNFk1Yk1oc3VNVHFwY25ZZVFodC1iRDlreElOWEEtM08zXzlIS2NaM2ljNHppZE1pd0xIeURUVmJXQ0gtblptdXBvZWp2MGE4R0liNnAwblFzUjZocU1oZlNJYkxUVzdENDNUUER0MmxtVGxxNFdKR3dxbTlxV25rOFAzXzFEQ05Sc21VRURWOXc3STNoYTJRbGlRTkV3NXJudXJVNXpNT0lxZlhXUFpZekNrdnI0MHpVQVAwMWdVN2dQdU9FdEs1QQ?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 06:51:24 GMT"
-    },
-    {
-      "title": "El incendio de Niebla sigue avanzando hacia Sevilla y se vigila su evolución hacia Sanlúcar la Mayor",
-      "source": "ABC",
-      "summary": "El incendio de Niebla sigue avanzando hacia Sevilla y se vigila su evolución hacia Sanlúcar la Mayor ABC El fuego de Niebla frena su avance por primera vez en nueve días y ya está perimetrado RTVE.es El incendio de Niebla no evoluciona \"por primera vez\" durant",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaVRrNHl1SnBiMHdEbnlONzUzSEtHdXJXVmdSNklTODFZMVhKWVdTVnRmSmhHUl9qZjVEdnBUc0VpcHR2cE1qUzJpU0JDQ09qSUdtTlZ3MlYxMnVIZmhvcVJRYjhVQnpEQ0xPSWRSNFpBN0Y2VW5aMjJWZlRQNjVaa05mS21KY185blFtanJMRmlnTzRzeDY0b09uVEZNRER5SU51b3YtaE9lRmZpOWItOTg1VkxsVjVqUllNMtIBwgFBVV95cUxOdTF4b3RwTUw2U2k3Sno3THprU0R5T2ZzTUpUSUIwb1lRN1VYZnBUYjNmY3R5aTVtSFJRNUFSQXI3UFBhNzhmaHFDOUM3MndCQ1NQX2RSckFLT2RVN1hyajJVYlJ3aWNYQU9WRWJtbDdOQ1FDYUJDSU8xZENtVU9SVHgxQU9pSkZoM21oYWkteUVJcVF0TzZHb0RlYk1SXzY1bW1aYU1fT2hTZi1Vc2dsWGhQbFdyMDJwVnhaZG5hMTJfZw?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 15:59:25 GMT"
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPcF9kVGhDMDVFbFAzY0xhOE54ODU4Q042SVpucS13Z1JueEdqam56ZjdrVXB6cDgtLXZPRXdYSW5zcENkTjVXS1dmaUVMNVdMejd6QklqNmJHZHg3NE1RNVd6R3NNd0FUcGVlb3dJVkRBLUpEbko0VWNLX09Qdzh1VnpGTFc5bUJsbnBlQ1RHRUwxWXFQNHhyeEVMZk1sSGpvMzZ1dHlkRUhhSmcxYXJUb2ExUFlqY1BHV1oxZGxpM2hDdHlzdVNXeU1tWmo1ZmowMnY5Rkl4N0hBY2ZTNEJiYldjTURDU09vMXdHM2lrOXBwVWJINENucXFjb0RRUVVYd04wUnNCM01RSHdQdnFUMzRGVdIBpwJBVV95cUxQRXZqQXRGNUp3Q19ncENqWlRzOFAxZ1EzTFV4aGpKOUlIVkNubzJZbG5FSUFad3gxdW05b0daRG9fcUZnV3pQZjEtcU95aGk1aDN4eDV0WHNHbEJqVUd6bUJEcWNraTVLWnRGd0J0QTZCd2dyZFI1MURfTW16bXdURzhzNkR3bm9ublpkeUs5dWdlSllsZVlNU3RTbDF2azZGMkVZMUM3a1Z6MEVGRGdScWVPNGRGQ0ZGLXV2ZjJidjV3bUVQYi1PV2NJcmZPSWR0M1J1Y2hKOWZOQmZqdzkxYVJtdUV5TFBhX1BialBEOGJmZXlQUTZUcmQ2QUVoaGxNVmh2YlhpV0N4Rlp4OHdCNG9wcXdEUjZoSmJjT1JPTXlNSlQ3WE5R?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 13:53:30 GMT"
     },
     {
       "title": "Las decisiones de la Audiencia Nacional que enfadan a Marruecos: falta de garantías y \"carencias\"",
@@ -58,14 +66,6 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUldMRWdrMlo5NEgzcTBIQ3l5dnVycG1nd0x5UElXQ3lhVUlGekRuRDJUVUU0dDBCcVhFSnNCLVRzR29Ob3hBWEJad2swbmRzS3VHcnFyVS1DbjZENzRxYzZfb3lycGkzdkdvVTNRQlFzaVlRV1dKdzhBM1FiS3hIckI3dmxjdDlTcVhyRUs1RHdCeXlEdzlpUjBteTZfdUR3WWtKeldvTmRzMWdRU19tTUthMkx5OFZxRkhpX2g5ZGc?oc=5",
       "pubDate": "Sat, 15 Aug 2026 03:00:00 GMT"
-    },
-    {
-      "title": "Peregrinación nocturna para ver a la patrona de Sevilla",
-      "source": "Archidiócesis de Sevilla",
-      "summary": "Peregrinación nocturna para ver a la patrona de Sevilla Archidiócesis de Sevilla Procesión de la Virgen de los Reyes 2026: El último reducto de pureza Diario de Sevilla religiosidad: La Virgen de los Reyes, patrona de Sevilla, recorre las calles bajo un sol de",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTTdoU2lTeWs1SE1yaUQ0NGxoQmlkdHVzQm1LMVV1ZWRnVERrb0dkcjlNeXYxTEpWbWFhYkZxbHJ0WGJROHM3RmdxOGRLM21ZdmZGRGZhaWp0cW1DZDdXcWFxSng3T0ZKMWZLYnUybDJ5cmVPa09BdDNxaExKNlJmVm9qaTU1SmZjbWp2QlZLVnduczhjdzFFNQ?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 08:02:09 GMT"
     }
   ]
 }
