@@ -1,36 +1,28 @@
 {
-  "updatedAt": "2026-08-16T21:47:12.921109+00:00",
+  "updatedAt": "2026-08-16T22:26:20.747023+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Mónica García asegura que el Gobierno se ocupará del riesgo de salubridad en Ceuta y niega el colapso sanitario: cifra en un 50% la ocupación de los hospitales",
-      "source": "Infobae",
-      "summary": "Mónica García asegura que el Gobierno se ocupará del riesgo de salubridad en Ceuta y niega el colapso sanitario: cifra en un 50% la ocupación de los hospitales Infobae Mónica García niega el \"colapso sanitario\" en Ceuta que denuncian los médicos y el PP: \"No h",
+      "title": "Mónica García descarta el \"colapso sanitario\" de Ceuta pese a \"tensiones\" puntuales y \"sobresfuerzos\" del personal",
+      "source": "RTVE.es",
+      "summary": "Mónica García descarta el \"colapso sanitario\" de Ceuta pese a \"tensiones\" puntuales y \"sobresfuerzos\" del personal RTVE.es Mónica García niega el \"colapso sanitario\" en Ceuta que denuncian los médicos y el PP: \"No hemos hecho venir a nadie de vacaciones\" El Mu",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQLVJmdVZGNE1IdFRjVEc4eTlORHplSzZ6dDFPV3Rzci0zaXd5eWZBQlBDOER5NDlBNlZCdFp4Vm40bHp4MFo2cmMxSFNseTVKTHdPeUVhNHA2d2JXb1R3WDFna2pYbUpOaWZVTHRkT0x5VUhyZ21zNUpERUZXM1RHNk5zRjNXWWhRQnVTM0RSS1BzN0piVFl1OUFQemM3aGNwcEk1djE2bjktUDJWY0VqTEIwcVRrdldoRkxqbWMtckg3VFpJXzdjQjlxOXVCMUs5dm12NEVta1U5YWRraXc2QzRLU1BIVm1xeUhqZ2NCMEdZLTFVRlBPQU9TWGZFZmJET1NhSkNxMThDbmppR3pwRklKS1dfWGpIMjlkNVRObWxjRVBSYmJj0gHCAkFVX3lxTFAxMndzS0VHVXE3V1QwRDRWQzlRMVpLLXFQV2I4V01DbXo4Q3ZtNkdFRWNORzBZNXFYUU55TXJ2U3Q5T0NpTm1zRm9FVlZ5TV9SNm11YUx2MzB2TkJpeloxRUFsU2h0YWM2alEzQk4zTnZvMnZiN3YwVjBMTW5uUkttdG1QQXM4SmdRR29YY2hBdG56aW5NV0F0a1gtVUtHS3gzLXN1bmFLc2Vwc3lVcUlxamsxR042VUxDWXdQbkxraGw5Q0RqR21BTHdVQWJBcHdna2cyMXA0cExuV2hKdUhLZzc4NDdsaFFRTkNrdDBvRGwyYlFEczVyUFdtd0R6anpQWldURENDY0VPcnJkQWw2UWFvdl9wUDBweVVCMWcyY3BERlJjUlBrM3FGZWUzRTl2WVQtMUpzT2JBUXRHWHFyVVE?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 12:29:09 GMT"
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0x1d3FWRjdJUWcycWxyVm51cTl1TERVb2M0eGp3ZU9PamlIYW1UTWFueC1XMDc5TDVUV2NMejZzS2c4ZVBrX3ZpbkVsRDlXU0I3RU9HMTIyQkFZUDdaaXNPS0pFZklWc0xxcWc4Zm1HSEdlbmluWXF0MXNJU0NGRW1wWi12VnFQVms3MjlBWnB0RWN5anc1UGhsZGU3cnVjMnhoVnlLRVNqYWo2cGdLaVBEVlNMNS1DNVhBcmFESVctUmg1aDE2d0V0Sjk?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 12:24:21 GMT"
     },
     {
       "title": "Al mendos un muerto y varios heridos graves en el incendio de Las Peñas de Riglos (Huesca) al volcar un camión de la UME",
       "source": "Cadena SER",
-      "summary": "Al mendos un muerto y varios heridos graves en el incendio de Las Peñas de Riglos (Huesca) al volcar un camión de la UME Cadena SER Un militar muerto y 3 heridos al volcar una autobomba de la UME en el incendio de Las Peñas de Riglos El Mundo Muere en accident",
+      "summary": "Al mendos un muerto y varios heridos graves en el incendio de Las Peñas de Riglos (Huesca) al volcar un camión de la UME Cadena SER Un militar muerto y 3 heridos al volcar una autobomba de la UME en el incendio de Las Peñas de Riglos El Mundo La lluvia y el re",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOQlFSTmV0VF9FY1gtdkNXRHBkYl9sX2R3RE1YcmRKckYtUUcwZ2JjOGlOM2dkc3dYSHRwME9BTWRIWlN2d2JwcmJERWVkc1RmMWJzaGM4UjQzSm1xc3ljRGRuUzlFRHJkeHI0bENDSmZISVRpWllJR2FQeEdKSkZrZmk4Nl9FbnZTc1JqaTk1a2FtcVhyc19uMXg2SmcycG9YdjR5bEFWTExtUVVaTmtxRElRZktISEtORi1tS3hyUmNtR0lCRmV5YjhqR2pYbWRsMTJEeU5fVS1wUmdVaXBDNkxDVDFNZUN0RFlVU1h4c3o0MlkweGxidzFMVHlFcjVNeGhBTll3?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 18:00:00 GMT"
-    },
-    {
-      "title": "Las fronteras con Ceuta y Melilla recuperan la normalidad tras el blindaje de Marruecos",
-      "source": "La Razón",
-      "summary": "Las fronteras con Ceuta y Melilla recuperan la normalidad tras el blindaje de Marruecos La Razón La gran desescalada llega a la frontera de Ceuta tras el batacazo del 15-A: \"El régimen marroquí ha mandado su mensaje alto y claro\" El Mundo Marruecos exhibe su m",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYUpfN1dFaWl0OUxKclNGY1Njbi1nc1lmd1E5Smc2Y1Q0cUR1X3hITHdFTUR4RnpXd21LYmE5eWxSOE9wdUN3dE15YWpCeGpydjlWU1lIV2psblFiMjJ3M0htY3FXX3l4ZFBTenVYSXhTSmVvNnE2Y1p5c2VXOG1IYTYwdWJvcXE0MmVBc1lzNlRSb0d0bGNfVUFUUERkNzZ4R3JXREEwRkRuRlN6WXp1Rlpzem9pd1E2b1pYMmE4NWo2QVRrd3hFRHlnVdIB3wFBVV95cUxPTDNEdVFSRU9vVG5USTNIY3Y0NmM4aGtfb3hSU2N2V1FWUzlkY0FQdEtHSWlNRzZicjBOd0NvMEUxQkxnSVVGWGFoUTBUUGJrUmtZeHpwbUZ2QmxmS1BMbGJjdmVyazdaSTBfQm1rTk1RaDI4NWMtbGN3NFBaMklTYW5pMlhnSkVVeU9oNTZTdml5Q2JMZ2V0bVRUbmFnZndOMkRvaUpBbXQ0S3ZSbGZtbVV5ZEc2SFFwekltVUl0Ny1xOERIYkxVOGpBbnpLUE1jQXJJSTJRMlMxcnFXWnBV?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 13:52:10 GMT"
+      "pubDate": "Sun, 16 Aug 2026 20:13:44 GMT"
     },
     {
       "title": "La Octava a la Virgen de los Reyes continúa este lunes: sígala en directo desde la Capilla Real",
       "source": "catedraldesevilla.es",
-      "summary": "La Octava a la Virgen de los Reyes continúa este lunes: sígala en directo desde la Capilla Real catedraldesevilla.es Cierre de la novena a la patrona de Sevilla en la Catedral archisevilla.org La procesión de la Virgen de los Reyes 2026, en imágenes ABC Sevill",
+      "summary": "La Octava a la Virgen de los Reyes continúa este lunes: sígala en directo desde la Capilla Real catedraldesevilla.es Cierre de la novena a la patrona de Sevilla en la Catedral Archidiócesis de Sevilla La procesión de la Virgen de los Reyes 2026, en imágenes AB",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN0tjSXZDa3pXWVdqSFNqOVkxTXF6THVTMVFHeHdSTk5CSzduVUZLZFQwUWVhV3FOZVh5VXRrTzZMeks5TE1YZDJKNFBQeGFmS2dUeVJYV2JhV3JfSUk4WEg3a1BDeThYcGkyUEZ6SDVLTEVYUTZmVmFVWTI4aks3d1FUTUFnTThmVkRjY0FzZWo0NDNiZU9wYUpBUzc5N0NyVU82UWl4Y2VaVFNNT0NOTXdzYjRSRjVOa01JMmdkSVc4YUVQcHM0?oc=5",
       "pubDate": "Sun, 16 Aug 2026 16:01:45 GMT"
@@ -41,7 +33,7 @@
       "summary": "Avión español derriba dron sobre el espacio aéreo de Rumania DW.com Un F-18 español de la OTAN derriba un dron en el espacio aéreo de Rumania EL PAÍS Defensa confirma que cazas F18 españoles han derribado un dron en el espacio aéreo rumano La Voz de Galicia Un",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObHVkTEFTWFAwblNDZUx2WTJBQUY1VmROT0tDMXRuNU1OZ1ZzUU1KN1JvMEdSSi1qSnp6NTJYTnFIRl9kM3l3eFpxSGxFS2hVM2JMZ0ZqeFpFa2w2OTNhdVFPWlgzOGc4ZHlSUW1FMDZXcTk2UmVvQU12eVQ5ME1QU18wX1RSdGh1M2tKbGlsWGNfLUtiZUdEWFI5UkhBZDY4WHFDdEdHY0FZWFZFUlZ6RtIBsAFBVV95cUxQV3AwQ1prdDFqbjY0ZDh2QzFWVFNDMXJmVDczMVhORGhxRjE5MmFjSkhTNjN5ZWpjTGd6ZFVfZlhDSVBpYnVMQ3VxTDBFa0dNT1B4aV9wS1JaVC05Y3dQcmY3UXZZSEpWbU53SmdnTGhTdS1aVnEzQjdmQlNielVybjh4clFoOHdqZmFKQjB5MGRKRFBKZGMydi1QTU5WTm9mRE5WdlJIS1lBbzhoSVlQZA?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 09:09:19 GMT"
+      "pubDate": "Sun, 16 Aug 2026 09:56:04 GMT"
     },
     {
       "title": "El pabellón del Principado en la Fidma, dedicado a los 45 años de autonomía, bate récord histórico con más de 150.000 visitantes - El pabellón del Principado en la Fidma, dedicado a los 45 años de autonomía, bate récord histórico con más de 150.000 visit",
@@ -50,6 +42,14 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fVHF1cmZja0xLN3Zka3ptQUlOSmMyT2hsQmNocFgwenpOODh0eTQwUUhYRnBDNlNMdjNJOFRaY3VXVWhCWDhZMEU0QWJJSHNEel9BcVlWak0?oc=5",
       "pubDate": "Sun, 16 Aug 2026 12:15:23 GMT"
+    },
+    {
+      "title": "La noche más dolorosa de Manzanedo de Valdueza tras la riada que se ha llevado la vida de dos personas",
+      "source": "La Voz de Galicia",
+      "summary": "La noche más dolorosa de Manzanedo de Valdueza tras la riada que se ha llevado la vida de dos personas La Voz de Galicia La riada de Manzanedo de Valdueza, la tragedia que marcó a León, en imágenes | Fotos | España EL PAÍS La mujer que ayudó a salvar a los beb",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUWwyRmY1WVVNeldFWmx5dE1WMldVMnBtODk0REpGRDhVZ0JDVWJlZFNaV0FpTkk0bTFrckdRazRjb2xiNkVsOTdnNDJhM1F1TnFieTZBbUJxcVpncWhRdmh5XzYtdG1vNzVoVW1EWkF4Zk8zNlJpTEdaOW40SThxbDlxWGtZVHRhY29OM0I1T1FhQXBzbkg2VG8wdWU4TmFMMWtnQnpyMjNJWFpNRkdEX2tYMHo3d2t2S2g5clY0SEZMSllvSlFsQkFiNDA4TGtEbGhRQTVpcEhaZVZRcjVJSEJKZEROZ1NweUHSAYYCQVVfeXFMTzdvcmRNNVlYR1VGbW1VX1ZqVG5BQW5BazR4b0t1YThFQTBfTnFsR3JXQ1JRWWxBeVU5UXl6OFBKLVFBVzFXYnlFUUMyMkdkUTg1SC1Memo5Wjh0cHdTMTVtQlNmTndackNkUGtXYkY3T1BEVi12TF83LVcwTDFzSnZqcWF4eWItS25HelRubDZFUGw0TnhqRXZqVjVsNkNlQ0VKVmwzM3VBQUdrMm5RaVlpdHpqdFIyakFVZHpralZmNDRHUlh2eE9JbFhfTVYtYjB5dWNZV1NTVG1pdGNLekFXZld2U1U4TFNKRjhRUmhwTkhuS0t2Q3FqdnM0Wmk1RE5iZjlxUQ?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 08:27:03 GMT"
     },
     {
       "title": "Mónica García condena la expulsión de periodistas de EFE y RTVE de Castillejos (Marruecos)",
