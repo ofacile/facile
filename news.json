@@ -1,63 +1,39 @@
 {
-  "updatedAt": "2026-08-17T18:46:09.222106+00:00",
+  "updatedAt": "2026-08-17T19:31:40.659535+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
+      "title": "El presidente de Ceuta eleva el tono contra el Gobierno y amenaza con acudir a la justicia si no resuelve la crisis: “Hay pasividad absoluta”",
+      "source": "EL PAÍS",
+      "summary": "El presidente de Ceuta eleva el tono contra el Gobierno y amenaza con acudir a la justicia si no resuelve la crisis: “Hay pasividad absoluta” EL PAÍS Ceuta y Moncloa rompen su tregua: Vivas amenaza ir a los tribunales con Pedro Sánchez de vacaciones antena3.co",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQzVkUHRGektqQXZ2SlEyTXZaREVmQWlaSWMzTjdDQmpSY1NHcEZiNk9FSHEzX25oNzlYZjdlTFNxVXRLT1lLRENGMm9uMmdraFV3VzJvUzZjbm5KVVFreG5HUFdobkhsYk51M2h5cDY4T19ZeDdFT1h4LUpVaU1ZQ1BLS1E0dzJHbUhQM2IxWnk1VVBsRE1BdWhCMFhxNFlDdmI3TmpqS3F5bEJzcDYzWEhtdWdFTE12aGJoZWd1U0VhWUY4bFVsUk1KTGhHRk9NQVQxeVpFTkV1Ql9GNmVTNE5iOFdldDRLUzNlRlU5clNjMlZtZmRla3hIcUFkcUQ3MVE?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 09:31:09 GMT"
+    },
+    {
+      "title": "La Guardia Civil despliega un operativo sin precedentes para dar con los autores del triple asesinato en Isla Cristina",
+      "source": "RTVE.es",
+      "summary": "La Guardia Civil despliega un operativo sin precedentes para dar con los autores del triple asesinato en Isla Cristina RTVE.es Tiroteo con tres víctimas mortales en Isla Cristina: \"Tengo el susto metido en el cuerpo\" El Mundo La Guardia Civil lanza un amplio d",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRTBMdkV4OVpmTUxxaUNubUxLYnpWbllqOHd2OXFVLWpWNC1qMWdNN0o2VkRyVHV5Nl9wdHlHZFNReWZMWmh0cHBVdmdtZEU2SGRDMHQzWjZYUjdMeTVoaF9qTHJqenhSMWFJTDEyV0pBb0x3MWY5OEUzdHVWVnRCam9acVFyMVJ6dko2WnpuOUd3ZEhTRjg0c0RxS3lzekJGMVE3dFR3Z0ljSmZoWXYzTmZRdWxMWVNy?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 10:55:19 GMT"
+    },
+    {
       "title": "Pedro Sánchez preside una nueva reunión de coordinación sobre la evolución de la situación en Ceuta",
       "source": "La Moncloa",
-      "summary": "Pedro Sánchez preside una nueva reunión de coordinación sobre la evolución de la situación en Ceuta La Moncloa El Gobierno anuncia 1.500 nuevas plazas para acoger a los inmigrantes que siguen en Ceuta 18 días después de la avalancha El Mundo El Gobierno despli",
+      "summary": "Pedro Sánchez preside una nueva reunión de coordinación sobre la evolución de la situación en Ceuta La Moncloa El Gobierno anuncia 1.500 nuevas plazas para acoger a los inmigrantes que siguen en Ceuta 18 días después de la avalancha El Mundo Padilla, secret. d",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcHl2cmRhSFlfeDlYdmZoalRRN0RkU011STVNM01pTjVHUG9fLWxVQzhWWkdXR0RKVzVXYkxid251c0VVOVdoUy1aTWwzRFYtV0JHdTVORDRmbU81V2puX1pZb1dUcmtuc0NOTnVMTExFWldQQjM2SVAzX1RzNFFiaFI2aWZkaEYzNmdMRWozcVhPQXV6X05aVEdQSkhhdDRQSllKQ0tZVnZxdk5LYjVGRQ?oc=5",
       "pubDate": "Mon, 17 Aug 2026 10:06:18 GMT"
     },
     {
-      "title": "Vivas apunta al Gobierno por \"maquillar\" la realidad de Ceuta y amenaza con acudir al Poder Judicial",
-      "source": "La Razón",
-      "summary": "Vivas apunta al Gobierno por \"maquillar\" la realidad de Ceuta y amenaza con acudir al Poder Judicial La Razón El presidente de Ceuta eleva el tono contra el Gobierno y amenaza con acudir a la justicia si no resuelve la crisis: “Hay pasividad absoluta” EL PAÍS",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQek00bmJrd0FaUU5oQXlrMGhSM01oM2dMODRvR1BRMGJFU0QxQ3ctc2gwT1NPVldPQkxuNktJS1BQVlZjYmRfNVJyVEZfaUIwMkhUTkFLSkZEVTBBbFkxRlNDOFhBVjE1V2xMSmlpbGdIV195R3Yxbm9EWjNxdFlUNEN4Z0prNlJod0dDbjdzVU5ITHV6RHNYWWl5dW01dE5ITE45SHJYUy0tbGcwelJPLV85RVhTUjFGc2ZDSDhaMU5fcWIta1diTlRWakVCa1NveWxkbWItLXo2cGFnNXfSAfIBQVVfeXFMTkZSV1F5bF9NenFLYUFsSzVDcWpMSS1vVVQxUkMwSWhlUF9VRTRLdGZ0LWhuWXBKY1N1S09iSTBid1JHN3ZXQlRDdmFNZjFmc1BPOHhZRHNBYlppajB5SUh6bUY3VTc3Ni1nbmI3TDNvYl9XQ1ZpeW9jbWdtdzNrYkFNZ044LVlFWVVpekJkT1QzRm5uNlJ5cVktVU8tYkFKbl9TMUhLN1B1UUd0TmZveTI1TkdJTEZ6OXJLMnRIUnJBSWx1a2hSVzhDcnBnYUVuM0U4VHZrSXozVW1VV2IteHdhd3ZaTEMyR19zdDBDOS1GcWc?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 10:10:13 GMT"
-    },
-    {
-      "title": "La policía investiga si el triple asesinato de Huelva fue por un ajuste de cuentas",
-      "source": "La Voz de Galicia",
-      "summary": "La policía investiga si el triple asesinato de Huelva fue por un ajuste de cuentas La Voz de Galicia Tiroteo con tres víctimas mortales en Isla Cristina: \"Tengo el susto metido en el cuerpo\" El Mundo La Guardia Civil lanza un amplio dispositivo para localizar",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2w3YkxXSk9qT3BJTnA0TW5wdzBaMHJPYUEtNHUyTjFOVTdqdWNDc3Ayei1xVWY1cXQwZDc5cEdRVzA0djYwWXpHVEh6TTdTM2o3MmZsRzFsTW1PY3VyLURMclA4Z251ZDA0LVZfYVhlZjVJZVhXYURSZ3Fpd0l2RFhGMTJ5ZWpGNWJNN0tINndZTUlGRjdkYXd3THJyMWQ1aVFWdFpqLWktTGotcklHQ0NNaXI5bWNPUWZ5OVpTNNIB2wFBVV95cUxOaVJ0eHhTRlU2cjdnMlBseWNZdmd4MVlSVDUtUjQybWJqVFl6enNfbk1BNlEyaGkycjN0WDZLamV1NDlZeS1sV2Q1SmQxOFVBSTlPZ1JvSWVKZHJfVUZtamRJc1ljTGlnMzJxT0doTGZlV2pqc0tEMjUycXJWbjdFaXN3WEc4STQ4ZDVZNGpmcXd2WS1tc1NQOXBmMVBkWDBmWmlSQ3pnbDQ0ZG1BZlF3X3REMjhuY0FaY2J0cjVFRTQxOW1uSjBoelBxZFlrRTl2VmZwZkVMR3ZSbTg?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 14:10:00 GMT"
-    },
-    {
-      "title": "Albares, otra silla vacía en el Senado: descarta rendir cuentas por Ceuta y PP, Vox y Junts estallan contra Sánchez",
-      "source": "La Razón",
-      "summary": "Albares, otra silla vacía en el Senado: descarta rendir cuentas por Ceuta y PP, Vox y Junts estallan contra Sánchez La Razón La derecha, ante la ausencia de Albares en el Senado: “¿Qué falló en Ceuta el 30 de julio y no el 15 de agosto?” EL PAÍS Bolaños afea a",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSndSa1gyVXp3dHZnOHdYSmJlcjNFTU4xdjMtTDAzOElRcnVTTk5nTHptaE1FSnFKaGZwYm0tNXZKT0o4b056QTMzbG9tREdvamNHRDZOWHZ5LXdnaEdyMVNyc2l4YVVxQzlLdFFXLUpqX2o3OElOQ2xoYnl5cFR3SmxVQnEzaU5tdFhzOU1rZms1cTlLcGlkTDRQSnRyYmUyOHRmNFExS3BiQXNmX3VwRUFJTDRfZnQ1Yll0TFZxeDF5TFY0NnpOb2NmektZUXVFblRZ0gHnAUFVX3lxTE9xZlVhZkVKYWlMRF9FeHJyRzBPNTBtcVlJXzl3MTZfeXpZWUs3WEExeTlycXkycnZUamtEaHZYNnlMU2I3RG9UUENmVF9oZXRYcUd0cE54WWdaYWJJemZTcjlSWXRJMlZxeHJ1N0t4R1BnM2hsdVdEbFdrejUwempzcEFZR2JqZURmb29zNnlIQ1h6dnBJdktkWHFWTmZMQVJvZG85T3MyUTFET1ZNY0JCNkxnN0p4Z1J1RFJPaWVnV09uTWktallIWFNHZUUzcXFlVFEya2xNQWpXYXFFNWl4Q05tcW00OA?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 10:33:32 GMT"
-    },
-    {
-      "title": "Mónica García asegura que se ha podido responder a una situación excepcional sin alterar la atención sanitaria ordinaria de los ceutíes",
-      "source": "La Moncloa",
-      "summary": "Mónica García asegura que se ha podido responder a una situación excepcional sin alterar la atención sanitaria ordinaria de los ceutíes La Moncloa Mónica García comparecerá el día 27 en el Congreso para dar explicaciones por la situación sanitaria en Ceuta LaS",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGppLU9GTUsycURIeDVNRmFuRGFDb0M2dTRiZmNVZ1N1eXJYeXlWMlpMRGNBVDAtRl95SVB2U204U0QzVHVGZFhIemJuUzcxN0F5OWtkSVp4SjJ4Z2ZiQ25IS2dkcVpaeWljcGRDWkQwcHVUcFkzanBBd1A0c21iWHJQcnVZRHJGdzFqTEZ5YmtibGg4MUtWbHJ4bnpSVVlaSmV6Z0l4MmFzYkczYV8yNW82YnNWbE5PVVc5VUFDWFU5LXN2elYw?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 07:41:55 GMT"
-    },
-    {
-      "title": "Homenaje a las víctimas de los atentados del 17 de agosto en La Rambla",
-      "source": "Ajuntament de Barcelona",
-      "summary": "Homenaje a las víctimas de los atentados del 17 de agosto en La Rambla Ajuntament de Barcelona Un grupo independentista increpa a Vox tras un sentido acto de homenaje a las víctimas del 17-A en Barcelona El Mundo Bronca entre un diputado de Vox y un grupo de i",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWmZJNklscFZXUnVBYmhKbklZV2FWc2JCMjV1dXJJYk1TMWVvTnh4NlE2RzBNeUZzekVyTFdIMWtuNllEa0VpYlVCMTRiY3Y5c2twQnVXR2J3akVOZmhqcjJQZWhmbjdpYnM5VGtvdEtOQ3FRaHpMWDRTdEFHSzA5emFudXYyV1ZzLW4ydGJ1TjZ1d1pRSkZ1VWVoeU41dHdhTTkzMHNHMzh5S1h3RXVmdjk2NXlLTElRSVVyUG43Z0ZXdDU5VWFqMGVR?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 10:48:32 GMT"
-    },
-    {
-      "title": "Nueva campaña de desinformación contra Cruz Roja: ayuda en los incendios y la dana de Valencia, como en Ceuta",
+      "title": "Mónica García comparecerá en el Congreso el 27 de agosto para dar explicaciones por la crisis de Ceuta",
       "source": "RTVE.es",
-      "summary": "Nueva campaña de desinformación contra Cruz Roja: ayuda en los incendios y la dana de Valencia, como en Ceuta RTVE.es",
+      "summary": "Mónica García comparecerá en el Congreso el 27 de agosto para dar explicaciones por la crisis de Ceuta RTVE.es Mónica García comparecerá el día 27 en el Congreso para dar explicaciones por la situación sanitaria en Ceuta lasexta.com García tensiona la línea di",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS29Sb1FyOWxObnpGQ2F6MDBFM25kOG1iRmx1dTlqMDVCcHlKWno1NVhpNlRlNXp4eTY2QU9weGF2aUpLRXpYaXhLbVdkNDRwUG5aVW9panhJczI1Z3V1TlRlUUJheTdrcDlXc3UwSnhnaERmQUZvZlFNOWFGU09vN1l6Tzg5dWRleUtydGNZRjVIYy1POXYtLTJYdkZIMWhjQW9FaDNoTQ?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 13:24:36 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNzhpa205QmVKaXdtaS0zRWhqNHZocEQ5MDI1VDU1a216WnI2ZkJvYzBSN1VidE9mU0l5eWFRdmpuU21HcG1IRFlHcEpOYTZ1ZEsxS0RsSUttdFIwZ2l2d3RHNDVWTEQ5REFKREs0ZVV6eHUxc1JVR3lUa1hoRVRrdXVKVTFOT1hjZ2tZajZxeVk5NkoxZUxCZjJEUWNva3lJbFJvdkFMNEJsdDA?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 18:49:09 GMT"
     },
     {
       "title": "Amigos de Javier, el militar de la UME muerto en el incendio de Las Peñas de Riglos: \"Era una bellísima persona\"",
@@ -66,6 +42,30 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUmFFcWc1aUkyMXI0SjAteFBhVXRwMXo3QkJKTWl0a3E4WnJfc2hjcHFnTHhRN3RiTElLY056N19yQW9rUk54Sm82SGNrZHZoV1BYRGhvb0ljbWc1ckFWSHZZS3E3V2hNdUY2aWs4N2EwbmhwcG96R21HdGwtSGR2bGlPNm00bkczLV9CRWlQMEVONTNXSF8xZHAydFo4NnZmSThFeFVrRy1NWHJzaER3X0NHMGtrZ2RzV1VNbHBsbWE3b0NmeElkZg?oc=5",
       "pubDate": "Mon, 17 Aug 2026 09:25:45 GMT"
+    },
+    {
+      "title": "La derecha, ante la ausencia de Albares en el Senado: “¿Qué falló en Ceuta el 30 de julio y no el 15 de agosto?”",
+      "source": "EL PAÍS",
+      "summary": "La derecha, ante la ausencia de Albares en el Senado: “¿Qué falló en Ceuta el 30 de julio y no el 15 de agosto?” EL PAÍS Bolaños afea al PP la falta de renovación del TC y los populares dicen que trata de esconder Ceuta La Vanguardia Albares planta al Senado p",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTG9iajN3NkxQd05nWlJUNWZnMm9McTEyUlpSdTJYRDcyY21wYlVONXJYYXI2bGI3dzQ5bDRRbVY2d1lHQW9QZDNHX0ZLLXhwSU9Oc05BQWJYQXBNdnVxQS1LQWRqYTlmUzhqOTQ3UUN5Z0szNTZ0Znl5SjBPd1EyM0Z5QkRKaUVuSVdkS3ktTmthQTNrcTBwMkJoNlVTaDBDcW9XcFJ3N0d0amtPWUVYS0tFcXVaQWxYTk95WF8xWFkydDdLVkU2NnZUS0V4LVIyN2tMY0czUjlWQWwxZXBJbGhR0gH2AUFVX3lxTE5WT0RYamRLd0doekZudktNQ2hMWW5TUi1VMmN1Y0NzSGxpWmhtckV6RFF2VWNIX0xpTnI5WFRlWjZnV2FJb0hyU1QtNG1BX29pQ0xTdUNhd1Zld0VFZEVhc05veGVubEJnWGNDMUUxRDJlaVVBNmRQZFlMOXdIT2FCVGZLbEZJM0JISXNYMks2dGVqYmFIeWdDTkdldEM4Y1plemt2ak5JWUoxMF9rUGp3RjM1alYtaExuVEVzS1NEeXRoRHlIUnhxUllnVnQ1MktnV0dJNjFBcW1zM3BwM2pHTlNtUTFVSGxTUWw4dFl0RXVwcDF4Zw?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 11:10:10 GMT"
+    },
+    {
+      "title": "Última hora de la entrada de inmigrantes a Ceuta, en directo | El PP pide la comparecencia de Mónica García en el Congreso ante el “colapso” sanitario en Ceuta",
+      "source": "EL PAÍS",
+      "summary": "Última hora de la entrada de inmigrantes a Ceuta, en directo | El PP pide la comparecencia de Mónica García en el Congreso ante el “colapso” sanitario en Ceuta EL PAÍS Más de un centenar de inmigrantes de la playa del Trampolín inician una huelga de hambre El",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcEUxV3ZDSk1HT2ppZlRtOGJkbnZhcVlwdFNQQm93MkdoZEN3S3JGUmliRUdnbDQtTWEyN3FHdEJrQ1BzWDNSdV9wLVVhM3l4Z0lrbk9tSnhCV21WbjlOZkRRbWw2TVJTM3VFTVhaUWxOV1huX1RTV1J2N0pmVF9hR05CdzBUbGdOaU9IQjlkdkx2RldkTmRUTVZUeVZqTlp6ZktZ0gG3AUFVX3lxTE95cWZ3WkZMbDN0WHkwZFdUZGU5RTUwa1czaVFiaWM3UzRfNmdXbEVKREJhZk8tUGNpWVZYeDRrMHRRbWc4U1dYRkdPLWxXaHBFaXFOaDNIRFN1eENvTnRDVG1OcTkzZ0ZSSUJxRG9RckwtQTdpTDJUbGFMc1REYjFXVmJGLXpiWjh1MHlqWjIwU0s4eGZGQm1udDR3OTJ4LThaODNtM25TZnlhUjNMMVFmNVltY0NtSQ?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 18:51:09 GMT"
+    },
+    {
+      "title": "Este vídeo no muestra una entrada masiva de migrantes a Ceuta el 15 de agosto, es falso",
+      "source": "RTVE.es",
+      "summary": "Este vídeo no muestra una entrada masiva de migrantes a Ceuta el 15 de agosto, es falso RTVE.es La gran desescalada llega a la frontera de Ceuta tras el batacazo del 15-A: \"El régimen marroquí ha mandado su mensaje alto y claro\" El Mundo Ignacio Cembrero señal",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTdfOGtQZHF2QkZyNlloVFducUtPbVdMY3c5NGtXYk9kRjFtVHQ2X0NnWWJocC1iSk84WWFkc01QTHJSOXFXVVlrOUZxc1RkUkMtZ3JvSkRJd1RieHR6TERNNlp3dFdHUDU0NERndmE2Z1BuamFaSFR2U1dKTzVCM3NBRC10VS1UV0Z6YVYyU0RTWThjR3lmNTVPRWdFYWVScE1DOG9hOHI?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 17:21:29 GMT"
     }
   ]
 }
