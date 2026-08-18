@@ -1,31 +1,23 @@
 {
-  "updatedAt": "2026-08-18T12:55:42.902769+00:00",
+  "updatedAt": "2026-08-18T13:48:05.694551+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "La Moncloa y Ceuta pactan espacios para albergar a los migrantes que quedan en la ciudad mientras crece la tensión",
-      "source": "EL PAÍS",
-      "summary": "La Moncloa y Ceuta pactan espacios para albergar a los migrantes que quedan en la ciudad mientras crece la tensión EL PAÍS El Gobierno insinúa que el Ejecutivo de Ceuta podría \"cortar\" las ayudas a las entidades sociales por la dependencia del PP con Vox en ot",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRzcxX3QzNk5Bb2ZIRmc4eE9HUWhGeFpCYUdBREF1bEd2YjJ4NWxqVVZSZGpzVVUxZ3p6dS1SZ09wbV9Ud3c1aVEwSDZTWHdDblpSb3pfaDBMcndPckQ0NVhJY1hneDVnUnFjRXJQLUtaQ0xwX0hOSE1YbG1RVWZ0aGpHSlZuTlVUc1d6NmV6VGFSLVhuQ190TjNTZWpCNG1YREc4dWJ2cHFjT1FacWUwd285WDRkaFQ3YjFhVW5oVXpIUTNTdS12NUNyTTh1YUtHdWhjRzJndWxtQldsSTdlQmROR1l2Q3NydzUyQQ?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 05:30:00 GMT"
-    },
-    {
       "title": "Un nuevo terremoto de magnitud 4,8 y varias réplicas sacuden la provincia de Granada",
       "source": "RTVE.es",
-      "summary": "Un nuevo terremoto de magnitud 4,8 y varias réplicas sacuden la provincia de Granada RTVE.es ¿Por qué ha vuelto a temblar Granada? “Los dos terremotos están íntimamente relacionados” EL PAÍS Un nuevo terremoto de 4,7 sacude Granada y obliga a desalojar la Alha",
+      "summary": "Un nuevo terremoto de magnitud 4,8 y varias réplicas sacuden la provincia de Granada RTVE.es La Junta informa de que ya son cuatro los seísmos registrados este martes con magnitud 4 o más ABC ¿Por qué ha vuelto a temblar Granada? “Los dos terremotos están ínti",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcUhxMEFSM21uY09jbXhuOFVzNm1qSHYwNF80T1JFSURuSmU5Y0g2Yy1RUGlHeDgtSU1VS2U4T09aZ0kyb2JyanBjTkFsNVpOVlNyME1maUFra1g5Y1V3VjhTMUhxeUpFUl9YLVNSZTRiUk1nNXdWTUp0SnM3Smo0TTU0ZHlveGRINWxtNEJyaThhQ3dETHc?oc=5",
       "pubDate": "Tue, 18 Aug 2026 08:58:15 GMT"
     },
     {
-      "title": "El CGPJ considera necesario el refuerzo de la Sección Civil y de Instrucción del Tribunal de Instancia de Ceuta para hacer frente a la crisis migratoria | CGPJ",
-      "source": "poderjudicial.es",
-      "summary": "El CGPJ considera necesario el refuerzo de la Sección Civil y de Instrucción del Tribunal de Instancia de Ceuta para hacer frente a la crisis migratoria | CGPJ poderjudicial.es El CGPJ refuerza el servicio de guardia y el juzgado de Violencia sobre la Mujer de",
+      "title": "Última hora en Ceuta, en directo: decenas de inmigrantes logran saltar a la Península y noticias sobre la crisis migratoria hoy",
+      "source": "ABC",
+      "summary": "Última hora en Ceuta, en directo: decenas de inmigrantes logran saltar a la Península y noticias sobre la crisis migratoria hoy ABC El Gobierno insinúa que el Ejecutivo de Ceuta podría \"cortar\" las ayudas a las entidades sociales por la dependencia del PP con",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxORXdHRWNmX0xtUHlLLVlhNHBHWF8zbTZGd3poamItNXNzeWhiN29Jd0p6cDVCcWVIMmw3d1NaMDYxLVVJZDVhcnRFeXU2LXVRUE1oNXd2RlFkbUZ3bmI4eklyU01TMW9NUU9Sc2FEaUQ3UUxqa0lqTkVXekZjc292Z3ZWYkw2R0hXTF9ibXNVTVZacWtHM2NNcXpBeWk4WURiclFOaU5yN2wzTzQxVmVDblNEOUZUT2ZsU1JzYmQ3dURKZVFVNkZ1MGhRUGdCMXBEdU9Wal8zQmFMUHliV29uN3dJRjh4MFY0LWdYbWM5dkNDUE9uTWpHYXpuU0xyWUptczF5TVJwcXNsdVZaeUQxNFBQaElWb1l6cHpQTkhiY0JvX3NqY0NDYkhYc1BoWVpFbGFScXo2RnpscmM?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 12:22:30 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSVJyMEFkSWxXWjhVWV9GaXRBR2lkT3JuX1VqTUIyR0FxLWxZNGtPSDlkVEZiUm1iT0QtS0ZVSTN1MllVQkxNeFBlT21XTGc4VHpJYkJ3YV9pM25KTk1MekNYb0gwMVk5M3Y2dm5RYU9ZbzlaZ1VQSG5LZnBLVDZFT2ZwbEpTNU5xMklqY08tOXk5RVRxZGhSeU85ZFJZb0o5eDRz?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 11:45:32 GMT"
     },
     {
       "title": "Mónica García asegura que se ha podido responder a una situación excepcional sin alterar la atención sanitaria ordinaria de los ceutíes",
@@ -38,26 +30,34 @@
     {
       "title": "Los evacuados por el incendio oscense de Riglos volverán el miércoles a sus casas si las llamas siguen controladas",
       "source": "RTVE.es",
-      "summary": "Los evacuados por el incendio oscense de Riglos volverán el miércoles a sus casas si las llamas siguen controladas RTVE.es «No podemos quedarnos de brazos cruzados ante el fuego» El Diario Vasco Así se encuentra el monasterio viejo de San Juan de la Peña tras",
+      "summary": "Los evacuados por el incendio oscense de Riglos volverán el miércoles a sus casas si las llamas siguen controladas RTVE.es «No podemos quedarnos de brazos cruzados ante el fuego» diariovasco.com Así ha quedado el monasterio viejo de San Juan de la Peña tras el",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOGIyN2xqUzBldEpmN19SNE5iZWNSampicFUyRlY4OGwzT1E0eFpvUkN1TGtEWGpfcDB0UWlwUHJLa2dUWVo4Vlk1ZTJlMmFfdl9RczFTNVNPMm5CYmJHS0c5eE5sdTIxM3Z6bnVSTUVmb0lyaUp2N19wdTVlcWF0N243SFR0dlFoTzdaVWVaemlTeG94Y201X3hzX1FCbWZxZV80NGMxeXhRNDREamtIZFRtWXdpUFVRQkltTzdn?oc=5",
       "pubDate": "Tue, 18 Aug 2026 08:56:02 GMT"
     },
     {
-      "title": "\"Pedían 50.000€ por la cabeza del 'Baba'\": mató a su cuñado por dejar a su mujer, inició la guerra de Isla Cristina y van 5 muertos",
-      "source": "El Español",
-      "summary": "\"Pedían 50.000€ por la cabeza del 'Baba'\": mató a su cuñado por dejar a su mujer, inició la guerra de Isla Cristina y van 5 muertos El Español Los cinco crímenes en la guerra de clanes de Huelva desde la extraña pelea en Alimentación Moriña El Mundo El triple",
+      "title": "¿Está la Tierra atravesando una época de mayor actividad sísmica?",
+      "source": "The Conversation",
+      "summary": "¿Está la Tierra atravesando una época de mayor actividad sísmica? The Conversation La Tierra tiembla todos los días, pero ¿están aumentando los terremotos más destructivos? RTVE.es Terremotos en Granada, Colombia, Indonesia y Venezuela: ¿hay más actividad sísm",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbEtKb3NKQ2xjWDd4ZzhEaDR3NXp5OU9FQWRHVWNkSkRzeWJCUUlCZE51eWZzX2JtYWtXUFg3ZkpTWWVsQmxPYURyOGlkVmFiTnI5NDlOZ2VkLUVEMFlsSGlIMjhwd2RwM0I0b3ZnUmx3b0tPLU8xN3N3TkFoNmtadk0xRng2TGswZTZLbE9GaGJRaUpDRzNvZmFzN096blV6TWZVUWtGdmQxMFRGaHJzVFdmRzRrOWtnemRoRDc0Q3JGa2Z6cEpnalFOc0ZTVXppUldhbVpHMndYYnV0XzRQTUgzTdIB6AFBVV95cUxOWG0xOTdKTHIzUjVBYThGQXRodzMyakFVWHNET1RfTnkxRnIyZzRUbVJQYXM4RU9FRmdpd2tQWlRqX2VvQUlZZVA0V0NQN1EzMjRjTW5qa3lOODlkQ005U2Vhb2t0eFUwT2NCZF9ZNVB2YnVFUzE0SGc2U2lSR0otU09wcFRLNllHS1FpZVg3b1BCTl9vMUxCTDZ5ZmQyVDlVdm9rVS1acmQyTVIyMWIzemE5RUVFU0NKZm5Kck5Dc0NwUV9EZVlzZWVBRGpRTmFLdEhCeVUxWnhVQmdENEhSMXdRR3ZQMW40?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 04:00:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZEpRRDdrZkk2S0FwVFRUa0JHaWlIazVITFFlNXhhX3BpUS1DWXliRVhRZWk3UDdQeVN6d08tZDF1Qno0dExJQVBMS2lpLUVsTTdKMXlMNXl2ZjVsaVh0TTNaTnBUOXRQSHRDNEJUZGs4SXJCWHNtNTY3R0ZXWGRIdjEyaXU3Y2tOeXQ3U2VEVVBmX1lKNk9IdjlxRVM3d1E?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 11:12:08 GMT"
     },
     {
-      "title": "El ex jefe de gabinete de Sánchez, citado hoy en el caso Leire por el clonado de su móvil",
-      "source": "La Vanguardia",
-      "summary": "El ex jefe de gabinete de Sánchez, citado hoy en el caso Leire por el clonado de su móvil La Vanguardia La Audiencia Nacional clona el teléfono de Juanma Serrano tras negarse el ex presidente de Correos a aceptar la copia irregular que hizo la UCO El Mundo El",
+      "title": "La penya Els Grillats con los “Playmobil” gana la “Cabalgata de Disfraces”",
+      "source": "lanucia.es",
+      "summary": "La penya Els Grillats con los “Playmobil” gana la “Cabalgata de Disfraces” lanucia.es Ver más titulares y perspectivas en Google News",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWZhbW9jS3JGaGMwWjE0Y29GY1pheWk0Y0RFWTJZQzE0b1JZZTdkMG1fN2xRYTRJQlZpakNWQ0t5VmhIal9mNld2NDExeGJ1QmJ3WExTNHdDUTFJODktZDZqcWY5aTUwVE9RWVNCdkZEekhub3huUUkwTGhvVnRTUlRYcC1OcllnVVUxU2QySG5vMVowMGZLS1ZJc3kzNkw5dWNISlJ0RTRXV2N3N1MyaDVJS2xNamhuNnpDUNIBwgFBVV95cUxPWFRjOWdZQXI2Yjd0VWk0VTVVWG5BSjBIdzZvVGtWVHpaXzE4b1NXSW1nOUlFZmVlUkkzcmQwMTFOU21IeGNmNXVCWjV2OUI1SHN0Z3lETlJhc3pwM2trU01KamY5b05yaHZzQmFlTHpKeHI4cmIwbldIM3J0VXI0V1lENW44QmJSVmR0V09HOUpQcTUtcy1fa3owV3JpV1EtamxwaTJibV9IWEJXSURXeEN4dGFFSzVSY0h2WG1qRGF4dw?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 06:46:56 GMT"
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOV9xX3BNQ01NTDhSdUVHMnlzbE5aVHJDMmdwZjFGckZELVUtNWV2S2hIRkFobFZpZG5YSHM3N0d0R1dEVzBwQnZOWk1pNFFuajZkcTZHZDBqU25ZU0lYUmEyMVRzbVBnTXpySk05d0pkTTBKNUtyeU1BM09WTnZndnFlOVQ3ZVpUbHVkMXVvRzA5UlZnRUF1empjaHJBamh4?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 09:45:00 GMT"
+    },
+    {
+      "title": "Muere el bebé de la mujer tiroteada en Isla Cristina (Huelva) y apuntan a la rendición de cuentas entre clanes",
+      "source": "Europa Press",
+      "summary": "Muere el bebé de la mujer tiroteada en Isla Cristina (Huelva) y apuntan a la rendición de cuentas entre clanes Europa Press Los cinco crímenes en la guerra de clanes de Huelva desde la extraña pelea en Alimentación Moriña El Mundo El triple crimen de Isla Cris",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOUlYTGtaX3JoTlZ5MXJPdWs1a3JmRXZKVm9aazNRbnkxSXpwSjFKc0p0WU5ta2U5RGNaZFJFcGYtMF9TR0JfS3BMN2szUmJMTW1OSzQ0ZDJuNGU2R05OMjU1ZmZHWHFudWl6c2VBdlNBY05FdHlCZ08tRHh3bnJxeHlZdFk2bDl2UTRzZXhPT2gycFBkLTRfMVBraVFWdHUxSk9SSmRLOG4teUpOUktId0xDaVNVN1VaV0dpdmdyM295bWNvWkExbFlOcGZnSW9oT2NQSzVNT1p3QU9GRHMtM013SUVvT084Sjg5cDlzcw?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 11:48:39 GMT"
     },
     {
       "title": "Almaraz produce la misma energía de media que casi 6.000 aerogeneradores",
