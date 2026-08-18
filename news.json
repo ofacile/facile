@@ -1,47 +1,31 @@
 {
-  "updatedAt": "2026-08-18T20:53:43.463754+00:00",
+  "updatedAt": "2026-08-18T21:28:37.969187+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Un terremoto de magnitud 4,8 vuelve a sacudir la provincia de Granada seguido de réplicas",
+      "title": "La Tierra vuelve a temblar: nuevo terremoto de 4,8 sacude a Granada, España, y deja tres heridos",
+      "source": "France 24",
+      "summary": "La Tierra vuelve a temblar: nuevo terremoto de 4,8 sacude a Granada, España, y deja tres heridos France 24 Cuatro seísmos dejan a Granada sin respiración Ideal Nuevo terremoto de magnitud 3,3 al suroeste de Alhendín Granada Hoy Granada tiembla otra vez: ¿Por q",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR2pyeTJUUkpGUkZLNU5wRElhTHRGR0UyTlMxaHFYbmduSzNKZS1uQzFPbTQyaEloVlVsZzF4OHhHcWtnN2UxeEVROGNkbFBZZTVXTXhWTXhDYU1VVUNLR05wWUd6cUkwN1AtVHI4ekpDZlFuWE1TdU5xdlp4bWhFQzRfbGJEaGxmYk5JVWFjQ05LOFFaZmJMQTJZczhqemQ1bnJVdEJ1UHZDMVNGSW1TNHhyOUZLdXpZLWpvcHR4dGhCRTJqUWNXNWdxOWVETXlBQ3R1c1pwcjJSdw?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 18:09:41 GMT"
+    },
+    {
+      "title": "El Poder Judicial y la Guardia Civil piden más medios para trabajar en Ceuta",
       "source": "La Voz de Galicia",
-      "summary": "Un terremoto de magnitud 4,8 vuelve a sacudir la provincia de Granada seguido de réplicas La Voz de Galicia Cuatro seísmos dejan a Granada sin respiración Ideal Raúl Pérez, geólogo del CSIC, sobre el terremoto de Granada: \"Se van a sentir réplicas durante las",
+      "summary": "El Poder Judicial y la Guardia Civil piden más medios para trabajar en Ceuta La Voz de Galicia El CGPJ refuerza el servicio de guardia y el juzgado de Violencia sobre la Mujer de Ceuta ante la situación \"extraordinaria\" generada por la crisis migratoria El Mun",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVFdLWTBlcEd3d3FJRnJKWWVjWVZQMzI1ajZ4d0N4RXV5UkFZRjBXOWMzWDVoNTl4akJJUG94TF9GWmZFOFIwdXpTUVVvTk9zMl8wLUw3RVFQeDNzY3Bxd2dGZG10X05yOXJGdnNZckJPX25Hdm05WXc0UGNyQlZZN1lUYVJOTXV4Z1lUZ2J3R29FZWowWEpnenRneE1uTjRzNzRjRXlHSXRORVl6d2dSTGZ6TzAwUjl2eEtQWDkyczY3bHdUM0xWaXhVVTZRekVINnNCUzZyXy3SAfQBQVVfeXFMT1FyVWlEX283TVB6UkpnVXJDZlFCMlY3MVNRcm5kMXVfNV84NHBGZ0xqTWtGQ21PNjRNZ1hWMU1rQ3BSX1JCQzB3Z1hNTjB1SzNRdV9BQzRfdXBhRXpUM0xNeHBHNkllbjhvajVHNVB0d1JvWUtWbVM0MFI1Y2dwN2R6eUxMWXFzcTBWX0YwSDFkc3VxbWJac1NVYjFuNXJtTnl5QTJ2VFVPbTRyXy04V05rNnJVSzVLekU2V0RPaGRtWmNJZEw5QnY0bVZPdEFhcmtZd1h1cXlPSGhaN1cwTDZZN2ZZMHB1LWQzNUtVWHR2d1NVdA?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 12:40:36 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUl2ZFFBQ2NWZm5vRTZWS2RMQ0VkRXV1MjZPcFpuM0lsMko2V3JUdlRvUnFET1BDY2tEZlktUG11WjExM2tiUHJqaU80TE8zM2tza1RFVm52RldfTW1zU2FCcklBUHBUNENtQ3NuNDRZNFBEWV9kRjM0UXBhUlN5czBaejdmS2FieEFHRmJybWNmUFZzT2NpZUF3UzFraFBDVVB3YXEydnpXS3BwWXcwaURrUHdPUDNWdjBoUDNPRGE3cERuYmdNOGNXanRybFR3MnNN0gHvAUFVX3lxTE56Q056OXVOS0ZUbTEwXzN3YktkN19KUlhfeGpFMGs2RnlBQXRBQUU0Y0xwZVd3TXFlLU1heXhYRVNXZDRfdjFrdVdtSWg0bFhka04tVnQ2MUJFeTJxSDBlV3pWUFB1Z19xaWRBVHFyOTJhZW5YaUZ4OVp2QkhZdVdNWmVpZExGQ0R4XzRJS0w1bmxBdXN4SjVQc2tMVWl6TVFNSlh1a3lMNEdUTDFDa3oySi1IYkk4MGE2WnFRd0Rqc3pfUGFYOGVlN2Y2SzRPekpROUowNy1za3RsNmE5OVhaUThTdHZaSXhMMl9SOXZJ?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 18:03:41 GMT"
     },
     {
-      "title": "Bruselas avala que España devuelva a todos los migrantes que entraron ilegalmente en Ceuta, incluidos los menores",
-      "source": "El Español",
-      "summary": "Bruselas avala que España devuelva a todos los migrantes que entraron ilegalmente en Ceuta, incluidos los menores El Español Europa presiona a España para que los menores migrantes en Ceuta sean devueltos por estar \"cubierto por el Derecho de la UE\" El Mundo B",
+      "title": "El Gobierno acusa al PP de establecer «directrices» en Ceuta que «complican» la colaboración entre administraciones",
+      "source": "La Voz de Galicia",
+      "summary": "El Gobierno acusa al PP de establecer «directrices» en Ceuta que «complican» la colaboración entre administraciones La Voz de Galicia El Gobierno insinúa que el Ejecutivo de Ceuta podría \"cortar\" las ayudas a las entidades sociales por la dependencia del PP co",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdDNNQklidjJjNm9vaWNuLVhjQ1huRnRraFF5S0trZGRHcjd2QXFOMVVzNmpldmpUM3hSWHZaNEYteWR1WE5Yb0NBbEh1Y1JpZmhLQmZDWTM1LVVHSUpJSzBFbzhSOVhCTThDZTJSdTFLVWhIWjIwR2RQS0hEcVNyTW1JQVQzMHhuV2doaXJtQW5pSTlTRXdCYmlvWTQ0VmtHMHllMVpNVWdxalltaTZ6cGNUSEh5NWNscUM1cDF1NWV1N1lHMDVoMmpUOXdhamVJc3gyNjlWUWk0eDJlMXRVejZwQVBock5BX1V6QlFn?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 11:36:38 GMT"
-    },
-    {
-      "title": "El CGPJ pide reforzar los tribunales de Ceuta por el \"incremento de agresiones sexuales\" tras la invasión",
-      "source": "El Español",
-      "summary": "El CGPJ pide reforzar los tribunales de Ceuta por el \"incremento de agresiones sexuales\" tras la invasión El Español El CGPJ refuerza el servicio de guardia y el juzgado de Violencia sobre la Mujer de Ceuta ante la situación \"extraordinaria\" generada por la cr",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNakJLWUZOZ0F6eThQLTRxWW1CRXRHeUpvOE5UdTFQMmhncEdhaEpzOHc1U01BNklQV0VabjlseGNoSWxuZkVLbnItLWMyaE83N1l6a1BaVWxSWXZ4aFY1YXJMNzlMMW00VTJOWFNrRUtoZWhYUUh2eWY2MTFsbE5UUWRLRFVuT1gwMWhPdDllUS1zZmhxLUxqeDNEdW1tbDFwQUZVSEdOUmdiWXViN1FUeFZmZDJIUV9MTDRyUG8telZrdzk0cjlZQUo4emZhY3ZfOUpWWENVaUZ0VFRHZVRNLVc4YjlvSVBCMTA2WWZFTdIB9AFBVV95cUxNZ01HSFZBNFk5a0loUnlmMmtIa042TVFodGI2RWVmdVlUT1IzUWhzZ0NMRFJhc1FkRDlKc0YtZFlYdGNlNTA0Tk80VWFBcERmcHpxQTBoUnBTbTZDWlA4Q3Z4UWdxV1VwN2FDeWxYa2FMSGFwYVJmZGZJX015OUU4aWo3U19rR3pWVHZ5RVVoT0p1SGZVRlEyZUJwZmxYN2xsT0Nxb3J6R3JMMWdEQmkzc251SWc1WmdMV1VpSkl2M3dEekRsd1lJVWtHSXZoYzBVWEJ1UjV1VVRlR1FjSURseTl3WUxyaGFRWHJCTjhpRWE3VlND?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 11:56:02 GMT"
-    },
-    {
-      "title": "El Gobierno despliega cuatro centros de atención humanitaria en Ceuta para 1.500 migrantes",
-      "source": "La Vanguardia",
-      "summary": "El Gobierno despliega cuatro centros de atención humanitaria en Ceuta para 1.500 migrantes La Vanguardia El Gobierno insinúa que el Ejecutivo de Ceuta podría \"cortar\" las ayudas a las entidades sociales por la dependencia del PP con Vox en otras CCAA El Mundo",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdm9haU1lTDlkc1RZMGtKemwtOURQWF9uUElCdnMtcGZPLURCTVNQdzQ5aHpuX0tPX0RVV2xCZjdDU0YwMkVXMWRQT0RzdS1UYzhFUzJEQTFueVFSU3NDUmtwRm4zSDhiSS1GUFUzUHlVR0xNYmo5dHdFREZuZVFTMUFIcVZvZWtLaVJhZ1RZbVBMaEI4dkhSV0NoN0tZU0RmQWVJaGZ5YmlRcGFUQjNKQVpZMi1taVMtQ1A0aktCZUxYU2x1ZGpOS3NpTEVFR3BaWkR30gHYAUFVX3lxTE1tcnZBYUdMS3lwd205Z3lpNVFqNVNUNmp1ZTBjM09sblJCdXFZTFg3cDhqMEUyY3RPcGY4eW9FMlVtTTZGekFjUUNCVTlPMGt5OC1MNWQ4bFUxS2lEaTJxZW5KYlhKNEFDNm50QURneWFHWlluSm5fYjVLb0l3dnl1LW5ZdzktZGI1aURMR2M2cVhnNzJkUnNreWZvVXBEbG9QQzNBQXRLY09Qak1iS0VJM1VZT01MOGVXa3loSFhNVXRmVGJLM0NvazBKSDdFQlQ4SmtWZ0o0ZQ?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 11:35:52 GMT"
-    },
-    {
-      "title": "70 policías nacionales desplazados a Ceuta tienen que compartir un único inodoro",
-      "source": "larazon.es",
-      "summary": "70 policías nacionales desplazados a Ceuta tienen que compartir un único inodoro larazon.es Las condiciones de los policías y los militares destinados en Ceuta: una habitación para siete, un baño para 70 y sin aire acondicionado ABC Colchones antiguos y un úni",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQ3U1RUNPdFJlY1hBYVVEZWNEZUdDRVFIenU0ejUyWnYzdEVTUE5iVzZjMExiOHlvMlVnanVwNHMtVDJ6b3JMWUxxalJoQUJXaWNqUUdlcWc3Yk9ISllRaU9CWlp3a1pSeFJVaGZfWmhpQ1dnY3lhaUo4UDBYZHlfSXMwYnlZeHdoQTNzWjVzZVZma2hRV3I0Zm1GZk90NDMxc09aLWtzMnRoUUtVQk5aeDlfRTFCU1o0eW1HX2JmcmZlUjJpcE1VX1BMRmdHcW4xVjJPZkViakRISmvSAe8BQVVfeXFMTXlvNy1BNDh0dmZudkk3ZW5qOTVGQm5DdmtHSmVNa1NrMWJkS2tYdnRSSGhmZ21VWVZnTFlPWU9OM2ZHM2hOaVR2WlpGOTdnb0tTdnBWc1F6S2xnX0NsV0dodjd3S3R3ZnVhUjFPTkRJaEkyUnpJM2xlUG9vaUt0M3M3NGpPN1MyX05zSHU2alJaZXNGTGpxdUtfRnowTEFCdkg5V0lhaUNFeUJSdjVuVnVQWXZ1eVg4OTU5SkFuQnd1MzA1b0pYZ0tKcDBzYnJzazNxX2phdEsxcmN3cGIwejZlUW92eFcyV1BzM041ZGc?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 15:55:41 GMT"
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOTTV1MllBUjNKQVlSY29GWGJhZU9OaGxBUjhnb2FJMTFjWTFUdlAzbGRHaFBuQkxWQTVHUjh6enNSeUM4YUpBZFZnanNEb0FwM0xsNGpjMGVYZW0ycGR4Q0Q3RWNUVDV2NlVFOW1kRGc1ZzJtaDN3UE5kWlVTRGNLYWxOYm5hWlhHYWtxdGRzckpDYmtobV92MEF4ejJJUTBTSDZRUFhOVUNod1ptb3pfNXdRcE1sV3lCM3NsdmtOLWFFUkdxenEtYkZSdmx1RkItVTFjem5YSnoyMWhZY1BqcUdrcE9XOTV5dXUtenZRQU9GODNxdi0xNFdqRi1LOThHU1pkVtIBoAJBVV95cUxQSHA2ZWdRVE5nUjdNR25ncGJWQWhDQzFNZVEtTmxDalR6SWZEbzhvcWFHeUxjUFQwQXBxOGhON0hNWVRCV1JUSmpsOEU1LXdsQm4zRXFCRHc3MnVUQ2VzOFR1cWsxNm5Cdm0wV2dhLVlJa3RIN3l5cWdsUUxPN2xyUzYyVHA2T2dtVjdKZ2hSMkNweWlfTndwQTd2LXFoaEQzaUE5WmduVmx6bGEyVTBUSHhJemZSU0JDWWpkRE5EQXZsVGR4Wkk0bjZFNmRZcG9IYi1WWDFrTUhvQjgzUGNqbm52blFNc2gyMEZXdmxCMnh5TEgyV3B0TUVFU2dXSXFXaFMzV3VPTnROY1MxUmhJXzc1TDJaSkxWVmlhLWFFNzQ?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 10:24:27 GMT"
     },
     {
       "title": "Ceuta y Melilla, hoy en directo | Últimas noticias de la crisis migratoria, situación de los menores y reacciones políticas",
@@ -52,20 +36,36 @@
       "pubDate": "Tue, 18 Aug 2026 16:22:39 GMT"
     },
     {
-      "title": "Un incendio en Las Hurdes (Cáceres) obliga a movilizar a la UME y evacuar a 600 vecinos",
-      "source": "EL PAÍS",
-      "summary": "Un incendio en Las Hurdes (Cáceres) obliga a movilizar a la UME y evacuar a 600 vecinos EL PAÍS Un incendio en la comarca de Las Hurdes (Cáceres) obliga a la evacuación de los vecinos de una arquería El Mundo Activado el nivel 2 de peligrosidad en el incendio",
+      "title": "70 policías nacionales desplazados a Ceuta tienen que compartir un único inodoro",
+      "source": "La Razón",
+      "summary": "70 policías nacionales desplazados a Ceuta tienen que compartir un único inodoro La Razón Las condiciones de los policías y los militares destinados en Ceuta: una habitación para siete, un baño para 70 y sin aire acondicionado ABC Colchones antiguos y un único",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc3dJNFREMnkyOEk4dDBJc1NnLXBnRzd4OG5yTDZybTZMdk1FWFZ6eTl1MUFVMjRBWXhmNldjV2VSYmEtclpaX1NSaFpaQUE0dDVLQUEwcWZBOWZXLVdUR2x6RzRlbEVNOURkaXhOTzZKWl9oejdNY3h6WW5xVHVlTHFST0NrNThuS1FwZW9jOFVtM080aGhyZkE3ZVB2MGdQUjVXM3kwUHNQNzhEemdDS0lQN3hmOFh3MndVT1BwWGRjM0pwOXfSAdoBQVVfeXFMUGJ5NDlKcXZRRmJqMmNhaFBjdFF3NHFub0JXeGZDeS1PS0I2b3l6SkN5NDVrbGtoUlZUVlpyai1sRTVjX0hrN2F3cndYU3d5THNzeXVIWXZmU09vTU56bzJid2JWdjM4eGl6UnpKWUdMZGhXZTdFcV9rSXlXTlJkd0RoS19zZDJOdlJIWXc5S1YyWWhES1UxZFhvUl8wcDZaMVA2bkU1dzdPX1QyOEhsMVlZNGZ5T0gyYzU1RjU1VTEwbklCVVNfZUFiQVVrbVVMelRfRVY5OHM3QkE?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 17:08:34 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQ3U1RUNPdFJlY1hBYVVEZWNEZUdDRVFIenU0ejUyWnYzdEVTUE5iVzZjMExiOHlvMlVnanVwNHMtVDJ6b3JMWUxxalJoQUJXaWNqUUdlcWc3Yk9ISllRaU9CWlp3a1pSeFJVaGZfWmhpQ1dnY3lhaUo4UDBYZHlfSXMwYnlZeHdoQTNzWjVzZVZma2hRV3I0Zm1GZk90NDMxc09aLWtzMnRoUUtVQk5aeDlfRTFCU1o0eW1HX2JmcmZlUjJpcE1VX1BMRmdHcW4xVjJPZkViakRISmvSAe8BQVVfeXFMTXlvNy1BNDh0dmZudkk3ZW5qOTVGQm5DdmtHSmVNa1NrMWJkS2tYdnRSSGhmZ21VWVZnTFlPWU9OM2ZHM2hOaVR2WlpGOTdnb0tTdnBWc1F6S2xnX0NsV0dodjd3S3R3ZnVhUjFPTkRJaEkyUnpJM2xlUG9vaUt0M3M3NGpPN1MyX05zSHU2alJaZXNGTGpxdUtfRnowTEFCdkg5V0lhaUNFeUJSdjVuVnVQWXZ1eVg4OTU5SkFuQnd1MzA1b0pYZ0tKcDBzYnJzazNxX2phdEsxcmN3cGIwejZlUW92eFcyV1BzM041ZGc?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 15:55:41 GMT"
     },
     {
-      "title": "Incendio en Huesca: el viento y el calor complican su estabilización",
-      "source": "El Diario Vasco",
-      "summary": "Incendio en Huesca: el viento y el calor complican su estabilización El Diario Vasco Así ha quedado el monasterio viejo de San Juan de la Peña tras el paso de las llamas El Periódico El incendio en Peñas de Riglos entra en fase de estabilización y 7 localidade",
+      "title": "Las próximas horas, \"claves\" para lograr estabilizar el incendio en Peñas de Riglos",
+      "source": "Cadena SER",
+      "summary": "Las próximas horas, \"claves\" para lograr estabilizar el incendio en Peñas de Riglos Cadena SER Así ha quedado el monasterio viejo de San Juan de la Peña tras el paso de las llamas El Periódico Los vecinos de Villalangua, Salinas de Jaca, Santa María, Bailo, de",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmMzS0pldVk3RUVac2ljeGtLWFNWQnlLZEV4UGxHaWlBcE1MV0l1SWRHSXJFV0tvZy1rdGdlN0twTnJ1SGpaUmpqSGJPb3VsLVhIcFR6dUtPQndfUnpkZjY0cHpJQXVNX3lwWHkyUjVyUTI1eTEwSS1DT3VLWnRwX2NBdEtHeVAtMTFiTmhGWUR6WUZtODdSc3BIZ3lJY0JRXzhDcl9nUXhaUVFXbllHaXE0UdIBuAFBVV95cUxORzk0SWhhck5HcXprT2FlVzlIQ0tKRzBqYU0xSHhTa18xTlJDdTEzajVGeWxLeDZlN3hJcHZ3OTZkdkJUMm5CYkp5RE84bGlwb1cydF8tb1JiaC0zajNkV0ZZVDdVZ3BqdEdGWEdfcFZ6b3Y0WlBiUnlCUTZDS09MNUFhbDZuQlhQNmhSUGkyNzh2eHAtVUdBZUtuX19VWXpOUE8zVXJNb2FBX1pFVTduQVBmclNEOEQw?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 17:42:38 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT1FudUN6WHlVaTVhQ2ZvM3ItdW9sLXIwV21MdHJ0eS05cVh3MC11cmhoaUJKQTdDR21DeHVLSi1ob1ktUW5sYUpXLXpsSC1GVEdWb2gyU2hYU2EwMENOVUxBR0RPbHI3Z2dtc2FSV2RKQVo4NkMtRlkzNWNTdmNONi1vOXQ4VWo5ZFpWa1d1TlI3Y2lVbkhqVnhHV3lGUjlLWXdPbGFFRXNFN1hFaUJVSGR5alpKQkxJazBzd045MUFvdHd5aGFZUDY5VDVDdElHS0HSAeYBQVVfeXFMTnhwUU9tOHNoSXpKSlAybV9rWjFlZ0J4N0RpWEk3R1FEZFB0aWNQcUszQ3VUTXdMLVFqbmVOLTBsbmVSZHE5YmtYbDBMOVhFeGZoWm1tZHBmeUdSTm1WNWpIaWFwbl94a1kzWE41clV5YXVEb3pQd3RqQUlZYmZraU1YcWNETENFcF9mNXZ0b19jVi1yV0hQTTQ0OXlfMDQyVHYtQWN1TUwzVlFpdV84MUdFX3ZwWkNxVGlVd3FqUU5jTnhtU1FhaDVtR0NGblVVOVpRRHlqZG5Idk12dGlCUVRWSGhMZVE?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 08:54:00 GMT"
+    },
+    {
+      "title": "El fuego vuelve a Las Hurdes y obliga a desalojar a 600 personas",
+      "source": "Euronews.com",
+      "summary": "El fuego vuelve a Las Hurdes y obliga a desalojar a 600 personas Euronews.com Un incendio de nivel 2 en la comarca cacereña de Las Hurdes obliga a evacuar nueve núcleos de población RTVE.es Medios de Salamanca se despliegan ante el incendio de Las Hurdes, a so",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb2s0Q3dlTlFRMWhsOG5tQW1XRWFxeWJuZUJoVTNLbnNONkR2OFEyUDQ2d2tRaThpZUctQUYzYUpXR0ZPaXVvZjNTNmZJOFgtS003ZEZjQTdSa01ISkFEOUgtS18xd0pLV3FyX183S3FSaTQta2pzSHpYZ0JVd0NmZ196OWxrX21PSHZMUmxCU0VRVzgza3hoZGpWN0FoVE9vWjVsSVhSQ2ZoajlFRGcyVk5LT0dyY3R0N0VNOHVGYlk0bWtrWWc?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 20:16:00 GMT"
+    },
+    {
+      "title": "Feijóo alerta de que España vive un momento “destituyente” con un Gobierno que actúa “contra la nación y contra el Estado”",
+      "source": "Partido Popular",
+      "summary": "Feijóo alerta de que España vive un momento “destituyente” con un Gobierno que actúa “contra la nación y contra el Estado” Partido Popular El PP reclama “rearmar el Estado” en Ceuta para no depender de Rabat La Vanguardia Vivas y Gamarra exigen la expulsión de",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNd0hpbFhhVnZLanZ2SEVvOWFiV3dPbmdEeDZSRUp4cDZSMGxCN1hWcDZVeW9HMlZOS2dzcW1oN3o4RE9oODktWEpHbHFjZ1ZpQ1ZhR3JaaWpuQU8zZVVYdVU3aGlDbWpyZU1JQVBPQmNwSmxwTDJjOWM2Rm90LVRGMS1JbzJMdTN0ODZrLUpsNV9tZE1aZnJ3R25naE4zd1czNURKNW9pWnBfR0tjWlVjZVQ5cHV4ZndZMkR4Vlc1T3k5YTY1U2tHSTRwQ2Y5cnNlMUxtdzI0bFVTeURrbXQtUkctVEZJVWF2NVpmeHcwSQ?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 15:27:25 GMT"
     }
   ]
 }
