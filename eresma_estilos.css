@@ -6545,3 +6545,30 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     top: calc(100% + 8px) !important;
   }
 }
+/* FACILE — REFUERZO RADIO / TEMAS SIN CIERRE EXTERIOR */
+
+/*
+  Este bloque no cierra menús.
+  La sincronización real la hace el script de index.html.
+  Aquí solo reforzamos estados visuales y de interacción.
+*/
+
+.facile-radio-widget:not(.is-open) .facile-radio-panel,
+#theme-panel:not(.facile-theme-menu-open) #theme-menu.theme-menu{
+  pointer-events: none !important;
+}
+
+.facile-radio-widget.is-open .facile-radio-panel,
+#theme-panel.facile-theme-menu-open #theme-menu.theme-menu{
+  pointer-events: auto !important;
+}
+
+/* Si Temas está abierto, Temas queda por encima de la columna. */
+#theme-panel.facile-theme-menu-open{
+  z-index: 2149 !important;
+}
+
+/* Si Radio está abierta, Radio también queda en una capa segura. */
+.facile-radio-widget.is-open{
+  z-index: 2148 !important;
+}
