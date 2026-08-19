@@ -1,31 +1,15 @@
 {
-  "updatedAt": "2026-08-19T20:33:35.499181+00:00",
+  "updatedAt": "2026-08-19T21:29:32.301086+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Decenas de medios aéreos combaten en Las Hurdes, Cáceres, un incendio 'convectivo' que afecta a 2.200 hectáreas",
-      "source": "RTVE.es",
-      "summary": "Decenas de medios aéreos combaten en Las Hurdes, Cáceres, un incendio 'convectivo' que afecta a 2.200 hectáreas RTVE.es El incendio de Las Hurdes obliga al confinamiento domiciliario de la población de Nuñomoral y salta a la provincia de Salamanca elmundo.es M",
+      "title": "Feijóo pide mando único en Ceuta, retorno o expulsión de migrantes, y \"reciprocidad\"",
+      "source": "La Verdad",
+      "summary": "Feijóo pide mando único en Ceuta, retorno o expulsión de migrantes, y \"reciprocidad\" La Verdad Feijóo insiste en la expulsión de “todos” los inmigrantes y rechaza los “chantajes” marroquíes La Vanguardia Feijóo, contundente en Ceuta El Mundo Feijóo, sobre el t",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0VJNUNsemNZN3RIVkMzR2pzX2V2WW5lMndwbzlpTTlUd2NMYnVHMm9qWEpnOXUyYWpjbTBBWmthZWlKOF9ZcDNVRnFuVEY1WjRNYlVTSjBmeHRoSzVTa3Q5TGRwTi15aWxfaEF0TXRlUkc2dXJOOWtMSDdvOElMeU01QU5LY0x2LTcxWExhQmU3bmZoNjdNM2R3cEtZNnY4WFhYV3dR?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 19:42:30 GMT"
-    },
-    {
-      "title": "El Gobierno desoye a Bruselas y ya prepara el traslado urgente de 500 menores desde Ceuta a la península",
-      "source": "La Razón",
-      "summary": "El Gobierno desoye a Bruselas y ya prepara el traslado urgente de 500 menores desde Ceuta a la península La Razón El Gobierno trabaja en el traslado urgente de 500 niñas migrantes de Ceuta a la Península EL PAÍS José Enrique Monrosi responde a Feijóo: \"Cuidado",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMkI1M0F5VWpwOVJoZmdOQUF3d3hZZndZMEF3bTBORnB0Q1VJUDNmT3FfaWRFZGpKTHM5OXhGNUxTRlFLbFZyMFNzM0o3bnlfWlZqN3N2VUU1V2tPRVlHRjlXcFlDSk12WmUwT0RfN1Z3cHMyTlQwa2s4NWVHUkpuUFFTeTNZcm1wM2N0d0ZnbDNVaEQ1eHN2dFNmcGk1TjR1RzBMRV9NRFRXbUE1M3Y5Umt4Yzh3RUpnMEQzbUxUX1RTNVd1LTZ3Y3l4STNpY09YeEHSAeYBQVVfeXFMUE5LVnFZOW1lbWYzbTlmQlZFdWRQQlA1bUxFODNkY2V0X2ZjVTNBTWJ3TXZBUmg4UlhFb0xwbl9reVlqVFRidHpKWWRWU0I5U0N5emM1T0NMMDFyM1kybC1mSnNuQjNvSWJQSVRUX2ZicXNtUXRPNmpkdnJ0T1VUWTFlcWpUSHM4R2dXdDlJcUpJX3FWd0RDeFU0SVYyUlVfcWdTZV80SDQ4ZE5KQ1lwTncxdUtDcG5yWUtFbndjNEhsMXItVDltU3V1cGRMYmdBRVdLSjE1dy1mYjBHLUtvbUlKUVhMenc?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 07:27:48 GMT"
-    },
-    {
-      "title": "Feijóo regresa a Ceuta para arropar a Vivas en plena escalada con el Gobierno",
-      "source": "La Razón",
-      "summary": "Feijóo regresa a Ceuta para arropar a Vivas en plena escalada con el Gobierno La Razón Feijóo proclama que no admitirá \"chantajes\" de Marruecos y asume siete compromisos con Ceuta: \"Expulsar a todos los inmigrantes ilegales, y todos son todos, también los meno",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObHBad3JMbldQMW50dHh3VDRLeDhCekhWcmVmdUNzclVIckpLVDEyWWh0bXV1WVJCOVJjVE52WTVZemEwSEJqU2w0cjZQU21TNi1GUkZ6eFBYdnk4MzZLSTFPeVRVU1JpaUZmb3NHQXNVemRBb3NBbVVCclVDS3FNejNudDB2V1c5cVJNV2tDRG9Ld2staXNmYmFkbEVHV0g0NXBZQjE1RVBKX1JDc0d1MzdCWjhmVmVHOGNIcWtMSWdIMzQ20gHYAUFVX3lxTFBPdDlURmh5b3dTQURKMVNmV0hmdy1ZNUdCbURBYW43YlRkVllPR1VkMHdGOHRuaW9KaVNUc2RuSGgzRXo0cWZ5SjdpTDlXZGdVcGZOaDhPN1Y4cnUtUURxWXZHQW05cDJGcGJhVlprQ0EwZC11aFduUXJQMG1CUFhWZHFWSHE2U1huNTBtdDhHdHVNTThvU0J5bnZRVWp3Y21zTGhKZmFYb1JXZUJXdlhtQnBwdjB0NXptWDNuaEF2R0I2OEJybURIOE9qVlpZOVVxNjh0QkNnUQ?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 18:16:30 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVVSb0lrNWRjV0M4bkZqOWVkVERzcDBIRVhqUmhydlhxMEd4YXF4eU43VXBjVjV5TU9Ed3cxZ3FZeW5zRE1nN0s5S0N3Xzg3Zk5pNF9lWTl4V05vMnB5RmdxZVFzX3BqcVdmc2VNVFFJcU1mYTR3VDZ4X256dU1BQlc5ejBpdEsxUTBoeXhqZm1nRDZhT29fcVNlVG12UWJ5TFE?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 18:15:41 GMT"
     },
     {
       "title": "La Alhambra, una edificación sismorresistente que \"baila\" con los terremotos",
@@ -36,20 +20,44 @@
       "pubDate": "Wed, 19 Aug 2026 15:30:19 GMT"
     },
     {
-      "title": "Ayuso deja el ático de Chamberí y se muda a una urbanización de Puerta de Hierro: no consta que sea junto a González Amador",
-      "source": "El Economista",
-      "summary": "Ayuso deja el ático de Chamberí y se muda a una urbanización de Puerta de Hierro: no consta que sea junto a González Amador El Economista Ayuso se instala en una urbanización de Puerta de Hierro tras dejar el piso que compartía con González Amador EL PAÍS Los",
+      "title": "Bruselas avala el retorno a Marruecos de los menores migrantes no acompañados que permanezcan en Ceuta",
+      "source": "EL PAÍS",
+      "summary": "Bruselas avala el retorno a Marruecos de los menores migrantes no acompañados que permanezcan en Ceuta EL PAÍS Europa atenaza a Sánchez y 'condena' a Ceuta: \"Es importante que nadie sea trasladado a la Península\" El Mundo Devolver a menores migrantes no es aut",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPRmRGSFFRVGpGVmNhWmxhdHZIRnRXcV9Vb1JQWEE0eUhySjJCVURGSjBvcThoM29yUE96M0QySDRnUDFTVngzRE1DczB2ME9vUG1CSm5jVE9iQlY2ZFB0VVBnd3BnX0RVTE12SzVUUE1abHpoOEJsZ1pGZ2dmZHNNRXRiOS1YSmJ4Z3RSdUc2ZWZMQnlDTDRNa05yQkdZcnJFVXhqSWs0d1lzSTQ3QS1Yelk5MTNnTjlmMmNwOFc5RmxJQ3F5WkZTZlJDdHNtZm1kUlVGemZqdzdWa2hsWmJBRVdhNzJWSFBocmZLM29nWmo5NkVsMi1ZUE9FMG1PcDcwYVItOEdlQTJTRTdyTnZqWWFWSE5VbmdEMENWZmdxUE85bU1i?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 13:29:41 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNDl5Zy10U055c2x4dlZyQlAtNEZ6dndNUHZ3U0xtTk9RNFpHNHNNNlJpVUhWYXg0YzNoZjItYUR6c3htMDdlcFM1dUFnM295UW5JSXdQWmIxU3k5MDZFTGR6VGp6OVc5T2JGdmRyeWVlbXcyWGF0NHAxU0U2RVRLbmdMUzBaS1huc2xDZk1GSTRGWUtFR0paUVY3WUN0TFZqMWdYUlJLRXQ3eVhzamFBZENLcktEeDlvaFdLbTAxbUhRcFJfeUtVTDllaHZjTlA2NWJUSkVzVHhiNzJU0gHwAUFVX3lxTE1wWlh5RkxOT29OSG1oZml5eklFc3c1QTduTGhiRzNMa3FrcHI2VFc1RGh1VU5CRXNQZC1jWmp5R2d0WDJpT2VDMUVFMkFLc2o3QWVheHkxNmhIM09KZGV3SHhlUllXZ3ZZQU9kVV80MXNPMFhyb0RCZEJyVTNGUmJnQ1FSMlU2emhEaUdGME83LXNfQkRMM2VtN01IWmp5S1NMU1htdEx0WkVNUzM0OUpFQl9BZTQ4OEZoN3FycDBCWmhwWFpaNWxxQmR1Zzk3QnQ1VXEtNlF1VkR2VlN0MmN2eUNULUs3UW9iR2h0UHFMMw?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 11:49:10 GMT"
     },
     {
-      "title": "El Gobierno destinó 3 millones para un hospital en Marruecos mientras Mónica García niega el colapso sanita...",
-      "source": "okdiario.com",
-      "summary": "El Gobierno destinó 3 millones para un hospital en Marruecos mientras Mónica García niega el colapso sanita... okdiario.com Gastroenteritis, tuberculosis, sarna: las enfermeras denuncian un “colapso sanitario sin precedentes” en Ceuta EL PAÍS Ceuta está lejos",
+      "title": "El incendio en la comarca cacereña de Las Hurdes no da tregua y obliga ya a evacuar 12 núcleos de población",
+      "source": "RTVE.es",
+      "summary": "El incendio en la comarca cacereña de Las Hurdes no da tregua y obliga ya a evacuar 12 núcleos de población RTVE.es El incendio de Las Hurdes obliga al confinamiento domiciliario de la población de Nuñomoral y salta a la provincia de Salamanca El Mundo La Junt",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVTVlbG1ac0wzVFM1SGhJbmpGdVdoQUx5Q2N0QUlROTMwRnBkTWcxWXotQzhGRFNYWHM5dDI0YmRKU09ITmNiTTFWUUstZHptOF9ZcHZWRFczSzd2cGhka0ZzcTFoZlB2NEtVc2R3NGNrbXFBUFNsVUE1MGJNNjFBREk3UDJWZTczTy0zOC1KcGh2N0lic2cxVEtsMVN6SEFGRnJ4YTFBU1lKaHkxSUpaNDBBQWRHLTNfeTVR0gHAAUFVX3lxTE53Y2F2MmF3dWhWakp5VFFvV2tJQTFDNHdsRXdpSElkc2dyejhzNW5xUVVjYldGaWtuSTAzVGx3Zy02RnYtWDNudmRaam5QRk1IdVZhQzBMbWFySXJFbm1iN0dOMWtheXJFNWFJMmVLa0dMLWI5R3hhc3dKMHIwZWhWQ2xvcHZ1cWFtdDlSQnBVU1l4TzBVOWtGRUZTbk9ES3NzT1k2dGdwU0NJOWZNY2Q1TTN4akFWU1dNdUtkU2NpZw?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 14:34:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0VJNUNsemNZN3RIVkMzR2pzX2V2WW5lMndwbzlpTTlUd2NMYnVHMm9qWEpnOXUyYWpjbTBBWmthZWlKOF9ZcDNVRnFuVEY1WjRNYlVTSjBmeHRoSzVTa3Q5TGRwTi15aWxfaEF0TXRlUkc2dXJOOWtMSDdvOElMeU01QU5LY0x2LTcxWExhQmU3bmZoNjdNM2R3cEtZNnY4WFhYV3dR?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 19:42:30 GMT"
+    },
+    {
+      "title": "Choque entre Mónica García y el doctor Fuertes por el término \"ama de casa\": \"Por muy médica que sea, se ha convertido en política\"",
+      "source": "antena3.com",
+      "summary": "Choque entre Mónica García y el doctor Fuertes por el término \"ama de casa\": \"Por muy médica que sea, se ha convertido en política\" antena3.com Gastroenteritis, tuberculosis, sarna: las enfermeras denuncian un “colapso sanitario sin precedentes” en Ceuta EL PA",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPU045bjlsRHBLcXF6ckVhc2RDVjBneF8xMDh1eENvM2g1OWc2eHR1a1J1OVllMEhzdFdxYW1QVFNKMkdydmktMnZPc0hicjh3dG8zdkpmYmZIanlyTTFvckZVdlZPenFvZW53b18zenlxZDFoa3hwakJkVkdIRG11OVJqMGRBQ2lkWndaLXVFUGNHbFowUHBGRkg0aFVZZG9qdEdRcXJKNUFsVjVJREtkbU14NDNUOGdOS2paNDdOclZlbXFzcVY5bzlaMXdjaEJSTFY1NGUycEtGZ0VCNUhwM2JOZ3h3Mk0xVUZCUnpnZkp2UUlmWnhyNW5DdFdzb0VCcjU1NlIxb0V3YmhpUzYyVERXaENlUdIBlgJBVV95cUxQMEtyNC0yVWF0N1BfTFZQWGw1RjB2TXJ0NWc0LVNPWkRlbFc0eWF6TXZPZDFzVzVGdnZUUkpGWGtTamdrM3kwbzlzSWpqNlZyQzBZbjNnelR3TDltb3RJM0xtSGhyZkFuSnpNRzZlT0hGMGdEZGZKRUhnTnRxMkpNU002R1V2dkN4M1I1dGJxYno3cll6S1ozOG1uajlIU1BQUnJzLVl1cE1qWUM1YWFBREdQQ2tZV1lIaUhyem1FMmdDRW9kMF9YTGV5TnJaUE5tTW1OclJoSEIySjRnYlJKeFVPOGtLNDdXb1RWYmdGaDJMLWJ2ZlUtQlc2VkcxX0tkSnFzX2FHNllpU0swUUdXZWdoMnVBZw?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 11:06:36 GMT"
+    },
+    {
+      "title": "El PP reprobará a cinco ministros en el Senado por su papel en la crisis de Ceuta",
+      "source": "El Comercio",
+      "summary": "El PP reprobará a cinco ministros en el Senado por su papel en la crisis de Ceuta El Comercio El PP responde al 'plantón' de los ministros en el Senado con cinco reprobaciones por la gestión de la crisis en Ceuta El Mundo El PP reprobará a Marlaska, Albares, R",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVBBU2xIdVRBR2FKWGRoR1YwTzBFRFBZSV9nVEx0cG11RHk0QW92cXdqZHVuQjR4Tk9RQzR2TkxHLWZ4Tmgzc2FNQVN0LVc3V01KNDhBSnoyWEVtWXNoRHFFb3J0eTJqTldFcXVDTklkckRQYi01YmgxQlBjemM3UHd0d0xkRzBzZmhKZjUtOW9tam84NVFZdU5LUHZrdVhKVmIwS3JXVXg4c09P?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 11:45:22 GMT"
+    },
+    {
+      "title": "\"Locos por volver\" e impresión por un paisaje desolador: los evacuados por el incendio de Riglos regresan a casa",
+      "source": "LaSexta",
+      "summary": "\"Locos por volver\" e impresión por un paisaje desolador: los evacuados por el incendio de Riglos regresan a casa LaSexta Autorizan el regreso de 7 de los 19 pueblos desalojados por el incendio de Las Peñas de Riglos heraldo.es \"Una catástrofe anunciada\": meses",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZ0NjY0pQTG00NFFwYmtXMHRVcFdGcEhQNVJWOEwtNUlucHFSMnI3UUV2alo4SnU3bmotbW9fdWtKVXRuZFVfSEI5RFdRMGp6M0s0a1I4NFAtYjNIZFJsa3dHSElValUxd0o1dkliV3FvcUlmZDlhNVZaZDBJQzNOQXluY3NNLVJya0t2SV9FT0lDTVNRVUt4NWdydDliR201MEdEazlEOFJ5LVRuVGMxdDAzUkdnQjg0V3NBdUhMWk8wVTk1TzJoMC1BOXhmeXN5bjRtNVlReG1od1FkNWd6VDdJRndLa29aMXQxOE83NzTSAfABQVVfeXFMUHhtUnNHbjMtRTZxRE9RWGo3YTkwYmQ0TkgzU2lwRGRidkdRekhhaXJJSHR4TUpUdHNRaHNLdDFFd3NITkUwQmxqWVBFMkVNM2VudzNfa250WHEwcWoyYWdpQ1BWQ0xPRlN0d19uQ3ptYVgydjZVWVNEaFgzYXdZUGUzSEdxTW5zVmJiWEFFcER2cDViU3RfTXZ6aDVtTzVjMzVaZjdpQWFGNlZ2NHg2SkpjcEVlQTE1QWpCWjNYMk1ZSTM5NGdDajFOcDBSRS02UkpGWWpVcV9TZFJFTndZX2EyYUdJb3lhS3lJQ0laTmFl?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 17:01:23 GMT"
     },
     {
       "title": "La Guardia Civil busca un león suelto por la Sierra de San Vicente (Toledo)",
@@ -58,14 +66,6 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZjBMeG9zU3FtM25vVnhQVFMtbXZsX3hhUEtVam1JR2tUcUVJYS1Gb1lWZWo0SkVQWmViY3liekpYRzczTGhtR25JMUpJQVZOZi1YNDI0T1FZRExuMjMxQ1dCWVlmNEZJVnV4N0EwV1dBUERxdVdhWnA5U3Z5SFRSRjlyMGJCZEtwWVNQdVU4dzJOb2Vxb0ttX3B4Nnh3OVNHTlVvc2tiQlM2TTdTRlJFTlEtSEw5cnUxM1pDYmU1RUdpaXVEMjA2OTBVd0k5cEJs0gHkAUFVX3lxTE9FeXI1Ty13ZzZVcXBzQzJZTWxGQmRRZW1hVlVuQkF2NWNXc01aUVFMZ3J2bVZBNEdINlktaVZrd3NiclExMGx1NmdQWHRsZDAyQ0U2dGV1clVDeXlTanFiWE50Z3NSSk9tZ2VVVVo1ekN2UzE3NXd1YVI4UTc1VWtyVENBUWdyazRSMm1hWDRfSE9OTzNDQndvbWZUMEJEXzNpZmJqcWJIQ1FjSFdyN29KTG56TUlRQjhVTDBJamlUUTVwbjFnTl9FNTJfYTdncTF0Yll4RWV4VktOcEpQZWc1bV9RUw?oc=5",
       "pubDate": "Wed, 19 Aug 2026 15:04:37 GMT"
-    },
-    {
-      "title": "Los vecinos de Granada intentan volver a la normalidad entre las grietas de los terremotos",
-      "source": "LaSexta",
-      "summary": "Los vecinos de Granada intentan volver a la normalidad entre las grietas de los terremotos LaSexta Granada pasa la noche en la calle por el miedo a nuevas réplicas: “Esto acojona mucho, no he dormido nada” EL PAÍS Nuevo terremoto en Granada: un seísmo de magni",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdVZrN3RMMDBSQksxVE96S0JZWmhNbGQxSjFYZVY4Ym0xYzhEal9jM0VxM092M2ZORGtUYlNrX0tfSDdLMHZyUTRtOG1adVlhSWlrTFJNRTdwLURGVldUQU9CNjFnX1huTm11anphTHlqVFgzVW1VWmNPVFgxeXlXU3BtZDVyNmNZWEZfa0JFazZrYUs1dmZFRktQVE5FMU9oTWlvYU05a2xMYU53Tk5rc2NRZ1FMaHI4LTA5aERCalFCamhmck4tUjh6YndIaWtDTVFNNWZvZTbSAdgBQVVfeXFMTWI0bmVUTEJ4YnlXOWdWejFjTnBSb2dtZmpvN2pVcDkxTnpWSWh1S0Nia0otdFNHZ0dIZldTMU0xcllaLWNabnJzdWNBaU9ibklhdll2b3hDYlZMRTBmcFE4dDYzQXVHdTJpZU1VeDltLU9DZHNORDRKT3gyaDVteFloN3lnV2gxZ1BOYjJfZXRiSWRMQ21tS0JfVGhQSDNjbG9zalhRVGg0WlBwc19Tb0xhZnYtOGliREgtWEhXV1ktWUR0czYwMlNLbzhqSVZtcFFpWi1xcUh6?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 19:38:22 GMT"
     }
   ]
 }
