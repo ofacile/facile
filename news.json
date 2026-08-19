@@ -1,16 +1,8 @@
 {
-  "updatedAt": "2026-08-19T18:41:08.066971+00:00",
+  "updatedAt": "2026-08-19T19:29:55.204357+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
-    {
-      "title": "La Alhambra, una edificación sismorresistente que \"baila\" con los terremotos",
-      "source": "RTVE.es",
-      "summary": "La Alhambra, una edificación sismorresistente que \"baila\" con los terremotos RTVE.es La Alhambra reabre sin la Alcazaba tras el cierre por los terremotos ABC La Alhambra modifica sus itinerarios para adaptar las visitas a la emergencia sísmica granadahoy.com L",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeVZtY2Y3QUo2XzVUUi13empka015XzZCN1JkeEZSTWFqc3A2YkVlbkc1NHFJVmE4XzkxTmowUGROTGtiZjJndE9vdDk5eXExNmh5NkJsYmg4TmxFZXBnOUhsQjhmYm0xMDgzajF4NDhTbGpYcG1pR1ZfYjUzN3hxYVVQQ3lKUDFiZUNfUkJGUTgtZHB0YVM1aWtsWmk1alYzM21pRGVXX09LUQ?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 15:30:19 GMT"
-    },
     {
       "title": "El Gobierno desoye a Bruselas y ya prepara el traslado urgente de 500 menores desde Ceuta a la península",
       "source": "La Razón",
@@ -28,44 +20,52 @@
       "pubDate": "Tue, 18 Aug 2026 03:45:47 GMT"
     },
     {
+      "title": "El PP acusa al Gobierno de cercenar a las fuerzas armadas en la incomparecencia de Robles sobre Ceuta",
+      "source": "EL PAÍS",
+      "summary": "El PP acusa al Gobierno de cercenar a las fuerzas armadas en la incomparecencia de Robles sobre Ceuta EL PAÍS El PP responde al 'plantón' de los ministros en el Senado con cinco reprobaciones por la gestión de la crisis en Ceuta El Mundo El PP responde al plan",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdEVPWnh5Nm1QbUk0ZF9TWnRlQm9KR0FlU2dmVFlTcGtadVdvLVFUNEdRaXFPZ21mb05QMmdhQ2RZdllQSjJJdXVrenNSMXhqMU5FYTZlMFJtYk1INFZCZVI5di11ODVBQVl3V01PY0RhS0dXanVGQkNwdUF4NEdLaWQxNU85YlNJQ2U2a2ZBRXNMOHNJdkdqUU5HaFpjREVVNzZkakpSckdHOVJDRjJzamJtOFFTNS1sTXZyUnEtUUZhdEhXS2ZDd3g4Sko4clVnNy0tdmZtMHN3VWfSAe8BQVVfeXFMTnJiWGUxUi1HYTc2M002WVEzOV8tclNrRUtTMjJ3b0x4VVZWV3pwbWd6d3hoWDdObGtBLTIteThhSFY1dXlFUDdmTXFZOEFaMW9Vc25mZE5VUjVZYVpKYUxVMjJxTWpnYXpoLThPNlNpUUFlTzR4RFJ6QXBnTExtdkNjOXFPWVFzcDZlcjJld04teHgwT0FDUGZfZTFsY1RjTkJPbUVjeWh4TEVHOUJnb2F6ajhvaWlNcVlMTVVUV2V4TXdSWDJwR0xVV0VmbFJwVWFBTks4ZFNBeDFzVjlULTMzNlRjVVk3TzNXY20yclk?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 12:09:34 GMT"
+    },
+    {
+      "title": "Granada convive con la rutina sísmica y la inquietud de los terremotos: \"Estamos acostumbrados, pero hay miedo\"",
+      "source": "RTVE.es",
+      "summary": "Granada convive con la rutina sísmica y la inquietud de los terremotos: \"Estamos acostumbrados, pero hay miedo\" RTVE.es Cuatro días de tensión constante en Granada por 180 terremotos Ideal Azañón, catedrático en geodinámica: \"Es imposible anticipar cuánto van",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUNZbDFCcGoyUVNiQzBTaG1DeDdoZ3RCc2NhVE54V2RqaVd3M2l6WEc4OHExdEEyWUpvano1U2M0ZHVHV05Za251anU1YlhuQUZBYUxBOFZveUlSa1c2RzNnUXd3RzFmT196eXMtUXhkZjZTczFzMFVHWTVBZE1qd3J0QlQ3SVJqM3kwMEVKalBDVmxCYUZaSHdwUUt0TUFTQ04tbUhLOUVzdUFuNDNrNWhR?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 15:47:21 GMT"
+    },
+    {
       "title": "Ayuso deja el ático de Chamberí y se muda a una urbanización de Puerta de Hierro: no consta que sea junto a González Amador",
       "source": "El Economista",
-      "summary": "Ayuso deja el ático de Chamberí y se muda a una urbanización de Puerta de Hierro: no consta que sea junto a González Amador El Economista Ayuso se instala en una urbanización de Puerta de Hierro tras dejar el piso que compartía con González Amador EL PAÍS Los",
+      "summary": "Ayuso deja el ático de Chamberí y se muda a una urbanización de Puerta de Hierro: no consta que sea junto a González Amador El Economista Ayuso se instala en una urbanización de Puerta de Hierro tras dejar el piso que compartía con González Amador EL PAÍS Jule",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPRmRGSFFRVGpGVmNhWmxhdHZIRnRXcV9Vb1JQWEE0eUhySjJCVURGSjBvcThoM29yUE96M0QySDRnUDFTVngzRE1DczB2ME9vUG1CSm5jVE9iQlY2ZFB0VVBnd3BnX0RVTE12SzVUUE1abHpoOEJsZ1pGZ2dmZHNNRXRiOS1YSmJ4Z3RSdUc2ZWZMQnlDTDRNa05yQkdZcnJFVXhqSWs0d1lzSTQ3QS1Yelk5MTNnTjlmMmNwOFc5RmxJQ3F5WkZTZlJDdHNtZm1kUlVGemZqdzdWa2hsWmJBRVdhNzJWSFBocmZLM29nWmo5NkVsMi1ZUE9FMG1PcDcwYVItOEdlQTJTRTdyTnZqWWFWSE5VbmdEMENWZmdxUE85bU1i?oc=5",
       "pubDate": "Wed, 19 Aug 2026 13:29:41 GMT"
     },
     {
-      "title": "Experto dice que estamos ante una serie de seísmos en Granada tras alcanzarse una magnitud 4,8 Mw como la del sábado",
-      "source": "Europa Press",
-      "summary": "Experto dice que estamos ante una serie de seísmos en Granada tras alcanzarse una magnitud 4,8 Mw como la del sábado Europa Press Cuatro días de tensión constante en Granada por 180 terremotos Ideal Un terremoto de magnitud 3,1 vuelve a sacudir el área metropo",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQ0lCaG04elVLdG9VcktYd2pBUThqdWc0M3Q2emRJTm56QmstTGpka3o3T01XaUNyd09fTHlBR0pBbjJrakZYR1V1RUR6QUNfRUVIUXlTbjRZUnpCVkM4Sy1QZFJTdTRHd1BGSWcxbUU3dE5UMnlfbFZKaWRBSHVZcEZUYnJuVkRoZ1R2bmZvOTNMOHJBWVN5WDUzSEtadlJ2QmVPVU9CVUQya1pEMEN2Q1hIczVBamVMMGRfUjNUTzFTdDZaOS1wMkNPNEF4UFh2bzVqVkFjSQ?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 12:43:50 GMT"
-    },
-    {
       "title": "Decenas de medios aéreos combaten en Las Hurdes, Cáceres, un incendio 'convectivo' que afecta a 2.200 hectáreas",
       "source": "RTVE.es",
-      "summary": "Decenas de medios aéreos combaten en Las Hurdes, Cáceres, un incendio 'convectivo' que afecta a 2.200 hectáreas RTVE.es María Guardiola, increpada por los evacuados del incendio en Las Hurdes: \"El alcalde y la presidenta no hacen nada\" RTVE.es Fuego en Las Hur",
+      "summary": "Decenas de medios aéreos combaten en Las Hurdes, Cáceres, un incendio 'convectivo' que afecta a 2.200 hectáreas RTVE.es El incendio de Pinofranqueado (Cáceres) vuelve a coger fuerza y pone en alerta Salamanca La Vanguardia El frente noroeste del fuego de Pinof",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0VJNUNsemNZN3RIVkMzR2pzX2V2WW5lMndwbzlpTTlUd2NMYnVHMm9qWEpnOXUyYWpjbTBBWmthZWlKOF9ZcDNVRnFuVEY1WjRNYlVTSjBmeHRoSzVTa3Q5TGRwTi15aWxfaEF0TXRlUkc2dXJOOWtMSDdvOElMeU01QU5LY0x2LTcxWExhQmU3bmZoNjdNM2R3cEtZNnY4WFhYV3dR?oc=5",
       "pubDate": "Wed, 19 Aug 2026 07:09:22 GMT"
     },
     {
-      "title": "La Guardia Civil busca un león suelto por la Sierra de San Vicente (Toledo)",
-      "source": "Cadena SER",
-      "summary": "La Guardia Civil busca un león suelto por la Sierra de San Vicente (Toledo) Cadena SER El supuesto avistamiento de un gran felino obliga a la Guardia Civil a un operativo en Sierra de San Vicente (Toledo) heraldo.es Alertan de un león visto en El Real de San V",
+      "title": "Un león (o un mastín tibetano) a la fuga en Toledo: drones y un helicóptero de la Guardia Civil rastrean la sierra de San Vicente",
+      "source": "LaSexta",
+      "summary": "Un león (o un mastín tibetano) a la fuga en Toledo: drones y un helicóptero de la Guardia Civil rastrean la sierra de San Vicente LaSexta La Guardia Civil busca un león suelto por la Sierra de San Vicente (Toledo) Cadena SER La Guardia Civil despliega un opera",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZjBMeG9zU3FtM25vVnhQVFMtbXZsX3hhUEtVam1JR2tUcUVJYS1Gb1lWZWo0SkVQWmViY3liekpYRzczTGhtR25JMUpJQVZOZi1YNDI0T1FZRExuMjMxQ1dCWVlmNEZJVnV4N0EwV1dBUERxdVdhWnA5U3Z5SFRSRjlyMGJCZEtwWVNQdVU4dzJOb2Vxb0ttX3B4Nnh3OVNHTlVvc2tiQlM2TTdTRlJFTlEtSEw5cnUxM1pDYmU1RUdpaXVEMjA2OTBVd0k5cEJs0gHkAUFVX3lxTE9FeXI1Ty13ZzZVcXBzQzJZTWxGQmRRZW1hVlVuQkF2NWNXc01aUVFMZ3J2bVZBNEdINlktaVZrd3NiclExMGx1NmdQWHRsZDAyQ0U2dGV1clVDeXlTanFiWE50Z3NSSk9tZ2VVVVo1ekN2UzE3NXd1YVI4UTc1VWtyVENBUWdyazRSMm1hWDRfSE9OTzNDQndvbWZUMEJEXzNpZmJqcWJIQ1FjSFdyN29KTG56TUlRQjhVTDBJamlUUTVwbjFnTl9FNTJfYTdncTF0Yll4RWV4VktOcEpQZWc1bV9RUw?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 14:55:53 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM0U3d0piRG1DNHdvd0Y1RVpGYXk0XzBoZFlWQlh5RUU3Z1AtbDVjbGlVZnJsQlR3eVdSNlJwR3ljaWpIbTZOcmpwX0hNcnh0UHVpeGZxeFViaEk5eWl4cHBDN3hMd2t0UTJ1aThPLVY2cV94R1JpbWVZNm9veWt4Y2R0b3JrZXhtWC1HQlhWQ3FzTUZsNk8xcC13c08zalNYNWJvR2tiR2tpaS04c1pUUC1uNkRNNWRGVmdRMnZVNldkQjJyQ0w1SUluNEhsM09yNUM5d09LWUktWG11SGdBVmY3MlN6MTkyNVF3N0ln0gHuAUFVX3lxTFBYenpHYmd5UzY1akNDT2hzejNXY2dNbzdkaU4tZ2stS0NFQ2pYQkpwR2ZlMGt5ZDFHdU13cDltUXhUUnVLam1Pa1FXTDF2VTg4ckd5VUItY0h6OWxTVi1oRl9kZHlLeEluWi1CSThQQ2hyb3JFNG5hcWdKWkdMY0VQX0xRZ0NCX0tlLUhTbDhDNHhHMXhRY0xFa2hvdXl5ckJRVlc3V3ZCdUZSQmRhRTRzMXYtLWY3Uk9SYU52NmR5QzNDN1R0aHFjUTJ1dGZfSU9SNFVzUGtfOHhzRkdjZkdYQy1CTWFiT2JHQnU2clE?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 15:17:53 GMT"
     },
     {
-      "title": "Así es el monasterio que se ha salvado del incendio en Huesca: las llamas han dejado su huella en la roca y el entorno",
-      "source": "El Confidencial",
-      "summary": "Así es el monasterio que se ha salvado del incendio en Huesca: las llamas han dejado su huella en la roca y el entorno El Confidencial Autorizan el regreso de 7 de los 19 pueblos desalojados por el incendio de Las Peñas de Riglos heraldo.es Incendio en Huesca:",
+      "title": "Un nuevo incendio en Aldea del Fresno (Madrid) obliga a activar la situación operativa 2 y a confinar dos municipios",
+      "source": "Cadena SER",
+      "summary": "Un nuevo incendio en Aldea del Fresno (Madrid) obliga a activar la situación operativa 2 y a confinar dos municipios Cadena SER El incendio en Aldea del Fresno obliga a confinar dos municipios, cortar la M-510 y desplegar a la UME El Mundo Última hora del ince",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaXNyNzNtMi1udl9RbjRpRzhpRkFGbWJQNzE4Q2szd2FTNHdhaUkwalRWVWp1UkFNazdWNTE5eGZaMGVMU1BTczVOZjd0amFMOFRtX0IwaWxWQW5ZejVoOVIyemM2VWZfRU1VRWdMSHdjZU5CMXdxZmV6SVNyenFqMnF4Mzk5UjZkWUlWb09CeWFtdmJWRjdzMlU3QzNfSWV5R0tzX1RpZjBtMFBS?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 11:51:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZWdNUlpxZ29hcGZ6OUNRUWpwNmZPbGJEMWpPX1JNVm9FVDZfQWFXVTFoQ1hsZTIyQnA1MVhaWHpGOERET0JvMVpKdTRZZ2EwRUwzNHpZWVJ6ZHRCMGQ5cS0tSno3bXRoTUZSaWtYTk91OG9SSW1VdzJadDVDanc1djZ3bHFST3pGel9sQV9BOWpHZmJualdmWFBRcHZIc0pibkJiQi1VbWFqblFKRzRQeGZvTjRZeVpCUzRHdDNINVpIaVh6bVdmNUtfQ0cydk1oUURBZjdKN0g2WGxqS2QySTNsdVAwQTNkSHFDWEhoS2l6UzctdERKLWdNMHM1d9IBkgJBVV95cUxONTRIbzI2MUdtaUN1ZzVEOE45X3NjYzN0a2ZqbWF4Qi1GNTluLXo2N1BjWXVFWjhHaTFHS2xSRnJlQ2FNTGFyV3NpVGlmb29SQm1MaWEybm1zN3lPSFJ4Z0YwbXhuVVM5ZW04N0RNU0hkVUFNOC02ZXQwMzZBd2hrLW5ZZXZobVpnMHk4aXl5cUhzUW9zOVM3cnBoZWVOUXNLVjZscGY3SkxtRWRpVW9IVk1qTnoySG5MY2gxaFIwUEdOc2pWUlJXN3JoS3l5RlhwOXVjTUtOSWdnYVc0dXZqLWZGX3BQak9mVDhUV3J5MS1DMlppampYVkhUdFB0d2RPLW5zVGdMOWk5aWxjaTZ2WV93?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 17:13:54 GMT"
     }
   ]
 }
