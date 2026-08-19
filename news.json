@@ -1,20 +1,36 @@
 {
-  "updatedAt": "2026-08-19T13:49:10.838442+00:00",
+  "updatedAt": "2026-08-19T14:38:20.609815+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Granada convive con la rutina sísmica y la inquietud de los terremotos: \"Estamos acostumbrados, pero hay miedo\"",
-      "source": "RTVE.es",
-      "summary": "Granada convive con la rutina sísmica y la inquietud de los terremotos: \"Estamos acostumbrados, pero hay miedo\" RTVE.es Seis terremotos marcan la noche en Granada tras el seísmo de magnitud 4,8 del martes EL PAÍS ¿Vives en una de las zonas con más actividad sí",
+      "title": "Terremoto en Granada, en directo: última hora sobre réplicas, daños y afectados",
+      "source": "La Razón",
+      "summary": "Terremoto en Granada, en directo: última hora sobre réplicas, daños y afectados La Razón Seis terremotos marcan la noche en Granada tras el seísmo de magnitud 4,8 del martes EL PAÍS La ley que sigue el terremoto de Granada camino de la desescalada: «Los nuevos",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTUNZbDFCcGoyUVNiQzBTaG1DeDdoZ3RCc2NhVE54V2RqaVd3M2l6WEc4OHExdEEyWUpvano1U2M0ZHVHV05Za251anU1YlhuQUZBYUxBOFZveUlSa1c2RzNnUXd3RzFmT196eXMtUXhkZjZTczFzMFVHWTVBZE1qd3J0QlQ3SVJqM3kwMEVKalBDVmxCYUZaSHdwUUt0TUFTQ04tbUhLOUVzdUFuNDNrNWhR?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 15:47:21 GMT"
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPelJkNGdQZXliTkItb0tBb19YQkR5azhZbThGaTdaOEVjOFNYSzhkWHp2bWJUV0dBd2FwU3lycVFCMEJFM1FfM092bHdlRXh4UEFtT0VwTEMzNE1uZXRFOWhqUG5QLXR4ekhGdHdodWFfTWJKVkZ2THZRQ1pWdDNKVTNaY3RGVlV5bnZERWE1eElaTlRjUnhkVmpnUlF3Z05tUGlZMldiUUtKQ2d1eHRrdTY1Z0tJcnR3eGpCZHhKczB0R1JmYjBGeDdHdDM?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 10:52:17 GMT"
+    },
+    {
+      "title": "Ceuta y el Gobierno central activan un plan urgente para trasladar a 500 niñas migrantes desde Ceuta a la Península",
+      "source": "Infobae",
+      "summary": "Ceuta y el Gobierno central activan un plan urgente para trasladar a 500 niñas migrantes desde Ceuta a la Península Infobae El Gobierno trabaja en desplazar a 500 menores migrantes a la Península sin trasladar la tutela a las autonomías, una fórmula que esquiv",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQeW5OWFR6d0NBUWkwNDhvTmE2bDdRX29ncF9ma0xEaXVJeXZNSXVHb19xZnFvS1c5WmFQV3FpcmM3bzJoelRXME9IMDdmZVdjTllSTjdrVHVFSnNMd05MMzIzczQ1N2E0V0FIN201OUp1alpxQXdTVXZYYndGd1U3X2FGVXRxUEFtSjRJbURsM21jMmhtcHF3MGVCVGVBc0NlRnYzRF9wXzZhclR1b3lDbk1hZzZZYnFDYUVSSTc4eV91QktkTEZicjRJVkJmSUJTOXFCMkE0UHBCaWphWHRzQktYU2pHZEdKUTgxa2V3a9IBigJBVV95cUxOSjFmbmdobFNwVGFyQmVpUThmMndIV0xQWWdXc3NxNlRjTXNyOWUwY2tRTjFQMUlmRmQ0ZmN3NjRRX3BWTERHLWR4dzJpcWloQlRJX2ExUHBUMWdZaGVrc1hOd09HTkJyM2VUVnpELTBKUVYwNzV5N2VCSGRBWTA5MXB5cTR6YlU4dy1tVnhnMm9nNUxCTVdKdkNyMHRhVktzT19yLXVYM2hqWEVtalJQMWk0bWgtaU1DT05haU95TmNudzd0UkZ5ZElBUm5oajZRMHYwVUZlVEtmb3ZlVVoybUloOWtNRXRLemQ4bU1mMnRNbDZnSzdHN1huODAyVzBZMkxlMFZEcENzQQ?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 08:54:59 GMT"
+    },
+    {
+      "title": "El PP acusa al Gobierno de cercenar a las fuerzas armadas en la incomparecencia de Robles sobre Ceuta",
+      "source": "EL PAÍS",
+      "summary": "El PP acusa al Gobierno de cercenar a las fuerzas armadas en la incomparecencia de Robles sobre Ceuta EL PAÍS El PP responde al 'plantón' de los ministros en el Senado con cinco reprobaciones por la gestión de la crisis en Ceuta El Mundo El PP reprobará a Marl",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdEVPWnh5Nm1QbUk0ZF9TWnRlQm9KR0FlU2dmVFlTcGtadVdvLVFUNEdRaXFPZ21mb05QMmdhQ2RZdllQSjJJdXVrenNSMXhqMU5FYTZlMFJtYk1INFZCZVI5di11ODVBQVl3V01PY0RhS0dXanVGQkNwdUF4NEdLaWQxNU85YlNJQ2U2a2ZBRXNMOHNJdkdqUU5HaFpjREVVNzZkakpSckdHOVJDRjJzamJtOFFTNS1sTXZyUnEtUUZhdEhXS2ZDd3g4Sko4clVnNy0tdmZtMHN3VWfSAe8BQVVfeXFMTnJiWGUxUi1HYTc2M002WVEzOV8tclNrRUtTMjJ3b0x4VVZWV3pwbWd6d3hoWDdObGtBLTIteThhSFY1dXlFUDdmTXFZOEFaMW9Vc25mZE5VUjVZYVpKYUxVMjJxTWpnYXpoLThPNlNpUUFlTzR4RFJ6QXBnTExtdkNjOXFPWVFzcDZlcjJld04teHgwT0FDUGZfZTFsY1RjTkJPbUVjeWh4TEVHOUJnb2F6ajhvaWlNcVlMTVVUV2V4TXdSWDJwR0xVV0VmbFJwVWFBTks4ZFNBeDFzVjlULTMzNlRjVVk3TzNXY20yclk?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 12:09:34 GMT"
     },
     {
       "title": "La vuelta al cole de este año será la más cara de la historia: trucos para ahorrar y ayudas disponibles",
       "source": "RTVE.es",
-      "summary": "La vuelta al cole de este año será la más cara de la historia: trucos para ahorrar y ayudas disponibles RTVE.es Canarias afronta una de las vueltas al cole más caras de su historia: 643 euros por alumno cadenaser.com La vuelta al cole cuesta 720 euros por alum",
+      "summary": "La vuelta al cole de este año será la más cara de la historia: trucos para ahorrar y ayudas disponibles RTVE.es Canarias afronta una de las vueltas al cole más caras de su historia: 643 euros por alumno Cadena SER La vuelta al cole cuesta 720 euros por alumno",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZU5DM1M0bzVLS0diOGU3UTlTM3dVcFBUb24wUnFmN19JaVNXWEp4NEhKNDlSZWFhNTNENHd4MDBqcTlON1VjbDRCeFBaVGdNRXB5ZmcwM2ZOYWVieGMxUFVPdlhRTEpJSUkzdU1IVElCR21QSjQ1STROMW41RkpRc1VuZEZpci1OUUpEQmVoRGlxU1Jodml0ZzFpakxoVkpRcFNOV2NjOA?oc=5",
       "pubDate": "Wed, 19 Aug 2026 06:37:53 GMT"
@@ -22,50 +38,34 @@
     {
       "title": "El Gobierno destinó 3 millones para un hospital en Marruecos mientras Mónica García niega el colapso sanita...",
       "source": "OkDiario",
-      "summary": "El Gobierno destinó 3 millones para un hospital en Marruecos mientras Mónica García niega el colapso sanita... OkDiario Gastroenteritis, tuberculosis, sarna: las enfermeras denuncian un “colapso sanitario sin precedentes” en Ceuta EL PAÍS Ceuta está lejos de l",
+      "summary": "El Gobierno destinó 3 millones para un hospital en Marruecos mientras Mónica García niega el colapso sanita... OkDiario Gastroenteritis, tuberculosis, sarna: las enfermeras denuncian un “colapso sanitario sin precedentes” en Ceuta EL PAÍS Las enfermeras tambié",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVTVlbG1ac0wzVFM1SGhJbmpGdVdoQUx5Q2N0QUlROTMwRnBkTWcxWXotQzhGRFNYWHM5dDI0YmRKU09ITmNiTTFWUUstZHptOF9ZcHZWRFczSzd2cGhka0ZzcTFoZlB2NEtVc2R3NGNrbXFBUFNsVUE1MGJNNjFBREk3UDJWZTczTy0zOC1KcGh2N0lic2cxVEtsMVN6SEFGRnJ4YTFBU1lKaHkxSUpaNDBBQWRHLTNfeTVR0gHAAUFVX3lxTE53Y2F2MmF3dWhWakp5VFFvV2tJQTFDNHdsRXdpSElkc2dyejhzNW5xUVVjYldGaWtuSTAzVGx3Zy02RnYtWDNudmRaam5QRk1IdVZhQzBMbWFySXJFbm1iN0dOMWtheXJFNWFJMmVLa0dMLWI5R3hhc3dKMHIwZWhWQ2xvcHZ1cWFtdDlSQnBVU1l4TzBVOWtGRUZTbk9ES3NzT1k2dGdwU0NJOWZNY2Q1TTN4akFWU1dNdUtkU2NpZw?oc=5",
       "pubDate": "Tue, 18 Aug 2026 03:45:47 GMT"
     },
     {
-      "title": "El Gobierno desoye a Bruselas y ya prepara el traslado urgente de 500 menores desde Ceuta a la península",
-      "source": "La Razón",
-      "summary": "El Gobierno desoye a Bruselas y ya prepara el traslado urgente de 500 menores desde Ceuta a la península La Razón El Gobierno trabaja en desplazar a 500 menores migrantes a la Península sin trasladar la tutela a las autonomías, una fórmula que esquiva el recha",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMkI1M0F5VWpwOVJoZmdOQUF3d3hZZndZMEF3bTBORnB0Q1VJUDNmT3FfaWRFZGpKTHM5OXhGNUxTRlFLbFZyMFNzM0o3bnlfWlZqN3N2VUU1V2tPRVlHRjlXcFlDSk12WmUwT0RfN1Z3cHMyTlQwa2s4NWVHUkpuUFFTeTNZcm1wM2N0d0ZnbDNVaEQ1eHN2dFNmcGk1TjR1RzBMRV9NRFRXbUE1M3Y5Umt4Yzh3RUpnMEQzbUxUX1RTNVd1LTZ3Y3l4STNpY09YeEHSAeYBQVVfeXFMUE5LVnFZOW1lbWYzbTlmQlZFdWRQQlA1bUxFODNkY2V0X2ZjVTNBTWJ3TXZBUmg4UlhFb0xwbl9reVlqVFRidHpKWWRWU0I5U0N5emM1T0NMMDFyM1kybC1mSnNuQjNvSWJQSVRUX2ZicXNtUXRPNmpkdnJ0T1VUWTFlcWpUSHM4R2dXdDlJcUpJX3FWd0RDeFU0SVYyUlVfcWdTZV80SDQ4ZE5KQ1lwTncxdUtDcG5yWUtFbndjNEhsMXItVDltU3V1cGRMYmdBRVdLSjE1dy1mYjBHLUtvbUlKUVhMenc?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 07:27:48 GMT"
-    },
-    {
-      "title": "Ayuso dice que el Gobierno le echa la culpa de la crisis en Ceuta por una entrevista de Elma Saiz en la que no la menciona",
-      "source": "elDiario.es",
-      "summary": "Ayuso dice que el Gobierno le echa la culpa de la crisis en Ceuta por una entrevista de Elma Saiz en la que no la menciona elDiario.es El Gobierno insinúa que el Ejecutivo de Ceuta podría \"cortar\" las ayudas a las entidades sociales por la dependencia del PP c",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM1N5dl9wVVAteGxvU3JmUzVBSFpzYW1hdlN1UjF0aXo2Y3lOU0xNdlVPYXVxUTRnaGx1SkhVaENiYzNxMEpiUTRMV3VQTjVLYU1kMVE3a21mTmtWeGMxTm5mRTdUX0RCcXFEUWJVZ0c1QjFTNXJsZW1CWUh2LVN5SFpMUlc2UFA0c254RlJKLXVNUzZsdXR1RUh5cWx1OVVEdU50cWtFSVJUU3F6SG1mdWpTVEptd3poLWVCQmpxSzVpQQ?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 11:16:40 GMT"
-    },
-    {
-      "title": "El Rocío Chico renueva el Voto de Gracias a la Virgen del Rocío en el inicio de su Venida a Almonte",
-      "source": "Diócesis de Huelva",
-      "summary": "El Rocío Chico renueva el Voto de Gracias a la Virgen del Rocío en el inicio de su Venida a Almonte Diócesis de Huelva Día grande para los rocieros con el Rocío Chico y la Venida de la Virgen a Almonte Canal Sur Dónde ver en directo el traslado de la Virgen de",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGF2cFQxc090ZGFQSGE3bk1ob1BFWTRWU09Fdk9NRHJQcVBTSkZSSi1NV09IY0pOWXh1cDFXV0xFem43bkZSX1RJV0RyY0tEUXVOci1ldmt3THFpRHJlMENGa3RRYU9wWlVXRXBMNVFsNm5uY1BGbDdLZTdJd3VkSHlxODhJdzF4VXlpb2VXOUYzUVdxaC1zaFMyVXJsOGtSUWpKUEhZalZsZ0VEdHBsTzF1RGNXTHJzcF85bzJNa3IzNDFoS0VjOUwyQ083ckllRFE?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 12:08:43 GMT"
-    },
-    {
-      "title": "El PP reprobará a Marlaska, Albares, Robles, García y Redondo en el Senado por la crisis en Ceuta",
-      "source": "LaSexta",
-      "summary": "El PP reprobará a Marlaska, Albares, Robles, García y Redondo en el Senado por la crisis en Ceuta LaSexta El PP responde al 'plantón' de los ministros en el Senado con cinco reprobaciones por la gestión de la crisis en Ceuta El Mundo El PP responde al plante d",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMXJQTXhEZVh2X1ZxTE1CNVJneE9UdmY3ZjktU0hsVVo3aHZyWExDZ1VFdXRlczF2WVpaRV9PQWxrdWdEdGk1MEdLRFhGWVBVTjd6YkwyQ1RraXQtUTRyekhhZ01LNVBiTHN1YWZiMEQzSVJST2dta1dITi10UXktQ3ZEMDB5QUxMeUJWT3Vncy1SS29GTWF6UXA0eGFkQ1A3eTF6QXd4bGc4WnE4SE5WWFl4NWk3a1FRZFdvQ2J6aVV5SUh4VTZ4bmJvUXk5VWRPbFNmTEZPQ2xaWG9BTThhZ1h30gHiAUFVX3lxTE5uNHJWQVJodVYtWGNPTXc2cUlzc0F0c0xhcFhYSUJrRzNnLTd4eUFFZUxzTTVvZXB4VkVMR3Q4Q2Z1VzNEX1RmUWEtdG5UUTd3WGNPbUlESGlZc2JfYzd5ZnVvaFBDTm8tdW15dGFLZ0xpbkp3WHBKNVJtbWRGeHFseTlrNkRYNlRodktfaGxsaHhXTXZDZ0JNSnZvSGhucUtmRXNLaXJGME5wdV82WWo2Znd1d25NWm41UlNjYmg2dmtDVWtOUnBnWkFIa2Y0NUxvNDg0ZXpib3pxZHB3ZllBR2c?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 10:14:48 GMT"
-    },
-    {
       "title": "Incendio Las Hurdes: última hora y evacuados en Cáceres",
       "source": "RTVE.es",
-      "summary": "Incendio Las Hurdes: última hora y evacuados en Cáceres RTVE.es La investigación del incendio de Las Hurdes, que afecta ya 2.200 hectáreas, apunta a un origen intencionado El Mundo Última hora de los incendios de Pinofranqueado, Niebla y Peñas de Riglos Diario",
+      "summary": "Incendio Las Hurdes: última hora y evacuados en Cáceres RTVE.es La investigación del incendio de Las Hurdes, que afecta ya 2.200 hectáreas, apunta a un origen intencionado El Mundo El alcalde de Pinofranqueado (Cáceres) apunta a la intencionalidad del incendio",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc0VJNUNsemNZN3RIVkMzR2pzX2V2WW5lMndwbzlpTTlUd2NMYnVHMm9qWEpnOXUyYWpjbTBBWmthZWlKOF9ZcDNVRnFuVEY1WjRNYlVTSjBmeHRoSzVTa3Q5TGRwTi15aWxfaEF0TXRlUkc2dXJOOWtMSDdvOElMeU01QU5LY0x2LTcxWExhQmU3bmZoNjdNM2R3cEtZNnY4WFhYV3dR?oc=5",
       "pubDate": "Wed, 19 Aug 2026 07:09:22 GMT"
+    },
+    {
+      "title": "Guardiola, increpada por los afectados del incendio de Las Hurdes (Cáceres): \"No hemos cobrado la ayuda que prometiste, ¡no haces nada!\"",
+      "source": "LaSexta",
+      "summary": "Guardiola, increpada por los afectados del incendio de Las Hurdes (Cáceres): \"No hemos cobrado la ayuda que prometiste, ¡no haces nada!\" LaSexta María Guardiola, increpada por los evacuados del incendio en Las Hurdes: \"El alcalde y la presidenta no hacen nada\"",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNlRoX3o0d3RzNmhGX0oyeGlMMUxLbEVCdFNYeWR5d0NiZ1cycExLSVZDam5xUUx2Sm9uVG44RWJpQS1pTkdkbi1Ia1I3U19RSWVOeVoyWDZqdDM5MHN1eHZxZ1pNZ25WWEdNbEo4UjQzZmFXWlBqSkpPcTlUZmZQdkNJcWQ2YTJGOVQ3TkdsV0lCVXlMV0tJMWNqM19MaUF4TFlDOUFLcl9Sby1xcW5hZEt0a2Vrd1VHVHppSUZ4cDR6ZDRXbFdTTlp2c3FLVEYzTmk0dFpRcFBlOFZ3T04xR095UFdNdHowalpZVDB5QmZiQXMwbVdJcHFBU1cyS2g0N2JmNF9CNVBqSU3SAYsCQVVfeXFMT3lMLUxvTVFZQWw0UlZ1LUxwR0pra20xdW92R0ZBNEN1OE1NbHduUU5BcmMtVXJtRmF5MHB6dzBwMVgtdGh4a1dpbDdlZ21rbGsxWGJmTERQTC1ZOTlaV1IyU0lXY3ZiMzhmT2pmMzFYa1JXS283QmI4SmZ6aWJVVnRnVlNvc2dVLTg3eXBPbE5Ta3hWd3BsZGRmVC00RHAtWWpralZNeWxrMkdMSFVLeFROWGNJSGxhSzlXSnZsVzJVbFdKdjRYUFZTRFRlNmlrZjdqVjJpenR1M0JZNTVPallHZWp1eGgwSVo4ZldjakxGN3lHb2lnb1BMb2ZhSWxpSVNLbDg3NXlLRnYw?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 13:33:10 GMT"
+    },
+    {
+      "title": "Así es el monasterio que se ha salvado del incendio en Huesca: las llamas han dejado su huella en la roca y el entorno",
+      "source": "El Confidencial",
+      "summary": "Así es el monasterio que se ha salvado del incendio en Huesca: las llamas han dejado su huella en la roca y el entorno El Confidencial Autorizan el regreso de 7 de los 19 pueblos desalojados por el incendio de Las Peñas de Riglos heraldo.es Los vecinos de siet",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaXNyNzNtMi1udl9RbjRpRzhpRkFGbWJQNzE4Q2szd2FTNHdhaUkwalRWVWp1UkFNazdWNTE5eGZaMGVMU1BTczVOZjd0amFMOFRtX0IwaWxWQW5ZejVoOVIyemM2VWZfRU1VRWdMSHdjZU5CMXdxZmV6SVNyenFqMnF4Mzk5UjZkWUlWb09CeWFtdmJWRjdzMlU3QzNfSWV5R0tzX1RpZjBtMFBS?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 11:51:00 GMT"
     }
   ]
 }
