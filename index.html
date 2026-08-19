@@ -3181,6 +3181,139 @@ window.facileStartWeather = function(){
   });
 })();
 </script>
+<script>
+/* FACILE — SINCRONIZACIÓN RADIO / TEMAS SIN CIERRE EXTERIOR */
+(function(){
+  "use strict";
+
+  function ready(callback){
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback, { once: true });
+      return;
+    }
+
+    callback();
+  }
+
+  ready(function(){
+    const radioWidget = document.getElementById("facileRadioWidget");
+    const radioToggle = document.getElementById("facileRadioToggle");
+    const radioClose = document.getElementById("facileRadioClose");
+
+    const themePanel = document.getElementById("theme-panel");
+    const themeToggle = document.getElementById("theme-toggle");
+    const themeMenu = document.getElementById("theme-menu");
+    const themeClose = document.getElementById("theme-menu-close");
+
+    if (!radioWidget || !themePanel) {
+      return;
+    }
+
+    let syncing = false;
+
+    function radioIsOpen(){
+      return radioWidget.classList.contains("is-open");
+    }
+
+    function themeIsOpen(){
+      return themePanel.classList.contains("facile-theme-menu-open");
+    }
+
+    function closeRadio(){
+      if (!radioIsOpen()) {
+        return;
+      }
+
+      syncing = true;
+
+      if (radioClose) {
+        radioClose.click();
+      } else if (radioToggle) {
+        radioToggle.click();
+      } else {
+        radioWidget.classList.remove("is-open");
+      }
+
+      window.setTimeout(function(){
+        syncing = false;
+      }, 0);
+    }
+
+    function closeTheme(){
+      if (!themeIsOpen()) {
+        return;
+      }
+
+      syncing = true;
+
+      if (themeClose) {
+        themeClose.click();
+      } else if (themeToggle) {
+        themeToggle.click();
+      }
+
+      /*
+        Fallback seguro por si el cierre interno de Temas no responde.
+        No toca diseño, solo quita el estado abierto.
+      */
+      window.setTimeout(function(){
+        themePanel.classList.remove("facile-theme-menu-open");
+
+        if (themeToggle) {
+          themeToggle.setAttribute("aria-expanded", "false");
+        }
+
+        if (themeMenu) {
+          themeMenu.setAttribute("aria-hidden", "true");
+        }
+
+        syncing = false;
+      }, 0);
+    }
+
+    /*
+      Al pulsar Radio, cerramos Temas.
+      No cerramos nada al hacer clic fuera.
+    */
+    if (radioToggle) {
+      radioToggle.addEventListener("pointerdown", function(){
+        if (syncing) {
+          return;
+        }
+
+        closeTheme();
+      }, true);
+    }
+
+    /*
+      Al pulsar Temas, cerramos Radio.
+      No cerramos nada al hacer clic fuera.
+    */
+    if (themeToggle) {
+      themeToggle.addEventListener("pointerdown", function(){
+        if (syncing) {
+          return;
+        }
+
+        closeRadio();
+      }, true);
+    }
+
+    /*
+      Escape sí puede cerrar ambos, porque es una acción explícita de cierre.
+      Si no lo queréis, podéis borrar este bloque.
+    */
+    document.addEventListener("keydown", function(event){
+      if (event.key !== "Escape") {
+        return;
+      }
+
+      closeRadio();
+      closeTheme();
+    }, true);
+  });
+})();
+</script>
 </body>
 </html>    
 
