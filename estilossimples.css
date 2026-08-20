@@ -5480,3 +5480,100 @@ body[data-classic-theme="facile-dos"] {
   border-bottom-color: #ffd7d7 !important;
   transform: translate(1px, 1px) !important;
 }
+.facile-search-input-wrap{
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.facile-search-input-wrap .facile-search-input{
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding-right: 42px !important;
+}
+
+.facile-search-clear{
+  position: absolute !important;
+  top: 50% !important;
+  right: 7px !important;
+  z-index: 3 !important;
+
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  color: #52606d !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  box-shadow: none !important;
+
+  cursor: pointer !important;
+  transform: translateY(-50%) !important;
+
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  touch-action: manipulation !important;
+
+  transition:
+    color 120ms ease,
+    background-color 120ms ease !important;
+}
+
+.facile-search-clear[hidden]{
+  display: none !important;
+}
+
+.facile-search-clear svg{
+  width: 18px !important;
+  height: 18px !important;
+  display: block !important;
+  pointer-events: none !important;
+
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2.4 !important;
+  stroke-linecap: round !important;
+}
+
+.facile-search-clear:hover,
+.facile-search-clear:focus-visible{
+  color: #263447 !important;
+  background: rgba(38,52,71,0.10) !important;
+  outline: none !important;
+}
+
+.facile-search-clear:active{
+  color: #172231 !important;
+  background: rgba(38,52,71,0.16) !important;
+}
+
+@media only screen and (max-width: 767px){
+  .facile-search-input-wrap .facile-search-input{
+    padding-right: 39px !important;
+  }
+
+  .facile-search-clear{
+    right: 6px !important;
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px !important;
+    min-height: 28px !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .facile-search-clear svg{
+    width: 17px !important;
+    height: 17px !important;
+  }
+}
