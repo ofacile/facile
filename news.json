@@ -1,55 +1,15 @@
 {
-  "updatedAt": "2026-08-20T18:47:07.849526+00:00",
+  "updatedAt": "2026-08-20T19:35:12.806059+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Ceuta y Melilla, hoy en directo | Últimas noticias de la crisis migratoria, situación de los menores y reacciones políticas",
+      "title": "Ceuta y Melilla, en directo | Última hora de la crisis migratoria en Ceuta",
       "source": "El Periódico",
-      "summary": "Ceuta y Melilla, hoy en directo | Últimas noticias de la crisis migratoria, situación de los menores y reacciones políticas El Periódico Ponte al día: Qué sabemos de los migrantes ya reubicados en Ceuta y otras cuatro noticias importantes de hoy Diario Público",
+      "summary": "Ceuta y Melilla, en directo | Última hora de la crisis migratoria en Ceuta El Periódico El Gobierno reubica a más de un millar de migrantes de la playa de El Trampolín y prevé habilitar nuevos espacios EL PAÍS Chadi Boukhari, de Border Resistance, sobre el des",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2l5TFdkUHlPelVuODZMUTZWMEtYYWxCY3V3TkdkT05BT0JISUpIS2gwaFRzNXJta3R5MkE3a3hfWndkRXJJTUpUYS1jQ0EzYkFuekZZekFzUXZ1c1gyNVM1ZHRiRlNCRWdwVWF5NVVjQTFZTmVLUC1TZ3Z3S1E3alkwSnJzUTBzSV9XZWRVR3Fta3lwZmtfQ2JXQnYwWUpmQS12OWFSU3J5T1nSAasBQVVfeXFMTVI1dnIxdVpvQVVRemFLQzRtNkNyVlZUTmt2eVVHQnFBdWJGeUFEd1E5STJVWmFXellxZTgwTm9lQ3otYm43Z0pCOW1rQmgwaEJ4YWxnNzQ0MHAybEVjeHF3dWNKSC00XzVfSGxyeE9vSnppWnpQdE9BYjhjNldGTlNmWVVVbmFHNzM4N1F0S00yeWlZV2xpNE1DT1l2UTFvSjhwOHY3V0dnWWZn?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 14:34:50 GMT"
-    },
-    {
-      "title": "Bruselas insiste a Sánchez y reclama la expulsión de \"todos\" los inmigrantes ilegales de Ceuta",
-      "source": "La Razón",
-      "summary": "Bruselas insiste a Sánchez y reclama la expulsión de \"todos\" los inmigrantes ilegales de Ceuta La Razón Bruselas recalca el “deber” de España de proteger a menores vulnerables en Ceuta pese a reclamar el retorno de los migrantes irregulares EL PAÍS Devolver a",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONmpDLVRiMDlxUmY4NDVicFpTd2N2VFpnT3lmeHZMWHRYRGlJZmFJTHUyc0dFVGRKeGZoVnlvZnZwaWY3SzU3LXVsZDNiOWRRX3BxelB3Q05RMlVCNXVjXzBjRm81QTNiRXpwSkgtU1FEMjVHVktGQzNWbVktbFhYSjFBc0pPcEE3dFJXZE02cVpCdVVudXNYSVhHaEp1b0VhZVdSdWxsNHA0dWIzcERrbEpHeWl5Vl9MSl9PX3lXTFNYYzhDcmJzM1E5M2xqVDNVbTVpNW82Z2R1REXSAe8BQVVfeXFMUExHXzdRZUk2YlNyZ0xoVUUyM184amJIejRMc0hKYjI4a0VuX3BHRXBRYjVEV2NtTjBiaDNOTV96M2JZNFpuTE12cFpTUDF1enZnZUdpYkg0Y3VJcEZFVzJuV2VrZDhPbFZWRkFDdzdudW82NWlFV3liY1VGbTdsdExZV0VINW93TWxVS05qcnVGellGX1ZQcTJRci1fTy1FaGtZMGN6MVVtRVlCcF9yTHo0U25vU3lBUEJScjVzWWFUUjBNWThjbnAyUGlyR0FtVWc2Q2dtemxHVHNKbkpYOS1KQnlSNHhQMjlUUEt5UU0?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 12:40:18 GMT"
-    },
-    {
-      "title": "Guardiola estalla ante la indignación en Las Hurdes por el incendio: \"¿Qué hago con el alcalde, lo cojo con una cuerda?\"",
-      "source": "El Economista",
-      "summary": "Guardiola estalla ante la indignación en Las Hurdes por el incendio: \"¿Qué hago con el alcalde, lo cojo con una cuerda?\" El Economista En directo | El incendio mantiene en vilo la zona entre Martilandrán y Cerezal y ocho alquerías continúan evacuadas El Periód",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOOWE2cXdHRVpvcGVCYnNlaTdYQm9pOVZjU3dKdXZhYzZILWpqT3NNaTRUOGEtVUpKNVVldnI1X0I2ekEyczB5ZmlOVmZWdXdDQW1ObXV2M0VSeU9EbjFGYzZnNlgtWFhqcUM2d0FzVjd3SVY1MTZNbWNGbnI4OUludkFnSkt5amFpNEJDZWJtRzlKb2pYM1NCVkl6ZXNDUWljeFBCVW1NNzYtdDlUTzBUOFJZTENOcVUyQ3B5dndmTk90bkY4emRtcVV5MHBLX2JQVUpmQWhvdzFKZWZhejFhcFZLWWVVUXppaXlTNW15Snk5SFFmT3o0Y2JGUXVmMU1oTHMyc2ttUUpKeU9TaHdV0gH6AUFVX3lxTE9aa3U0QkJzd004MVdyTkdYeFlLcHZjQVdXbnhna09pejd5ODFPQzBva1hBZWlYRE9XM3laZjdaVUQ3YlFwamZzMk1GX3ZKUzhDR0ZmNzVBRkFsTU5hYVVodG45NXp4eEU5a3Z0blQ1aEpFbEtvNzF1YkN5bV9mUmoxNXlIWjV2VVpmOGVIaVhhVGt1ZF9xeXY4QnFDWnozTkJBUV9JY3BxMTFxY21lU3FPWVdOU2pfcjlxZ0hfaURPTmlGb0VRMDhraEozLWMtaWppUk5nYTJJZGJodjF4cFJLWVR2UnVfdnEzWldlTTRoTEJPd1R6VzZCQWc?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 15:30:30 GMT"
-    },
-    {
-      "title": "València se blinda ante el aviso naranja por lluvias y tormentas",
-      "source": "Cadena SER",
-      "summary": "València se blinda ante el aviso naranja por lluvias y tormentas Cadena SER Varios reventones con vientos de cerca de 150 kilómetros provocan daños materiales en la provincia de Valencia EL PAÍS Un temporal con rachas de viento de 150 km/h y granizo azota Vale",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZWQ1VmFielJ5Y3JieU92MEpRTkM0V0VNdEJfVzhXSU5xaXY2VDVtb0xCeHlHUnlvelEtWGp0dlhKVVNEeURsNkszTkxjanVnV20wdC1TWUxaS3NlRDl5UVZGSk1xUE1uTGlKT3doOWZEdENXLVBpSmotMmtRS2dNTldxY1NsVUJlUmZPUEV2T2pLeHlTSlRQck5ST3d2eVVHZ3pVLXZxeGJqbWRldnVmRnRqS04zUkJzYVlPTElFeGpSUE15Q1QxNm8xcGFIbnfSAeMBQVVfeXFMTlNIa0Rpa2drVXNwVzZNbFU1eWFzbTVCYTRRQUQxX2pHaU5wSjJES3E3RnRQb3RnTUgxRGZzRElnWEJJbGF6UC13NGF4YmNEXzFfS2pUNGRvOVFTMWZDWHJSbExLXzQxUU0tcEMyd2l5Vi1SMVUxSUFGbzBCdjM0T3N4SEJjcUk1Rkx4WlBvRkF3ZjdZZHpKdVBxZFpScGtlTm9XS19vNEZXMkgxUl9CbGxWQThobkhhNTVKOWVxOV9SSWIzd1d4VVEyOXBrQk9kS2hYNElsMGhhYjBMSURmSEZRWkE?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 10:45:58 GMT"
-    },
-    {
-      "title": "Protección Civil y Emergencias mantiene la alerta por lluvias generalizadas en el norte y este peninsulares y en Baleares",
-      "source": "ministerio-interior",
-      "summary": "Protección Civil y Emergencias mantiene la alerta por lluvias generalizadas en el norte y este peninsulares y en Baleares ministerio-interior Adiós al calor y la Aemet avisa: llegan mínimas de hasta 9 ºC, muchas lluvias y tormentas y estas serán las zonas más",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNzlWNnFxZGxUVmNoY0ZpNEhpRG1ZUlBVaXQwUFp1WHpLR01zczMwVTFEMkhVOHRkYnM2b3Y2MDlSLTFZV0tSdkt5X05oTVZKdl9OVTNnandkUEdydGUtcklKUzhwOFVjMjBKZUlBelJuSUNUTFNvLVE1U2ZRYWRSdE5YeGt6SE9SVWlwZV9aOE9IRi1FRXAwV3FDRGNVSm1kU3JwQjdPZ0R6d29nTnRYbGl6czRfN28zenVsSnducGNaX2FqbmhaOTFDS2gyeHlpQXlqb1U2Uk0zQXdVamtHTEhYUDR1c09sdmtGTjZQZHZ6TjFTY01iZ2NKZ0hPc2xNTV9iTmNqUEg4dw?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 14:44:41 GMT"
-    },
-    {
-      "title": "Mónica García busca médicos que hagan guardias «voluntarias» para maquillar el colapso sanitario en Ceuta",
-      "source": "OkDiario",
-      "summary": "Mónica García busca médicos que hagan guardias «voluntarias» para maquillar el colapso sanitario en Ceuta OkDiario La era del ministro sicario El Mundo Alejandro, enfermero en Ceuta: «Hay compañeras que no pueden visitar a domicilio porque las rodean» ABC Gast",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdzhBX2o3WG5QV0xtWlFoX0ZCNDMzZkJkMmJmYzcwOER0YVdCbXVlUjFsMllFZlVaVmNIaTRDZzFQSEpmR3NxOEVrbmhoVmE1WGZXYU1KcVZpaHJ4SHcyRF9VdkpyMVp6a2lNX3BhVVlrZFVoeTRRbXZmYlBJc21ESHZ1WHlNbE55MVV0MGJYSnN5R3VTQjNKMnBJRk1WdHNQWjBKc3pYZjFwZHNBUXFPQXZERWY1UXhhVGdIRTdjMjUwQjB2NWJRU9IBzgFBVV95cUxPOTgzTEh0VDk0Sng4WUoxdHZPNHFQbkhfVGJrS3ItYndQUUNKdUwtaC1sMTByN0NON1pqUk9abno3WnBXcF83UW5KMUh5YTh6QWNBQ0tDNnJHLXVtSFlUODBad0NQU2pOcnRpaFJhbTN3SmZJVi1MTmphWk5OUmlMTTZ2OXM5LUtDVDBrcVBoRGxfX1J1TEF5ZU13UjNtNEhWRzVkOFlnUlYwVWx5eGVUcjBvZmtvQjNCY0NsaThkS3BPWFRKN2UxLVFJRDVsdw?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 12:12:06 GMT"
+      "pubDate": "Thu, 20 Aug 2026 16:53:00 GMT"
     },
     {
       "title": "\"Se aceptan cosas que antes no hubiéramos podido decir\": el peligroso giro de Feijóo con los inmigrantes de Ceuta",
@@ -60,12 +20,52 @@
       "pubDate": "Thu, 20 Aug 2026 09:34:38 GMT"
     },
     {
+      "title": "Tormentas en Valencia: vientos de 149 km/h y daños en localidades",
+      "source": "RTVE.es",
+      "summary": "Tormentas en Valencia: vientos de 149 km/h y daños en localidades RTVE.es Varios reventones con vientos de cerca de 150 kilómetros provocan daños materiales en la provincia de Valencia EL PAÍS Un temporal con rachas de viento de 150 km/h y granizo azota Valenc",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWpJaGxTbHF6QWxxdDlxcjlyLWtfLURpbzF3SGpfUVFMNFNKMWlZRDQwLXd5OWZkdl9lV3hyeExnbDdLaDdsWEdfN3lQTWFuUHUzSzRsOXlseVhIbUZ3MXJOV0EzUVhUeWtpVjJOYUx6VTN4Qm9MVHZlMnAtZ1YyUFhIajFieklwbTI0OEUzRWo3NXZRUkpOWVBQdktUYW5Jd1VWUDU1WG8?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 15:42:20 GMT"
+    },
+    {
+      "title": "Guardiola estalla ante la indignación en Las Hurdes por el incendio: \"¿Qué hago con el alcalde, lo cojo con una cuerda?\"",
+      "source": "El Economista",
+      "summary": "Guardiola estalla ante la indignación en Las Hurdes por el incendio: \"¿Qué hago con el alcalde, lo cojo con una cuerda?\" El Economista En directo | El incendio de Las Hurdes evoluciona contenido y permite afrontar la noche con optimismo El Periódico Extremadur",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOOWE2cXdHRVpvcGVCYnNlaTdYQm9pOVZjU3dKdXZhYzZILWpqT3NNaTRUOGEtVUpKNVVldnI1X0I2ekEyczB5ZmlOVmZWdXdDQW1ObXV2M0VSeU9EbjFGYzZnNlgtWFhqcUM2d0FzVjd3SVY1MTZNbWNGbnI4OUludkFnSkt5amFpNEJDZWJtRzlKb2pYM1NCVkl6ZXNDUWljeFBCVW1NNzYtdDlUTzBUOFJZTENOcVUyQ3B5dndmTk90bkY4emRtcVV5MHBLX2JQVUpmQWhvdzFKZWZhejFhcFZLWWVVUXppaXlTNW15Snk5SFFmT3o0Y2JGUXVmMU1oTHMyc2ttUUpKeU9TaHdV0gH6AUFVX3lxTE9aa3U0QkJzd004MVdyTkdYeFlLcHZjQVdXbnhna09pejd5ODFPQzBva1hBZWlYRE9XM3laZjdaVUQ3YlFwamZzMk1GX3ZKUzhDR0ZmNzVBRkFsTU5hYVVodG45NXp4eEU5a3Z0blQ1aEpFbEtvNzF1YkN5bV9mUmoxNXlIWjV2VVpmOGVIaVhhVGt1ZF9xeXY4QnFDWnozTkJBUV9JY3BxMTFxY21lU3FPWVdOU2pfcjlxZ0hfaURPTmlGb0VRMDhraEozLWMtaWppUk5nYTJJZGJodjF4cFJLWVR2UnVfdnEzWldlTTRoTEJPd1R6VzZCQWc?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 15:30:30 GMT"
+    },
+    {
+      "title": "Protección Civil y Emergencias mantiene la alerta por lluvias generalizadas en el norte y este peninsulares y en Baleares",
+      "source": "ministerio-interior",
+      "summary": "Protección Civil y Emergencias mantiene la alerta por lluvias generalizadas en el norte y este peninsulares y en Baleares ministerio-interior Adiós al calor y la Aemet avisa: llegan mínimas de hasta 9 ºC, muchas lluvias y tormentas y estas serán las zonas más",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNzlWNnFxZGxUVmNoY0ZpNEhpRG1ZUlBVaXQwUFp1WHpLR01zczMwVTFEMkhVOHRkYnM2b3Y2MDlSLTFZV0tSdkt5X05oTVZKdl9OVTNnandkUEdydGUtcklKUzhwOFVjMjBKZUlBelJuSUNUTFNvLVE1U2ZRYWRSdE5YeGt6SE9SVWlwZV9aOE9IRi1FRXAwV3FDRGNVSm1kU3JwQjdPZ0R6d29nTnRYbGl6czRfN28zenVsSnducGNaX2FqbmhaOTFDS2gyeHlpQXlqb1U2Uk0zQXdVamtHTEhYUDR1c09sdmtGTjZQZHZ6TjFTY01iZ2NKZ0hPc2xNTV9iTmNqUEg4dw?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 14:44:41 GMT"
+    },
+    {
+      "title": "Marlaska mintió hace una semana: «Ninguna persona que entre en Ceuta y Melilla de manera irregular va a ir ...",
+      "source": "OkDiario",
+      "summary": "Marlaska mintió hace una semana: «Ninguna persona que entre en Ceuta y Melilla de manera irregular va a ir ... OkDiario Bruselas recalca el “deber” de España de proteger a menores vulnerables en Ceuta pese a reclamar el retorno de los migrantes irregulares EL",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTdKOFk0LXlzSVgwUEZFU0ZmYThQX0VtWHJPYklOWGF2ZDlMWDZzaTlPRFZDcXppQXd5NXBjMndwZ3pFa1VYODdJdzczVFhJUkx5RGViUjB6MFFPbjR1cklwRFR2UGNNU21UakJob0lZbWt3amt4MVJNamY3Wnc5UmNiRDljZ1BaUEFxekJ5ZmZ4X3Jrd1prei1IVlhDYk1fN2pkWjBNbk1fZTdFUzZCcVF4RV9xOVU4MDFwcVo0NW40ZTdhVjF1NXNfTQ?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 15:04:17 GMT"
+    },
+    {
       "title": "El PP señala a Sánchez como responsable político de las incomparecencias en el Senado y advierte: “No puede salirle gratis vulnerar la Constitución”",
       "source": "Partido Popular",
       "summary": "El PP señala a Sánchez como responsable político de las incomparecencias en el Senado y advierte: “No puede salirle gratis vulnerar la Constitución” Partido Popular Ceuta no está en el Senado EL PAÍS PP y Vox denuncian la \"insumisión\" y el \"desafío\" de Marlask",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPRnZmQlBHVDFFc2YzWGhKRTFUM3JDdnp5UHJINDY5QkJvQTlCaWVsMm9INjY3dF9aeXRGVlNwUndQdkdZdnV1WlJUVWV5N0tOSXBkVVQxZTd3ejNWcWRTVlZhamxQYzd0Z0tfMjlCS3dxS212THJ4NVl5bFE1eDgzXzBEX1NYaXFDcktnNHh2eGQ5dXBkNnhRbUZXck9WNlBJS2V6STJST2lWeEpKUFhOSXlxTldNSW0wV3k1VmpkSU84OEtHbURvM0s5VXB1QkVmNW1hSEtRMVZMaExFZE1SWTFxMk9zUHBGb2N5T1lVQ01DT1Jka0dNX0hlVVNaeWtzdk5Md0FiQmM2clhnUzY0QlE5UQ?oc=5",
       "pubDate": "Thu, 20 Aug 2026 14:14:08 GMT"
+    },
+    {
+      "title": "Azcón asegura que \"multiplicarán los medios\" tras las incendios de este verano en Aragón",
+      "source": "Cadena SER",
+      "summary": "Azcón asegura que \"multiplicarán los medios\" tras las incendios de este verano en Aragón Cadena SER “Una catástrofe anunciada”: meses de protestas advirtieron de la obra donde surgió el peor incendio de Aragón elDiario.es El regreso de los vecinos de Santa Cru",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSmlIaUp4WHdnaTJjWGdRaUJIczdwemJ0amdTcjEtczR3d2dUUDY4aFg3QVFWVjE5NVpXb0EyNFBObGF2X1diZWd1eExteXI0aTVRZG9KU3JZaXdpLWtWNlkwbG1QdHRJMk9ERG8xLWFKX2lCMGVKTTlmbkQ5STFHRW1kekU5YXlDYURjLU9XYVdZLTF1b0hCSXlaZUFUeFFHbXQ4OXhJUXlBLUNmcm4wY0RESmU0Mk9oVnpDeFFjZm8zWDViNlAwc3RtZkJWREI5U1VxdUxrWWNJQdIB7gFBVV95cUxNQ2hLdkZpZlpPYlJvYk8tcG9mN0d6VnBLbXNNRURmaHJ6NkxDNGdyUkF0NTIySE1xdzNrYkMtVTNGbHlnSnBCeXRFM1l4N2hHY2V2Tmszc3JoZkJpbDV3X3lHZnk4RmluQ19SYjV0c2R6RHNxWWtIczZPUzN1NFd2NURmWmRWeU44dXBRSVJmUDgxRk5mQnJ1SENudzl6RExDR01zM2Z2QWVfOGxhTElWMDh3SHFPUmx5cTh3X1c2TmVRZFNYU0hBZkRpdERIOWpwRUxhTHg3NW4xcjFLVlQxZmhlNnBvcVhmbnA1TVN3?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 15:36:19 GMT"
     }
   ]
 }
