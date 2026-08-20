@@ -5480,3 +5480,83 @@ body[data-classic-theme="facile-dos"] {
   border-bottom-color: #ffd7d7 !important;
   transform: translate(1px, 1px) !important;
 }
+
+/* FACILE CLASICO - BOTON BORRAR BUSQUEDA V27 */
+.facile-search-input-wrap {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+.facile-search-input-wrap .facile-search-input {
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding-right: 40px !important;
+}
+.facile-search-clear {
+  position: absolute !important;
+  top: 50% !important;
+  right: 5px !important;
+  z-index: 4 !important;
+  width: 28px !important;
+  height: 26px !important;
+  min-width: 28px !important;
+  min-height: 26px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: grid !important;
+  place-items: center !important;
+  color: var(--facile-text) !important;
+  background: var(--facile-window-soft) !important;
+  border-top: 1px solid var(--facile-window-light) !important;
+  border-left: 1px solid var(--facile-window-light) !important;
+  border-right: 2px solid var(--facile-window-dark) !important;
+  border-bottom: 2px solid var(--facile-window-dark) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+  transform: translateY(-50%) !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  touch-action: manipulation !important;
+  line-height: 1 !important;
+}
+.facile-search-clear[hidden] { display: none !important; }
+.facile-search-clear svg {
+  width: 15px !important;
+  height: 15px !important;
+  display: block !important;
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2.5 !important;
+  stroke-linecap: square !important;
+  pointer-events: none !important;
+}
+.facile-search-clear:hover,
+.facile-search-clear:focus-visible {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, var(--facile-accent-blue), var(--facile-brown-mid)) !important;
+  outline: 1px dotted var(--facile-focus) !important;
+  outline-offset: 1px !important;
+}
+.facile-search-clear:active {
+  color: #ffffff !important;
+  background: var(--facile-brown-dark) !important;
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: var(--facile-window-light) !important;
+  border-bottom-color: var(--facile-window-light) !important;
+  transform: translate(1px, calc(-50% + 1px)) !important;
+}
+@media only screen and (max-width: 767px) {
+  .facile-search-input-wrap .facile-search-input { padding-right: 38px !important; }
+  .facile-search-clear {
+    right: 4px !important;
+    width: 27px !important;
+    height: 25px !important;
+    min-width: 27px !important;
+    min-height: 25px !important;
+  }
+}
