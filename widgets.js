@@ -197,38 +197,36 @@
     input.required = true;
 
     const inputWrap = document.createElement("div");
-inputWrap.className = "facile-search-input-wrap";
+    inputWrap.className = "facile-search-input-wrap";
 
-const clearButton = document.createElement("button");
-clearButton.id = "facileSearchClear";
-clearButton.className = "facile-search-clear";
-clearButton.type = "button";
-clearButton.setAttribute("aria-label", "Borrar búsqueda");
-clearButton.setAttribute("title", "Borrar búsqueda");
-clearButton.hidden = true;
+    const clearButton = document.createElement("button");
+    clearButton.id = "facileSearchClear";
+    clearButton.className = "facile-search-clear";
+    clearButton.type = "button";
+    clearButton.hidden = true;
+    clearButton.setAttribute("aria-label", "Borrar busqueda");
+    clearButton.setAttribute("title", "Borrar busqueda");
+    clearButton.innerHTML =
+      '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+        '<path d="M6 6l12 12"></path>' +
+        '<path d="M18 6L6 18"></path>' +
+      '</svg>';
 
-clearButton.innerHTML =
-  '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
-    '<path d="M6 6l12 12"></path>' +
-    '<path d="M18 6L6 18"></path>' +
-  '</svg>';
+    const submit = document.createElement("button");
+    submit.id = "facileSearchSubmit";
+    submit.className = "facile-search-submit";
+    submit.type = "submit";
+    submit.textContent = "Buscar";
 
-const submit = document.createElement("button");
-submit.id = "facileSearchSubmit";
-submit.className = "facile-search-submit";
-submit.type = "submit";
-submit.textContent = "Buscar";
-
-inputWrap.appendChild(input);
-inputWrap.appendChild(clearButton);
-
-engineWrap.appendChild(badge);
-engineWrap.appendChild(select);
-form.appendChild(engineWrap);
-form.appendChild(inputWrap);
-form.appendChild(submit);
-searchWidget.appendChild(form);
-fragment.appendChild(searchWidget);
+    inputWrap.appendChild(input);
+    inputWrap.appendChild(clearButton);
+    engineWrap.appendChild(badge);
+    engineWrap.appendChild(select);
+    form.appendChild(engineWrap);
+    form.appendChild(inputWrap);
+    form.appendChild(submit);
+    searchWidget.appendChild(form);
+    fragment.appendChild(searchWidget);
 
     bar.appendChild(fragment);
     container.replaceChildren(bar);
@@ -372,29 +370,24 @@ fragment.appendChild(searchWidget);
     document.addEventListener("visibilitychange", resumeTimers, { passive: true });
 
     function syncClearButton(){
-  const hasText = input.value.trim().length > 0;
+      const hasText = input.value.length > 0;
+      clearButton.hidden = !hasText;
+      clearButton.setAttribute("aria-hidden", hasText ? "false" : "true");
+      inputWrap.classList.toggle("has-text", hasText);
+    }
 
-  clearButton.hidden = !hasText;
-  clearButton.setAttribute("aria-hidden", hasText ? "false" : "true");
-  inputWrap.classList.toggle("has-text", hasText);
-}
+    input.addEventListener("input", syncClearButton);
+    input.addEventListener("search", syncClearButton);
 
-input.addEventListener("input", syncClearButton);
+    clearButton.addEventListener("click", function(event){
+      event.preventDefault();
+      event.stopPropagation();
+      input.value = "";
+      syncClearButton();
+      input.focus();
+      input.dispatchEvent(new Event("input", { bubbles: true }));
+    });
 
-input.addEventListener("search", syncClearButton);
-
-clearButton.addEventListener("click", function(event){
-  event.preventDefault();
-  event.stopPropagation();
-
-  input.value = "";
-  syncClearButton();
-  input.focus();
-
-  input.dispatchEvent(new Event("input", {
-    bubbles: true
-  }));
-});
     select.addEventListener("change", function(){
       syncSearchEngine(select.value, { useIcon: true });
       if (!isMobile()) input.focus();
