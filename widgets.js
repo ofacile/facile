@@ -196,19 +196,39 @@
     input.setAttribute("aria-label", "Buscar");
     input.required = true;
 
-    const submit = document.createElement("button");
-    submit.id = "facileSearchSubmit";
-    submit.className = "facile-search-submit";
-    submit.type = "submit";
-    submit.textContent = "Buscar";
+    const inputWrap = document.createElement("div");
+inputWrap.className = "facile-search-input-wrap";
 
-    engineWrap.appendChild(badge);
-    engineWrap.appendChild(select);
-    form.appendChild(engineWrap);
-    form.appendChild(input);
-    form.appendChild(submit);
-    searchWidget.appendChild(form);
-    fragment.appendChild(searchWidget);
+const clearButton = document.createElement("button");
+clearButton.id = "facileSearchClear";
+clearButton.className = "facile-search-clear";
+clearButton.type = "button";
+clearButton.setAttribute("aria-label", "Borrar búsqueda");
+clearButton.setAttribute("title", "Borrar búsqueda");
+clearButton.hidden = true;
+
+clearButton.innerHTML =
+  '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+    '<path d="M6 6l12 12"></path>' +
+    '<path d="M18 6L6 18"></path>' +
+  '</svg>';
+
+const submit = document.createElement("button");
+submit.id = "facileSearchSubmit";
+submit.className = "facile-search-submit";
+submit.type = "submit";
+submit.textContent = "Buscar";
+
+inputWrap.appendChild(input);
+inputWrap.appendChild(clearButton);
+
+engineWrap.appendChild(badge);
+engineWrap.appendChild(select);
+form.appendChild(engineWrap);
+form.appendChild(inputWrap);
+form.appendChild(submit);
+searchWidget.appendChild(form);
+fragment.appendChild(searchWidget);
 
     bar.appendChild(fragment);
     container.replaceChildren(bar);
@@ -351,6 +371,30 @@
 
     document.addEventListener("visibilitychange", resumeTimers, { passive: true });
 
+    function syncClearButton(){
+  const hasText = input.value.trim().length > 0;
+
+  clearButton.hidden = !hasText;
+  clearButton.setAttribute("aria-hidden", hasText ? "false" : "true");
+  inputWrap.classList.toggle("has-text", hasText);
+}
+
+input.addEventListener("input", syncClearButton);
+
+input.addEventListener("search", syncClearButton);
+
+clearButton.addEventListener("click", function(event){
+  event.preventDefault();
+  event.stopPropagation();
+
+  input.value = "";
+  syncClearButton();
+  input.focus();
+
+  input.dispatchEvent(new Event("input", {
+    bubbles: true
+  }));
+});
     select.addEventListener("change", function(){
       syncSearchEngine(select.value, { useIcon: true });
       if (!isMobile()) input.focus();
@@ -362,6 +406,7 @@
     })();
 
     syncSearchEngine(savedEngine, { useIcon: false });
+    syncClearButton();
     updateClock();
     updateDate();
     resumeTimers();
