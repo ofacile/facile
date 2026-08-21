@@ -1,23 +1,15 @@
 {
-  "updatedAt": "2026-08-21T14:39:38.792704+00:00",
+  "updatedAt": "2026-08-21T15:38:18.835386+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "Ceuta presiona a Moncloa para recibir al Rey el 2 de septiembre",
       "source": "La Razón",
-      "summary": "Ceuta presiona a Moncloa para recibir al Rey el 2 de septiembre La Razón El Gobierno sondeó al Rey sobre la oportunidad de hacer una llamada a Mohamed VI por la crisis de Ceuta EL PAÍS IU reclama a Felipe VI que llame a Mohamed VI por el \"ataque\" a Ceuta: \"Est",
+      "summary": "Ceuta presiona a Moncloa para recibir al Rey el 2 de septiembre La Razón El Gobierno desvía la atención hacia el Rey con la crisis de Ceuta descontrolada e IU dice que \"ya está tardando\" en llamar a Mohamed VI El Mundo Un ministro pidió al rey que llamara a Mo",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd3B6OVB4RHJlZ1BQRU1aV0wtOTNjT243eXBOX1NZV0ExdXlha0JMY0dRTGVpTU9UQzVxa3M2WnY0WlhneW5naTdITkViZGE5eHFQX0NhYWt1UklUOEpud0w0ZHFGeHh3MFVDTEZ6c2VLVVlJbjJXTGwtNm5rOUdtdkFUYnlwZTJDbS1ucFdIMUZBSGhaYm9PdTVJVFFqOFBqTUlabmJ4ZTRJYWZQcm90bzJQWkhYdw?oc=5",
       "pubDate": "Fri, 21 Aug 2026 01:00:17 GMT"
-    },
-    {
-      "title": "La Policía Nacional desarticula dos organizaciones dedicadas al tráfico ilícito de migrantes desde Ceuta hasta la Península",
-      "source": "ministerio-interior",
-      "summary": "La Policía Nacional desarticula dos organizaciones dedicadas al tráfico ilícito de migrantes desde Ceuta hasta la Península ministerio-interior Las mafias cobran 9.000 euros a los migrantes de la entrada masiva en Ceuta por llevarlos en lancha a la Península E",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOczdpdW5qZ1RVakNYZ1VnX0lLeVRoVmxhMWpZUG9KbDB1S09rQ3lZUEVfalpNZS03UkpkS2h5ZnRBdEFGZHB2LWtydHZXTDNFa2J5RS02b0R2ZU5UcGFPYVUta2dRc3Z4U3NIX29QZS1oVWtScDRHMldReGhqQ0VKZXFaemdaaEQ4RmhyRUozaFB6UkJlRUc3YlJRZENDcjdDckI3ZkFPckJWQnp2Q2c5V3B5RjBaQWplUUItN3FFYmJJSmxGLXNuSXVQTFZzTERrMExJTS1vVmk1MmtjNTBDSUZwWDJzSFlFWWJJSnJkQkI3a1BiaXY3bVRvQmtFYk92b2lSNGcwOVZOdjlq?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 10:47:05 GMT"
     },
     {
       "title": "El desalojo de migrantes de la playa de El Trampolín de Ceuta, en imágenes | Fotos | España",
@@ -28,12 +20,12 @@
       "pubDate": "Thu, 20 Aug 2026 08:12:26 GMT"
     },
     {
-      "title": "La evolución favorable del fuego en Las Hurdes permite el regreso de los evacuados con algún confinamiento urbano",
-      "source": "RTVE.es",
-      "summary": "La evolución favorable del fuego en Las Hurdes permite el regreso de los evacuados con algún confinamiento urbano RTVE.es Los primeros vecinos regresan a sus casas tras el incendio en Las Hurdes: «Está todo quemado, es desolador Hoy El fuego deja un rastro de",
+      "title": "La Policía Nacional desarticula dos organizaciones dedicadas al tráfico ilícito de migrantes desde Ceuta hasta la Península",
+      "source": "ministerio-interior",
+      "summary": "La Policía Nacional desarticula dos organizaciones dedicadas al tráfico ilícito de migrantes desde Ceuta hasta la Península ministerio-interior Las mafias encarecen hasta los 9.000 euros lo que cobran a los migrantes por llevarles de Ceuta a la Península EL PA",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWjBHdWNlM1dGUlphbEhDQXFkT3ZNV04waUpUeWZFMFZNdjZIb3ppX3JrdlhtWDV6XzJXTHBRWERjYmFCYlYxR1l1Sm1mMGJaU243cm1KSWF1cTlac3ZoSm81YVNWLVBYaURaWDRpRE1YaDJTeXBQY25BRnpBR2hURENwUFl0MVI2NlZIcm9XdW9ndXRSMjJkRFBFQQ?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 22:51:29 GMT"
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOczdpdW5qZ1RVakNYZ1VnX0lLeVRoVmxhMWpZUG9KbDB1S09rQ3lZUEVfalpNZS03UkpkS2h5ZnRBdEFGZHB2LWtydHZXTDNFa2J5RS02b0R2ZU5UcGFPYVUta2dRc3Z4U3NIX29QZS1oVWtScDRHMldReGhqQ0VKZXFaemdaaEQ4RmhyRUozaFB6UkJlRUc3YlJRZENDcjdDckI3ZkFPckJWQnp2Q2c5V3B5RjBaQWplUUItN3FFYmJJSmxGLXNuSXVQTFZzTERrMExJTS1vVmk1MmtjNTBDSUZwWDJzSFlFWWJJSnJkQkI3a1BiaXY3bVRvQmtFYk92b2lSNGcwOVZOdjlq?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 10:47:05 GMT"
     },
     {
       "title": "València se blinda ante el aviso naranja por lluvias y tormentas",
@@ -44,12 +36,28 @@
       "pubDate": "Thu, 20 Aug 2026 10:45:58 GMT"
     },
     {
-      "title": "Ceuta y Melilla, en directo | Última hora de la crisis migratoria en Ceuta",
-      "source": "El Periódico",
-      "summary": "Ceuta y Melilla, en directo | Última hora de la crisis migratoria en Ceuta El Periódico Bruselas recalca el “deber” de España de proteger a menores vulnerables en Ceuta pese a reclamar el retorno de los migrantes EL PAÍS El Gobierno \"desplaza\" la crisis por Ce",
+      "title": "La evolución favorable del fuego en Las Hurdes permite el regreso de los evacuados con algún confinamiento urbano",
+      "source": "RTVE.es",
+      "summary": "La evolución favorable del fuego en Las Hurdes permite el regreso de los evacuados con algún confinamiento urbano RTVE.es En directo | Los evacuados regresan a sus casas: \"Salimos con el fuego al lado de la carretera\" El Periódico Extremadura El fuego deja un",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVTdNNjZ6V09MdUxXSzdPRjZVRmVPSHVIeGNBcG9Va2UyZzJ2Q01meFhWSkFLLXplbXpyamxjR1pIRzMxdGtOMVdGVGpDWjVkbEpBSHlfQldZTWxMTUtCbG43bTEwbzNUdDUxbmxFUWhEVDRQY0N2anFGdGdieGJzNUFlVFc3WDJZVlhWVG9wQkQxWDNFaTIxbEFkUzBUS0N5aGZseWRxT0RweFHSAasBQVVfeXFMTTZpQkdneTJDTUliU2NHNHc5MnhuQUJYcWdxZF9nS2FMQUVKMldmZFVOS2hzdjZEV3hWbFhzanBkbm1PamhMSDVfN1RJS0NVV2VmSnQxci1ncUdkTGZSbVV4RktsbDcwc3FJblhqY0R5WVNFdHhJcDhWZkJOcnFpWDRlM2g4ZmRxd1lkYjlQbndBZnJvV3BaVXlweFVHcDA4Tm0temlsUlY4ek1n?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 11:37:59 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWjBHdWNlM1dGUlphbEhDQXFkT3ZNV04waUpUeWZFMFZNdjZIb3ppX3JrdlhtWDV6XzJXTHBRWERjYmFCYlYxR1l1Sm1mMGJaU243cm1KSWF1cTlac3ZoSm81YVNWLVBYaURaWDRpRE1YaDJTeXBQY25BRnpBR2hURENwUFl0MVI2NlZIcm9XdW9ndXRSMjJkRFBFQQ?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 22:51:29 GMT"
+    },
+    {
+      "title": "Termina el confinamiento de la población alrededor del Puerto de Pasaia",
+      "source": "Euskadi.eus",
+      "summary": "Termina el confinamiento de la población alrededor del Puerto de Pasaia Euskadi.eus Un incendio de chatarra en el puerto de Pasaia obliga a confinar a la población durante varias horas El Diario Vasco Los servicios de emergencia confinan a la población alreded",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSm5pU2tnTU83YUVjdlYzR2p3YjlfU2paQlpMc3pJQkdtVWVEV053cXFCd2lPN0dNSjEycm40VmFnZWs0S3JXVU5GQzFBbERNc0JvWXBZRkVQc19tTDBOLXZyNFI3M3ZsUUpZdzczWXRzY2RUVmNzby1DNU9OMDJJb2RKbXZwd3ZER0thWlM5Ry1kN0M5VnAyVjJYZUREN2l5NGFFUlJXYy1LbDVHVDFTVmFTNk8?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 10:54:18 GMT"
+    },
+    {
+      "title": "Emergencias activa el nivel 2 por el incendio de Segorbe: presenta tres puntos \"peligrosos\"",
+      "source": "Valencia Plaza",
+      "summary": "Emergencias activa el nivel 2 por el incendio de Segorbe: presenta tres puntos \"peligrosos\" Valencia Plaza El incendio en la Calderona ya es visible desde el espacio: la NASA sitúa el fuego en el corazón del parque natural Levante-EMV El Gobierno valenciano pi",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaEJ2dkZDU3B2NW91TllFenpNMVF0OGhjaTI5ajktc2NXS2NvVENZakRya0RZUDJVNnM2Um1jTWVOaVNJRy1PYWZEcmFIWGk2cWthR3J6ZEtSX0d1NzFqM3ktR0R0Y2NqZTlWbDVHa0pVTFpGVFJsaXdveGdmSThaTHVyNnpfVFctSWtsbGQtRVByRUJpdVJ1aHlJWWZzQ1FPQWRqZ1NJLVNDb0ZYWjdSR2o0Y3gxZWZRaTZ5eW8wLVZUREd5eTVMd0JURDc2UmU1SF9aSGJxb2RhZTIyR21WaUphLVQ?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 14:04:51 GMT"
     },
     {
       "title": "Última hora de la entrada de inmigrantes a Ceuta, en directo | Infancia confía en trasladar a las niñas “en pocas semanas” pero admite que no ha enviado aún una propuesta concreta a Ceuta",
@@ -57,15 +65,7 @@
       "summary": "Última hora de la entrada de inmigrantes a Ceuta, en directo | Infancia confía en trasladar a las niñas “en pocas semanas” pero admite que no ha enviado aún una propuesta concreta a Ceuta EL PAÍS Por qué trasladar a 500 menores de Ceuta a la Península: atenció",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUloTUpfRmR0WVhwOFVlQUEzckFwRW9QWTRtcnQzWGE2elk4R01zMUFiSTlMZ3VsdlJuMklkUk15VFBHWGxfSzlCYk1wcVJUdUNrRmNXUFlYaUdCWmtsQkNleVQtblVZVEJIVFZJZnJUYkprdGd2Z0luMUpDSURuakxkSV80U1RwMmdMZ09TUjFqS2Y1WHhvSHM4NkVOVXNWaGhB0gG3AUFVX3lxTE1GVmt1MkwzdlVZT2JyRWpLZFdmYjN2Zk1UVlJKS1B2OFZmYzNmcjV5QjUyTWpDY0FjcVM0UUFwaFRvb3E5X2dSU09JMnZweDZOWk1oVFd5RmhfOGZOMnJlMmY4SFNtRzhROTRoaGNRbXNvSUNJRlVLUkg4SHNwSm93YU5LYnE1a1lUSlhXS3hHV1lyOXFpNl9reTVxMnEyTWVDQThHMENaSTk0Z09IOTh6dmhoUG9tdw?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 14:00:36 GMT"
-    },
-    {
-      "title": "Extremadura acoge a cuatro menores migrantes de Ceuta pese al acuerdo de Gobierno entre PP y Vox",
-      "source": "RTVE.es",
-      "summary": "Extremadura acoge a cuatro menores migrantes de Ceuta pese al acuerdo de Gobierno entre PP y Vox RTVE.es La consejería de Vox en Extremadura se hace cargo de cuatro menores migrantes de Ceuta elDiario.es Guardiola pide al Gobierno que \"trabaje\" para que los me",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbGVqZFhKSkRBN0l4RllWV0FIN1pSaVZSQ1VXeEZDMEk1UWdURWk0SzFfVEY0SlQ0ZG9UQV9MNFhWbUsyaUJ4MlpreXBSZm5IUy1OMjFBb0daMDN3ZXZ1ZENDRkJhUWRwSlJhWmtEcFc5aHd6ZEo1VVdnaTF4aXYyZ1NzME43MWxIQmd1Nk5uT1VhZw?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 09:58:17 GMT"
+      "pubDate": "Fri, 21 Aug 2026 14:28:31 GMT"
     }
   ]
 }
