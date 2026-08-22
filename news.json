@@ -1,16 +1,8 @@
 {
-  "updatedAt": "2026-08-22T23:25:16.666979+00:00",
+  "updatedAt": "2026-08-22T23:47:58.157697+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
-    {
-      "title": "Un total de 11 heridos, uno de ellos en estado crítico, por las lluvias torrenciales caídas en Tarragona",
-      "source": "RTVE.es",
-      "summary": "Un total de 11 heridos, uno de ellos en estado crítico, por las lluvias torrenciales caídas en Tarragona RTVE.es La lluvia desborda la Costa Daurada y el Govern defiende sus previsiones La Vanguardia Aragoneses en Comarruga: \"Los cubos de basura flotaban por l",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLXBmajJtbTdUQWNJZWltODUzVkx3SkdBd1FSNmdQeDNFcElVR0dfbDctTk9jdkJjamhfWS1GSE1hb2twRzM3WGZTSDBnbnVfUUFBZzhUMnBfNWJCallDbU5qWFhaRzVjMEJnekNVdnlVY3drTGZNRjE5Sjk5dlFyQjFHUklTaDFTMkJjQTA1VXpfTWFiclE?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 10:07:34 GMT"
-    },
     {
       "title": "Feijóo: \"Estoy convencido de que el rey quiere ir a Ceuta y lo hará cuando el Gobierno autorice ese desplazamiento\"",
       "source": "RTVE.es",
@@ -18,6 +10,22 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQmxuYThCY3pxRWdqbkVVeXh0dTgyc3p0UXA4S0tHQU1ReWduWW11dVRpUVN3eXhNZV9Pamt2bG83dVIxeDFNWUJtdktod0JrT19zUmY1b2piallMdjVIZXR6UjF6d1ItV3RBRFE0RG81LWNsMm1hcjhINm03YWtlejBYYjhDa0twa2J3U2R5WHZRSnEtNjlKWW5laG0?oc=5",
       "pubDate": "Sat, 22 Aug 2026 20:37:03 GMT"
+    },
+    {
+      "title": "Las lluvias torrenciales en la Costa Daurada dejan 11 heridos, uno crítico, y unos 400 evacuados",
+      "source": "La Vanguardia",
+      "summary": "Las lluvias torrenciales en la Costa Daurada dejan 11 heridos, uno crítico, y unos 400 evacuados La Vanguardia La lluvia desborda la Costa Daurada y el Govern defiende sus previsiones La Vanguardia Un total de 11 heridos, uno de ellos en estado crítico, por la",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdlgyWFFkZS1DX2U3MXBuY1ZPeXhmck0tdG5hRjVIN3AwaGpjSl9oYThsYW54Mk9SRVAyemxYTWdvdXdOMHhJZzJYeHVkcEFlWDdPNHVpdGU0OVI4aXVZTExrRHFhcmFFRmRKSDRjQW1VNDZ1X24ySkhsMUQxVTZxc3I5ZkU5Tk1DZEswekF1U1MydzhnSFRwcWVkZTB0NFJsY214UU9ZUXBkYTJVaFdiU0dVb2JHSGlfbmZsZlFJMFRXQmYzbGRkUjAyQVVMaWo3X0Vz0gHYAUFVX3lxTFBqUmZsVUNuYVU0blhsNUpHQkc2V2V4c1F5QVBSekJRS1pyd1lsQzZWUERydnpUUXJxRU1WY21TZmYzZzZyU2dyTUUybjNBTjRCUDg1M2IyU2xzRFNRZUdROTYxQVNIUGRIYzZUY0dWOWFfOTBxc1VlZ3ZKLVJxLTRzbllUbF9HU3ZEWmtFQmVka2RxM09ubjhOVy1UVWlFaVlWcEFEc29rMHlaclMyUW5wVDNDZ3RJQW12UnNfeGdWanpxa3JJZFRRQXYzRzRwQXloRmVUblN6ZQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 06:02:10 GMT"
+    },
+    {
+      "title": "El Gobierno rechaza de forma \"tajante\" las pretensiones de Marruecos sobre Ceuta y Melilla",
+      "source": "Cadena SER",
+      "summary": "El Gobierno rechaza de forma \"tajante\" las pretensiones de Marruecos sobre Ceuta y Melilla Cadena SER Marruecos pide a España que devuelva a los migrantes supervivientes y a los fallecidos en su paso a Ceuta El Mundo Del Sahara a Ceuta y Melilla, la frontera q",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVTlfd2V6ZzRYVThZa252bmd4ZXF3TV9rOV9uU05KZ2ZYMFM1VVhvLVhyeDhqSkVqbFhWMkJhT2FCS0hIWkFlWjZCS2tlSWxkUDdIajJHQnptMGstQU14enhiYmF3eUR6QUxTNm95ZUY3OHpqVjJzWm1uS1FPckVqd3F0RUN5N3hoQW1zSThSZE1XZHJjTjEwVG50YjEtejNhdV81Z0MtWG9oMl8xbFNsQlUtYTJwS2hiTktPNG9BX0FHaU5CY0RIQU5GNmFnaFgwUVRKTmU1THdhUdIB7gFBVV95cUxQdWJIeUpNSzVuNDdKNXdEdUdwRGEwUzJwTV9VcUw2UnRtQzBxVnVyMFhWMkQyUFpIa05UZUFLb1pXX1pqVEdtSmFpN3hLME5weEpsMjYzQkRlY2NmZ1h4U1U0RlVYZGZBVGxLYmFMZlhpeThLWFZtSkJ2Z2dzRDhyd201aW5tcmp4Q0pjNGtfWjVoWjNCMlBBOGRqYjZBUFc2T3pjQWt3dHdzLWNWRzZ5TjNER1Fkb2Vrdmh3YV9VWmhqc09tMXlyRThuTGFLVUYyVC1aSWZBc1M1WDFtVnFETFFkZ0poOXQtckdIU1ZR?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 07:33:44 GMT"
     },
     {
       "title": "El Supremo rechaza que los ministros rindan cuentas en el Senado antes de acabar agosto",
@@ -28,20 +36,12 @@
       "pubDate": "Sat, 22 Aug 2026 09:20:13 GMT"
     },
     {
-      "title": "Marruecos pide a España que devuelva a los migrantes que cruzaron a Ceuta así como a los muertos",
-      "source": "elDiario.es",
-      "summary": "Marruecos pide a España que devuelva a los migrantes que cruzaron a Ceuta así como a los muertos elDiario.es Marruecos pide a España que devuelva a los migrantes supervivientes y a los fallecidos en su paso a Ceuta El Mundo Marruecos vincula la aceptación de l",
+      "title": "El Gobierno encarga a una ONG subvencionada con 100 millones montar los campamentos de los que escapan los ...",
+      "source": "OkDiario",
+      "summary": "El Gobierno encarga a una ONG subvencionada con 100 millones montar los campamentos de los que escapan los ... OkDiario Ceuta duplica esfuerzos para templar ánimos y ubicar a los migrantes EL PAÍS Los inmigrantes vuelven a ocupar la playa de El Trampolín tras",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOGJiVmVBdkl4SndFSHo2WlZEbC1kQmdwbDd3d3BkSDNDbkpGLUZEVEVDMEJodVBkS3VReFVaUnlSNVA1Q0M3bVNHcXh2NE9IU21SZUpCNDY2dl9LSWxaNEpNbWcybm5NdGFPaTZvRTN3bnJyZkNvSlZVMU9maEFVSnVqX0liYnQxenN2MWNCclBYMWFpbF9pbzZHLTJDcTBqeXBNTERMWjVuNjNLaFEwMjUzcjJORThpOTQ0WnJZM0MzVXU4N1lMa01R0gHPAUFVX3lxTE9CMURhMUNyUjE5Y1dqR2NiUjZEa3V1MFV6OFhKZ3hpTFNiQ1ZfN3ktWU9SbG1XOTgwT05BN3RCczA4UVVRS0o5RWs0eXdGWGdrWWtKWFJENDNsMXV0Unh3WEJpLUhGZU95MWg3VW55RWVBcEppR1c0YXRRVnFHWEJsMTJUSjRqQ2pnbjctdi02M0I2SHdfTFZSSl9nVVR1bDBkQXhUZ1VUNFl0RGtzSmpnSTFfVkZmODJ2ODV6ck12WThnWFJlQUQ5NXdZMXgwZw?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 15:01:05 GMT"
-    },
-    {
-      "title": "Centenares de personas se instalan en la playa de El Trampolín en Ceuta tras la limpieza",
-      "source": "elDiario.es",
-      "summary": "Centenares de personas se instalan en la playa de El Trampolín en Ceuta tras la limpieza elDiario.es Ceuta duplica esfuerzos para templar ánimos y ubicar a los migrantes EL PAÍS Los inmigrantes vuelven a ocupar la playa de El Trampolín tras ser desalojada para",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkxnQXUzb2ZwOFE5MlN2X3dzVFJlOWcyczJJOHZGaFIxVVlXbW1vLURlMXdLbTJIZWlqRDNMTjN4UkR5T0dQLThqdVhKYmxGbkNjb2d2Qy1TS3ZiUk1YT0dUalo4N3ZJcXAxRkkzNGJMN1dLd0JSZXRBQ0IzUFJ2WlNTdlZYRDBGclFqT0RyaS04a21MWVNKSUZtV0JHSjJtdURObG1TLU81RGFlelNJ?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 09:45:26 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbVk5LWRjeXl5ODRpclRINW5udUNSYXpfVFBIcGZFenRGNUM1NVNpd0ZHMnBCSldqWmllcXRrcnBNRFBPLUxzUGdfWVlPaHJva3czX0E1VVpVUkctRk1ocVdUOERndUo5X2VyOU5YVXRnS3ozQ0NiYmJaQXJreURZdmJKd3dEYVNBU1Q5ZUR5YWg5bHVpTzQxTUdsS0VlY05aY1hTVUZXTlZTVU1kUzZiME5PY2NXYmhJdzJJMVpfX0xyZ9IBxwFBVV95cUxNUlpzbU9kSFZLbjRydU1BeUpwakpyRG15VzZpT0laMXhILUlLbHdRMEJ1MU1EY3M5Y1JJRkJTUFFZUTZsZ1JQWldtT1lZcGFHZkFzak1LbGJrdnlic0ZhSGRGSG5JZGRMYzYxc3dRMW5QdWMxa1RzMXpUTUlHc3NuRDdnMG9iNzlveUU0b1ZQT2VGZDJjNnFvX3VMVWdob2k2SHVxQmRaczBQaUtTWUJkc0JXakw2Yk5VN3AyZzR0dFNQemhqVkdJ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 03:51:49 GMT"
     },
     {
       "title": "Refrescante Fiesta Infantil de la Feria de Estación",
@@ -52,20 +52,20 @@
       "pubDate": "Sat, 22 Aug 2026 12:23:48 GMT"
     },
     {
+      "title": "Sanidad convoca este lunes a las CCAA para suministrar vacunas a los miles de inmigrantes asentados en Ceuta",
+      "source": "LaSexta",
+      "summary": "Sanidad convoca este lunes a las CCAA para suministrar vacunas a los miles de inmigrantes asentados en Ceuta LaSexta Sanidad convoca a las comunidades autónomas este lunes para enviar vacunas a Ceuta EL PAÍS El Ministerio de Sanidad convoca de urgencia a las c",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNOVpCQlJVcVlULW9LRXFRTUg0cHdSUG1fTDE5d2FseVVFc2NLNTJHaXdqRDJOR293N2Q2TGl6QXFxY2VxV0dUM1ZtZXg2WDM3ODBya3ZtXy0wM05vYlVQdjBYX3J0MUw3cmRzOUNVc0ZrUXZ6RHRFbF9FQTVtY242VVR2VDB4V3luR0pLNk1PRGlnTHNvZHlKYnJQSmhfV3hkZ3p4WE5VN0o5UWcwZXhRMDZKLWNGNllPclRwNUROcEhPWWpPUFQzSDVud2hTWFJxMUs0UkFLX2l3djcwM05iR04wdUNNZkM0TG4xODhzWms3MXFwZWg3UNIB-AFBVV95cUxPMTNEbVJYanhGeENTOGpGTk95OGlqd201dWdWRk56N09iTm9CZFVIS3V3eF9lSkhrYkpRclZrYUltRHJtWnFHdGpWenFmRXdldnFESzJtdjc5YUhfcWdaOFpQUFkwOFJwam9nc3pwWktuemF5MWxBZ0hVMnFkdWU3NFFxOTh6NWV5RUVpM2JRSjhQc3FTSG40MWpUT1lnQTlzZ0RxZ1BFclVtRkNoUEtkd3dYZER4U2J5cnNrbEhONVdoT1IwRXlidTlaMDlNdHo2RkhZZ29TRXNBVWxxYmdDajNSOGVxMjZ1YzFzRFpVWVozOWJ4S3pOYQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 12:33:44 GMT"
+    },
+    {
       "title": "Unos 400 antifascistas contrarrestan la concentración del centenar de ultras de 'Save Europe Act' en Barcelona",
       "source": "RTVE.es",
       "summary": "Unos 400 antifascistas contrarrestan la concentración del centenar de ultras de 'Save Europe Act' en Barcelona RTVE.es El movimiento Save Europe Act pincha en su desembarco en Barcelona para reclamar el cierre de fronteras y remigraciones masivas El Mundo La \"",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVmktQ2t2eTVXVk5qdlQ0amZvc3V0QkM1ZUdJRHhnYWVuTzhLMUNEZjJhNmJSeWFTdF8wVUwyNnJVZ2FkbnZJVTBIdHVXNDQtQUZMNERGeFE0UFRvQWlFdEs3ZlBwU1ZjRkdnZDF6cjZJbjFVSFJoUTliVHFqVFVDWkRxdEhHdlEzT0RZT2pBVkhxdVpITU1BTUF1SDdWRnBfRFh1TGpQMVFTRTl1Yno0ZFpRTHFHVmpZcXAybFAtYVhiNXhwQkhVeFFrd3BuU0gxOVJubjQ5MnZtU29TeFE?oc=5",
       "pubDate": "Sat, 22 Aug 2026 19:42:05 GMT"
-    },
-    {
-      "title": "Incendios forestales en España: logran contener el fuego de Castellón a pesar de las condiciones meteorológicas adversas",
-      "source": "Onda Cero",
-      "summary": "Incendios forestales en España: logran contener el fuego de Castellón a pesar de las condiciones meteorológicas adversas Onda Cero Última hora del incendio forestal en Segorbe hoy: el fuego en la Calderona arrasa ya 633 hectáreas con el cambio de viento como a",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNeXE2Sll2SFM4UE5DZ3hLckpsM3RlbkNGdGNpVU40M3lJOEFLMVBBbU1YOWtTckJlYU1WQURtLUJiVW5zcHY5MkdGeHU4aWZTNHdIeXhhd0ZkemJmMGZCTUs4MWxzSUVwYndrNjdHX1ZZMUttY2NMZDNaMDBhVFhhNjdkWVZsdUxIYjd2cE5VQjFJVjZ5b05Sdm1DamhvLTUwOWN5U2w1cDFSNFJpR1JYWDBBVnNIQTVUeVptZHBycFZPUnBOQXh1NjBxZ3ZkdXVqME05ZXNhb2tGQW9kY0dCSGs5UjF6WnkyOW9oOXQ3RnduQTRXNnltclhNaGHSAfwBQVVfeXFMUFZPZ3lqUldkSDNQOENld3QyN1pTTmk2Nm9RT0RCQUF6YXhZSjRvOG9hTjZpSDJjb1dha2laMzQ4WUs2dUlTcFJYZldUNDJNRjE4cTBWVUxqN0VGanJKS0EzYkpiV1dqMUNtdXJSZlY5cGZ2SV9kZTZodzVZTWZiN1JTc0xydHJCX2VYUHRBRmJ3bzBKdnJTcTZYQjZfREZFSk5tb3NBRWhVSlpGZWFXZFZjdUdYNDVvWXhZQVNMRWdLelp1RWFudmNOT1RxSDhWMG45SWpTZm1XdmhXTVQwc2lCeThLUjk4WlVkUmZuNEM4eGdoWlpJREozOGNL?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 11:39:08 GMT"
     }
   ]
 }
