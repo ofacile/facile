@@ -1,16 +1,8 @@
 {
-  "updatedAt": "2026-08-22T19:25:58.330682+00:00",
+  "updatedAt": "2026-08-22T19:47:43.034969+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
-    {
-      "title": "El Supremo rechaza que los ministros rindan cuentas en el Senado antes de acabar agosto",
-      "source": "La Razón",
-      "summary": "El Supremo rechaza que los ministros rindan cuentas en el Senado antes de acabar agosto La Razón El Supremo rechaza ordenar a los ministros que acudan al Senado antes de acabar el mes de agosto para explicar la crisis en Ceuta El Mundo El PP subraya que el Gob",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQekFUUUs1SGU0a0ZPVUhUQ0JWaDk4SlRfakhQNDdmVG9DZ05veHJscW5OcE9SQ19zY3V5QUNPWHBjaUpKRTNSaC1tV1ZTMTJhSXZoLTdoUm5RYzFVRW13QVA5ZV9yMkZuaHUzT3FMd0U2MzVlZU9qamIzYnNnZzZvUXMySXJKLUVmVzFnbmQtU056eklGLXFDYmp3TXpQZWRxbVRrMWd1RUNiMnRCcUM4YzVWYWZJVldVWWNkX1NpTmFwaVRvME5fc0FpajFfaktqX09wbTF30gHqAUFVX3lxTFBnUU1lYVgycGRFWG9PWFN2UXFKTXdOMXk3RlNPN0lZS25paC1FV1pXVTJqRE85T2xJV1RvZEtBMDZkT3NjU2trdWFjS0FSWlJzR0xRWVJHOGNXZFhhUnlNWjJ4Vmg2YTAwZ2dDZ3Nya0pDemRfN0l1b2REVWpoYVVIUzk0ZFh5LXpCYmpqZXpzYzMzb1p5WEhwc0Z5cEZfYndBNktZYk45bmE2dlJvR1ZXX2VvV3BMNWxYZ0lMMWRvbHJialBJVEpUdmVDX0RBRW5zcjBpV3pRTDMwWUlVcE1XeWxEdUZPSllRQQ?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 09:20:13 GMT"
-    },
     {
       "title": "Los migrantes de Ceuta que recelan de los espacios de acogida: “Nos quieren ahí porque es más fácil expulsarnos”",
       "source": "EL PAÍS",
@@ -20,12 +12,12 @@
       "pubDate": "Sat, 22 Aug 2026 15:38:44 GMT"
     },
     {
-      "title": "Las lluvias torrenciales en la Costa Daurada dejan 11 heridos, uno crítico, y unos 400 evacuados",
-      "source": "La Vanguardia",
-      "summary": "Las lluvias torrenciales en la Costa Daurada dejan 11 heridos, uno crítico, y unos 400 evacuados La Vanguardia El testimonio de un vecino atrapado por las lluvias torrenciales: “Si hubiéramos recibido la alerta, no habríamos ido a ninguna parte” La Vanguardia",
+      "title": "El Supremo rechaza que los ministros rindan cuentas en el Senado antes de acabar agosto",
+      "source": "La Razón",
+      "summary": "El Supremo rechaza que los ministros rindan cuentas en el Senado antes de acabar agosto La Razón El Supremo rechaza ordenar a los ministros que acudan al Senado antes de acabar el mes de agosto para explicar la crisis en Ceuta El Mundo El PP subraya que el Gob",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdlgyWFFkZS1DX2U3MXBuY1ZPeXhmck0tdG5hRjVIN3AwaGpjSl9oYThsYW54Mk9SRVAyemxYTWdvdXdOMHhJZzJYeHVkcEFlWDdPNHVpdGU0OVI4aXVZTExrRHFhcmFFRmRKSDRjQW1VNDZ1X24ySkhsMUQxVTZxc3I5ZkU5Tk1DZEswekF1U1MydzhnSFRwcWVkZTB0NFJsY214UU9ZUXBkYTJVaFdiU0dVb2JHSGlfbmZsZlFJMFRXQmYzbGRkUjAyQVVMaWo3X0Vz0gHYAUFVX3lxTFBqUmZsVUNuYVU0blhsNUpHQkc2V2V4c1F5QVBSekJRS1pyd1lsQzZWUERydnpUUXJxRU1WY21TZmYzZzZyU2dyTUUybjNBTjRCUDg1M2IyU2xzRFNRZUdROTYxQVNIUGRIYzZUY0dWOWFfOTBxc1VlZ3ZKLVJxLTRzbllUbF9HU3ZEWmtFQmVka2RxM09ubjhOVy1UVWlFaVlWcEFEc29rMHlaclMyUW5wVDNDZ3RJQW12UnNfeGdWanpxa3JJZFRRQXYzRzRwQXloRmVUblN6ZQ?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 06:02:10 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQekFUUUs1SGU0a0ZPVUhUQ0JWaDk4SlRfakhQNDdmVG9DZ05veHJscW5OcE9SQ19zY3V5QUNPWHBjaUpKRTNSaC1tV1ZTMTJhSXZoLTdoUm5RYzFVRW13QVA5ZV9yMkZuaHUzT3FMd0U2MzVlZU9qamIzYnNnZzZvUXMySXJKLUVmVzFnbmQtU056eklGLXFDYmp3TXpQZWRxbVRrMWd1RUNiMnRCcUM4YzVWYWZJVldVWWNkX1NpTmFwaVRvME5fc0FpajFfaktqX09wbTF30gHqAUFVX3lxTFBnUU1lYVgycGRFWG9PWFN2UXFKTXdOMXk3RlNPN0lZS25paC1FV1pXVTJqRE85T2xJV1RvZEtBMDZkT3NjU2trdWFjS0FSWlJzR0xRWVJHOGNXZFhhUnlNWjJ4Vmg2YTAwZ2dDZ3Nya0pDemRfN0l1b2REVWpoYVVIUzk0ZFh5LXpCYmpqZXpzYzMzb1p5WEhwc0Z5cEZfYndBNktZYk45bmE2dlJvR1ZXX2VvV3BMNWxYZ0lMMWRvbHJialBJVEpUdmVDX0RBRW5zcjBpV3pRTDMwWUlVcE1XeWxEdUZPSllRQQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 09:20:13 GMT"
     },
     {
       "title": "Feijóo: \"Estoy convencido de que el rey quiere ir a Ceuta y lo hará cuando el Gobierno autorice ese desplazamiento\"",
@@ -34,6 +26,14 @@
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQmxuYThCY3pxRWdqbkVVeXh0dTgyc3p0UXA4S0tHQU1ReWduWW11dVRpUVN3eXhNZV9Pamt2bG83dVIxeDFNWUJtdktod0JrT19zUmY1b2piallMdjVIZXR6UjF6d1ItV3RBRFE0RG81LWNsMm1hcjhINm03YWtlejBYYjhDa0twa2J3U2R5WHZRSnEtNjlKWW5laG0?oc=5",
       "pubDate": "Sat, 22 Aug 2026 11:18:48 GMT"
+    },
+    {
+      "title": "Las lluvias torrenciales en la Costa Daurada dejan 11 heridos, uno crítico, y unos 400 evacuados",
+      "source": "La Vanguardia",
+      "summary": "Las lluvias torrenciales en la Costa Daurada dejan 11 heridos, uno crítico, y unos 400 evacuados La Vanguardia Una familia que salió por la ventana de su coche atrapado por las lluvias: “Si hubiéramos recibido la alerta, no habríamos ido a ninguna parte” La Va",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdlgyWFFkZS1DX2U3MXBuY1ZPeXhmck0tdG5hRjVIN3AwaGpjSl9oYThsYW54Mk9SRVAyemxYTWdvdXdOMHhJZzJYeHVkcEFlWDdPNHVpdGU0OVI4aXVZTExrRHFhcmFFRmRKSDRjQW1VNDZ1X24ySkhsMUQxVTZxc3I5ZkU5Tk1DZEswekF1U1MydzhnSFRwcWVkZTB0NFJsY214UU9ZUXBkYTJVaFdiU0dVb2JHSGlfbmZsZlFJMFRXQmYzbGRkUjAyQVVMaWo3X0Vz0gHYAUFVX3lxTFBqUmZsVUNuYVU0blhsNUpHQkc2V2V4c1F5QVBSekJRS1pyd1lsQzZWUERydnpUUXJxRU1WY21TZmYzZzZyU2dyTUUybjNBTjRCUDg1M2IyU2xzRFNRZUdROTYxQVNIUGRIYzZUY0dWOWFfOTBxc1VlZ3ZKLVJxLTRzbllUbF9HU3ZEWmtFQmVka2RxM09ubjhOVy1UVWlFaVlWcEFEc29rMHlaclMyUW5wVDNDZ3RJQW12UnNfeGdWanpxa3JJZFRRQXYzRzRwQXloRmVUblN6ZQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 06:02:10 GMT"
     },
     {
       "title": "Marruecos pide a España que devuelva a los migrantes que cruzaron a Ceuta así como a los muertos",
@@ -52,20 +52,20 @@
       "pubDate": "Sat, 22 Aug 2026 12:23:48 GMT"
     },
     {
-      "title": "Los vecinos afectados por el incendio de Las Peñas de Riglos comienzan a recuperar su vida cotidiana",
-      "source": "Aragón Play",
-      "summary": "Los vecinos afectados por el incendio de Las Peñas de Riglos comienzan a recuperar su vida cotidiana Aragón Play Aragón Informativos RTVE.es El ansiado regreso a casa de los últimos desalojados por el incendio de Las Peñas de Riglos: \"Llegamos a darlo todo por",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdXlfLXRzY1JicTBUYk5tVW83NXRGdldyV3V0OFZZYVZ0OW9pbTBDMFd4NU00V0VaYndQUWE4UHp1cXVpelo3dk5QNU1KUWM3LU96TUhlTW1CUTdBSFA0MnBUdGMxYWxxZHZJazhVOVRTV253cmdubmZiOEY4dDhWQm55UUpKem10VlRibTJaaFBTaVJ6TkdrV21rWEt5aVg2dUFHWlZsX2Vpak9oVHJBYnp6NFM3eVdWY0dUMGpFMkVJSkJ3QlE?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 12:31:41 GMT"
-    },
-    {
       "title": "Centenares de antifascistas se concentran en Barcelona para protestar contra la manifestación ultra de Save Europe",
       "source": "elDiario.es",
       "summary": "Centenares de antifascistas se concentran en Barcelona para protestar contra la manifestación ultra de Save Europe elDiario.es El movimiento Save Europe Act pincha en su desembarco en Barcelona para reclamar el cierre de fronteras y remigraciones masivas El Mu",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTBmZkVMZGRNSFh4QWgwcC1jdFQ5ZUMwSC1NWUlFbEt1ekJ0MmxmRTFpQ2ZvU3NwTXNzZlhVV0tVNmN2NnFuTVU1UmRGX29taEhYRTJRc3ZPVTEwdm9rZm14VlQ4c0Jxc2w5bjVET2t2aExOQnQzUzhmcVVGVUI0SFlHMzI3bkltd2MyTllDdDhqbG5ic1JLQkJGUi1Xc2ZTSnNmZGlrbXlWekZmN3FaYXpEaVlmeHFHYkJRTTVlUEh2VW5fWXlpbEZIcFB0eFXSAdQBQVVfeXFMTTdDVFVOR1l3a3FzTnk3UU40NVZWVnlRTmJlOEtPZ3BNVlMwNW96WFNNZjNuM2FnTnRnY285WDNtODREWUREY2Y0dkRUM0xmUER5YnJvdVNmVDdvRWxia1JDaHV2VHBUWDJsWXpKQWs5YTlXMzlOMHFyTEpkUUJPX3BvajNjbjVMNUlwZFRKY2VqTVpyU1JoV1E5TnJ3OGJROHNvcm8wYmdyR2hJQ2xzUm95eXJLZG1YRDdfSHlTQUotMVNlLWZzd3B4eXUzLUg3REc5TUg?oc=5",
       "pubDate": "Sat, 22 Aug 2026 16:03:50 GMT"
+    },
+    {
+      "title": "Los vecinos afectados por el incendio de Las Peñas de Riglos comienzan a recuperar su vida cotidiana",
+      "source": "Aragón Play",
+      "summary": "Los vecinos afectados por el incendio de Las Peñas de Riglos comienzan a recuperar su vida cotidiana Aragón Play Aragón Informativos RTVE.es El ansiado regreso a casa de los últimos desalojados por el incendio de Las Peñas de Riglos: \"Llegamos a darlo todo por",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdXlfLXRzY1JicTBUYk5tVW83NXRGdldyV3V0OFZZYVZ0OW9pbTBDMFd4NU00V0VaYndQUWE4UHp1cXVpelo3dk5QNU1KUWM3LU96TUhlTW1CUTdBSFA0MnBUdGMxYWxxZHZJazhVOVRTV253cmdubmZiOEY4dDhWQm55UUpKem10VlRibTJaaFBTaVJ6TkdrV21rWEt5aVg2dUFHWlZsX2Vpak9oVHJBYnp6NFM3eVdWY0dUMGpFMkVJSkJ3QlE?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 12:31:41 GMT"
     }
   ]
 }
