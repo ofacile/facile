@@ -410,3 +410,37 @@
     }, 1600);
   }
 })();
+
+/* FACILE WEATHER - INTRO PARA BUSCAR CIUDAD V1 */
+(function(){
+  "use strict";
+
+  if (window.__facileWeatherEnterReady) return;
+  window.__facileWeatherEnterReady = true;
+
+  document.addEventListener("keydown", function(event){
+    const input = event.target;
+
+    if (!input || input.id !== "city-input" || event.key !== "Enter") {
+      return;
+    }
+
+    event.preventDefault();
+
+    const city = input.value.trim();
+    if (!city) {
+      input.focus();
+      return;
+    }
+
+    const weatherWidget = input.closest("#weather-widget");
+    const searchButton = weatherWidget
+      ? weatherWidget.querySelector("button")
+      : null;
+
+    if (searchButton && !searchButton.disabled) {
+      searchButton.click();
+    }
+  });
+})();
+
