@@ -1,23 +1,15 @@
 {
-  "updatedAt": "2026-08-24T23:25:59.071978+00:00",
+  "updatedAt": "2026-08-24T23:49:14.686722+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "El Gobierno nombrará este martes un mando único para la gestión de la crisis en Ceuta",
       "source": "RTVE.es",
-      "summary": "El Gobierno nombrará este martes un mando único para la gestión de la crisis en Ceuta RTVE.es El Gobierno justifica la creación de un mando único en Ceuta 25 días después de la avalancha porque \"cada vez tiene más importancia la coordinación\" El Mundo Sánchez",
+      "summary": "El Gobierno nombrará este martes un mando único para la gestión de la crisis en Ceuta RTVE.es El Gobierno justifica la creación de un mando único en Ceuta 25 días después de la avalancha porque \"cada vez tiene más importancia la coordinación\" El Mundo La guerr",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaGh4c2tmNWVhWW9nUUtqZ0hpdzlaZzNfOC1odVVtQ1Ywckx2aGhsdVl6dVc1TGwxcjNHNmc0Z0VGVkc4am9OQUdzQVE4QlpQaHVfbXdjaFlWckp6VFpFbG41MklzbjV5cENSNGJ5bEl3OVduMGdUR2Y2RHlfSkRNd0dqNUdwZjkyRVBvWHJ1czRRSmlIMDJ4MjdYdnNnUzRIRTdzckwyUVFCLTFabFZMUFNDbGIzVjIzUzBHOGtmcFJVRFlP?oc=5",
       "pubDate": "Mon, 24 Aug 2026 13:42:16 GMT"
-    },
-    {
-      "title": "EE.UU. lanza plan 'Paria Económico' para asfixiar a Irán",
-      "source": "DW.com",
-      "summary": "EE.UU. lanza plan 'Paria Económico' para asfixiar a Irán DW.com EEUU amenaza con nuevas sanciones a cualquier país que comercie con Irán, incluido China: \"Es momento de elegir de qué lado están\" El Mundo EE.UU. lanza su plan para aislar a Irán y amenaza a los",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGdFVjRhZkV1aXViNG1icEpDRjMtVVdIZTJVSFZxVWxKenp1aTdUN2xHZjJJMldRRk93RlVPVWh0cVBJWkdpdzMwWW5MVDFkcnlldVlpODF0VXAyc2sxeW5CZnIwNXBpU3hGMzd3TE1zOE1uS2NuSVpGbWZMVkVoMUJBS0hVaVRSLXYxS0ppel9DNko5T1ZaUlE0N3JkMzR6MGVWUUIwSHXSAagBQVVfeXFMTk5lbkdsSEJmNlI3aWdwLU56Z2VkakhEX3Z1N01IR1RyQmhwM2htRlRlV1ZrRHVOZ0dDYTZJQjg5cHFaaXBLQkg2Z2Y0Qk9ERDBXM0w3Ql9TNlk3eU5aX3RuS3Nkcm5VeUR5ZGtuUjA5V0lnNmxHU2FsOU9fTWF4NHQwVnM5VEVZZjJXNGRKZklpVTI2cnZ1bG9vaDFkZlNuRXB1dDhJTUw3?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 18:33:05 GMT"
     },
     {
       "title": "La tromba de agua y piedra complica la circulación en Tarragona y bloquea a los clientes de PortAventura",
@@ -28,28 +20,36 @@
       "pubDate": "Mon, 24 Aug 2026 19:15:25 GMT"
     },
     {
-      "title": "Sanidad y las comunidades acuerdan enviar 45.000 vacunas a Ceuta tras la crisis migratoria",
-      "source": "RTVE.es",
-      "summary": "Sanidad y las comunidades acuerdan enviar 45.000 vacunas a Ceuta tras la crisis migratoria RTVE.es Sanidad solicita a las CCAA ayuda para el envío de 45.000 vacunas a Ceuta: 15.000 dosis de la triple vírica y 10.000 dosis de difteria-tétanos, varicela y polio",
+      "title": "EEUU lanza la operación 'Paria Económico' contra Irán y amenaza a cualquiera que haga negocios con ellos",
+      "source": "elDiario.es",
+      "summary": "EEUU lanza la operación 'Paria Económico' contra Irán y amenaza a cualquiera que haga negocios con ellos elDiario.es EEUU amenaza con nuevas sanciones a cualquier país que comercie con Irán, incluido China: \"Es momento de elegir de qué lado están\" El Mundo EE.",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaHRNaHlDY28xVWlZY2J4eUwyYUlQbWFkeG1BbkowektGNG5IWUczc203ek5wOEZLckk2Rkd0dmF6SlFzMHFiSFNxRmwxZXB1YWM1S3pheWZfQnoyNXdSaWJiQzF6c09ZbTh5dlMxRWo0Z01QaGZQWHlUS1RSTXVVTUhzMV9Oa1FpamhXODBLU1k0T1ZPclYwcXc3WlBvcUtIVWNZWkh0dzhFY1ljNFY2VUlnOGtOY3cz?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 13:05:32 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbnZvSVdXMGl2dmNUNWRpa3lHSFlCcExJUGNlYmd6QjA0MUxDVV9QVnlVZFdkLTVsQ3VPQ3dwWl9xdVpIclA1V19TRWJOazlrUUZweXB1WkpoeXVrSGxremszXzdXMWtDTG1ibDJNeFRWTDNlQ3YtSzBzZFM5SklJTWJoS2VZUlB3Vm9rRU1mRkhxOVZhYXhQeWhtbFdmNTdJemhWejJ3ZjlRYUhucjhYSWYyd2dHWkJ60gG-AUFVX3lxTFBxVEZUUXdjNjVEZVFxVFVGWE94VzFSbHB4STg0ekdNWURoMGRVT2Rmb3laSGZ0T3RvZVVfSF9FMnh4bGszd0FISkxyLVdtTVRpdnBTME9fU1BRdy1XTHUzY3puRWRULUJNT2IxMUp3SFB4clhPWnF1VWJiZlQ5OHpmZlFoY1FzcTVPQjJiaHFrNDc1X2tULXR6VGlLZzlpNFktMS10VDNveDl1d1RrdWtzNFlPUkVlY3k3alpBekE?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 18:48:18 GMT"
     },
     {
-      "title": "Sánchez convoca el Consejo de Seguridad Nacional 26 días después del estallido de la crisis de Ceuta",
+      "title": "Ayuso evita el choque con Feijóo y se niega a hablar de la polémica del ático: “Está a la venta, chao ‘pescao”",
       "source": "EL PAÍS",
-      "summary": "Sánchez convoca el Consejo de Seguridad Nacional 26 días después del estallido de la crisis de Ceuta EL PAÍS Sánchez vuelve con un Consejo de Seguridad Nacional y otro de Ministros tras anunciar Cuerpo que Moncloa asume el mando único ante la crisis de Ceuta L",
+      "summary": "Ayuso evita el choque con Feijóo y se niega a hablar de la polémica del ático: “Está a la venta, chao ‘pescao” EL PAÍS El nivel es este: \"Chao, pescao\" El Mundo El PP oculta quién avisó a Feijóo de la compra de un inmueble por las obras en el despacho de Ayuso",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWTg1VVZ6UV9zd0swa0NQai00YjZEc0cxUFBMREZoV3FxNmRka2l3dU9wQUVobFhwcVRXMGhHc3MwNnFqcG9WcVpKM3dPVlh3bnU2RlV3VklTTHhsekFOanNYc2dKc2MwN0kxb0tJM1I3TlUwYkFubmRZSWhQMDFyMElKd1ZQNEtKSFNwemJ3YmROWWVHR1Rwa2dBN1pjNUVGblZXNDlrcFJLM2tkZ1hzM0szTXh4bjRKY0FwRXpnaS1BZUZtcy1OY3ZDV0l3YVVGclh4QlpySkdmdw?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 13:30:08 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRjBGYmJkdWl4cDFNXzZ6aXU2RGw3YjdFbXhyNXV1aFNXaS11VWlMYmNKWkZkbHZJY1VnLVc4NXVxLTkzTFJCRUswV19reDNqZml0VHFSYTVweERlUzcza2ZpMjdpTzRydmtiZ3Y3SGtONFk4M0ZOMzFVR0FGVzV2LURLX3I0M3ROS2M1ZVVSRmRIdXAtQk1kNFVLOFBoVU50aG5ySjE3R1BveURzeEVQRWpubEUwTGhUYlNLMVo0Qk9BMG41UDJycVFyUUZqbGc4eHkwR1JqdUFadGdkdXY4RGVMZVhtTUJzX2c?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 10:13:56 GMT"
     },
     {
-      "title": "El Gobierno pide la dimisión de Ayuso tras decir Feijóo que sabe desde abril que buscaba sede por las obras en Sol",
+      "title": "La vida en los campamentos habilitados en Ceuta: \"Hemos pasado de atender necesidades básicas a que haya atención sanitaria\"",
       "source": "Cadena SER",
-      "summary": "El Gobierno pide la dimisión de Ayuso tras decir Feijóo que sabe desde abril que buscaba sede por las obras en Sol Cadena SER Ayuso evita el choque con Feijóo y se niega a hablar de la polémica del ático: “Está a la venta, chao ‘pescao” EL PAÍS El nivel es est",
+      "summary": "La vida en los campamentos habilitados en Ceuta: \"Hemos pasado de atender necesidades básicas a que haya atención sanitaria\" Cadena SER El reparto de comida a los inmigrantes en Ceuta: «Cada día sois más y no hay para todos» ABC El Gobierno reconoce que al men",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNV2tIU3pFeGppOTJ0MVZtdkRMMEN6bmlvS1VRWjRjdGREamxiQUtZVWFRaDJmOFJ6RzgxRWE2N2F1YWN4T1NSQWxubzN4bUkyczFZS1U5YjloQ1BkSWJUdDdpMUZkdEZaUVpFeWt2bFRVSktrS3VqX3Z0aXVOUUVUZE9oTmhFa3RMMGRncFdrNThZakVaa1JENzM1OVc0V1E2UEdCcVBSVm1PeEpFSXlkMnYxY1VtMW9PWUFBUW5XMXdodU5zMmVwUHpUZG52c1JCVDZrMUpMb292ZzZpanBwLU0zS1NuMzhKckdVNXB4VnltbTAySDIyYVppd2TSAZACQVVfeXFMT0I4OWs0clUyUmxSYzVDVTh6MW5rWHgxYWI1THVSUU12MWZOM25yTFFJME14bjBZdzdJckl0T3cxeXFrRmFRd09LbWotVkFsN2NvaGdQUkpIRl9IeHFKZmZfNXlCYzYzTWJ4XzlWMUN1MnBDdW1XSllTMUU4RWhaMW9wMWNTN1hwSWhGdUNieEx4Q2hhSWVOWjU2bjRscFJvb08ySFkxc2RITnR5TGQ5SjdBS05JV1lNMlN0Yldoel9LQTNYcFNTWWlqU2lSSWRISEJJSXRna01tMjB4OHlrbTFRWloxc0xobGdmcDRvRkY4RW53VkxtVUFxSWFWdDNURTRabWRBbk03cm5PT1FXd3E?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 09:14:26 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxObktnY1dBeG8tLWJVejR3bXhwa2FmTXZQRVlTeWR2YURaRFpPOTZfekpGam1XeUxCRUYtVXFGd01kTVR0Rk9iTEJrZkhSUUlHQXlOR2ctZHpna3hFM2k2MDVsbnBuVlZmaE1QeFYwb2xHNUx0aVVvT1NYSnhKZV9va1djSVNTTzNLM2Rfcml0WHRITEVoT1JwSU1wMGZEUk1HZFdPVW5Udmt3Vk1uSklxaEhGVzlJbmpoNEdoX1FrT3lVVkFYX3NzaWhmY2Jpc09zVEJUWWNod3k3bXBRREcwMGhibnB2VmxmaG1neERtVWV2TUU1UGtZSlFHYUEtZWRhNEZ4MGNpcjlnekUwOXdicTlqUlktbzVyeWRr0gGvAkFVX3lxTE9JeXNtQUx1Nk45cnBSSHVNZGZjdlJqM2NtYkVuU1gxd01kNjFJUFR4Zm56dVpjakREaTc1YWIzZzJ3VXRKTEFwb2lGSVJrXzFqTEJSZ0JubnZ6Vzd6dnk4cHJMZ2FnV2VTUVprVzBKRnNuNXAtMTZnSHhBZ0dDSllpV3BabFgwZkVxcXpFU0JCRjFXQUhkM19lT1FvampsUU52Z2ZQblVKaEM1UnFJbHBoSnJaci1MVnc0QWN0WUMwQUVWeDhsVUtoVXdMcWdjWUZ1bmRRejR3OVlDanlrN3NLbmlpNlc2elBpSlJqSlU2OU1MQ1REOE94Zm9TZ012MWpUaWdIWURvUWwyNmdiQ1FIUWtESnc2eXYxcndjVnlXdW1ZMWZFcjlfR2k3QjN5NA?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 07:19:35 GMT"
+    },
+    {
+      "title": "Mark Carney, el primer ministro de Canadá que desafía a Trump y acepta pelear en la guerra comercial con EE.UU.",
+      "source": "BBC",
+      "summary": "Mark Carney, el primer ministro de Canadá que desafía a Trump y acepta pelear en la guerra comercial con EE.UU. BBC Trump anuncia aranceles del 50% para vehículos y acero de Canadá desde el 1 de enero de 2027 EL PAÍS Cinco Continentes - La mala relación entre",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjTXlvNGI3TURsYnFjZ2FKLWpUZ3lJQ0s2aFlUQ1EyNjJ3cU5jU2dTdVRGcGNJMU1jTjR0QlZaUXFwRU1IbnJFNmlpNlF6SnV6T3R4VlFDZk1OblHSAWBBVV95cUxOWWZpWGNfWnV6TUJVWElhV2pXbWhpaE13TWR6Z1FzemhQRjdiMmhra2xIZFlnNmVoSGtndGYwQ1JQNzdwZzhlWlNIQndGaGRLZnVka1hidFBTZi1GNjUtUTM?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 19:44:33 GMT"
     },
     {
       "title": "Feijóo eleva el tono y pide a Sánchez decretar el confinamiento en Ceuta por “riesgo sanitario” de sarna y tuberculosis",
@@ -60,12 +60,12 @@
       "pubDate": "Mon, 24 Aug 2026 08:41:49 GMT"
     },
     {
-      "title": "Ceuta y Melilla, en directo | Última hora de la crisis migratoria en Ceuta",
-      "source": "El Periódico",
-      "summary": "Ceuta y Melilla, en directo | Última hora de la crisis migratoria en Ceuta El Periódico El Gobierno urge al Poder Judicial a tramitar los refuerzos para Ceuta: “El Ministerio tiene todo preparado” EL PAÍS Bolaños mete prisa al CGPJ y le dice cómo resolver la c",
+      "title": "Sanidad pide a las autonomías 45.000 vacunas para Ceuta ante la ausencia de una reserva estratégica",
+      "source": "ABC",
+      "summary": "Sanidad pide a las autonomías 45.000 vacunas para Ceuta ante la ausencia de una reserva estratégica ABC Sanidad solicita a las CCAA ayuda para el envío de 45.000 vacunas a Ceuta: 15.000 dosis de la triple vírica y 10.000 dosis de difteria-tétanos, varicela y p",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTFgxUWU3TmI2MlZnZ09rVnBOR1ZMUG9EbXZxTEdsUkpUc2w2YUdWRFVmWnFRUUVSSG5xNkxWSXktSnFWMjVMZV9qMTkzSDVTdG1CWFI4S0JWMy0xT0VzRmV0UGxWZm54QnFWOEpCekgxZDJEWk03UjNhN0NzZVFSbHJEQklFUWphRm1FU2dETm5ZSkZhNGhBNEpOelpueGtGaUZ0X3VDQWptdEnSAasBQVVfeXFMTzc5WjB2ZjZ1QllrUjEwaUtPOTJiMDhaRjNXRXVDdGhPems0TGlORnNPTUNjWGRpa3U5ZDZ2dTl0ZVBVbHlNek5CODN5ejVPRU1HMFdBT2V4b1c0NW5xZ213U2F2cWlTdTV4WGdVcWdna3BvRk5DZ1A5eWtkcEllWUd3NzA0QzA5LUc2M1dNaGYzMm1jSGtwQmZSOGpMOFo3NWRCcmxqbUFabUtz?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 18:41:14 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaHpWTkRBMUF1ZVoxTnJJc0FYb3JaelRRNF93VmdBWTZPcXNhTnFFekhPWEVtUXBlM0J0MUN2LUZtb01iNEwtLW5GdWMxa092S2pkZmdIUC1CejhKZ3lvS3ZqdVlSdUhYZnBHTzJTVXVaX1BQZ1dpLVFUNmpDMGxQcE9janp6bTUyWVdRV2ZPNUlFZTI5Q0F6OXREeFhUcXNFeGtZOVo5Y03SAa4BQVVfeXFMTjB6VkFvRi1zNjhBVFhOUDY2UDhIWTh1RXVONEVIMWRKZThLTzlJdWhMNXY5c1Jod0dTR0h0czA1WXl5aThMUWhpSW9iLVhiMFhXamZNajVkbUVyZmNUdUdtSk5EU19wYkZTaTJ6XzRvRmtGSDdweUc5OEpxV05POUcyM002TDl1WTdBSU9VbFQ1VFBabmVlbXBOdkJEN0NDc0JsVXE3TzVNSmFzcUt3?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 12:47:00 GMT"
     }
   ]
 }
