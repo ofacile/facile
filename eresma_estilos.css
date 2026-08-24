@@ -6669,3 +6669,63 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     height: 17px !important;
   }
 }
+
+/* FACILE TIEMPO - INTRO + ANIMACION BUSCAR V1 */
+#weather-widget button{
+  transform-origin: center center !important;
+  will-change: auto !important;
+  transition:
+    transform 130ms ease,
+    filter 130ms ease,
+    box-shadow 150ms ease,
+    background-color 150ms ease !important;
+}
+
+#weather-widget button:hover,
+#weather-widget button:focus-visible{
+  outline: none !important;
+  transform: translateY(-1px) scale(1.025) !important;
+  filter: brightness(1.06) saturate(1.04) !important;
+  box-shadow:
+    0 7px 16px rgba(0,0,0,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.22) !important;
+}
+
+#weather-widget button:active{
+  transform: translateY(1px) scale(0.98) !important;
+  filter: brightness(0.98) !important;
+  box-shadow:
+    0 3px 8px rgba(0,0,0,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.16) !important;
+}
+
+@media only screen and (max-width: 767px){
+  #weather-widget button{
+    transition:
+      transform 90ms ease,
+      filter 90ms linear,
+      box-shadow 100ms linear !important;
+  }
+
+  #weather-widget button:hover,
+  #weather-widget button:focus-visible{
+    transform: none !important;
+  }
+
+  #weather-widget button:active{
+    transform: scale(0.98) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  #weather-widget button{
+    transition-duration: 0.01ms !important;
+  }
+
+  #weather-widget button:hover,
+  #weather-widget button:focus-visible,
+  #weather-widget button:active{
+    transform: none !important;
+  }
+}
+
