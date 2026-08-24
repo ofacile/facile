@@ -1,28 +1,36 @@
 {
-  "updatedAt": "2026-08-24T19:33:29.605444+00:00",
+  "updatedAt": "2026-08-24T20:35:41.729294+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "El Gobierno nombrará este martes un mando único para la gestión de la crisis en Ceuta",
       "source": "RTVE.es",
-      "summary": "El Gobierno nombrará este martes un mando único para la gestión de la crisis en Ceuta RTVE.es El Gobierno justifica la creación de un mando único en Ceuta 25 días después de la avalancha porque \"cada vez tiene más importancia la coordinación\" El Mundo Sánchez",
+      "summary": "El Gobierno nombrará este martes un mando único para la gestión de la crisis en Ceuta RTVE.es Sánchez acepta casi un mes después crear un mando único para la crisis de Ceuta dirigido por Ángel Víctor Torres EL PAÍS Sánchez acepta un mando único en Ceuta casi u",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaGh4c2tmNWVhWW9nUUtqZ0hpdzlaZzNfOC1odVVtQ1Ywckx2aGhsdVl6dVc1TGwxcjNHNmc0Z0VGVkc4am9OQUdzQVE4QlpQaHVfbXdjaFlWckp6VFpFbG41MklzbjV5cENSNGJ5bEl3OVduMGdUR2Y2RHlfSkRNd0dqNUdwZjkyRVBvWHJ1czRRSmlIMDJ4MjdYdnNnUzRIRTdzckwyUVFCLTFabFZMUFNDbGIzVjIzUzBHOGtmcFJVRFlP?oc=5",
       "pubDate": "Mon, 24 Aug 2026 13:42:16 GMT"
     },
     {
-      "title": "Un fuerte temporal de lluvia y granizo causa inundaciones en Tarragona",
-      "source": "RTVE.es",
-      "summary": "Un fuerte temporal de lluvia y granizo causa inundaciones en Tarragona RTVE.es Una fuerte tormenta con granizo deja calles inundadas en Tarragona La Vanguardia La lluvia y el fuerte viento causan pequeñas inundaciones en Cataluña ABC Un diluvio de agua, piedra",
+      "title": "EE.UU. lanza plan 'Paria Económico' para asfixiar a Irán",
+      "source": "dw.com",
+      "summary": "EE.UU. lanza plan 'Paria Económico' para asfixiar a Irán dw.com EEUU amenaza con nuevas sanciones a cualquier país que comercie con Irán, incluido China: \"Es momento de elegir de qué lado están\" El Mundo Washington amenaza con sancionar a los sectores económic",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc3pSZHB2YmE2WGlUb24wQWdTbm40V3pRTEV2YU0xNDI0Sy1pRV8zUnZuaFlQOGZnOHJDZ010QVZXSE56VWd5R1E4NW5La3ZTZUlLTmd0bTRKeVRtNkFQcEluSGl5VEtHNWM4TTBqa2FQNHcySjZJaW1Ta3k3M190VmdDaG5tVGNDRy1aaDViM0hQUkJ3ZzZjMW1zRGtaQjJqZkkwNFBnWTd3cHN1YWVKb1ln?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 18:27:50 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGdFVjRhZkV1aXViNG1icEpDRjMtVVdIZTJVSFZxVWxKenp1aTdUN2xHZjJJMldRRk93RlVPVWh0cVBJWkdpdzMwWW5MVDFkcnlldVlpODF0VXAyc2sxeW5CZnIwNXBpU3hGMzd3TE1zOE1uS2NuSVpGbWZMVkVoMUJBS0hVaVRSLXYxS0ppel9DNko5T1ZaUlE0N3JkMzR6MGVWUUIwSHXSAagBQVVfeXFMTk5lbkdsSEJmNlI3aWdwLU56Z2VkakhEX3Z1N01IR1RyQmhwM2htRlRlV1ZrRHVOZ0dDYTZJQjg5cHFaaXBLQkg2Z2Y0Qk9ERDBXM0w3Ql9TNlk3eU5aX3RuS3Nkcm5VeUR5ZGtuUjA5V0lnNmxHU2FsOU9fTWF4NHQwVnM5VEVZZjJXNGRKZklpVTI2cnZ1bG9vaDFkZlNuRXB1dDhJTUw3?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 18:33:05 GMT"
+    },
+    {
+      "title": "Un diluvio de agua, piedra y viento fuerte arrasa a su paso por Tarragona",
+      "source": "Diari de Tarragona",
+      "summary": "Un diluvio de agua, piedra y viento fuerte arrasa a su paso por Tarragona Diari de Tarragona Una fuerte tormenta con granizo deja calles inundadas en Tarragona La Vanguardia Un centenar de palomas aparecen muertas en el Port de Tarragona a causa del temporal E",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjBiM3RnbWxWd1VSTUhVclRJRnQza0NCdW9qczl1UjJjUEZSSmlHbjBXSkptaUQ4Ulh5TFJuczdaWVA5b1lnOU9pTF9OUUdFV3c4YjlRV01XV3VoUDhZaXRqTzVka2dJMzg4cXpxZ2hPU1VBZy1qYzhjRTdVdnk5OGtycTM0Z0VFMlI3QUZBNVU4OEVXQlEteFFCemtJVGowcUdoRnNBUkNJdVZrLTR30gG0AUFVX3lxTE9mWk92QXdBZkp3cURfNzJZWnh1RXFNdlkzQ0xuUGtadkJUZlAyMmliWXZpRGoxSHVIem1PckxUT2RhbEpjNjJ4c3pJWWNraWhUT1E1Yk00VW16SlFqSldZdzFHYW9FMkptYThhcjFob1VmaG5SdGk0VzQ2Q0JOeFFxdzlNZkdldVdWSi1rWFpDZFBkM0ZiR3lLRzh4RGJnYTFydmxTUWJrY2ZVTW9GU1FxY3o0Yg?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 16:23:22 GMT"
     },
     {
       "title": "Sánchez convoca el Consejo de Seguridad Nacional 26 días después del estallido de la crisis de Ceuta",
       "source": "EL PAÍS",
-      "summary": "Sánchez convoca el Consejo de Seguridad Nacional 26 días después del estallido de la crisis de Ceuta EL PAÍS Ver más titulares y perspectivas en Google News",
+      "summary": "Sánchez convoca el Consejo de Seguridad Nacional 26 días después del estallido de la crisis de Ceuta EL PAÍS Sánchez convoca el Consejo de Seguridad Nacional 26 días después del \"ataque a la integridad territorial\" en Ceuta El Mundo Sánchez convoca el Consejo",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWTg1VVZ6UV9zd0swa0NQai00YjZEc0cxUFBMREZoV3FxNmRka2l3dU9wQUVobFhwcVRXMGhHc3MwNnFqcG9WcVpKM3dPVlh3bnU2RlV3VklTTHhsekFOanNYc2dKc2MwN0kxb0tJM1I3TlUwYkFubmRZSWhQMDFyMElKd1ZQNEtKSFNwemJ3YmROWWVHR1Rwa2dBN1pjNUVGblZXNDlrcFJLM2tkZ1hzM0szTXh4bjRKY0FwRXpnaS1BZUZtcy1OY3ZDV0l3YVVGclh4QlpySkdmdw?oc=5",
       "pubDate": "Mon, 24 Aug 2026 13:30:08 GMT"
@@ -36,20 +44,12 @@
       "pubDate": "Mon, 24 Aug 2026 13:05:32 GMT"
     },
     {
-      "title": "Claves del nuevo curso político que abre con la crisis en Ceuta en un año marcado por las elecciones generales",
-      "source": "RTVE.es",
-      "summary": "Claves del nuevo curso político que abre con la crisis en Ceuta en un año marcado por las elecciones generales RTVE.es La gresca política por la gestión del colapso de Ceuta marca el inicio del curso parlamentario elcorreo.com El Gobierno lleva a siete ministr",
+      "title": "Última hora de la actualidad política, en directo",
+      "source": "elDiario.es",
+      "summary": "Última hora de la actualidad política, en directo elDiario.es Interior y Defensa mantienen antes de ir al Congreso el pulso en torno a si hubo alerta previa sobre Ceuta El Periódico La crisis sin resolver de Ceuta aterriza en un Congreso que calienta para elec",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR2gxeXVGU1FxOVFoWTUwUEcwZFFkR0k1X3M4RmFyaVFkS2J6TmczUlB4WERYUkw0bEhEbWpVSW5LcEhYVVZnNFVVd0xKWl9jSzBENlV3ZUlmZVVVaC0tM19EY0NEVHFiZ2I4Y2tpWko4RFRaRDIwaVR5TU44eTRuWGdsMjRaRm9wSGltOHB2U0xaY09PbEE1SVZ3Yk9LSF9jU0E?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 05:07:49 GMT"
-    },
-    {
-      "title": "\"Está en venta, chao pescao\": Ayuso, tras la petición de explicaciones de Feijóo por el ático comprado por la Comunidad de Madrid",
-      "source": "Cadena SER",
-      "summary": "\"Está en venta, chao pescao\": Ayuso, tras la petición de explicaciones de Feijóo por el ático comprado por la Comunidad de Madrid Cadena SER Ayuso evita el choque con Feijóo y se niega a hablar de la polémica del ático: “Está a la venta, chao ‘pescao” EL PAÍS",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZWtXSWlSVTlRcUU0SUY0cEE2NkhrLWhiMUkzY1dlVE56cjR5LUhURV9QWldSSklfUUs0WEJLLXpydi0yNG1hT2MwMXF0dkc1ZVlsQXktQkdDVmJVSGlxTjRZbGt3OGVPeEd6YnFWMUJ2SjFDYUdzZkpVV3IwdTVycFIzYkFiR2JIc1UxYU1pSmZHYVNpdXJFNmxKOVV0dUlpOEljeW1PbjVxX0xJcjdRTzJKX2VLZndCVXlXeS1Vd1QtU21aQ1ljQUM1MzBaT3lYbjQ0X1RoazMwQmR2WWhJVk13MEFzU2c3NDRia2Y5Z0d6bUdnS05iRFdFU3ZDRHdRUnRfSWFoTE1JUkXSAZ8CQVVfeXFMTThZNHkxc1RGaV9lMzZESFQzbGdFREZuTlJXMUxWTUhWTFFxcGZHNE15WXotdlJlX3dNZkRSUTBqQWdqa0ViQndwRWNuY1hoZDJ4elpoRVVQQlNLaFNOZHhuRElqVS1RWkZhUFBuazhjdnA0aHNQN05jLVRCOHBKSHpLb05SUXBYV0NDOGUzeFlSSjBUQngzVU1hcmE2ZEpHa3JrWVNyUXE2cXhlZnFEVDZGd2NkSTNYOE1qd3dMbENjX2lVcGcxSkxSWkZZeXlCY2h4Yk44eWVaUkEyXzIzRGlBQVBZd2RCVkl1Mmx2WTIxeDN3NzVxbTVrRmpvZmhzb3lwRDZaRDZOWmE4blF5Tm9IaGQxVjJNZkhSVTZiTEk?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 11:11:37 GMT"
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcW0wMTdzYkEzQXpfSHI1d0hlT1U1bHoxZFpiODVoeDQ3dlE5NzBScVpkbWJpV0RBZnhDWUltTU02UmQ3UHlVRjByMzNxTUc3eUQ2SFAzWHlocFkyQVZVcGhDYlRvTlpfMFpLN0d0VWExdjd5MFBnS0IxdGdUdndIQWhtMmdHdnl2ZXpOYnAxNXcyUdIBlwFBVV95cUxOZ2Znc1ltTzh0RUxhUlJ0Q2JmdTJGekpLcERIeFl0cWo1TFpOdzVSTk9LQi1reGtmQkN2UUhhUGhEWXh3bEFmazRRV2ZGTEd6VGo3aFpWeWd3c29OdUhvclZTeS1HSWhwaFRSV0JNSFFCcEVJWkdfTEFrOVBWbDZuNEE0SVJDRjI4YjlOcnRhS1NQeElna0J3?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 18:17:59 GMT"
     },
     {
       "title": "Feijóo eleva el tono y pide a Sánchez decretar el confinamiento en Ceuta por “riesgo sanitario” de sarna y tuberculosis",
@@ -60,12 +60,12 @@
       "pubDate": "Mon, 24 Aug 2026 08:41:49 GMT"
     },
     {
-      "title": "«Sorpresa» en el Ejecutivo canario tras la marcha de Pedro Sánchez del archipiélago sin reunirse con Clavijo",
-      "source": "Canarias7",
-      "summary": "«Sorpresa» en el Ejecutivo canario tras la marcha de Pedro Sánchez del archipiélago sin reunirse con Clavijo Canarias7 La conmoción recorre al PSOE por su inacción en Ceuta: \"Sánchez ha hecho agua; es una imagen de fin de ciclo\" El Mundo Canarias valora como «",
+      "title": "Ayuso da por zanjada la polémica del ático con su \"chao, pescao\" y deja un PP dividido entre la satisfacción y la petición de Feijóo para que dé explicaciones",
+      "source": "LaSexta",
+      "summary": "Ayuso da por zanjada la polémica del ático con su \"chao, pescao\" y deja un PP dividido entre la satisfacción y la petición de Feijóo para que dé explicaciones LaSexta Ayuso evita el choque con Feijóo y se niega a hablar de la polémica del ático: “Está a la ven",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTnBQZXBxNExLZDdCWmhEUHZXSW9kSmd2UmNvN1lGbFNybDlySWYwdlFSTGxIY1RWeGN5ZWIyM3dzSHR4TFpLMUZvWFVkNGhwMjhYZE9qbHFjUXdKbkhfM2lfdTR0NlBJQkd0ZTVtSFVzTVkxRWV5RDlLb28wZC01VERsVWxOeWNyblp0cDQ5RmtkeS1MUS1vR0dwdjZYOEQ3dy1QZGt2aWFJY01SWmfSAbMBQVVfeXFMT094c2szeS1yam0xQ1lLTkp5V21qTllfUm14cDA5VUE3aDRZWjFHaTd5TTc5Rlp5eV9KOUEyS2RpaWdjS2s4RFNiUHk2bXg1a3o1NEYwckFFQ1VncmlNSC11YXFPeXNyRlRXUTN6amJpa3lhZ2ZCTHlaTUxBQWpZRFkwNXFxVUZWbVRqTk9STktOQjJNRnprNmFUeTdwa2dXS1pnNFZMdHZvUVMzOUMyaHdnS00?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 12:47:49 GMT"
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQQ3kwa1BhUGNpWlJldmdqcnBVN1FMeTc4UG9MeW9jbksybDI4dC1feEdGaEtrNHpRQVFuNWxJbTVQSkV6WHl0SFNLWk5mTUVXbW5pWHBIWDhIWVViS2drZjNkenlKQTR4c0tqZWw2SVZzX3FrZ0VDcXBGUTUzYTBUWnM2aWNiOHRBS2NlOGU0YUNjNFJkSF9UTnhQV3lkMjV5UWcwMnJXTUw0WTgzaHc4cE9KendqZ185S0RaLXV1LXJYV2tBeUZlOURubFE5QkdXS0R0TXcyZzROUHNMZ3B5eTdHbXp1U01rV281d2JMeFZ1UHBjc2dhUkNpVnVJS0xXMmtod1Y5S2VDSEZncVHSAY4CQVVfeXFMUHdFUmVkZ09ucWIzUEdTQ0JxTjRfVXNjTFBYSkxFbXV0LVlNdGVfMUg0YWdKS3NVcGZHVUtHS3l4blQ2LS1jLW9GWEd3aGNWOFJFVUpyMDJtcUJKMUk1OUM0WmRYTlVGNDNNdENNVFhoZ25JNkxZb0lhR3NOZ3MyZlo1QjZUMEN4cFBnM1VBRU5SU25zNmtlZWZTX2ZCVjF5Wm1BZjd5T2dLU1ktQTJubS1IYmV5cXNnUW4yVDh5RzU2clp6ZUMyY0NJQlhyMWF4bXlBaGlMejBGMTAzejNkeXV0WGJVRXN2Y1NzbDlpcUJrWjNXbGFiWXdmZV9JclI1MmJ1UkptYUhSaW9UdmV3?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 19:08:30 GMT"
     }
   ]
 }
