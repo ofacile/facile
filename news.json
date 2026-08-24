@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T03:08:06.871262+00:00",
+  "updatedAt": "2026-08-24T04:22:04.641295+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
@@ -28,14 +28,6 @@
       "pubDate": "Sun, 23 Aug 2026 22:05:16 GMT"
     },
     {
-      "title": "Barcelona inicia la defensa del título de La Liga con goleada 5-0 en Elche",
-      "source": "AP News",
-      "summary": "Barcelona inicia la defensa del título de La Liga con goleada 5-0 en Elche AP News Sin nueve y a lo loco Diario AS El Barcelona se pone 'morado' MARCA El Barça estrena la Liga sin 9 pero con una cómoda goleada al Elche gracias a Raphinha y Fermín El Mundo Raph",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMWMzd21SYms0bXBoQTJpSFdGR21QSExPcjFzdzR5Nm1HaU1pQ2NyVG1VSUQ0eUVJeUJqLTk1RG1kaVZMQWRYYUMyZFI0b0kwLVZKYmVuTXh0RERZRU1wQmtJUEFjeUNfWHkzOW1WT2hSQXI0SG5LSzVZbTk1eWxOdHpZTk05NUIzVU9ORmQ2NThDR2JSOXc?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 23:49:00 GMT"
-    },
-    {
       "title": "Once heridos, una menor crítica, y 400 desalojados en un camping y una discoteca de Tarragona por las lluvias",
       "source": "heraldo.es",
       "summary": "Once heridos, una menor crítica, y 400 desalojados en un camping y una discoteca de Tarragona por las lluvias heraldo.es Alcaldes de la Costa Daurada piden reformar la vía del tren para evitar nuevas inundaciones La Vanguardia Tiempo en Catalunya hoy lunes: vu",
@@ -46,26 +38,34 @@
     {
       "title": "El Metropolitano no perdona a Julián Alvarez: pitada histórica al argentino en su regreso con el Atleti",
       "source": "Cadena SER",
-      "summary": "El Metropolitano no perdona a Julián Alvarez: pitada histórica al argentino en su regreso con el Atleti Cadena SER Que alguien arregle esto MARCA Julián Alvarez, objetivo de los memes de la jornada Diario AS Una solución para Julián Álvarez, alejado por el Atl",
+      "summary": "El Metropolitano no perdona a Julián Alvarez: pitada histórica al argentino en su regreso con el Atleti Cadena SER Que alguien arregle esto MARCA Una solución para Julián Álvarez, alejado por el Atlético de la cólera del Metropolitano: \"Necesitamos tener delan",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRFpSOEhDQnRuYlQ1UUtDSzJkb3M2TldKclV5Si1mVUROc2xtakpZdUx3VDJUUlh3NVZ4X1RzcnNpaFZSVGo2dXF6Wko0bmRyc1RrdzBTU1VZNnJXS3FCak9PeEJoZVk0Sjhnd2dmeHJpWXVaSEpkZDVnX3RLdDVmNk51b0J1c2tqSWJBZTE5YjE5YmVtczVybTlrNExDa3RJcXZyNGlJTFk5UG84cE9LRDRqbms4anU2QUQ2VTNWOHdhV0tjQzM5OVp0N0NPZGQ1cUVWR01XZDJrR3BPRWtfQmpiSmo4RFkyWXZKctIBgAJBVV95cUxQQTY1RDBtQUxZVlg3ZjhVRHJOSjhIN1JyVEhWNHpZT3I1dUFGN1kzTXhEaXhxYXJrRkZMdTlrQWxvQVI1VVBQU015Z2l6M2ZCbHF6X1BCTjd3cHM0ak9YVk81WjFwcmhSbThHWlp3Q2xjWlVrM21NV3ZwYVFBbUliQzl1MFZVSzVfeGswYnlSN3h5aVBRVE42Y0pSMElSbUsxLXB0ZmNvY3k2eUtib3ppdW5MLURDbGltaGwzSWhYTFNUcGxsdlVhZThOSmlFMTZDR3hFdmIyWlhvSmc2Zndka3hFOXhRYnV4dzZWVm1pT2pfc1RoSkFSNEZaSUxtOERl?oc=5",
       "pubDate": "Sun, 23 Aug 2026 19:06:17 GMT"
     },
     {
-      "title": "El PP eleva el tono para pedir una \"deportación masiva en Ceuta\": de mantener una postura de Estado a un discurso agresivo",
-      "source": "LaSexta",
-      "summary": "El PP eleva el tono para pedir una \"deportación masiva en Ceuta\": de mantener una postura de Estado a un discurso agresivo LaSexta La crisis de Ceuta \"voxiza\" al PP: de postulados sacados de la ultraderecha a propuestas imposibles de cumplir LaSexta PP y Vox a",
+      "title": "Marruecos vincula la aceptación de los cadáveres de Ceuta a la devolución de 2.500 menores huidos en la crisis migratoria",
+      "source": "EL PAÍS",
+      "summary": "Marruecos vincula la aceptación de los cadáveres de Ceuta a la devolución de 2.500 menores huidos en la crisis migratoria EL PAÍS Un gran Marruecos con Ceuta y Melilla, el anhelo expansionista reactivado con la crisis migratoria La Voz de Galicia Marruecos pid",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTklQNjFrdVN3WFdOWS15bzZ3djB6a09hVXhfbUh1QUdZWmlrVlg5NXlmbmFiRncwdi1jSkl4djN6dkJlRkExTlRVTVZVOXNjQl9qekFDOHB6NjFudWl3YmRJam1SM0Q5LUtpT1BNNTMzSVRiUnRlQmdJUjRLZGJ6YmJWSW4wMTYtVWFWUS00TmxKYkZYRF9BRnp2QmRFODl4RFZxc1UzMEdNaHpPbW80ek1wU1loOXJiTDRhZlFjQWlHS0N4dzVSa2RBLWpCNlR5dFpOQ1l1ZUV5MGxaZDhZcDJZelFKZjVyTGpGR2xfaFpQb2Y0OUHSAfYBQVVfeXFMUF9XUDJxb1hNR0Jwck5QYWNHcDN3a3FpSF9fcllQZ0QxZXZWWWpDZm5wY0NwWk92dE0ydktnZjZWUHRTdXRhbFlLQVBoajFtN2FUUzk5T2JiV2U0aDdRZko5YWRDM3JYRXlEc2wxYUVCT3V5dFFOX3lvTF9ZelRDV3VxZF82ZDEtZzloa045VjFfREs0VENKaml1YzhCZkVwQVo0R3pqZFBhZlh4aFBrQTZiYV9jNTJjSGJlakpzc0lsUk9pRzZjZG5CSW1tRE5pUVJKM096dTQxM3h6dVJjdTJ0R0NJR09OR29KeWplb1lKQTJTaGJR?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 16:14:37 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQk5pb0x3SlRNaGpCYWkxNTRCRGlvZGg4aDNRaE9MU2ptX0R1R1FNTHhRNGpVWmlwOGVCTF9ta2N2YTRJLWZFMlZLLXdNWGFBbGhVWlJwcVloZWVTcmYtMVh3LTdaMktfallwZU43VHhCRFRSQ3hzTDUyNGFDVUVfSnJxQ29hVGVmNTlkMFpud2kzMGZ4aVl2SUVsSlZMSE0yR0xpbHM5NmZCUjk2LWZ0a3UwcjRDNUc1QjlMM3ktX0xOQ3hIVjd0ZW91bGNmU0VtcTZRUXJjTFpLVlhSTks3bHNBWkx6X1kwdEhybWJfTDUzT3Fx0gGIAkFVX3lxTFBITTZmMjFOWC10NTRESjBocGlBcGNhR1hHLUJoSzFyY1NvSk5HUFM5MkhDS2NIR2JlTjVTb2syVEVnbjhHUDRWMGpqSlgtZDFzYTdrbXkwQ09YcF9sdTBMeUs2b0ZXanVGakl4djBITHZDQThYWkNuSVVRcWZaSnlwWDRlQzlaU2FpbFY3MnI3ajFaQkhZdnhRbWxjX3lNV0gyRndVM3JhVVc2VU5EdmZ5dER4ekJNdGZZZUxZNzJqbzdjOUw5OUNFSm0yV01vQnZ0a2NWeWhXczRRbmgzXzhuTTBDMkhhb1hPWUQxNmJZQnM5OE96aW5fQ0k4UDlJQTNERVNudTh5Rg?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 20:20:40 GMT"
     },
     {
-      "title": "Óscar Puente no descarta suceder a Pedro Sánchez, pero deja claro que el presidente es el \"mejor líder\": \"Es el Jordan del PSOE\"",
-      "source": "Onda Cero",
-      "summary": "Óscar Puente no descarta suceder a Pedro Sánchez, pero deja claro que el presidente es el \"mejor líder\": \"Es el Jordan del PSOE\" Onda Cero Óscar Puente no descarta liderar el PSOE cuando Sánchez lo deje y sitúa el relevo al final de la próxima legislatura El M",
+      "title": "Ocho ministros para explicar la crisis migratoria de Ceuta: el calendario de comparecencias en el Congreso",
+      "source": "LaSexta",
+      "summary": "Ocho ministros para explicar la crisis migratoria de Ceuta: el calendario de comparecencias en el Congreso LaSexta La crisis sin resolver de Ceuta aterriza en un Congreso que calienta para elecciones EL PAÍS Las 10 preguntas que deberían responder los ministro",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNLXJ2WTljQzRReU5abTNCM0d3WVhHQlMyc2NZNXFnOVcxMDhyMmd1TVRwbzN4SFJNbHk4UjEzdlk4WjhDYVpCU1ZJZE56c0FkbUkwWU5ZYUw5QURkWkxYVTRPSEhzUzMtd0VsdlNsSUxCaDNFWng5aTZxRU5uWnhFZWVTbXd6STBKWjlPNU9zdlJJY0dTMEMtdl9CS2ZjWWhqSHFFMnhMb2xBUGluYks0Y25BZWFXLXZjeUZTZ2R2LWdKMjFuUVl4WVZiTFZuSjk1QjZYakxTOC05R0FFY0F5ZkFDei1MWC1mOTZWRDFQeERlNGRkeFZWeTlLM1FVX2NvYTZUaU9KSdIBhwJBVV95cUxOa0cweGtEYi1uZUR6NVhuTnotSy1zMTQwX3p5NkIwSUc0aWUtV3djRjQ2U0wyVWRRZGZtNVVCaE5DcHlnNGlJaDhOMllPZVh5RFkwNEpfbkZ4SFJKVGZqV0JERFM2OWZQdklBMklPeEdqbmNtOTdZLUFiV1huQWdLTnRRSlVsWGh4TS0wUVdua1NGVHlsM1R3WGNfdWwyckk5UUdtNnNSZXQwUy1SMUhuTDdTT2lyYzRvZGhyMjdaWWtGZ1UzWGwyaGNsR3EyRUNLMUN2bDdxSWtYb2pFRzY2dEF3Z3dHYlVaS2xqLWM5d1E5ZjNpaFNpODRWZTdhSGFKTmE4Q256UQ?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 14:29:05 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTmwyckRSVm9hY2JOb3VsRmFQeF9SWGxGMDN4WXJqbTBDbVQzZnZfNUM5ODF2MlZ2LVdKVlRxUGloNEJLNndrRExILXlObDRxTFZteGx1ZU1fZURnaXR0b1VkTy00Nm95QjZTYXVSVmFBVDlQM1dCaWdiS21SdVJ2cWI2bjBjMTlhUldLSDk2WURIdC14dXI3VmJUQkEtVDJfRTB3ak5LYXctYndlS1BzeU51REo3eDBLWHFyQVlPMGdYS2lTMUxEbkppcDNTbFlkemZMQlhKMGo5cUc2SlpPalFkMGxTR3U3VFJ3QkQ3M3VaZUdQ0gH0AUFVX3lxTE5IbkxBZGIzR1EzTWRBZGZseXAyTVhTbkJQSC03QWRicFBJNTFCOHd1NktoWkJwdzFVVGFiRU5DWmJfNVlFZTFMd210VG43eFBoT1FBY3cxc3FJamdPU1JkR0tBR2szbzdUQmR5TTFlRzUxRUJCVnVKcFpIUG9ETmtRN1lIWElLSWdIdGF5Mml1em11bWxOMktBeWFFenVjZEMxMzhxVjIzNFVISGJMRTdza3dIczdOSzAyNm82ektOMWcxM0F3WjQya2xiNFdoTHQ2cXhDckFwd3I2UnEwcHAtUDVQQzJCblhRdnFpUV9Fd1R3dHk?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 15:52:36 GMT"
+    },
+    {
+      "title": "La Fiscalía redobla su ofensiva contra los narcos del mar para acusarlos también de piratería",
+      "source": "EL PAÍS",
+      "summary": "La Fiscalía redobla su ofensiva contra los narcos del mar para acusarlos también de piratería EL PAÍS",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObFBaY1ZBQ1o2cVdUMFlSTGVZazJwYkc0NWwxVmFkXzNwRlpVTFlqUEZDVGwtbnp5LUltLUJFLTdQcFA0MWdYazlCZGZzYjNya2RrM2RKLUpmTHdNcEVLUENiUFBZaGZVN0huZnZXaXQ4WUUzSTRKVmFtR21Ta25Hc0JhMThYdVB5VnVSLVZ2U003UXNEOUNCbW5LM1dLenlPUTloTUpxR2JfcTlVVklQYm9aMnZUbGpwSTV5a3c1dVl4OS1VVWpicXRxTWhZTFhn0gHkAUFVX3lxTFBkaDlXQ2Fob2hlc0RocWxjNVZKdGVSMWV0XzZYVWRyOVk3UW5uQUM1NXd0ZG5oak82N0pqcEZmdVRjRXhRYjFUMFRlRlB5VEhNUlRiT3loN0VjWnl0SkJObzhfSkE2RWNLcWZjeG5lb2xKTGRIYWdmX3JPbWRjMU9XMFg5bWxlV3hxWUtRaXhranRHMGRPZnZlbGlpYWpUQVZUUU0tZlJmTEItRVI1cGROczZERmVub3dnZTdjNTdDeFNlLXdLOExESExoZ3FvTUR2WGJpM2stQjIxckdVTEpxMnYzQg?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 03:45:01 GMT"
     }
   ]
 }
