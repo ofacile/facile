@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T01:40:28.935684+00:00",
+  "updatedAt": "2026-08-24T03:08:06.871262+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
@@ -20,22 +20,6 @@
       "pubDate": "Sun, 23 Aug 2026 18:52:06 GMT"
     },
     {
-      "title": "Ceuta, la crisis imposible",
-      "source": "EL PAÍS",
-      "summary": "Ceuta, la crisis imposible EL PAÍS Ceuta ha sido el mayor fracaso del Gobierno de la legislatura elDiario.es Prevención y gestión de la crisis ceutí El Periódico Ceuta: soberanía, seguridad y humanidad El Mundo El Gobierno arrastra los pies en Ceuta La Vanguar",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50Ri1HT29PVjVxYkZ3Z01XdzU0a2JhR0RJSVFoLTRZV3E3SHpfbjB6YTRtbHZzZEloLW5fT1RHRUVPc3lpUjNZVDJlM1dNOW5IcGRTd3FyamIxcjhXY2RuN3U1ZXNrVjF0ZFp6dndMVWd2ZGpoUWc?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 03:30:01 GMT"
-    },
-    {
-      "title": "Fuertes lluvias en el Ebro y Huesca y descenso localmente notable de temperaturas máximas",
-      "source": "Cadena SER",
-      "summary": "Fuertes lluvias en el Ebro y Huesca y descenso localmente notable de temperaturas máximas Cadena SER La lluvia y tormentas ponen en alerta a siete comunidades: Aragón y Cataluña en aviso naranja El Confidencial Lluvias y tormentas pondrán hoy en aviso a Aragón",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUFZNVW5kQ2VCWEpIYXQ2aUFxRlo4eWp0WElGVGZsQmF1blFDNjRNUk16NzdxblJyZW1kQTlZVEVZUXR3bHNWQzlobG1sanBoS1R0bC0ya2E2NFpqMW5ES1B6amhPdUgtT1NEcjA2b0V3YnluOHFQeG4wOW13MVZXWE9rRXlDUURHazRuZ3BEdVNiMTFjbmFzTkJTUXpHemtlbW40MGJla0duYWJlR3ZJZGdZRENQN2pQYVpKUEM3cWFmUUpWV2JmOWFnLVl0ODBYUWtGdUNMY3JMQXfSAe8BQVVfeXFMUHhnQVJfZDZaS0dGUE1xRFl6TGdvSzZ5ZGxUdlM5UHMwNHFZamdCZEM2eVdYNXNMMEd3VE5neFBxUklZQ0FfWUZYaDdUR2RGendXZXR2WHdVVVd2X0xqcXFfcE1DRTNieDNVXzBKU2Q0eGFNb0lOYmw2WVZUWUpjQ2dSeExsZzh3ODVxeGc0aUg5dmVKRkJScjNwcWE3N1RyckJKd0xuYjhXenVxeF80eG9wbERxNlBWa3l0QmFlbXN5MGlKd2FSZ0tqQmpZME4xM2JxZEg2ejlKT3VFYjQ5OVFpdTYtTllZOExzNkxTN3c?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 17:34:10 GMT"
-    },
-    {
       "title": "Imágenes de Ferias del domingo 23 de agosto",
       "source": "Ayuntamiento de Alcalá de Henares",
       "summary": "Imágenes de Ferias del domingo 23 de agosto Ayuntamiento de Alcalá de Henares Miles de personas disfrutaron de los conciertos de Loquillo en la Muralla y Efecto Pasillo en la Plaza de Cervantes Ayuntamiento de Alcalá de Henares Las Damas de Honor de las Ferias",
@@ -44,12 +28,28 @@
       "pubDate": "Sun, 23 Aug 2026 22:05:16 GMT"
     },
     {
-      "title": "Goleada del Barcelona ante el Elche",
-      "source": "Diario AS",
-      "summary": "Goleada del Barcelona ante el Elche Diario AS Sin nueve y a lo loco Diario AS El Barcelona se pone 'morado' MARCA El Barça estrena la Liga sin 9 pero con una cómoda goleada al Elche gracias a Raphinha y Fermín El Mundo Raphinha se viste de capitán araña y lide",
+      "title": "Barcelona inicia la defensa del título de La Liga con goleada 5-0 en Elche",
+      "source": "AP News",
+      "summary": "Barcelona inicia la defensa del título de La Liga con goleada 5-0 en Elche AP News Sin nueve y a lo loco Diario AS El Barcelona se pone 'morado' MARCA El Barça estrena la Liga sin 9 pero con una cómoda goleada al Elche gracias a Raphinha y Fermín El Mundo Raph",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNW9EQld5U2dfQkZjc1pNUkdNOHh0OWpZR1BIOVNzSG1OYTdNRDVSVFhzTmNncG11Vk53RlR0OXVSZHpFeDBFa0JUWmw4NUc1MDZQUjhvdFlVOVVTWUJrYkN4Q2FnX01remFLOVpvZm94V0RxZW9fc09ZT2YwSjhvTDNvV2hYR2M?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 21:27:32 GMT"
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMWMzd21SYms0bXBoQTJpSFdGR21QSExPcjFzdzR5Nm1HaU1pQ2NyVG1VSUQ0eUVJeUJqLTk1RG1kaVZMQWRYYUMyZFI0b0kwLVZKYmVuTXh0RERZRU1wQmtJUEFjeUNfWHkzOW1WT2hSQXI0SG5LSzVZbTk1eWxOdHpZTk05NUIzVU9ORmQ2NThDR2JSOXc?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 23:49:00 GMT"
+    },
+    {
+      "title": "Once heridos, una menor crítica, y 400 desalojados en un camping y una discoteca de Tarragona por las lluvias",
+      "source": "heraldo.es",
+      "summary": "Once heridos, una menor crítica, y 400 desalojados en un camping y una discoteca de Tarragona por las lluvias heraldo.es Alcaldes de la Costa Daurada piden reformar la vía del tren para evitar nuevas inundaciones La Vanguardia Tiempo en Catalunya hoy lunes: vu",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbEtlclRIVTZXUTUxWUlJSVVPYWxIV1FudXlTeXpleDdweE9FWFk5a1p6RHBwWUIxa0pXY1JfbWIxQUxFVGFRUUZvODRmbTlkc0hueHNfaWwxWVY2Mjk2THZ1c3VNWGFBcDJxd19qeEVuLURjM3BvVVZTY2N0R25nZHdDWWhOekhldF9Mc2RvbmFEckttWnhKbG1BNXpLWnBuQWU1T2E0TnBLM1hmTGZMQmZUOEd6d2lOUHltSXpOWQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 10:36:40 GMT"
+    },
+    {
+      "title": "El Metropolitano no perdona a Julián Alvarez: pitada histórica al argentino en su regreso con el Atleti",
+      "source": "Cadena SER",
+      "summary": "El Metropolitano no perdona a Julián Alvarez: pitada histórica al argentino en su regreso con el Atleti Cadena SER Que alguien arregle esto MARCA Julián Alvarez, objetivo de los memes de la jornada Diario AS Una solución para Julián Álvarez, alejado por el Atl",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRFpSOEhDQnRuYlQ1UUtDSzJkb3M2TldKclV5Si1mVUROc2xtakpZdUx3VDJUUlh3NVZ4X1RzcnNpaFZSVGo2dXF6Wko0bmRyc1RrdzBTU1VZNnJXS3FCak9PeEJoZVk0Sjhnd2dmeHJpWXVaSEpkZDVnX3RLdDVmNk51b0J1c2tqSWJBZTE5YjE5YmVtczVybTlrNExDa3RJcXZyNGlJTFk5UG84cE9LRDRqbms4anU2QUQ2VTNWOHdhV0tjQzM5OVp0N0NPZGQ1cUVWR01XZDJrR3BPRWtfQmpiSmo4RFkyWXZKctIBgAJBVV95cUxQQTY1RDBtQUxZVlg3ZjhVRHJOSjhIN1JyVEhWNHpZT3I1dUFGN1kzTXhEaXhxYXJrRkZMdTlrQWxvQVI1VVBQU015Z2l6M2ZCbHF6X1BCTjd3cHM0ak9YVk81WjFwcmhSbThHWlp3Q2xjWlVrM21NV3ZwYVFBbUliQzl1MFZVSzVfeGswYnlSN3h5aVBRVE42Y0pSMElSbUsxLXB0ZmNvY3k2eUtib3ppdW5MLURDbGltaGwzSWhYTFNUcGxsdlVhZThOSmlFMTZDR3hFdmIyWlhvSmc2Zndka3hFOXhRYnV4dzZWVm1pT2pfc1RoSkFSNEZaSUxtOERl?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 19:06:17 GMT"
     },
     {
       "title": "El PP eleva el tono para pedir una \"deportación masiva en Ceuta\": de mantener una postura de Estado a un discurso agresivo",
@@ -62,7 +62,7 @@
     {
       "title": "Óscar Puente no descarta suceder a Pedro Sánchez, pero deja claro que el presidente es el \"mejor líder\": \"Es el Jordan del PSOE\"",
       "source": "Onda Cero",
-      "summary": "Óscar Puente no descarta suceder a Pedro Sánchez, pero deja claro que el presidente es el \"mejor líder\": \"Es el Jordan del PSOE\" Onda Cero Puente no descarta liderar el PSOE cuando Sánchez lo deje y sitúa el relevo al final de la próxima legislatura RTVE.es Ig",
+      "summary": "Óscar Puente no descarta suceder a Pedro Sánchez, pero deja claro que el presidente es el \"mejor líder\": \"Es el Jordan del PSOE\" Onda Cero Óscar Puente no descarta liderar el PSOE cuando Sánchez lo deje y sitúa el relevo al final de la próxima legislatura El M",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNLXJ2WTljQzRReU5abTNCM0d3WVhHQlMyc2NZNXFnOVcxMDhyMmd1TVRwbzN4SFJNbHk4UjEzdlk4WjhDYVpCU1ZJZE56c0FkbUkwWU5ZYUw5QURkWkxYVTRPSEhzUzMtd0VsdlNsSUxCaDNFWng5aTZxRU5uWnhFZWVTbXd6STBKWjlPNU9zdlJJY0dTMEMtdl9CS2ZjWWhqSHFFMnhMb2xBUGluYks0Y25BZWFXLXZjeUZTZ2R2LWdKMjFuUVl4WVZiTFZuSjk1QjZYakxTOC05R0FFY0F5ZkFDei1MWC1mOTZWRDFQeERlNGRkeFZWeTlLM1FVX2NvYTZUaU9KSdIBhwJBVV95cUxOa0cweGtEYi1uZUR6NVhuTnotSy1zMTQwX3p5NkIwSUc0aWUtV3djRjQ2U0wyVWRRZGZtNVVCaE5DcHlnNGlJaDhOMllPZVh5RFkwNEpfbkZ4SFJKVGZqV0JERFM2OWZQdklBMklPeEdqbmNtOTdZLUFiV1huQWdLTnRRSlVsWGh4TS0wUVdua1NGVHlsM1R3WGNfdWwyckk5UUdtNnNSZXQwUy1SMUhuTDdTT2lyYzRvZGhyMjdaWWtGZ1UzWGwyaGNsR3EyRUNLMUN2bDdxSWtYb2pFRzY2dEF3Z3dHYlVaS2xqLWM5d1E5ZjNpaFNpODRWZTdhSGFKTmE4Q256UQ?oc=5",
       "pubDate": "Sun, 23 Aug 2026 14:29:05 GMT"
