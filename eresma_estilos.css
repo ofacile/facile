@@ -6728,84 +6728,102 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     transform: none !important;
   }
 }
-/* FACILE NORMAL - ANIMACION BOTON BUSCAR IGUAL AL TIEMPO */
-#facileSearchForm #facileSearch*ubmit{
-  animation: none !importan*;
+/* FACILE NORMAL - BOTON BUSCAR AN*MACION LIMPIA V2 */
+#facileSearchF*rm #facileSearchSubmit{
+  position* relative !important;
+  animation:*none !important;
 
-  transform: translateY(0) scal*(1) !important;
-  transform-origin: center center !important;
+  transform: tra*slateY(0) !important;
+  transform-*rigin: center center !important;
 
-  will-change: auto !important;
+* /*
+    El botón no crece, por lo *ue no se sale del widget
+    ni in*ade visualmente el campo de búsque*a.
+  */
+  will-change: auto !impor*ant;
+
+  box-shadow:
+    inset 0 1p* 0 rgba(255,255,255,0.22) !importa*t;
 
   transition:
-    transform 130ms ease,
-    filter 130ms ease,
-    box-shadow 150ms ease !important;
-}
+    transform 12*ms ease,
+    filter 120ms ease,
+  * box-shadow 140ms ease !important;*}
 
-/* PC: realce al pasar el cursor o usar el teclado */
-@media only screen and (min-width: 768px){
-  #facileSearchForm #facileSearchSubmit:hover,
-  #facileSearchForm #facileSearchSubmit:focus-visible{
-    animation: none !important;
+/* PC: elevación limpia, sin ca*biar el tamaño */
+@media only scre*n and (min-width: 768px){
+  #facil*SearchForm #facileSearchSubmit:hov*r,
+  #facileSearchForm #facileSear*hSubmit:focus-visible{
+    animati*n: none !important;
 
-    transform: translateY(-1px) scale(1.025) !important;
-    filter: brightness(1.06) saturate(1.04) !important;
+    /*
+      *o usamos scale.
+      Solo elevamo* el botón un píxel.
+    */
+    tra*sform: translateY(-1px) !important*
+    filter: brightness(1.055) sat*rate(1.03) !important;
 
-    box-shadow:
-      0 7px 16px rgba(0,0,0,0.14),
-      inset 0 1px 0 rgba(255,255,255,0.22) !important;
+    /*
+   *  Sombra corta y controlada para e*itar el halo grande.
+    */
+    bo*-shadow:
+      0 3px 7px rgba(0,0,*,0.11),
+      inset 0 1px 0 rgba(2*5,255,255,0.25) !important;
+
+    o*tline: none !important;
   }
 
-  #facileSearchForm #facileSearchSubmit:active{
-    animation: none !important;
+  #fa*ileSearchForm #facileSearchSubmit:*ctive{
+    animation: none !import*nt;
 
-    transform: translateY(1px) scale(0.98) !important;
-    filter: brightness(0.98) !important;
+    transform: translateY(1px* !important;
+    filter: brightnes*(0.97) !important;
 
-    box-shadow:
-      0 3px 8px rgba(0,0,0,0.12),
-      inset 0 1px 0 rgba(255,255,255,0.16) !important;
-  }
-}
-
-/* Móvil: respuesta táctil breve y ligera */
-@media only screen and (max-width: 767px){
-  #facileSearchForm #facileSearchSubmit{
-    animation: none !important;
-
-    transition:
-      transform 90ms ease,
-      filter 90ms linear,
-      box-shadow 100ms linear !important;
-  }
-
-  #facileSearchForm #facileSearchSubmit:hover,
-  #facileSearchForm #facileSearchSubmit:focus-visible{
-    transform: translateY(0) scale(1) !important;
-    filter: brightness(1.04) saturate(1.02) !important;
-  }
-
-  #facileSearchForm #facileSearchSubmit:active{
-    transform: translateY(1px) scale(0.97) !important;
-    filter: brightness(0.97) !important;
-
-    box-shadow:
-      0 2px 6px rgba(0,0,0,0.12),
-      inset 0 1px 0 rgba(255,255,255,0.16) !important;
+    box-shadow*
+      0 1px 3px rgba(0,0,0,0.10),*      inset 0 2px 3px rgba(0,0,0,0*08),
+      inset 0 1px 0 rgba(255,*55,255,0.14) !important;
   }
 }
 
-/* Accesibilidad */
-@media (prefers-reduced-motion: reduce){
-  #facileSearchForm #facileSearchSubmit{
+/**Móvil: respuesta táctil sin movimi*nto ni coste extra */
+@media only *creen and (max-width: 767px){
+  #f*cileSearchForm #facileSearchSubmit*
     animation: none !important;
-    transition-duration: 0.01ms !important;
+ *  transform: none !important;
+
+   *transition:
+      filter 90ms line*r,
+      box-shadow 90ms linear !i*portant;
   }
 
-  #facileSearchForm #facileSearchSubmit:hover,
-  #facileSearchForm #facileSearchSubmit:focus-visible,
-  #facileSearchForm #facileSearchSubmit:active{
-    transform: none !important;
+  #facileSearchForm *facileSearchSubmit:hover,
+  #facil*SearchForm #facileSearchSubmit:foc*s-visible{
+    transform: none !im*ortant;
+    filter: brightness(1.0*) saturate(1.02) !important;
+
+    *ox-shadow:
+      inset 0 1px 0 rgb*(255,255,255,0.22) !important;
+  }*
+  #facileSearchForm #facileSearch*ubmit:active{
+    transform: none *important;
+    filter: brightness(*.96) !important;
+
+    box-shadow:
+*     inset 0 2px 3px rgba(0,0,0,0.*0),
+      inset 0 1px 0 rgba(255,2*5,255,0.14) !important;
+  }
+}
+
+/* *ccesibilidad */
+@media (prefers-re*uced-motion: reduce){
+  #facileSea*chForm #facileSearchSubmit{
+    an*mation: none !important;
+    trans*tion-duration: 0.01ms !important;
+* }
+
+  #facileSearchForm #facileSea*chSubmit:hover,
+  #facileSearchFor* #facileSearchSubmit:focus-visible*
+  #facileSearchForm #facileSearch*ubmit:active{
+    transform: none *important;
   }
 }
