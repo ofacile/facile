@@ -6789,34 +6789,200 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     transition-duration: 0.01ms !important;
   }
 }
-/* FACILE BUSCADOR MOVIL - CONTENEDOR CLEAN SIN MARCOS LATERALES */
+/* FACILE WIDGETS - GLASS RESTAURADO SIN MARCAS LATERALES */
+
+#widgets-container{
+  overflow: visible !important;
+}
+
+.widgets-bar{
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+.facile-info-widget,
+.facile-search-widget{
+  box-sizing: border-box !important;
+  border: 1px solid rgba(255,255,255,0.14) !important;
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(
+        in srgb,
+        var(--glass-bg) 74%,
+        rgba(255,255,255,0.18) 26%
+      ),
+      color-mix(
+        in srgb,
+        var(--glass-bg) 84%,
+        rgba(0,0,0,0.05) 16%
+      )
+    ) !important;
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.10),
+    inset 0 1px 0 rgba(255,255,255,0.18) !important;
+}
+
+.facile-search-widget{
+  overflow: hidden !important;
+}
+
+#facileSearchForm.facile-search-form{
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#facileSearchForm .facile-search-engine-wrap,
+#facileSearchForm .facile-search-input-wrap,
+#facileSearchForm #facileSearchSubmit{
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* PC */
+@media only screen and (min-width: 768px){
+
+  .widgets-bar{
+    width: min(
+      calc(100% - 24px),
+      var(--widgets-max-width)
+    ) !important;
+
+    max-width: var(--widgets-max-width) !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  .facile-search-widget{
+    max-width: min(100%, 540px) !important;
+  }
+
+  /*
+    Evita marcas visuales en los extremos cuando
+    el navegador utiliza niveles altos de zoom.
+  */
+  .widgets-bar::before,
+  .widgets-bar::after,
+  .facile-search-widget::before,
+  .facile-search-widget::after{
+    content: none !important;
+    display: none !important;
+  }
+}
+
+/* PC estrecho o con zoom elevado */
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+
+  .widgets-bar{
+    width: min(
+      calc(100% - 32px),
+      var(--widgets-max-width)
+    ) !important;
+
+    gap: 12px !important;
+  }
+
+  .facile-date-widget,
+  .facile-clock-widget{
+    flex: 0 1 auto !important;
+  }
+
+  .facile-search-widget{
+    flex: 1 1 390px !important;
+    min-width: 280px !important;
+    max-width: 100% !important;
+  }
+
+  #facileSearchForm.facile-search-form{
+    grid-template-columns:
+      48px
+      minmax(160px, 1fr)
+      auto !important;
+  }
+}
+
+/* Móvil */
 @media only screen and (max-width: 767px){
 
-  .widgets-bar .facile-search-widget{
+  .widgets-bar{
+    width: min(94%, 420px) !important;
+    max-width: min(94%, 420px) !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding: 4px !important;
+    gap: 9px !important;
+
+    overflow: visible !important;
+  }
+
+  /*
+    Fecha y reloj con aspecto translúcido,
+    pero sin backdrop-filter costoso.
+  */
+  .facile-info-widget{
+    border-color: rgba(255,255,255,0.16) !important;
+
+    background:
+      linear-gradient(
+        135deg,
+        rgba(255,255,255,0.20),
+        color-mix(
+          in srgb,
+          var(--primary-color) 14%,
+          rgba(255,255,255,0.13) 86%
+        )
+      ) !important;
+
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+
+    box-shadow:
+      0 3px 8px rgba(0,0,0,0.09),
+      inset 0 1px 0 rgba(255,255,255,0.20) !important;
+  }
+
+  /*
+    Buscador translúcido con una sola superficie exterior.
+    No utiliza blur.
+  */
+  .facile-search-widget{
     width: 100% !important;
     max-width: 100% !important;
 
     margin: 0 !important;
-    padding: 7px !important;
+    padding: 8px !important;
 
-    border: 0 !important;
-    outline: 0 !important;
+    border: 1px solid rgba(255,255,255,0.14) !important;
     border-radius: 20px !important;
 
     background:
-      color-mix(
-        in srgb,
-        var(--primary-color) 18%,
-        rgba(255,255,255,0.20) 82%
+      linear-gradient(
+        135deg,
+        rgba(255,255,255,0.17),
+        color-mix(
+          in srgb,
+          var(--primary-color) 15%,
+          rgba(255,255,255,0.12) 85%
+        )
       ) !important;
 
-    box-shadow: none !important;
-
-    overflow: hidden !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
 
-    contain: layout style !important;
+    box-shadow:
+      0 3px 9px rgba(0,0,0,0.09),
+      inset 0 1px 0 rgba(255,255,255,0.18) !important;
+
+    overflow: hidden !important;
   }
 
   #facileSearchForm.facile-search-form{
@@ -6826,38 +6992,46 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     margin: 0 !important;
     padding: 0 !important;
 
-    grid-template-columns: 44px minmax(0, 1fr) 106px !important;
+    grid-template-columns:
+      44px
+      minmax(0, 1fr)
+      96px !important;
+
     gap: 7px !important;
 
     background: transparent !important;
     border: 0 !important;
-    outline: 0 !important;
     box-shadow: none !important;
-
-    overflow: visible !important;
-  }
-
-  #facileSearchForm .facile-search-engine-wrap,
-  #facileSearchForm .facile-search-input-wrap,
-  #facileSearchForm #facileSearchSubmit{
-    margin: 0 !important;
   }
 
   #facileSearchForm .facile-search-engine-wrap{
-    border-color: rgba(255,255,255,0.16) !important;
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 42px !important;
+
+    margin: 0 !important;
+
+    border: 1px solid rgba(255,255,255,0.15) !important;
+
     box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.18) !important;
+      inset 0 1px 0 rgba(255,255,255,0.20) !important;
   }
 
   #facileSearchForm .facile-search-input-wrap{
     min-width: 0 !important;
-    overflow: visible !important;
+    margin: 0 !important;
   }
 
   #facileSearchForm .facile-search-input{
+    width: 100% !important;
+    min-width: 0 !important;
     height: 42px !important;
+
+    margin: 0 !important;
+
     border: 0 !important;
     outline: 0 !important;
+
     box-shadow:
       inset 0 1px 2px rgba(0,0,0,0.05) !important;
   }
@@ -6867,25 +7041,54 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     min-width: 0 !important;
     height: 42px !important;
 
+    margin: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
     border: 0 !important;
     outline: 0 !important;
-    box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.22) !important;
 
     transform: none !important;
+
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.22) !important;
+  }
+
+  /*
+    Elimina cualquier capa decorativa que pudiera
+    producir líneas o marcas en los extremos.
+  */
+  .widgets-bar::before,
+  .widgets-bar::after,
+  .facile-info-widget::before,
+  .facile-info-widget::after,
+  .facile-search-widget::before,
+  .facile-search-widget::after{
+    content: none !important;
+    display: none !important;
   }
 }
 
-/* Móviles especialmente estrechos */
+/* Móviles estrechos */
 @media only screen and (max-width: 390px){
+
+  .widgets-bar{
+    width: calc(100% - 20px) !important;
+    max-width: calc(100% - 20px) !important;
+  }
+
   #facileSearchForm.facile-search-form{
-    grid-template-columns: 42px minmax(0, 1fr) 88px !important;
+    grid-template-columns:
+      42px
+      minmax(0, 1fr)
+      84px !important;
+
     gap: 6px !important;
   }
 
   #facileSearchForm #facileSearchSubmit{
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-    font-size: 0.82rem !important;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    font-size: 0.80rem !important;
   }
 }
