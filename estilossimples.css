@@ -5560,3 +5560,79 @@ body[data-classic-theme="facile-dos"] {
     min-height: 25px !important;
   }
 }
+/* FACILE CLASICO - ANIMACION BOTON BUSCAR TIEMPO */
+#weather-widget button{
+  position: relative !important;
+  transform: translate(0, 0) !important;
+  transform-origin: center center !important;
+
+  transition:
+    transform 55ms steps(1, end),
+    background-color 55ms steps(1, end),
+    color 55ms steps(1, end),
+    border-color 55ms steps(1, end),
+    box-shadow 55ms steps(1, end) !important;
+
+  will-change: auto !important;
+}
+
+#weather-widget button:hover,
+#weather-widget button:focus-visible{
+  color: #ffffff !important;
+  background:
+    linear-gradient(
+      90deg,
+      var(--facile-accent-blue),
+      var(--facile-brown-mid)
+    ) !important;
+
+  border-top-color: var(--facile-window-light) !important;
+  border-left-color: var(--facile-window-light) !important;
+  border-right-color: var(--facile-window-dark) !important;
+  border-bottom-color: var(--facile-window-dark) !important;
+
+  box-shadow:
+    2px 2px 0 rgba(43, 29, 19, 0.30) !important;
+
+  transform: translate(-1px, -1px) !important;
+
+  outline: 2px dotted var(--facile-focus) !important;
+  outline-offset: 2px !important;
+}
+
+#weather-widget button:active{
+  color: #ffffff !important;
+  background: var(--facile-brown-dark) !important;
+
+  border-top-color: var(--facile-window-dark) !important;
+  border-left-color: var(--facile-window-dark) !important;
+  border-right-color: var(--facile-window-light) !important;
+  border-bottom-color: var(--facile-window-light) !important;
+
+  box-shadow:
+    inset 2px 2px 0 rgba(43, 29, 19, 0.30) !important;
+
+  transform: translate(1px, 1px) !important;
+}
+
+@media only screen and (max-width: 767px){
+  #weather-widget button:hover,
+  #weather-widget button:focus-visible{
+    transform: none !important;
+  }
+
+  #weather-widget button:active{
+    transform: translate(1px, 1px) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  #weather-widget button{
+    transition-duration: 0.001ms !important;
+  }
+
+  #weather-widget button:hover,
+  #weather-widget button:focus-visible{
+    transform: none !important;
+  }
+}
