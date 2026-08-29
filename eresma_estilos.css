@@ -7092,3 +7092,65 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     font-size: 0.80rem !important;
   }
 }
+
+/* FACILE MOVIL - BUSCADOR CON CAMPO MAS ANCHO Y BOTON COMPACTO */
+@media only screen and (max-width: 767px){
+  .facile-search-widget{
+    padding: 7px !important;
+  }
+
+  #facileSearchForm.facile-search-form{
+    grid-template-columns: 44px minmax(0, 1fr) 68px !important;
+    gap: 6px !important;
+  }
+
+  #facileSearchForm .facile-search-engine-wrap{
+    width: 44px !important;
+    min-width: 44px !important;
+  }
+
+  #facileSearchForm .facile-search-input-wrap{
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  #facileSearchForm .facile-search-input{
+    width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 11px !important;
+    padding-right: 37px !important;
+    font-size: 16px !important;
+  }
+
+  #facileSearchForm #facileSearchSubmit{
+    width: 68px !important;
+    min-width: 68px !important;
+    max-width: 68px !important;
+    height: 42px !important;
+    padding: 0 7px !important;
+    border-radius: 13px !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
+  }
+}
+
+@media only screen and (max-width: 390px){
+  #facileSearchForm.facile-search-form{
+    grid-template-columns: 42px minmax(0, 1fr) 60px !important;
+    gap: 5px !important;
+  }
+
+  #facileSearchForm .facile-search-engine-wrap{
+    width: 42px !important;
+    min-width: 42px !important;
+  }
+
+  #facileSearchForm #facileSearchSubmit{
+    width: 60px !important;
+    min-width: 60px !important;
+    max-width: 60px !important;
+    padding: 0 5px !important;
+    font-size: 0.72rem !important;
+  }
+}
