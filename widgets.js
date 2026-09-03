@@ -444,12 +444,14 @@
   });
 })();
 
-/* FACILE PAGE FAVORITES V1 */
+/* FACILE PAGE FAVORITES V2 */
 (function(){
   "use strict";
 
-  const STORAGE_KEY = "facilePageFavoritesV1";
-  const MAX_FAVORITES = 24;
+  const STORAGE_KEY = "facilePageFavoritesV2";
+  const LEGACY_KEY = "facilePageFavoritesV1";
+  const MAX_FAVORITES = 500;
+  const PAGE_SIZE = 60;
 
   function ready(callback){
     if (document.readyState === "loading") {
@@ -459,16 +461,17 @@
     callback();
   }
 
-  function loadFavorites(){
+  function readStored(){
     try {
-      const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
-      return Array.isArray(data) ? data.slice(0, MAX_FAVORITES) : [];
+      const raw = localStorage.getItem(STORAGE_KEY) || localStorage.getItem(LEGACY_KEY) || "[]";
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed) ? parsed.slice(0, MAX_FAVORITES) : [];
     } catch (error) {
       return [];
     }
   }
 
-  function saveFavorites(items){
+  function writeStored(items){
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(items.slice(0, MAX_FAVORITES)));
       return true;
@@ -480,9 +483,7 @@
   function normalizeUrl(value){
     let candidate = String(value || "").trim();
     if (!candidate) return "";
-    if (!/^[a-z][a-z0-9+.-]*:/i.test(candidate)) {
-      candidate = "https://" + candidate;
-    }
+    if (!/^[a-z][a-z0-9+.-]*:/i.test(candidate)) candidate = "https://" + candidate;
     try {
       const url = new URL(candidate);
       if (url.protocol !== "http:" && url.protocol !== "https:") return "";
@@ -493,18 +494,39 @@
   }
 
   function makeId(){
-    if (window.crypto && typeof window.crypto.randomUUID === "function") {
-      return window.crypto.randomUUID();
-    }
+    if (window.crypto && typeof window.crypto.randomUUID === "function") return window.crypto.randomUUID();
     return "fav-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
   }
 
-  function domainLabel(url){
-    try {
-      return new URL(url).hostname.replace(/^www\./, "");
-    } catch (error) {
-      return "Página favorita";
-    }
+  function domainOf(url){
+    try { return new URL(url).hostname.replace(/^www\./, ""); }
+    catch (error) { return "Página favorita"; }
+  }
+
+  function externalIcon(url){
+    try { return new URL("/favicon.ico", url).href; }
+    catch (error) { return ""; }
+  }
+
+  function catalogFromPage(){
+    const seen = new Set();
+    const items = [];
+    document.querySelectorAll("main.intro section a.logo[href]").forEach(function(link){
+      const url = normalizeUrl(link.getAttribute("href"));
+      if (!url || seen.has(url)) return;
+      const image = link.querySelector("img");
+      const rawName = image ? image.getAttribute("alt") : "";
+      const name = String(rawName || domainOf(url)).trim();
+      seen.add(url);
+      items.push({
+        id: "catalog-" + items.length,
+        name: name || domainOf(url),
+        url: url,
+        icon: image ? (image.currentSrc || image.src || "") : "",
+        source: "facile"
+      });
+    });
+    return items;
   }
 
   ready(function(){
@@ -515,181 +537,278 @@
     const header = document.createElement("div");
     header.className = "facile-favorites-header";
 
-    const headingWrap = document.createElement("div");
-    headingWrap.className = "facile-favorites-heading";
-
+    const heading = document.createElement("div");
+    heading.className = "facile-favorites-heading";
     const title = document.createElement("h2");
     title.id = "facileFavoritesTitle";
     title.textContent = "Mis páginas favoritas";
-
     const count = document.createElement("span");
     count.className = "facile-favorites-count";
     count.setAttribute("aria-live", "polite");
+    heading.append(title, count);
 
-    headingWrap.append(title, count);
+    const actions = document.createElement("div");
+    actions.className = "facile-favorites-actions";
+    const chooseButton = document.createElement("button");
+    chooseButton.type = "button";
+    chooseButton.className = "facile-favorites-choose";
+    chooseButton.textContent = "Elegir de Facile";
+    chooseButton.setAttribute("aria-expanded", "false");
+    const addButton = document.createElement("button");
+    addButton.type = "button";
+    addButton.className = "facile-favorites-add-toggle";
+    addButton.textContent = "Añadir web";
+    addButton.setAttribute("aria-expanded", "false");
+    actions.append(chooseButton, addButton);
+    header.append(heading, actions);
 
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.className = "facile-favorites-add-toggle";
-    toggle.textContent = "Añadir página";
-    toggle.setAttribute("aria-expanded", "false");
-    toggle.setAttribute("aria-controls", "facileFavoritesForm");
-
-    header.append(headingWrap, toggle);
+    const picker = document.createElement("div");
+    picker.className = "facile-favorites-picker";
+    picker.hidden = true;
+    const pickerSearch = document.createElement("input");
+    pickerSearch.type = "search";
+    pickerSearch.placeholder = "Buscar una página ya incluida en Facile...";
+    pickerSearch.setAttribute("aria-label", "Buscar página de Facile");
+    const pickerResults = document.createElement("div");
+    pickerResults.className = "facile-favorites-picker-results";
+    pickerResults.setAttribute("role", "listbox");
+    picker.append(pickerSearch, pickerResults);
 
     const form = document.createElement("form");
-    form.id = "facileFavoritesForm";
     form.className = "facile-favorites-form";
     form.hidden = true;
     form.autocomplete = "off";
-
     const nameInput = document.createElement("input");
     nameInput.type = "text";
-    nameInput.className = "facile-favorites-name";
-    nameInput.placeholder = "Nombre de la página";
-    nameInput.maxLength = 48;
-    nameInput.setAttribute("aria-label", "Nombre de la página favorita");
-
+    nameInput.placeholder = "Nombre opcional";
+    nameInput.maxLength = 60;
+    nameInput.setAttribute("aria-label", "Nombre de la página");
     const urlInput = document.createElement("input");
-    urlInput.type = "url";
-    urlInput.className = "facile-favorites-url";
-    urlInput.placeholder = "https://ejemplo.com";
+    urlInput.type = "text";
     urlInput.inputMode = "url";
-    urlInput.setAttribute("aria-label", "Dirección de la página favorita");
+    urlInput.placeholder = "nombredelapagina.com";
     urlInput.required = true;
-
-    const saveButton = document.createElement("button");
-    saveButton.type = "submit";
-    saveButton.className = "facile-favorites-save";
-    saveButton.textContent = "Guardar";
-
+    urlInput.setAttribute("aria-label", "Dirección web sin necesidad de escribir https");
+    const save = document.createElement("button");
+    save.type = "submit";
+    save.className = "facile-favorites-save";
+    save.textContent = "Guardar";
     const message = document.createElement("p");
     message.className = "facile-favorites-message";
     message.setAttribute("aria-live", "polite");
-
-    form.append(nameInput, urlInput, saveButton, message);
+    form.append(nameInput, urlInput, save, message);
 
     const list = document.createElement("div");
     list.className = "facile-favorites-list";
     list.setAttribute("role", "list");
-
     const empty = document.createElement("p");
     empty.className = "facile-favorites-empty";
-    empty.textContent = "Todavía no hay páginas guardadas. Añade tus accesos habituales aquí.";
+    empty.textContent = "Guarda primero páginas de Facile o añade cualquier web escribiendo solo su dominio.";
+    const more = document.createElement("button");
+    more.type = "button";
+    more.className = "facile-favorites-more";
+    more.textContent = "Mostrar más";
+    more.hidden = true;
 
-    host.append(header, form, list, empty);
+    host.append(header, picker, form, list, more, empty);
 
-    let favorites = loadFavorites();
+    let favorites = readStored();
+    let catalog = null;
+    let visibleCount = PAGE_SIZE;
 
-    function setMessage(text, isError){
+    function setMessage(text, error){
       message.textContent = text || "";
-      message.classList.toggle("is-error", !!isError);
+      message.classList.toggle("is-error", !!error);
     }
 
-    function render(){
+    function exists(url){
+      return favorites.some(function(item){ return item.url === url; });
+    }
+
+    function addFavorite(data){
+      if (favorites.length >= MAX_FAVORITES) {
+        setMessage("Se ha alcanzado el límite de " + MAX_FAVORITES + " favoritas.", true);
+        return false;
+      }
+      if (exists(data.url)) {
+        setMessage("Esa página ya está en favoritas.", true);
+        return false;
+      }
+      favorites.unshift({
+        id: makeId(),
+        name: String(data.name || domainOf(data.url)).slice(0, 60),
+        url: data.url,
+        icon: data.icon || externalIcon(data.url),
+        source: data.source || "external"
+      });
+      if (!writeStored(favorites)) {
+        favorites.shift();
+        setMessage("El navegador no permite guardar más datos para esta página.", true);
+        return false;
+      }
+      visibleCount = Math.max(visibleCount, PAGE_SIZE);
+      renderFavorites();
+      return true;
+    }
+
+    function makeIcon(item){
+      const wrap = document.createElement("span");
+      wrap.className = "facile-favorite-icon";
+      wrap.setAttribute("aria-hidden", "true");
+      const fallback = document.createElement("span");
+      fallback.textContent = (item.name || domainOf(item.url)).trim().charAt(0).toUpperCase() || "★";
+      wrap.appendChild(fallback);
+      if (item.icon) {
+        const image = document.createElement("img");
+        image.src = item.icon;
+        image.alt = "";
+        image.loading = "lazy";
+        image.decoding = "async";
+        image.referrerPolicy = "no-referrer";
+        image.addEventListener("load", function(){ fallback.hidden = true; }, { once: true });
+        image.addEventListener("error", function(){ image.remove(); }, { once: true });
+        wrap.appendChild(image);
+      }
+      return wrap;
+    }
+
+    function renderFavorites(){
       const fragment = document.createDocumentFragment();
-      favorites.forEach(function(item){
+      favorites.slice(0, visibleCount).forEach(function(item){
         const card = document.createElement("div");
         card.className = "facile-favorite-card";
         card.setAttribute("role", "listitem");
-
         const link = document.createElement("a");
         link.className = "facile-favorite-link";
         link.href = item.url;
         link.target = "_blank";
         link.rel = "noopener noreferrer";
         link.title = item.name + " · " + item.url;
-
-        const icon = document.createElement("span");
-        icon.className = "facile-favorite-icon";
-        icon.setAttribute("aria-hidden", "true");
-        icon.textContent = (item.name || domainLabel(item.url)).trim().charAt(0).toUpperCase() || "★";
-
         const text = document.createElement("span");
         text.className = "facile-favorite-text";
-
         const strong = document.createElement("strong");
         strong.textContent = item.name;
-
         const small = document.createElement("small");
-        small.textContent = domainLabel(item.url);
-
+        small.textContent = domainOf(item.url);
         text.append(strong, small);
-        link.append(icon, text);
-
+        link.append(makeIcon(item), text);
         const remove = document.createElement("button");
         remove.type = "button";
         remove.className = "facile-favorite-remove";
         remove.textContent = "×";
-        remove.dataset.favoriteId = item.id;
-        remove.setAttribute("aria-label", "Eliminar " + item.name + " de favoritas");
+        remove.dataset.id = item.id;
         remove.title = "Eliminar";
-
+        remove.setAttribute("aria-label", "Eliminar " + item.name + " de favoritas");
         card.append(link, remove);
         fragment.appendChild(card);
       });
-
       list.replaceChildren(fragment);
+      count.textContent = String(favorites.length);
       empty.hidden = favorites.length > 0;
-      count.textContent = favorites.length + "/" + MAX_FAVORITES;
+      more.hidden = favorites.length <= visibleCount;
     }
 
-    toggle.addEventListener("click", function(){
-      const willOpen = form.hidden;
-      form.hidden = !willOpen;
-      toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
-      toggle.textContent = willOpen ? "Cerrar" : "Añadir página";
+    function renderCatalog(query){
+      if (!catalog) catalog = catalogFromPage();
+      const term = String(query || "").trim().toLocaleLowerCase("es");
+      const matches = catalog.filter(function(item){
+        return !term || item.name.toLocaleLowerCase("es").includes(term) || domainOf(item.url).includes(term);
+      }).slice(0, 80);
+      const fragment = document.createDocumentFragment();
+      matches.forEach(function(item){
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "facile-favorites-picker-item";
+        button.dataset.url = item.url;
+        const label = document.createElement("span");
+        label.className = "facile-favorites-picker-text";
+        const strong = document.createElement("strong");
+        strong.textContent = item.name;
+        const small = document.createElement("small");
+        small.textContent = domainOf(item.url);
+        label.append(strong, small);
+        button.append(makeIcon(item), label);
+        if (exists(item.url)) {
+          button.disabled = true;
+          button.setAttribute("aria-label", item.name + " ya está guardada");
+        }
+        fragment.appendChild(button);
+      });
+      pickerResults.replaceChildren(fragment);
+    }
+
+    chooseButton.addEventListener("click", function(){
+      const open = picker.hidden;
+      picker.hidden = !open;
+      form.hidden = true;
+      chooseButton.setAttribute("aria-expanded", open ? "true" : "false");
+      addButton.setAttribute("aria-expanded", "false");
+      if (open) {
+        renderCatalog("");
+        pickerSearch.focus();
+      }
+    });
+
+    addButton.addEventListener("click", function(){
+      const open = form.hidden;
+      form.hidden = !open;
+      picker.hidden = true;
+      addButton.setAttribute("aria-expanded", open ? "true" : "false");
+      chooseButton.setAttribute("aria-expanded", "false");
       setMessage("");
-      if (willOpen) nameInput.focus();
+      if (open) urlInput.focus();
+    });
+
+    pickerSearch.addEventListener("input", function(){ renderCatalog(pickerSearch.value); });
+
+    pickerResults.addEventListener("click", function(event){
+      const button = event.target.closest(".facile-favorites-picker-item");
+      if (!button || button.disabled) return;
+      if (!catalog) return;
+      const item = catalog.find(function(entry){ return entry.url === button.dataset.url; });
+      if (item && addFavorite(item)) {
+        setMessage("Página de Facile guardada.", false);
+        renderCatalog(pickerSearch.value);
+      }
     });
 
     form.addEventListener("submit", function(event){
       event.preventDefault();
       const url = normalizeUrl(urlInput.value);
       if (!url) {
-        setMessage("Escribe una dirección web válida.", true);
+        setMessage("Escribe un dominio válido, por ejemplo: wikipedia.org", true);
         urlInput.focus();
         return;
       }
-      if (favorites.length >= MAX_FAVORITES) {
-        setMessage("Has alcanzado el límite de " + MAX_FAVORITES + " páginas.", true);
-        return;
+      const name = nameInput.value.trim() || domainOf(url);
+      if (addFavorite({ name: name, url: url, icon: externalIcon(url), source: "external" })) {
+        form.reset();
+        setMessage("Página guardada.", false);
+        urlInput.focus();
       }
-      if (favorites.some(function(item){ return item.url === url; })) {
-        setMessage("Esa página ya está guardada.", true);
-        return;
-      }
-
-      const name = nameInput.value.trim() || domainLabel(url);
-      favorites.unshift({ id: makeId(), name: name.slice(0, 48), url: url });
-      if (!saveFavorites(favorites)) {
-        favorites.shift();
-        setMessage("El navegador no permite guardar datos para esta página.", true);
-        return;
-      }
-
-      form.reset();
-      setMessage("Página guardada.", false);
-      render();
-      nameInput.focus();
     });
 
     list.addEventListener("click", function(event){
       const button = event.target.closest(".facile-favorite-remove");
       if (!button) return;
-      const id = button.dataset.favoriteId;
-      favorites = favorites.filter(function(item){ return item.id !== id; });
-      saveFavorites(favorites);
-      render();
+      favorites = favorites.filter(function(item){ return item.id !== button.dataset.id; });
+      writeStored(favorites);
+      renderFavorites();
+      if (catalog && !picker.hidden) renderCatalog(pickerSearch.value);
+    });
+
+    more.addEventListener("click", function(){
+      visibleCount += PAGE_SIZE;
+      renderFavorites();
     });
 
     window.addEventListener("storage", function(event){
       if (event.key !== STORAGE_KEY) return;
-      favorites = loadFavorites();
-      render();
+      favorites = readStored();
+      renderFavorites();
     });
 
-    render();
+    renderFavorites();
   });
 })();
 
