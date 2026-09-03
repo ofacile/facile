@@ -7155,22 +7155,22 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE PAGE FAVORITES V1 */
+/* FACILE PAGE FAVORITES V2 */
 .facile-page-favorites{
   width: min(100%, var(--widgets-max-width, 1100px));
   max-width: var(--widgets-max-width, 1100px);
-  margin: 18px auto 24px;
-  padding: 14px;
+  margin: 16px auto 22px;
+  padding: 12px;
   box-sizing: border-box;
   display: block;
-  content-visibility: auto;
   contain: layout style;
-  contain-intrinsic-size: 1px 150px;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 116px;
   border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 24px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.17), color-mix(in srgb, var(--glass-bg) 82%, var(--primary-color) 18%));
-  box-shadow: 0 6px 16px rgba(0,0,0,0.11), inset 0 1px 0 rgba(255,255,255,0.18);
+  border-radius: 20px;
   color: #ffffff;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--glass-bg) 78%, rgba(255,255,255,0.12) 22%), color-mix(in srgb, var(--glass-bg) 84%, var(--primary-color) 16%));
+  box-shadow: 0 5px 14px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.16);
 }
 
 .facile-favorites-header{
@@ -7180,73 +7180,95 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   gap: 12px;
 }
 
-.facile-favorites-heading{
-  min-width: 0;
+.facile-favorites-heading,
+.facile-favorites-actions{
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
+  min-width: 0;
 }
 
 .facile-favorites-heading h2{
   margin: 0;
   color: #ffffff;
-  font-size: clamp(1rem, 2vw, 1.18rem);
+  font-size: clamp(1rem, 1.6vw, 1.16rem);
   line-height: 1.2;
   text-align: left;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .facile-favorites-count{
-  flex: 0 0 auto;
+  min-width: 26px;
   padding: 4px 8px;
   border-radius: 999px;
-  background: rgba(255,255,255,0.16);
-  color: rgba(255,255,255,0.90);
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.92);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 850;
+  text-align: center;
 }
 
 .facile-favorites-add-toggle,
-.facile-favorites-save{
-  min-height: 40px;
-  padding: 0 14px;
+.facile-favorites-choose,
+.facile-favorites-save,
+.facile-favorites-more{
+  min-height: 38px;
+  padding: 0 13px;
   border: 0;
-  border-radius: 13px;
+  border-radius: 12px;
   cursor: pointer;
   color: #ffffff;
   font: inherit;
-  font-size: 0.84rem;
+  font-size: 0.80rem;
   font-weight: 850;
   white-space: nowrap;
   background: linear-gradient(135deg, color-mix(in srgb, var(--primary-color) 84%, white 16%), color-mix(in srgb, var(--secondary-color) 84%, white 16%));
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.22);
-  transition: filter 120ms ease, box-shadow 140ms ease;
+  transition: filter 110ms ease, box-shadow 130ms ease;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
 }
 
+.facile-favorites-choose{
+  background: linear-gradient(135deg, color-mix(in srgb, var(--secondary-color) 76%, white 24%), color-mix(in srgb, var(--primary-color) 76%, white 24%));
+}
+
 .facile-favorites-add-toggle:hover,
 .facile-favorites-add-toggle:focus-visible,
+.facile-favorites-choose:hover,
+.facile-favorites-choose:focus-visible,
 .facile-favorites-save:hover,
-.facile-favorites-save:focus-visible{
+.facile-favorites-save:focus-visible,
+.facile-favorites-more:hover,
+.facile-favorites-more:focus-visible{
   outline: none;
   filter: brightness(1.07) saturate(1.04);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.28), 0 4px 10px rgba(0,0,0,0.10);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.28);
+}
+
+.facile-favorites-form,
+.facile-favorites-picker{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.09);
+  border: 1px solid rgba(255,255,255,0.10);
 }
 
 .facile-favorites-form{
-  margin-top: 12px;
   display: grid;
-  grid-template-columns: minmax(140px, 0.7fr) minmax(220px, 1.3fr) auto;
+  grid-template-columns: minmax(140px, 0.65fr) minmax(230px, 1.35fr) auto;
   gap: 8px;
   align-items: center;
 }
 
-.facile-favorites-form[hidden]{
+.facile-favorites-form[hidden],
+.facile-favorites-picker[hidden]{
   display: none !important;
 }
 
-.facile-favorites-form input{
+.facile-favorites-form input,
+.facile-favorites-picker > input{
   width: 100%;
   min-width: 0;
   height: 40px;
@@ -7257,23 +7279,24 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   border-radius: 12px;
   outline: none;
   color: #263447;
-  background: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.94);
   font: inherit;
   font-size: 0.88rem;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.06);
 }
 
-.facile-favorites-form input:focus{
-  border-color: color-mix(in srgb, var(--primary-color) 56%, white 44%);
+.facile-favorites-form input:focus,
+.facile-favorites-picker > input:focus{
+  border-color: color-mix(in srgb, var(--primary-color) 58%, white 42%);
   box-shadow: 0 0 0 2px rgba(255,255,255,0.22), inset 0 1px 2px rgba(0,0,0,0.05);
 }
 
 .facile-favorites-message{
   grid-column: 1 / -1;
-  min-height: 1.1em;
+  min-height: 1em;
   margin: 0;
-  color: rgba(255,255,255,0.92);
-  font-size: 0.78rem;
+  color: rgba(255,255,255,0.90);
+  font-size: 0.76rem;
   text-align: left;
 }
 
@@ -7281,28 +7304,66 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   color: #fff0b8;
 }
 
-.facile-favorites-list{
-  margin-top: 12px;
+.facile-favorites-picker-results{
+  max-height: 276px;
+  margin-top: 8px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 7px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.facile-favorites-picker-item{
+  min-width: 0;
+  min-height: 50px;
+  padding: 7px 9px;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
   gap: 8px;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 13px;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: left;
+  background: rgba(255,255,255,0.12);
+}
+
+.facile-favorites-picker-item:hover,
+.facile-favorites-picker-item:focus-visible{
+  outline: none;
+  background: rgba(255,255,255,0.20);
+}
+
+.facile-favorites-picker-item:disabled{
+  cursor: default;
+  opacity: 0.45;
+}
+
+.facile-favorites-list{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 7px;
 }
 
 .facile-favorite-card{
   min-width: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 34px;
+  grid-template-columns: minmax(0, 1fr) 32px;
   align-items: stretch;
-  border: 1px solid rgba(255,255,255,0.13);
-  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
   overflow: hidden;
-  background: rgba(255,255,255,0.13);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.11);
+  background: rgba(255,255,255,0.12);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.10);
 }
 
 .facile-favorite-link{
   min-width: 0;
-  min-height: 52px;
+  min-height: 50px;
   padding: 7px 8px;
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);
@@ -7314,45 +7375,63 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
 }
 
 .facile-favorite-icon{
+  position: relative;
   width: 34px;
   height: 34px;
   display: grid;
   place-items: center;
-  border-radius: 11px;
+  overflow: hidden;
+  border-radius: 10px;
   color: #ffffff;
-  font-size: 0.82rem;
+  font-size: 0.80rem;
   font-weight: 900;
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.24);
 }
 
-.facile-favorite-text{
+.facile-favorite-icon img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.facile-favorite-text,
+.facile-favorites-picker-text{
   min-width: 0;
 }
 
 .facile-favorite-text strong,
-.facile-favorite-text small{
+.facile-favorite-text small,
+.facile-favorites-picker-text strong,
+.facile-favorites-picker-text small{
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.facile-favorite-text strong{
+.facile-favorite-text strong,
+.facile-favorites-picker-text strong{
   color: #ffffff;
-  font-size: 0.88rem;
+  font-size: 0.84rem;
   line-height: 1.15;
 }
 
-.facile-favorite-text small{
+.facile-favorite-text small,
+.facile-favorites-picker-text small{
   margin-top: 3px;
-  color: rgba(255,255,255,0.76);
-  font-size: 0.70rem;
+  color: rgba(255,255,255,0.74);
+  font-size: 0.68rem;
 }
 
 .facile-favorite-remove{
-  width: 34px;
-  min-width: 34px;
+  width: 32px;
+  min-width: 32px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -7360,7 +7439,7 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   cursor: pointer;
   color: rgba(255,255,255,0.88);
   background: rgba(0,0,0,0.08);
-  font-size: 1.15rem;
+  font-size: 1.10rem;
   line-height: 1;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
@@ -7374,12 +7453,12 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
 }
 
 .facile-favorites-empty{
-  margin: 12px 0 0;
-  padding: 10px 12px;
-  border-radius: 13px;
-  color: rgba(255,255,255,0.86);
-  background: rgba(255,255,255,0.08);
-  font-size: 0.84rem;
+  margin: 10px 0 0;
+  padding: 8px 10px;
+  border-radius: 12px;
+  color: rgba(255,255,255,0.82);
+  background: rgba(255,255,255,0.07);
+  font-size: 0.78rem;
   text-align: center;
 }
 
@@ -7387,20 +7466,29 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   display: none !important;
 }
 
+.facile-favorites-more{
+  display: block;
+  margin: 10px auto 0;
+}
+
+.facile-favorites-more[hidden]{
+  display: none !important;
+}
+
 @media only screen and (max-width: 767px){
   .facile-page-favorites{
     width: 95%;
     max-width: 95%;
-    margin: 14px auto 20px;
-    padding: 12px;
-    border-radius: 20px;
+    margin: 13px auto 19px;
+    padding: 10px;
+    border-radius: 18px;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     box-shadow: 0 4px 12px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.14);
   }
 
   .facile-favorites-header{
-    align-items: center;
+    align-items: flex-start;
   }
 
   .facile-favorites-heading{
@@ -7408,18 +7496,25 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 
   .facile-favorites-heading h2{
-    font-size: 0.98rem;
+    font-size: 0.94rem;
   }
 
   .facile-favorites-count{
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 4px;
   }
 
-  .facile-favorites-add-toggle{
-    min-height: 38px;
-    padding: 0 11px;
-    font-size: 0.78rem;
+  .facile-favorites-actions{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .facile-favorites-add-toggle,
+  .facile-favorites-choose{
+    min-height: 35px;
+    padding: 0 9px;
+    font-size: 0.72rem;
     transition-duration: 0.01ms;
   }
 
@@ -7428,20 +7523,26 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     gap: 7px;
   }
 
-  .facile-favorites-form input{
+  .facile-favorites-form input,
+  .facile-favorites-picker > input{
     height: 42px;
     font-size: 16px;
   }
 
   .facile-favorites-save{
     width: 100%;
-    min-height: 40px;
+    min-height: 39px;
+  }
+
+  .facile-favorites-picker-results{
+    max-height: 260px;
+    grid-template-columns: 1fr;
   }
 
   .facile-favorites-list{
     grid-template-columns: none;
     grid-auto-flow: column;
-    grid-auto-columns: minmax(190px, 78%);
+    grid-auto-columns: minmax(182px, 76%);
     overflow-x: auto;
     overflow-y: hidden;
     padding: 1px 1px 7px;
@@ -7453,10 +7554,6 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-favorite-card{
     scroll-snap-align: start;
   }
-
-  .facile-favorite-link{
-    min-height: 50px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce){
@@ -7467,3 +7564,4 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     scroll-behavior: auto !important;
   }
 }
+
