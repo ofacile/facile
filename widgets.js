@@ -444,3 +444,252 @@
   });
 })();
 
+/* FACILE PAGE FAVORITES V1 */
+(function(){
+  "use strict";
+
+  const STORAGE_KEY = "facilePageFavoritesV1";
+  const MAX_FAVORITES = 24;
+
+  function ready(callback){
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback, { once: true });
+      return;
+    }
+    callback();
+  }
+
+  function loadFavorites(){
+    try {
+      const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+      return Array.isArray(data) ? data.slice(0, MAX_FAVORITES) : [];
+    } catch (error) {
+      return [];
+    }
+  }
+
+  function saveFavorites(items){
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items.slice(0, MAX_FAVORITES)));
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function normalizeUrl(value){
+    let candidate = String(value || "").trim();
+    if (!candidate) return "";
+    if (!/^[a-z][a-z0-9+.-]*:/i.test(candidate)) {
+      candidate = "https://" + candidate;
+    }
+    try {
+      const url = new URL(candidate);
+      if (url.protocol !== "http:" && url.protocol !== "https:") return "";
+      return url.href;
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function makeId(){
+    if (window.crypto && typeof window.crypto.randomUUID === "function") {
+      return window.crypto.randomUUID();
+    }
+    return "fav-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+  }
+
+  function domainLabel(url){
+    try {
+      return new URL(url).hostname.replace(/^www\./, "");
+    } catch (error) {
+      return "Página favorita";
+    }
+  }
+
+  ready(function(){
+    const host = document.getElementById("facileFavoritesApp");
+    if (!host || host.dataset.ready === "1") return;
+    host.dataset.ready = "1";
+
+    const header = document.createElement("div");
+    header.className = "facile-favorites-header";
+
+    const headingWrap = document.createElement("div");
+    headingWrap.className = "facile-favorites-heading";
+
+    const title = document.createElement("h2");
+    title.id = "facileFavoritesTitle";
+    title.textContent = "Mis páginas favoritas";
+
+    const count = document.createElement("span");
+    count.className = "facile-favorites-count";
+    count.setAttribute("aria-live", "polite");
+
+    headingWrap.append(title, count);
+
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "facile-favorites-add-toggle";
+    toggle.textContent = "Añadir página";
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-controls", "facileFavoritesForm");
+
+    header.append(headingWrap, toggle);
+
+    const form = document.createElement("form");
+    form.id = "facileFavoritesForm";
+    form.className = "facile-favorites-form";
+    form.hidden = true;
+    form.autocomplete = "off";
+
+    const nameInput = document.createElement("input");
+    nameInput.type = "text";
+    nameInput.className = "facile-favorites-name";
+    nameInput.placeholder = "Nombre de la página";
+    nameInput.maxLength = 48;
+    nameInput.setAttribute("aria-label", "Nombre de la página favorita");
+
+    const urlInput = document.createElement("input");
+    urlInput.type = "url";
+    urlInput.className = "facile-favorites-url";
+    urlInput.placeholder = "https://ejemplo.com";
+    urlInput.inputMode = "url";
+    urlInput.setAttribute("aria-label", "Dirección de la página favorita");
+    urlInput.required = true;
+
+    const saveButton = document.createElement("button");
+    saveButton.type = "submit";
+    saveButton.className = "facile-favorites-save";
+    saveButton.textContent = "Guardar";
+
+    const message = document.createElement("p");
+    message.className = "facile-favorites-message";
+    message.setAttribute("aria-live", "polite");
+
+    form.append(nameInput, urlInput, saveButton, message);
+
+    const list = document.createElement("div");
+    list.className = "facile-favorites-list";
+    list.setAttribute("role", "list");
+
+    const empty = document.createElement("p");
+    empty.className = "facile-favorites-empty";
+    empty.textContent = "Todavía no hay páginas guardadas. Añade tus accesos habituales aquí.";
+
+    host.append(header, form, list, empty);
+
+    let favorites = loadFavorites();
+
+    function setMessage(text, isError){
+      message.textContent = text || "";
+      message.classList.toggle("is-error", !!isError);
+    }
+
+    function render(){
+      const fragment = document.createDocumentFragment();
+      favorites.forEach(function(item){
+        const card = document.createElement("div");
+        card.className = "facile-favorite-card";
+        card.setAttribute("role", "listitem");
+
+        const link = document.createElement("a");
+        link.className = "facile-favorite-link";
+        link.href = item.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.title = item.name + " · " + item.url;
+
+        const icon = document.createElement("span");
+        icon.className = "facile-favorite-icon";
+        icon.setAttribute("aria-hidden", "true");
+        icon.textContent = (item.name || domainLabel(item.url)).trim().charAt(0).toUpperCase() || "★";
+
+        const text = document.createElement("span");
+        text.className = "facile-favorite-text";
+
+        const strong = document.createElement("strong");
+        strong.textContent = item.name;
+
+        const small = document.createElement("small");
+        small.textContent = domainLabel(item.url);
+
+        text.append(strong, small);
+        link.append(icon, text);
+
+        const remove = document.createElement("button");
+        remove.type = "button";
+        remove.className = "facile-favorite-remove";
+        remove.textContent = "×";
+        remove.dataset.favoriteId = item.id;
+        remove.setAttribute("aria-label", "Eliminar " + item.name + " de favoritas");
+        remove.title = "Eliminar";
+
+        card.append(link, remove);
+        fragment.appendChild(card);
+      });
+
+      list.replaceChildren(fragment);
+      empty.hidden = favorites.length > 0;
+      count.textContent = favorites.length + "/" + MAX_FAVORITES;
+    }
+
+    toggle.addEventListener("click", function(){
+      const willOpen = form.hidden;
+      form.hidden = !willOpen;
+      toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      toggle.textContent = willOpen ? "Cerrar" : "Añadir página";
+      setMessage("");
+      if (willOpen) nameInput.focus();
+    });
+
+    form.addEventListener("submit", function(event){
+      event.preventDefault();
+      const url = normalizeUrl(urlInput.value);
+      if (!url) {
+        setMessage("Escribe una dirección web válida.", true);
+        urlInput.focus();
+        return;
+      }
+      if (favorites.length >= MAX_FAVORITES) {
+        setMessage("Has alcanzado el límite de " + MAX_FAVORITES + " páginas.", true);
+        return;
+      }
+      if (favorites.some(function(item){ return item.url === url; })) {
+        setMessage("Esa página ya está guardada.", true);
+        return;
+      }
+
+      const name = nameInput.value.trim() || domainLabel(url);
+      favorites.unshift({ id: makeId(), name: name.slice(0, 48), url: url });
+      if (!saveFavorites(favorites)) {
+        favorites.shift();
+        setMessage("El navegador no permite guardar datos para esta página.", true);
+        return;
+      }
+
+      form.reset();
+      setMessage("Página guardada.", false);
+      render();
+      nameInput.focus();
+    });
+
+    list.addEventListener("click", function(event){
+      const button = event.target.closest(".facile-favorite-remove");
+      if (!button) return;
+      const id = button.dataset.favoriteId;
+      favorites = favorites.filter(function(item){ return item.id !== id; });
+      saveFavorites(favorites);
+      render();
+    });
+
+    window.addEventListener("storage", function(event){
+      if (event.key !== STORAGE_KEY) return;
+      favorites = loadFavorites();
+      render();
+    });
+
+    render();
+  });
+})();
+
