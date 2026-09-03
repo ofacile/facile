@@ -7606,3 +7606,36 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     margin-right: auto !important;
   }
 }
+
+/* FACILE FAVORITOS - ALINEACION DEFINITIVA CON WIDGETS V3 */
+.facile-widgets-aligned-slot{
+  width: min(100%, var(--widgets-max-width, 1100px)) !important;
+  max-width: var(--widgets-max-width, 1100px) !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  display: block !important;
+}
+
+.facile-widgets-aligned-slot > #facile-page-favorites.facile-page-favorites{
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 16px 0 22px !important;
+  box-sizing: border-box !important;
+}
+
+@media only screen and (max-width: 767px){
+  .facile-widgets-aligned-slot{
+    width: 95% !important;
+    max-width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .facile-widgets-aligned-slot > #facile-page-favorites.facile-page-favorites{
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 13px 0 19px !important;
+  }
+}
+
