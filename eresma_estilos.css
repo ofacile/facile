@@ -7564,4 +7564,45 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     scroll-behavior: auto !important;
   }
 }
+#facile-favorites-container{
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+}
 
+#facile-favorites-container > *{
+  width: min(100%, 980px) !important;
+  max-width: 980px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+.facile-favorites-widget,
+.facile-favorites-panel{
+  width: min(100%, 980px) !important;
+  max-width: 980px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+@media only screen and (max-width: 767px){
+  #facile-favorites-container{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #facile-favorites-container > *,
+  .facile-favorites-widget,
+  .facile-favorites-panel{
+    width: calc(100% - 20px) !important;
+    max-width: calc(100% - 20px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
