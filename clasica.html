@@ -1418,6 +1418,11 @@ window.facileStartWeather = function(){
 </script>
 </div>
 
+
+<!-- FACILE CLASICO: MIS PAGINAS FAVORITAS -->
+<section id="facile-classic-favorites" class="facile-classic-favorites" aria-labelledby="facileClassicFavoritesTitle">
+  <div id="facileClassicFavoritesApp"></div>
+</section>
 <div class="container">
     
     <script async="async" data-cfasync="false" src="https://ripenhopperwitty.com/425c44500552d69f3a26b7f0836c2dae/invoke.js"></script><div id="container-425c44500552d69f3a26b7f0836c2dae"></div>
@@ -2602,6 +2607,138 @@ window.facileStartWeather = function(){
   });
 })();
 </script>
+
+<script>
+/* FACILE CLASICO - FAVORITOS V2 */
+(function(){
+  "use strict";
+  const STORAGE_KEY="facilePageFavoritesV2";
+  const LEGACY_KEY="facilePageFavoritesV1";
+  const MAX_FAVORITES=500;
+  const PAGE_SIZE=60;
+
+  function normalizeUrl(value){
+    let candidate=String(value||"").trim();
+    if(!candidate) return "";
+    if(!/^[a-z][a-z0-9+.-]*:/i.test(candidate)) candidate="https://"+candidate;
+    try{
+      const url=new URL(candidate);
+      return url.protocol==="http:"||url.protocol==="https:"?url.href:"";
+    }catch(error){return "";}
+  }
+  function load(){
+    try{
+      const parsed=JSON.parse(localStorage.getItem(STORAGE_KEY)||localStorage.getItem(LEGACY_KEY)||"[]");
+      return Array.isArray(parsed)?parsed.slice(0,MAX_FAVORITES):[];
+    }catch(error){return [];}
+  }
+  function save(items){
+    try{localStorage.setItem(STORAGE_KEY,JSON.stringify(items.slice(0,MAX_FAVORITES)));return true;}
+    catch(error){return false;}
+  }
+  function id(){
+    return window.crypto&&typeof window.crypto.randomUUID==="function"?window.crypto.randomUUID():"fav-"+Date.now().toString(36)+"-"+Math.random().toString(36).slice(2,8);
+  }
+  function domain(url){try{return new URL(url).hostname.replace(/^www\./,"");}catch(error){return "Página favorita";}}
+  function favicon(url){try{return new URL("/favicon.ico",url).href;}catch(error){return "";}}
+  function catalog(){
+    const seen=new Set();
+    const result=[];
+    document.querySelectorAll(".main > .container section a[href]").forEach(function(link){
+      const url=normalizeUrl(link.getAttribute("href"));
+      if(!url||seen.has(url)) return;
+      seen.add(url);
+      result.push({name:(link.textContent||domain(url)).trim(),url:url,icon:favicon(url),source:"facile"});
+    });
+    return result;
+  }
+  function ready(callback){
+    if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",callback,{once:true});
+    else callback();
+  }
+
+  ready(function(){
+    const host=document.getElementById("facileClassicFavoritesApp");
+    if(!host||host.dataset.ready==="1") return;
+    host.dataset.ready="1";
+    host.innerHTML=`
+      <div class="classic-fav-titlebar">
+        <strong id="facileClassicFavoritesTitle">Mis páginas favoritas</strong>
+        <span class="classic-fav-count" aria-live="polite">0</span>
+      </div>
+      <div class="classic-fav-toolbar">
+        <button type="button" class="classic-fav-choose" aria-expanded="false">Elegir de Facile</button>
+        <button type="button" class="classic-fav-add" aria-expanded="false">Añadir web</button>
+      </div>
+      <div class="classic-fav-picker" hidden>
+        <label>Buscar en las páginas de Facile:</label>
+        <input type="search" class="classic-fav-picker-search" placeholder="Nombre de la página...">
+        <div class="classic-fav-picker-results" role="listbox"></div>
+      </div>
+      <form class="classic-fav-form" hidden autocomplete="off">
+        <label>Nombre opcional:<input type="text" class="classic-fav-name" maxlength="60"></label>
+        <label>Dirección web:<input type="text" inputmode="url" class="classic-fav-url" placeholder="nombredelapagina.com" required></label>
+        <button type="submit" class="classic-fav-save">Guardar</button>
+        <p class="classic-fav-message" aria-live="polite"></p>
+      </form>
+      <div class="classic-fav-list" role="list"></div>
+      <button type="button" class="classic-fav-more" hidden>Mostrar más</button>
+      <p class="classic-fav-empty">Guarda páginas de Facile o añade cualquier web escribiendo solo su dominio.</p>
+    `;
+
+    const q=function(selector){return host.querySelector(selector);};
+    const choose=q(".classic-fav-choose"), add=q(".classic-fav-add"), picker=q(".classic-fav-picker"), pickerSearch=q(".classic-fav-picker-search"), pickerResults=q(".classic-fav-picker-results"), form=q(".classic-fav-form"), nameInput=q(".classic-fav-name"), urlInput=q(".classic-fav-url"), message=q(".classic-fav-message"), list=q(".classic-fav-list"), more=q(".classic-fav-more"), empty=q(".classic-fav-empty"), count=q(".classic-fav-count");
+    let items=load(), sourceCatalog=null, visible=PAGE_SIZE;
+
+    function tell(text,error){message.textContent=text||"";message.classList.toggle("is-error",!!error);}
+    function exists(url){return items.some(function(item){return item.url===url;});}
+    function makeIcon(item){
+      const wrap=document.createElement("span");wrap.className="classic-fav-icon";wrap.setAttribute("aria-hidden","true");
+      const fallback=document.createElement("span");fallback.textContent=(item.name||domain(item.url)).charAt(0).toUpperCase()||"★";wrap.appendChild(fallback);
+      if(item.icon){const img=document.createElement("img");img.src=item.icon;img.alt="";img.loading="lazy";img.decoding="async";img.referrerPolicy="no-referrer";img.addEventListener("load",function(){fallback.hidden=true;},{once:true});img.addEventListener("error",function(){img.remove();},{once:true});wrap.appendChild(img);}
+      return wrap;
+    }
+    function addItem(data){
+      if(items.length>=MAX_FAVORITES){tell("Límite de "+MAX_FAVORITES+" favoritas alcanzado.",true);return false;}
+      if(exists(data.url)){tell("Esa página ya está guardada.",true);return false;}
+      items.unshift({id:id(),name:String(data.name||domain(data.url)).slice(0,60),url:data.url,icon:data.icon||favicon(data.url),source:data.source||"external"});
+      if(!save(items)){items.shift();tell("El navegador no permite guardar estos datos.",true);return false;}
+      render();return true;
+    }
+    function render(){
+      const fragment=document.createDocumentFragment();
+      items.slice(0,visible).forEach(function(item){
+        const card=document.createElement("div");card.className="classic-fav-card";card.setAttribute("role","listitem");
+        const link=document.createElement("a");link.className="classic-fav-link";link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.title=item.name+" · "+item.url;
+        const text=document.createElement("span");text.className="classic-fav-text";const strong=document.createElement("strong");strong.textContent=item.name;const small=document.createElement("small");small.textContent=domain(item.url);text.append(strong,small);link.append(makeIcon(item),text);
+        const remove=document.createElement("button");remove.type="button";remove.className="classic-fav-remove";remove.textContent="×";remove.dataset.id=item.id;remove.setAttribute("aria-label","Eliminar "+item.name);
+        card.append(link,remove);fragment.appendChild(card);
+      });
+      list.replaceChildren(fragment);count.textContent=String(items.length);empty.hidden=items.length>0;more.hidden=items.length<=visible;
+    }
+    function renderCatalog(term){
+      if(!sourceCatalog) sourceCatalog=catalog();
+      term=String(term||"").trim().toLocaleLowerCase("es");
+      const fragment=document.createDocumentFragment();
+      sourceCatalog.filter(function(item){return !term||item.name.toLocaleLowerCase("es").includes(term)||domain(item.url).includes(term);}).slice(0,80).forEach(function(item){
+        const button=document.createElement("button");button.type="button";button.className="classic-fav-picker-item";button.dataset.url=item.url;button.disabled=exists(item.url);
+        const text=document.createElement("span");text.className="classic-fav-text";const strong=document.createElement("strong");strong.textContent=item.name;const small=document.createElement("small");small.textContent=domain(item.url);text.append(strong,small);button.append(makeIcon(item),text);fragment.appendChild(button);
+      });
+      pickerResults.replaceChildren(fragment);
+    }
+    choose.addEventListener("click",function(){const open=picker.hidden;picker.hidden=!open;form.hidden=true;choose.setAttribute("aria-expanded",String(open));add.setAttribute("aria-expanded","false");if(open){renderCatalog("");pickerSearch.focus();}});
+    add.addEventListener("click",function(){const open=form.hidden;form.hidden=!open;picker.hidden=true;add.setAttribute("aria-expanded",String(open));choose.setAttribute("aria-expanded","false");tell("");if(open)urlInput.focus();});
+    pickerSearch.addEventListener("input",function(){renderCatalog(pickerSearch.value);});
+    pickerResults.addEventListener("click",function(event){const button=event.target.closest(".classic-fav-picker-item");if(!button||button.disabled)return;const found=sourceCatalog.find(function(item){return item.url===button.dataset.url;});if(found&&addItem(found)){renderCatalog(pickerSearch.value);}});
+    form.addEventListener("submit",function(event){event.preventDefault();const url=normalizeUrl(urlInput.value);if(!url){tell("Escribe un dominio válido, por ejemplo: wikipedia.org",true);return;}if(addItem({name:nameInput.value.trim()||domain(url),url:url,icon:favicon(url)})){form.reset();tell("Página guardada.",false);}});
+    list.addEventListener("click",function(event){const button=event.target.closest(".classic-fav-remove");if(!button)return;items=items.filter(function(item){return item.id!==button.dataset.id;});save(items);render();});
+    more.addEventListener("click",function(){visible+=PAGE_SIZE;render();});
+    window.addEventListener("storage",function(event){if(event.key===STORAGE_KEY){items=load();render();}});
+    render();
+  });
+})();
+</script>
+
 </body>
 </html>    
      
