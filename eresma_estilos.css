@@ -7607,35 +7607,179 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE FAVORITOS - ALINEACION DEFINITIVA CON WIDGETS V3 */
-.facile-widgets-aligned-slot{
-  width: min(100%, var(--widgets-max-width, 1100px)) !important;
-  max-width: var(--widgets-max-width, 1100px) !important;
-  margin: 0 auto !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
-  display: block !important;
+/* FACILE FAVORITOS MOVIL V3 - COMPACTO Y BOTONES COMO BUSCAR */
+@media only screen and (max-width: 767px){
+  .facile-page-favorites{
+    width: calc(100% - 24px) !important;
+    max-width: 520px !important;
+    margin: 12px auto 18px !important;
+    padding: 10px !important;
+    border-radius: 18px !important;
+    contain-intrinsic-size: 1px 98px !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow:
+      0 4px 12px rgba(0,0,0,0.10),
+      inset 0 1px 0 rgba(255,255,255,0.14) !important;
+  }
+
+  .facile-favorites-header{
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 9px !important;
+    align-items: center !important;
+  }
+
+  .facile-favorites-heading{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    min-width: 0 !important;
+  }
+
+  .facile-favorites-heading h2{
+    margin: 0 !important;
+    font-size: clamp(0.92rem, 4.5vw, 1.04rem) !important;
+    line-height: 1.15 !important;
+    white-space: nowrap !important;
+  }
+
+  .facile-favorites-count{
+    display: inline-grid !important;
+    place-items: center !important;
+    min-width: 28px !important;
+    height: 28px !important;
+    margin: 0 !important;
+    padding: 0 7px !important;
+    box-sizing: border-box !important;
+    font-size: 0.70rem !important;
+  }
+
+  .facile-favorites-actions{
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 7px !important;
+  }
+
+  .facile-favorites-add-toggle,
+  .facile-favorites-choose{
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 40px !important;
+    margin: 0 !important;
+    padding: 0 8px !important;
+    border-radius: 13px !important;
+    font-size: clamp(0.72rem, 3.4vw, 0.82rem) !important;
+    line-height: 1.1 !important;
+    white-space: normal !important;
+  }
+
+  .facile-favorites-form,
+  .facile-favorites-picker{
+    margin-top: 9px !important;
+    padding: 8px !important;
+    border-radius: 14px !important;
+  }
+
+  .facile-favorites-empty{
+    margin: 9px 0 0 !important;
+    padding: 8px 10px !important;
+    border-radius: 12px !important;
+    font-size: 0.76rem !important;
+    line-height: 1.35 !important;
+  }
+
+  .facile-favorites-list{
+    margin-top: 9px !important;
+    grid-auto-columns: minmax(178px, 78%) !important;
+    gap: 7px !important;
+  }
+
+  .facile-favorite-card,
+  .facile-favorites-picker-item{
+    border-radius: 13px !important;
+  }
 }
 
-.facile-widgets-aligned-slot > #facile-page-favorites.facile-page-favorites{
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 16px 0 22px !important;
-  box-sizing: border-box !important;
+/* Misma interaccion del boton Buscar del buscador */
+.facile-page-favorites .facile-favorites-add-toggle,
+.facile-page-favorites .facile-favorites-choose,
+.facile-page-favorites .facile-favorites-save,
+.facile-page-favorites .facile-favorites-more{
+  animation: none !important;
+  transform: none !important;
+  transform-origin: center center !important;
+  will-change: auto !important;
+  outline: none !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.22) !important;
+  transition:
+    filter 130ms ease,
+    box-shadow 150ms ease,
+    background-position 150ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine){
+  .facile-page-favorites .facile-favorites-add-toggle:hover,
+  .facile-page-favorites .facile-favorites-add-toggle:focus-visible,
+  .facile-page-favorites .facile-favorites-choose:hover,
+  .facile-page-favorites .facile-favorites-choose:focus-visible,
+  .facile-page-favorites .facile-favorites-save:hover,
+  .facile-page-favorites .facile-favorites-save:focus-visible,
+  .facile-page-favorites .facile-favorites-more:hover,
+  .facile-page-favorites .facile-favorites-more:focus-visible{
+    animation: none !important;
+    transform: none !important;
+    outline: none !important;
+    filter: brightness(1.08) saturate(1.05) !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.28),
+      inset 0 0 0 2px rgba(255,255,255,0.12) !important;
+  }
+}
+
+.facile-page-favorites .facile-favorites-add-toggle:active,
+.facile-page-favorites .facile-favorites-choose:active,
+.facile-page-favorites .facile-favorites-save:active,
+.facile-page-favorites .facile-favorites-more:active{
+  animation: none !important;
+  transform: none !important;
+  filter: brightness(0.96) !important;
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.14) !important;
 }
 
 @media only screen and (max-width: 767px){
-  .facile-widgets-aligned-slot{
-    width: 95% !important;
-    max-width: 95% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  .facile-widgets-aligned-slot > #facile-page-favorites.facile-page-favorites{
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 13px 0 19px !important;
+  .facile-page-favorites .facile-favorites-add-toggle,
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-save,
+  .facile-page-favorites .facile-favorites-more{
+    transition:
+      filter 90ms linear,
+      box-shadow 100ms linear !important;
   }
 }
 
+@media only screen and (max-width: 360px){
+  .facile-favorites-actions{
+    grid-template-columns: 1fr !important;
+  }
+
+  .facile-favorites-heading h2{
+    white-space: normal !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .facile-page-favorites .facile-favorites-add-toggle,
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-save,
+  .facile-page-favorites .facile-favorites-more{
+    animation: none !important;
+    transform: none !important;
+    transition-duration: 0.01ms !important;
+  }
+}
