@@ -8249,106 +8249,50 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE MOVIL - BASIC TEMATICO FIEL Y FLUIDO V14 */
+/* FACILE MOVIL - COLORES PROPIOS POR TEMA, SIN CAMBIAR EL DISEÑO V17 */
 @media only screen and (max-width: 767px){
-  /* Paleta predeterminada: Sol. */
   :root{
-    --facile-m-bg: #dbeaf4;
-    --facile-m-surface: #eef5fa;
-    --facile-m-panel: #d7e6f1;
-    --facile-m-inner: #ffffff;
-    --facile-m-title: #247fbd;
-    --facile-m-button: #2f8bc6;
-    --facile-m-border: #7894a8;
-    --facile-m-text: #1e2b36;
-    --facile-m-muted: #52616e;
-    --facile-m-on-accent: #ffffff;
-    --facile-m-shadow: 0 2px 5px rgba(20,37,52,0.14);
+    --facile-mobile-theme-accent: #2f8fd2;
+    --facile-mobile-theme-accent-soft: rgba(47,143,210,0.18);
   }
 
-  /* Luna: oscuro real. */
+  body:has(#theme-menu .theme-btn[data-theme="sol"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="sol"][aria-pressed="true"]){
+    --facile-mobile-theme-accent: #2f8fd2;
+    --facile-mobile-theme-accent-soft: rgba(47,143,210,0.18);
+  }
+
   body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
   body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
-    --facile-m-bg: #0f1728;
-    --facile-m-surface: #182338;
-    --facile-m-panel: #202e46;
-    --facile-m-inner: #293950;
-    --facile-m-title: #536bd8;
-    --facile-m-button: #5268ca;
-    --facile-m-border: #61718a;
-    --facile-m-text: #f3f6fb;
-    --facile-m-muted: #c6d0df;
-    --facile-m-on-accent: #ffffff;
-    --facile-m-shadow: 0 2px 6px rgba(0,0,0,0.28);
+    --facile-mobile-theme-accent: #6574d9;
+    --facile-mobile-theme-accent-soft: rgba(101,116,217,0.20);
   }
 
-  /* Bosque. */
   body:has(#theme-menu .theme-btn[data-theme="forest"].is-selected),
   body:has(#theme-menu .theme-btn[data-theme="forest"][aria-pressed="true"]){
-    --facile-m-bg: #dce9df;
-    --facile-m-surface: #edf5ee;
-    --facile-m-panel: #d3e5d7;
-    --facile-m-inner: #f8fcf8;
-    --facile-m-title: #29734b;
-    --facile-m-button: #317c52;
-    --facile-m-border: #708d78;
-    --facile-m-text: #1d3025;
-    --facile-m-muted: #4c6555;
+    --facile-mobile-theme-accent: #2f8b5d;
+    --facile-mobile-theme-accent-soft: rgba(47,139,93,0.18);
   }
 
-  /* Atardecer. */
   body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected),
   body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]){
-    --facile-m-bg: #f6dfd7;
-    --facile-m-surface: #fff0e9;
-    --facile-m-panel: #f3d4c9;
-    --facile-m-inner: #fff9f5;
-    --facile-m-title: #c45843;
-    --facile-m-button: #c9654f;
-    --facile-m-border: #a67b70;
-    --facile-m-text: #3c2520;
-    --facile-m-muted: #76574f;
+    --facile-mobile-theme-accent: #d86b52;
+    --facile-mobile-theme-accent-soft: rgba(216,107,82,0.19);
   }
 
-  /* Oceano. */
   body:has(#theme-menu .theme-btn[data-theme="ocean"].is-selected),
   body:has(#theme-menu .theme-btn[data-theme="ocean"][aria-pressed="true"]){
-    --facile-m-bg: #d8e9f5;
-    --facile-m-surface: #edf7fc;
-    --facile-m-panel: #cfe4f1;
-    --facile-m-inner: #f8fcff;
-    --facile-m-title: #176fa3;
-    --facile-m-button: #207aa9;
-    --facile-m-border: #698ea5;
-    --facile-m-text: #173244;
-    --facile-m-muted: #496979;
+    --facile-mobile-theme-accent: #247ead;
+    --facile-mobile-theme-accent-soft: rgba(36,126,173,0.19);
   }
 
-  /* Aurora. */
   body:has(#theme-menu .theme-btn[data-theme="aurora"].is-selected),
   body:has(#theme-menu .theme-btn[data-theme="aurora"][aria-pressed="true"]){
-    --facile-m-bg: #e5def2;
-    --facile-m-surface: #f4effa;
-    --facile-m-panel: #ded3ed;
-    --facile-m-inner: #fcf9ff;
-    --facile-m-title: #7055aa;
-    --facile-m-button: #7160b6;
-    --facile-m-border: #897aa5;
-    --facile-m-text: #302743;
-    --facile-m-muted: #665a7b;
+    --facile-mobile-theme-accent: #8167bd;
+    --facile-mobile-theme-accent-soft: rgba(129,103,189,0.19);
   }
 
-  html{ scroll-behavior: auto !important; }
-  body{
-    background-color: var(--facile-m-bg) !important;
-    background-attachment: scroll !important;
-    color: var(--facile-m-text) !important;
-    text-rendering: auto !important;
-  }
-
-  .header,
-  .header .container.logo-nav-container,
-  main.intro .container,
+  /* Acento sutil. No sustituye fondos, estructura, transparencias ni tamaños. */
   .facile-info-widget,
   .facile-search-widget,
   #facile-news-widget.facile-news-shell,
@@ -8356,449 +8300,29 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   #weather-widget.weather-widget,
   .facile-page-favorites,
   .facile-radio-panel,
-  #theme-menu.theme-menu,
-  footer,
-  footer .footer-inner,
-  .footer .footer-inner,
-  .site-footer .footer-inner{
-    background-image: none !important;
-    background-color: var(--facile-m-surface) !important;
-    color: var(--facile-m-text) !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 14px !important;
-    box-shadow: var(--facile-m-shadow) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    filter: none !important;
-  }
-
-  .header{
-    background-color: var(--facile-m-panel) !important;
-    border-top: 0 !important;
-    border-left: 0 !important;
-    border-right: 0 !important;
-    border-radius: 0 0 16px 16px !important;
-  }
-
-  .header .container.logo-nav-container,
-  main.intro .container{
-    background-color: var(--facile-m-surface) !important;
-  }
-
-  #facile-news-widget .facile-news-card,
-  #weather-content > div:last-child > div,
-  .facile-favorite-card,
-  .facile-favorites-picker,
-  .facile-favorites-form,
-  .facile-radio-now,
-  .facile-radio-volume,
-  .facile-radio-row,
-  .facile-radio-loading-row{
-    background-image: none !important;
-    background-color: var(--facile-m-inner) !important;
-    color: var(--facile-m-text) !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 11px !important;
-    box-shadow: none !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
+  #theme-menu.theme-menu{
+    border-color: color-mix(
+      in srgb,
+      var(--facile-mobile-theme-accent) 38%,
+      rgba(255,255,255,0.24) 62%
+    ) !important;
   }
 
   main.intro .container > h3,
-  #facile-news-widget > h2,
-  #weather-content > h3,
-  #theme-menu > h3{
-    color: var(--facile-m-on-accent) !important;
-    background-image: none !important;
-    background-color: var(--facile-m-title) !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 10px !important;
-    box-shadow: none !important;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
-  }
-
-  .facile-info-widget,
-  .facile-info-widget:visited,
-  .facile-favorites-heading h2,
-  .facile-favorite-link,
-  .facile-favorite-text strong,
-  .facile-radio-header,
-  .facile-radio-header strong,
-  .facile-radio-now-text strong,
-  .facile-radio-row,
-  .facile-radio-row-text strong,
-  #theme-menu h4{
-    color: var(--facile-m-text) !important;
-    text-shadow: none !important;
-  }
-
-  .facile-favorite-text small,
-  .facile-radio-header span,
-  .facile-radio-now-text span,
-  .facile-radio-row-text em,
-  .facile-radio-note{
-    color: var(--facile-m-muted) !important;
-    text-shadow: none !important;
-    opacity: 1 !important;
-  }
-
-  input,
-  select,
-  textarea,
-  .facile-search-input,
-  .facile-radio-search input,
-  .facile-radio-controls select,
-  .facile-favorites-form input,
-  .facile-favorites-picker > input,
-  #city-input,
-  #theme-menu #bg-url{
-    color: #1e2b39 !important;
-    -webkit-text-fill-color: #1e2b39 !important;
-    background: #ffffff !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 9px !important;
-    box-shadow: inset 0 1px 2px rgba(18,32,46,0.10) !important;
-  }
-
-  input::placeholder,
-  textarea::placeholder,
-  #city-input::placeholder,
-  #theme-menu #bg-url::placeholder{
-    color: #687685 !important;
-    opacity: 1 !important;
-  }
-
-  #facileSearchForm #facileSearchSubmit,
-  #weather-widget button,
-  .facile-page-favorites .facile-favorites-add-toggle,
-  .facile-page-favorites .facile-favorites-choose,
-  .facile-page-favorites .facile-favorites-save,
-  .facile-page-favorites .facile-favorites-more,
-  .facile-radio-search button,
-  .facile-radio-main-control,
-  .facile-radio-small-control,
-  .facile-radio-home-control,
-  .facile-radio-favs-control,
-  .facile-radio-volume-toggle,
-  .facile-radio-button,
-  #theme-toggle.theme-toggle-btn,
-  #theme-menu button[onclick="applyCustomBackground()"],
-  #theme-menu .theme-bg-file-btn{
-    color: #ffffff !important;
-    background-image: none !important;
-    background-color: var(--facile-m-button) !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 10px !important;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24) !important;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.30) !important;
-  }
-
-  #theme-menu button[onclick="clearCustomBackground()"]{
-    color: #253344 !important;
-    background-image: none !important;
-    background-color: #d9e0e8 !important;
-    text-shadow: none !important;
-  }
-
-  .mobile-menu-native > ul.mobile-menu-list{
-    background-image: none !important;
-    background-color: var(--facile-m-panel) !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 14px !important;
-    box-shadow: var(--facile-m-shadow) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-  }
-
-  .mobile-menu-native > ul.mobile-menu-list > li > a{
-    color: var(--facile-m-text) !important;
-    background-image: none !important;
-    background-color: var(--facile-m-inner) !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 10px !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  #facile-news-widget .facile-news-summary,
-  #facile-news-widget .facile-news-description,
-  #facile-news-widget .facile-news-excerpt,
-  #facile-news-widget .facile-news-content > p,
-  #facile-news-widget .facile-news-card > div > p{
-    color: #24313f !important;
-    -webkit-text-fill-color: #24313f !important;
-    background: #ffffff !important;
-    border: 1px solid var(--facile-m-border) !important;
-    border-radius: 10px !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    opacity: 1 !important;
-  }
-
-  #facile-news-widget .facile-news-source{
-    color: var(--facile-m-text) !important;
-    -webkit-text-fill-color: var(--facile-m-text) !important;
-    text-shadow: none !important;
-    opacity: 1 !important;
+  #facile-news-widget .facile-news-title,
+  #weather-content > h3{
+    background: linear-gradient(
+      90deg,
+      var(--facile-mobile-theme-accent),
+      color-mix(in srgb, var(--facile-mobile-theme-accent) 72%, white 28%)
+    ) !important;
   }
 
   #facile-news-widget .facile-news-date{
-    color: var(--facile-m-button) !important;
-    -webkit-text-fill-color: var(--facile-m-button) !important;
-    text-shadow: none !important;
-    opacity: 1 !important;
-  }
-
-  *,
-  *::before,
-  *::after{
-    animation: none !important;
-    scroll-behavior: auto !important;
-  }
-
-  .navigation a,
-  .mobile-menu-native > ul.mobile-menu-list,
-  .mobile-menu-native > ul.mobile-menu-list > li > a,
-  button,
-  input,
-  select,
-  .logo img,
-  .facile-news-card,
-  .facile-favorite-card,
-  .facile-radio-panel,
-  #theme-menu.theme-menu{
-    transition-duration: 0.01ms !important;
-    will-change: auto !important;
-  }
-
-  button:hover,
-  button:focus-visible,
-  button:active,
-  .navigation a:hover,
-  .navigation a:focus-visible,
-  .logo img:hover{
-    transform: none !important;
-  }
-
-  button:active{ filter: brightness(0.94) !important; }
-
-  /* Los iconos no se ocultan por content-visibility al acercarse a cada sección. */
-  main.intro .container > section:not(#facile-news-widget){
-    content-visibility: visible !important;
-    contain: layout style !important;
-  }
-
-  #facile-news-widget,
-  .widget-box.ticker-widget,
-  #weather-widget,
-  .facile-page-favorites{
-    content-visibility: auto !important;
-    contain: layout style !important;
-  }
-
-  img{
-    filter: none !important;
-    transform: none !important;
-    will-change: auto !important;
-    backface-visibility: visible !important;
-  }
-}
-
-/* FACILE MOVIL - PULIDO TEMATICO Y MENU TEMAS V15 */
-@media only screen and (max-width: 767px){
-  /* Sombras tematicas simples: una exterior y una linea interior. */
-  :root{
-    --facile-m-shadow-soft:
-      0 3px 8px color-mix(in srgb, var(--facile-m-title) 18%, rgba(0,0,0,0.16) 82%),
-      inset 0 1px 0 rgba(255,255,255,0.34);
-    --facile-m-shadow-panel:
-      0 5px 12px color-mix(in srgb, var(--facile-m-title) 16%, rgba(0,0,0,0.20) 84%),
-      inset 0 1px 0 rgba(255,255,255,0.30);
-    --facile-m-close-bg: color-mix(in srgb, var(--facile-m-title) 78%, var(--facile-m-panel) 22%);
-    --facile-m-close-border: color-mix(in srgb, var(--facile-m-title) 58%, var(--facile-m-border) 42%);
-  }
-
-  /* Luna necesita sombras neutras y no azul luminoso. */
-  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
-  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
-    --facile-m-shadow-soft:
-      0 3px 8px rgba(0,0,0,0.32),
-      inset 0 1px 0 rgba(255,255,255,0.12);
-    --facile-m-shadow-panel:
-      0 6px 14px rgba(0,0,0,0.38),
-      inset 0 1px 0 rgba(255,255,255,0.11);
-  }
-
-  .header .container.logo-nav-container,
-  .facile-info-widget,
-  .facile-search-widget,
-  #facile-news-widget.facile-news-shell,
-  .widget-box.ticker-widget,
-  #weather-widget.weather-widget,
-  .facile-page-favorites{
-    box-shadow: var(--facile-m-shadow-soft) !important;
-  }
-
-  .facile-radio-panel,
-  #theme-menu.theme-menu,
-  .mobile-menu-native > ul.mobile-menu-list{
-    box-shadow: var(--facile-m-shadow-panel) !important;
-  }
-
-  /* Panel de Temas más limpio y separado del contenido de la página. */
-  #theme-menu.theme-menu{
-    padding: 14px !important;
-    padding-top: 62px !important;
-    border-radius: 14px !important;
-    overflow-x: hidden !important;
-  }
-
-  #theme-menu > h3{
-    min-height: 64px !important;
-    margin: 0 0 14px !important;
-    padding: 10px 54px 10px 14px !important;
-    display: grid !important;
-    align-content: center !important;
-    justify-items: center !important;
-    border-radius: 11px !important;
-    background-color: var(--facile-m-title) !important;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24) !important;
-  }
-
-  #theme-menu > h3::after{
-    max-width: 100% !important;
-    margin-top: 5px !important;
-    color: rgba(255,255,255,0.90) !important;
-    text-shadow: none !important;
-  }
-
-  /* X sólida, centrada y con contraste en todos los temas. */
-  #theme-menu .theme-menu-close{
-    position: absolute !important;
-    top: 74px !important;
-    right: 24px !important;
-    left: auto !important;
-    bottom: auto !important;
-    z-index: 30 !important;
-    width: 38px !important;
-    height: 38px !important;
-    min-width: 38px !important;
-    min-height: 38px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    display: grid !important;
-    place-items: center !important;
-    color: #ffffff !important;
-    background-image: none !important;
-    background-color: var(--facile-m-close-bg) !important;
-    border: 1px solid var(--facile-m-close-border) !important;
-    border-radius: 10px !important;
-    box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.24),
-      0 2px 5px rgba(0,0,0,0.18) !important;
-    font-size: 1.40rem !important;
-    font-weight: 900 !important;
-    line-height: 1 !important;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.28) !important;
-    transform: none !important;
-    filter: none !important;
-  }
-
-  #theme-menu .theme-menu-close:hover,
-  #theme-menu .theme-menu-close:focus-visible{
-    color: #ffffff !important;
-    background-color: var(--facile-m-close-bg) !important;
-    outline: 2px solid color-mix(in srgb, var(--facile-m-title) 62%, #ffffff 38%) !important;
-    outline-offset: 2px !important;
-    transform: none !important;
-    filter: brightness(1.06) !important;
-  }
-
-  #theme-menu .theme-menu-close:active{
-    transform: none !important;
-    filter: brightness(0.90) !important;
-    box-shadow: inset 0 2px 3px rgba(0,0,0,0.22) !important;
-  }
-
-  /* Botones de temas: colores propios, sombra pequeña y forma uniforme. */
-  #theme-menu .theme-buttons{
-    gap: 8px !important;
-    margin-bottom: 16px !important;
-    padding: 0 !important;
-    background: transparent !important;
-    border: 0 !important;
-    box-shadow: none !important;
-  }
-
-  #theme-menu .theme-btn{
-    min-height: 50px !important;
-    border: 1px solid rgba(255,255,255,0.30) !important;
-    border-radius: 10px !important;
-    box-shadow:
-      0 2px 5px rgba(0,0,0,0.16),
-      inset 0 1px 0 rgba(255,255,255,0.26) !important;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
-    transform: none !important;
-    filter: none !important;
-  }
-
-  #theme-menu .theme-btn:hover,
-  #theme-menu .theme-btn:focus-visible{
-    transform: none !important;
-    filter: brightness(1.05) !important;
-    outline: 2px solid color-mix(in srgb, var(--facile-m-title) 58%, #ffffff 42%) !important;
-    outline-offset: 1px !important;
-  }
-
-  #theme-menu .theme-btn:active{
-    transform: none !important;
-    filter: brightness(0.92) !important;
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.22) !important;
-  }
-
-  /* Fondo personalizado con jerarquía clara. */
-  #theme-menu hr{
-    height: 1px !important;
-    margin: 14px 0 !important;
-    background: var(--facile-m-border) !important;
-    opacity: 0.62 !important;
-  }
-
-  #theme-menu h4{
-    margin: 0 0 10px !important;
-    color: var(--facile-m-text) !important;
-    font-size: 1rem !important;
-  }
-
-  #theme-menu .theme-bg-row{
-    padding: 0 !important;
-    background: transparent !important;
-    border: 0 !important;
-    box-shadow: none !important;
-  }
-
-  #theme-menu button[onclick="applyCustomBackground()"],
-  #theme-menu button[onclick="clearCustomBackground()"]{
-    min-height: 44px !important;
-    margin-top: 8px !important;
-    border-radius: 10px !important;
-    box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.22),
-      0 2px 5px rgba(0,0,0,0.12) !important;
-  }
-
-  #theme-menu button[onclick="clearCustomBackground()"]{
-    color: #263543 !important;
-    background-color: #d9e0e8 !important;
-    border-color: #8797a8 !important;
-    text-shadow: none !important;
-  }
-
-  /* Columna flotante: sombra temática suave y consistente. */
-  .facile-radio-button,
-  #theme-toggle.theme-toggle-btn{
-    box-shadow:
-      0 3px 8px color-mix(in srgb, var(--facile-m-title) 28%, rgba(0,0,0,0.22) 72%),
-      inset 0 1px 0 rgba(255,255,255,0.24) !important;
+    color: color-mix(
+      in srgb,
+      var(--facile-mobile-theme-accent) 78%,
+      white 22%
+    ) !important;
   }
 }
