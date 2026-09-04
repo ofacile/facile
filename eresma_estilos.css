@@ -7830,3 +7830,75 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     -webkit-backdrop-filter: none !important;
   }
 }
+
+/* FACILE - TONALIDAD TOTAL DE TODOS LOS WIDGETS PRINCIPALES */
+/* Fecha, hora, buscador y noticias comparten la misma superficie de favoritos. */
+.facile-info-widget,
+.facile-search-widget,
+#facile-news-widget.facile-news-shell{
+  background: var(--facile-main-widget-bg) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--facile-main-widget-border) !important;
+  box-shadow: var(--facile-main-widget-shadow) !important;
+}
+
+/* El marco exterior de Noticias deja de usar el negro independiente anterior. */
+#facile-news-widget.facile-news-shell{
+  color: #ffffff !important;
+}
+
+/* La tarjeta mantiene contraste, pero deriva del mismo tono en vez del gris neutro. */
+#facile-news-widget .facile-news-card{
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--glass-bg) 72%, rgba(255,255,255,0.16) 28%),
+      color-mix(in srgb, var(--glass-bg) 76%, rgba(255,255,255,0.20) 24%)
+    ) !important;
+  border: 1px solid rgba(255,255,255,0.16) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.16),
+    0 4px 11px rgba(0,0,0,0.09) !important;
+}
+
+/* Compatibilidad: algunos navegadores no mezclan una variable que contiene un gradiente. */
+@supports not (background: color-mix(in srgb, red 50%, blue 50%)){
+  #facile-news-widget .facile-news-card{
+    background: rgba(255,255,255,0.16) !important;
+  }
+}
+
+/* Mantiene transparentes las piezas internas del buscador para que se vea una sola superficie. */
+#facileSearchForm.facile-search-form{
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 767px){
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell{
+    background: var(--facile-main-widget-bg) !important;
+    border-color: var(--facile-main-widget-border) !important;
+    box-shadow:
+      0 4px 12px rgba(0,0,0,0.10),
+      inset 0 1px 0 rgba(255,255,255,0.14) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  #facile-news-widget .facile-news-card{
+    background:
+      linear-gradient(
+        135deg,
+        rgba(255,255,255,0.15),
+        color-mix(in srgb, var(--primary-color) 13%, rgba(255,255,255,0.11) 87%)
+      ) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.14),
+      0 3px 8px rgba(0,0,0,0.08) !important;
+  }
+}
