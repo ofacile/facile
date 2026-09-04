@@ -8088,3 +8088,43 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     filter: brightness(0.94) !important;
   }
 }
+
+/* FACILE NOTICIAS - TEXTO DEL RESUMEN SIEMPRE LEGIBLE V10 */
+#facile-news-widget .facile-news-summary,
+#facile-news-widget .facile-news-description,
+#facile-news-widget .facile-news-excerpt,
+#facile-news-widget .facile-news-content > p,
+#facile-news-widget .facile-news-card > div > p{
+  color: #24313f !important;
+  -webkit-text-fill-color: #24313f !important;
+  opacity: 1 !important;
+  background: rgba(247, 250, 252, 0.96) !important;
+  border: 1px solid rgba(255, 255, 255, 0.72) !important;
+  text-shadow: none !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+#facile-news-widget .facile-news-summary *,
+#facile-news-widget .facile-news-description *,
+#facile-news-widget .facile-news-excerpt *,
+#facile-news-widget .facile-news-content > p *,
+#facile-news-widget .facile-news-card > div > p *{
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+  mix-blend-mode: normal !important;
+}
+
+@media only screen and (max-width: 767px){
+  #facile-news-widget .facile-news-summary,
+  #facile-news-widget .facile-news-description,
+  #facile-news-widget .facile-news-excerpt,
+  #facile-news-widget .facile-news-content > p,
+  #facile-news-widget .facile-news-card > div > p{
+    color: #24313f !important;
+    -webkit-text-fill-color: #24313f !important;
+    background: rgba(247, 250, 252, 0.98) !important;
+  }
+}
