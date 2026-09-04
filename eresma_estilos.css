@@ -7783,3 +7783,50 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     transition-duration: 0.01ms !important;
   }
 }
+
+/* FACILE - TONALIDAD UNIFICADA TICKER, TIEMPO Y FAVORITOS */
+:root{
+  --facile-main-widget-bg:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--glass-bg) 78%, rgba(255,255,255,0.12) 22%),
+      color-mix(in srgb, var(--glass-bg) 84%, var(--primary-color) 16%)
+    );
+  --facile-main-widget-border: rgba(255,255,255,0.15);
+  --facile-main-widget-shadow:
+    0 5px 14px rgba(0,0,0,0.10),
+    inset 0 1px 0 rgba(255,255,255,0.16);
+}
+
+/* Los tres contenedores usan ahora exactamente la misma superficie. */
+.facile-page-favorites,
+#weather-widget.weather-widget,
+.widget-box.ticker-widget{
+  background: var(--facile-main-widget-bg) !important;
+  border: 1px solid var(--facile-main-widget-border) !important;
+  box-shadow: var(--facile-main-widget-shadow) !important;
+}
+
+/* Evita que el fondo gris anterior del tiempo reaparezca al cambiar de tema. */
+#weather-widget.weather-widget{
+  background-color: transparent !important;
+}
+
+/* El ticker conserva su estructura interna, pero su marco exterior comparte tono. */
+.widget-box.ticker-widget{
+  background-color: transparent !important;
+}
+
+@media only screen and (max-width: 767px){
+  .facile-page-favorites,
+  #weather-widget.weather-widget,
+  .widget-box.ticker-widget{
+    background: var(--facile-main-widget-bg) !important;
+    border-color: var(--facile-main-widget-border) !important;
+    box-shadow:
+      0 4px 12px rgba(0,0,0,0.10),
+      inset 0 1px 0 rgba(255,255,255,0.14) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+}
