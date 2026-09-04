@@ -1,47 +1,39 @@
 {
-  "updatedAt": "2026-09-04T19:03:47.254370+00:00",
+  "updatedAt": "2026-09-04T21:42:02.284802+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "Castilla-La Mancha rechaza el nuevo modelo de financiación: \"Es el más insolidario de la democracia\"",
-      "source": "cadenaser.com",
-      "summary": "Castilla-La Mancha rechaza el nuevo modelo de financiación: \"Es el más insolidario de la democracia\" cadenaser.com Andalucía rechaza un modelo de financiación que la sitúa por debajo de la media en recursos y \"consolida la desigualdad entre españoles\" El Mundo",
+      "source": "Cadena SER",
+      "summary": "Castilla-La Mancha rechaza el nuevo modelo de financiación: \"Es el más insolidario de la democracia\" Cadena SER El Gobierno impone al 90% de las comunidades el modelo de financiación de Junqueras mientras \"racanea todo\" a Ceuta El Mundo El nuevo modelo de fina",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZjdNUzJfSlMxOGJFUnNaNEFBTFhYU1dnX1hDVmJqN2Q3ZjNOb2MzWkZkVXlnTVkwT1BRTTc4Z2JnZ2xTOUdvWGpzakZ0cWFacU5aVXVCdGI5MVhmWjZ6MUtBaFdkMGV0dk05Wms1ZVhVUXp3TEZRREozUERBQ2RSRmlNMEhKSjBQZVFWQmRENlpwU3ozYjQ0NXFqMTJtaUlTbUVBN2hmdDJuVUNYN0Z1NGVBR0lxTDlPLUpoQXVwd0ptSWdkZ0NEZ1Vmb2IyUEc2UmRBWHdXSS03MEtweW0zZjRnb21XNVRhYzZISDFHeWvSAYQCQVVfeXFMTW1rODhXcEtsUnpTQVdBQTZmem1US1V3cjhwTC01Y3QwcTFsS0xFc1R5YzdBS21PNnVWc3FnYjdOSG9Zd1BibXgxdTZKbWxBZkU1REluLXBNTzdSSkc1MV9fVFFoalRMYm84WlNLZkZQa3RGbkFTTWZzekMxdTBjMkdBZ2xUX2syNXpOcHFsQ2EyZ1BwNVhUcDRQamRJYlBjR0dTVnBVOF9aX2lPOUZkSVhpWWM0TWRhU2xpNXFSWWFWX3ZjUTVlNzYxR1MzVGZ3dUNEMVh5TXFqTFdsNGJzSWVFUEpaTzFWcG5rMGRpWUZQYXJWelRuejhwMFp1dlF2bmlhdlo?oc=5",
       "pubDate": "Fri, 04 Sep 2026 15:48:39 GMT"
     },
     {
-      "title": "Jupol asegura que hay \"represalias\" a los agentes tras sacar el informe sobre la crisis de Ceuta: \"Hay acoso gubernamental al más alto nivel desde ayer\"",
-      "source": "El Economista",
-      "summary": "Jupol asegura que hay \"represalias\" a los agentes tras sacar el informe sobre la crisis de Ceuta: \"Hay acoso gubernamental al más alto nivel desde ayer\" El Economista La Guardia Civil se alinea con el Gobierno ante la jueza de la crisis de Ceuta y niega alerta",
+      "title": "Policías denuncian \"represalias\" del Gobierno a los agentes que hicieron el informe de Ceuta que señala a Marruecos",
+      "source": "El Español",
+      "summary": "Policías denuncian \"represalias\" del Gobierno a los agentes que hicieron el informe de Ceuta que señala a Marruecos El Español La Guardia Civil se alinea con el Gobierno ante la jueza de la crisis de Ceuta y niega alertas previas El Mundo La Guardia Civil entr",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQdnBOeGF0dGd1M0dhUVlPZl9NMXJfZzhXNnpLS0ExMko5VmlXYTBZMkFIclRyQWl5b3pQZWpwWmJqMW1KanhJbjYycWhZMDlCWTluRnJOc040ZjZIMGxLYXRkeGhvY2YxN2JybzBENDJsZFZnVXB5SGhLbzllUzhWblJrQ21fUHZmWTNDWVdzS3diNE5BbTB4R09Xb2dWaURPa2VMQ1JieU9wSV8za2RLS1pFNlVOLXNYZlB4NjFybUFnQVd4Rm1xeGtUdHlPWGFSNnZ0WklhclVPaTRET2IzbzhCNXpOUmRVM1BPMVM2VUlFVzU1OGFIY2JPZ1YxLV9zV09tdXFZbDhqanJYQWxXeGIyQlNQek15VDBSbHJ5dWVrWGtsNWNZcWY2RlF0LUNEMzh5QjRfQnLSAaMCQVVfeXFMUEp3QkZQRTNYSkRnbDV5ODE0UEtEdTI3TFdSbzRiQzE3NkdNbXR3ZG9IM1FSc2RSNnBxQkh0ZUx1Q3kxQWw1blhOZ2JhM0JZc1R1aFBjUXF6UW56SU9tbXdTZUh4Z2dLb050d25lV0lDVVlrR1VFRzRyUTRkaUNMS2l2am5helNWRElqbjFEVE0zd3NFVVp6OExBaFA4M3dWbTA5UUlNeTd1Z1J3T21lVFplUGNWWFh6aU1RTUdPeTNKUWdZeHkwWmd5TUx3NlltZFFKQnJ0aDg4amR6MkRpR2NOQjVyYVNUVFVyV28wU2NtcGNtTi1xSzVLaEhaVmFqU1lKQklXcjhTT0l5WHRvdndBSGVDZ2d5VlFsckJndHBNb2xN?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 11:25:06 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeVM3MExjenRSeTJNdTBqYUlDcGhIaGtHTHNxLWtVblJRVTRrdFBjTlB0YjV4ZWlQRGlmT1J1dWptVEt1QTNVLXdCd0ZRbHFVVk4wVVNsS2Q0NGFQUkR6ZlRfVGtxelNxeHZ5RzdoNFB1Qi0zRHUtbFFxTGFiOEVrd2VHVFVxLVBwNk8tcGhDTHZsRVI0TkNoWXRaTW5PWkw5VUNTNHk1N0FqcWt5dkdiVk5wZGRIZVFsTnBNY01rclUzek5lU2NZeEFraXFfMUpCb0lucnQwNlJUYXpjdGFSdlBaSmfSAeoBQVVfeXFMT0ZuRzh6UG9lMmF6QlUzaXl6Ul9yOGZUTlg2dTl2OTluYzF3eFA4UmdKaWlpT3V5TkZ6X0lyN3JlUzhqNnd5aVEyVW5nTUVaN1ljSzY0SDNxNUctOHVacDFDOG9zZDZYRTB0Ny1PX1E0LWhDSmJqRlZqMnBjZmJzRERJRXA4U2l2Y3pNVjFjS0g4M0twaERjbzN1anI2aG9XUE4yVUZoWVlvS2diRUh4dUg5elJBQjdXejdWOGdoWk5vZ21NOTBncFRyVU91X01sT3dNbEhWS2NhalBkOTNveFZsTWgyS0R5ZjFR?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 11:27:19 GMT"
     },
     {
-      "title": "La Fiscalía respalda que la Audiencia Nacional investigue la crisis de Ceuta y pide el secreto parcial",
-      "source": "heraldo.es",
-      "summary": "La Fiscalía respalda que la Audiencia Nacional investigue la crisis de Ceuta y pide el secreto parcial heraldo.es La Fiscalía avala que la Audiencia Nacional inicie una investigación por la crisis migratoria de Ceuta EL PAÍS La Fiscalía respalda que la Audienc",
+      "title": "¿Qué pasará ahora que un juez declaró nulo el juicio contra Lindsay Clancy, la madre acusada de matar a sus tres hijos en EE.UU.?",
+      "source": "BBC",
+      "summary": "¿Qué pasará ahora que un juez declaró nulo el juicio contra Lindsay Clancy, la madre acusada de matar a sus tres hijos en EE.UU.? BBC El juicio a Lindsay Clancy por matar a sus tres hijos es declarado nulo por el bloqueo del jurado EL PAÍS El abogado de Clancy",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObmRQUnRFTUVyczdjSUFKSEFmdXlfZmdYeTFUNl9URVhSdElNU1hqRjhqZlQxZTN3bFdDeE5IMmZWY3ctWTdHZUNzdDJSV2JwaEZGRFkxcmlJb1VGdUNhNWY0SGJFNEV4aFBnTXBYZDBscnlPN2lnREZOS0xMVDVkSEZHVThGdXNhX0ZzWGFDeE0xNFplb1ZiSHNZbF91RlRuczFTVFo2NlpPRVlmOFhxZHpySWFfOGRELVpVZnZvX0VJMUpFc1g3VXkwSHpuLVVLcWNBaGZQWjHSAd4BQVVfeXFMUHpYdGZCTktMNVJveUFVMU5wX2xIeTJiR0xjbjlRcmtqckZ5dlg5dmk1TG56VWh6MVdncHVfemJRZ1BSeGRaR0loVmRrbTJlczZwVHk1NU1ZUzVKa2JFWHo0MmNSWEVBOGxyUldLdEhGZ3A5WjJqMWwxMnUtSFRlQTZFcEdlVVBMRFdkaXhuM2FXUHR6clA5TlUyOU42R2VXSWtRTldBT3BPcTB2V2dOLTlGN0ZmbjJfN1NBV0N2R1dqSXVsblpZZTItQ3Qycl9Yc18tRURDMVNvVmk2eGRR?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 13:32:20 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hcE1Tb0tDb3ZvOXdIakdvLXFGMGFmYVpzRVdLZFdjMHVCVUlad1FNRGFIVWlkYjZhcnM0MGtSaEQ3NTNtNnJnRmtMdHdnd09TQ1BrMm1nbXlJcFHSAWBBVV95cUxNc1V1N3JCMEdwWEZabEdVYWNOV096NlVvQTRiTFNJX1lrTm5nYWdzX0UtdWtzeHJVMXNIR1UwUms1SFd1YnF5aGgtTUVnOTktSXkxVk9qNm9lb0U2Y3BaOEc?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 18:41:35 GMT"
     },
     {
-      "title": "Begoña Gómez pide su absolución y alude a las memorias de Ana Botella para defender el papel de su asistente",
-      "source": "elDiario.es",
-      "summary": "Begoña Gómez pide su absolución y alude a las memorias de Ana Botella para defender el papel de su asistente elDiario.es Begoña Gómez pide su absolución y defiende que no influyó en los cargos de la universidad ni en ninguna autoridad para crear la cátedra EL",
+      "title": "Última hora de Ceuta, en directo | Ceuta se personará como acusación particular en la causa de Audiencia Nacional por la entrada masiva",
+      "source": "Levante-EMV",
+      "summary": "Última hora de Ceuta, en directo | Ceuta se personará como acusación particular en la causa de Audiencia Nacional por la entrada masiva Levante-EMV La Fiscalía avala que la Audiencia Nacional inicie una investigación por la crisis migratoria de Ceuta EL PAÍS L",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSGtoemo0cHBaN2c2MWJlaEoxODNSZDhuUTRBUmRhempvdDNaUHh3aFFkU0NqQ2ZwTWNjaFllOXZHYXdvcUFjNnBST01WSHU4NUVuRE4xdEktaUJqNzhJTUYyaHcwdmpRVXprc3p2aUJDZ1ExY2JGcHJSR2ZtTjdHSlpzdC1FbGJrODAwU0RsU0VzLWhKbzVEY00yUG91MjJMX0FNTmlYdVFFUjZBQUFSLUt4cy0wSlJEbWVvZnJCSEdYZnpITmg1eA?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 11:56:18 GMT"
-    },
-    {
-      "title": "El juicio contra Lindsay Clancy, declarado nulo tras un bloqueo del jurado",
-      "source": "La Voz de Galicia",
-      "summary": "El juicio contra Lindsay Clancy, declarado nulo tras un bloqueo del jurado La Voz de Galicia El juez declara nulo el juicio a Lindsay Clancy por matar a sus tres hijos por el bloqueo del jurado EL PAÍS El juez declara nulo el juicio contra Lindsay Clancy, la m",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUEx2cXFHR09Ibkc4eXZrZzQyRF9pemcySmp3SUlVOHdpM09ScTgxZjM5a2tXckZ6UHZqYXFMQnI0eE1oTXFPT1B6LUJTVG5YS0I2RUZ5OURGTHNvVGlPMlVYM2F5eG9wMUl0N3ctTTlkZjZnUWpTX1VrajZORi0wcnVjeTRxZF9BN1YzMzlYbVZvcEdZV1g5cjduelA1Q3paWFNpZldrb3VEeGRqUW5Ta1lXajI0RTVaS2RseDg1eUNUR0RyalNaaWU3ZzBHTTdIeklMMWZPSmJFU2J40gH4AUFVX3lxTE9WZXhkU29WdmVMajhYa09JYWtmM1dJUmZyNlV6RXNvZHp3a213bEtONEp1MTJjVTNKMVE1eHFlZ3p1RkxGeUNCZlNaOG1vRmRMdmh0UXFtRWo0Vkl6VmZRdFZtQlZPSmhmQ3dSZmZsamcyaERKdmZYV1g0dmdBYUl3MUJzYmhaX3drZm5GcG16d09QeVEwd1kzb0NUM0JmSEtXbDNNTG1XV1JoY3JrR3lQOXh3VVM5MEs5b1JTR3BvS3RCaXRlbXdOSkpYemdXQ21tOEZLM2wzRUlKYWFRd043UTNzbFhYV0N6eHp1NXo1UTFrQ2U4ZkJl?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 16:18:14 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNVJOWmc2S0hCUkg4MkFlSDV5eVB5MUhCS1UxWXljZU5xM0loakNyRklEc29lVG9wM24xVHoxcno5TDNvZjVaaTBVdmJ2WldNTVkwcWtKVWNESENTX29vM2Jtb0NuY3lnOFNZaEoyNEFuN3Fsa1R0OEdLN0k3OVNKVk82LUxaOGNwS1pOMXdwUmxMQXZNeE5YbUlRNnZ5eWRodS1v0gGoAUFVX3lxTFA5bmx4bGtvYjlNTkpfaW00a1k3UWlnMWV5ZVpMM1NzdWVrSDFsX1NQX3JzR2syUmJwQVBCYkUwRHEyMk1qZk81aXdLY1lYSU9Cdjh4YXNIMk5qU0hOcDVGV184LTRJczFZczJvNWpCMnFwZ3kwVXdDNkZrWkVKMkotdGtZSkViSlBBd1R6d1FvZjVHaVlqVTh0Z2RQdHU1SlNQLTctYnNXMQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 16:14:52 GMT"
     },
     {
       "title": "Maestros interinos: curso 2026/2027. AISI 1 - Adjudicación",
@@ -52,20 +44,28 @@
       "pubDate": "Fri, 04 Sep 2026 11:30:00 GMT"
     },
     {
-      "title": "El PP cree que tanto una posible dejación de funciones como las muertes en la crisis de Ceuta pueden llevar al Gobierno al Supremo",
-      "source": "20minutos.es",
-      "summary": "El PP cree que tanto una posible dejación de funciones como las muertes en la crisis de Ceuta pueden llevar al Gobierno al Supremo 20minutos.es Feijóo acusa a Sánchez de \"ignorar\" los avisos en Ceuta y pide coger la fuerza de la \"rabia\" para echar a Sánchez he",
+      "title": "Noticias",
+      "source": "Ayuntamiento de Pinto",
+      "summary": "Noticias Ayuntamiento de Pinto Feijóo y Abascal unen fuerzas en la protesta por Ceuta y acusan a Sánchez de “mentir” a los españoles: “Es un traidor” EL PAÍS Un clamor transversal de cientos de miles de personas \"en defensa de Ceuta\" aísla más al 'sanchismo' E",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQkx6R3dKMUJya0JVWDE2WVdNTTdXTzhZb3pCQkV5ZldRUUNHVTg1bEJTMkhlaHJqVHVXQ2h6T3RpQmNNdGZiUUFDd1dVNHZVU0gyTTVUdWVBRThFbUZWYWVpSmgtVkd2M21oSkNzTXp2NzRtS0h0OGhZNHp1RTNham1Na0U5ZGJqVlNJdm9DVl9NVS02d0tjQVh3WGtGTDJfczV3N0p2Q2Q3QWZ6NmE2aGFfLTJtdUVhWEFYblNKV0Q2Y2NKYTF4bUdJclc3RGNmekZ4VFEzNjhydGx4TTRzUXViTTMwdVJadTQ2blVYdw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 03:00:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HMzlNWnljdzIzeGtBcEM5Zk1MUC11dkstcmZFRWN1Wkw1YkdUWlJUb2JKSWJhMDhWZjR1OVZyekdJanVGa1pLWWxQU3BRUldPYWlhOWhCbDlTTUlaR1pDM2VVaDliYkJlN3c?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 08:49:13 GMT"
+    },
+    {
+      "title": "Feijóo advierte al Gobierno de que \"todo se sabrá\" y acusa a los socios de ser \"la marca blanca de esta decadencia\"",
+      "source": "RTVE.es",
+      "summary": "Feijóo advierte al Gobierno de que \"todo se sabrá\" y acusa a los socios de ser \"la marca blanca de esta decadencia\" RTVE.es Feijóo y Abascal fían a la vía penal su ofensiva contra Sánchez por la crisis de Ceuta EL PAÍS Los socios del Gobierno se apartan para q",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYndEYzhkcVNNNWI5ZFFiaGZyVWo2dTkwLV92Mjh5aFpSalh5endqM0RyMnMyQ2ktTjB2TWlsczhjNC1xSzJ3R0N1Q3lTSEdiUUx1bTk0cFgyNUxMN1JidzhKckNkQ3gyMEtBOVo0QWtfWVNvMW5SWWRLMV9mT3FzbDhpY1V0MVVOR0RkM1VPQVZXUzBUZUxtaFN3?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 08:28:36 GMT"
     },
     {
       "title": "El ministro Hereu anuncia un principio de acuerdo en Airbus que deja fuera a los sindicatos CGT y ÚTIL",
-      "source": "elDiario.es",
-      "summary": "El ministro Hereu anuncia un principio de acuerdo en Airbus que deja fuera a los sindicatos CGT y ÚTIL elDiario.es Airbus llega a un principio de acuerdo con los sindicatos mayoritarios, pero tendrá que ser aprobado en referéndum por la plantilla El Mundo Airb",
+      "source": "eldiario.es",
+      "summary": "El ministro Hereu anuncia un principio de acuerdo en Airbus que deja fuera a los sindicatos CGT y ÚTIL eldiario.es Airbus llega a un principio de acuerdo con los sindicatos mayoritarios, pero tendrá que ser aprobado en referéndum por la plantilla El Mundo Airb",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX3pzZ1dpSnNpMDFXa2x2bTZjN18waEZDNG1EM0UzRFg5ckdYMVlkcG5UZ0RSVTRWMFVzbUUyRHlqSDhiUUxwSjUtUV9BMnE2b3UtWVZSZGRNSHFIT2oxczJaTFRfR3BRd3daTXI3azlkWDVEYzBReUYyRG9QVF9sOW0ySldRV0FQOEl4UWxLenM2aXprMVRwUk94Q0FBRnBTOENxRDBPaGlySFJPNTMtV1hxc0Z3bDIwWjZkUV9kNDBmWEFLOHc?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 14:56:52 GMT"
+      "pubDate": "Fri, 04 Sep 2026 12:36:53 GMT"
     }
   ]
 }
