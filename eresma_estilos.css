@@ -8249,21 +8249,102 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE MOVIL - TEMAS OPACOS LEGIBLES Y FLUIDOS V13 */
+/* FACILE MOVIL - BASIC TEMATICO FIEL Y FLUIDO V14 */
 @media only screen and (max-width: 767px){
+  /* Paleta predeterminada: Sol. */
   :root{
-    --facile-mobile-surface: color-mix(in srgb, var(--primary-color) 12%, #eef3f8 88%);
-    --facile-mobile-panel: color-mix(in srgb, var(--primary-color) 18%, #dce5ef 82%);
-    --facile-mobile-inner: color-mix(in srgb, var(--primary-color) 8%, #ffffff 92%);
-    --facile-mobile-strong: color-mix(in srgb, var(--primary-color) 82%, #244d73 18%);
-    --facile-mobile-border: color-mix(in srgb, var(--primary-color) 34%, #70839a 66%);
-    --facile-mobile-text: #1e2b39;
-    --facile-mobile-muted: #4b5c6d;
-    --facile-mobile-shadow: 0 2px 6px rgba(19,34,49,0.14);
+    --facile-m-bg: #dbeaf4;
+    --facile-m-surface: #eef5fa;
+    --facile-m-panel: #d7e6f1;
+    --facile-m-inner: #ffffff;
+    --facile-m-title: #247fbd;
+    --facile-m-button: #2f8bc6;
+    --facile-m-border: #7894a8;
+    --facile-m-text: #1e2b36;
+    --facile-m-muted: #52616e;
+    --facile-m-on-accent: #ffffff;
+    --facile-m-shadow: 0 2px 5px rgba(20,37,52,0.14);
+  }
+
+  /* Luna: oscuro real. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+    --facile-m-bg: #0f1728;
+    --facile-m-surface: #182338;
+    --facile-m-panel: #202e46;
+    --facile-m-inner: #293950;
+    --facile-m-title: #536bd8;
+    --facile-m-button: #5268ca;
+    --facile-m-border: #61718a;
+    --facile-m-text: #f3f6fb;
+    --facile-m-muted: #c6d0df;
+    --facile-m-on-accent: #ffffff;
+    --facile-m-shadow: 0 2px 6px rgba(0,0,0,0.28);
+  }
+
+  /* Bosque. */
+  body:has(#theme-menu .theme-btn[data-theme="forest"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="forest"][aria-pressed="true"]){
+    --facile-m-bg: #dce9df;
+    --facile-m-surface: #edf5ee;
+    --facile-m-panel: #d3e5d7;
+    --facile-m-inner: #f8fcf8;
+    --facile-m-title: #29734b;
+    --facile-m-button: #317c52;
+    --facile-m-border: #708d78;
+    --facile-m-text: #1d3025;
+    --facile-m-muted: #4c6555;
+  }
+
+  /* Atardecer. */
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]){
+    --facile-m-bg: #f6dfd7;
+    --facile-m-surface: #fff0e9;
+    --facile-m-panel: #f3d4c9;
+    --facile-m-inner: #fff9f5;
+    --facile-m-title: #c45843;
+    --facile-m-button: #c9654f;
+    --facile-m-border: #a67b70;
+    --facile-m-text: #3c2520;
+    --facile-m-muted: #76574f;
+  }
+
+  /* Oceano. */
+  body:has(#theme-menu .theme-btn[data-theme="ocean"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="ocean"][aria-pressed="true"]){
+    --facile-m-bg: #d8e9f5;
+    --facile-m-surface: #edf7fc;
+    --facile-m-panel: #cfe4f1;
+    --facile-m-inner: #f8fcff;
+    --facile-m-title: #176fa3;
+    --facile-m-button: #207aa9;
+    --facile-m-border: #698ea5;
+    --facile-m-text: #173244;
+    --facile-m-muted: #496979;
+  }
+
+  /* Aurora. */
+  body:has(#theme-menu .theme-btn[data-theme="aurora"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="aurora"][aria-pressed="true"]){
+    --facile-m-bg: #e5def2;
+    --facile-m-surface: #f4effa;
+    --facile-m-panel: #ded3ed;
+    --facile-m-inner: #fcf9ff;
+    --facile-m-title: #7055aa;
+    --facile-m-button: #7160b6;
+    --facile-m-border: #897aa5;
+    --facile-m-text: #302743;
+    --facile-m-muted: #665a7b;
   }
 
   html{ scroll-behavior: auto !important; }
-  body{ background-attachment: scroll !important; text-rendering: auto !important; }
+  body{
+    background-color: var(--facile-m-bg) !important;
+    background-attachment: scroll !important;
+    color: var(--facile-m-text) !important;
+    text-rendering: auto !important;
+  }
 
   .header,
   .header .container.logo-nav-container,
@@ -8281,29 +8362,27 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .footer .footer-inner,
   .site-footer .footer-inner{
     background-image: none !important;
-    background-color: var(--facile-mobile-surface) !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    box-shadow: var(--facile-mobile-shadow) !important;
+    background-color: var(--facile-m-surface) !important;
+    color: var(--facile-m-text) !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 14px !important;
+    box-shadow: var(--facile-m-shadow) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     filter: none !important;
   }
 
-  .header{ background-color: var(--facile-mobile-panel) !important; border-left: 0 !important; border-right: 0 !important; border-top: 0 !important; border-radius: 0 0 14px 14px !important; }
-  .header .container.logo-nav-container,
-  main.intro .container{ background-color: var(--facile-mobile-surface) !important; border-radius: 12px !important; }
+  .header{
+    background-color: var(--facile-m-panel) !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-radius: 0 0 16px 16px !important;
+  }
 
-  .facile-info-widget,
-  .facile-search-widget,
-  #facile-news-widget.facile-news-shell,
-  .widget-box.ticker-widget,
-  #weather-widget.weather-widget,
-  .facile-page-favorites,
-  .facile-radio-panel,
-  #theme-menu.theme-menu{
-    color: var(--facile-mobile-text) !important;
-    background-color: var(--facile-mobile-panel) !important;
-    border-radius: 12px !important;
+  .header .container.logo-nav-container,
+  main.intro .container{
+    background-color: var(--facile-m-surface) !important;
   }
 
   #facile-news-widget .facile-news-card,
@@ -8316,30 +8395,40 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-radio-row,
   .facile-radio-loading-row{
     background-image: none !important;
-    background-color: var(--facile-mobile-inner) !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 10px !important;
+    background-color: var(--facile-m-inner) !important;
+    color: var(--facile-m-text) !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 11px !important;
     box-shadow: none !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
   }
 
+  main.intro .container > h3,
+  #facile-news-widget > h2,
+  #weather-content > h3,
+  #theme-menu > h3{
+    color: var(--facile-m-on-accent) !important;
+    background-image: none !important;
+    background-color: var(--facile-m-title) !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
+  }
+
   .facile-info-widget,
   .facile-info-widget:visited,
-  #facile-news-widget .facile-news-card,
-  #weather-widget.weather-widget,
-  .facile-page-favorites,
+  .facile-favorites-heading h2,
   .facile-favorite-link,
   .facile-favorite-text strong,
-  .facile-radio-panel,
   .facile-radio-header,
   .facile-radio-header strong,
   .facile-radio-now-text strong,
   .facile-radio-row,
   .facile-radio-row-text strong,
-  #theme-menu.theme-menu,
   #theme-menu h4{
-    color: var(--facile-mobile-text) !important;
+    color: var(--facile-m-text) !important;
     text-shadow: none !important;
   }
 
@@ -8348,26 +8437,10 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-radio-now-text span,
   .facile-radio-row-text em,
   .facile-radio-note{
-    color: var(--facile-mobile-muted) !important;
+    color: var(--facile-m-muted) !important;
     text-shadow: none !important;
     opacity: 1 !important;
   }
-
-  main.intro .container > h3,
-  #facile-news-widget > h2,
-  #weather-content > h3,
-  #theme-menu > h3{
-    color: #ffffff !important;
-    background-image: none !important;
-    background-color: var(--facile-mobile-strong) !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 9px !important;
-    box-shadow: none !important;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
-  }
-
-  .facile-favorites-heading h2,
-  .facile-radio-header strong{ color: var(--facile-mobile-text) !important; text-shadow: none !important; }
 
   input,
   select,
@@ -8379,18 +8452,21 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-favorites-picker > input,
   #city-input,
   #theme-menu #bg-url{
-    color: var(--facile-mobile-text) !important;
-    -webkit-text-fill-color: var(--facile-mobile-text) !important;
+    color: #1e2b39 !important;
+    -webkit-text-fill-color: #1e2b39 !important;
     background: #ffffff !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 8px !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 9px !important;
     box-shadow: inset 0 1px 2px rgba(18,32,46,0.10) !important;
   }
 
   input::placeholder,
   textarea::placeholder,
   #city-input::placeholder,
-  #theme-menu #bg-url::placeholder{ color: #667483 !important; opacity: 1 !important; }
+  #theme-menu #bg-url::placeholder{
+    color: #687685 !important;
+    opacity: 1 !important;
+  }
 
   #facileSearchForm #facileSearchSubmit,
   #weather-widget button,
@@ -8410,50 +8486,38 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   #theme-menu .theme-bg-file-btn{
     color: #ffffff !important;
     background-image: none !important;
-    background-color: var(--facile-mobile-strong) !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 9px !important;
+    background-color: var(--facile-m-button) !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 10px !important;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.24) !important;
     text-shadow: 0 1px 1px rgba(0,0,0,0.30) !important;
   }
 
   #theme-menu button[onclick="clearCustomBackground()"]{
-    color: var(--facile-mobile-text) !important;
+    color: #253344 !important;
     background-image: none !important;
-    background-color: #d8e0e9 !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 9px !important;
+    background-color: #d9e0e8 !important;
     text-shadow: none !important;
   }
 
   .mobile-menu-native > ul.mobile-menu-list{
     background-image: none !important;
-    background-color: var(--facile-mobile-panel) !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 12px !important;
-    box-shadow: var(--facile-mobile-shadow) !important;
+    background-color: var(--facile-m-panel) !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 14px !important;
+    box-shadow: var(--facile-m-shadow) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
   }
 
   .mobile-menu-native > ul.mobile-menu-list > li > a{
-    color: var(--facile-mobile-text) !important;
+    color: var(--facile-m-text) !important;
     background-image: none !important;
-    background-color: var(--facile-mobile-inner) !important;
-    border: 1px solid var(--facile-mobile-border) !important;
-    border-radius: 9px !important;
+    background-color: var(--facile-m-inner) !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 10px !important;
     box-shadow: none !important;
     text-shadow: none !important;
-  }
-
-  .mobile-menu-native > ul.mobile-menu-list > li > a:hover,
-  .mobile-menu-native > ul.mobile-menu-list > li > a:focus-visible,
-  .facile-radio-row:hover,
-  .facile-radio-row:focus-visible{
-    color: var(--facile-mobile-text) !important;
-    background-color: var(--facile-mobile-inner) !important;
-    transform: none !important;
-    filter: brightness(0.97) !important;
   }
 
   #facile-news-widget .facile-news-summary,
@@ -8464,19 +8528,33 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     color: #24313f !important;
     -webkit-text-fill-color: #24313f !important;
     background: #ffffff !important;
-    border: 1px solid #9aaaba !important;
-    border-radius: 9px !important;
+    border: 1px solid var(--facile-m-border) !important;
+    border-radius: 10px !important;
     box-shadow: none !important;
     text-shadow: none !important;
     opacity: 1 !important;
   }
 
-  #facile-news-widget .facile-news-source{ color: #33485d !important; -webkit-text-fill-color: #33485d !important; text-shadow: none !important; opacity: 1 !important; }
-  #facile-news-widget .facile-news-date{ color: var(--facile-mobile-strong) !important; -webkit-text-fill-color: var(--facile-mobile-strong) !important; text-shadow: none !important; opacity: 1 !important; }
+  #facile-news-widget .facile-news-source{
+    color: var(--facile-m-text) !important;
+    -webkit-text-fill-color: var(--facile-m-text) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  #facile-news-widget .facile-news-date{
+    color: var(--facile-m-button) !important;
+    -webkit-text-fill-color: var(--facile-m-button) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
 
   *,
   *::before,
-  *::after{ animation: none !important; scroll-behavior: auto !important; }
+  *::after{
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
 
   .navigation a,
   .mobile-menu-native > ul.mobile-menu-list,
@@ -8488,28 +8566,40 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-news-card,
   .facile-favorite-card,
   .facile-radio-panel,
-  #theme-menu.theme-menu{ transition-duration: 0.01ms !important; will-change: auto !important; }
+  #theme-menu.theme-menu{
+    transition-duration: 0.01ms !important;
+    will-change: auto !important;
+  }
 
   button:hover,
   button:focus-visible,
   button:active,
   .navigation a:hover,
   .navigation a:focus-visible,
-  .logo img:hover{ transform: none !important; }
+  .logo img:hover{
+    transform: none !important;
+  }
 
   button:active{ filter: brightness(0.94) !important; }
+
+  /* Los iconos no se ocultan por content-visibility al acercarse a cada sección. */
+  main.intro .container > section:not(#facile-news-widget){
+    content-visibility: visible !important;
+    contain: layout style !important;
+  }
 
   #facile-news-widget,
   .widget-box.ticker-widget,
   #weather-widget,
-  .facile-page-favorites,
-  main.intro .container > section:not(#facile-news-widget){ content-visibility: auto !important; contain: layout style !important; }
+  .facile-page-favorites{
+    content-visibility: auto !important;
+    contain: layout style !important;
+  }
 
-  #facile-news-widget,
-  .widget-box.ticker-widget,
-  #weather-widget{ contain-intrinsic-size: 1px 250px !important; }
-
-  main.intro .container > section:not(#facile-news-widget){ contain-intrinsic-size: 1px 104px !important; }
-
-  img{ filter: none !important; transform: none !important; will-change: auto !important; backface-visibility: visible !important; }
+  img{
+    filter: none !important;
+    transform: none !important;
+    will-change: auto !important;
+    backface-visibility: visible !important;
+  }
 }
