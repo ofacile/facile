@@ -8248,3 +8248,312 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     filter: brightness(1.04) !important;
   }
 }
+
+/* FACILE MOVIL - LENGUAJE WINDOWS 7 BASIC OPACO V12 */
+@media only screen and (max-width: 767px){
+  :root{
+    --facile-win7-surface: #e9edf3;
+    --facile-win7-surface-soft: #f6f8fb;
+    --facile-win7-surface-alt: #dce3ec;
+    --facile-win7-panel: #cfd8e5;
+    --facile-win7-border: #7d8ea3;
+    --facile-win7-border-light: #ffffff;
+    --facile-win7-border-dark: #53657a;
+    --facile-win7-text: #1d2733;
+    --facile-win7-muted: #526171;
+    --facile-win7-accent: color-mix(in srgb, var(--primary-color) 74%, #2f75b5 26%);
+    --facile-win7-accent-2: color-mix(in srgb, var(--secondary-color) 58%, #3b8f63 42%);
+    --facile-win7-button:
+      linear-gradient(180deg, #ffffff 0%, #edf2f7 48%, #d6dee8 52%, #c5d0dd 100%);
+    --facile-win7-button-active:
+      linear-gradient(180deg, #c5d0dd 0%, #d6dee8 48%, #edf2f7 52%, #ffffff 100%);
+    --facile-win7-shadow: 0 2px 5px rgba(22,35,52,0.16);
+  }
+
+  html{
+    scroll-behavior: auto !important;
+  }
+
+  body{
+    background-attachment: scroll !important;
+    text-rendering: auto !important;
+  }
+
+  /* Contenedores principales opacos, sin cristal ni desenfoque. */
+  .header,
+  .header .container.logo-nav-container,
+  main.intro .container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  #facile-news-widget .facile-news-card,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  .facile-radio-panel,
+  #theme-menu.theme-menu,
+  footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    background-image: none !important;
+    background-color: var(--facile-win7-panel) !important;
+    border: 1px solid var(--facile-win7-border) !important;
+    box-shadow:
+      inset 0 1px 0 var(--facile-win7-border-light),
+      var(--facile-win7-shadow) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    filter: none !important;
+  }
+
+  .header{
+    background-color: #dfe6ef !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    border-radius: 0 0 10px 10px !important;
+  }
+
+  .header .container.logo-nav-container{
+    background-color: #e8edf4 !important;
+    border-radius: 9px !important;
+  }
+
+  main.intro .container{
+    background-color: #d8e0ea !important;
+    border-radius: 10px !important;
+  }
+
+  /* Widgets con aspecto de ventana Basic. */
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites{
+    color: var(--facile-win7-text) !important;
+    background-color: var(--facile-win7-surface) !important;
+    border-color: var(--facile-win7-border) !important;
+    border-radius: 8px !important;
+  }
+
+  #facile-news-widget .facile-news-card,
+  #weather-content > div:last-child > div,
+  .facile-favorite-card,
+  .facile-favorites-picker,
+  .facile-favorites-form,
+  .facile-radio-now,
+  .facile-radio-volume,
+  .facile-radio-row,
+  .facile-radio-loading-row{
+    background-image: none !important;
+    background-color: var(--facile-win7-surface-soft) !important;
+    border: 1px solid #9aa9ba !important;
+    border-radius: 7px !important;
+    box-shadow: inset 0 1px 0 #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Barra de titulo y encabezados inspirados en Windows 7 Basic. */
+  #facile-news-widget .facile-news-title,
+  #facile-news-widget > h2,
+  #weather-content > h3,
+  .facile-favorites-heading h2,
+  .facile-radio-header strong,
+  #theme-menu > h3{
+    color: #ffffff !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.35) !important;
+  }
+
+  main.intro .container > h3,
+  #facile-news-widget > h2,
+  #weather-content > h3{
+    background-image: none !important;
+    background-color: var(--facile-win7-accent) !important;
+    border: 1px solid color-mix(in srgb, var(--facile-win7-accent) 72%, #34526f 28%) !important;
+    border-radius: 7px !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.34) !important;
+  }
+
+  /* Campos blancos y estables. */
+  input,
+  select,
+  textarea,
+  .facile-search-input,
+  .facile-radio-search input,
+  .facile-radio-controls select,
+  .facile-favorites-form input,
+  .facile-favorites-picker > input,
+  #city-input{
+    color: var(--facile-win7-text) !important;
+    background: #ffffff !important;
+    border: 1px solid #8798aa !important;
+    border-radius: 6px !important;
+    box-shadow: inset 0 1px 2px rgba(24,38,54,0.12) !important;
+  }
+
+  /* Botones Basic, manteniendo el color tematico en los botones principales. */
+  button,
+  .navigation a,
+  .mobile-menu-native > ul.mobile-menu-list > li > a{
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.72) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  #facileSearchForm #facileSearchSubmit,
+  #weather-widget button,
+  .facile-page-favorites .facile-favorites-add-toggle,
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-save,
+  .facile-page-favorites .facile-favorites-more,
+  .facile-radio-search button,
+  .facile-radio-main-control,
+  .facile-radio-small-control,
+  .facile-radio-home-control,
+  .facile-radio-favs-control,
+  .facile-radio-volume-toggle,
+  #theme-menu button[onclick="applyCustomBackground()"],
+  #theme-menu .theme-bg-file-btn{
+    color: #ffffff !important;
+    background-image: none !important;
+    background-color: var(--facile-win7-accent) !important;
+    border: 1px solid color-mix(in srgb, var(--facile-win7-accent) 70%, #294b69 30%) !important;
+    border-radius: 6px !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.34) !important;
+  }
+
+  #theme-menu button[onclick="clearCustomBackground()"]{
+    color: var(--facile-win7-text) !important;
+    background: var(--facile-win7-button) !important;
+    border: 1px solid var(--facile-win7-border) !important;
+    border-radius: 6px !important;
+  }
+
+  /* Menus de navegacion y laterales totalmente opacos. */
+  .mobile-menu-native > ul.mobile-menu-list,
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    background-image: none !important;
+    background-color: #dbe3ed !important;
+    color: var(--facile-win7-text) !important;
+    border-radius: 9px !important;
+    box-shadow:
+      inset 0 1px 0 #ffffff,
+      0 3px 8px rgba(19,33,49,0.20) !important;
+  }
+
+  .mobile-menu-native > ul.mobile-menu-list > li > a{
+    color: var(--facile-win7-text) !important;
+    background: var(--facile-win7-button) !important;
+    border: 1px solid var(--facile-win7-border) !important;
+    border-radius: 6px !important;
+    text-shadow: none !important;
+  }
+
+  .facile-radio-header,
+  .facile-radio-now-text strong,
+  .facile-radio-now-text span,
+  .facile-radio-row,
+  .facile-radio-row-text strong,
+  .facile-radio-row-text em,
+  .facile-radio-note,
+  #theme-menu h4{
+    color: var(--facile-win7-text) !important;
+    text-shadow: none !important;
+  }
+
+  .facile-radio-row:hover,
+  .facile-radio-row:focus-visible,
+  .mobile-menu-native > ul.mobile-menu-list > li > a:hover,
+  .mobile-menu-native > ul.mobile-menu-list > li > a:focus-visible{
+    background-image: none !important;
+    background-color: #eaf2fa !important;
+    color: var(--facile-win7-text) !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  /* Noticias: texto y metadatos con contraste alto. */
+  #facile-news-widget .facile-news-source{
+    color: #33465a !important;
+    text-shadow: none !important;
+  }
+
+  #facile-news-widget .facile-news-date{
+    color: #0b5f8f !important;
+    text-shadow: none !important;
+  }
+
+  #facile-news-widget .facile-news-summary,
+  #facile-news-widget .facile-news-description,
+  #facile-news-widget .facile-news-excerpt,
+  #facile-news-widget .facile-news-content > p,
+  #facile-news-widget .facile-news-card > div > p{
+    color: #24313f !important;
+    -webkit-text-fill-color: #24313f !important;
+    background: #ffffff !important;
+    border: 1px solid #a1afbe !important;
+    border-radius: 7px !important;
+    box-shadow: inset 0 1px 2px rgba(25,39,55,0.08) !important;
+  }
+
+  /* Interaccion instantanea y barata. */
+  *,
+  *::before,
+  *::after{
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .navigation a,
+  .mobile-menu-native > ul.mobile-menu-list,
+  .mobile-menu-native > ul.mobile-menu-list > li > a,
+  button,
+  input,
+  select,
+  .logo img,
+  .facile-news-card,
+  .facile-favorite-card,
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    transition-duration: 0.01ms !important;
+    will-change: auto !important;
+  }
+
+  button:hover,
+  button:focus-visible,
+  button:active,
+  .navigation a:hover,
+  .navigation a:focus-visible,
+  .logo img:hover{
+    transform: none !important;
+  }
+
+  button:active,
+  #facileSearchForm #facileSearchSubmit:active,
+  #weather-widget button:active,
+  .facile-page-favorites button:active{
+    filter: brightness(0.93) !important;
+    box-shadow: inset 0 1px 3px rgba(20,35,52,0.24) !important;
+  }
+
+  /* Renderizado progresivo para listas y zonas largas. */
+  #facile-news-widget,
+  .widget-box.ticker-widget,
+  #weather-widget,
+  .facile-page-favorites,
+  main.intro .container > section:not(#facile-news-widget){
+    content-visibility: auto !important;
+    contain: layout style !important;
+  }
+
+  img{
+    filter: none !important;
+    transform: none !important;
+    will-change: auto !important;
+    backface-visibility: visible !important;
+  }
+}
