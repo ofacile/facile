@@ -3325,6 +3325,39 @@ window.facileStartWeather = function(){
   });
 })();
 </script>
+<script>
+/* FACILE MOBILE ICON WARMUP V1 */
+(function(){
+  "use strict";
+  if (!window.matchMedia("(max-width: 767px)").matches) return;
+  function start(){
+    const sections = Array.from(document.querySelectorAll("main.intro .container > section:not(#facile-news-widget)"));
+    if (!sections.length) return;
+    function activate(section){
+      section.querySelectorAll("a.logo img[loading='lazy']").forEach(function(image){
+        image.loading = "eager";
+        image.fetchPriority = "auto";
+      });
+    }
+    sections.slice(0, 3).forEach(activate);
+    if (!("IntersectionObserver" in window)){
+      sections.slice(3).forEach(activate);
+      return;
+    }
+    const observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!entry.isIntersecting) return;
+        activate(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: "900px 0px" });
+    sections.slice(3).forEach(function(section){ observer.observe(section); });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
+  else start();
+})();
+</script>
+
 </body>
 </html>    
 
