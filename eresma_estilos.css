@@ -7902,3 +7902,189 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
       0 3px 8px rgba(0,0,0,0.08) !important;
   }
 }
+
+/* FACILE - TEXTO INFORMATIVO LEGIBLE + MOVIL BASICO FLUIDO V9 */
+/* Globo ligero para el resumen de la noticia. Sin blur ni pseudo-elementos. */
+#facile-news-widget .facile-news-summary,
+#facile-news-widget .facile-news-description,
+#facile-news-widget .facile-news-excerpt,
+#facile-news-widget .facile-news-content > p,
+#facile-news-widget .facile-news-card > div > p{
+  display: block !important;
+  width: 100% !important;
+  margin: 7px 0 9px !important;
+  padding: 7px 10px !important;
+  box-sizing: border-box !important;
+  border: 1px solid rgba(255,255,255,0.18) !important;
+  border-radius: 12px !important;
+  color: color-mix(in srgb, var(--text-dark) 88%, #000000 12%) !important;
+  background: color-mix(in srgb, rgba(255,255,255,0.88) 82%, var(--primary-color) 18%) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.28) !important;
+  text-shadow: none !important;
+  line-height: 1.42 !important;
+}
+
+@supports not (background: color-mix(in srgb, red 50%, blue 50%)){
+  #facile-news-widget .facile-news-summary,
+  #facile-news-widget .facile-news-description,
+  #facile-news-widget .facile-news-excerpt,
+  #facile-news-widget .facile-news-content > p,
+  #facile-news-widget .facile-news-card > div > p{
+    color: #1f2933 !important;
+    background: rgba(245,249,252,0.90) !important;
+  }
+}
+
+/* Modo movil basico: menos capas, sombras, filtros y repintados. */
+@media only screen and (max-width: 767px){
+  :root{
+    --facile-mobile-basic-bg: color-mix(in srgb, var(--glass-bg) 72%, var(--primary-color) 28%);
+    --facile-mobile-basic-inner: color-mix(in srgb, var(--glass-bg) 60%, rgba(255,255,255,0.14) 40%);
+    --facile-mobile-basic-border: rgba(255,255,255,0.16);
+    --facile-mobile-basic-shadow: 0 2px 6px rgba(0,0,0,0.09);
+  }
+
+  html{
+    scroll-behavior: auto !important;
+  }
+
+  body{
+    background-attachment: scroll !important;
+    text-rendering: auto !important;
+  }
+
+  /* Superficies planas y coherentes. */
+  .header,
+  .header .container.logo-nav-container,
+  main.intro .container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  #facile-news-widget .facile-news-card,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    filter: none !important;
+    background-image: none !important;
+    background-color: var(--facile-mobile-basic-bg) !important;
+    border-color: var(--facile-mobile-basic-border) !important;
+    box-shadow: var(--facile-mobile-basic-shadow) !important;
+  }
+
+  #facile-news-widget .facile-news-card,
+  #weather-content > div:last-child > div,
+  .facile-favorite-card,
+  .facile-favorites-picker,
+  .facile-favorites-form{
+    background-image: none !important;
+    background-color: var(--facile-mobile-basic-inner) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: none !important;
+  }
+
+  /* El globo informativo se vuelve casi opaco para garantizar contraste. */
+  #facile-news-widget .facile-news-summary,
+  #facile-news-widget .facile-news-description,
+  #facile-news-widget .facile-news-excerpt,
+  #facile-news-widget .facile-news-content > p,
+  #facile-news-widget .facile-news-card > div > p{
+    margin: 6px 0 8px !important;
+    padding: 7px 9px !important;
+    border-radius: 10px !important;
+    color: #202a35 !important;
+    background: rgba(247,250,252,0.94) !important;
+    border: 1px solid rgba(255,255,255,0.38) !important;
+    box-shadow: none !important;
+    font-size: 0.82rem !important;
+    line-height: 1.38 !important;
+  }
+
+  /* Nada continuo en movil. Los estados activos siguen respondiendo. */
+  *,
+  *::before,
+  *::after{
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .navigation a,
+  .mobile-menu-native > ul.mobile-menu-list,
+  .mobile-menu-native > ul.mobile-menu-list > li > a,
+  button,
+  input,
+  select,
+  .logo img,
+  .facile-news-card,
+  .facile-favorite-card,
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    transition-duration: 0.01ms !important;
+    will-change: auto !important;
+  }
+
+  .logo img:hover,
+  .logo img:focus,
+  .navigation a:hover,
+  button:hover,
+  button:focus-visible{
+    transform: none !important;
+  }
+
+  /* Menos trabajo al desplazarse por bloques largos. */
+  #facile-news-widget,
+  .widget-box.ticker-widget,
+  #weather-widget,
+  .facile-page-favorites,
+  main.intro .container > h3,
+  main.intro .container > section:not(#facile-news-widget){
+    content-visibility: auto !important;
+    contain: layout style !important;
+  }
+
+  #facile-news-widget,
+  #weather-widget,
+  .widget-box.ticker-widget{
+    contain-intrinsic-size: 1px 260px !important;
+  }
+
+  main.intro .container > section:not(#facile-news-widget){
+    contain-intrinsic-size: 1px 110px !important;
+  }
+
+  /* Imágenes estables, sin filtros ni capas de composición. */
+  img,
+  #facile-news-widget img,
+  .logo img,
+  .facile-favorite-icon img{
+    filter: none !important;
+    transform: none !important;
+    backface-visibility: visible !important;
+    will-change: auto !important;
+  }
+
+  /* Conserva botones reconocibles con un degradado muy simple. */
+  #facileSearchForm #facileSearchSubmit,
+  #weather-widget button,
+  .facile-page-favorites .facile-favorites-add-toggle,
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-save,
+  .facile-page-favorites .facile-favorites-more{
+    background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.18) !important;
+    transition: filter 70ms linear !important;
+  }
+
+  #facileSearchForm #facileSearchSubmit:active,
+  #weather-widget button:active,
+  .facile-page-favorites button:active{
+    transform: none !important;
+    filter: brightness(0.94) !important;
+  }
+}
