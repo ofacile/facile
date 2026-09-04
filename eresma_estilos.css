@@ -8128,3 +8128,22 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     background: rgba(247, 250, 252, 0.98) !important;
   }
 }
+
+/* FACILE NOTICIAS - NOMBRE DE LA FUENTE MAS CLARO */
+#facile-news-widget .facile-news-source{
+  color: rgba(255,255,255,0.88) !important;
+  font-weight: 750 !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.38) !important;
+}
+
+#facile-news-widget .facile-news-source-wrap:hover .facile-news-source,
+#facile-news-widget .facile-news-source-wrap:focus-within .facile-news-source{
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 767px){
+  #facile-news-widget .facile-news-source{
+    color: rgba(255,255,255,0.92) !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
+  }
+}
