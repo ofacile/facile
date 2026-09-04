@@ -8326,3 +8326,271 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     ) !important;
   }
 }
+
+/* FACILE MOVIL - PALETA TEMATICA COMPLETA Y LEGIBLE V18 */
+@media only screen and (max-width: 767px){
+  :root{
+    --fm-page: #d7edf7;
+    --fm-shell: #eaf6fb;
+    --fm-panel: #d8edf6;
+    --fm-card: #f8fcfe;
+    --fm-accent: #258bc1;
+    --fm-accent-2: #49a9cf;
+    --fm-border: #74a2b6;
+    --fm-text: #17303d;
+    --fm-muted: #486675;
+    --fm-on-accent: #ffffff;
+    --fm-shadow: 0 3px 8px rgba(20,50,66,0.15);
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+    --fm-page: #0d1424;
+    --fm-shell: #172238;
+    --fm-panel: #202e46;
+    --fm-card: #2a3a52;
+    --fm-accent: #6574dd;
+    --fm-accent-2: #8a72da;
+    --fm-border: #62738c;
+    --fm-text: #f5f7fc;
+    --fm-muted: #cbd4e2;
+    --fm-on-accent: #ffffff;
+    --fm-shadow: 0 3px 9px rgba(0,0,0,0.34);
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="forest"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="forest"][aria-pressed="true"]){
+    --fm-page: #173d2c;
+    --fm-shell: #e9f3eb;
+    --fm-panel: #d5e8da;
+    --fm-card: #f7fcf8;
+    --fm-accent: #2e8056;
+    --fm-accent-2: #56a174;
+    --fm-border: #718e7a;
+    --fm-text: #1d3325;
+    --fm-muted: #4b6755;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]){
+    --fm-page: #c95f49;
+    --fm-shell: #fff0e9;
+    --fm-panel: #f5d8cd;
+    --fm-card: #fff9f6;
+    --fm-accent: #c65f49;
+    --fm-accent-2: #df8a62;
+    --fm-border: #a97b70;
+    --fm-text: #3b2822;
+    --fm-muted: #75594f;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="ocean"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="ocean"][aria-pressed="true"]){
+    --fm-page: #105c85;
+    --fm-shell: #eaf7fc;
+    --fm-panel: #d2e8f3;
+    --fm-card: #f8fdff;
+    --fm-accent: #1676a8;
+    --fm-accent-2: #3ba8c9;
+    --fm-border: #668da4;
+    --fm-text: #153244;
+    --fm-muted: #486a7b;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="aurora"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="aurora"][aria-pressed="true"]){
+    --fm-page: #4a426f;
+    --fm-shell: #f2eef9;
+    --fm-panel: #dfd6ef;
+    --fm-card: #fcf9ff;
+    --fm-accent: #7258ae;
+    --fm-accent-2: #5f9fc4;
+    --fm-border: #897aa5;
+    --fm-text: #302743;
+    --fm-muted: #675b7b;
+  }
+
+  body{
+    color: var(--fm-text) !important;
+    background-color: var(--fm-page) !important;
+    background-attachment: scroll !important;
+  }
+
+  .header,
+  .header .container.logo-nav-container,
+  main.intro .container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  .facile-radio-panel,
+  #theme-menu.theme-menu,
+  .mobile-menu-native > ul.mobile-menu-list,
+  footer,
+  footer .footer-inner{
+    background-image: none !important;
+    background-color: var(--fm-shell) !important;
+    color: var(--fm-text) !important;
+    border-color: var(--fm-border) !important;
+    box-shadow: var(--fm-shadow) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    background-color: var(--fm-panel) !important;
+  }
+
+  #facile-news-widget .facile-news-card,
+  #weather-content > div:last-child > div,
+  .facile-favorite-card,
+  .facile-favorites-picker,
+  .facile-favorites-form,
+  .facile-radio-now,
+  .facile-radio-volume,
+  .facile-radio-row,
+  .facile-radio-loading-row{
+    background-image: none !important;
+    background-color: var(--fm-card) !important;
+    color: var(--fm-text) !important;
+    border-color: var(--fm-border) !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .facile-info-widget,
+  .facile-info-widget:visited,
+  .facile-favorites-heading h2,
+  .facile-favorite-link,
+  .facile-favorite-text strong,
+  .facile-radio-header,
+  .facile-radio-header strong,
+  .facile-radio-now-text strong,
+  .facile-radio-row,
+  .facile-radio-row-text strong,
+  #theme-menu h4{
+    color: var(--fm-text) !important;
+    text-shadow: none !important;
+  }
+
+  .facile-favorite-text small,
+  .facile-radio-header span,
+  .facile-radio-now-text span,
+  .facile-radio-row-text em,
+  .facile-radio-note{
+    color: var(--fm-muted) !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+  }
+
+  main.intro .container > h3,
+  #facile-news-widget .facile-news-title,
+  #weather-content > h3,
+  #theme-menu > h3{
+    color: var(--fm-on-accent) !important;
+    background: linear-gradient(90deg, var(--fm-accent), var(--fm-accent-2)) !important;
+    border-color: var(--fm-border) !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.30) !important;
+  }
+
+  #facileSearchForm #facileSearchSubmit,
+  #weather-widget button,
+  .facile-page-favorites .facile-favorites-add-toggle,
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-save,
+  .facile-page-favorites .facile-favorites-more,
+  .facile-radio-search button,
+  .facile-radio-main-control,
+  .facile-radio-small-control,
+  .facile-radio-home-control,
+  .facile-radio-favs-control,
+  .facile-radio-volume-toggle,
+  .facile-radio-button,
+  #theme-toggle.theme-toggle-btn,
+  #theme-menu button[onclick="applyCustomBackground()"],
+  #theme-menu .theme-bg-file-btn{
+    color: var(--fm-on-accent) !important;
+    background: var(--fm-accent) !important;
+    border-color: var(--fm-border) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.22) !important;
+  }
+
+  input,
+  select,
+  textarea,
+  .facile-search-input,
+  .facile-radio-search input,
+  .facile-radio-controls select,
+  .facile-favorites-form input,
+  .facile-favorites-picker > input,
+  #city-input,
+  #theme-menu #bg-url{
+    color: #1d2b38 !important;
+    -webkit-text-fill-color: #1d2b38 !important;
+    background: #ffffff !important;
+    border-color: var(--fm-border) !important;
+  }
+
+  #facile-news-widget .facile-news-summary,
+  #facile-news-widget .facile-news-description,
+  #facile-news-widget .facile-news-excerpt,
+  #facile-news-widget .facile-news-content > p,
+  #facile-news-widget .facile-news-card > div > p{
+    color: #24313f !important;
+    -webkit-text-fill-color: #24313f !important;
+    background: #ffffff !important;
+    border-color: var(--fm-border) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  #facile-news-widget .facile-news-source{
+    color: var(--fm-text) !important;
+    -webkit-text-fill-color: var(--fm-text) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  #facile-news-widget .facile-news-date{
+    color: var(--fm-accent) !important;
+    -webkit-text-fill-color: var(--fm-accent) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  .mobile-menu-native > ul.mobile-menu-list > li > a{
+    color: var(--fm-text) !important;
+    background: var(--fm-card) !important;
+    border-color: var(--fm-border) !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Evita el retraso visual causado por el aplazamiento de pintura de las secciones. */
+  main.intro .container > section:not(#facile-news-widget){
+    content-visibility: visible !important;
+    contain: layout style !important;
+  }
+
+  img{
+    content-visibility: visible !important;
+    filter: none !important;
+    will-change: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after{
+    animation: none !important;
+  }
+}
