@@ -8327,16 +8327,12 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE MOVIL - MENOS TRANSLUCIDO Y SIN RETRASO VISUAL DE ICONOS V20 */
+/* FACILE MOVIL - MISMO DISENO, SOLO MENOS TRANSLUCIDO V21 */
 @media only screen and (max-width: 767px){
-  :root{
-    --facile-mobile-solid-surface: color-mix(in srgb, var(--primary-color) 22%, #eef4f8 78%);
-    --facile-mobile-solid-panel: color-mix(in srgb, var(--primary-color) 30%, #dce7ee 70%);
-    --facile-mobile-solid-inner: color-mix(in srgb, var(--primary-color) 10%, #ffffff 90%);
-    --facile-mobile-solid-border: color-mix(in srgb, var(--primary-color) 38%, #71879a 62%);
-  }
-
-  /* Superficies grandes: opacas, tematicas y sin blur. */
+  /*
+    No cambia tamaños, posiciones, colores de texto, tarjetas ni distribución.
+    Solo refuerza la opacidad de las superficies que ya existían.
+  */
   .header,
   .header .container.logo-nav-container,
   main.intro .container,
@@ -8353,27 +8349,16 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   footer .footer-inner,
   .footer .footer-inner,
   .site-footer .footer-inner{
-    background-image: none !important;
-    background-color: var(--facile-mobile-solid-surface) !important;
-    border-color: var(--facile-mobile-solid-border) !important;
+    background-color: color-mix(
+      in srgb,
+      var(--glass-bg) 58%,
+      var(--primary-color) 42%
+    ) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
   }
 
-  /* Widgets y paneles destacados, un tono mas intenso. */
-  .facile-info-widget,
-  .facile-search-widget,
-  #facile-news-widget.facile-news-shell,
-  .widget-box.ticker-widget,
-  #weather-widget.weather-widget,
-  .facile-page-favorites,
-  .facile-radio-panel,
-  #theme-menu.theme-menu,
-  .mobile-menu-native > ul.mobile-menu-list{
-    background-color: var(--facile-mobile-solid-panel) !important;
-  }
-
-  /* Superficies interiores claras y opacas. */
+  /* Las capas interiores siguen siendo las mismas, solo algo más sólidas. */
   #facile-news-widget .facile-news-card,
   #weather-content > div:last-child > div,
   .facile-favorite-card,
@@ -8382,33 +8367,17 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-radio-now,
   .facile-radio-volume,
   .facile-radio-row,
-  .facile-radio-loading-row,
-  .mobile-menu-native > ul.mobile-menu-list > li > a{
-    background-image: none !important;
-    background-color: var(--facile-mobile-solid-inner) !important;
-    border-color: var(--facile-mobile-solid-border) !important;
+  .facile-radio-loading-row{
+    background-color: color-mix(
+      in srgb,
+      var(--glass-bg) 42%,
+      rgba(255,255,255,0.72) 58%
+    ) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
   }
 
-  /* Sombras simples para reducir composicion. */
-  .header,
-  .header .container.logo-nav-container,
-  main.intro .container,
-  .facile-info-widget,
-  .facile-search-widget,
-  #facile-news-widget.facile-news-shell,
-  .widget-box.ticker-widget,
-  #weather-widget.weather-widget,
-  .facile-page-favorites,
-  .facile-radio-panel,
-  #theme-menu.theme-menu{
-    box-shadow:
-      0 3px 8px rgba(15,31,45,0.14),
-      inset 0 1px 0 rgba(255,255,255,0.24) !important;
-  }
-
-  /* Los iconos y sus secciones se pintan sin aplazamiento CSS. */
+  /* Elimina únicamente el aplazamiento visual CSS de los iconos. */
   main.intro .container > section:not(#facile-news-widget),
   main.intro .container > section:not(#facile-news-widget) > a.logo,
   main.intro .container > section:not(#facile-news-widget) > a.logo img,
@@ -8416,22 +8385,10 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     content-visibility: visible !important;
   }
 
-  main.intro .container > section:not(#facile-news-widget){
-    contain: layout style !important;
-  }
-
   .logo img{
     opacity: 1 !important;
     filter: none !important;
-    transform: none !important;
     will-change: auto !important;
-    backface-visibility: visible !important;
-  }
-
-  /* Sin animaciones continuas en iconos. */
-  .logo img:hover,
-  .logo img:focus{
-    animation: none !important;
-    transform: none !important;
   }
 }
+
