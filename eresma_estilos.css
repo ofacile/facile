@@ -8603,3 +8603,202 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     backface-visibility: visible !important;
   }
 }
+
+/* FACILE MOVIL - PULIDO TEMATICO Y MENU TEMAS V15 */
+@media only screen and (max-width: 767px){
+  /* Sombras tematicas simples: una exterior y una linea interior. */
+  :root{
+    --facile-m-shadow-soft:
+      0 3px 8px color-mix(in srgb, var(--facile-m-title) 18%, rgba(0,0,0,0.16) 82%),
+      inset 0 1px 0 rgba(255,255,255,0.34);
+    --facile-m-shadow-panel:
+      0 5px 12px color-mix(in srgb, var(--facile-m-title) 16%, rgba(0,0,0,0.20) 84%),
+      inset 0 1px 0 rgba(255,255,255,0.30);
+    --facile-m-close-bg: color-mix(in srgb, var(--facile-m-title) 78%, var(--facile-m-panel) 22%);
+    --facile-m-close-border: color-mix(in srgb, var(--facile-m-title) 58%, var(--facile-m-border) 42%);
+  }
+
+  /* Luna necesita sombras neutras y no azul luminoso. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+    --facile-m-shadow-soft:
+      0 3px 8px rgba(0,0,0,0.32),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+    --facile-m-shadow-panel:
+      0 6px 14px rgba(0,0,0,0.38),
+      inset 0 1px 0 rgba(255,255,255,0.11);
+  }
+
+  .header .container.logo-nav-container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites{
+    box-shadow: var(--facile-m-shadow-soft) !important;
+  }
+
+  .facile-radio-panel,
+  #theme-menu.theme-menu,
+  .mobile-menu-native > ul.mobile-menu-list{
+    box-shadow: var(--facile-m-shadow-panel) !important;
+  }
+
+  /* Panel de Temas más limpio y separado del contenido de la página. */
+  #theme-menu.theme-menu{
+    padding: 14px !important;
+    padding-top: 62px !important;
+    border-radius: 14px !important;
+    overflow-x: hidden !important;
+  }
+
+  #theme-menu > h3{
+    min-height: 64px !important;
+    margin: 0 0 14px !important;
+    padding: 10px 54px 10px 14px !important;
+    display: grid !important;
+    align-content: center !important;
+    justify-items: center !important;
+    border-radius: 11px !important;
+    background-color: var(--facile-m-title) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.24) !important;
+  }
+
+  #theme-menu > h3::after{
+    max-width: 100% !important;
+    margin-top: 5px !important;
+    color: rgba(255,255,255,0.90) !important;
+    text-shadow: none !important;
+  }
+
+  /* X sólida, centrada y con contraste en todos los temas. */
+  #theme-menu .theme-menu-close{
+    position: absolute !important;
+    top: 74px !important;
+    right: 24px !important;
+    left: auto !important;
+    bottom: auto !important;
+    z-index: 30 !important;
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid !important;
+    place-items: center !important;
+    color: #ffffff !important;
+    background-image: none !important;
+    background-color: var(--facile-m-close-bg) !important;
+    border: 1px solid var(--facile-m-close-border) !important;
+    border-radius: 10px !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.24),
+      0 2px 5px rgba(0,0,0,0.18) !important;
+    font-size: 1.40rem !important;
+    font-weight: 900 !important;
+    line-height: 1 !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.28) !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  #theme-menu .theme-menu-close:hover,
+  #theme-menu .theme-menu-close:focus-visible{
+    color: #ffffff !important;
+    background-color: var(--facile-m-close-bg) !important;
+    outline: 2px solid color-mix(in srgb, var(--facile-m-title) 62%, #ffffff 38%) !important;
+    outline-offset: 2px !important;
+    transform: none !important;
+    filter: brightness(1.06) !important;
+  }
+
+  #theme-menu .theme-menu-close:active{
+    transform: none !important;
+    filter: brightness(0.90) !important;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.22) !important;
+  }
+
+  /* Botones de temas: colores propios, sombra pequeña y forma uniforme. */
+  #theme-menu .theme-buttons{
+    gap: 8px !important;
+    margin-bottom: 16px !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  #theme-menu .theme-btn{
+    min-height: 50px !important;
+    border: 1px solid rgba(255,255,255,0.30) !important;
+    border-radius: 10px !important;
+    box-shadow:
+      0 2px 5px rgba(0,0,0,0.16),
+      inset 0 1px 0 rgba(255,255,255,0.26) !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  #theme-menu .theme-btn:hover,
+  #theme-menu .theme-btn:focus-visible{
+    transform: none !important;
+    filter: brightness(1.05) !important;
+    outline: 2px solid color-mix(in srgb, var(--facile-m-title) 58%, #ffffff 42%) !important;
+    outline-offset: 1px !important;
+  }
+
+  #theme-menu .theme-btn:active{
+    transform: none !important;
+    filter: brightness(0.92) !important;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.22) !important;
+  }
+
+  /* Fondo personalizado con jerarquía clara. */
+  #theme-menu hr{
+    height: 1px !important;
+    margin: 14px 0 !important;
+    background: var(--facile-m-border) !important;
+    opacity: 0.62 !important;
+  }
+
+  #theme-menu h4{
+    margin: 0 0 10px !important;
+    color: var(--facile-m-text) !important;
+    font-size: 1rem !important;
+  }
+
+  #theme-menu .theme-bg-row{
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  #theme-menu button[onclick="applyCustomBackground()"],
+  #theme-menu button[onclick="clearCustomBackground()"]{
+    min-height: 44px !important;
+    margin-top: 8px !important;
+    border-radius: 10px !important;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.22),
+      0 2px 5px rgba(0,0,0,0.12) !important;
+  }
+
+  #theme-menu button[onclick="clearCustomBackground()"]{
+    color: #263543 !important;
+    background-color: #d9e0e8 !important;
+    border-color: #8797a8 !important;
+    text-shadow: none !important;
+  }
+
+  /* Columna flotante: sombra temática suave y consistente. */
+  .facile-radio-button,
+  #theme-toggle.theme-toggle-btn{
+    box-shadow:
+      0 3px 8px color-mix(in srgb, var(--facile-m-title) 28%, rgba(0,0,0,0.22) 72%),
+      inset 0 1px 0 rgba(255,255,255,0.24) !important;
+  }
+}
