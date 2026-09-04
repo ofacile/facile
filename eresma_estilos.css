@@ -8594,3 +8594,181 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     animation: none !important;
   }
 }
+
+/* FACILE MOVIL - FONDOS EXACTOS POR TEMA V19 */
+@media only screen and (max-width: 767px){
+  /* Sol */
+  :root{
+    --fm-page: #57ade8;
+    --fm-shell: #cce9f7;
+    --fm-panel: #b9dff1;
+    --fm-card: #e9f6fc;
+    --fm-accent: #1688c5;
+    --fm-accent-2: #36acd2;
+    --fm-border: #4e91b0;
+    --fm-text: #153245;
+    --fm-muted: #456879;
+    --fm-on-accent: #ffffff;
+  }
+
+  /* Luna */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+    --fm-page: #090f1d;
+    --fm-shell: #131d31;
+    --fm-panel: #1c2941;
+    --fm-card: #273751;
+    --fm-accent: #5366cf;
+    --fm-accent-2: #7a62cb;
+    --fm-border: #586b86;
+    --fm-text: #f4f7fc;
+    --fm-muted: #c8d2e0;
+    --fm-on-accent: #ffffff;
+  }
+
+  /* Bosque */
+  body:has(#theme-menu .theme-btn[data-theme="forest"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="forest"][aria-pressed="true"]){
+    --fm-page: #174a34;
+    --fm-shell: #cfe6d7;
+    --fm-panel: #b9d9c4;
+    --fm-card: #eaf5ed;
+    --fm-accent: #25764d;
+    --fm-accent-2: #4c9b6d;
+    --fm-border: #467d5d;
+    --fm-text: #173326;
+    --fm-muted: #416451;
+    --fm-on-accent: #ffffff;
+  }
+
+  /* Atardecer */
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]){
+    --fm-page: #e3664a;
+    --fm-shell: #f6c5b3;
+    --fm-panel: #efad98;
+    --fm-card: #ffe8df;
+    --fm-accent: #c64e3d;
+    --fm-accent-2: #dd7f52;
+    --fm-border: #a75d51;
+    --fm-text: #3b211d;
+    --fm-muted: #744c43;
+    --fm-on-accent: #ffffff;
+  }
+
+  /* Oceano */
+  body:has(#theme-menu .theme-btn[data-theme="ocean"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="ocean"][aria-pressed="true"]){
+    --fm-page: #07658f;
+    --fm-shell: #c9e8f3;
+    --fm-panel: #acd8e8;
+    --fm-card: #e7f6fb;
+    --fm-accent: #096f9e;
+    --fm-accent-2: #2ba7c4;
+    --fm-border: #3b839f;
+    --fm-text: #123445;
+    --fm-muted: #3f6878;
+    --fm-on-accent: #ffffff;
+  }
+
+  /* Aurora */
+  body:has(#theme-menu .theme-btn[data-theme="aurora"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="aurora"][aria-pressed="true"]){
+    --fm-page: #51417d;
+    --fm-shell: #d9cbea;
+    --fm-panel: #c5b2df;
+    --fm-card: #eee7f7;
+    --fm-accent: #6d4da5;
+    --fm-accent-2: #438eb1;
+    --fm-border: #78669a;
+    --fm-text: #2d2341;
+    --fm-muted: #625574;
+    --fm-on-accent: #ffffff;
+  }
+
+  /* El fondo general y las grandes superficies dejan de ser blancos. */
+  body{
+    background-image: none !important;
+    background-color: var(--fm-page) !important;
+  }
+
+  .header,
+  footer,
+  .footer,
+  .site-footer{
+    background-image: none !important;
+    background-color: var(--fm-shell) !important;
+  }
+
+  .header .container.logo-nav-container,
+  main.intro .container{
+    background-image: none !important;
+    background-color: var(--fm-panel) !important;
+    color: var(--fm-text) !important;
+  }
+
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  .facile-radio-panel,
+  #theme-menu.theme-menu,
+  .mobile-menu-native > ul.mobile-menu-list,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    background-image: none !important;
+    background-color: var(--fm-panel) !important;
+    color: var(--fm-text) !important;
+    border-color: var(--fm-border) !important;
+  }
+
+  #facile-news-widget .facile-news-card,
+  #weather-content > div:last-child > div,
+  .facile-favorite-card,
+  .facile-favorites-picker,
+  .facile-favorites-form,
+  .facile-radio-now,
+  .facile-radio-volume,
+  .facile-radio-row,
+  .facile-radio-loading-row,
+  .mobile-menu-native > ul.mobile-menu-list > li > a{
+    background-image: none !important;
+    background-color: var(--fm-card) !important;
+    color: var(--fm-text) !important;
+    border-color: var(--fm-border) !important;
+  }
+
+  /* Luna mantiene también oscuros sus bloques informativos. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-summary,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-description,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-excerpt,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-content > p,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-summary,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-description,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-excerpt,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-content > p{
+    color: var(--fm-text) !important;
+    -webkit-text-fill-color: var(--fm-text) !important;
+    background: var(--fm-card) !important;
+    border-color: var(--fm-border) !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) select{
+    color: #f4f7fc !important;
+    -webkit-text-fill-color: #f4f7fc !important;
+    background: #223149 !important;
+    border-color: #65768f !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) input::placeholder{
+    color: #c5cfdd !important;
+    opacity: 1 !important;
+  }
+}
