@@ -8147,3 +8147,104 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     text-shadow: 0 1px 1px rgba(0,0,0,0.34) !important;
   }
 }
+
+/* FACILE - RADIO Y TEMAS CON PALETA DE LOS WIDGETS V11 */
+/* Solo unifica color, borde y sombra. No cambia tamaños, posición ni funcionamiento. */
+.facile-radio-panel,
+#theme-menu.theme-menu{
+  background: var(--facile-main-widget-bg) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--facile-main-widget-border) !important;
+  box-shadow: var(--facile-main-widget-shadow) !important;
+  color: #ffffff !important;
+}
+
+/* Superficies internas con una variante suave de la misma familia cromática. */
+.facile-radio-now,
+.facile-radio-volume,
+.facile-radio-row,
+.facile-radio-loading-row,
+#theme-menu .theme-buttons,
+#theme-menu .theme-bg-row{
+  border-color: rgba(255,255,255,0.14) !important;
+}
+
+.facile-radio-now,
+.facile-radio-volume,
+.facile-radio-row,
+.facile-radio-loading-row{
+  background: color-mix(in srgb, var(--glass-bg) 70%, rgba(255,255,255,0.14) 30%) !important;
+}
+
+.facile-radio-row:hover,
+.facile-radio-row:focus-visible{
+  background: color-mix(in srgb, var(--glass-bg) 56%, rgba(255,255,255,0.24) 44%) !important;
+}
+
+/* Los botones principales conservan su identidad, pero usan los colores del tema. */
+.facile-radio-search button,
+.facile-radio-main-control,
+.facile-radio-small-control,
+.facile-radio-home-control,
+.facile-radio-favs-control,
+.facile-radio-volume-toggle,
+.facile-radio-button,
+#theme-toggle.theme-toggle-btn,
+#theme-menu button[onclick="applyCustomBackground()"],
+#theme-menu .theme-bg-file-btn{
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--primary-color) 82%, white 18%),
+      color-mix(in srgb, var(--secondary-color) 82%, white 18%)
+    ) !important;
+}
+
+/* Versión móvil: misma configuración básica y fluida que los widgets. */
+@media only screen and (max-width: 767px){
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    background-image: none !important;
+    background-color: var(--facile-mobile-basic-bg) !important;
+    border-color: var(--facile-mobile-basic-border) !important;
+    box-shadow: var(--facile-mobile-basic-shadow) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    filter: none !important;
+  }
+
+  .facile-radio-now,
+  .facile-radio-volume,
+  .facile-radio-row,
+  .facile-radio-loading-row,
+  #theme-menu .theme-buttons,
+  #theme-menu .theme-bg-row{
+    background-image: none !important;
+    background-color: var(--facile-mobile-basic-inner) !important;
+    border-color: var(--facile-mobile-basic-border) !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .facile-radio-search button,
+  .facile-radio-main-control,
+  .facile-radio-small-control,
+  .facile-radio-home-control,
+  .facile-radio-favs-control,
+  .facile-radio-volume-toggle,
+  .facile-radio-button,
+  #theme-toggle.theme-toggle-btn,
+  #theme-menu button[onclick="applyCustomBackground()"],
+  #theme-menu .theme-bg-file-btn{
+    background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.18) !important;
+    filter: none !important;
+  }
+
+  .facile-radio-row:hover,
+  .facile-radio-row:focus-visible{
+    background-color: var(--facile-mobile-basic-inner) !important;
+    filter: brightness(1.04) !important;
+  }
+}
