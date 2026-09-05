@@ -8327,68 +8327,10 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE MOVIL - MISMO DISENO, SOLO MENOS TRANSLUCIDO V21 */
+/* FACILE MOVIL - MISMO ASPECTO, CRISTAL MAS MATE V22 */
 @media only screen and (max-width: 767px){
-  /*
-    No cambia tamaños, posiciones, colores de texto, tarjetas ni distribución.
-    Solo refuerza la opacidad de las superficies que ya existían.
-  */
-  .header,
-  .header .container.logo-nav-container,
-  main.intro .container,
-  .facile-info-widget,
-  .facile-search-widget,
-  #facile-news-widget.facile-news-shell,
-  .widget-box.ticker-widget,
-  #weather-widget.weather-widget,
-  .facile-page-favorites,
-  .facile-radio-panel,
-  #theme-menu.theme-menu,
-  .mobile-menu-native > ul.mobile-menu-list,
-  footer,
-  footer .footer-inner,
-  .footer .footer-inner,
-  .site-footer .footer-inner{
-    background-color: color-mix(
-      in srgb,
-      var(--glass-bg) 58%,
-      var(--primary-color) 42%
-    ) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-  }
-
-  /* Las capas interiores siguen siendo las mismas, solo algo más sólidas. */
-  #facile-news-widget .facile-news-card,
-  #weather-content > div:last-child > div,
-  .facile-favorite-card,
-  .facile-favorites-picker,
-  .facile-favorites-form,
-  .facile-radio-now,
-  .facile-radio-volume,
-  .facile-radio-row,
-  .facile-radio-loading-row{
-    background-color: color-mix(
-      in srgb,
-      var(--glass-bg) 42%,
-      rgba(255,255,255,0.72) 58%
-    ) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-  }
-
-  /* Elimina únicamente el aplazamiento visual CSS de los iconos. */
-  main.intro .container > section:not(#facile-news-widget),
-  main.intro .container > section:not(#facile-news-widget) > a.logo,
-  main.intro .container > section:not(#facile-news-widget) > a.logo img,
-  .logo img{
-    content-visibility: visible !important;
-  }
-
-  .logo img{
-    opacity: 1 !important;
-    filter: none !important;
-    will-change: auto !important;
+  :root{
+    /* Antes: rgba(255,255,255,0.15). Solo aumenta la opacidad. */
+    --glass-bg: rgba(255,255,255,0.30);
   }
 }
-
