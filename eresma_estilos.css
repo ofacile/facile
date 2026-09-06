@@ -8335,38 +8335,45 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   }
 }
 
-/* FACILE MOVIL - RADIO MATE Y LEGIBLE V23 */
+/* FACILE MOVIL - RADIO Y TEMAS MATE EN LA PALETA ACTUAL V24 */
 @media only screen and (max-width: 767px){
-  /*
-    Correccion limitada al panel de Radio.
-    Conserva dimensiones, posicion, controles, colores tematicos y funcionamiento.
-  */
-  .facile-radio-panel{
-    background:
+  :root{
+    /* Derivadas exclusivamente de los colores actuales de cada tema. */
+    --facile-mobile-menu-matte:
       linear-gradient(
-        160deg,
-        color-mix(in srgb, var(--primary-color) 34%, #16283b 66%) 0%,
-        color-mix(in srgb, var(--primary-color) 18%, #173342 82%) 50%,
-        color-mix(in srgb, var(--secondary-color) 28%, #163a38 72%) 100%
-      ) !important;
-    background-color: #173342 !important;
-    border-color: color-mix(in srgb, var(--primary-color) 38%, rgba(255,255,255,0.34) 62%) !important;
+        155deg,
+        color-mix(in srgb, var(--primary-color) 72%, #14243a 28%),
+        color-mix(in srgb, var(--secondary-color) 58%, #142d38 42%)
+      );
+    --facile-mobile-menu-inner:
+      color-mix(in srgb, var(--primary-color) 24%, #263c50 76%);
+    --facile-mobile-menu-inner-hover:
+      color-mix(in srgb, var(--primary-color) 32%, #30495c 68%);
+    --facile-mobile-menu-border:
+      color-mix(in srgb, var(--primary-color) 42%, rgba(255,255,255,0.30) 58%);
+  }
+
+  /* Radio y Temas comparten la misma superficie mate temática. */
+  .facile-radio-panel,
+  #theme-menu.theme-menu{
+    background: var(--facile-mobile-menu-matte) !important;
+    background-color: color-mix(in srgb, var(--primary-color) 66%, #182d40 34%) !important;
+    border: 1px solid var(--facile-mobile-menu-border) !important;
     box-shadow:
-      0 10px 24px rgba(0,0,0,0.28),
+      0 10px 24px rgba(0,0,0,0.27),
       inset 0 1px 0 rgba(255,255,255,0.14) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-    opacity: 1;
   }
 
-  /* Las superficies internas dejan de mostrar el contenido de la pagina por debajo. */
+  /* Superficies internas opacas, sin ver la página situada detrás. */
   .facile-radio-now,
   .facile-radio-volume,
   .facile-radio-row,
-  .facile-radio-loading-row{
-    background:
-      color-mix(in srgb, var(--primary-color) 16%, #263f50 84%) !important;
-    background-color: #263f50 !important;
+  .facile-radio-loading-row,
+  #theme-menu .theme-buttons,
+  #theme-menu .theme-bg-row{
+    background: var(--facile-mobile-menu-inner) !important;
     border-color: rgba(255,255,255,0.15) !important;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.10) !important;
     backdrop-filter: none !important;
@@ -8375,12 +8382,10 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
 
   .facile-radio-row:hover,
   .facile-radio-row:focus-visible{
-    background:
-      color-mix(in srgb, var(--primary-color) 24%, #2d4a5c 76%) !important;
-    filter: brightness(1.05) !important;
+    background: var(--facile-mobile-menu-inner-hover) !important;
   }
 
-  /* Contraste estable dentro del panel. */
+  /* Textos del panel con contraste estable. */
   .facile-radio-header,
   .facile-radio-header strong,
   .facile-radio-header span,
@@ -8390,14 +8395,49 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
   .facile-radio-row-text strong,
   .facile-radio-row-text em,
   .facile-radio-note,
-  .facile-radio-volume-value{
+  .facile-radio-volume-value,
+  #theme-menu > h3,
+  #theme-menu > h3::after,
+  #theme-menu h4{
     color: #ffffff !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.30) !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.32) !important;
     opacity: 1 !important;
   }
 
+  /* Temas: fondo mate, pero los seis botones conservan sus colores propios. */
+  #theme-menu .theme-buttons{
+    padding: 8px !important;
+    border-radius: 13px !important;
+  }
+
+  #theme-menu .theme-bg-row{
+    padding: 6px !important;
+    border-radius: 12px !important;
+  }
+
+  #theme-menu hr{
+    border: 0 !important;
+    height: 1px !important;
+    background: rgba(255,255,255,0.24) !important;
+  }
+
+  /* X de Temas integrada en la misma paleta, sólida y legible. */
+  #theme-menu .theme-menu-close{
+    color: #ffffff !important;
+    background:
+      color-mix(in srgb, var(--primary-color) 72%, var(--secondary-color) 28%) !important;
+    border: 1px solid rgba(255,255,255,0.24) !important;
+    box-shadow:
+      0 3px 8px rgba(0,0,0,0.20),
+      inset 0 1px 0 rgba(255,255,255,0.20) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Campos claros para lectura inmediata. */
   .facile-radio-search input,
-  .facile-radio-controls select{
+  .facile-radio-controls select,
+  #theme-menu #bg-url{
     color: #263447 !important;
     -webkit-text-fill-color: #263447 !important;
     background: #f7fafc !important;
@@ -8405,19 +8445,22 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     opacity: 1 !important;
   }
 
-  .facile-radio-search input::placeholder{
+  .facile-radio-search input::placeholder,
+  #theme-menu #bg-url::placeholder{
     color: #66717d !important;
     opacity: 1 !important;
   }
 
-  /* El panel cerrado sigue oculto. El cambio de opacidad solo afecta al abierto. */
-  .facile-radio-widget:not(.is-open) .facile-radio-panel{
+  /* Respeta los estados cerrados existentes. */
+  .facile-radio-widget:not(.is-open) .facile-radio-panel,
+  #theme-panel:not(.facile-theme-menu-open) #theme-menu.theme-menu{
     opacity: 0 !important;
     visibility: hidden !important;
     pointer-events: none !important;
   }
 
-  .facile-radio-widget.is-open .facile-radio-panel{
+  .facile-radio-widget.is-open .facile-radio-panel,
+  #theme-panel.facile-theme-menu-open #theme-menu.theme-menu{
     opacity: 1 !important;
     visibility: visible !important;
     pointer-events: auto !important;
