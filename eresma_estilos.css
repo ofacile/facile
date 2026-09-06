@@ -8893,3 +8893,46 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     font-weight: 750 !important;
   }
 }
+
+/* FACILE MOVIL - TODO EL TEXTO DEL TIEMPO EN BLANCO V29 */
+@media only screen and (max-width: 767px){
+  #weather-widget.weather-widget,
+  #weather-content,
+  #weather-content > h3,
+  #weather-content > p,
+  #weather-content > p:nth-of-type(1),
+  #weather-content > p:nth-of-type(2),
+  #weather-content > div:last-child > div,
+  #weather-content > div:last-child > div > div,
+  #weather-content > div:last-child > div > div:nth-child(1),
+  #weather-content > div:last-child > div > div:nth-child(3){
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    opacity: 1 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.45) !important;
+  }
+
+  #weather-content > p:nth-of-type(1){
+    font-weight: 500 !important;
+  }
+
+  #weather-content > p:nth-of-type(2),
+  #weather-content > div:last-child > div > div:nth-child(1),
+  #weather-content > div:last-child > div > div:nth-child(3){
+    font-weight: 750 !important;
+  }
+
+  /* El campo de ciudad conserva texto oscuro sobre fondo claro. */
+  #city-input{
+    color: #263447 !important;
+    -webkit-text-fill-color: #263447 !important;
+    text-shadow: none !important;
+  }
+
+  #city-input::placeholder{
+    color: #66717d !important;
+    -webkit-text-fill-color: #66717d !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+  }
+}
