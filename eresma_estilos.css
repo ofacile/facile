@@ -8466,3 +8466,106 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     pointer-events: auto !important;
   }
 }
+
+/* FACILE MOVIL - SUPERFICIES GENERALES COMO RADIO Y TEMAS V25 */
+@media only screen and (max-width: 767px){
+  /*
+    Toma exactamente la misma base cromatica mate definida para Radio y Temas.
+    No cambia tamaños, posiciones, tipografia ni estructura.
+  */
+  .header,
+  .header .container.logo-nav-container,
+  main.intro .container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    background: var(--facile-mobile-menu-matte) !important;
+    background-color: color-mix(in srgb, var(--primary-color) 66%, #182d40 34%) !important;
+    border-color: var(--facile-mobile-menu-border) !important;
+    box-shadow:
+      0 6px 16px rgba(0,0,0,0.20),
+      inset 0 1px 0 rgba(255,255,255,0.13) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* La caja exterior del header queda algo mas suave que los paneles flotantes. */
+  .header{
+    background:
+      linear-gradient(
+        155deg,
+        color-mix(in srgb, var(--primary-color) 62%, #1b3146 38%),
+        color-mix(in srgb, var(--secondary-color) 48%, #18343f 52%)
+      ) !important;
+  }
+
+  /* Caja del logo, contenedor principal y widgets: misma familia, un punto mas clara. */
+  .header .container.logo-nav-container,
+  main.intro .container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites{
+    background:
+      linear-gradient(
+        155deg,
+        color-mix(in srgb, var(--primary-color) 58%, #294257 42%),
+        color-mix(in srgb, var(--secondary-color) 42%, #294754 58%)
+      ) !important;
+  }
+
+  /* Tarjetas interiores en la misma tonalidad mate, sin dejar ver el fondo. */
+  #facile-news-widget .facile-news-card,
+  #weather-content > div:last-child > div,
+  .facile-favorite-card,
+  .facile-favorites-picker,
+  .facile-favorites-form{
+    background: var(--facile-mobile-menu-inner) !important;
+    border-color: rgba(255,255,255,0.15) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.10) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Contraste de los textos generales sobre las nuevas superficies oscuras. */
+  .facile-info-widget,
+  .facile-info-widget:visited,
+  .facile-favorites-heading h2,
+  .facile-favorite-link,
+  .facile-favorite-text strong,
+  #weather-widget.weather-widget,
+  #weather-content,
+  #weather-content > p,
+  footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.30) !important;
+  }
+
+  .facile-favorite-text small{
+    color: rgba(255,255,255,0.78) !important;
+    text-shadow: none !important;
+  }
+
+  /* Inputs siguen claros y legibles, sin alterar su estructura. */
+  #facileSearchForm .facile-search-input,
+  #city-input,
+  .facile-favorites-form input,
+  .facile-favorites-picker > input{
+    color: #263447 !important;
+    -webkit-text-fill-color: #263447 !important;
+    background: #f7fafc !important;
+    border-color: rgba(255,255,255,0.34) !important;
+  }
+}
