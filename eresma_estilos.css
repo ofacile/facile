@@ -8846,3 +8846,50 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     color: #aeb9c8 !important;
   }
 }
+
+/* FACILE MOVIL - TEXTO DEL TIEMPO LEGIBLE EN SOL Y ATARDECER V28 */
+@media only screen and (max-width: 767px){
+  /* Tema Sol: gris azulado oscuro, legible sobre azul y verde. */
+  body:has(#theme-menu .theme-btn[data-theme="sol"].is-selected) #weather-content > p:nth-of-type(1),
+  body:has(#theme-menu .theme-btn[data-theme="sol"][aria-pressed="true"]) #weather-content > p:nth-of-type(1){
+    color: #18354a !important;
+    -webkit-text-fill-color: #18354a !important;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.18) !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="sol"].is-selected) #weather-content > p:nth-of-type(2),
+  body:has(#theme-menu .theme-btn[data-theme="sol"][aria-pressed="true"]) #weather-content > p:nth-of-type(2),
+  body:has(#theme-menu .theme-btn[data-theme="sol"].is-selected) #weather-content > div:last-child > div > div:nth-child(1),
+  body:has(#theme-menu .theme-btn[data-theme="sol"].is-selected) #weather-content > div:last-child > div > div:nth-child(3),
+  body:has(#theme-menu .theme-btn[data-theme="sol"][aria-pressed="true"]) #weather-content > div:last-child > div > div:nth-child(1),
+  body:has(#theme-menu .theme-btn[data-theme="sol"][aria-pressed="true"]) #weather-content > div:last-child > div > div:nth-child(3){
+    color: #203c50 !important;
+    -webkit-text-fill-color: #203c50 !important;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.14) !important;
+    opacity: 1 !important;
+    font-weight: 750 !important;
+  }
+
+  /* Tema Atardecer: marron muy oscuro, acorde con la paleta calida. */
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected) #weather-content > p:nth-of-type(1),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]) #weather-content > p:nth-of-type(1){
+    color: #3b2119 !important;
+    -webkit-text-fill-color: #3b2119 !important;
+    text-shadow: 0 1px 0 rgba(255,236,220,0.16) !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected) #weather-content > p:nth-of-type(2),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]) #weather-content > p:nth-of-type(2),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected) #weather-content > div:last-child > div > div:nth-child(1),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected) #weather-content > div:last-child > div > div:nth-child(3),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]) #weather-content > div:last-child > div > div:nth-child(1),
+  body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]) #weather-content > div:last-child > div > div:nth-child(3){
+    color: #4a2b22 !important;
+    -webkit-text-fill-color: #4a2b22 !important;
+    text-shadow: 0 1px 0 rgba(255,236,220,0.14) !important;
+    opacity: 1 !important;
+    font-weight: 750 !important;
+  }
+}
