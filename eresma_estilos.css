@@ -8569,3 +8569,130 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     border-color: rgba(255,255,255,0.34) !important;
   }
 }
+
+/* FACILE PC - TEMA LUNA OSCURO Y APAGADO V26 */
+@media only screen and (min-width: 768px){
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+    --primary-color: #40536f;
+    --secondary-color: #2f6670;
+    --background-gradient: linear-gradient(180deg, #111827, #182238);
+    --header-bg: linear-gradient(90deg, #182235, #223247);
+    --glass-bg: rgba(18,27,43,0.86);
+    --text-color: #e4e9f1;
+    --text-dark: #d7dee8;
+    --menu-accent-color: #53677f;
+    --facile-widget-date: #8eb6c8;
+    --facile-widget-meta: #c0cad7;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+    background: linear-gradient(180deg, #111827, #182238) !important;
+    color: #d7dee8 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .header,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .header{
+    background: #111722 !important;
+    border-color: #29384b !important;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.28) !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .header .container.logo-nav-container,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .header .container.logo-nav-container,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) main.intro .container,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) main.intro .container{
+    background: #151d2d !important;
+    border-color: #2d3b50 !important;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.24) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-info-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-search-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget.facile-news-shell,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .widget-box.ticker-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget.weather-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-page-favorites,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-info-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-search-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget.facile-news-shell,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .widget-box.ticker-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget.weather-widget,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-page-favorites{
+    background: #101a29 !important;
+    color: #e2e7ef !important;
+    border-color: #34465b !important;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.05) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-card,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-content > div:last-child > div,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorite-card,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-card,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-content > div:last-child > div,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorite-card{
+    background: #172536 !important;
+    color: #e3e8f0 !important;
+    border-color: #3e4e62 !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) main.intro .container > h3,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-title,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-content > h3,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) main.intro .container > h3,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-title,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-content > h3{
+    background: linear-gradient(90deg, #40536f, #2f6670) !important;
+    color: #f3f6fa !important;
+    border-color: #52657c !important;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.20) !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-search-submit,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget button,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-add-toggle,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-choose,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-search-submit,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget button,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-add-toggle,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-choose{
+    background: #3d7790 !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.12) !important;
+    filter: saturate(0.72) !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-media.facile-news-fallback,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-headline,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-media.facile-news-fallback,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-headline{
+    background: linear-gradient(135deg, #3f6387, #36727d) !important;
+    color: #ffffff !important;
+    filter: saturate(0.70) !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-content > p,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-heading h2,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorite-link,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorite-text strong,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-content > p,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-heading h2,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorite-link,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorite-text strong{
+    color: #e4e9f1 !important;
+    text-shadow: none !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorite-text small,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorite-text small{
+    color: #aeb9c8 !important;
+  }
+}
