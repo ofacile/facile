@@ -1,15 +1,23 @@
 {
-  "updatedAt": "2026-09-07T21:43:01.738863+00:00",
+  "updatedAt": "2026-09-08T00:05:38.458152+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Crisis en Ceuta: La juez Tardón ordena abrir una investigación penal",
-      "source": "Euronews",
-      "summary": "Crisis en Ceuta: La juez Tardón ordena abrir una investigación penal Euronews La Audiencia Nacional asume la investigación sobre la entrada masiva de migrantes a Ceuta por “atacar gravemente la integridad territorial de España” EL PAÍS La juez avala la pista \"",
+      "title": "Crisis en Ceuta: La Audiencia Nacional abre una investigación penal",
+      "source": "Euronews.com",
+      "summary": "Crisis en Ceuta: La Audiencia Nacional abre una investigación penal Euronews.com La Audiencia Nacional asume la investigación sobre la entrada masiva de migrantes a Ceuta por “atacar gravemente la integridad territorial de España” EL PAÍS El Gobierno se person",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObW5jT1BGbXV1Zm81TU5TUjBISkRJTnNESzFESXlHa0FaMTNwSVNoOXdqeXpnSmt4UnYyRkVGR3h1VkczeER1RTVSRjJzMmszckk4Xzkxamc4aGkzeWhWQ2l0RFdSaUZGNlB5MFJkUTNkQkVBWFRqNTJqTHg0TWpiNDRWMDd5SlNYaWZxM1g0M1o4WVBtaDE2YUtVQXpfWTgzenNuRWtjWGt6ZnJh?oc=5",
       "pubDate": "Mon, 07 Sep 2026 14:53:24 GMT"
+    },
+    {
+      "title": "La ultraderecha ve la victoria de AfD en Sajonia-Anhalt como la chispa que va a incendiar Europa en 2027",
+      "source": "El Independiente",
+      "summary": "La ultraderecha ve la victoria de AfD en Sajonia-Anhalt como la chispa que va a incendiar Europa en 2027 El Independiente BSW, el partido alemán que se dice de izquierdas pero está dispuesto a pactar con AfD para sobrevivir EL PAÍS La izquierda populista abre",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVzMxeXE4b3kyVFRxYVNQVFl5TVgyMklNdDc3VG5vaHRKdm5JM0lBdUdXVzhucWl1YTVBcHhxd0ZzazNYS29zTjQ5bDFNZEphLU9kNVFQRmd5Q3V0MWd0bjhrSE5VZHFVMVRMcGd2amJkMl9NclhaR3N0MTZBVWVhaGo4WFV5VUdXeGdnMVQyNkpqWndKbWFUNkpIRWRnd2M4UldFMUZqZzVialRSdF95QjBUbk9yX3FpS2lLcC1ZMXpWTVFsRTMtNnVNOEQzeHJuQnQ4Z1B2RlJUSTdteXMyWFM3RTQ2YkgwZ042RXhVQl9CSF9F0gH6AUFVX3lxTE9Jc2dXS00zMnd2dFgxdHdfeVMtTU9rS2xYTkdXWk5pZndMRkZ0NlZuWG1RN3AtUmdPX2wwWjdvdjgxb1BxT2p5enZnQ3NSNk9nQnhkMzFweWszaVNXUExVUHpMSjBtTGJnY2hyNUNiZDdsemFIRUJCb050bVd5X0t0YWpWclNFb0R3U1RaNDF6VEdDV1lqM2hSQ2N5QnlsNVlRNzRGNDkzSU12eWV5M2pGVDdGYzdVUXBzUHNrei00NVBjY2dXclIzMzNuSm1QMkhIZjBaNl9VVkpTZkV2RzhoWS1CUmsxclNrWElheWw1SmtCdUQxdmRkelE?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 22:08:12 GMT"
     },
     {
       "title": "El juez Peinado convoca este martes la audiencia previa al juicio de Begoña Gómez",
@@ -20,22 +28,6 @@
       "pubDate": "Mon, 07 Sep 2026 12:28:25 GMT"
     },
     {
-      "title": "Europa reacciona con preocupación ante los mejores resultados de la ultraderecha en Alemania desde 1933",
-      "source": "La Voz de Galicia",
-      "summary": "Europa reacciona con preocupación ante los mejores resultados de la ultraderecha en Alemania desde 1933 La Voz de Galicia BSW, el partido alemán que se dice de izquierdas pero está dispuesto a pactar con AfD para sobrevivir EL PAÍS AfD se lanza a la caza de di",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNN0syYzRCcXY0d0JzTjdkUU82WGQzMnNZZ2c0RTItODVCQng4QzVSYUVCcWFXM0l1YzVyNVBFWGhGRlVDcDBOTjF5RV9xLVgtUkUxOVRtSVpmVXhiMnM1cUZnN1dxWFg3MWtpYllxWFFvYWhLaWM2djhFbkdDNURvY1owRkVWckZTNFFTdXgyZE84ZDhzWVZwWmtIUTRSLVZIdUJYZVlWTnZzbGNKTlpORWIxb1NFaGdDU29oRW81N1BxTnNvc29ycV9XX2NTcC1GSDFNbTIzSGE2c3dDYXlRemdHcHpLUnlRYW4zdTBmU0JqWkhrclJzSEJ3M2gxVkpt0gGcAkFVX3lxTE9Zay16LVZCYldSQ1NXU0RHeXpzdW90dS10N21jTG1jMVNMT1R6b0RUc1d4c2dBbkcyVmJzOEp4YUotZXljSlNaSzNCSkdYMVU3dy03am9TZm12cHVPWDZnVlpaUEw3UjRzWEJNNF9CODZMaHZveHNJWGczTXBkNGx1VEgwZXM0b2Y1WUd5NVVfZ2ZqbVAyeFhDTHphLVNBajB1Vnp1S21YTTdhd1ZYaUdQOGE0QkF5TkJuc20zVk54VFF4VzZUOElBLVo2SGNWLW9nYkxRS3JIWlJkaXZKRnRPaWF0ZDM2bXJvVWRjTGNodHhaeDBWRHNjUUhjRTJ4Tml3QUZZdFRiNUVRZ1NZc05XN3dmdzdJRkZpdmgw?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 17:00:31 GMT"
-    },
-    {
-      "title": "La nueva vida de Leonor: así ha sido su primer día en la universidad",
-      "source": "Euronews",
-      "summary": "La nueva vida de Leonor: así ha sido su primer día en la universidad Euronews Leonormanía, ¿mito o realidad?: “Leonor interesa cuando se acerca a los mortales” EL PAÍS Un paso decisivo en la formación de Leonor de Borbón El Mundo El 'corte' de sentarse junto a",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTB3QkNkMGNWWHFEY2h6LTVQVDdwWVdBdHIydnZfLXJXZmRxWHZmc0JaQzU3aXNVSnlZM2sxTjlTM0NiWTBvYko1UmFRUkhubjJMaTJwY2dmbzJFYUJyVHhQSlNrM2RBaGpIdHc5LVdkZGtpc1dhanJOUEF6dHVST0thME5HOXhRN1ZfY1VpMFg4bDY1QnBhN0t4S3Bjd2wtM1dpMlZSQ0ZVQnRhNHk0bUNCZkdQUXJX?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 10:12:00 GMT"
-    },
-    {
       "title": "Ceuta inicia el curso escolar entre miedo, escoltas y barrios donde los niños ya no pueden ir solos: \"No es normal\"",
       "source": "La Razón",
       "summary": "Ceuta inicia el curso escolar entre miedo, escoltas y barrios donde los niños ya no pueden ir solos: \"No es normal\" La Razón Llevar o no a los hijos al cole, la encrucijada que quita el sueño a los padres y madres de una Ceuta sin normalidad RTVE.es La mañana",
@@ -44,28 +36,36 @@
       "pubDate": "Mon, 07 Sep 2026 16:45:16 GMT"
     },
     {
-      "title": "El Puerto se planta: trabajadores convocan una protesta contra el \"nuevo\" campamento de inmigrantes",
+      "title": "Pablo Simón, profesor de la princesa Leonor en la Carlos III: \"Algún republicano va a tener sentado en la clase y creo que eso va a ser muy positivo\"",
+      "source": "El HuffPost",
+      "summary": "Pablo Simón, profesor de la princesa Leonor en la Carlos III: \"Algún republicano va a tener sentado en la clase y creo que eso va a ser muy positivo\" El HuffPost Las enseñanzas para Leonor de los compañeros de Universidad del Rey: \"Lo de las fotos es insoporta",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUUE2dnZ2ZlF3UVZ2OUJJdHJDalFwRVJwLUIzR3FIUmZmMlAxNzBHR0QtM0tfYm1BV3FuNU9sbHgxQzZLX1hNX0FzOGN5RkFyVVYxX2lkMWdjbExLSmk4dGR6NnlzS0Nib0tkb0UyN3F0VHo4bHd2ZTdsYjQ4eFRRYmgtSW9CQ3RRQnl5RXc0QklZWExOOGhpbHcta3g2UzhkM2JWY3ptc0RhSFVKdnlLaU45akNoWW93b1ZSM29LU1BPTnkyYm1HQnA1VEhmdm5HR3RDOV9XdkF4bmV6TXfSAfIBQVVfeXFMUFBZWGpBVDlFVXRMZWt4Y0NaMjJaZXF1X09UdFVoZHBCM05UNHJjU1pEVk5wNk9GWXZwWHRCQ3BPUzNBRnRPcnpqbFVlc0VyeXM3UDQ3MkdKZFMtcW9WQUZpWlV2T1NpMGNiMDd3a20xb1k0MGctd2RfNzBLZ0g3U1JVNldZZG1Gb29MNkpnNmpmWjhkZm02YWJaanJ1Tk1MYUR1TnM5MEhFVkNuVUNMU0RmcG56NHpNQW42dHlyRktmYTE3OWZfdWN3djJubS1XZjBDTjlCOHhaVnowUHJUNUhnVFdXZzRtSGdCXy0td2tNWXc?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 19:04:54 GMT"
+    },
+    {
+      "title": "Ofensiva contra el plan de Puente de alojar a inmigrantes en el puerto de Ceuta",
       "source": "La Razón",
-      "summary": "El Puerto se planta: trabajadores convocan una protesta contra el \"nuevo\" campamento de inmigrantes La Razón Puente acusa al PP de “boicotear” al Gobierno y “sabotear” a los ceutíes La Vanguardia Óscar Puente carga contra Vivas y justifica el uso del puerto: \"",
+      "summary": "Ofensiva contra el plan de Puente de alojar a inmigrantes en el puerto de Ceuta La Razón Puente acusa al PP de “boicotear” al Gobierno y “sabotear” a los ceutíes La Vanguardia Óscar Puente carga contra Vivas y justifica el uso del puerto: \"Ceuta no es Californ",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTmtzck5mS2laMHRwUUZtellFc3hxMG5oWGFwNGNFQjVwMU4tVThzc0NacEJNcEZ1V1lSSlRCRWlWb2djQzJvVWE0WEJQSHAzY0JxUkJFYkpvTWFYTjlFMkgwbDhOcjJNcHZDNklHR3BLUmszQWc2U2d0N0hlc3ZJRTVIZW8xR0VLazFScVE0dmplYVQwYXRRcXNrZHUzMFNEekt6OUIyOTVDQ0VVWm1OQVFXdUdtTEZpMTlEdzEwSkpXRUFFby13SG12cjB1QTZnQl9HTkUwTEHSAewBQVVfeXFMTk9pY3IySGcxbndtdzQzeVFlbWY5N0tKRDExdjF4cURKTmEzRmR2UUZweHVJY0JVdHFwVV91ckgxcFFzcElqY2Zha2RBb0xRNEdHMnNNaVdRdl9yN01yTzk3LWdQYndQSk9aZzRRNnNPRWFKb2FLUkdWSE82bEN0UE9BMW8tWEJaWVMwdW5xSExTc1NsZll1cEh6UzJIUl82emc2UmNhT2JuWVFlMV8wQzJlaHR3OHlSSzQ0Q0VycTd1M0NsbC1sQXRzY3Y3WXpBa2l2cUJzaWxJb0VmaHNoeXdiUXFUSU1rSGM0MC0?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 13:30:21 GMT"
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaFZoZG02MVV4SEtPZGM5LXVyNE9yS2xTZkZEeDRfQXlsYnh3N1pMMWtBSndjQlpTRnhwd2gwVFBmeldtUDVQdVktQTNYRVp5Z3d1VGwyOHgxLWp6Nm11eUJvdWNRYXd0Uk44dHROV1pWQ1l6OTZVSmh4alhESVZ4cEl6azRxNVMwZFhYRW1ULVVLQmRMNm0yd0hDbHIxMWY3aFdCZ2NwbngzX0o3UlVpSEU0X1ZhZGk0d3ZuSdIB0AFBVV95cUxOWXBjWTluVGVOWkVXMTVDR3Jic3V4aW11aFNjRVF4ZWFPb0J0dlZMdTlfSmtiYlRlSmZiMkZMZnNGU1BhN0dsOTdLdmFPRUhFMnJzQTA1aWp3U0NqRE5wU0k3YS04SzhzSlhqbDJJQXNhdTJaVkcyTFdWN1BHVGlWN0pBMERMLW1pNkJzc3pWYTg3eGpHTzNlODByM3UtdmN5amxfQ19QNFBJYV9ldlBjZG5TZDdvdkI3T3VCV05oZzZwWC1VUHZYeFR6dXptOG14?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 17:46:16 GMT"
     },
     {
-      "title": "Faro Santander ya ilumina la capital cántabra",
+      "title": "Pedro Sánchez ofrece este miércoles en La 1 su primera entrevista en televisión tras la crisis migratoria de Ceuta",
       "source": "RTVE.es",
-      "summary": "Faro Santander ya ilumina la capital cántabra RTVE.es Un nuevo faro cultural para iluminar Santander EL PAÍS Más de 250 invitados para la gran cita El Diario Montañés Felipe VI y Ana Botín inauguran en Cantabria el centro cultural 'Faro Santander' en el histór",
+      "summary": "Pedro Sánchez ofrece este miércoles en La 1 su primera entrevista en televisión tras la crisis migratoria de Ceuta RTVE.es De la SER a TVE: Sánchez recurre a las entrevistas para imponer su relato sobre la invasión de Ceuta Libertad Digital Pedro Sánchez será",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTkhidW1GQU4zNkpSdWtaenFyZzd6SmE5eGxVLXBJclc4azQ2YXZIeDFpSUNFeHhtdGNCU196WDRGaTdVY01xTURhNnk2MlBlb3hvXy0ybTNmeTMwYmFVOXFYU0ZCVUQ3bE1xMVh2NWZtSjI3NEtYZ0ZnMkc0TjJ5WmI5SFh1Y05jc3VKRWRGZUdUWGx1MlAydXNTdw?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 14:20:10 GMT"
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZTJBQzh6TGhiaERuYkVxSENzUXNvNWk4R0dfOGdXanI4aUJfOFBMVmVJSER3UUNMQXo5aVRmM0Vhczd6ek16dXlkS3luMGlRN3ZSZTlaTkZKZl9ZcnYzaFdRYzFjeXZ3MXBPQjdwX2hQZFp2NzhxVFM5UWQwVzRDclNSem03QmNvTmJDQXNxLS1fWktldThsWENtbnVRQWZGWWJpUGFzbXhGVDY5aXBUbVFwOUNYYWZiRDJPc19GSjUyUDZCRzRxQWg1Rm1tMk0?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 17:34:50 GMT"
     },
     {
-      "title": "Pedro Sánchez presenta el primer portal del parque público estatal de vivienda y aboga por \"alquileres realistas para salarios reales\"",
-      "source": "La Moncloa",
-      "summary": "Pedro Sánchez presenta el primer portal del parque público estatal de vivienda y aboga por \"alquileres realistas para salarios reales\" La Moncloa El presidente del Gobierno presenta el portal de vivienda asequible de Casa 47 casa47.es Ni un solo piso en Madrid",
+      "title": "Pacientes con Distrofia Muscular de Duchenne alertan de la falta de coordinación asistencial al llegar a la edad adulta",
+      "source": "iSanidad",
+      "summary": "Pacientes con Distrofia Muscular de Duchenne alertan de la falta de coordinación asistencial al llegar a la edad adulta iSanidad La dura enfermedad de Duchenne La Vanguardia Diego, con distrofia muscular de Duchenne, pide más investigación para encontrar una c",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTGNDbERCTGp0TndTNW1wSjAyNjJKUngzZFZpNWIyQ3E1MGF4UVJaZkg2cnpiV3htTmFKOVJIREhIV1U0clAwQ1oxbWRQLVByOHlvM0xnMHpfYjdMRFNOMk9sblVrMk5acUlvZ2x0S2pSNXB2eDBqRldOTXVySnJaQ19tSVJVNDJhM1BOXy1icWNNdnJZdTNCaUU4T2w1dnc?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 12:49:36 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQy13SkRFZWJ2YkNKQWRrOXhwZ0M1RUY2UE1YRG1xTjdxTjRlZDJYbzBCQ1VRcFNpVlppUHMzOGFDUUtheWdBUGRjeUhCZUhvV3htTmhzNDRDVW5FRWJpZUZQUXJwQzFJa3FYWUFjVHRrbi1xeVBjc09fMk9rRjV6Z1psQlU0UUdLNkZORi1Nb2lmRHJzY1N0bVV3UjY2QklnRXBOQXdtZk9JWlM1MHN3al9jdFptOVozSmtwamg0SFl5V3R1azExOVRwUWU5b0g4cWhPU1Z3?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 17:18:42 GMT"
     }
   ]
 }
