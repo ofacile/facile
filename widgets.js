@@ -811,4 +811,211 @@
     renderFavorites();
   });
 })();
+/* FACILE WEATHER - TEXTO BLANCO MOVIL DEFINITIVO V30 */
+(function(){
+  "use strict";
 
+  if (window.__facileWeatherWhiteTextReady) {
+    return;
+  }
+
+  window.__facileWeatherWhiteTextReady = true;
+
+  const mobileQuery = window.matchMedia("(max-width: 767px)");
+  let weatherObserver = null;
+  let observedContent = null;
+  let scheduled = false;
+
+  function forceWhiteText(element){
+    if (!element || element.nodeType !== 1) {
+      return;
+    }
+
+    /*
+      Nunca aplicar blanco al campo de ciudad.
+      El botón Buscar ya tiene texto blanco por CSS.
+    */
+    if (
+      element.matches(
+        "input, textarea, select, option, #city-input"
+      )
+    ) {
+      return;
+    }
+
+    element.style.setProperty("color", "#ffffff", "important");
+    element.style.setProperty(
+      "-webkit-text-fill-color",
+      "#ffffff",
+      "important"
+    );
+    element.style.setProperty("opacity", "1", "important");
+
+    /*
+      Solo una sombra pequeña para asegurar legibilidad.
+      No utiliza blur de fondo ni animaciones.
+    */
+    element.style.setProperty(
+      "text-shadow",
+      "0 1px 2px rgba(0,0,0,0.62)",
+      "important"
+    );
+  }
+
+  function applyWeatherWhiteText(){
+    scheduled = false;
+
+    const weatherContent = document.getElementById("weather-content");
+
+    if (!weatherContent) {
+      return;
+    }
+
+    if (!mobileQuery.matches) {
+      weatherContent.classList.remove("facile-weather-white");
+
+      weatherContent
+        .querySelectorAll("[data-facile-weather-white]")
+        .forEach(function(element){
+          element.style.removeProperty("color");
+          element.style.removeProperty("-webkit-text-fill-color");
+          element.style.removeProperty("opacity");
+          element.style.removeProperty("text-shadow");
+          element.removeAttribute("data-facile-weather-white");
+        });
+
+      return;
+    }
+
+    weatherContent.classList.add("facile-weather-white");
+
+    /*
+      Aplicar el color directamente a todos los elementos generados.
+      Esto gana incluso frente a estilos inline añadidos por el widget.
+    */
+    forceWhiteText(weatherContent);
+
+    weatherContent
+      .querySelectorAll(
+        "h1, h2, h3, h4, h5, h6, p, div, span, strong, small"
+      )
+      .forEach(function(element){
+        if (element.closest("button, input, textarea, select")) {
+          return;
+        }
+
+        forceWhiteText(element);
+        element.setAttribute("data-facile-weather-white", "1");
+      });
+
+    /*
+      Restaurar explícitamente el campo de ciudad.
+    */
+    const cityInput = document.getElementById("city-input");
+
+    if (cityInput) {
+      cityInput.style.setProperty("color", "#263447", "important");
+      cityInput.style.setProperty(
+        "-webkit-text-fill-color",
+        "#263447",
+        "important"
+      );
+      cityInput.style.setProperty("text-shadow", "none", "important");
+    }
+  }
+
+  function scheduleApply(){
+    if (scheduled) {
+      return;
+    }
+
+    scheduled = true;
+
+    window.requestAnimationFrame(function(){
+      applyWeatherWhiteText();
+    });
+  }
+
+  function observeWeatherContent(){
+    const weatherContent = document.getElementById("weather-content");
+
+    if (!weatherContent || weatherContent === observedContent) {
+      scheduleApply();
+      return;
+    }
+
+    if (weatherObserver) {
+      weatherObserver.disconnect();
+    }
+
+    observedContent = weatherContent;
+
+    weatherObserver = new MutationObserver(function(){
+      /*
+        El widget reemplaza la temperatura, el viento y la previsión
+        después de recibir los datos. Se reaplica el blanco una sola vez
+        en el siguiente frame.
+      */
+      scheduleApply();
+    });
+
+    weatherObserver.observe(weatherContent, {
+      childList: true,
+      subtree: true,
+      characterData: true
+    });
+
+    scheduleApply();
+  }
+
+  function initialize(){
+    observeWeatherContent();
+
+    /*
+      El contenido puede crearse después de cargar widgets.js.
+      Este observador se desconecta en cuanto encuentra el widget.
+    */
+    if (!document.getElementById("weather-content")) {
+      const pageObserver = new MutationObserver(function(){
+        if (!document.getElementById("weather-content")) {
+          return;
+        }
+
+        pageObserver.disconnect();
+        observeWeatherContent();
+      });
+
+      pageObserver.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialize, {
+      once: true
+    });
+  } else {
+    initialize();
+  }
+
+  if (typeof mobileQuery.addEventListener === "function") {
+    mobileQuery.addEventListener("change", scheduleApply);
+  } else if (typeof mobileQuery.addListener === "function") {
+    mobileQuery.addListener(scheduleApply);
+  }
+
+  /*
+    Refuerzo después de pulsar Buscar.
+    La respuesta meteorológica es asíncrona, pero el MutationObserver
+    vuelve a aplicar el blanco cuando se inserta el resultado.
+  */
+  document.addEventListener("click", function(event){
+    const button = event.target.closest("#weather-widget button");
+
+    if (button) {
+      scheduleApply();
+    }
+  });
+})();
