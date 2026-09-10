@@ -8893,74 +8893,64 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     font-weight: 750 !important;
   }
 }
-
-/* FACILE MOVIL - TODO EL TEXTO DEL TIEMPO EN BLANCO V29 */
+/* FACILE MOVIL - TEXTO METEOROLOGICO BLANCO DEFINITIVO V30 */
 @media only screen and (max-width: 767px){
-  #weather-widget.weather-widget,
-  #weather-content,
-  #weather-content > h3,
-  #weather-content > p,
-  #weather-content > p:nth-of-type(1),
-  #weather-content > p:nth-of-type(2),
-  #weather-content > div:last-child > div,
-  #weather-content > div:last-child > div > div,
-  #weather-content > div:last-child > div > div:nth-child(1),
-  #weather-content > div:last-child > div > div:nth-child(3){
+
+  /*
+    Los resultados generados por el widget reciben esta clase
+    desde widgets.js después de cada búsqueda.
+  */
+  #weather-widget #weather-c*ntent.facile-weather-white,
+  #wea*her-widget #weather-content.facile*weather-white p,
+  #weather-widget*#weather-content.facile-weather-wh*te span,
+  #weather-widget #weathe*-content.facile-weather-white stro*g,
+  #weather-widget #weather-cont*nt.facile-weather-white small,
+  #*eather-widget #weather-content.fac*le-weather-white h1,
+  #weather-wi*get #weather-content.facile-weather-white h2,
+  #weather-widget #weather-content.facile-weather-white h3,
+  #weather-widget #weather-content.facile-weather-white h4,
+  #weather-widget #weather-content.facile-weather-white h5,
+  #weather-widget #weather-content.facile-weather-white h6,
+  #weather-widget #weather-content.facile-weather-white div{
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
     opacity: 1 !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.45) !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.62) !important;
   }
 
-  #weather-content > p:nth-of-type(1){
+  /* Temperatura principal */
+  #weather-widget #weather-content.facile-weather-white > p:nth-of-type(1){
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    opacity: 1 !important;
     font-weight: 500 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.62) !important;
   }
 
-  #weather-content > p:nth-of-type(2),
-  #weather-content > div:last-child > div > div:nth-child(1),
-  #weather-content > div:last-child > div > div:nth-child(3){
-    font-weight: 750 !important;
-  }
-
-  /* El campo de ciudad conserva texto oscuro sobre fondo claro. */
-  #city-input{
-    color: #263447 !important;
-    -webkit-text-fill-color: #263447 !important;
-    text-shadow: none !important;
-  }
-
-  #city-input::placeholder{
-    color: #66717d !important;
-    -webkit-text-fill-color: #66717d !important;
-    opacity: 1 !important;
-    text-shadow: none !important;
-  }
-}
-@media only screen and (max-width: 767px){
-
-  #weather-widget,
-  #weather-widget #weather-content,
-  #weather-widget #weather-content *,
-  #weather-widget .weather-content,
-  #weather-widget .weather-content *,
-  #weather-widget .weather-info,
-  #weather-widget .weather-info *,
-  #weather-widget .forecast,
-  #weather-widget .forecast *,
-  #weather-widget .forecast-container,
-  #weather-widget .forecast-container *,
-  #weather-widget .forecast-day,
-  #weather-widget .forecast-day *,
-  #weather-widget .weather-card,
-  #weather-widget .weather-card *{
+  /* Viento */
+  #weather-widget #weather-content.facile-weather-white > p:nth-of-type(2){
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
     opacity: 1 !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.55) !important;
+    font-weight: 750 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.62) !important;
   }
 
-  #weather-widget input,
-  #weather-widget input *,
+  /* Días y temperaturas de la previsión */
+  #weather-widget #weather-content.facile-weather-white > div:last-child > div > div:first-child,
+  #weather-widget #weather-content.facile-weather-white > div:last-child > div > div:last-child{
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: 750 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.62) !important;
+  }
+
+  /*
+    Excepciones:
+    el campo de ciudad debe seguir teniendo texto oscuro
+    y el botón Buscar debe conservar texto blanco.
+  */
   #weather-widget #city-input{
     color: #263447 !important;
     -webkit-text-fill-color: #263447 !important;
@@ -8968,18 +8958,15 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     opacity: 1 !important;
   }
 
-  #weather-widget input::placeholder,
   #weather-widget #city-input::placeholder{
-    color: #657384 !important;
-    -webkit-text-fill-color: #657384 !important;
+    color: #66717d !important;
+    -webkit-text-fill-color: #66717d !important;
     opacity: 1 !important;
     text-shadow: none !important;
   }
 
-  #weather-widget button,
-  #weather-widget button *{
+  #weather-widget button{
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
-    opacity: 1 !important;
   }
 }
