@@ -8936,3 +8936,50 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     text-shadow: none !important;
   }
 }
+@media only screen and (max-width: 767px){
+
+  #weather-widget,
+  #weather-widget #weather-content,
+  #weather-widget #weather-content *,
+  #weather-widget .weather-content,
+  #weather-widget .weather-content *,
+  #weather-widget .weather-info,
+  #weather-widget .weather-info *,
+  #weather-widget .forecast,
+  #weather-widget .forecast *,
+  #weather-widget .forecast-container,
+  #weather-widget .forecast-container *,
+  #weather-widget .forecast-day,
+  #weather-widget .forecast-day *,
+  #weather-widget .weather-card,
+  #weather-widget .weather-card *{
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    opacity: 1 !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.55) !important;
+  }
+
+  #weather-widget input,
+  #weather-widget input *,
+  #weather-widget #city-input{
+    color: #263447 !important;
+    -webkit-text-fill-color: #263447 !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  #weather-widget input::placeholder,
+  #weather-widget #city-input::placeholder{
+    color: #657384 !important;
+    -webkit-text-fill-color: #657384 !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+  }
+
+  #weather-widget button,
+  #weather-widget button *{
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    opacity: 1 !important;
+  }
+}
