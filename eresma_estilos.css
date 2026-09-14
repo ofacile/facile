@@ -9117,3 +9117,101 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     outline: none !important;
   }
 }
+
+/* FACILE PRINCIPAL PC - FORMULARIO DE FAVORITOS OSCURO EN LUNA V34 */
+@media only screen and (min-width: 768px){
+  /* Campos "Nombre opcional" y "nombredelapagina.com". */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-form input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-form input{
+    color: #f4f7fb !important;
+    -webkit-text-fill-color: #f4f7fb !important;
+    background: #0b111c !important;
+    border: 1px solid #34445a !important;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-form input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-form input::placeholder{
+    color: #b9c4d2 !important;
+    -webkit-text-fill-color: #b9c4d2 !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-form input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-form input:focus{
+    border-color: #60758f !important;
+    box-shadow:
+      0 0 0 2px rgba(96,117,143,0.22),
+      inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    outline: none !important;
+  }
+}
+
+/* FACILE FAVORITOS - MISMA ANIMACION DEL BOTON BUSCAR DEL TIEMPO V34 */
+.facile-page-favorites .facile-favorites-choose,
+.facile-page-favorites .facile-favorites-add-toggle{
+  transform: translateY(0) scale(1) !important;
+  transform-origin: center center !important;
+  will-change: auto !important;
+  transition:
+    transform 130ms ease,
+    filter 130ms ease,
+    box-shadow 150ms ease,
+    background-color 150ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine){
+  .facile-page-favorites .facile-favorites-choose:hover,
+  .facile-page-favorites .facile-favorites-choose:focus-visible,
+  .facile-page-favorites .facile-favorites-add-toggle:hover,
+  .facile-page-favorites .facile-favorites-add-toggle:focus-visible{
+    outline: none !important;
+    transform: translateY(-1px) scale(1.025) !important;
+    filter: brightness(1.06) saturate(1.04) !important;
+    box-shadow:
+      0 7px 16px rgba(0,0,0,0.14),
+      inset 0 1px 0 rgba(255,255,255,0.22) !important;
+  }
+}
+
+.facile-page-favorites .facile-favorites-choose:active,
+.facile-page-favorites .facile-favorites-add-toggle:active{
+  transform: translateY(1px) scale(0.98) !important;
+  filter: brightness(0.98) !important;
+  box-shadow:
+    0 3px 8px rgba(0,0,0,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.16) !important;
+}
+
+@media only screen and (max-width: 767px){
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-add-toggle{
+    transform: none !important;
+    transition:
+      filter 90ms linear,
+      box-shadow 100ms linear !important;
+  }
+
+  .facile-page-favorites .facile-favorites-choose:hover,
+  .facile-page-favorites .facile-favorites-choose:focus-visible,
+  .facile-page-favorites .facile-favorites-add-toggle:hover,
+  .facile-page-favorites .facile-favorites-add-toggle:focus-visible{
+    transform: none !important;
+  }
+
+  .facile-page-favorites .facile-favorites-choose:active,
+  .facile-page-favorites .facile-favorites-add-toggle:active{
+    transform: scale(0.98) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .facile-page-favorites .facile-favorites-choose,
+  .facile-page-favorites .facile-favorites-add-toggle{
+    transform: none !important;
+    transition-duration: 0.01ms !important;
+  }
+}
