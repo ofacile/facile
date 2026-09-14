@@ -8970,3 +8970,101 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     -webkit-text-fill-color: #ffffff !important;
   }
 }
+
+/* FACILE PRINCIPAL PC - CONTROLES OSCUROS EN LUNA V32 */
+@media only screen and (min-width: 768px){
+  /* Noticias: el resumen deja de ser blanco. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-summary,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-description,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-excerpt,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-summary,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-description,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-excerpt{
+    color: #f2f5f9 !important;
+    -webkit-text-fill-color: #f2f5f9 !important;
+    background: #0b111c !important;
+    border-color: #34445a !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  /* Tiempo: campo de ciudad oscuro con texto y placeholder claros. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget #city-input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget #city-input{
+    color: #f4f7fb !important;
+    -webkit-text-fill-color: #f4f7fb !important;
+    background: #0b111c !important;
+    border: 1px solid #34445a !important;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget #city-input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget #city-input::placeholder{
+    color: #b9c4d2 !important;
+    -webkit-text-fill-color: #b9c4d2 !important;
+    opacity: 1 !important;
+  }
+
+  /* Radio: buscador y selector oscuros. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-search input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-controls select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-search input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-controls select{
+    color: #f4f7fb !important;
+    -webkit-text-fill-color: #f4f7fb !important;
+    background: #0b111c !important;
+    border: 1px solid #34445a !important;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-search input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-search input::placeholder{
+    color: #b9c4d2 !important;
+    -webkit-text-fill-color: #b9c4d2 !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-controls select option,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-controls select option{
+    color: #f4f7fb !important;
+    background: #111a29 !important;
+  }
+
+  /* Temas: URL del fondo y selectores oscuros. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu #bg-url,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input[type="text"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input[type="url"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu #bg-url,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input[type="text"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input[type="url"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu select{
+    color: #f4f7fb !important;
+    -webkit-text-fill-color: #f4f7fb !important;
+    background: #0b111c !important;
+    border: 1px solid #34445a !important;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu #bg-url::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu #bg-url::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input::placeholder{
+    color: #b9c4d2 !important;
+    -webkit-text-fill-color: #b9c4d2 !important;
+    opacity: 1 !important;
+  }
+
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu select option,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu select option{
+    color: #f4f7fb !important;
+    background: #111a29 !important;
+  }
+}
