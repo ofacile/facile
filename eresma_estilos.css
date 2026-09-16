@@ -9215,3 +9215,106 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     transition-duration: 0.01ms !important;
   }
 }
+
+/* FACILE PRINCIPAL MOVIL - CONTROLES OSCUROS EN LUNA V35 */
+@media only screen and (max-width: 767px){
+  /* Noticias: resumen oscuro con texto blanco. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-summary,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-description,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facile-news-widget .facile-news-excerpt,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-summary,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-description,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facile-news-widget .facile-news-excerpt{
+    color: #f2f5f9 !important;
+    -webkit-text-fill-color: #f2f5f9 !important;
+    background: #0b111c !important;
+    border-color: #34445a !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  /* Buscador principal, tiempo, Radio, Temas y formularios de Favoritos. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facileSearchForm .facile-search-input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget #city-input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-search input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-controls select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu #bg-url,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input[type="text"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input[type="url"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-picker > input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-picker input[type="search"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-form input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facileSearchForm .facile-search-input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget #city-input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-search input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-controls select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu #bg-url,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input[type="text"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input[type="url"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu select,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-picker > input,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-picker input[type="search"],
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-form input{
+    color: #f4f7fb !important;
+    -webkit-text-fill-color: #f4f7fb !important;
+    background: #0b111c !important;
+    border: 1px solid #34445a !important;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    text-shadow: none !important;
+    opacity: 1 !important;
+  }
+
+  /* Placeholders claros. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facileSearchForm .facile-search-input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget #city-input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-search input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-picker input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-form input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facileSearchForm .facile-search-input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget #city-input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-search input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-picker input::placeholder,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-form input::placeholder{
+    color: #b9c4d2 !important;
+    -webkit-text-fill-color: #b9c4d2 !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+  }
+
+  /* Opciones de los selectores. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-controls select option,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu select option,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-controls select option,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu select option{
+    color: #f4f7fb !important;
+    background: #111a29 !important;
+  }
+
+  /* Foco discreto y oscuro. */
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #facileSearchForm .facile-search-input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #weather-widget #city-input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-search input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-radio-controls select:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) #theme-menu select:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-picker input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-favorites-form input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #facileSearchForm .facile-search-input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #weather-widget #city-input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-search input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-radio-controls select:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) #theme-menu select:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-picker input:focus,
+  body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-favorites-form input:focus{
+    border-color: #60758f !important;
+    box-shadow:
+      0 0 0 2px rgba(96,117,143,0.22),
+      inset 0 1px 3px rgba(0,0,0,0.42) !important;
+    outline: none !important;
+  }
+}
