@@ -1,47 +1,31 @@
 {
-  "updatedAt": "2026-09-18T14:53:05.199415+00:00",
+  "updatedAt": "2026-09-18T18:12:43.597451+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "En boca de todos: Nacho Abad ve el traslado de inmigrantes al puerto de Ceuta y alerta del 'peligro' que entraña: «Prepárense, ahora»",
-      "source": "ABC",
-      "summary": "En boca de todos: Nacho Abad ve el traslado de inmigrantes al puerto de Ceuta y alerta del 'peligro' que entraña: «Prepárense, ahora» ABC Fracaso en el intento de desalojo de las playas del Trampolín y Benítez, que siguen superpobladas: \"Han salido de la nada\"",
+      "title": "La realidad paralela de Silvia Intxaurrondo: \"Un traslado pacífico, están entrando con total normalidad\"",
+      "source": "libertaddigital.com",
+      "summary": "La realidad paralela de Silvia Intxaurrondo: \"Un traslado pacífico, están entrando con total normalidad\" libertaddigital.com Operación Puerto de Ceuta: el Gobierno habla de un 'efecto llamada' y se quedan más de 3.000 inmigrantes en la calle El Mundo Centenare",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXMzR1JFbWFmN0wxTFdxd2c1aEk4aUlWMEJzYnRmcWhZdm8zbEg3c0tzajljU2JhMmNsVkVfTVhYTFNNOU4tbUZ4Yjk3OXNXMVJSUWgxNi1MaUdXZDRqc09VX0lLRE9MMlVzeG5TVmZxUVFYbi1NVWwzdTVkTzJXRWJyS2ktX2hLSnFld0wyWnpCWUpsUmFQUEFIWXpuaUxmTUt2UHphTFZHaGo3VFk3Y0FLb0FZUGpaaEHSAb8BQVVfeXFMUFZfN2ZsVnFaUURqVEJ2WWUxUE4yWHp0Qmp6TlFRQkZuWVEzY3UxRTg5N1E2dEs0c2x2QlhXX3Vqc1FIbTd6WmNJVU5jTVdZYnJ1czB3aGtUcnZ0YThuSjZFNkhaelR4YkplenBOTTV2WXRCNVpYTjVDNzJRVG9xc2laVnJrQWpGcHVxbDBqb0JIMXpHZzJYR01iSWIybFRqMXZwbWFtb1RwSFQ2dWlZb1I0SDZNUlVvbEhvN0JKWWM?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 09:11:17 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNUt6RnVkWmdid0czcDlpTEpLSzZhbTgzd2dBUFBQeGVBVkJNZ1hpSjkxdUdMZGQzYXRycHZZQ3Y2cUN4SHJod1JfQWlvcS1iNTNZQ2JaU2JJQ0d1WXhCdTRQbURsOGdsOWtKX2NNVDNCWlc1LVBHbG1hd21qM2dsZFJqUDF0ZndYUVNKdjRXQWU3TnNuTnhoSFRLWmJOUWxFZTMzdHljaUY3aFl2UWFzU3pCaWJzbndHVUg1RGRJdWJCeTc5RHc0Sk10M09PTDEyaTdTbDc0bmZNcjZPakRZcklkNVFRdm5PZ2dyeGRLRTlKZw?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 10:04:22 GMT"
     },
     {
-      "title": "Feijóo se pregunta si Sánchez necesita que Trump invada Ceuta y Melilla para indignarse - EFE",
-      "source": "Agencia de noticias",
-      "summary": "Feijóo se pregunta si Sánchez necesita que Trump invada Ceuta y Melilla para indignarse EFE - Agencia de noticias Feijóo carga contra el realojo de migrantes y se erige como solución para defender la integridad territorial de Ceuta y Melilla EL PAÍS Feijóo acu",
+      "title": "‘El Trompas’ y la condena por el asesinato de Claudia Tacoronte en México: piden 70 años de prisión",
+      "source": "Telecinco",
+      "summary": "‘El Trompas’ y la condena por el asesinato de Claudia Tacoronte en México: piden 70 años de prisión Telecinco El detenido por el asesinato de la estudiante española Claudia Tacoronte en México confiesa el crimen: “Es lo que me toca” EL PAÍS México promete comb",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRy1sSGR1OEhzU2hyWHFXNXU3YV9PWmcxSm5ocnFXMTVpVGZtX0xteklxOHhQZ0ZtSjI5SWMyYWtUUjkySEl1WEJoXzc2a3lfNHQ4WW43LXBydHBFZE5TNWtFbjBSZmYxV3kwcGJMUWJCR0xaeHJzRmdiVk5qNk1MZ2h5VU0?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 11:16:32 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMVdnSktEWGtFdmRMcnJxeGhHWTJsLWJoLXdrR3JFcG85QTdXbmxMNmI0c3hPMDFFTXNVWEthZ0FrLWpRc1BPbEdzX1JtUG1jMmFqSGM1dnp5RjZIdjZ5RGFGQmtzZlIyVXdIdHplME9VSmdVcmkzZ3YtOUoyUXdfM3BxQ3NCOHRHb3pKWEJqZDRzcDNjc2JsbjBxNHl5ZGdlVGdhWHJFeTB5eG44cDZydHlpVklNZ1dPeDJpZ3dSMFZDQ1V6UnpvQkx0SlpnZkIzM1ozZ2hsQTFLOVZTZUE?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 07:22:56 GMT"
     },
     {
-      "title": "Ayuso estalla por la polémica del ático: \"Mi responsabilidad no es gestionar inmuebles\"",
-      "source": "El Periódico",
-      "summary": "Ayuso estalla por la polémica del ático: \"Mi responsabilidad no es gestionar inmuebles\" El Periódico Ayuso se desentiende del expediente del ático: “No quiero saber nada de esa historia” EL PAÍS Ático de Isabel Díaz Ayuso: claves del caso y todo lo que se sabe",
+      "title": "Feijóo pregunta a Sánchez qué necesita para \"indignarse\": \"¿Que Trump invadiese Ceuta y Melilla?\"",
+      "source": "La Razón",
+      "summary": "Feijóo pregunta a Sánchez qué necesita para \"indignarse\": \"¿Que Trump invadiese Ceuta y Melilla?\" La Razón Feijóo carga contra el realojo de migrantes y se erige como solución para defender la integridad territorial de Ceuta y Melilla EL PAÍS ​Feijóo avisa que",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXRBSEk3T1dOLWlMQTkyVU12ZS1lU2ZWbDZjTHpWV1hpTmlBWUJqelZFZURrdm94b0gzWjNuNG9UbnlvcDR0OEtBd3NMMUlOM180Q3ZWYURQZG5Ka2EtZnBVX01VQTRDOGtiTjFmYzEyR3JJU0NLSF94RmxSNXdONW9pQjVXZlJ4VG81aGJOV0gwNHZXc0dkdEZ2eUhQQkFkc0VLaEFn0gGmAUFVX3lxTFAxVVMyZ0NVLTdwOHcyYVNMSDE0TzMwUXB2SEVmemhqX1puQmdSM18yY3NDLUJSZDI5Sk1RZE5oUS0yNUdaUWRjYVNDeFNBVW1UaWl1OUZYSXlVakFmckIzTGdPeklSTXFWR0ZDbVJ5YVpCWnVfbVlMSk1Pd1hQbzAtbjFQSkhqUW40Sm5zZ256VGxGLXRwWkh3RUNFbEwxRlNDUTBGUHc?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 13:23:54 GMT"
-    },
-    {
-      "title": "Jonathan Andic seleccionó la ruta donde murió su padre por sus 'precipicios': se interesó en una terapia con caída 'simulada'",
-      "source": "El Español",
-      "summary": "Jonathan Andic seleccionó la ruta donde murió su padre por sus 'precipicios': se interesó en una terapia con caída 'simulada' El Español Jonathan Andic se interesó por una terapia que simulaba tirar a un familiar por un barranco La Vanguardia Comunicado de la",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMktlWjJ2TmNvTTdFSlQzb25XT1dvQkFrNXNodEczeVpSbEppSDgwdi1RQ0NkRGQ2M3M1SmlDY3cwUUhhYWxuZG81bDR2Z3lkQzBzbzc0eVdVMUN2NENjLTRFRUdfUDVTcFlwc01YR3ZiekJiMDNDeTBSVEJfNkRxazEzYWthSHV4UHIySGxVemZjRG9KZ1FYczRyT1hZY3RkbUVDMDg5SUFZbnUxOVhpM0ZDaThidjBuZDBqbk9hSjRhWTR0NmplVjVxU1Y2ZFc1RzdtSUoyNV82ejQ5bDVJbEhhZ9IB6AFBVV95cUxQXzE5RjJIZmlsel9pX2ZsZmk1bzczN2VWVzRqemozNldfMVN5cjE0TzF1dHBJQ19NSmpzOVl4OElLN3BmWVowWDdiclNvSnJRdS1LWHZueHdiX05TNVE4b2trN00wdVp5U3dZeUVtRHBRaGg4eVVGVVcwU0FPcDV3YVBLcEFlU2hWZEFXblNXc296Z1g1WlJfbzd0MDhJSHVkWHRJN3RJeXBzTVBCWDFtNFE3VUJ6UzNyYXNCYzZzMFlQaDhXOVd2MkdCREltQ0lIZFlOUDRwTzM1Q1JRTll3TU9fYUZmZnB3?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 11:24:13 GMT"
-    },
-    {
-      "title": "Detenido \"El Trompas\" el presunto asesino de Claudia Tacoronte en México",
-      "source": "El Independiente",
-      "summary": "Detenido \"El Trompas\" el presunto asesino de Claudia Tacoronte en México El Independiente Asesinan en México a una estudiante española de 21 años que se encontraba de intercambio El Mundo Detenido el presunto asesino de la española Claudia Tacoronte en México:",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTXZwSllJaENjZ1R6aDN0bmp4MDM0SmIwRmJvZHZnYzhrT1BoUjdrU0d1blY3YkJrcEVLWjJMODRKWGFHZFpyVmduVFVCcDVNN0wxMW0tSURsZlM3TUtiMGxiMWZhTW0wRjhUNGcwZjVuNjl4aDN3WTRQMEpaTkROa0xGQTNwYjNQRkUtMWlPZWg0SWFuTmx5VzZvYVFuNVJxbGt2S0FVTmI1SGs4Q1pXbHlka0ZTWGgtV0E?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 05:58:17 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWEdHZXdGVE13V3FTdmRLMy1ONG4wY2o1a3JKR1U4TlhFZDlvdmhhOVJSdVNVcnpETWhXeVNpM1Z2MGo2dzFFOFdMZlBRaDczMUM0V1Ffa05BLUYyaks2dzhpY2Q5Z1pSc0UteE8zQXFIZm5BT1hqZTBFUHZmRGFKWHNTcHd6cWRtTlVzcXlsbDhDSVNtS2VXZVRNcEJGVnlwaVNtQnBOajFkVUtWYjAzUThkTFJZa2FTZ3N0YVpEemV3TWN5c3ZGQkdpYWc2N184N3JSVGhXWDZ4bmsySjc4QXB0d9IB9wFBVV95cUxNeUhNUk44b2d3U2tsZkJBdTU2RzJzbmFkMTE1Y3dPQmVzaS13d3VlZXM2Ym0zaGtKMW1zRlJXNVk3V0U0MUZuMUJVRjNVOTdjVUNUNEpobUFpdHpjb25HMmk0MVk3WmwybU1lcXd1MUFuVlBSblBYRlRaeHg0NHhaV0FvOTlCMmx1U3N3RFZCc2hjTzhNQ1k1dWJlaXhzYVFXaGswSEhQOG1UM3Ewa21QeVNobmVWTjZZS2ZYSDZNWW1fNjJFdmhsOTB0V0V1eE9yWUc2TldzUUpoRDVqN0R5YXBDOVVmTkhqR3k0dmNEUkRTcEZzaE1n?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 12:01:42 GMT"
     },
     {
       "title": "Pollán ensalza la excelencia del sector quesero de Castilla y León como referente internacional y el compromiso agroganadero con el medio rural | Comunicación | Junta de Castilla y León",
@@ -52,20 +36,36 @@
       "pubDate": "Fri, 18 Sep 2026 11:46:15 GMT"
     },
     {
+      "title": "El Gobierno de Ayuso pedirá a RTVE rectificar todo lo emitido en mes y medio sobre el ático: 25 horas de me...",
+      "source": "OkDiario",
+      "summary": "El Gobierno de Ayuso pedirá a RTVE rectificar todo lo emitido en mes y medio sobre el ático: 25 horas de me... OkDiario Ayuso se desentiende del expediente del ático: “No quiero saber nada de esa historia” EL PAÍS PONTE AL DÍA: Las divagaciones de Ayuso para n",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVms3NEI4VlpCcEV0a0JfU1hBQ1NfaVpkN19fTTdOZGVBYjczRVBuQnhjNE1IRkE3RDBSU2MtaFBINEpEYVdndTM3QTNRMklZakduZUR6b29va2FUcmw3WWdYT0xpSXBaN0FPbHg5bG96alRPeFl0YUdyV1hFVEpLNjJFamE0SXA4LUk1RGNVbkFfYi1iYnNOOTA0Vk9WYVdFdmRudDdnX3V4c1N2UjI1T0hXeGVGczJXd0pOdndJYk9EMDBuWXJfNtIBzgFBVV95cUxQdWd2bUQ1dURhampZSnBDTU8zYlp6UzZkbmdERzdyS1JxcF9NQ2tvS0VDVk5oWDVCaWFIQWRiaU5FVUFKRFRDamNveTM3WFNKT1RkbGlFUDRFa1otbzM4SmU0NnRxZG1nelc0Skx3YnVXeGFXWFdPelpxNGxna2tnVmdUcU5sWGZuWXNYSjlwSHVyRmhjaE9BQ0FCMjE2WGtybmpHYVFnSHJuY2hLYkt2anBzMElkVmtnYUs2ZEEyZ3lhSW9fZFA0XzVNcjkxUQ?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 20:34:23 GMT"
+    },
+    {
+      "title": "El campo estalla y anuncia movilizaciones en toda España ante la subida \"inasumible\" del gasóleo",
+      "source": "eleconomista.es",
+      "summary": "El campo estalla y anuncia movilizaciones en toda España ante la subida \"inasumible\" del gasóleo eleconomista.es El campo se moviliza contra la subida \"inasumible\" del combustible y la \"falta de respuesta\" del Gobierno El Mundo Los tractores saldrán de nuevo a",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNLXU2UjRlN25GZjh0U29TU252b2kzNEhCQ0JpYVJSSmh0N3NlWHotUFB2ZmNfMW81VmVES3h5THNMUjdxcHBJblN0c2w3dkppalJ0SjZhdjJjTlBoaFJmOXpZMUhuNXdIZEZCWm0tUERxY20za1YyWHoxN3V3UmlkNlE5NXo3WXI4Mm9vSk5sVC0yWjJpNC1MNW5pYWRoSnUyWHd2cjRlZjNOd2ViTUZoQ3RIbHpKcFo5enVFTFh1bUxHdU8yYUtfR2NxLXNWbXQ5MDRVRnhxd0dSMjhWVTFMd1RLSVpmeXpMMGpyQWZqYmJZVTd6VFNVR01R0gHkAUFVX3lxTE1QMnRiT0RtRldYaHdoQkRJWXVZQkRWWC1jZ05BUl9VWXJ4eTFDUjhMcndVWnhnLTZ4ZEc5WTR5aHhheHpxaEVTanpQSHBWOVAxN19PUEdvUkRhTXczUFNfNWlXWHF4U1FINW9ZVDRqcXVKazJUOWFXcTF1SHdzSmFOLUZzQTB5c3lvWjN1QXB0RmpoQThzdlRGNE5VVXVXWFhBWDR4RXFveGdDbUczTzYyWGU1MEZvMktuYTJQUDZBWmx6WXhkTWd2akRKblN6X1VPTk9XUnlhanhwTWpaYTl5VnM4Mg?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 08:26:51 GMT"
+    },
+    {
+      "title": "AMA Asturies denuncia dos nuevas vandalizaciones de la caseta de San Mateo donde se produjo la agresión",
+      "source": "La Voz de Asturias",
+      "summary": "AMA Asturies denuncia dos nuevas vandalizaciones de la caseta de San Mateo donde se produjo la agresión La Voz de Asturias",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZ0c3RWlKQUtNT1JtOGJzdEhGVUxTeHNwVThKWDI4WE9BU3ltLXJGT2N4TDlzYk1tOVlNNnh6Q0VZYVpRU0tDX3NIbWJWalZpMmdRREtrYU9hb1V4aWEteFNmXzFaRjYxODVfTzhNR09tdFg4RGpvMkU5NWhvMGVZd0U2Tmg3NWVBVXBBSFlnaTVnNlBYQmVudGtlaklnZExfbEVXaHhrX1VETVZpbXpJdE5pMmtqcjBXRmpKWjFfZ1pGR25iQXhwanQ2eHNwMnQ2MGxEb1JOOEtCUm5kLVFST0FqYmVKWFpvaDZwZXVXXzJFZ19wSkhtZlFySdIBlwJBVV95cUxNYmpDYUVqSlZtdEtvLXVXbkFnTUcwQTZlbTROaTRWOUkzQ2RQV0VyNDBIQWJ4QTI5eWtfWk55RWRqUTRTcFMzT2l5QU5GSEh5bE9BcFAydnI3cHZsVmxqZFdNUjIydVFsbElWMTZLeDgwUlNCWEZfTEg4MTBKWHRUeDdkMmg2RFdNNDF1VmhmQ00xaUVLMEVkbktxd3RwSkZvWGQ0aG5WZXM3RUVoM0hLMWxJV3BVR2dKbWxCaDBZZ2MwT3JxSGo5T1JRa3g2WllmOVM3YU1lOXhpTi1zd3FYMHBoOVVDckF0MV9XTVZaYXlEcUJFVlI5bHFNR3llNENHYXNZZkl3QVFZSlJvOVBnbmRZZ2t2c3c?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 12:05:31 GMT"
+    },
+    {
       "title": "Los menores migrantes en Ceuta continúan sin soluciones mientras sigue la disputa entre las administraciones",
       "source": "RTVE.es",
       "summary": "Los menores migrantes en Ceuta continúan sin soluciones mientras sigue la disputa entre las administraciones RTVE.es Sí, pregúntenle a Vivas El Mundo Vivas pide al Gobierno que deje de atacarlo y que se centre en solucionar el problema La Vanguardia Julián Qui",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNkhRdHNOVmdOTGNlYTNwdzVwWUYxbGZib09sdy0zNVcwU19CX09qel9IRjZMTzBFMEFCY3pUMzg0NWtVd3pnNEhwMWpGblhpMDJZVXZ1UGViaGIwZy14amdXUkQ0bTQxZlg2Mi1POXVSQmZYR2VodWp5XzlHdzUweVRieFM1elhwZmtNU1Z0S3hoWkQ0MUZHUUxmak81eThESTVR?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 13:46:39 GMT"
-    },
-    {
-      "title": "El campo anuncia protestas en todo el país por el alza «inasumible» del precio del gasoil - EFE",
-      "source": "Agencia de noticias",
-      "summary": "El campo anuncia protestas en todo el país por el alza «inasumible» del precio del gasoil EFE - Agencia de noticias La subida de los combustibles y fertilizantes llevará a las organizaciones agrarias a movilizarse después de la vendimia La Rioja Los agricultor",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVC1pamRCM1hxTzgydFVYS3c2MF9HUjFncERWQl9WLWlod2xYVmZwalEwekF5NkZKelJsTXdIeXVMX0ppYWhaSjFiZjdhQjVlOTJWQU0xcHkyOHBmQnVDRmhXUDAxSGlaQWZHaUpKSXVtTG80bERPTldQWkNLdklGaFV2bVE4TTN6RHhEek5Ralllb3pTSDNpXw?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 10:02:59 GMT"
+      "pubDate": "Fri, 18 Sep 2026 11:59:56 GMT"
     }
   ]
 }
