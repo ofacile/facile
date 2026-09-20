@@ -1,47 +1,39 @@
 {
-  "updatedAt": "2026-09-20T18:59:17.875827+00:00",
+  "updatedAt": "2026-09-20T21:27:50.535284+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Informe desde Berlín: jornada electoral pone presión al canciller Friedrich Merz",
-      "source": "Yahoo",
-      "summary": "Informe desde Berlín: jornada electoral pone presión al canciller Friedrich Merz Yahoo La extrema derecha se dispara en las elecciones regionales alemanas y profundiza la crisis en la CDU del canciller Merz EL PAÍS La Izquierda gana en Berlín, pero no consigue",
+      "title": "La Izquierda gana en Berlín, pero no consigue detener el avance de la AfD en Mecklemburgo-Pomerania",
+      "source": "Cadena SER",
+      "summary": "La Izquierda gana en Berlín, pero no consigue detener el avance de la AfD en Mecklemburgo-Pomerania Cadena SER La extrema derecha se dispara en las elecciones regionales alemanas y agrava la crisis de la CDU EL PAÍS Merz se aferra al poder en Alemania tras una",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZUdlNlFCU01IeklEOUNvdUJkQnA3TUVHMV9rM25BLU9QZWUwY0VMSUVnclIzQVFjRG1wX0tzcGhpOXBBNUxKSUNGSHIwbUN4YnFicm9xYVRva1lIN19DUTRXQzlkMjdwSjBKdGJRVEdVZnYxdkd6MXZlc0p0WDB4MHJaUERHTnhPdnlxNmgtaXZhZWla?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 14:00:08 GMT"
-    },
-    {
-      "title": "Cientos de ceutíes marchan en defensa de la españolidad de la ciudad y de su frontera",
-      "source": "El Correo",
-      "summary": "Cientos de ceutíes marchan en defensa de la españolidad de la ciudad y de su frontera El Correo Miles de ceutíes marchan hacia la frontera del Tarajal al grito de \"invasores, expulsión\" y \"nuestros derechos dónde están\" elmundo.es Cientos de ciudadanos marchan",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGNCaWhjYTZpblAxbnRraXkyNTlEaWRveTZsejlJNFloY2dRT2steW9ycFFKOFNoNm9UTnl0R3RXblR1TkJZQjVsTG1ndWJIZjNEejZ4VFBfTndrTkZEa0U1TGxlY3pVcDZkellSN21yNVM0dXBlTE5BUy1fRGRPSHNYRTBib2duNS1fN0dmZXV2Rm8wOEYtRlRDSURMUnhrMmt4ZDJtb3NtbF9zRXZVTHc2YXA?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 12:35:17 GMT"
-    },
-    {
-      "title": "Sánchez augura una victoria electoral en las municipales y generales: \"¡Hasta 2031 y más allá!\"",
-      "source": "Canarias7",
-      "summary": "Sánchez augura una victoria electoral en las municipales y generales: \"¡Hasta 2031 y más allá!\" Canarias7 Sánchez evita hablar de Ceuta en su intervención en Cataluña: solo un minuto The Objective Pedro Sánchez, en la fiesta del PSC: “Cada nueva crisis, una nu",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkZ3ZExiM205SjQxLW9RQmIzWVd4dVQwLUtaeWdfTENsa1VKUUtNaF9FOUdmTy0yZk12N3AyWDJXSTlzX1VKSXhiMEhTZ21UNmk4ZENmRUZEOUhGdU40UEd4ZHI0NWE1d1Njc3VObkJaV1dncWpNMjk2bERJUFg5dFFvRE8xUWV4MUVaNFN4WFBnRWFvRXZHeDZhVWtsUW5xaFNjWFZRZElTS01JVVFMZWtxVFF0Z2s?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 12:55:12 GMT"
-    },
-    {
-      "title": "Sánchez considera «muy graves» las cautelares del Supremo contra la ‘Ley de nietos’",
-      "source": "The Objective",
-      "summary": "Sánchez considera «muy graves» las cautelares del Supremo contra la ‘Ley de nietos’ The Objective Pedro Sánchez carga contra PP y Vox por la suspensión del Tribunal Supremo de la 'ley de nietos': \"No se lo perdonaré\" elmundo.es Sánchez esquiva hablar de Ceuta",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZUNzYVB4MTRxV2pkZ0Q2U0VrZ2F5R2NueDNTaVRrT0VDem94MU0zeXV4aEdFUnZDRmhRTWRiMl9Dekh5d29EZlVabi1DanNzcUZVU2RGaUcwa25ubEpBSmI1UHE1ME5CR3hWVnJpX000dVFvTlphNi1qOG5BR05iV1V2Nm1hMkJOSFFnTVRJZGk0WXFTZnp0S2x4MjZ2ZjVobUFJeWJXVdIBrAFBVV95cUxPaU5PWWNETGo3NGIxcWgzenpucUlVZ2VOZVUyZWhhak9McDhjbTVhd19wRUVIeHVHRjVlbTNyN0VMa21PcFJ3TkppcFJHMk9qeHFNVFRvRmdUYUVuc2Y2c2tiR1M5aGx0dmROUnJ1UjZscWluel9aaXkzelo3SV95QVpUYndmWnFvQlhGVGJ4VnRrSE9XSkJPaEQ0VzVFVmRiMUFWRGE4LWs0OThk?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 12:44:21 GMT"
+      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPMEZkdUV1SEdwYVVKTU5DM2xnSEZLem1pZW01U0lZWWljdERKR01MSGQxZXJ6Sm9EUXlnMVpGVXBzUTlHRW9zLWFwWDE3YU1raGpOOHhPd3RiNWhRR0V5eWxma25Dc0VoblZpSU4tMW8xUHMySXBMMEZodUphTnl4bUhMQTgwRWU2MnFoTmRUN3hiR01SM09lRU56a0VBYkZmQS1QUi1Md1JrNVNxZlc3TnY5MVJLOHFEeVl1SW90S3JVNktSZ3YyUTBmRHZhazRrMVVYNWxlWGJ6LS1yLU1Jb2MzenZfV3h0aEt5NWY5WmN4bVNocWhJYkVnSFJESTdDTFd0THBtNkxlcWlyN2VwV2xxVkMySEdnNUZ1ZlNDMm8ya3BRc1NXRmhINDTSAcACQVVfeXFMUEFJdkFkeWo0bUdjVi1WNEtRc3RLa1NHN0sxcnFqUmdqck1QUk1admUxd21nbTNSMmVBNUxLbGJnVl9zc3RBZGF6dzRPX2o5NEYzVDlGQjJpSV9yVmV3SHhlY1NuOEJtYzFSanY1MzVNSkhzZ1JMb2VPZ3dHUEwyNjZGS0F0QURFc0FTbkVRQXIwQzk5aWpaenlrM0hDRjIyRXdncTZaSHZTT0NtaUVaU2phcUpjazh6TFNxZEhvLV94VDlXcVJmdzk0UjItUzNNczNBMTNGaDZJUnU4VmVmS18ybnY0OFVncVNxaFdxQ1JLQUROUEQtcVZ3ZXNwOUthSzR5NWhPLWE5WXNacktRWC1NSjg2eDl1NE91a3BNcVFoZHRoWEVrUnU2QndEclVqQWdfQVhXSi1lZk42RTVEcVI?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 16:18:45 GMT"
     },
     {
       "title": "Ucrania golpea Moscú con unos 450 drones en el mayor ataque contra la capital rusa hasta la fecha",
       "source": "BBC",
-      "summary": "Ucrania golpea Moscú con unos 450 drones en el mayor ataque contra la capital rusa hasta la fecha BBC Moscú y su región sufren “el mayor ataque de la historia” en el último día de las elecciones en Rusia lavanguardia.com Ucrania bombardea Rusia con más de 1.60",
+      "summary": "Ucrania golpea Moscú con unos 450 drones en el mayor ataque contra la capital rusa hasta la fecha BBC Ucrania lanza su mayor ataque sobre Moscú en el último día de elecciones rusas EL PAÍS Ucrania bombardea Rusia con más de 1.600 drones en el último día de sus",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CY0dINlhhc09NdHhscF9LV0s5UEdPeldGQ0RCbmduUmQ2aUpNN21iMVNwWHdnMlZ4NFFEZEt3SWxRbkhQM2pPbjBIaml4U0pyZnNaOHlnai0ydFNt0gFiQVVfeXFMT0ZMOWFHLXVfTnRRZEo5ZVpZMjh3bjI0OUtpMFVXX21vNlJUVjYySEp6VGJaQTd2WVc3Q0xuM0Z1QU9rQlo1ZkozX2NFZFNpTmMwTEJLQWlwZFZFQTBTYjkyZkE?oc=5",
       "pubDate": "Sun, 20 Sep 2026 12:58:45 GMT"
+    },
+    {
+      "title": "Pedro Sánchez dice que “no va a perdonar” que PP y Vox recurrieran la ley de nietos en el Supremo, mientras Feijóo insiste en revisar cómo retirar el pasaporte",
+      "source": "Infobae",
+      "summary": "Pedro Sánchez dice que “no va a perdonar” que PP y Vox recurrieran la ley de nietos en el Supremo, mientras Feijóo insiste en revisar cómo retirar el pasaporte Infobae Pedro Sánchez carga contra PP y Vox por la suspensión del Tribunal Supremo de la 'ley de nie",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOejZxYkt0TGoySzRWT2otSlhZVVFCVWxiNTFZTHNIRGUtaWlWRENOTEI0TVZIeVFMQWVhcWR2SjhNSy15dV82YjFRMGE5eDFuSVk3RnVFZmRzaDlwNHh0SF8zejEyekdUaTkyazI3eFdkd21wNGF2LV9ib3lIOGFQN3hnTk5ST1FqbHVCcExHdVpOenpqTDNTMVVjZmhESDRzRlJhTW45dzFIbGFnT05PNWNEbDBzZEUtSXhlRUctejNpX0hBd3UzYUVmNGdydU1ya0kzelZESXAtWEloZkw5anpydjdQWEZLelpYTG56REk3M0FuNm5mM3pUaS1oZ0JnX21pWnNaOE9rNktkNjJTX285LS1XXzJZUTEzeFdB0gG4AkFVX3lxTE82SVJTdjBIa0k1aUxIck10QzRHMFFOd05lZUpHTnFNQnRpdXVWWlh5M01HTEptLUtuaXVZZEpPaVczYlJUZDJGeUpHTzEzRTJLc2VvZUJBUWlibWoxN0ljUXFUWTU1UUNJTVRmc2ozQ09na0xXZEVoZkNrNEtlaFBYV0h1OUpWMW5FYVNsTEk1R0xsTnV6eHQ4SEhhdnR1elRsdDk0d1hEVl9Pd2FGNHFheFVrT2ozRW0teFQ1UnpoLUZDY3QxdTFQSWRYR2VGRDd5YVFTM2g5TjVBX1M4VEU5Q3dBRVk5SWJ6aXlkZndWT1hhR3kxdFJLemZyRXBkLVZiX2xhTktMa3VJOUJ6c3NUUmJRQjB4QmppemdreWNRbzJhQ3NvVUE0SnE4SjduR3RNUjFWNEpVQw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 12:55:00 GMT"
+    },
+    {
+      "title": "Cientos de ceutíes marchan en defensa de la españolidad de la ciudad y de su frontera",
+      "source": "El Correo",
+      "summary": "Cientos de ceutíes marchan en defensa de la españolidad de la ciudad y de su frontera El Correo Miles de ceutíes marchan hacia la frontera del Tarajal al grito de \"invasores, expulsión\" y \"nuestros derechos dónde están\" El Mundo Cientos de ciudadanos marchan h",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGNCaWhjYTZpblAxbnRraXkyNTlEaWRveTZsejlJNFloY2dRT2steW9ycFFKOFNoNm9UTnl0R3RXblR1TkJZQjVsTG1ndWJIZjNEejZ4VFBfTndrTkZEa0U1TGxlY3pVcDZkellSN21yNVM0dXBlTE5BUy1fRGRPSHNYRTBib2duNS1fN0dmZXV2Rm8wOEYtRlRDSURMUnhrMmt4ZDJtb3NtbF9zRXZVTHc2YXA?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 12:35:17 GMT"
     },
     {
       "title": "Feijóo amenaza con cerrar las fronteras \"a cal y canto\" a quienes \"vengan a saltarse la ley\" y promete \"una política migratoria abierta\" a los que \"vengan a trabajar\"",
@@ -52,20 +44,28 @@
       "pubDate": "Sun, 20 Sep 2026 12:03:25 GMT"
     },
     {
+      "title": "Las imágenes de la tensión durante el intento de desalojo de miles de migrantes de las playas de Ceuta",
+      "source": "BBC",
+      "summary": "Las imágenes de la tensión durante el intento de desalojo de miles de migrantes de las playas de Ceuta BBC Cientos de migrantes permanecen en la playa del Trampolín pese al traslado al puerto de Ceuta RTVE.es La Audiencia Nacional pide al Gobierno los expedien",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vWEkxSF9jc3FkYk5DTGY4Qmo2TzA3TndpSlluaUphTTctVlAwY0ZEVXJZX3dEc3JtbGVjVTlMU09XWjQtR2lqZ1hBaGdpbnc0WWl0dDhXSWhaMzRw0gFiQVVfeXFMT0lwbm4xMV9pcG9WTGVnX1ZvXzAzMGd1cE1kT1dhYWdpNVZnamZkY0E1X1FWenBoY2RldDVkQWFCRW42LVZTLUVXMzlka3JBSVV2UUFGX0RMSVk3aUs2dkRHY3c?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 17:52:54 GMT"
+    },
+    {
+      "title": "Los desencuentros entre el Gobierno de Ceuta y el Ejecutivo central complican la acogida de migrantes",
+      "source": "Cadena SER",
+      "summary": "Los desencuentros entre el Gobierno de Ceuta y el Ejecutivo central complican la acogida de migrantes Cadena SER El mapa de Ceuta 50 días después de la entrada: más de 10.000 migrantes entre centros y asentamientos informales EL PAÍS Ceuta: Miles de migrantes",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQVJ2dXBPZnFCVjZaOVpSMXRkRVNQaFBQWmM4RTkwZW05WTYtNXBybVZfMlkyN2FraGw0Zm1pQVd6NUoyMnRETk0xVHJwSlFaNVE1cWJyYU5YZkxpcEVlUU1hN1BGaDB1Ml9JS3J2eTkzUmptT2RBNWc1Q3Y4WGx4ZVRsT2VrbHoxclFITXFoOGNId0RVcUpvbVRlVkpMUC1tNEpzUjM0bTY3NVlvcWp6WHZEanFqa0t6Q1R0N3NienpoMk1FWlpvX0lWVGpqbjAwVU1wX2tMVUtqNG1aUGZ1THI1OTB1R282SmY40gH_AUFVX3lxTFBrMldpdkF6dkMxUDRaV3VRYWpJRnR5Q2ZhMnZIQkJ6V0VvSTN0Vk4tbzBuSllabEhxTkVCc2NpNHQtQkE2eURyQWlZM1ljdU1fcmRmTGtWNWdwNWRDTnVQS3BtU0RiMzluMWU2bnQzalZlVFhpQlRxdmQ5WU44V2VQOHF5bGJNNThMNUhfMUxvdnhOekJJOW1QUjJwRzN2ZTNUVV9UbV9GUkN0b3M1WGR4aWlLZkgwZ2xVLTdqdmJsVTNxeEYwbDlpeUhlSFl5S0R4Q0xuNHFGM1BPSnJFcFRaazR2YktNOTZzbnFic1ZIcWVnVzRjMHVOYTczUldLMA?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 09:16:37 GMT"
+    },
+    {
       "title": "El Gobierno dice no tener constancia de nuevas entradas masivas a Ceuta y lanza una campaña para desalentarlas",
       "source": "RTVE.es",
-      "summary": "El Gobierno dice no tener constancia de nuevas entradas masivas a Ceuta y lanza una campaña para desalentarlas RTVE.es La Embajada de España en Rabat avisa al Gobierno de un aluvión de mensajes para otra entrada masiva en Ceuta este miércoles elconfidencial.co",
+      "summary": "El Gobierno dice no tener constancia de nuevas entradas masivas a Ceuta y lanza una campaña para desalentarlas RTVE.es La Embajada de España en Rabat avisa al Gobierno de un aluvión de mensajes para otra entrada masiva en Ceuta este miércoles El Confidencial L",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWndZVWFyeWJxc01tYVJVQ3FZM2IzMGdISFNpZVhZNkF3NnJMMzNnMWwtbTdXZ0libTVKWms5ZEl1dkJBN2pHenJyWU9KRTVJWVdkSWkxTWJrcjI4MklvVTlkdVZnWVVQYkxPMnNfeEVQTmZTZi1PVFB0TmNSRjNzc09FTWZnT3N3bkJKUFowcXh5Q2lGWDJjTE8wSkxvQWlHdm4zX0hKaDJhakg5QTN2TnowVWZzT1pDeG1nNVhDem1VX29CdkE?oc=5",
       "pubDate": "Sun, 20 Sep 2026 13:10:51 GMT"
-    },
-    {
-      "title": "Juan Carlos I recibe un premio por sus memorias, su \"último legado\": \"Viva donde viva, perteneceré siempre a España\"",
-      "source": "RTVE.es",
-      "summary": "Juan Carlos I recibe un premio por sus memorias, su \"último legado\": \"Viva donde viva, perteneceré siempre a España\" RTVE.es La emoción del rey Juan Carlos, arropado por la infanta Elena y dos de sus nietas, al recoger en París un nuevo premio por sus memorias",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObEZDb0djd09LdUo3QzEyazRRU1hmVmZsSmNlVzc4TjM0ZHN4WDU4enFxanBXX25iQzRTXzg1UVZHTl9SSWRES0pqNnc4S21jbGFfRmkyVi0xLWpHcm9sVURSNGhuckNvY3pKaVh4WWhnWkc0RGRqT2JpTGVIdUY3TzFGbTliYXJucFYyWGZzWEJvNmVveFdjZWE1TkZVODBZTXlwZEZVU3R3cGg5Q05nbmhRYWthb0Jfb19wWkRJYm0?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 16:38:19 GMT"
     }
   ]
 }
