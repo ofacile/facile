@@ -1,63 +1,55 @@
 {
-  "updatedAt": "2026-09-21T07:48:56.690535+00:00",
+  "updatedAt": "2026-09-21T14:58:52.248397+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Merz se aferra al poder pese a la grave debacle electoral en Mecklemburgo-Pomerania y Berlín",
-      "source": "cadenaser.com",
-      "summary": "Merz se aferra al poder pese a la grave debacle electoral en Mecklemburgo-Pomerania y Berlín cadenaser.com La debacle electoral de la CDU del canciller Merz pone en cuestión la coalición de gobierno EL PAÍS Elecciones regionales en Alemania: Los líderes de La",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUkcxb2o1dnduUi1ncG5rakhVX0x5MHc4OUZpemlCcXh3RzVrNDkxSnFpTHpZeV9CYUI5Ny1NdWtlQnhiSVRhUE43WkFjbDhfTWE5YmNXbDRGSlJUbzVFS0ZNc2VrVG9YZjcxMnJnYV8tOWFpUzN3T25oajF5NThscVYxZnJ6QndUOWlxajJwX2NpdElLWlFnUVBzYUV0cF9PT2VrTFJ1YzNENnYtdjZfR0hsVXFoWkRFS2dLWExBNnMxTy1SOVQ2OFdOUVAzYS1WbXBqZW1mSHRHWXUwb0g4?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 05:46:29 GMT"
-    },
-    {
-      "title": "La diputada ceutí cuyo coche fue atacado con piedras en Ceuta: \"Pensé que no saldríamos de allí. Venían a lincharnos\"",
-      "source": "cadenaser.com",
-      "summary": "La diputada ceutí cuyo coche fue atacado con piedras en Ceuta: \"Pensé que no saldríamos de allí. Venían a lincharnos\" cadenaser.com Manifestantes destrozan en Ceuta el coche de una diputada que viajaba con un activista EL PAÍS Crisis migratoria en Ceuta, últim",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVmFBV2dfeHNraHp1VnhpQkRiOWkzZjlUSTNxQ3FRWm9mTVVaRTJHcEhfVDI3bG5ZMHU0VzFmTXdUblhPRUhhNmNqR3dyR1cyb3NHbGR4Z2JjZnZpY3hwNXBEMl9veVdNd2JJRldyaUt1RXQ0YnVWS0VPNzBSZXlrZDk1U1NqOUVzVkdrdnNiTFROaUFlcElOcGh1S3BfbFF5dlpxQXd0dURoaHFPZG1wa0JHa3BGWlRYLTlXdDhyZHNMZWxWRkdRemZBeXpMNWpmTVAzMGxYcnR6TkdRdHhFSUdqOXZCZUnSAfsBQVVfeXFMT2h3RDlOTUtCcWF6WjFodkN3RzBCNFRveE1yd2M2dGpIN0lKdnNaOS1rYmwyXzVKRkN1dUhPaGRFbFVnLVdIdTEyV1NvVnJuM25pZU50elpfMDJBM3NMWGloYTJtVS1ZVjdSaWd1WjV6YWtvV2NrZDJ0VzRnZlVLOU5EV1ZnUkZhalhuQ2NzajJsRTNhRGhkaXZqaTZJd053dUhoOG1CYUp5MHFmQ1RNck1VSHduNjJsM1hac1JEYXBmc0w2UENqUVVUVEt0T0hDdjk0UE5CUEdaN0tpR1pGX1JKMWJwNS1oOFYyeFdfUmxvQVhQMEstQVJWak0?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 06:22:30 GMT"
-    },
-    {
-      "title": "El Kremlin consolida su mayoría parlamentaria tras unas legislativas marcadas por las irregularidades",
-      "source": "cadenaser.com",
-      "summary": "El Kremlin consolida su mayoría parlamentaria tras unas legislativas marcadas por las irregularidades cadenaser.com Putin finiquita unas elecciones plagadas de irregularidades y abre un nuevo capítulo de la guerra EL PAÍS Putin gana las elecciones legislativas",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOWI4bExrWGdQQVJsdEFNZjhBcnN6STN1b0IxUEpOaHpxQVBqZ0ZrS29lMGsyU1l0R01iaWQycmRhV1RLRDY0a2pDYldtWVBaODVGc0xoNER1emRVMEthRFpodmMwS2R1WUVKLWcwZkNrNVg1dUxfbE9vTU4wT2ExTHAzT21PY24yVEJzU19GYmxjYUNhdHlfaWZNSEo5SEdrMk5RVUFvYjJJdHJmUTlfU1FmeXRCMDlvMVRKYlZ4cFY1ODRIaGxORkozejDSAeABQVVfeXFMT2Fmam9hNXFWX29HWjJJM2RSSjhFQ2JHdzNjYjdYNnVsNkYxSVRLd3dxekNDbHdDUl92ZHF5VUJsNEU2akpwTnlzWDU0WmxLRlZGNFhzbWRhb09OSHpLNUFaMnhubFVjQU1kMmF1ZlYyUnEwWFJ3WnlhMmRKT3BrX2hFajJkdEZYc3hueG1RUWdFa2ZzTEFTVzlLZWwwWElBSUtIeFctdW5mOHBXc2Jhb2RxYWZRUUZfVE9qMWtqNmpWcDJIakpwSzBWV0J1RzFITG93TXAtd1JfeW85Sk5UeWE?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 19:14:43 GMT"
-    },
-    {
-      "title": "Los ceutíes vuelven a exigir soluciones a pie de la frontera: \"Un caballa nunca se rinde\"",
-      "source": "La Razón",
-      "summary": "Los ceutíes vuelven a exigir soluciones a pie de la frontera: \"Un caballa nunca se rinde\" La Razón Cientos de ciudadanos marchan hacia la playa del Tarajal en protesta por la crisis migratoria en Ceuta EL PAÍS Los 60 minutos en los que los ceutíes bloquearon l",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNVlXQjU3ZTBOUFdDdmFvNnN4VC1JOC1WN0dKbmRvM1VoMGZhaHpnMlJmajE0Y2tQcnBSYTl1VEltUjc0UnVEcXA4bVNvU1NKYnJwaV9VbHB3bk1tMnRUYk44UVdfcldINDk2VUh5X21maHd6ZlBITkRfcC13X2E2ejBpYkZael9iR0FFTFpud0tHbERmbDMyekhLNU0yQUZLZlY0YWk0TUp5aEd1NFY3S25TOU82Z1VuTFI3YlRPZWk5Q1hwSGNERVY4SGpRcnfSAeMBQVVfeXFMTy12RlItaF85ZlFFY1RMMFgwcXQtMk1ZSVJJOVNkdmhrMmFGWU9HeDJIbG93bGZFQW5BTXM2NDh0VGlQbHZJTkx1eWcwNDJDTzlfVGFNRFJlZXhqdVpnYTR3a1dUZTlYR0JJRjZHdGxpSllMcEFYQUFlNmdrcWdjdDNRMHhmZEpnTDh6dEpfbkI2RGxQMnhGWWljYUg4OUlZc0lZRk9RY1dDSzM1NmpVQWJLUkFtYXZfUFFEa3pRbVctMzlhUDRNb2lVeDh1ZjZYX0NUaE9RLXhVN3NuVzZMUlVWek0?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 12:54:14 GMT"
-    },
-    {
-      "title": "Feijóo amenaza con cerrar las fronteras \"a cal y canto\" a quienes \"vengan a saltarse la ley\" y promete \"una política migratoria abierta\" a los que \"vengan a trabajar\"",
-      "source": "cadenaser.com",
-      "summary": "Feijóo amenaza con cerrar las fronteras \"a cal y canto\" a quienes \"vengan a saltarse la ley\" y promete \"una política migratoria abierta\" a los que \"vengan a trabajar\" cadenaser.com \"Paco, ¿tú vienes a trabajar o a delinquir?\" publico.es Feijóo promete cerrar l",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNalE2M2hBaUpwcWJUd2xEcmVna0F0Z001ajBVeTl3MVpDVjVHdWQtb3JyU2dTSjJLNnUyNUpqZHVsR2pqTkVHaDJzVTEyaDU4OFRzLXAyek5vc3lIZEJHR2w1LVNXcm92Zk43eGJfc3VkYWRheFEtcEJBS3lBcm40MkZ0Q0xlOTZiOUlyMTZteUVUZHRBamFuS1ItR2d3WEwtRnVuWThBcWZTa2g4NmJaeW5IOUdLeHdqSExlb3VXRTJNZ3JweWNXcDBEb1hadFNvY2FEWXFXWTg4NmhGVVZ0c082elp1N0JxN1d4djNMRTJ3VVhMN0VWLUpTZkJYUmhoVkJ4MTNXOTk5eEVKNTBGZ2wzYjh3RFlUWmhFMm9iMWJzOEZFV2Nz0gG7AkFVX3lxTFBKbmdLN2lINmhFOHp3TW9uZmNyTjVLWE9OQzN5WndVaWZhN2M2Z2t6dS1ZcnNSX2hsaThYSFZlNm0xME5pMTVSSm9zbkxBQnpReUtHaFk2UVNkVUZHS0VTaGFkc1R4SXU5dnJjWE1abEgxMndIamZJQ01scnRPMGE0cU81TDUyLWRiamNEQThhVF9XRHk2a0dGdEVLQUFqa05uWDNrLUJCWGhNQ2pmSXJtaXJxdy1EdEUyd0lsUzJ4ZkQ5ZHk3bjRkZHU1RGRCUmNXd2NZcmZ3WFRFbjF5MzM0ZXpMcGhhOEdCcmVjaVp1ZHNUVmpobEhjVC1KMkhmc3RWcUtvZHdveVR4dnhuX0d3ZjBwSlVkUTdaTS1hbFQxR1BxWUt1eURRZk1ob0RRem1kMDZYWW9oQ3JJYw?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 12:03:25 GMT"
-    },
-    {
-      "title": "Las imágenes de la tensión durante el intento de desalojo de miles de migrantes de las playas de Ceuta",
-      "source": "BBC",
-      "summary": "Las imágenes de la tensión durante el intento de desalojo de miles de migrantes de las playas de Ceuta BBC Nuevo caos en Ceuta con los inmigrantes Expansión La Audiencia Nacional pide al Gobierno los expedientes del campamento para inmigrantes del puerto de Ce",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vWEkxSF9jc3FkYk5DTGY4Qmo2TzA3TndpSlluaUphTTctVlAwY0ZEVXJZX3dEc3JtbGVjVTlMU09XWjQtR2lqZ1hBaGdpbnc0WWl0dDhXSWhaMzRw0gFiQVVfeXFMT0lwbm4xMV9pcG9WTGVnX1ZvXzAzMGd1cE1kT1dhYWdpNVZnamZkY0E1X1FWenBoY2RldDVkQWFCRW42LVZTLUVXMzlka3JBSVV2UUFGX0RMSVk3aUs2dkRHY3c?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 17:52:54 GMT"
-    },
-    {
-      "title": "Las fuerzas de seguridad de Marruecos blindan la frontera con Ceuta en vísperas de las elecciones",
+      "title": "Consulte el auto del juez Peinado con el que abre juicio oral a Begoña Gómez",
       "source": "EL PAÍS",
-      "summary": "Las fuerzas de seguridad de Marruecos blindan la frontera con Ceuta en vísperas de las elecciones EL PAÍS Crisis de Ceuta, en directo: alerta ante el temor a un nuevo cruce el 23-S, día de las elecciones de Marruecos Diario AS La Guardia Civil se refuerza en M",
+      "summary": "Consulte el auto del juez Peinado con el que abre juicio oral a Begoña Gómez EL PAÍS El juez Juan Carlos Peinado envía a Begoña Gómez a juicio con jurado por tráfico de influencias y malversación El Mundo Cuándo será el juicio a Begoña Gómez por tráfico de inf",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVlGMllJNTJXOFRsNDRlYzlkdVZyUXE1eE5oc3BPcjdyTEgzS0FKZjB5ejREdUlhdEwyS2VYb25VdW1VR19vdVdYR2pHRUFJc0dOSGxETFE0TXBoT0hFWnVTcFQzb28wV2V5UzNnOFlhNDJpc29ieGUtWDhiYzFxcVJMMjFEbnVndEhRaXVqY0ZXWVhzS0RPU1FkQlpqbzNTSkFneDM0bzE3OVZRLUxKam1UX01UVG5tbnpabjQxVXQ2UmhLZEpqLTZIWl9LMXNwcGhwWHVR?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 03:30:01 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjJDUEtBVjUxY3VOY1NDTU9CcGdLMUMwbFE3RUtfd1c4V1Zob1g1R3BMOTUtZ1Ntd1ZZaGJCOVJGOWhnVzV3b012ajNOMUUtTGo1bTJaMEI5aEJJMWNCbHBMaEtDWjVLNEZsbWwxSkx1VVV6aGxscTFlQjF6VXJQMFJpVzQ3WC1kb0lVbjR2UGFwR19JWGhRVXJmYVpvcVlUMlVHYUNKb3luVndZaWZMMWE3ck45MHRkdEHSAc4BQVVfeXFMT1dlek1heHRKV3JpSlhIRnlnaHN3OXk1RHNOOFZseTNJckxmUWwtbXJwVk5KN3hUYXNzSlZ3SktvVl9aVFJNZllUMk15TXJqVlFaWkgxUTJtZzFrejJ5djhRblpWUnlHamtCY2NJT01hd0tuOXhqT1ZRUkxFSUd4M1ZIZUczRFR5SEt4dllrVDhUVnlJT0FuTUtmT2JVb3FYOUNMMVIzd1UySXU5M3JILXJJUDhXaWJNY1daUmtSMUhvR0dmNU04MlhnZ2pmanc?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 11:07:17 GMT"
+    },
+    {
+      "title": "El juez del 'caso Plus Ultra' cita a declarar como investigadas a las hijas de Zapatero el 30 de noviembre",
+      "source": "Cadena SER",
+      "summary": "El juez del 'caso Plus Ultra' cita a declarar como investigadas a las hijas de Zapatero el 30 de noviembre Cadena SER El juez cita como investigadas a las hijas de Zapatero el 30 de noviembre y pide un nuevo informe sobre las joyas millonarias del ex president",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNaXBYNlZTZzVBTGdNMTZFR1h6eFpDbERJOXJWS2g1a05yMFUwVjRoR3NkVDlhWFlkOXJXVTRzMk5ZeTdhT0FZM3RYOElhTV9CbVpneHVsTnVXSVBTN1gzZXJJNTY1aFVtdXRHYU5YVFVtU3B2MmNwZGo3OXVoR0gzdjgzOVpqZ1VKNEVQSW0xbWZURlhEeXlOeFp5aEpLaUk4QVEydGZqbUc0SHdUZDd0QkFGYm5ZUUlZMHl5SzQ5ZEl6bS1JeGkzbW1SeFRMQ0dXSHpxUG9yX0todDB6c2VHaFRSdXEtaXBXc05YcG13a9IBgwJBVV95cUxOeXRMSHRkUDJOcmY3NVh6MUcyV3JTRll0WE52dzZvZWJiVXRSRHhoN2RoeVZmclRzOGRxekNNeUtkTmtXT2xndWN1ZGp5cFZ4SkEzNDFWQnpQNGxjRmNNODY5WUZDeVhueE5WNURpT0hXc0dTblYxVnE0T1J3WUNZRDQ1Y0xmOGlXR1pOSWhWbVNDOUpmLUtfc2g3TTh1V3lHT2puNG15aDlKN0NXMC0yQS02VlgyWXNEbnFiWHNNV2h3RWF6UXNjM2RCRVdPNHJJS1BTMFJQamRqdkcxcldicUlNVUJyY1lxWXFpS0Y5dkVjY0ZleVdpZzRlLXpLS1ZfbmU0?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 11:48:45 GMT"
+    },
+    {
+      "title": "Julia Ferreras y Rafael Borrego, tras la agresión a su coche en Ceuta: \"Éramos el enemigo, el objetivo a abatir\"",
+      "source": "elDiario.es",
+      "summary": "Julia Ferreras y Rafael Borrego, tras la agresión a su coche en Ceuta: \"Éramos el enemigo, el objetivo a abatir\" elDiario.es Un grupo de manifestantes destrozan con piedras el coche de una diputada ceutí Diario Público Así es Negu Gorriak, la organización nava",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSTg5d3gyQ3N1SFNWcXJXTl9OM3h1VkVvaU56bWpyeUxBLXRiUGNucXpzdHpuWnBPUXNncTNYeGtmTkFjdHU2MUZ3d0stSWdjZE53dlMtb0ZHZ3MwTVUxdW5GSGxwVFdoZjNFcnctTUNtc2JkbVRlRVR5b1Zkd3dWUGkyNUdqWGVRbDV0R0R4MHotWGRBaW05cU9tdHVQbDZDeW1CNXhMaXptQkFRUHpUbFdlN2sweDgyS2hHVkpFcGZhdw?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 11:51:58 GMT"
+    },
+    {
+      "title": "Xavier Vidal-Folch, sobre las elecciones regionales en Alemania: \"Para sobrevivir, Merz deberá dar un giro\"",
+      "source": "Cadena SER",
+      "summary": "Xavier Vidal-Folch, sobre las elecciones regionales en Alemania: \"Para sobrevivir, Merz deberá dar un giro\" Cadena SER La noche más larga de Merz: “Es un punto de inflexión para la CDU” EL PAÍS Merz reconoce su papel en la derrota de la CDU, pero se desmarca:",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYmlGeHA1dVdZOHd6eFBYSlRyMU9zaG9pRy1wQ3pqRGwzUjVXdk10WmdDZUF1WkstV1JDbkxYVUdydnNuTkotU3ItdWFzN0xhdDd5SDZKRU1Val9XdlhJMDA5MnQ2TXZiUmZMNEdLSTJUX3J5cEZzeXYyZlNoYkV5NFNVOUFzRHFyV1AyLVc2UUEyaHI0TmhRVkFoSERBMzN6T1h3WEd0V2FrdmtBcU9BVmtGZ1dsS3JBaWE5RU1KV3o1eGN3ZlYyd3p6T3RjT1hQc21fYzRRbGVFZUI4UzFzTlFsSnVsRDRiWk5hd9IBgAJBVV95cUxPYkthdGlqWWZlU0JPUjMtLUdmb2kwU29GUXVOV3pxRm1VWDZWTDRQZDZmeElnbGlWSUpMd3VhVURLRkZQbHB1M0JLV3Q3SVhjUTZfb0gxbmRDalBqSWREbG9GVlN6RGpFSlROUnNkNDVFSE1ocE5XUmp4RUZuWjNYYlMyaXp4ejk4ZFhyR1lFTndObXZyc1gxdUc2d3RGYmFVYVFtTXFHVlUyaTZQbmUxOXVGSUdqLWFBWUdWN3dmNDNUVC16cDFGNTRJMmMwUWNURzJ0Z08tc04yT2dwY3Q3YkQxbjNJWElJNnFZT1BueThwTTktS0Fhd3o5MThWTEpa?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 06:02:52 GMT"
+    },
+    {
+      "title": "Mazón sostiene que no estuvo al frente de la emergencia cuando llegó por la noche al Cecopi",
+      "source": "EL PAÍS",
+      "summary": "Mazón sostiene que no estuvo al frente de la emergencia cuando llegó por la noche al Cecopi EL PAÍS Las preguntas sin respuesta de Mazón a Rufián en la comisión de la Dana del Congreso EL PAÍS El exdirector de Emergencias de Valencia imputado por la DANA se ac",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdkNZQzNSSUhOd19vVzZjSG9hWGlNd2pxNmM2bFJHcm84Tzk1a2ZTUzRGYW1Bcm5TaTJQMlVjUk9kY0RGU0dpWkNRMl80QnJYalZfSnV6SkJJRWZNeHNHcUpmd0FwbzVzRUJDaU15S0xzZ1BmYVYzbnpCbXp6NEwwT0U1cldob0wxb21NZTlDTXlPU3E4eFdnUUk4TDgxMlRSWU11UXpHSXI4WU94VHBVUVJSV3Nva3lfdGw5UXh6bElNZlhJay1LeklvSdIB3wFBVV95cUxNNjZwNEpYSFBWSWpva2tuWDBvUW1nLWF4VzM5dldEb2pPOUljM2QxWHhzVFlWTE5pRHNUYTNOY25yQms2WGZZNTlGTXNwNkpScmx5dVhNcEF2d25XLWNNdDNUVXVqM1F6U3pGN0s5UnROQVVnWDdwS2RWdWFNWm1LYTN2OVI4N0tqcDJwSkdSUld3LUVpOTU0bUN5MnB4MGRFN3g1aG1oQXhsWGFtT0l5b2pCbU5aYVVpTXVfMHRBb0FuTjdqSmtBSkdobzc0Y1RDTS1FMEFaSzJVNzc5cVJJ?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 13:31:16 GMT"
+    },
+    {
+      "title": "Rechazamos la constitución de un Intergrupo parlamentario sobre el Estatuto Marco",
+      "source": "Sindicato de Enfermería, SATSE",
+      "summary": "Rechazamos la constitución de un Intergrupo parlamentario sobre el Estatuto Marco Sindicato de Enfermería, SATSE Los sindicatos sanitarios rechazan la creación de un Intergrupo parlamentario para debatir las demandas médicas El Español Sanidad ve en el grupo i",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOS1iMXpjbzZKNGtTel9SaTBhTUFFTkNWOFhzbDJFcWxkV2FveGNzV1MyYnVEUWs0X2pSQkhYN2RMTFk5cEk0X2NsbFV3Vm45aThZSDBNOHBOV09sOTFOaEIyZjhDZjRxOVpCNXFNM3ZMZ25sYmVGRWxzb0lpSS14aE8tdl9pNzVrcmtsOXkwQkw3NU9ralE?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 08:58:05 GMT"
     },
     {
       "title": "Sánchez lleva a la ONU su política migratoria tras la crisis de Ceuta y su batalla contra los \"tecnoligarcas\"",
@@ -65,7 +57,15 @@
       "summary": "Sánchez lleva a la ONU su política migratoria tras la crisis de Ceuta y su batalla contra los \"tecnoligarcas\" RTVE.es Pedro Sánchez lleva a la ONU su modelo migratorio en plena crisis de Ceuta El Mundo La cita con Mamdani corona la agenda de Pedro Sánchez en N",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMlBCUFY5YnV0VTZ1ci1lLWw4cXE3Skd3LU50QzhOOUhmZVV1NE45QnIyaDk0UnN0VURRSF9zVWIxSWZsS3F0MU1Bdld2bVMwQ0htRXplaWFIbFFLRk9hS09BNGVBLUwzZlV6NFl3MmhuakJYdGI1UkxrVmFjR1A4UjZmcXo4TEJKWVI4b2loalJvd0NmLXdlUE1Pb0M2UjVjcmZFMnZjXzByV2FHMjQtYjYzUHlybTliM2NFSWhIU1h5cEE?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 06:37:15 GMT"
+      "pubDate": "Mon, 21 Sep 2026 05:06:00 GMT"
+    },
+    {
+      "title": "Feijóo pide presencia permanente, visible y continuada de Frontex en Ceuta, prioridad en el reparto de fondos europeos y mejoras en su financiación",
+      "source": "Partido Popular",
+      "summary": "Feijóo pide presencia permanente, visible y continuada de Frontex en Ceuta, prioridad en el reparto de fondos europeos y mejoras en su financiación Partido Popular Manfred Weber, presidente del PP Europeo, convencido de que la UE elevará la presión a Marruecos",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNRTV5U29NZm9YZFI0Y1hhbUJCSkk2ZmdnZ2tsd1hUeE9jOW1QZVhFR1dVSHhOaUpOZkUxcHhHaUE1R3NETnVwZEhTTW5yZVZBX3MtMEt2TXhZR2hFYVpiZkVMekYwcXIzX29QWC12Y252ZF9wWV8wQ0pxMEdXcG9SU2RhODlERFU5RVpJUzFWUWU3V281YTd3aTkxN1kwenlOSkVIMVlkakx1aUVrallnXzBHWUZXR0ZpT0hiWHpFUkNmQlNjNXI5ZmNHR3NnRkF0X1k1NTNBWmRWN0h2QVp3RGwtQ3lxN0V4WHFVUlp0clBGMVRiTTB3V2NsTGlWeTFscEk1TVBKVjhGUG8zd1BMSHNVdw?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 14:26:15 GMT"
     }
   ]
 }
