@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-09-24T16:52:33.374705+00:00",
+  "updatedAt": "2026-09-24T20:18:52.185031+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Lucía Etxebarría, sobre el desahucio de Maricarmen: \"Ha tenido 70 años para ahorrar. Pagaba un alquiler de broma\"",
-      "source": "El Español",
-      "summary": "Lucía Etxebarría, sobre el desahucio de Maricarmen: \"Ha tenido 70 años para ahorrar. Pagaba un alquiler de broma\" El Español La ONU también se pronuncia sobre el desahucio de Maricarmen: “La jueza lo debería haber suspendido” EL PAÍS ¿Puede un bombero o un pol",
+      "title": "Un detenido en la manifestación contra el desahucio de Maricarmen, que reunió a unas 10.000 personas",
+      "source": "ABC",
+      "summary": "Un detenido en la manifestación contra el desahucio de Maricarmen, que reunió a unas 10.000 personas ABC El decreto de vivienda planteará “cambios estructurales” más allá de limitar los desahucios EL PAÍS El Gobierno negocia contra reloj concesiones fiscales a",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWng3cnZma1hIY2VCV3dLSGx4eDhZV0hIQnpaZExPQlc1enJ1TkExRDM3dkh2b0FKb2p1RWk0bkhHWWEtVzctZWRHV3BWUEtfbTRoQW0tQ3B5M1M5TUowX255eWlENDd4dW1zcGliMVdNREM3X3pRV01kN0Y4Mk0wRElNTDh6akkxNThCRFZGWDlzd0p5YU9NcWpoUUhJcUQ0a1ozcGNYWnhFVGlDa1Rzam4tV0ZLUXZFNGVHdFZiUEpKWHNsM2o1TmthcURCNURETjZGZ3NnZ2ZrQ2PSAeABQVVfeXFMTVZUeEZwUWgySEFCbVlMSVE0LU00T3MzZ1hwZHdOdjRRRkFyc0N0TFR6U25JNFIwNmk3YWVjb3huTlFMU0NJNDhxSHJVbHoybGJPSVdTZlYzZXRFbXE4VTdzbXlWNUtRT3k5cU14cXFPUmozaGF1eVhJQWFaNWczVHYtVmIxVllLeTJLZGdWTEx5M3p0Z3dxUmFKbXlvZXhHUzVMV3JXM0oxWXVZanVUdU9PTWYzZ1cyV2pkenotRGU5cU0xV2VWQ0hSR2gxc0Z2UDA5bGF3WHhuMEFjUWhTTWs?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 18:04:16 GMT"
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOazI1ZjJrckJEOTFNWFAwLTlySFBnd3dEQ2t4ZE1EQlJSa3o4YXoyeHhwUnNjWEZHNWV3ampwVWVnYVBxb0ZjSDV4MGw2WkczUnA0TWNZV3U4V0pMRVMyc09hYVdKR09aR3FzUFJ4OWZnWEF3UkVnXzJwMUp3SnBGRVF4MTJvc0VnUkk3cmFmTFNvOHRKVWljYVFrX2xHZTVUck12TFpOWnRVTS1VNERkZEpFd3TSAboBQVVfeXFMTTBtcjZCR3UtSGxsMHNTdlB3TkhFdV9lazhsQWh6bXMtaGFUV1Mxay03MDg2akM2M1UxNmVlbHZRVTE3RHNrdU1JQm9BbmV2VWd6TF9xZ2x1eXV1RUM5c0VISTZPMFlLZFVTbkdGVkdQb2lyWDFBV2FrVmdMUEVfUVdLWjNoUEF1V1o2WldENlNfMzFKb1I5SjQteFZMeTBaWlluMzRFQ2VTOUpVdDN4NVRxaG9QZmxwbFdB?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 18:24:22 GMT"
     },
     {
-      "title": "Zapatero rechaza que la joyería Yanes pueda tasar las joyas encontradas en su despacho por \"aparente falta de imparcialidad\"",
-      "source": "El Periódico",
-      "summary": "Zapatero rechaza que la joyería Yanes pueda tasar las joyas encontradas en su despacho por \"aparente falta de imparcialidad\" El Periódico El valor de las joyas de Zapatero según la tasación pericial apunta a un delito fiscal, aunque haya prescrito EL PAÍS Zapa",
+      "title": "La CIA alerta un ataque ruso con drones contra España, Francia o Italia: esto es lo que sabemos",
+      "source": "france24.com",
+      "summary": "La CIA alerta un ataque ruso con drones contra España, Francia o Italia: esto es lo que sabemos france24.com Francia pone en marcha un plan frente a la \"guerra híbrida\" de Rusia El Mundo Macron afirma que Rusia multiplica los actos hostiles y criminales contra",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSkhqSXJHRzNuS0FzUzRGUVVkcFZRYmRNS18ydXk3LWIzRU9ublFLNEp4ZTlpZjFzbE5ISDBVNTBRU2ZscEEyUjZBcGd2LVFWcXhCNFNBczFId3Y3VGtjWVdNaHZXU0hQa2I4QmZfcFZJZkRTYnk3aDE3MlRaM2VEdWZyWGlBcEJDbnd3V0tsdWZhMDdOamNRM01xTHpWWmhiaExWS3hkck0zVmtzdlNRWU1mTnXSAbQBQVVfeXFMT19rSEx0SmtzRHRiQlcxeUZEWUhuM2dJSEJLN3pYUEIxSW9aNEprRERMWHROaFN2Rk5qM1VlTG55T2tXbkZQU2hoTEhPUXAxcnFSZzl3VDNsZHNrT0V2V1J6VlBoZnBZd2xFXzE4OFJ0YnczbFYzSTNFNVd6Nld5bm9oWE1XUFRZRUVwdDRpZzFoU0Z6bC1kNmxUd2tBM3RrNWs0VXpNLVVVWUxseDF0dURkeUFO?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 14:18:18 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbGx2WGVqN0RQXzczY1RSdVhpa0M0UnNxY0RRZ25LekpHTnNJM3UzNUhIU0JxT1EtWUZPWUktLXN2dkEzdzJuSGFZUHhGeEV6RFdOcXlRQ0ZMc3Z6QUhRYm5VQlhLWVVaM2dFUHJ2TThzVDQtUXAwRlIyQThndWRxTWhGa0l6OGpQbE42ZVB0RzZVRFZQdmZhVURKUEJmZlN0Mko1YlJGbU5aZnB4Wk81SHFyWHFnZUtPdmdkZFNEdUV5ZTBvZGItWHF1amhENWd4OFZFbzZORlVlUQ?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 15:49:00 GMT"
     },
     {
-      "title": "La repercusión mundial de la noticia de EL MUNDO sobre una alerta de un ataque ruso con drones en España, Italia y Francia",
-      "source": "El Mundo",
-      "summary": "La repercusión mundial de la noticia de EL MUNDO sobre una alerta de un ataque ruso con drones en España, Italia y Francia El Mundo La CIA alerta de un ataque ruso con drones contra España, Francia o Italia El Mundo La inteligencia militar danesa cree que Rusi",
+      "title": "Puente insta a Sumar a «no ir bajo 20 siglas» para que no gobierne la ultraderecha",
+      "source": "The Objective",
+      "summary": "Puente insta a Sumar a «no ir bajo 20 siglas» para que no gobierne la ultraderecha The Objective Ada Colau irrumpe en el debate sobre el candidato de Sumar pidiendo romper con el PSOE si no cambia la política de vivienda El Mundo Choque entre los ministros Món",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOFdtTkVLV1RuTTlyclJsdWdhMlgtTEtsLUt1bHluSkh5NGJLbU9rZXA4ZDJVVlVJSDF6VDgwbEVHSUNfSl9yVE9BNm9sMkJLd3NrTXJITEY5SUpmMXN5dXB2cE1yaER1a1RDQXN2eW9XTnhjVW5vMTNKeVk3OFY2akZ6emZtZ0RNUXp3S0xB0gGLAUFVX3lxTE14VVhUXzlFamFiQ184T0lKejczSk1jZ0M0OWxWX3lEeVRnLTZBSVRnUkZBNk5IdklXMlVDUGkxQW5LUUFzZThYYnQ0bFdNb0VCR0Z4NmhjMlZYVXNfWkhMNzFjMEhnOTZDTFFnNk9QR0NzM0NpbmFpZDRrMkhROUdBTWZ1d1pldHRhMDQ?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 12:07:08 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzRURy1QLW5lcmVDcmwtckRPcEx6d3FvdXMzdFVPWUdCa2tLUWk1ZUh5U2lIMHJ4U1BwLVQ5eXoxNldJWUZpdUFILWZsc2pkT21oNC00OS03dzU0S2Zia09wcllLQkxMNXZkWGVOWGl3a2RSYXVPQXh2c0RZYnd0a3lQOFhxVXJBVmpQUXpxaDkzWTVjSmM4QtIBngFBVV95cUxQNzU1SExLd1hLVjFtakpxcE5vWTF5SnktazNMUjNxQnBYbnJnaVp4NEZPTmtoaE5jZUlqUlU2WW4wcnA0YmVrVVFSejNheVdSMzc0UGJpazB2a1NyX3FwMGtTVWR5S09yZjRlS285SWMzdW9UZmZkbHdCbGJwT0xwYXllM3J6a3ZfU0ppUXluUW1DdGJoaGlGRm5vTWFNUQ?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 09:23:30 GMT"
     },
     {
-      "title": "El tuit de Óscar Puente que está dando mucho que hablar: \"A mí a izquierdista no me gana nadie\"",
-      "source": "La Razón",
-      "summary": "El tuit de Óscar Puente que está dando mucho que hablar: \"A mí a izquierdista no me gana nadie\" La Razón Ada Colau irrumpe en el debate sobre el candidato de Sumar pidiendo romper con el PSOE si no cambia la política de vivienda El Mundo Puente, contra Sumar p",
+      "title": "Zapatero recusa a la joyería Yanes para que no haga la nueva tasación de las joyas",
+      "source": "heraldo.es",
+      "summary": "Zapatero recusa a la joyería Yanes para que no haga la nueva tasación de las joyas heraldo.es Zapatero recusa a la joyería Yanes en un intento de impedir que realice una nueva tasación de las joyas El Mundo Rodríguez Zapatero recusa a la joyería Yanes y pide q",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd3dxbDN3dHpMdjJ3dk5RZjdlUVNkY0hYN1cwVjgwOGJLUmRIWVlvS3RUaF8zbFJhWTlnTDlyLUQwQUVQaDhENVRmWVFtbWVHYWdEY3Y2ellZTGJsdXNzYnF2RHVNNDNrQ29oMHktYXpzT0tuTzlHUFpWQnppVlZMRzVZTnJENW42MUpjbWJlUFdUR3NObXBtUDdQczU5TEVvWE12WEhDbnRsdGlKdmd3Q242bWIzTTNMMjV1aExoT3JsTEowZWplVjN6YXV0bms3dTloR050dUnSAewBQVVfeXFMTTFHRUtZMTRzNzY0djRXQnFfbWRndllEa21pVlpRV1dfVHZRTks4cjVkQVJwejhHNzhDUEJXR2pZWnhYSzVNLTBDcmdNUzFneHhfYmwxb21WS1VWTGFTRUtsZF9MR3JYSHFma3NlUFRtVVpFQWVSQlo2VzFoazFNejExNlRVT3hZYldUMFg3bXBLYVJUeW8zWXo3cXdkNmFHQ3ZEVlNLMjgxa0stOV8yRVNweElTRnZhVEJkdUJVTFNWcTVDMXp4V1FWOUVmYWtFT3ZqOGV1ZF8zRm1zeGF1LWFldkQ4ZHFXS1ZwMXU?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 09:21:31 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV3JCb0xvZnoxS09aelhhWm43M2ZPNDUtWkF1bUNuNlVnTEtlMzNQYXpPQmNMYjFYYWh3dXlJd3R4WjBBdDUyRFNmTDRYaVFYOU1tSkRSd0I0aWV1TklvQ2xfYUJmaEs4a2VCUjlSOTdOVFcxNW5WalFYVVhDOUJJQWgySDRUMS1uNHJRRkdzTnRvV3NGYlVKWmZ3NUxWeTRGQm04RmhlbklNZXBaNkVLRWkwWEo2cFlDeF82bm8wOUtuMVJvbm9waHhQVmpTcFNfU3VCUFdaQmI1QdIB3wFBVV95cUxNcU9NN25ES05qOGQxVWZMS3g5WFNqLUZOMzI0cUxrcEFYQjRWbG9YMVV0SS1lZEhaWWZWMWo1SG9ERHNBanc4SWJwakp2X3VCQk5maHlNS3NqSDV6NjFHUVdrWlhsT3dEVlRPZEp1TmEyRlNEUHZ2ZEtVRlNia3NINFZMU0dSNl9WRWNhQWdfVFBqc0RDUDBaaUNweHlzUEk5d3RXQnZXVXh1Q1UyZFVWQ3ViUlBSNkF6VUwtUWYyTFVlTkJpRmhLYzhicm9JeVdhazJKck5wUmxfYmxpT3kw?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 14:42:01 GMT"
     },
     {
-      "title": "Xi acude a la cumbre con Trump con fortaleza y Taiwán como gran línea roja",
-      "source": "El Periódico",
-      "summary": "Xi acude a la cumbre con Trump con fortaleza y Taiwán como gran línea roja El Periódico Xi, ante Trump en la Casa Blanca: “Los intereses de China y EE UU están profundamente entrelazados” EL PAÍS \"La trampa de Tucídides puede ser evitada\": Trump recibe a Xi Ji",
+      "title": "Bajo una fuerte abstención, un partido cercano al rey gana las elecciones parlamentarias en Marruecos",
+      "source": "france24.com",
+      "summary": "Bajo una fuerte abstención, un partido cercano al rey gana las elecciones parlamentarias en Marruecos france24.com Una de las favoritas para primera ministra de Marruecos reclama a España \"el regreso de nuestros hijos\" en Ceuta: \"Tienen que volver a su país co",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOVdGRTZuSTRRMW9zb21IWTBST1oxbEpDWE1UTHZldFgtZzUzR29pTkxKa2tsaURJNzhpQzgyXzNwczhSejlMRzNYTV8wX1dUWG5oNDVKRDBRZ0FRMFdwd1BzbWJZTlItbXJCRnNPeWgzTnpJdnVGNzlpZlYyVzJCdEUtTjhIR2RYVndnOXhaSmJtMV9OSENwQm5BczZzS19fSkxBb3R1MVVfT1dsX05Fb1RndUE0cUNyZ3fSAboBQVVfeXFMTTViM2JtWldjTnlBU2tMaGRSS19DUnZ3QTNjMVkxVFdLZmt2RjhlbVhjazZncVZ2Xy1KdWVoaGRYSVZGTzBTSWJZMXdMNnhlN280ZEstRldxRnA3UlRLRTF6aTF4YnlMTlRoaGNfR0g1dWh6OEFOQy1penVnZFd5d1pfcUJIX1hXM2hVaXdQTjJKemZkM243U3FIUEdUQ21CS1N0YjZIYUVTYWFKNkhIeW44VWlkM2F2enlR?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 04:00:50 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTVBNUW9HV3hPVGpqM2lEbzV0dllXOURvQ0FwQzJzTnFtcDMzZ2JXMzlyV0k5RjJ5OHZNT25aOFVyZ1RhS3hLQ2V1ZFVMTk9PSDIweW5HZlF6OWwzbEtSWGZKN2d3N2tkTzRKdS1SQ0U1TnNvYTFxOHp2QkNSZTZ1U0kwdTZyQXVmU0RhUnZNQWhCVEtQSW5RQ2pwd1c4bDBsZExySktfazBqWi05LWQxcnZNdVJzamRJRjU0OXlHRGFGQUp2aHZBNFM2R3pFaGE0V3BKcHdDalNUanVGRkVfaFpIRHJiWW1jZ3c?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 15:01:47 GMT"
     },
     {
       "title": "Comparecencia del presidente del Gobierno, Pedro Sánchez, ante los medios de comunicación en la Misión permanente de España ante Naciones Unidas",
       "source": "La Moncloa",
-      "summary": "Comparecencia del presidente del Gobierno, Pedro Sánchez, ante los medios de comunicación en la Misión permanente de España ante Naciones Unidas La Moncloa Sánchez se lanza sin frenos contra Trump y sus aliados internacionales en su último discurso ante la ONU",
+      "summary": "Comparecencia del presidente del Gobierno, Pedro Sánchez, ante los medios de comunicación en la Misión permanente de España ante Naciones Unidas La Moncloa Ceuta protagoniza el discurso de Pedro Sánchez en la ONU. “No convertiremos al inmigrante en enemigo” EL",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMEVKYm4wMFd0SlJJYW80Z3JGUGNMTXAxNkVIUUp2RERtbmFYdjRFRjdiWmRUaHRCMkJ6c2FHa29maElsOWlfMkZ2elVsNlI4M0RESkcwUGpGV0tBM0IzSENlWXhFaVVESU5vVzB6dzF5R2wybGJVNF9LOEJrOUR2bzZnb0RpbDhZN0lXWXJqbE1iUmJJUTVjNDN6amlBQjFwcHdYQUdYLXpIZw?oc=5",
       "pubDate": "Thu, 24 Sep 2026 09:03:26 GMT"
     },
     {
+      "title": "Más de 272.000 familias han sido desahuciadas por el juez como Maricarmen desde que gobierna Sánchez: 90 al día",
+      "source": "El Español",
+      "summary": "Más de 272.000 familias han sido desahuciadas por el juez como Maricarmen desde que gobierna Sánchez: 90 al día El Español El mapa de los desahucios: Cataluña concentra casi tres de cada 10 lanzamientos y Madrid es la cuarta comunidad con más casos El Mundo Un",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb0dHNi0ycEp1TWNESVhGeDM3a2NSOWtuMFZITUs2RzNvSU5SUzZremh4bk5zZVl5Vm1wLWtQZFljcUJYNVlLQzZXQzhqUktKdjFfUk1ERnRrRWRvWV9mcGJfQTI1MndKSUN6VkRCdmE2V1l4bWlrSHJuLWx2Ui1aNzRmOS1ZanpCVVZtaHFJcGFPbk1pd0ZhV1hJb1hRd1BwdG9xWVpJbkpDTm43N29Kb25pbEs4aEdtSHVpT0ZVeXFRVF82V3NCbXNDY3daOTNtcGNUTURYeUZNVXBSVXp30gHkAUFVX3lxTFBOWUhsOGxzQlFxYklzS0Zpb21Fb0V1RGNTVEMzMWZNS29sNGZ5RV9nSVRJV1B6MXBqck01ME4wRFRnSllsSzJmWXFyNjNLMHM4V1JtbkV0ZFYzR21CYXQxeUxlcE45YW1QYU1NZkFMcHdYRFdLaXdaY1RyNmZheVhPeFVhZHVTVFhsS3h2ZFNzQ0VZYUt1aXk1bHlsSnZiQ1RObVg3RElja045b1BBdjU0N0dNN1ptU1BXaXEyTFFfU2lmQzAtQ1V4b0NiUzZXczFkUjZLams5NndRRWJBUW9iV2FvYQ?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 16:45:00 GMT"
+    },
+    {
       "title": "El cirujano que denunció el cambio de prioridad de pacientes en Madrid se querella contra la consejera de Ayuso",
       "source": "elDiario.es",
-      "summary": "El cirujano que denunció el cambio de prioridad de pacientes en Madrid se querella contra la consejera de Ayuso elDiario.es El doctor Luis Martos se querellará contra la consejera de Sanidad madrileña por decir que él manipuló las listas de espera EL PAÍS \"¡Co",
+      "summary": "El cirujano que denunció el cambio de prioridad de pacientes en Madrid se querella contra la consejera de Ayuso elDiario.es El doctor que denunció la \"manipulación\" de listas de espera se querella contra Matute por \"hostigamiento\" Telemadrid El cirujano denunc",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb01OSTBGNU13akFGU185akRQbTNqSEJTZk9fN0J0ZHlVMFBMa0lnMGU0eHY2TkVLYkJzVEtURElRZ3Y3VHMzbjhpRXR1S2FIMUdoaENHRjZzcmlmQVRDRm5KaVVwUEdhSmVid3otUi1FNHUwejhiSVlQUlFVLXNKQWpTUFRIMTZUY0NoQnR4cGdtYllSUXlXc21xZ2FhODh1OTM5eWJEOFBGdzh3WTRaSm04VlRCX0ZJakFyZU5Mem5Malpzc2liWEJn0gHPAUFVX3lxTE1UMERVa3Z3RHlld2h3VENoVk1qV1N5WWxNemE3WEFTOG03eHV6b3RoTUo1YnQyVjNRWWhacmF4dmJ1cWROdmRfcm1lVGNKVWJDU2VVT3dFakdTakFDYkw2T3dBZU9fcWVodDAzTE9jSnc2dldmcUltd2FfU0VyVnZKeGtaMWx2aHJLdjVxUXVYNjNfVC14c3dVR2RiNF9sV0JzOHhFOXV6NDlTOHRjWW9fZ05EdUVDZURGaEtTUWxUSDJ4UU9ZZTcyVjBudmF1cw?oc=5",
       "pubDate": "Thu, 24 Sep 2026 09:32:17 GMT"
-    },
-    {
-      "title": "El Partido Autenticidad y Modernidad (PAM) gana unas elecciones marcadas por la abstención en Marruecos",
-      "source": "RTVE.es",
-      "summary": "El Partido Autenticidad y Modernidad (PAM) gana unas elecciones marcadas por la abstención en Marruecos RTVE.es El partido más próximo al rey gana las elecciones en Marruecos con una abstención del 62% EL PAÍS El PAM gana las elecciones en Marruecos sin una ma",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXNPeWpSSW5UaWlLemtncVUwRnVuaWl2VEdJYndKN1dRaGR6XzRXNllzaEUzN01lZmp0VG1GQVJQc2lRRy1yekRUVXFjY0hyWlNpYm9lUThnNnh0cmxaWmZvMlNNN0c4UWxYQnRpcEdWQWlsTXY1MkxxaGpfOGZ5UUJqelVpeHN0TXJIR2hRWk1SM2ZEQ3pUZg?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 15:27:35 GMT"
     }
   ]
 }
