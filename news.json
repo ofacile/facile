@@ -1,16 +1,8 @@
 {
-  "updatedAt": "2026-10-02T22:52:00.154989+00:00",
+  "updatedAt": "2026-10-03T01:48:46.601274+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
-    {
-      "title": "El Parlamento de España vota en contra de los dos decretos sobre vivienda del gobierno de Pedro Sánchez",
-      "source": "BBC",
-      "summary": "El Parlamento de España vota en contra de los dos decretos sobre vivienda del gobierno de Pedro Sánchez BBC Sánchez, a los grupos que han tumbado los decretos: “Las historia les juzgará antes de lo que creen y con más contundencia de la que imaginan” EL PAÍS E",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRekxxUWtMU0huTFN0TnFFZThXaWtTMEFYMEV0TUNWOWRTNC1pWmZOMzJBcnlkOWt0dDVPN3BiNnZpUlRRakhheXBUTzNOYjFiV2VKQkJCb3JGUnMx0gFiQVVfeXFMT3Voc0VKR0RfdXZDVjhXeHMzY0dMTmNwS1V5WTVMT2NTRmpxUkNYekdTSzF5emNQNXV6aFAtTi05Sk1LQmRkckM4YXI0cmRNa1BTVWktZzFtQkdPb3dPN2tWcFE?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 17:27:47 GMT"
-    },
     {
       "title": "Cuándo serán las próximas elecciones generales en España si Pedro Sánchez las convoca tras la derrota de los decretos de vivienda",
       "source": "ABC",
@@ -20,52 +12,60 @@
       "pubDate": "Fri, 02 Oct 2026 14:27:40 GMT"
     },
     {
+      "title": "El Parlamento de España vota en contra de dos decretos sobre vivienda del gobierno de Pedro Sánchez tras la crisis por el desahucio de la anciana Maricarmen",
+      "source": "BBC",
+      "summary": "El Parlamento de España vota en contra de dos decretos sobre vivienda del gobierno de Pedro Sánchez tras la crisis por el desahucio de la anciana Maricarmen BBC Sánchez, a los grupos que han tumbado los decretos: “Las historia les juzgará antes de lo que creen",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRekxxUWtMU0huTFN0TnFFZThXaWtTMEFYMEV0TUNWOWRTNC1pWmZOMzJBcnlkOWt0dDVPN3BiNnZpUlRRakhheXBUTzNOYjFiV2VKQkJCb3JGUnMx0gFiQVVfeXFMT3Voc0VKR0RfdXZDVjhXeHMzY0dMTmNwS1V5WTVMT2NTRmpxUkNYekdTSzF5emNQNXV6aFAtTi05Sk1LQmRkckM4YXI0cmRNa1BTVWktZzFtQkdPb3dPN2tWcFE?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 17:27:47 GMT"
+    },
+    {
+      "title": "Semana de furia y fuego: las violentas protestas estudiantiles en Francia que han dejado más de 1.000 escuelas afectadas y cientos de detenidos",
+      "source": "BBC",
+      "summary": "Semana de furia y fuego: las violentas protestas estudiantiles en Francia que han dejado más de 1.000 escuelas afectadas y cientos de detenidos BBC Francia, desbordada por la explosión estudiantil: \"Los padres pagarán las facturas\" El Mundo Las protestas estud",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EODk5M2JlRmVKaWpLdGMyd0pwZFdsamNOcDNuOU43WTZPaUVXaFA5T3A5MzY0RFF2SzQzTTZDWnlhanFEN0VGUkpzeFg0QWZjTkZKYk5oOUFRejBw0gFiQVVfeXFMUHRWLVhNMmphaUVCNE41VjM2SlJGWnE0emt6bWJmSnZjRHkwN1V4YkI4T0Z6MGZ3UmJFb1hYejBkTWVTMFNqVXZRblQ1Rzkxck1QUWZZd3FZZmpVVWU5bnNxYmc?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 16:24:58 GMT"
+    },
+    {
       "title": "Mar Gómez, física y meteoróloga, sobre las lluvias torrenciales en Cataluña y Comunidad Valenciana: \"El Mediterráneo caliente no causa por sí solo estas lluvias\"",
       "source": "El Confidencial",
-      "summary": "Mar Gómez, física y meteoróloga, sobre las lluvias torrenciales en Cataluña y Comunidad Valenciana: \"El Mediterráneo caliente no causa por sí solo estas lluvias\" El Confidencial Avisos por lluvias y tormentas hoy: Tarragona, Castellón, Valencia, Murcia y Balea",
+      "summary": "Mar Gómez, física y meteoróloga, sobre las lluvias torrenciales en Cataluña y Comunidad Valenciana: \"El Mediterráneo caliente no causa por sí solo estas lluvias\" El Confidencial El aviso rojo descarga 600 l/m2 en una hora en el Mediterráneo según Emergencias,",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVlV3YzJRX0dsRXZ1V0tUTVN6RWV6VUxXbHlwbGRKSzd5NDhiNHJCdDVDN25aZXVJUTVaZ25nOHNBQmFod2ExNnlqQnM0UVNwSE9HNGtJVDg2NGZwQnhadkFxS0RKQVI3bFc5ZFZMcGxMUzdfbzkxQXRDVzlPNVcwdExhSXE1cFlKN2RyNzBaRVpObDhSemdWYnpNZnVfdzhyX3lXTnB4OHZvZmdDckJzZEhzWEZYdk5rcHF5d2hfLWIwbHhLNHFyWTVIWkdNajdhRWtiYmRyTQ?oc=5",
       "pubDate": "Fri, 02 Oct 2026 10:52:00 GMT"
     },
     {
-      "title": "Los manifestantes de Sol se traladan frente al Congreso: \"¿Dónde está el Gobierno progresista?\"",
-      "source": "heraldo.es",
-      "summary": "Los manifestantes de Sol se traladan frente al Congreso: \"¿Dónde está el Gobierno progresista?\" heraldo.es Los acampados en Sol deciden quedarse aunque parte del Sindicato de Inquilinas anuncia su salida progresiva EL PAÍS Una marcha espontánea al grito de \"co",
+      "title": "Las inundaciones de Madrigueras (Albacete) obligan a elevar la alerta del Meteocam a nivel 1",
+      "source": "OkDiario",
+      "summary": "Las inundaciones de Madrigueras (Albacete) obligan a elevar la alerta del Meteocam a nivel 1 OkDiario DIRECTO | Castilla-La Mancha eleva a nivel 1 el Meteocam por las riadas en Madrigueras, Albacete LaSexta Una mujer centenaria muere tras inundarse su casa por",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb180a05obHlkN2hQTVFMZHNTTEphZHdCVEJTZ0ltcGJvUWV3cTNldnB4NHpKWjFsOEwwdkFsNlFTZjdPS2pmTXpSNWtNUkw5VU53eDVLWEJwZkppY2JvMHJ5Um1rUlB1RVIycUE5YVFWeGV6VXZGYW40eUpWUE50clBRUFBvZ29vR1FlYWpMNnZLUnNLdnYxY2p5bmp0MnY5WkROSVdnSFJ1Yjh0NGlmdzlfOFRjVnRaRTR6eXNuMS1qWTI4Zl92OWUzT3Jza1Bab1pzQkdTMEJTY2RPRXVz0gHkAUFVX3lxTE5FaU03cDZnSHB6RzMySUVOM1lDWURPTTlMZHFvSlplSFZTVWEyM0RJQTBrTnJ6UFhVak1mWmd2NHczVFdPUWJadmxLVjhack10bm1vME8weXJjVW5DTW9CaXNGOTV2UkFjQXZqMlZ3eWdQZXluMW0xVF9NS1Q0bndxanl4a1Y3dDJNX3M3VnpqT09NUWZ2X04wY241Y09tUkNDeUJVYmk3MWJGMUtrbmZ2MHFRVmpjZ1lUSzVmcl9YOTQ4OHJXQWVzOVk2ZkNYZEg0TVRQR2hTTndWVWx4WGp0RXd3cQ?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 09:18:27 GMT"
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORVhGY1cyNVdYRnhlYll0NTZwSUpOdF9VaW11ZHFKVGd4bTJpeXVpWW16NWctVEdJY05nNG05aUozMHZ6dFZBMVBPQV9ZWmhBTWpzMWNXODFYbEhyaEhXY2VnamppcnBldFVBM1J0cDRWNS1qa3FhMXVNa3Bsb21Pd3pueTNqaEY4dUtDbEx4YklaZzRrZm9BcmF2cGprVGl6dXpTT2h3QW9jdUpzTm1Cc0lXbGFMZWk5ZmV6bDBXONIBxAFBVV95cUxNTGRqcWZMMWZSQ2tNNzdWUExENldyN2cxSmljazViOWpYcXV5Uk96anF3S3l0bllfT0c3YTRJMVg4V3dPaDZiSm1JcWtJb1cyTzNnbktmQUFGWl9PRDNyd2RHQlozMGpySU5NVnI4NE56OHpmdl94UnVSZ0pyUlJKRWl1WDEwZ2pqeTVpNGNzVTRmMHhVMmdHRV92WU9xNG5BcTNmNlRObmVwLUhKU2JaeWUtelFrQUhmS0tGYV9FOVFMa1Q0?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 21:59:17 GMT"
     },
     {
-      "title": "El temporal de lluvias y tormentas deja más de 100 litros por metro cuadrado en el Campo de Cartagena",
-      "source": "La Voz de Almería",
-      "summary": "El temporal de lluvias y tormentas deja más de 100 litros por metro cuadrado en el Campo de Cartagena La Voz de Almería DIRECTO | Murcia pasa a aviso rojo por lluvias en las comarcas de Campo de Cartagena y Mazarrón LaSexta Alerta roja en la Región: El tempora",
+      "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
+      "source": "France 24",
+      "summary": "Voto femenino, clave en la recta final de las elecciones en Brasil France 24 El voto del odio marca las elecciones presidenciales en Brasil EL PAÍS Lula vs Bolsonaro: cuánto se juega el Ibex con las elecciones en Brasil Expansión Mapas para entender las elecci",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUktvczZxRWJ4LThlY0F3c1RNQVdBSEFpTTRGRFRoNWhHY01vbHR5TVJoVzBiMlQ2YkxCdkRvVlBnNW9tY1pHQjZOMmtSc05XYmpPQkZOOWJHZnZTOTlKeTl4OVhXOGhlc29QRDlZZUNZNmVDZmVWcXpLMEJ6cWlOa2xMMEluTGxsa0d0Y2xLNUFteE0wQkRvQ1h1QkVGdzRhTHQyaUtWSF9DMGpRWHRCSUZSOTc5OVRHeEhHQlpELUtfcTRtQUE?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 16:34:56 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbnRYRHJ5RVBQWUNDQWJTTkpXbGNBTmFwajlyYmVwN0s3SWJwWWYyVHlzdVAyMkNKOGZ1X01rUHRHVjFhNW1SenNBY3VxMmdlYnZmeEh3YWNfRVVReldtcS1KUTNjRlloczdQR2Z0R20xQ1VzbVVuNXoxMnlZbXBZZXJQSVh0cHA2T0V4Z0h0ck5KV1RxdnJaRQ?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 21:46:58 GMT"
     },
     {
-      "title": "Gabriel Rufián, sobre sus propiedades privadas: «Yo soy propietario de la mitad de una casa donde no vivo. Con la vivienda no se debe especular»",
-      "source": "ABC",
-      "summary": "Gabriel Rufián, sobre sus propiedades privadas: «Yo soy propietario de la mitad de una casa donde no vivo. Con la vivienda no se debe especular» ABC Rufián pide a Sánchez «cabeza fría» ante un adelanto electoral «porque no hay nada votable a la izquierda» El C",
+      "title": "El sector inmobiliario respira tras el portazo del Congreso a los decretos de vivienda, pero alerta de más incertidumbre, litigios y una crisis de accesibilidad sin resolver",
+      "source": "La Razón",
+      "summary": "El sector inmobiliario respira tras el portazo del Congreso a los decretos de vivienda, pero alerta de más incertidumbre, litigios y una crisis de accesibilidad sin resolver La Razón A qué hora es la votación de los nuevos decretos de vivienda en el Congreso h",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZFhiQjJfNmQ4Z255LXdFS0VZakRfV0FKOGxVYzhJUFlRRFJfWG95WkwwU0dyLUlNN19KWE5yREtZNXkwNHFDWjJiQ0NyU0RXbUVHeUx1blN2R1pya3RGTXhNVElVUFhqYjJMdlVwQmFLMDZZNEhnYjUyM0pTcFBXeG1FcVZNTDBWeDlEVk90dVZILUkwcF84X2VWNldONFZTd1dFYTk0ZDdHV0tnOG95RVZnX0tRSloxWnNtTEN3aERoQUJ50gHKAUFVX3lxTE9NcTNmVm1UT3pwWmN1V0xCWGkwQU9fbGRpc0lkdHhZbktBUXlUTVoyWVJMSlVpbkl4SkN2NTdPXzJZZGF0aGdDc053UmRQSzVOaVZOYTFHZzdHX3RhMFRpcXVwaE1RRUoxSnVzV0NUVFd2QUZnWF81bmlkNHg4TllsekhsakNqNlNWWm1IODdvMVpSNG54OTRMN0VGM3hWTHRfV3NoOHByZ0dsaUU3aUYyZ0k5N0ZIaDRHaW5vd0x2ZDVrV09pTGQtMkE?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 12:32:24 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQOXFVcnFzdzRJQTc3aHBac3hxQ1pUTEZ2UnhQUkNIWnpLRkRPQjRqUGVtYzRMVlBVYzN4NkJVaHNlRzRGWlRBc1d1NUF4eXFYRXA0ZjVxdkxhMzlyUkQ1LWY1b3NNWjhoOXZCcThlVnZBajhfbGM1Y016RF91aUQ1TjRLMjVQZ1NULW5lQW1mTlI5UEJTMWxJZ1gyRE9UZnNHanZPcG94UlN6OHk3Y3E5WGdDRHJ6d3djdmhmazctTFdRa24yd2ZoTml5dGQteGtDUkduY3BXeVYwRHltRlFPVmx3SDVieXY3a0lBQjNGbUdrTk1fNnVYTU9rM1lvYTgzYVkyU3hfR0JYUHpHeXdEUHo0RHNNaC1XMHdGeWFCbkJZVVlGaXg2NtIBvAJBVV95cUxPYTZEZDVJZmp3ZzBjaUpBUHAxT0tVOTRzVWlNSUI0Y0RiY29oU2tCeWpLZTdqZ1M4Wk1icEtaQW9JTF9JWXJUVGxZWHRjSWktN3VZckVkN25CMXdKczl4VGs0allEeTRDNGZrVXRvc3VtbnZZRmdMVURPYXdUUXoxMGNVZXlIZ0pCTnZvZzVHWmxjMUxUZDljbE9FYnZFaDFrUzFwQWNKcHI5bEFfb0V6anRyUVU3YVF2RHVCdlgydlRhYkdoWThQVDVvbERzb2kxTURYd05WZDN1WS13Y2VjZlM1UktzaHJndzFnVnVBTVkwaW9tenAxZ1VEczJTUXNuNmlxei1Wd1hnYU1yRXIwZlBMVDhzc0NyMFpUbnkyQ0FGWjZYeTBSZGRhY2ZwMmZtc2tVNmRuM1gxYTBt?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 15:15:51 GMT"
     },
     {
-      "title": "TRASLADOS 2026: Resoluciones con listados provisionales del concurso de traslado para la provisión de plazas básicas vacantes para varias categorías",
-      "source": "Sindicato Médico de Sevilla",
-      "summary": "TRASLADOS 2026: Resoluciones con listados provisionales del concurso de traslado para la provisión de plazas básicas vacantes para varias categorías Sindicato Médico de Sevilla Ver más titulares y perspectivas en Google News",
+      "title": "Reacciones a los decretos de vivienda y las acampadas | El Sindicato de Inquilinas seguirá en Sol: “Nuestra presencia será menor, pero no vamos a desaparecer”",
+      "source": "EL PAÍS",
+      "summary": "Reacciones a los decretos de vivienda y las acampadas | El Sindicato de Inquilinas seguirá en Sol: “Nuestra presencia será menor, pero no vamos a desaparecer” EL PAÍS Los acampados en Sol deciden quedarse aunque parte del Sindicato de Inquilinas anuncia su sal",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOeTVOYk1IS05KOF9TbGxTM0pMZWRZdUJPbkFONG9FMXVlNVRyZFhLSVE4dWpFSFMtWTVOdnFLLWhqcnNvSWEzSWdJNzV3aGI4dmVRdklNT1Y0Y2ptc3FfM0xLOVR2WjNLWjVWU1dPVlpXWlM4R0NLMFZMUmsyUzg4cC10NjAwSEZ5Q1hUTG9LUklwbEtuRTBOeDNuTUdNS0NpVkFUTjN4d3lFMWRJa09HaFdMeHlLUEszVzFfbnpTSmtrYnFoUFZHdWZLMHFwbmw0bHVlcXl0WF96OUU0b0JDcmZMYm1sZlRObHZZdm5TaEpiTDZ6SExmVEU1S21CaVl2QWZvTld3UGNXOTVoM3l2SmpoNlVJZw?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 07:38:22 GMT"
-    },
-    {
-      "title": "La jueza eleva el recurso de Ayuso para desalojar la acampada de Sol al Tribunal Superior de Madrid",
-      "source": "RTVE.es",
-      "summary": "La jueza eleva el recurso de Ayuso para desalojar la acampada de Sol al Tribunal Superior de Madrid RTVE.es La Policía Nacional requisa varios machetes caseros en Sol mientras la acampada continúa sin delitos denunciados El Mundo Ayuso y Almeida deben impulsar",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRFVnM3NJMllhQzJPbWRJUk1idVZWbWE5OHJKMmRZUHFqU0JUNW9TREV2aXZwc0F2X0JScWl6RFNqbGRxektmQll2VmZYbVRsVG1ySXo1b1FiT1NFM3lwby1hZllEOUZ6aTJLLU1ud29pQUlEejgzWWRCZ01IbmdWbU5UUVBzQ3AwZFlxNEp5Wi1QWWNlTXpVVFZFLTlyc3M4eldXQ2JlUU03UFAxb3N5dQ?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 12:11:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVEVNc1hUNE0ySnI0aTFTTzZ1V3NTWGRzWVcwNjBMVUVnRUhwQ3RaQ3Zvd184bXZ6QllHdWF6RXZwSmJxMkRGakEyR3Rmd3ZnTTFpSlRobHB0WE5GWXZTU0hwa0NzQ1BCemw5NzRlaU9Sb2E2aUUteGF0ZGVPM29QSlJrSmtUeDFpaHdRMVlxSXFBd9IBpgFBVV95cUxQenRST3l3eElfWUlGSjhvOVhRSzhJNy1oVGhRRlc4UTNfaUhkRlpmNXZWbjlfRUFuaWY3XzFPWUZrT2M2LW9LWXpjWlFDb08wYzZVZHVuX0cyZmhqWkhKYUczeGJpMnBRUVF0SzkyVjhJT2JuWndwZTRMYlI0M3Y4UDFJVFBOb2VMRWdZU2o2d1I4aVp1bGtuVTJGck1XbW1UQ1Z3Q0R3?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 21:48:20 GMT"
     }
   ]
 }
