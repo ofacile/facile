@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-04T05:15:41.617305+00:00",
+  "updatedAt": "2026-10-04T11:14:07.493263+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
+      "title": "Barcelona vivió el día más lluvioso en 20 años, todavía no ha acabado",
+      "source": "Euronews.com",
+      "summary": "Barcelona vivió el día más lluvioso en 20 años, todavía no ha acabado Euronews.com El temporal en Catalunya deja dos muertos en Tordera y Montornès y un desaparecido, en Pineda La Vanguardia Los efectos de las lluvias torrenciales en Cataluña, en imágenes EL P",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX0VHdEtyS2dXTlE3UE51Q1htX0xKYTdzWmswVE1yZlY4OUNiZmJkUkJ4VUdwdkd3cnh6X3NLNXZBWFFYend3RS1PVEpHQTZCdFMtOEt4a2pGdDRBTGFfMnJaM29CbFcyZkl0QjRmMUlhaFdwaGpTN3BseXZvVVcwRnJmTHpQREhhdlNCSXFhdzBtNHh3cC1BeFJEdFBjQVFhamg2TXo1akRuUGNOMHFqWk9SVXQzUUxibTFCcHI2ZDJBUVU?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 06:31:35 GMT"
+    },
+    {
       "title": "En fotos: las multitudinarias protestas en España contra la crisis de la vivienda",
       "source": "BBC",
-      "summary": "En fotos: las multitudinarias protestas en España contra la crisis de la vivienda BBC Decenas de miles de personas se manifiestan por la vivienda en Madrid en medio de la incertidumbre electoral EL PAÍS Maricarmen, Almodóvar y todos nosotros La Voz de Galicia",
+      "summary": "En fotos: las multitudinarias protestas en España contra la crisis de la vivienda BBC Decenas de miles de personas se manifiestan por la vivienda en Madrid en medio de la incertidumbre electoral EL PAÍS La presión por la crisis de vivienda mantiene el pulso co",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xQWxmZWkxaGczclBMZDRFdW1lQWZ5ZUh4VEt0SFFPVzBWNDZEYkR4XzQ1SkpoT0lIUWlkcy1lb2Rvb1FKc1ppbDBveUl1MW04azZCU041ajZJbEpn0gFiQVVfeXFMUGZiaUpzNmI3ZC1tcW82Q3ZPTXhxSFZuMWktRWp4VHgzbkRZX0FYckZVZVZRamFkVXlScExRbXNoNXlhdEtTQXNwRHk0d280enVzbENKUDF5YUV2bUdPS05rSHc?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 01:34:50 GMT"
+      "pubDate": "Sun, 04 Oct 2026 05:34:09 GMT"
     },
     {
-      "title": "El temporal descarga con fuerza en Barcelona y deja más de 100 litros por m2: cascadas de agua en Sants, calles inundadas...",
-      "source": "20Minutos",
-      "summary": "El temporal descarga con fuerza en Barcelona y deja más de 100 litros por m2: cascadas de agua en Sants, calles inundadas... 20Minutos El ‘mini-huracán’ que paralizará media Cataluña este domingo (y las lluvias que habrá en el resto de España) EL PAÍS Barcelon",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPemRONGdadlBZaVp2d3lXWERIWWlRaWl2XzRMV0RyTmVuLUxmcHVtVTN0Yk9temxxdi1NT3hpZndIMGNZOGpwc0dzcGRjRTBEX0kyVFhrS2tsT09oaTZtMUQ4VXU2dkREVkhZR1M2RExWamY2YUtSS1ZXLVN5RkxUbnlTUTNNc0VuM0xSVWF2eVAxWnZSYzJWSVVGcVZHSEd0b0h4azdnY2FsUlRBeGFLa3Bjc1lubWFFVlJCOUNNejNiQXhscmhvaTV1T21WdXlMY3ZtUFN3?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 21:45:18 GMT"
-    },
-    {
-      "title": "Sánchez activa la maquinaria electoral: sondeos 'flash' y el CIS para decidir si convoca elecciones",
+      "title": "Suelo libre, licencias en 30 días y seguridad jurídica: las recetas para superar la crisis de vivienda en España",
       "source": "El Economista",
-      "summary": "Sánchez activa la maquinaria electoral: sondeos 'flash' y el CIS para decidir si convoca elecciones El Economista Los informes económicos aconsejan a Sánchez adelantar elecciones: evita Presupuestos y el deterioro del coste de la vida que viene El Mundo La may",
+      "summary": "Suelo libre, licencias en 30 días y seguridad jurídica: las recetas para superar la crisis de vivienda en España El Economista ¿Construir casas en 12 días? Lo que el problema actual de vivienda puede aprender de lo que ocurrió hace 70 años EL PAÍS La matrioska",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMm5GU1ZPV3FvTi02OXBFWTFPY0RNYkVBdW5nVmF0WDVYdTliUUM5bldrMWpYbFhpUXIzam5BMU1aNnZMMlJXWmdheGJFLWxVZGdGall4bDBqMEU2a3dic195LWRpZTRUWTNLb3dzQ1hhS2VWYXQ1N2Jmd3kyaGU1V240WFJvSGdmYW12TWNNbnozOHVuZWRIZTVHUTgxMDA3VGp1U3U5REpGcFFVMk1fTC1PNnZZZlp6bmFHbXF2NEY0TEFkWGQ5YlB0a0ZrRzNnM1l0eHQzN3FPZjVkV1V5N3hnT21MMDVOZTBLUGl1anp0Y3psRUln0gHiAUFVX3lxTE83RlMyeEdWS0pBbmhsaXEzd1Vsd3BmZ3h4b002b3hZRUhaVHNHblprTURZT1o2MUVzNGk0dkdpLTdnaDBVczFOd1lLTUxNVlVUVzZldUN2dGRUVTY5Z19fa05RTU1XUUlTWjNELUZZTnkwRllMZ3VvUFhSX3Y2TGVtdmwweTdFOVpabmk3TmhUdl85VmxDWHVqcmIzS2RsTU9tQU9qdnF1WHZmQVc0eDJwTXlRNFhvUFUtOXBPcTIzWGtKM3Ztd2hBekttRkRmSWdfOC1DTXZHN2ZGOWpkYjhleHc?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 15:01:38 GMT"
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRTJGT0g0UTZDMWVsSzdMUk96RVZwUmRNYVRQU0RXdXhCM25RcWk2dVJSZEZiWHhQVWt5YmFBNEw0azFMNEladVpHZDVYYTA1VDRVY3J1Rm1DVWRfQnFjcjhic2NEdGxDWVBtWDB1b0hORlFpdTFHVVB4YXV0eDNUdVNrNklvNEhXNGtuOHc0TjhpUndxdjdnVzZSWklwZjZmYVdrXzFhYWR2LW0zSTVLOUJQamowb0MxVHRHLXI0Q1J1dElhRXlCTGEweUZUQ1ZLX0JzNThhczBfTGE4QzlKZ3VEdXlOTE1ZbVp3cTItZ0lHNEZCWGpYMnZWTnVXM1FVaURaUFRHdUhvZmIwOFYzbS1GLUlVMDV40gGDAkFVX3lxTFBSYklaS0NfNEh1T05Vekx3dkZiQXZXcW1pdlZmZ3p4Z05kbjlGeFAxMGZvb0VKamZmelRiUElETjU4TEw4b3BCNzBoVFY0MXpKYjg0OFZmYU1Ka2FuR3lPNlZCdXFoSW5FclV1LVMxWDBzRkI5MTFHNWdCY1ZWOHZOUzA2M0Z2LVI1MWtXZ1ZhUW1NY0NEMEpqYWh3d0tvVlhxLUJxMTk2X0dVbllZZjE4bmtMc0NyTnowSnBpWE56eE0yZmx2bEtDNl9hMklEa2hhU3Q3SHc5V0Exam1LY1hXODdGalJ1dGg0Ny1CVGdnUXl4QWRUaGhLdEt0LXNfSk83b28?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 04:15:53 GMT"
     },
     {
-      "title": "Manifestantes por la vivienda levantan una acampada en Valencia tras los disturbios",
+      "title": "El PP se reivindica como solución a la crisis de vivienda y afirma no temer un adelanto electoral: \"Estamos listos\"",
+      "source": "20Minutos",
+      "summary": "El PP se reivindica como solución a la crisis de vivienda y afirma no temer un adelanto electoral: \"Estamos listos\" 20Minutos La mayoría del PSOE y el Gobierno anima a Sánchez a convocar elecciones ya: “Ahora hay una oportunidad” EL PAÍS «Sánchez adelantará la",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdFRpZG5semVlU1p2ZEpOTHowSmlRbGpEZldnSE9tQ25kdzlVN1hmaDZsRTRMWXo2OUxUblg0Y2FQNFF6QzNhUi1tdFNTOXBqdDNpdVRUNDhGVGZIVy1MUGRCMHhlazAwSmRwa2RKZDluRkxCU3NRNDRBTWhPYXFNVFZTQkhKOUJXRFAzLWJQQkdJbjVueEo3a1F5UDRYUEQ2elZnQUtranZZbEJuY1U3VFhQYnp2Y0dOc1FCR2JuZS1xTXlKTlhlOXRHUi0wdDZUcGc4b1FGMS1rSTFkZXoxRkx3?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 06:17:37 GMT"
+    },
+    {
+      "title": "Última hora. - La Policía está desalojando el asentamiento de la playa en Ceuta",
+      "source": "Euronews.com",
+      "summary": "Última hora. - La Policía está desalojando el asentamiento de la playa en Ceuta Euronews.com La Policía empieza a desalojar el asentamiento de migrantes de la playa de El Trampolín de Ceuta EL PAÍS La Policía Nacional inicia el desalojo del asentamiento de la",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTDIwOU5OdkNxSFB1TEVXRWdDMTJvY3ZFV01sRm02NVJXWUk5VlZqN3Q0bi1aUlhJdEhIbmg1dUZETGh3VFVrTzZlRFliUHdPbkhURFpabThpbldUNlBSbEttMmczRVFOeWF1WGZFSDFpMnpmaHlkc1hBNzc5Q3hOdUxBazdWYWl5Tm12SWVVV1N0UXdlbmtma2o3SDBXbWdTN3hBQXZOdWl3c3E2UURkQk5zUEhMbXI5RWhFOVpZcVItU0k?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 07:23:44 GMT"
+    },
+    {
+      "title": "Iñaki López, sobre el rechazo de Junts a los decretos de vivienda de Pedro Sánchez: «No es sorpresa. Votó contra la revalorización de las pensiones»",
       "source": "ABC",
-      "summary": "Manifestantes por la vivienda levantan una acampada en Valencia tras los disturbios ABC Al menos cinco detenidos por disturbios en Valencia tras la manifestación por el derecho a la vivienda RTVE.es Tres detenidos tras una concentración ultra al intentar acced",
+      "summary": "Iñaki López, sobre el rechazo de Junts a los decretos de vivienda de Pedro Sánchez: «No es sorpresa. Votó contra la revalorización de las pensiones» ABC Vivienda: Junts pide negociar y el PSOE dice que ya incluyó sus propuestas RTVE.es \"Depende de ellos\": Nogu",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlJxc2ctZlNtbXpYY3JlUWdjUURKWVI1Q2VNVU5BSHFlYU50aTY5ZjNNSmR5M0ZNcFJIVV9JZnJNUG1hTHE4NlU3ejNzUHVZOHVTVXhqV09xaHZSZU5pcDMyRERzRk9KdFhsZEktOVY4bG9UNXZzb3NwUzdVNUFHYTFaVk0wa1MwWmFNMk9SVUE4aUpBTXFTY0xIajJUYmVFdUFzSFlsLXFqLXM1aHBORnlKUlVhalg5aDZNeXJkbDFtQ2Y3QVkyLVlLTjVGcWR50gHWAUFVX3lxTE5uM01WU1NyblhDNXh5VnNac3JfU3VhdDBudzNxcTRPSUlTOWhTSjBXUmh6c181eVRVajlBYWJUYnhQY2FxeW1RXzA4bE4zVmJQN1RzeEZTazVoVkpQZWRIN2lzZVNPM1o3OFE1dE5tUVlmOEhITFNKRFcwN29sZmU1bzhvV1RwNkN5VDExWnVvb2lkcXZPSEZTbXIxcXBPMGVpNHVxN1lMSHFMcWZ3VGlUSjYyRVVHdk0tcmMyVkU2d2piMHNkTDZEMEREUHNVbWdTZnNiNnc?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 18:31:49 GMT"
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaWVyQXFKanBYTXpFWlpsTFpUM0FoUTVieVkzZHFUaTc3WEk4Nk9pMFVTN0N4bEJFVi1QZlNoaHMtT0NBY29scFI1Y0c4ZHZrQmp2VGx3S2JtSmF1bFpnLVluZENTN3pvbjhjSnkwa3BLQWZOdW5uX2VPNGN3UGNPamZ5TjRVc2pyMkhXZTBiZXR0SDdieklPNDNhN2VnOFUya1lRV1VSNlB4cHEzLVpDb0dKMDZUTWvSAbwBQVVfeXFMTkNoZ0VwcVRWeTE0cWdKRy1leGs5YmY1Ri10ak5BeWNNdlB4dUJlOVplb0dPQ2dIQVgybHVQMXFfUWZyOGxnSlBfYnl4Skhkalh6NVdBVlhOOEowTjNpSDRWQkJqaU5uSVpYcldmVjRyWWV2TWQ1ako4d3BYNXdYTGU2cGowT1ZBWFNpT1FuT3lvMkxTVll6eGxzMi05bGJQbF85dERzM1Iya0VtQk5zb2t2Ym50MTNpUmJiWXg?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 08:15:08 GMT"
     },
     {
-      "title": "La alcaldesa reivindica el papel ciudadano en la defensa de España durante la Jura de Bandera",
-      "source": "Ayuntamiento de Cartagena",
-      "summary": "La alcaldesa reivindica el papel ciudadano en la defensa de España durante la Jura de Bandera Ayuntamiento de Cartagena Ver más titulares y perspectivas en Google News",
+      "title": "Registradas 150 incidencias por la lluvia en Bizkaia, con inundaciones y balsas de agua",
+      "source": "RTVE.es",
+      "summary": "Registradas 150 incidencias por la lluvia en Bizkaia, con inundaciones y balsas de agua RTVE.es Las fuertes lluvias inundan el centro de Bilbao y causan numerosas incidencias en Bizkaia EL PAÍS El centro de Bilbao se recupera tras las intensas lluvias ABC «En",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSLUV0b3lhdU5nMlRLUkt6RXZOa1NScWdtMEY2TWEwc3RNLUdNOUszRnJfY2xxdUEwcGNpX2ZkRUhOdFdNNlZZZ0VDRXVvNTkwclN5WmwxNUNweHpVYm5DYmk0SXc?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 04:41:15 GMT"
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVF9KNThyRTZoQndKY1J2VVNHaWJNU2lWY1ZxWTdRVVdMVTBSLVlIZE5xWTJPbm1sdHNUOUk0dlNiMUxReHJLWkJoMlRZbXBVbnlZbXpEZXFGWjNNN2JXTFlJUl8td01vZXM0QXhCbDVsWjdobjM3a0U4c0tKazg4TG54U2huVkJlR2tLbF9PZDJ2VzJmb1NET0FYMUFMNjBhSnhqNXoydkZROVU5R0RqaHBoMXBVeDFGOFIxdnZfcmlXdnE1QVk0?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 20:07:58 GMT"
     },
     {
-      "title": "En imágenes: el cierre de campaña en Brasil en la víspera del duelo Lula - Bolsonaro",
-      "source": "- France 24",
-      "summary": "En imágenes: el cierre de campaña en Brasil en la víspera del duelo Lula - Bolsonaro - France 24 Brasil: entre lo peor y la catástrofe EL PAÍS Tanto Lula como Flavio prevén la victoria en la primera vuelta de unas elecciones polarizadas La Vanguardia Brasil vo",
+      "title": "El tiempo del 4 de octubre en España: chubascos y tormentas fuertes en centro y norte peninsular",
+      "source": "RTVE.es",
+      "summary": "El tiempo del 4 de octubre en España: chubascos y tormentas fuertes en centro y norte peninsular RTVE.es La Aemet activa el aviso rojo en Cataluña por lluvias este domingo: estas son las otras comunidades autónomas en alerta El Confidencial Más chubascos en el",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMGljbmgwVDUtVHZNOG9PSWl1Um9pV2hXc0FLUEFFYkVCZldvbFVvbTdONkVfZl9NZS1FS1FjQ0hyZWZKVnAweXNjeU55bHRISmpldl91SlVKNHZfRzRsd2lMTzdoYkcwUUxwbFpCRjBUNVpRdEc3U0pYaWVfa2U4WWlnajYwVGxYbEZkT2VORjh1T21yRkU0bnUxQXQ3WnFkR0tDZFB1V1ItN1pMZHp0aHlaS212c1J1aEs4YWpMX2lqNTU4YXNKdHVuQlQ1OTQyWFVCRE93NzZyd0U?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 21:12:18 GMT"
-    },
-    {
-      "title": "Historia de una plaza blindada que se tomó en dos días: \"Acampar en Sol fue algo más espontáneo de lo que se cree\"",
-      "source": "elDiario.es",
-      "summary": "Historia de una plaza blindada que se tomó en dos días: \"Acampar en Sol fue algo más espontáneo de lo que se cree\" elDiario.es A Sol no llega el fin del mundo EL PAÍS El último motín La Vanguardia El 15 meme y dos huevos duros ABC La acampada de Sol: un paseo",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMzg5NnVXVmVjUTRjTWpPWG9hSE1XbGM2dF9iYy1rNkEwc0xUZmlER2V1TUVyV1Z0UXBzOWdmdkdSdGdlelhXRFN0NjBKYzdTcGV4SHc2X2tQeVJzeXozX2t5V1BCRkt0bTFnaFpCeE5wZGVhUWZ5QnpiN3hnSzlORDRSc2VKNkJGWmRmWFg3aTMyYXZ3d0k1bV91VGhqVDJNb0VJYTNkSVVCTTBPQUs1My1nYm3SAboBQVVfeXFMT3JhVEpycGNqajJQWGNMWEI3TG1hUDVkR3hqdHRnZDVGUWxFbVpZS2tEcWpiZzlPSWkwUnNDSERHUHJmckk0ay1aUEJfRldIWUFILVNURmV3NG9BbXhLNGdVS1dyMVdmcUlZUXRUcXR3RjRteFdvWDQtQUl4akhmc1pIZnpwU3ZXMHJYNXkzTXF0STdtbUl2NHJIOGNVczQtdVo3N2FqWHFiM0FzMUtEbFdUeUlEQ1BSVWFR?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 03:20:40 GMT"
-    },
-    {
-      "title": "El rastro de la riada en Madrigueras (Albacete) que se llevó la vida de Laura: “Es un desastre”",
-      "source": "EL PAÍS",
-      "summary": "El rastro de la riada en Madrigueras (Albacete) que se llevó la vida de Laura: “Es un desastre” EL PAÍS Page responde a las críticas por el ES-Alert tardío: «No había alerta roja de la Aemet» ABC Las consecuencias de las inundaciones en Madrigueras Diario AS L",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSXJxR3FqTnp1OFU5Sl9rUjNUSXc1WXlzRXc4ZGJ0ZnR2LUpkNDlhU3BHNmQ2eVUyNHRtM1RzclJWRVVxWFZaeE0ybHFYNm1MNGtTRjBpaFV6SUJ3MkV4QzlWVEF2SGJLcngzbVQxMFpjaGMtTk8zOGxEaUZYVTFSWFk2eTBXRERoQTFNVHBIM19DZERuTzdWeHNXaGg5ZmwxZWdGN1EzTE03cmQwUmR0ekdFLTRJT3NDWnJiMS1DbmdyUG1JZWlzQnE3VDMtNkliU0txQ3dB?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 15:02:29 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONlNSdDk1ZWNoclQ3NjBrOUQtT1IyWUdYVjQxSXZUWERHYklQSjJ3cmxmUWliWkM5ZlEyRWZMTkFYM0NxOFd5YVg4ajMzY3d3Sm5ETHcxN2k3TlVpY0F5bWN1Z1hOS3d1YndVbl9JSllMdktVWV9vYzVQX0kwd2hkeVFB?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 06:06:00 GMT"
     }
   ]
 }
