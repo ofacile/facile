@@ -1163,14 +1163,206 @@
      FIN GOOGLE NEWS TICKER
 ========================= -->
 <!-- TradingView Widget BEGIN -->
-<script type="module"> src="https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js">
-    "showSymbolLogo": true,
-    "isTransparent": false,
-    "displayMode": "adaptive",
-    "colorTheme": "dark",
-    "locale": "es"
-</script>
-    <tv-ticker-tape symbols="BME:IBC,BLACKBULL:NAS100,B2PRIME:SPXUSD,SPREADEX:DJI,FX:EURUSD,PEPPERSTONE:EURJPY,OANDA:EURGBP,BME:ANA,BME:ANE,BME:ACX,BME:ACS,BME:AENA,BME:AMS,BME:MTS,BME:SAB,BME:BKT,BME:BBVA,BME:CABK,BME:CLNX,BME:ENG,BME:ELE,BME:FER,BME:FDR,BME:GRF,BME:IAG,BME:IBE,BME:ITX,BME:IDR,BME:COL,BME:LOG,BME:MAP,BME:MEL,BME:MRL,BME:NTGY,BME:RED,BME:REP,BME:ROVI,BME:SCYR,BME:SAN,BME:SLR,BME:TEF,BME:UNI,CRYPTO:BTCUSD,CRYPTO:ETHUSD,CRYPTOCAP:XRP" line-chart-type="Baseline" show-hover></tv-ticker-tape>
+<div class="widget-box ticker-widget" style="margin: 20px auto; max-width:1100px;">
+ <div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="application/json" id="facile-tradingview-config">
+{
+  "symbols": [
+    {
+      "description": "IBEX 35",
+      "proName": "BME:IBC"
+    },
+    {
+      "description": "Acciona",
+      "proName": "BME:ANA"
+    },
+    {
+      "description": "Acciona Energía",
+      "proName": "BME:ANE"
+    },
+    {
+      "description": "Acerinox",
+      "proName": "BME:ACX"
+    },
+    {
+      "description": "ACS",
+      "proName": "BME:ACS"
+    },
+    {
+      "description": "Aena",
+      "proName": "BME:AENA"
+    },
+    {
+      "description": "Amadeus IT",
+      "proName": "BME:AMS"
+    },
+    {
+      "description": "ArcelorMittal",
+      "proName": "BME:MTS"
+    },
+    {
+      "description": "Banco Sabadell",
+      "proName": "BME:SAB"
+    },
+    {
+      "description": "Bankinter",
+      "proName": "BME:BKT"
+    },
+    {
+      "description": "BBVA",
+      "proName": "BME:BBVA"
+    },
+    {
+      "description": "Caixabank",
+      "proName": "BME:CABK"
+    },
+    {
+      "description": "Cellnex Telecom",
+      "proName": "BME:CLNX"
+    },
+    {
+      "description": "Enagás",
+      "proName": "BME:ENG"
+    },
+    {
+      "description": "Endesa",
+      "proName": "BME:ELE"
+    },
+    {
+      "description": "Ferrovial",
+      "proName": "BME:FER"
+    },
+    {
+      "description": "Fluidra",
+      "proName": "BME:FDR"
+    },
+    {
+      "description": "Grifols",
+      "proName": "BME:GRF"
+    },
+    {
+      "description": "IAG",
+      "proName": "BME:IAG"
+    },
+    {
+      "description": "Iberdrola",
+      "proName": "BME:IBE"
+    },
+    {
+      "description": "Inditex",
+      "proName": "BME:ITX"
+    },
+    {
+      "description": "Indra Sistemas",
+      "proName": "BME:IDR"
+    },
+    {
+      "description": "Inmobiliaria Colonial",
+      "proName": "BME:COL"
+    },
+    {
+      "description": "Logista",
+      "proName": "BME:LOG"
+    },
+    {
+      "description": "Mapfre",
+      "proName": "BME:MAP"
+    },
+    {
+      "description": "Melià Hotels",
+      "proName": "BME:MEL"
+    },
+    {
+      "description": "Merlin Properties",
+      "proName": "BME:MRL"
+    },
+    {
+      "description": "Naturgy",
+      "proName": "BME:NTGY"
+    },
+    {
+      "description": "Redeia",
+      "proName": "BME:RED"
+    },
+    {
+      "description": "Repsol",
+      "proName": "BME:REP"
+    },
+    {
+      "description": "Laboratorios Rovi",
+      "proName": "BME:ROVI"
+    },
+    {
+      "description": "Sacyr",
+      "proName": "BME:SCYR"
+    },
+    {
+      "description": "Banco Santander",
+      "proName": "BME:SAN"
+    },
+    {
+      "description": "Solaria Energía",
+      "proName": "BME:SLR"
+    },
+    {
+      "description": "Telefónica",
+      "proName": "BME:TEF"
+    },
+    {
+      "description": "Unicaja",
+      "proName": "BME:UNI"
+    },
+    {
+      "description": "Bitcoin",
+      "proName": "CRYPTO:BTCUSD"
+    },
+    {
+      "description": "Ethereum",
+      "proName": "CRYPTO:ETHUSD"
+    },
+    {
+      "description": "XRP",
+      "proName": "CRYPTOCAP:XRP"
+    },
+    {
+      "description": "Cambio euro/dólar",
+      "proName": "FX:EURUSD"
+    },
+    {
+      "description": "Cambio euro/yen japonés",
+      "proName": "PEPPERSTONE:EURJPY"
+    },
+    {
+      "description": "Cambio euro/libra esterlina",
+      "proName": "OANDA:EURGBP"
+    },
+    {
+      "description": "Cambio euro/bitcoin",
+      "proName": "BINANCE:BTCEUR"
+    },
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "Índice S&P 500"
+    },
+    {
+      "proName": "PEPPERSTONE:NAS100",
+      "title": "Nasdaq-100"
+    },
+    {
+      "description": "Dow Jones Industrial Average",
+      "proName": "SPREADEX:DJI"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "es"
+}
+  </script>
+  </div>
+</div>
 <!-- TradingView Widget END -->
 <!-- WIDGET CLIMA PRO FUNCIONAL -->
 <div id="weather-widget" class="weather-widget">
