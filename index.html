@@ -1164,27 +1164,35 @@
 ========================= -->
 <!-- TradingView Widget BEGIN -->
 <style>
-  /* FACILE - TICKER TRADINGVIEW OSCURO EN BURBUJA V1 */
+  /* FACILE - TICKER TRADINGVIEW INTEGRADO CON LOS WIDGETS V2 */
   .facile-tradingview-ticker-shell{
-    width: min(100%, 1160px);
+    width: 100%;
+    max-width: 1160px;
     margin: 14px auto;
-    padding: 9px;
+    padding: 14px;
     box-sizing: border-box;
     overflow: hidden;
-    border: 1px solid color-mix(in srgb, var(--primary-color) 34%, rgba(255,255,255,0.28) 66%);
-    border-radius: 22px;
-    background: linear-gradient(135deg,
-      color-mix(in srgb, var(--glass-bg) 76%, var(--primary-color) 24%),
-      color-mix(in srgb, var(--glass-bg) 82%, var(--secondary-color) 18%));
-    box-shadow: 0 5px 14px rgba(0,0,0,0.11), inset 0 1px 0 rgba(255,255,255,0.18);
+
+    /* Misma superficie que Noticias, Tiempo y Favoritos. */
+    background: var(--glass-bg, rgba(255,255,255,0.12));
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 30px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
 
   .facile-tradingview-ticker-viewport{
     width: 100%;
     height: 52px;
     overflow: hidden;
-    border-radius: 13px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
     background: #14171c;
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.08),
+      0 3px 9px rgba(0,0,0,0.10);
   }
 
   .facile-tradingview-ticker-viewport tv-ticker-tape{
@@ -1198,20 +1206,37 @@
     background: #14171c;
   }
 
+  /* Luna en PC: misma superficie oscura y apagada que el resto de widgets. */
+  @media only screen and (min-width: 768px){
+    body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected) .facile-tradingview-ticker-shell,
+    body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]) .facile-tradingview-ticker-shell{
+      background: #101a29;
+      border-color: #34465b;
+      box-shadow:
+        0 5px 14px rgba(0,0,0,0.22),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
+  }
+
   @media only screen and (max-width: 767px){
     .facile-tradingview-ticker-shell{
       width: 95%;
+      max-width: 95%;
       margin: 12px auto;
-      padding: 7px;
-      border-radius: 18px;
-      box-shadow: 0 3px 9px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.14);
+      padding: 10px;
+      border-radius: 20px;
+      box-shadow:
+        0 4px 12px rgba(0,0,0,0.10),
+        inset 0 1px 0 rgba(255,255,255,0.14);
       backdrop-filter: none;
       -webkit-backdrop-filter: none;
     }
 
     .facile-tradingview-ticker-viewport{
       height: 50px;
-      border-radius: 11px;
+      border-radius: 12px;
     }
 
     .facile-tradingview-ticker-viewport tv-ticker-tape{
