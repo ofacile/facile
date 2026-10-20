@@ -119,7 +119,7 @@
 })();
 </script>
 
-     <link href="eresma_estilos.css" rel="stylesheet">
+     <link href="eresma_estilos_optimizado.css" rel="stylesheet">
      <script defer src="widgets.js"></script>
      <script defer src="temas.js"></script>
      <script defer src="radio.js"></script>
@@ -3259,6 +3259,25 @@ window.facileStartWeather = function(){
 })();
 </script>
 
+<script>
+/* FACILE - PAUSA INTELIGENTE DE ANIMACIONES V1 */
+(function(){
+  "use strict";
+  var selector = "#widgets-container,#facile-news-widget,.facile-tradingview-ticker-shell,#weather-widget,.facile-page-favorites,main.intro .container > section:not(#facile-news-widget),.facile-radio-panel,#theme-menu";
+  function syncVisibility(){ document.documentElement.classList.toggle("facile-page-hidden", document.hidden); }
+  function start(){
+    syncVisibility();
+    document.addEventListener("visibilitychange", syncVisibility, { passive:true });
+    if (!("IntersectionObserver" in window)) return;
+    var observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){ entry.target.classList.toggle("facile-animation-paused", !entry.isIntersecting); });
+    }, { rootMargin:"180px 0px", threshold:0.01 });
+    document.querySelectorAll(selector).forEach(function(target){ observer.observe(target); });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once:true });
+  else start();
+})();
+</script>
 </body>
 </html>    
 
