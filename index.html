@@ -1163,8 +1163,74 @@
      FIN GOOGLE NEWS TICKER
 ========================= -->
 <!-- TradingView Widget BEGIN -->
-<script type="module" src="https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js"></script>
-<tv-ticker-tape symbols="BME:IBC,BLACKBULL:NAS100,B2PRIME:SPXUSD,SPREADEX:DJI,FX:EURUSD,PEPPERSTONE:EURJPY,OANDA:EURGBP,BME:ANA,BME:ANE,BME:ACX,BME:ACS,BME:AENA,BME:AMS,BME:MTS,BME:SAB,BME:BKT,BME:BBVA,BME:CABK,BME:CLNX,BME:ENG,BME:ELE,BME:FER,BME:FDR,BME:GRF,BME:IAG,BME:IBE,BME:ITX,BME:IDR,BME:COL,BME:LOG,BME:MAP,BME:MEL,BME:MRL,BME:NTGY,BME:RED,BME:REP,BME:ROVI,BME:SCYR,BME:SAN,BME:SLR,BME:TEF,BME:UNI,CRYPTO:BTCUSD,CRYPTO:ETHUSD,CRYPTOCAP:XRP" line-chart-type="Baseline" item-size="compact" color-theme="dark" symbol-url="https://tradingview.com"></tv-ticker-tape>
+<style>
+  /* FACILE - TICKER TRADINGVIEW OSCURO EN BURBUJA V1 */
+  .facile-tradingview-ticker-shell{
+    width: min(100%, 1160px);
+    margin: 14px auto;
+    padding: 9px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--primary-color) 34%, rgba(255,255,255,0.28) 66%);
+    border-radius: 22px;
+    background: linear-gradient(135deg,
+      color-mix(in srgb, var(--glass-bg) 76%, var(--primary-color) 24%),
+      color-mix(in srgb, var(--glass-bg) 82%, var(--secondary-color) 18%));
+    box-shadow: 0 5px 14px rgba(0,0,0,0.11), inset 0 1px 0 rgba(255,255,255,0.18);
+  }
+
+  .facile-tradingview-ticker-viewport{
+    width: 100%;
+    height: 52px;
+    overflow: hidden;
+    border-radius: 13px;
+    background: #14171c;
+  }
+
+  .facile-tradingview-ticker-viewport tv-ticker-tape{
+    display: block;
+    width: 100%;
+    height: 78px;
+    min-height: 78px;
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+    background: #14171c;
+  }
+
+  @media only screen and (max-width: 767px){
+    .facile-tradingview-ticker-shell{
+      width: 95%;
+      margin: 12px auto;
+      padding: 7px;
+      border-radius: 18px;
+      box-shadow: 0 3px 9px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.14);
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
+
+    .facile-tradingview-ticker-viewport{
+      height: 50px;
+      border-radius: 11px;
+    }
+
+    .facile-tradingview-ticker-viewport tv-ticker-tape{
+      height: 76px;
+      min-height: 76px;
+    }
+  }
+</style>
+<div class="facile-tradingview-ticker-shell" aria-label="Cotizaciones de mercados">
+  <div class="facile-tradingview-ticker-viewport">
+    <script type="module" src="https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js"></script>
+    <tv-ticker-tape
+      symbols="BME:IBC,BLACKBULL:NAS100,B2PRIME:SPXUSD,SPREADEX:DJI,FX:EURUSD,PEPPERSTONE:EURJPY,OANDA:EURGBP,BME:ANA,BME:ANE,BME:ACX,BME:ACS,BME:AENA,BME:AMS,BME:MTS,BME:SAB,BME:BKT,BME:BBVA,BME:CABK,BME:CLNX,BME:ENG,BME:ELE,BME:FER,BME:FDR,BME:GRF,BME:IAG,BME:IBE,BME:ITX,BME:IDR,BME:COL,BME:LOG,BME:MAP,BME:MEL,BME:MRL,BME:NTGY,BME:RED,BME:REP,BME:ROVI,BME:SCYR,BME:SAN,BME:SLR,BME:TEF,BME:UNI,CRYPTO:BTCUSD,CRYPTO:ETHUSD,CRYPTOCAP:XRP"
+      item-size="compact"
+      color-theme="dark"
+      symbol-url="https://tradingview.com">
+    </tv-ticker-tape>
+  </div>
+</div>
 <!-- TradingView Widget END -->
 <!-- WIDGET CLIMA PRO FUNCIONAL -->
 <div id="weather-widget" class="weather-widget">
