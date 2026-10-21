@@ -3453,126 +3453,6 @@ window.facileStartWeather = function(){
 })();
 </script>
 
-<script>
-/* FACILE - FONDO PERSONALIZADO INALTERABLE ENTRE TEMAS V40 */
-(function(){
-  "use strict";
-
-  var root = document.documentElement;
-  var body = document.body;
-  var STORAGE_KEY = "facile.customBackground.url.v40";
-  var savedUrl = "";
-
-  function normalizeUrl(value){
-    if (!value) return "";
-    var match = String(value).match(/url\((['"]?)(.*?)\1\)/i);
-    return match && match[2] ? match[2] : "";
-  }
-
-  function readCustomUrl(){
-    var rootValue = getComputedStyle(root).getPropertyValue("--custom-background");
-    var fromVariable = normalizeUrl(rootValue);
-    if (fromVariable) return fromVariable;
-
-    var inlineRoot = normalizeUrl(root.style.getPropertyValue("--custom-background"));
-    if (inlineRoot) return inlineRoot;
-
-    var fromBody = normalizeUrl(getComputedStyle(body).backgroundImage);
-    return fromBody || "";
-  }
-
-  function persist(url){
-    if (!url) return;
-    savedUrl = url;
-    try { localStorage.setItem(STORAGE_KEY, url); } catch (error) {}
-  }
-
-  function restore(url){
-    if (!url) return;
-    var cssUrl = 'url("' + String(url).replace(/"/g, '\\"') + '")';
-    root.style.setProperty("--custom-background", cssUrl);
-    body.style.setProperty("background-image", "var(--custom-background), var(--background-gradient)", "important");
-    body.style.setProperty("background-size", "cover", "important");
-    body.style.setProperty("background-position", "center", "important");
-    body.style.setProperty("background-repeat", "no-repeat", "important");
-    body.style.setProperty("background-attachment", "fixed", "important");
-  }
-
-  function restoreRepeatedly(url){
-    if (!url) return;
-    restore(url);
-    requestAnimationFrame(function(){
-      restore(url);
-      requestAnimationFrame(function(){ restore(url); });
-    });
-    window.setTimeout(function(){ restore(url); }, 100);
-    window.setTimeout(function(){ restore(url); }, 350);
-  }
-
-  try { savedUrl = localStorage.getItem(STORAGE_KEY) || ""; } catch (error) {}
-  if (savedUrl) restoreRepeatedly(savedUrl);
-
-  function installWrappers(){
-    if (typeof window.applyTheme === "function" && !window.applyTheme.__facileKeepsBackground){
-      var originalApplyTheme = window.applyTheme;
-      var wrappedApplyTheme = function(themeName){
-        var before = readCustomUrl() || savedUrl;
-        if (before) persist(before);
-        var result = originalApplyTheme.apply(this, arguments);
-        if (before) restoreRepeatedly(before);
-        return result;
-      };
-      wrappedApplyTheme.__facileKeepsBackground = true;
-      window.applyTheme = wrappedApplyTheme;
-    }
-
-    if (typeof window.applyCustomBackground === "function" && !window.applyCustomBackground.__facileSavesBackground){
-      var originalApplyCustomBackground = window.applyCustomBackground;
-      var wrappedApplyCustomBackground = function(){
-        var result = originalApplyCustomBackground.apply(this, arguments);
-        window.setTimeout(function(){
-          var current = readCustomUrl();
-          if (current) persist(current);
-        }, 80);
-        return result;
-      };
-      wrappedApplyCustomBackground.__facileSavesBackground = true;
-      window.applyCustomBackground = wrappedApplyCustomBackground;
-    }
-
-    if (typeof window.clearCustomBackground === "function" && !window.clearCustomBackground.__facileClearsBackground){
-      var originalClearCustomBackground = window.clearCustomBackground;
-      var wrappedClearCustomBackground = function(){
-        savedUrl = "";
-        try { localStorage.removeItem(STORAGE_KEY); } catch (error) {}
-        body.style.removeProperty("background-image");
-        body.style.removeProperty("background-size");
-        body.style.removeProperty("background-position");
-        body.style.removeProperty("background-repeat");
-        body.style.removeProperty("background-attachment");
-        return originalClearCustomBackground.apply(this, arguments);
-      };
-      wrappedClearCustomBackground.__facileClearsBackground = true;
-      window.clearCustomBackground = wrappedClearCustomBackground;
-    }
-  }
-
-  installWrappers();
-  document.addEventListener("DOMContentLoaded", installWrappers, { once: true });
-  window.addEventListener("load", installWrappers, { once: true });
-
-  /* Refuerzo específico para Luna por si temas.js actualiza el fondo después del clic. */
-  document.addEventListener("click", function(event){
-    var luna = event.target.closest('#theme-menu .theme-btn[data-theme="luna"]');
-    if (!luna) return;
-    var before = readCustomUrl() || savedUrl;
-    if (!before) return;
-    persist(before);
-    restoreRepeatedly(before);
-  }, true);
-})();
-</script>
-
 <!-- FACILE FONDO CLEANUP V42 START -->
 <script>
 /* FACILE - LIMPIEZA DEFINITIVA DEL FONDO PERSONALIZADO V42 */
@@ -3649,6 +3529,52 @@ window.facileStartWeather = function(){
 })();
 </script>
 <!-- FACILE FONDO CLEANUP V42 END -->
+
+
+<!-- FACILE - FONDO PERSONALIZADO: ESTADO UNICO Y SIN AVISO V43 -->
+<script>
+(function(){
+  "use strict";
+  var NOTICE = "Fondo del dispositivo aplicado y guardado";
+
+  /* La versión clásica no muestra una ventana al aplicar un fondo local. */
+  var nativeAlert = window.alert;
+  window.alert = function(message){
+    if (String(message || "").indexOf(NOTICE) !== -1) return;
+    return nativeAlert.apply(window, arguments);
+  };
+
+  function removeBackgroundNotice(root){
+    if (!root || root.nodeType !== 1) return;
+    var nodes = [root];
+    if (root.querySelectorAll) nodes = nodes.concat(Array.from(root.querySelectorAll("body *")));
+    nodes.forEach(function(node){
+      if (node.children && node.children.length) return;
+      if ((node.textContent || "").trim().indexOf(NOTICE) !== -1) node.remove();
+    });
+  }
+
+  new MutationObserver(function(records){
+    records.forEach(function(record){
+      record.addedNodes.forEach(removeBackgroundNotice);
+    });
+  }).observe(document.documentElement, { childList:true, subtree:true });
+
+  /* Al cambiar de tema solo se conserva el fondo si realmente sigue activo.
+     Tras Limpiar, --custom-background queda en none y ningún tema puede revivirlo. */
+  document.addEventListener("click", function(event){
+    var clearButton = event.target.closest('button[onclick="clearCustomBackground()"]');
+    if (!clearButton) return;
+    document.documentElement.dataset.facileCustomBackground = "cleared";
+  }, true);
+
+  document.addEventListener("click", function(event){
+    var applyButton = event.target.closest('button[onclick="applyCustomBackground()"], #bg-file-button');
+    if (!applyButton) return;
+    document.documentElement.dataset.facileCustomBackground = "active";
+  }, true);
+})();
+</script>
 
 </body>
 </html>    
