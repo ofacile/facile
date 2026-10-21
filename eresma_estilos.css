@@ -9590,3 +9590,65 @@ html.facile-booting .facile-page-favorites{
   .facile-boot-screen{ transition-duration: 0.01ms; }
   .facile-boot-progress::after{ animation-duration: 1.6s; }
 }
+
+/* =========================================================
+   FACILE - CORRECCION LUNA, TITULOS Y BUSCADOR V40
+========================================================= */
+
+/* Los nombres de los apartados recuperan su formato de píldora original. */
+main.intro .container > h3{
+  width: fit-content !important;
+  max-width: calc(100% - 12px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  align-self: flex-start !important;
+}
+
+/* El contenido de las secciones continúa ocupando todo el ancho útil. */
+main.intro .container > section{
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* El buscador de Internet gana espacio sin estrechar fecha y reloj. */
+@media only screen and (min-width: 768px){
+  .widgets-bar{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+  }
+
+  .facile-search-widget{
+    flex: 1 1 600px !important;
+    width: auto !important;
+    min-width: 480px !important;
+    max-width: 700px !important;
+  }
+
+  #facileSearchForm.facile-search-form{
+    width: 100% !important;
+    grid-template-columns: 44px minmax(300px, 1fr) 96px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1050px){
+  .facile-search-widget{
+    flex-basis: 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  main.intro .container > h3{
+    width: fit-content !important;
+    max-width: calc(100% - 8px) !important;
+  }
+
+  .facile-search-widget{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
