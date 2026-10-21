@@ -9413,3 +9413,180 @@ html.facile-page-hidden *,html.facile-page-hidden *::before,html.facile-page-hid
     font-size: 0.76rem;
   }
 }
+
+/* =========================================================
+   FACILE - ANCHO CONTINUO + CARGA ESTABLE V39
+========================================================= */
+:root{
+  --widgets-max-width: none;
+  --facile-widget-inline-gap: 0px;
+}
+
+/* Los widgets superiores ocupan todo el ancho útil del container. */
+#widgets-container,
+#facile-news-widget.facile-news-shell,
+.facile-tradingview-ticker-shell,
+#weather-widget.weather-widget,
+#facile-favorites-slot,
+.facile-page-favorites{
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#widgets-container{
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  align-items: stretch !important;
+}
+
+/* Misma línea visual desde Noticias hasta Favoritos. */
+#facile-news-widget.facile-news-shell,
+.facile-tradingview-ticker-shell,
+#weather-widget.weather-widget,
+.facile-page-favorites{
+  justify-self: stretch !important;
+}
+
+/* El ticker conserva su burbuja, pero deja de introducir un ancho menor. */
+.facile-tradingview-ticker-shell{
+  contain: layout paint style !important;
+}
+
+.facile-tradingview-ticker-viewport{
+  width: 100% !important;
+  contain: layout paint style !important;
+  content-visibility: auto;
+  contain-intrinsic-size: 100% 52px;
+}
+
+/* Las secciones de iconos empiezan exactamente en la misma línea. */
+main.intro .container > h3,
+main.intro .container > section{
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+}
+
+/* Capa de carga tipo sistema operativo. */
+html.facile-booting,
+html.facile-booting body{
+  overflow: hidden !important;
+  overscroll-behavior: none !important;
+  touch-action: none !important;
+}
+
+.facile-boot-screen{
+  position: fixed;
+  inset: 0;
+  z-index: 2147483646;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+  background:
+    linear-gradient(155deg,
+      color-mix(in srgb, var(--primary-color) 62%, #183047 38%),
+      color-mix(in srgb, var(--secondary-color) 48%, #163841 52%));
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 180ms ease, visibility 180ms step-end;
+  cursor: wait;
+}
+
+.facile-boot-screen.is-finished{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.facile-boot-window{
+  width: min(88vw, 360px);
+  padding: 24px 26px 22px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #f7fbff;
+  background: color-mix(in srgb, var(--primary-color) 44%, #152536 56%);
+  border: 1px solid rgba(255,255,255,0.22);
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.30), inset 0 1px 0 rgba(255,255,255,0.13);
+}
+
+.facile-boot-logo{
+  display: block;
+  margin-bottom: 14px;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.facile-boot-title{
+  display: block;
+  font-size: 1rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+}
+
+.facile-boot-status{
+  display: block;
+  margin-top: 7px;
+  color: rgba(255,255,255,0.76);
+  font-size: 0.78rem;
+}
+
+.facile-boot-progress{
+  height: 6px;
+  margin-top: 17px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.26);
+}
+
+.facile-boot-progress::after{
+  content: "";
+  display: block;
+  width: 34%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  animation: facileBootProgress 1.05s ease-in-out infinite;
+}
+
+@keyframes facileBootProgress{
+  0%{ transform: translateX(-115%); }
+  100%{ transform: translateX(295%); }
+}
+
+/* Mientras se carga, se evita iniciar pintura de elementos alejados. */
+html.facile-booting main.intro .container > section,
+html.facile-booting #weather-widget,
+html.facile-booting .facile-page-favorites{
+  content-visibility: auto;
+}
+
+@media only screen and (max-width: 767px){
+  #widgets-container,
+  #facile-news-widget.facile-news-shell,
+  .facile-tradingview-ticker-shell,
+  #weather-widget.weather-widget,
+  #facile-favorites-slot,
+  .facile-page-favorites{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .facile-tradingview-ticker-viewport{
+    contain-intrinsic-size: 100% 50px;
+  }
+
+  .facile-boot-screen{
+    transition-duration: 120ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .facile-boot-screen{ transition-duration: 0.01ms; }
+  .facile-boot-progress::after{ animation-duration: 1.6s; }
+}
