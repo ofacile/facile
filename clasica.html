@@ -2740,118 +2740,76 @@ window.facileStartWeather = function(){
 
 <script>
 /* =========================================================
-   FACILE CLASICO: CONTROL DE LA VENTANILLA DE CARGA
+   FACILE CLASICO: CONTROL DE LA VENTANILLA DE CARGA V2
+   Cierra la ventanilla al completar la carga y nunca deja
+   la pagina bloqueada si un recurso externo falla.
 ========================================================= */
 (function () {
-  "use st*ict";
+  "use strict";
 
-  const body = document.bod*;
-  const loadingScreen = document*getElementById(
-    "facile-classi*-loading-screen"
-  );
+  const body = document.body;
+  const loadingScreen = document.getElementById("facile-classic-loading-screen");
 
-  if (!body*|| !loadingScreen) {
+  if (!body || !loadingScreen) {
+    document.documentElement.classList.remove("facile-classic-document-loading");
     return;
- *}
-
-  let loadingFinished = false;
-*  function preventLoadingInteracti*n(event) {
-    if (!body.classList*contains("facile-classic-page-load*ng")) {
-      return;
-    }
-
-    e*ent.preventDefault();
   }
 
-  funct*on closeClassicLoadingScreen() {
- *  if (loadingFinished) {
-      ret*rn;
+  let loadingFinished = false;
+  let safetyTimer = null;
+
+  function preventLoadingInteraction(event) {
+    if (body.classList.contains("facile-classic-page-loading")) {
+      event.preventDefault();
     }
+  }
 
-    loadingFinished = t*ue;
+  function closeClassicLoadingScreen() {
+    if (loadingFinished) return;
+    loadingFinished = true;
 
-    loadingScreen.classList.a*d("is-leaving");
+    if (safetyTimer) window.clearTimeout(safetyTimer);
 
-    body.classLi*t.remove("facile-classic-page-load*ng");
-    document.documentElement.classList.remove(
-      "facile-classic-document-loading"
-    );
+    body.classList.remove("facile-classic-page-loading");
+    document.documentElement.classList.remove("facile-classic-document-loading");
+    loadingScreen.classList.add("is-leaving");
+    loadingScreen.setAttribute("aria-hidden", "true");
+
+    window.removeEventListener("wheel", preventLoadingInteraction);
+    window.removeEventListener("touchmove", preventLoadingInteraction);
 
     window.setTimeout(function () {
-      loadingScreen.hidden = true;
       loadingScreen.remove();
     }, 180);
   }
 
-  document.documentElement.classList.add(
-    "facile-classic-document-loading"
-  );
+  document.documentElement.classList.add("facile-classic-document-loading");
 
-  /*
-   * Evita el desplazamiento mediante rueda, dedo y teclas mientras
-   * la pantalla de carga está activa.
-   */
-  window.addEventListener("wheel", preventLoadingInteraction, {
-    passive: false
-  });
-
-  window.addEventListener("touchmove", preventLoadingInteraction, {
-    passive: false
-  });
+  window.addEventListener("wheel", preventLoadingInteraction, { passive: false });
+  window.addEventListener("touchmove", preventLoadingInteraction, { passive: false });
 
   window.addEventListener("keydown", function (event) {
-    if (!body.classList.contains("facile-classic-page-loading")) {
-      return;
-    }
+    if (!body.classList.contains("facile-classic-page-loading")) return;
 
-    const blockedKeys = [
-      "ArrowUp",
-      "ArrowDown",
-      "PageUp",
-      "PageDown",
-      "Home",
-      "End",
-      " "
-    ];
-
-    if (blockedKeys.includes(event.key)) {
+    if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End", " "].includes(event.key)) {
       event.preventDefault();
     }
   });
 
-  /*
-   * Si el documento ya está completamente cargado cuando se ejecuta
-   * este código, cerramos la ventana directamente.
-   */
   if (document.readyState === "complete") {
-    window.setTimeout(closeClassicLoadingScreen, 120);
-    return;
+    window.requestAnimationFrame(closeClassicLoadingScreen);
+  } else {
+    window.addEventListener("load", function () {
+      window.requestAnimationFrame(closeClassicLoadingScreen);
+    }, { once: true });
   }
 
-  /*
-   * window.load se dispara cuando HTML, CSS, scripts, imágenes y
-   * recursos iniciales han finalizado su carga.
-   */
-  window.addEventListener(
-    "load",
-    function () {
-      window.setTimeout(closeClassicLoadingScreen, 120);
-    },
-    { once: true }
-  );
+  window.addEventListener("pageshow", function (event) {
+    if (event.persisted) closeClassicLoadingScreen();
+  }, { once: true });
 
-  /*
-   * Corrige la restauración de la página desde la caché del navegador.
-   */
-  window.addEventListener(
-    "pageshow",
-    function (event) {
-      if (event.persisted) {
-        closeClassicLoadingScreen();
-      }
-    },
-    { once: true }
-  );
+  /* Salida de seguridad: los widgets externos no pueden bloquear la pagina. */
+  safetyTimer = window.setTimeout(closeClassicLoadingScreen, 3500);
 })();
 </script>
 
