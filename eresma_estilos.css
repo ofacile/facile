@@ -9365,3 +9365,158 @@ html.facile-page-hidden *,html.facile-page-hidden *::before,html.facile-page-hid
 @media (hover:none),(pointer:coarse){
   .logo img:hover,.navigation a:hover,.facile-news-button:hover,.facile-news-arrow:hover,.facile-search-engine-wrap:hover,.facile-search-submit:hover,#weather-widget button:hover,.facile-page-favorites button:hover{transform:none!important;}
 }
+
+/* =========================================================
+   FACILE - GLASS REDUCIDO Y RENDIMIENTO V37
+   Mantiene la paleta actual de cada tema. Reduce transparencia,
+   blur y sombras compuestas sin cambiar estructura ni funciones.
+========================================================= */
+:root{
+  --facile-matte-surface:
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--primary-color) 54%, var(--glass-bg) 46%),
+      color-mix(in srgb, var(--secondary-color) 42%, var(--glass-bg) 58%)
+    );
+  --facile-matte-inner:
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--primary-color) 36%, var(--glass-bg) 64%),
+      color-mix(in srgb, var(--secondary-color) 28%, var(--glass-bg) 72%)
+    );
+  --facile-matte-border: rgba(255,255,255,0.16);
+  --facile-matte-shadow:
+    0 5px 14px rgba(0,0,0,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.13);
+}
+
+/* Superficies grandes: menos transparentes y con blur muy reducido. */
+.header,
+.header .container.logo-nav-container,
+main.intro > .container,
+.facile-info-widget,
+.facile-search-widget,
+#facile-news-widget.facile-news-shell,
+.facile-tradingview-ticker-shell,
+.widget-box.ticker-widget,
+#weather-widget.weather-widget,
+.facile-page-favorites,
+.facile-radio-panel,
+#theme-menu.theme-menu,
+footer,
+.footer,
+.site-footer,
+footer .footer-inner,
+.footer .footer-inner,
+.site-footer .footer-inner{
+  background: var(--facile-matte-surface) !important;
+  border-color: var(--facile-matte-border) !important;
+  box-shadow: var(--facile-matte-shadow) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+/* Controles y tarjetas interiores: aspecto mate sin blur individual. */
+#facile-news-widget .facile-news-card,
+#weather-content > div:last-child > div,
+.facile-favorites-form,
+.facile-favorites-picker,
+.facile-favorite-card,
+.facile-favorites-picker-item,
+.facile-radio-now,
+.facile-radio-volume,
+.facile-radio-row,
+.facile-radio-loading-row,
+#theme-menu .theme-buttons,
+#theme-menu .theme-bg-row{
+  background: var(--facile-matte-inner) !important;
+  border-color: rgba(255,255,255,0.14) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.10) !important;
+}
+
+/* Elementos pequeños: no necesitan desenfocar el fondo. */
+.navigation a,
+.widget-box,
+.facile-search-engine-wrap,
+.mobile-menu-native > ul.mobile-menu-list > li > a,
+.facile-radio-button,
+#theme-toggle.theme-toggle-btn{
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* El menú móvil mantiene sus colores actuales, pero pasa a mate. */
+@media only screen and (max-width: 767px){
+  :root{
+    --facile-matte-surface:
+      linear-gradient(
+        145deg,
+        color-mix(in srgb, var(--primary-color) 66%, var(--glass-bg) 34%),
+        color-mix(in srgb, var(--secondary-color) 54%, var(--glass-bg) 46%)
+      );
+    --facile-matte-inner:
+      linear-gradient(
+        145deg,
+        color-mix(in srgb, var(--primary-color) 46%, var(--glass-bg) 54%),
+        color-mix(in srgb, var(--secondary-color) 36%, var(--glass-bg) 64%)
+      );
+    --facile-matte-shadow:
+      0 3px 9px rgba(0,0,0,0.11),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+  }
+
+  .header,
+  .header .container.logo-nav-container,
+  main.intro > .container,
+  .facile-info-widget,
+  .facile-search-widget,
+  #facile-news-widget.facile-news-shell,
+  .facile-tradingview-ticker-shell,
+  .widget-box.ticker-widget,
+  #weather-widget.weather-widget,
+  .facile-page-favorites,
+  .facile-radio-panel,
+  #theme-menu.theme-menu,
+  .mobile-menu-native > ul.mobile-menu-list,
+  footer,
+  .footer,
+  .site-footer,
+  footer .footer-inner,
+  .footer .footer-inner,
+  .site-footer .footer-inner{
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: var(--facile-matte-surface) !important;
+    box-shadow: var(--facile-matte-shadow) !important;
+  }
+
+  #facile-news-widget .facile-news-card,
+  #weather-content > div:last-child > div,
+  .facile-favorites-form,
+  .facile-favorites-picker,
+  .facile-favorite-card,
+  .facile-radio-now,
+  .facile-radio-volume,
+  .facile-radio-row,
+  .facile-radio-loading-row,
+  #theme-menu .theme-buttons,
+  #theme-menu .theme-bg-row{
+    background: var(--facile-matte-inner) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.09) !important;
+  }
+}
+
+/* Luna conserva su carácter oscuro en PC y móvil. */
+body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){
+  --facile-matte-surface:
+    linear-gradient(145deg, #151f30, #192738) !important;
+  --facile-matte-inner:
+    linear-gradient(145deg, #1b2a3c, #203244) !important;
+  --facile-matte-border: #34465b !important;
+  --facile-matte-shadow:
+    0 5px 14px rgba(0,0,0,0.22),
+    inset 0 1px 0 rgba(255,255,255,0.05) !important;
+}
