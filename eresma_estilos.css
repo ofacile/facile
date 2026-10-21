@@ -9318,6 +9318,7 @@ main.intro .container > section:not(#facile-news-widget) > a.logo::after{
     outline: none !important;
   }
 }
+
 /* FACILE - TICKER ALINEADO + ANIMACIONES EFICIENTES V36 */
 .facile-tradingview-ticker-shell{
   width:min(100%,var(--widgets-max-width,1100px))!important;
