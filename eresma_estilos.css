@@ -9652,3 +9652,64 @@ main.intro .container > section{
     max-width: 100% !important;
   }
 }
+
+/* FACILE - TITULOS ORIGINALES + BUSCADOR AMPLIADO V41 */
+main.intro .container > h3{
+  display:block !important;
+  width:fit-content !important;
+  max-width:calc(100% - 12px) !important;
+  margin:28px 0 14px !important;
+  padding:10px 20px !important;
+  box-sizing:border-box !important;
+  color:var(--text-color) !important;
+  background:linear-gradient(90deg,var(--primary-color),var(--secondary-color)) !important;
+  border:0 !important;
+  border-radius:15px !important;
+  box-shadow:0 4px 10px rgba(0,0,0,.20) !important;
+  font-size:1.17em !important;
+  line-height:1.5em !important;
+  font-weight:700 !important;
+  text-align:left !important;
+  align-self:auto !important;
+  justify-self:start !important;
+}
+main.intro .container > h3:first-of-type{margin-top:14px !important;}
+main.intro .container > h3 > a{
+  display:inline !important;
+  color:#fff !important;
+  text-decoration:none !important;
+  line-height:inherit !important;
+}
+@media only screen and (min-width:1061px){
+  .widgets-bar{
+    display:grid !important;
+    grid-template-columns:max-content max-content minmax(620px,1fr) !important;
+    align-items:center !important;
+    justify-content:stretch !important;
+    column-gap:clamp(10px,1.4vw,16px) !important;
+    width:100% !important;
+    max-width:100% !important;
+  }
+  .facile-date-widget,.facile-clock-widget{width:auto !important;max-width:none !important;}
+  .facile-search-widget{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:none !important;
+    flex:none !important;
+    padding:9px 11px !important;
+  }
+  #facileSearchForm.facile-search-form{
+    width:100% !important;
+    grid-template-columns:48px minmax(420px,1fr) 104px !important;
+    gap:9px !important;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1060px){
+  .facile-search-widget{flex:1 1 100% !important;width:100% !important;min-width:0 !important;max-width:100% !important;}
+  #facileSearchForm.facile-search-form{grid-template-columns:48px minmax(260px,1fr) 100px !important;}
+}
+@media only screen and (max-width:767px){
+  main.intro .container > h3{max-width:calc(100% - 8px) !important;margin:22px 0 12px !important;padding:10px 20px !important;}
+  main.intro .container > h3:first-of-type{margin-top:14px !important;}
+  .facile-search-widget{width:100% !important;max-width:100% !important;padding:8px !important;}
+}
