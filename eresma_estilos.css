@@ -9789,3 +9789,71 @@ main.intro .container > h3 > a{
     gap: 8px !important;
   }
 }
+
+/* FACILE - SUPERFICIES TEMATICAS LIGERAS V45 */
+/* Cada tema colorea sus paneles con una apariencia semimate. Solo las superficies
+   grandes conservan 2px de blur en PC; en móvil no se usa blur. */
+:root{
+  --facile-surface-a:#71b8e8;
+  --facile-surface-b:#52b992;
+  --facile-surface-line:rgba(255,255,255,.20);
+  --facile-surface-shadow:0 5px 14px rgba(12,42,73,.13),inset 0 1px 0 rgba(255,255,255,.14);
+}
+body:has(#theme-menu .theme-btn[data-theme="sol"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="sol"][aria-pressed="true"]){--facile-surface-a:#72bce9;--facile-surface-b:#59be91;}
+body:has(#theme-menu .theme-btn[data-theme="luna"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="luna"][aria-pressed="true"]){--facile-surface-a:#172438;--facile-surface-b:#21344a;--facile-surface-line:#38506a;--facile-surface-shadow:0 5px 14px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.05);}
+body:has(#theme-menu .theme-btn[data-theme="forest"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="forest"][aria-pressed="true"]){--facile-surface-a:#315f4f;--facile-surface-b:#528663;}
+body:has(#theme-menu .theme-btn[data-theme="sunset"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="sunset"][aria-pressed="true"]){--facile-surface-a:#b86672;--facile-surface-b:#bd7b5b;}
+body:has(#theme-menu .theme-btn[data-theme="ocean"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="ocean"][aria-pressed="true"]){--facile-surface-a:#246e8f;--facile-surface-b:#2a8792;}
+body:has(#theme-menu .theme-btn[data-theme="aurora"].is-selected),
+body:has(#theme-menu .theme-btn[data-theme="aurora"][aria-pressed="true"]){--facile-surface-a:#514b91;--facile-surface-b:#3f8b82;}
+
+.header .container.logo-nav-container,
+main.intro > .container,
+.facile-info-widget,
+.facile-search-widget,
+#facile-news-widget.facile-news-shell,
+.facile-tradingview-ticker-shell,
+#weather-widget.weather-widget,
+.facile-page-favorites,
+.facile-radio-panel,
+#theme-menu.theme-menu,
+footer .footer-inner,
+.footer .footer-inner,
+.site-footer .footer-inner{
+  background:linear-gradient(145deg,color-mix(in srgb,var(--facile-surface-a) 84%,white 16%),color-mix(in srgb,var(--facile-surface-b) 88%,black 12%))!important;
+  border-color:var(--facile-surface-line)!important;
+  box-shadow:var(--facile-surface-shadow)!important;
+  backdrop-filter:blur(2px)!important;
+  -webkit-backdrop-filter:blur(2px)!important;
+}
+#facile-news-widget .facile-news-card,
+#weather-content > div:last-child > div,
+.facile-favorites-form,
+.facile-favorites-picker,
+.facile-favorite-card,
+.facile-radio-now,
+.facile-radio-row,
+#theme-menu .theme-buttons,
+#theme-menu .theme-bg-row{
+  background:linear-gradient(145deg,color-mix(in srgb,var(--facile-surface-a) 68%,white 32%),color-mix(in srgb,var(--facile-surface-b) 76%,white 24%))!important;
+  border-color:rgba(255,255,255,.15)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.10)!important;
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+@media only screen and (max-width:767px){
+  .header .container.logo-nav-container,
+  main.intro > .container,
+  .facile-info-widget,.facile-search-widget,
+  #facile-news-widget.facile-news-shell,.facile-tradingview-ticker-shell,
+  #weather-widget.weather-widget,.facile-page-favorites,.facile-radio-panel,
+  #theme-menu.theme-menu,footer .footer-inner,.footer .footer-inner,.site-footer .footer-inner{
+    backdrop-filter:none!important;
+    -webkit-backdrop-filter:none!important;
+  }
+}
