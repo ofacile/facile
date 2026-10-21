@@ -1246,17 +1246,79 @@
   }
 </style>
 <div class="facile-tradingview-ticker-shell" aria-label="Cotizaciones de mercados">
-  <div class="facile-tradingview-ticker-viewport">
-    <script type="module" src="https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js"></script>
-    <tv-ticker-tape
-      symbols="BME:IBC,BLACKBULL:NAS100,B2PRIME:SPXUSD,SPREADEX:DJI,FX:EURUSD,PEPPERSTONE:EURJPY,OANDA:EURGBP,BME:ANA,BME:ANE,BME:ACX,BME:ACS,BME:AENA,BME:AMS,BME:MTS,BME:SAB,BME:BKT,BME:BBVA,BME:CABK,BME:CLNX,BME:ENG,BME:ELE,BME:FER,BME:FDR,BME:GRF,BME:IAG,BME:IBE,BME:ITX,BME:IDR,BME:COL,BME:LOG,BME:MAP,BME:MEL,BME:MRL,BME:NTGY,BME:RED,BME:REP,BME:ROVI,BME:SCYR,BME:SAN,BME:SLR,BME:TEF,BME:UNI,CRYPTO:BTCUSD,CRYPTO:ETHUSD,CRYPTOCAP:XRP"
-      item-size="compact"
-      color-theme="dark"
-      symbol-url="https://tradingview.com">
-    </tv-ticker-tape>
+  <div
+    id="facileTradingViewTicker"
+    class="facile-tradingview-ticker-viewport is-pending"
+    aria-live="polite"
+    aria-busy="true">
+    <div class="facile-tradingview-ticker-placeholder" aria-hidden="true">
+      Cargando cotizaciones...
+    </div>
   </div>
 </div>
 <!-- TradingView Widget END -->
+<script>
+/* FACILE - TRADINGVIEW CARGA DIFERIDA Y PINTURA CONTROLADA V2 */
+(function(){
+  "use strict";
+
+  var TICKER_SCRIPT = "https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js";
+  var SYMBOLS = "BME:IBC,BLACKBULL:NAS100,B2PRIME:SPXUSD,SPREADEX:DJI,FX:EURUSD,PEPPERSTONE:EURJPY,OANDA:EURGBP,BME:ANA,BME:ANE,BME:ACX,BME:ACS,BME:AENA,BME:AMS,BME:MTS,BME:SAB,BME:BKT,BME:BBVA,BME:CABK,BME:CLNX,BME:ENG,BME:ELE,BME:FER,BME:FDR,BME:GRF,BME:IAG,BME:IBE,BME:ITX,BME:IDR,BME:COL,BME:LOG,BME:MAP,BME:MEL,BME:MRL,BME:NTGY,BME:RED,BME:REP,BME:ROVI,BME:SCYR,BME:SAN,BME:SLR,BME:TEF,BME:UNI,CRYPTO:BTCUSD,CRYPTO:ETHUSD,CRYPTOCAP:XRP";
+  var viewport = document.getElementById("facileTradingViewTicker");
+  var loaded = false;
+
+  if (!viewport) return;
+
+  function ensureModule(){
+    if (document.querySelector('script[data-facile-tradingview-loader="1"]')) return;
+    var script = document.createElement("script");
+    script.type = "module";
+    script.src = TICKER_SCRIPT;
+    script.dataset.facileTradingviewLoader = "1";
+    document.head.appendChild(script);
+  }
+
+  function loadTicker(){
+    if (loaded) return;
+    loaded = true;
+    ensureModule();
+
+    var ticker = document.createElement("tv-ticker-tape");
+    ticker.setAttribute("symbols", SYMBOLS);
+    ticker.setAttribute("item-size", "compact");
+    ticker.setAttribute("color-theme", "dark");
+    ticker.setAttribute("symbol-url", "https://tradingview.com");
+
+    viewport.replaceChildren(ticker);
+    viewport.classList.remove("is-pending");
+    viewport.setAttribute("aria-busy", "false");
+  }
+
+  if ("IntersectionObserver" in window){
+    var loadObserver = new IntersectionObserver(function(entries){
+      if (!entries.some(function(entry){ return entry.isIntersecting; })) return;
+      loadObserver.disconnect();
+      loadTicker();
+    }, { rootMargin: "700px 0px", threshold: 0.01 });
+    loadObserver.observe(viewport);
+
+    var paintObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!loaded) return;
+        viewport.classList.toggle("facile-ticker-suspended", !entry.isIntersecting);
+      });
+    }, { rootMargin: "260px 0px", threshold: 0.01 });
+    paintObserver.observe(viewport);
+  } else {
+    loadTicker();
+  }
+
+  document.addEventListener("visibilitychange", function(){
+    if (!loaded) return;
+    viewport.classList.toggle("facile-ticker-page-hidden", document.hidden);
+  }, { passive: true });
+})();
+</script>
 <!-- WIDGET CLIMA PRO FUNCIONAL -->
 <div id="weather-widget" class="weather-widget">
 
