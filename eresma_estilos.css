@@ -9365,3 +9365,51 @@ html.facile-page-hidden *,html.facile-page-hidden *::before,html.facile-page-hid
 @media (hover:none),(pointer:coarse){
   .logo img:hover,.navigation a:hover,.facile-news-button:hover,.facile-news-arrow:hover,.facile-search-engine-wrap:hover,.facile-search-submit:hover,#weather-widget button:hover,.facile-page-favorites button:hover{transform:none!important;}
 }
+
+/* FACILE - TRADINGVIEW RENDIMIENTO SIN CAMBIAR EL ESTILO V38 */
+.facile-tradingview-ticker-shell,
+.facile-tradingview-ticker-viewport{
+  contain: layout paint style !important;
+}
+
+.facile-tradingview-ticker-viewport{
+  content-visibility: auto;
+  contain-intrinsic-size: 100% 52px;
+}
+
+.facile-tradingview-ticker-placeholder{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: rgba(255,255,255,0.74);
+  background: #14171c;
+  font-size: 0.82rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.facile-tradingview-ticker-viewport.is-pending{
+  background: #14171c !important;
+}
+
+/* Cuando está lejos de pantalla o la pestaña está oculta, no se pinta. */
+.facile-tradingview-ticker-viewport.facile-ticker-suspended tv-ticker-tape,
+.facile-tradingview-ticker-viewport.facile-ticker-page-hidden tv-ticker-tape{
+  visibility: hidden !important;
+}
+
+/* Al volver cerca de pantalla se recupera sin reconstruir el widget. */
+.facile-tradingview-ticker-viewport:not(.facile-ticker-suspended):not(.facile-ticker-page-hidden) tv-ticker-tape{
+  visibility: visible !important;
+}
+
+@media only screen and (max-width: 767px){
+  .facile-tradingview-ticker-viewport{
+    contain-intrinsic-size: 100% 50px;
+  }
+
+  .facile-tradingview-ticker-placeholder{
+    font-size: 0.76rem;
+  }
+}
