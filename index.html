@@ -119,7 +119,7 @@
 })();
 </script>
 
-     <link href="eresma_estilos.css?v=41" rel="stylesheet">
+     <link href="eresma_estilos.css?v=42" rel="stylesheet">
      <script defer src="widgets.js"></script>
      <script defer src="temas.js"></script>
      <script defer src="radio.js"></script>
@@ -3560,6 +3560,84 @@ window.facileStartWeather = function(){
   }, true);
 })();
 </script>
+
+<!-- FACILE FONDO CLEANUP V42 START -->
+<script>
+/* FACILE - LIMPIEZA DEFINITIVA DEL FONDO PERSONALIZADO V42 */
+(function(){
+  "use strict";
+  var root = document.documentElement;
+  var knownKeys = [
+    "facile.customBackground.v1",
+    "facile.customBackground.url.v40",
+    "facileCustomBackground",
+    "customBackground",
+    "customBackgroundUrl"
+  ];
+
+  function removeStoredBackgrounds(){
+    try {
+      knownKeys.forEach(function(key){ localStorage.removeItem(key); });
+      for (var i = localStorage.length - 1; i >= 0; i--){
+        var key = localStorage.key(i) || "";
+        if (/facile.*(?:custombackground|custom-background|fondo.*personal)/i.test(key)){
+          localStorage.removeItem(key);
+        }
+      }
+    } catch (error) {}
+    try {
+      for (var j = sessionStorage.length - 1; j >= 0; j--){
+        var sessionKey = sessionStorage.key(j) || "";
+        if (/facile.*(?:custombackground|custom-background|fondo.*personal)/i.test(sessionKey)){
+          sessionStorage.removeItem(sessionKey);
+        }
+      }
+    } catch (error) {}
+  }
+
+  function clearVisualBackground(){
+    removeStoredBackgrounds();
+    root.style.setProperty("--custom-background", "none");
+    document.body.style.removeProperty("background");
+    document.body.style.removeProperty("background-image");
+    document.body.style.removeProperty("background-size");
+    document.body.style.removeProperty("background-position");
+    document.body.style.removeProperty("background-repeat");
+    document.body.style.removeProperty("background-attachment");
+    var input = document.getElementById("bg-url");
+    if (input) input.value = "";
+  }
+
+  function installDefinitiveClear(){
+    window.clearCustomBackground = function(){
+      clearVisualBackground();
+      /* Repite tras los manejadores antiguos para impedir que restauren el valor borrado. */
+      window.setTimeout(clearVisualBackground, 0);
+      window.setTimeout(clearVisualBackground, 120);
+      window.setTimeout(clearVisualBackground, 400);
+      return false;
+    };
+    window.clearCustomBackground.__facileDefinitiveV42 = true;
+  }
+
+  installDefinitiveClear();
+  document.addEventListener("DOMContentLoaded", installDefinitiveClear, { once:true });
+  window.addEventListener("load", installDefinitiveClear, { once:true });
+
+  document.addEventListener("click", function(event){
+    var button = event.target.closest('button[onclick="clearCustomBackground()"]');
+    if (!button) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    clearVisualBackground();
+    window.setTimeout(clearVisualBackground, 0);
+    window.setTimeout(clearVisualBackground, 120);
+    window.setTimeout(clearVisualBackground, 400);
+  }, true);
+})();
+</script>
+<!-- FACILE FONDO CLEANUP V42 END -->
+
 </body>
 </html>    
 
