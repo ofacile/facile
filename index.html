@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html class="facile-booting" lang="es">
     <head>
      <link  rel="icon" href="https://raw.githubusercontent.com/ofacile/facile/refs/heads/master/facile.ico" type="image/ico"/>
      <title>Facile, tu página de inicio</title>
@@ -137,6 +137,15 @@
      <!-- End of OpenWidget code -->
     </head>
     <body>
+<div id="facileBootScreen" class="facile-boot-screen" role="status" aria-live="polite" aria-label="Cargando Facile">
+  <div class="facile-boot-window">
+    <span class="facile-boot-logo" aria-hidden="true">◉</span>
+    <strong class="facile-boot-title">Cargando Facile...</strong>
+    <span class="facile-boot-status">Preparando la página y sus widgets</span>
+    <div class="facile-boot-progress" aria-hidden="true"></div>
+  </div>
+</div>
+
     <header class="header">
         <div class="container logo-nav-container">
         <a href="https://ofacile.github.io/facile/" class="logo"><img src="https://raw.githubusercontent.com/ofacile/facile/refs/heads/master/facilelogo.png" width="225" alt="facilelogo.png" decoding="async" loading="eager" fetchpriority="high"></a>
@@ -1297,8 +1306,12 @@
     var loadObserver = new IntersectionObserver(function(entries){
       if (!entries.some(function(entry){ return entry.isIntersecting; })) return;
       loadObserver.disconnect();
-      loadTicker();
-    }, { rootMargin: "700px 0px", threshold: 0.01 });
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(loadTicker, { timeout: 850 });
+      } else {
+        window.setTimeout(loadTicker, 80);
+      }
+    }, { rootMargin: "320px 0px", threshold: 0.01 });
     loadObserver.observe(viewport);
 
     var paintObserver = new IntersectionObserver(function(entries){
@@ -3338,6 +3351,93 @@ window.facileStartWeather = function(){
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once:true });
   else start();
+})();
+</script>
+
+<script>
+/* FACILE - ARRANQUE ESTABLE + FONDO PERSONALIZADO PERSISTENTE V39 */
+(function(){
+  "use strict";
+
+  var root = document.documentElement;
+  var boot = document.getElementById("facileBootScreen");
+  var bootStart = performance.now();
+  var finished = false;
+  var CUSTOM_BG_KEY = "facile.customBackground.v1";
+
+  function finishBoot(){
+    if (finished) return;
+    finished = true;
+    var elapsed = performance.now() - bootStart;
+    var delay = Math.max(0, 650 - elapsed);
+    window.setTimeout(function(){
+      root.classList.remove("facile-booting");
+      if (boot) boot.classList.add("is-finished");
+      window.setTimeout(function(){ if (boot) boot.remove(); }, 220);
+    }, delay);
+  }
+
+  async function waitForCriticalReady(){
+    try {
+      await new Promise(function(resolve){
+        if (document.readyState === "complete") resolve();
+        else window.addEventListener("load", resolve, { once: true });
+      });
+      if (document.fonts && document.fonts.ready) await document.fonts.ready;
+      await new Promise(function(resolve){
+        requestAnimationFrame(function(){ requestAnimationFrame(resolve); });
+      });
+    } catch (error) {
+      /* El cierre de seguridad retira la pantalla aunque falle un recurso externo. */
+    }
+    finishBoot();
+  }
+
+  /* Ningún recurso externo puede bloquear la navegación indefinidamente. */
+  window.setTimeout(finishBoot, 8000);
+  waitForCriticalReady();
+
+  function getCustomBackground(){
+    var value = getComputedStyle(root).getPropertyValue("--custom-background").trim();
+    return value && value !== "none" && value.indexOf("url(") !== -1 ? value : "";
+  }
+
+  function restoreCustomBackground(value){
+    if (!value) return;
+    root.style.setProperty("--custom-background", value);
+  }
+
+  var storedBackground = "";
+  try { storedBackground = localStorage.getItem(CUSTOM_BG_KEY) || ""; } catch (error) {}
+  if (storedBackground) restoreCustomBackground(storedBackground);
+
+  document.addEventListener("click", function(event){
+    var themeButton = event.target.closest('#theme-menu .theme-btn[data-theme]');
+    var applyButton = event.target.closest('button[onclick="applyCustomBackground()"]');
+    var clearButton = event.target.closest('button[onclick="clearCustomBackground()"]');
+
+    if (themeButton && themeButton.dataset.theme === "luna") {
+      var customBeforeTheme = getCustomBackground() || storedBackground;
+      if (customBeforeTheme) {
+        window.setTimeout(function(){ restoreCustomBackground(customBeforeTheme); }, 0);
+        window.setTimeout(function(){ restoreCustomBackground(customBeforeTheme); }, 100);
+      }
+    }
+
+    if (applyButton) {
+      window.setTimeout(function(){
+        var current = getCustomBackground();
+        if (!current) return;
+        storedBackground = current;
+        try { localStorage.setItem(CUSTOM_BG_KEY, current); } catch (error) {}
+      }, 120);
+    }
+
+    if (clearButton) {
+      storedBackground = "";
+      try { localStorage.removeItem(CUSTOM_BG_KEY); } catch (error) {}
+    }
+  }, true);
 })();
 </script>
 </body>
