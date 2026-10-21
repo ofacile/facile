@@ -21,7 +21,38 @@
      <noscript>You need to <a href="https://www.openwidget.com/enable-javascript" rel="noopener nofollow">enable JavaScript</a> to use the communication tool powered by <a href="https://www.openwidget.com/" rel="noopener nofollow" target="_blank">OpenWidget</a></noscript>
      <!-- End of OpenWidget code -->
     </head>
-    <body style="background-image:url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg);">
+    <body class="facile-classic-page-loading" style="background-image:url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg);">
+    <!-- FACILE CLASICO: VENTANILLA DE CARGA -->
+  <div
+    id="facile-classic-loading-screen"
+    class="facile-classic-loading-screen"
+    role="status"
+    aria-live="polite"
+    aria-label="Cargando la página"
+  >
+    <div class="facile-classic-loading-window">
+      <div class="facile-classic-loading-titlebar">
+        <span>Facile clásico</span>
+        <span class="facile-classic-loading-window-icon" aria-hidden="true">▣</span>
+      </div>
+
+      <div class="facile-classic-loading-content">
+        <div class="facile-classic-loading-symbol" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <strong>Cargando...</strong>
+
+        <div class="facile-classic-loading-progress" aria-hidden="true">
+          <div class="facile-classic-loading-progress-inner"></div>
+        </div>
+
+        <small>Preparando tu clásica página de inicio...</small>
+      </div>
+    </div>
+  </div>
     <header class="header">
         <div class="container logo-nav-container">
         <a href="https://ofacile.github.io/facile/clasica" class="logo"><img src="https://raw.githubusercontent.com/facileomnibus/facileomnibus/refs/heads/master/facilelogo_blanco.png" width="225" alt="facile.png"></a>
@@ -2704,6 +2735,123 @@ window.facileStartWeather = function(){
     window.addEventListener("storage",function(event){if(event.key===STORAGE_KEY){items=load();render();}});
     render();
   });
+})();
+</script>
+
+<script>
+/* =========================================================
+   FACILE CLASICO: CONTROL DE LA VENTANILLA DE CARGA
+========================================================= */
+(function () {
+  "use st*ict";
+
+  const body = document.bod*;
+  const loadingScreen = document*getElementById(
+    "facile-classi*-loading-screen"
+  );
+
+  if (!body*|| !loadingScreen) {
+    return;
+ *}
+
+  let loadingFinished = false;
+*  function preventLoadingInteracti*n(event) {
+    if (!body.classList*contains("facile-classic-page-load*ng")) {
+      return;
+    }
+
+    e*ent.preventDefault();
+  }
+
+  funct*on closeClassicLoadingScreen() {
+ *  if (loadingFinished) {
+      ret*rn;
+    }
+
+    loadingFinished = t*ue;
+
+    loadingScreen.classList.a*d("is-leaving");
+
+    body.classLi*t.remove("facile-classic-page-load*ng");
+    document.documentElement.classList.remove(
+      "facile-classic-document-loading"
+    );
+
+    window.setTimeout(function () {
+      loadingScreen.hidden = true;
+      loadingScreen.remove();
+    }, 180);
+  }
+
+  document.documentElement.classList.add(
+    "facile-classic-document-loading"
+  );
+
+  /*
+   * Evita el desplazamiento mediante rueda, dedo y teclas mientras
+   * la pantalla de carga está activa.
+   */
+  window.addEventListener("wheel", preventLoadingInteraction, {
+    passive: false
+  });
+
+  window.addEventListener("touchmove", preventLoadingInteraction, {
+    passive: false
+  });
+
+  window.addEventListener("keydown", function (event) {
+    if (!body.classList.contains("facile-classic-page-loading")) {
+      return;
+    }
+
+    const blockedKeys = [
+      "ArrowUp",
+      "ArrowDown",
+      "PageUp",
+      "PageDown",
+      "Home",
+      "End",
+      " "
+    ];
+
+    if (blockedKeys.includes(event.key)) {
+      event.preventDefault();
+    }
+  });
+
+  /*
+   * Si el documento ya está completamente cargado cuando se ejecuta
+   * este código, cerramos la ventana directamente.
+   */
+  if (document.readyState === "complete") {
+    window.setTimeout(closeClassicLoadingScreen, 120);
+    return;
+  }
+
+  /*
+   * window.load se dispara cuando HTML, CSS, scripts, imágenes y
+   * recursos iniciales han finalizado su carga.
+   */
+  window.addEventListener(
+    "load",
+    function () {
+      window.setTimeout(closeClassicLoadingScreen, 120);
+    },
+    { once: true }
+  );
+
+  /*
+   * Corrige la restauración de la página desde la caché del navegador.
+   */
+  window.addEventListener(
+    "pageshow",
+    function (event) {
+      if (event.persisted) {
+        closeClassicLoadingScreen();
+      }
+    },
+    { once: true }
+  );
 })();
 </script>
 
