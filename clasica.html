@@ -1026,207 +1026,170 @@
   }
 })();
 </script>
-<div class="widget-box ticker-widget" style="margin: 20px auto; max-width:1100px;">
- <div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="application/json" id="facile-tradingview-config">
-{
-  "symbols": [
-    {
-      "description": "IBEX 35",
-      "proName": "BME:IBC"
-    },
-    {
-      "description": "Acciona",
-      "proName": "BME:ANA"
-    },
-    {
-      "description": "Acciona Energía",
-      "proName": "BME:ANE"
-    },
-    {
-      "description": "Acerinox",
-      "proName": "BME:ACX"
-    },
-    {
-      "description": "ACS",
-      "proName": "BME:ACS"
-    },
-    {
-      "description": "Aena",
-      "proName": "BME:AENA"
-    },
-    {
-      "description": "Amadeus IT",
-      "proName": "BME:AMS"
-    },
-    {
-      "description": "ArcelorMittal",
-      "proName": "BME:MTS"
-    },
-    {
-      "description": "Banco Sabadell",
-      "proName": "BME:SAB"
-    },
-    {
-      "description": "Bankinter",
-      "proName": "BME:BKT"
-    },
-    {
-      "description": "BBVA",
-      "proName": "BME:BBVA"
-    },
-    {
-      "description": "Caixabank",
-      "proName": "BME:CABK"
-    },
-    {
-      "description": "Cellnex Telecom",
-      "proName": "BME:CLNX"
-    },
-    {
-      "description": "Enagás",
-      "proName": "BME:ENG"
-    },
-    {
-      "description": "Endesa",
-      "proName": "BME:ELE"
-    },
-    {
-      "description": "Ferrovial",
-      "proName": "BME:FER"
-    },
-    {
-      "description": "Fluidra",
-      "proName": "BME:FDR"
-    },
-    {
-      "description": "Grifols",
-      "proName": "BME:GRF"
-    },
-    {
-      "description": "IAG",
-      "proName": "BME:IAG"
-    },
-    {
-      "description": "Iberdrola",
-      "proName": "BME:IBE"
-    },
-    {
-      "description": "Inditex",
-      "proName": "BME:ITX"
-    },
-    {
-      "description": "Indra Sistemas",
-      "proName": "BME:IDR"
-    },
-    {
-      "description": "Inmobiliaria Colonial",
-      "proName": "BME:COL"
-    },
-    {
-      "description": "Logista",
-      "proName": "BME:LOG"
-    },
-    {
-      "description": "Mapfre",
-      "proName": "BME:MAP"
-    },
-    {
-      "description": "Melià Hotels",
-      "proName": "BME:MEL"
-    },
-    {
-      "description": "Merlin Properties",
-      "proName": "BME:MRL"
-    },
-    {
-      "description": "Naturgy",
-      "proName": "BME:NTGY"
-    },
-    {
-      "description": "Redeia",
-      "proName": "BME:RED"
-    },
-    {
-      "description": "Repsol",
-      "proName": "BME:REP"
-    },
-    {
-      "description": "Laboratorios Rovi",
-      "proName": "BME:ROVI"
-    },
-    {
-      "description": "Sacyr",
-      "proName": "BME:SCYR"
-    },
-    {
-      "description": "Banco Santander",
-      "proName": "BME:SAN"
-    },
-    {
-      "description": "Solaria Energía",
-      "proName": "BME:SLR"
-    },
-    {
-      "description": "Telefónica",
-      "proName": "BME:TEF"
-    },
-    {
-      "description": "Unicaja",
-      "proName": "BME:UNI"
-    },
-    {
-      "description": "Bitcoin",
-      "proName": "CRYPTO:BTCUSD"
-    },
-    {
-      "description": "Ethereum",
-      "proName": "CRYPTO:ETHUSD"
-    },
-    {
-      "description": "XRP",
-      "proName": "CRYPTOCAP:XRP"
-    },
-    {
-      "description": "Cambio euro/dólar",
-      "proName": "FX:EURUSD"
-    },
-    {
-      "description": "Cambio euro/yen japonés",
-      "proName": "PEPPERSTONE:EURJPY"
-    },
-    {
-      "description": "Cambio euro/libra esterlina",
-      "proName": "OANDA:EURGBP"
-    },
-    {
-      "description": "Cambio euro/bitcoin",
-      "proName": "BINANCE:BTCEUR"
-    },
-    {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "Índice S&P 500"
-    },
-    {
-      "proName": "PEPPERSTONE:NAS100",
-      "title": "Nasdaq-100"
-    },
-    {
-      "description": "Dow Jones Industrial Average",
-      "proName": "SPREADEX:DJI"
-    }
-  ],
-  "showSymbolLogo": true,
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "colorTheme": "dark",
-  "locale": "es"
+<!-- TradingView Widget BEGIN -->
+
+<style>
+/* FACILE CLASICO - TICKER FINANCIERO MODERNO V1
+   Misma funcionalidad que la pagina normal, adaptada a la ventana clasica. */
+.facile-tradingview-ticker-shell{
+  width:100%;
+  max-width:1100px;
+  margin:18px auto;
+  padding:8px;
+  box-sizing:border-box;
+  overflow:hidden;
+  background:var(--facile-window);
+  border-top:2px solid var(--facile-window-light);
+  border-left:2px solid var(--facile-window-light);
+  border-right:4px solid var(--facile-window-dark);
+  border-bottom:4px solid var(--facile-window-dark);
+  border-radius:0;
+  box-shadow:5px 5px 0 rgba(0,0,0,.30);
 }
-  </script>
+.facile-tradingview-ticker-shell::before{
+  content:"MERCADOS Y COTIZACIONES";
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:28px;
+  margin:0 0 7px;
+  padding:3px 8px;
+  box-sizing:border-box;
+  color:#fff;
+  background:linear-gradient(90deg,var(--facile-accent-blue),var(--facile-brown-mid));
+  border:1px solid var(--facile-window-dark);
+  font-family:Tahoma,Verdana,Arial,"MS Sans Serif",sans-serif;
+  font-size:.78rem;
+  font-weight:900;
+  letter-spacing:.03em;
+  text-shadow:1px 1px 0 rgba(0,0,0,.45);
+}
+.facile-tradingview-ticker-viewport{
+  width:100%;
+  height:52px;
+  overflow:hidden;
+  box-sizing:border-box;
+  background:#14171c;
+  border-top:2px solid var(--facile-window-dark);
+  border-left:2px solid var(--facile-window-dark);
+  border-right:2px solid var(--facile-window-light);
+  border-bottom:2px solid var(--facile-window-light);
+  border-radius:0;
+  box-shadow:inset 2px 2px 0 rgba(0,0,0,.28);
+}
+.facile-tradingview-ticker-viewport tv-ticker-tape{
+  display:block;
+  width:100%;
+  height:78px;
+  min-height:78px;
+  margin:0;
+  padding:0;
+  color-scheme:dark;
+  background:#14171c;
+}
+.facile-tradingview-ticker-placeholder{
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#d7ffd7;
+  background:#101410;
+  font-family:"Courier New",monospace;
+  font-size:.78rem;
+  font-weight:700;
+}
+@media only screen and (max-width:767px){
+  .facile-tradingview-ticker-shell{
+    width:calc(100% - 20px);
+    max-width:none;
+    margin:12px auto;
+    padding:6px;
+    box-shadow:3px 3px 0 rgba(0,0,0,.28);
+  }
+  .facile-tradingview-ticker-shell::before{
+    min-height:25px;
+    margin-bottom:5px;
+    font-size:.69rem;
+  }
+  .facile-tradingview-ticker-viewport{height:50px;}
+  .facile-tradingview-ticker-viewport tv-ticker-tape{height:76px;min-height:76px;}
+}
+</style>
+
+<div class="facile-tradingview-ticker-shell" aria-label="Cotizaciones de mercados">
+  <div
+    id="facileTradingViewTicker"
+    class="facile-tradingview-ticker-viewport is-pending"
+    aria-live="polite"
+    aria-busy="true">
+    <div class="facile-tradingview-ticker-placeholder" aria-hidden="true">
+      Cargando cotizaciones...
+    </div>
   </div>
 </div>
 <!-- TradingView Widget END -->
+<script>
+/* FACILE - TRADINGVIEW CARGA DIFERIDA Y PINTURA CONTROLADA V2 */
+(function(){
+  "use strict";
+
+  var TICKER_SCRIPT = "https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js";
+  var SYMBOLS = "BME:IBC,BLACKBULL:NAS100,B2PRIME:SPXUSD,SPREADEX:DJI,FX:EURUSD,PEPPERSTONE:EURJPY,OANDA:EURGBP,BME:ANA,BME:ANE,BME:ACX,BME:ACS,BME:AENA,BME:AMS,BME:MTS,BME:SAB,BME:BKT,BME:BBVA,BME:CABK,BME:CLNX,BME:ENG,BME:ELE,BME:FER,BME:FDR,BME:GRF,BME:IAG,BME:IBE,BME:ITX,BME:IDR,BME:COL,BME:LOG,BME:MAP,BME:MEL,BME:MRL,BME:NTGY,BME:RED,BME:REP,BME:ROVI,BME:SCYR,BME:SAN,BME:SLR,BME:TEF,BME:UNI,CRYPTO:BTCUSD,CRYPTO:ETHUSD,CRYPTOCAP:XRP";
+  var viewport = document.getElementById("facileTradingViewTicker");
+  var loaded = false;
+
+  if (!viewport) return;
+
+  function ensureModule(){
+    if (document.querySelector('script[data-facile-tradingview-loader="1"]')) return;
+    var script = document.createElement("script");
+    script.type = "module";
+    script.src = TICKER_SCRIPT;
+    script.dataset.facileTradingviewLoader = "1";
+    document.head.appendChild(script);
+  }
+
+  function loadTicker(){
+    if (loaded) return;
+    loaded = true;
+    ensureModule();
+
+    var ticker = document.createElement("tv-ticker-tape");
+    ticker.setAttribute("symbols", SYMBOLS);
+    ticker.setAttribute("item-size", "compact");
+    ticker.setAttribute("color-theme", "dark");
+    ticker.setAttribute("symbol-url", "https://tradingview.com");
+
+    viewport.replaceChildren(ticker);
+    viewport.classList.remove("is-pending");
+    viewport.setAttribute("aria-busy", "false");
+  }
+
+  if ("IntersectionObserver" in window){
+    var loadObserver = new IntersectionObserver(function(entries){
+      if (!entries.some(function(entry){ return entry.isIntersecting; })) return;
+      loadObserver.disconnect();
+      loadTicker();
+    }, { rootMargin: "700px 0px", threshold: 0.01 });
+    loadObserver.observe(viewport);
+
+    var paintObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!loaded) return;
+        viewport.classList.toggle("facile-ticker-suspended", !entry.isIntersecting);
+      });
+    }, { rootMargin: "260px 0px", threshold: 0.01 });
+    paintObserver.observe(viewport);
+  } else {
+    loadTicker();
+  }
+
+  document.addEventListener("visibilitychange", function(){
+    if (!loaded) return;
+    viewport.classList.toggle("facile-ticker-page-hidden", document.hidden);
+  }, { passive: true });
+})();
+</script>
 <div id="weather-widget" class="weather-widget">
 
 <div id="weather-content">🌍 Cargando clima...</div>
