@@ -141,7 +141,7 @@
   <div class="facile-boot-window">
     <span class="facile-boot-logo" aria-hidden="true">◉</span>
     <strong class="facile-boot-title">Cargando Facile...</strong>
-    <span class="facile-boot-status">Preparando tu página de inicio, espéranos un ratito por favor...</span>
+    <span class="facile-boot-status">Preparando tu página de inicio...</span>
     <div class="facile-boot-progress" aria-hidden="true"></div>
   </div>
 </div>
@@ -3437,6 +3437,126 @@ window.facileStartWeather = function(){
       storedBackground = "";
       try { localStorage.removeItem(CUSTOM_BG_KEY); } catch (error) {}
     }
+  }, true);
+})();
+</script>
+
+<script>
+/* FACILE - FONDO PERSONALIZADO INALTERABLE ENTRE TEMAS V40 */
+(function(){
+  "use strict";
+
+  var root = document.documentElement;
+  var body = document.body;
+  var STORAGE_KEY = "facile.customBackground.url.v40";
+  var savedUrl = "";
+
+  function normalizeUrl(value){
+    if (!value) return "";
+    var match = String(value).match(/url\((['"]?)(.*?)\1\)/i);
+    return match && match[2] ? match[2] : "";
+  }
+
+  function readCustomUrl(){
+    var rootValue = getComputedStyle(root).getPropertyValue("--custom-background");
+    var fromVariable = normalizeUrl(rootValue);
+    if (fromVariable) return fromVariable;
+
+    var inlineRoot = normalizeUrl(root.style.getPropertyValue("--custom-background"));
+    if (inlineRoot) return inlineRoot;
+
+    var fromBody = normalizeUrl(getComputedStyle(body).backgroundImage);
+    return fromBody || "";
+  }
+
+  function persist(url){
+    if (!url) return;
+    savedUrl = url;
+    try { localStorage.setItem(STORAGE_KEY, url); } catch (error) {}
+  }
+
+  function restore(url){
+    if (!url) return;
+    var cssUrl = 'url("' + String(url).replace(/"/g, '\\"') + '")';
+    root.style.setProperty("--custom-background", cssUrl);
+    body.style.setProperty("background-image", "var(--custom-background), var(--background-gradient)", "important");
+    body.style.setProperty("background-size", "cover", "important");
+    body.style.setProperty("background-position", "center", "important");
+    body.style.setProperty("background-repeat", "no-repeat", "important");
+    body.style.setProperty("background-attachment", "fixed", "important");
+  }
+
+  function restoreRepeatedly(url){
+    if (!url) return;
+    restore(url);
+    requestAnimationFrame(function(){
+      restore(url);
+      requestAnimationFrame(function(){ restore(url); });
+    });
+    window.setTimeout(function(){ restore(url); }, 100);
+    window.setTimeout(function(){ restore(url); }, 350);
+  }
+
+  try { savedUrl = localStorage.getItem(STORAGE_KEY) || ""; } catch (error) {}
+  if (savedUrl) restoreRepeatedly(savedUrl);
+
+  function installWrappers(){
+    if (typeof window.applyTheme === "function" && !window.applyTheme.__facileKeepsBackground){
+      var originalApplyTheme = window.applyTheme;
+      var wrappedApplyTheme = function(themeName){
+        var before = readCustomUrl() || savedUrl;
+        if (before) persist(before);
+        var result = originalApplyTheme.apply(this, arguments);
+        if (before) restoreRepeatedly(before);
+        return result;
+      };
+      wrappedApplyTheme.__facileKeepsBackground = true;
+      window.applyTheme = wrappedApplyTheme;
+    }
+
+    if (typeof window.applyCustomBackground === "function" && !window.applyCustomBackground.__facileSavesBackground){
+      var originalApplyCustomBackground = window.applyCustomBackground;
+      var wrappedApplyCustomBackground = function(){
+        var result = originalApplyCustomBackground.apply(this, arguments);
+        window.setTimeout(function(){
+          var current = readCustomUrl();
+          if (current) persist(current);
+        }, 80);
+        return result;
+      };
+      wrappedApplyCustomBackground.__facileSavesBackground = true;
+      window.applyCustomBackground = wrappedApplyCustomBackground;
+    }
+
+    if (typeof window.clearCustomBackground === "function" && !window.clearCustomBackground.__facileClearsBackground){
+      var originalClearCustomBackground = window.clearCustomBackground;
+      var wrappedClearCustomBackground = function(){
+        savedUrl = "";
+        try { localStorage.removeItem(STORAGE_KEY); } catch (error) {}
+        body.style.removeProperty("background-image");
+        body.style.removeProperty("background-size");
+        body.style.removeProperty("background-position");
+        body.style.removeProperty("background-repeat");
+        body.style.removeProperty("background-attachment");
+        return originalClearCustomBackground.apply(this, arguments);
+      };
+      wrappedClearCustomBackground.__facileClearsBackground = true;
+      window.clearCustomBackground = wrappedClearCustomBackground;
+    }
+  }
+
+  installWrappers();
+  document.addEventListener("DOMContentLoaded", installWrappers, { once: true });
+  window.addEventListener("load", installWrappers, { once: true });
+
+  /* Refuerzo específico para Luna por si temas.js actualiza el fondo después del clic. */
+  document.addEventListener("click", function(event){
+    var luna = event.target.closest('#theme-menu .theme-btn[data-theme="luna"]');
+    if (!luna) return;
+    var before = readCustomUrl() || savedUrl;
+    if (!before) return;
+    persist(before);
+    restoreRepeatedly(before);
   }, true);
 })();
 </script>
