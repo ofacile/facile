@@ -5842,3 +5842,322 @@ body[data-classic-theme="facile-dos"] {
     min-height: 76px !important;
   }
 }
+/* =========================================================
+   FACILE CLASICO - VENTANILLA DE CARGA SIMPLE V1
+   Ventana de sistema que bloquea interacción y desplazamiento
+   hasta que la página haya terminado de cargar.
+========================================================= */
+
+/* Bloqueo general del documento durante la carga. */
+html.facile-classic-document-loading,
+html.facile-classic-document-loading body,
+body.facile-classic-page-loading {
+  overflow: hidden !important;
+  overscroll-behavior: none !important;
+  touch-action: none !important;
+}
+
+/* Capa que cubre completamente la página. */
+.facile-classic-loading-screen {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  width: 100vw !important;
+  height: 100vh !important;
+  padding: 18px !important;
+  box-sizing: border-box !important;
+
+  overflow: hidden !important;
+  overscroll-behavior: none !important;
+  touch-action: none !important;
+  user-select: none !important;
+
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.025) 0,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px,
+      transparent 3px
+    ),
+    var(--facile-desktop, #0b7676) !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  transition:
+    opacity 150ms steps(2, end),
+    visibility 150ms steps(2, end) !important;
+}
+
+/* Desaparición de la capa una vez cargada la página. */
+.facile-classic-loading-screen.is-leaving {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Ventana clásica central. */
+.facile-classic-loading-window {
+  width: min(360px, calc(100vw - 36px)) !important;
+  padding: 4px !important;
+  box-sizing: border-box !important;
+
+  color: var(--facile-text, #16110c) !important;
+  background: var(--facile-window, #d6d0c4) !important;
+
+  border-top: 2px solid var(--facile-window-light, #ffffff) !important;
+  border-left: 2px solid var(--facile-window-light, #ffffff) !important;
+  border-right: 4px solid var(--facile-window-dark, #3a3028) !important;
+  border-bottom: 4px solid var(--facile-window-dark, #3a3028) !important;
+
+  border-radius: 0 !important;
+
+  box-shadow:
+    7px 7px 0 rgba(0, 0, 0, 0.36),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.2) !important;
+
+  font-family:
+    Tahoma,
+    Verdana,
+    Arial,
+    "MS Sans Serif",
+    sans-serif !important;
+}
+
+/* Barra superior de la ventana. */
+.facile-classic-loading-titlebar {
+  width: 100% !important;
+  min-height: 30px !important;
+  padding: 0 8px !important;
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+
+  color: #ffffff !important;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--facile-accent-blue, #0b4f9c),
+      var(--facile-brown-mid, #9f6632)
+    ) !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow:
+    inset 1px 1px 0 rgba(255, 255, 255, 0.25) !important;
+
+  font-size: 0.78rem !important;
+  line-height: 1 !important;
+  font-weight: 900 !important;
+
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Pequeño icono de sistema de la barra superior. */
+.facile-classic-loading-window-icon {
+  width: 18px !important;
+  height: 18px !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  color: var(--facile-text, #16110c) !important;
+  background: var(--facile-window-soft, #eee8dc) !important;
+
+  border-top: 1px solid var(--facile-window-light, #ffffff) !important;
+  border-left: 1px solid var(--facile-window-light, #ffffff) !important;
+  border-right: 2px solid var(--facile-window-dark, #3a3028) !important;
+  border-bottom: 2px solid var(--facile-window-dark, #3a3028) !important;
+
+  font-size: 0.62rem !important;
+  line-height: 1 !important;
+  text-shadow: none !important;
+}
+
+/* Contenido interior. */
+.facile-classic-loading-content {
+  padding: 22px 20px 18px !important;
+
+  display: grid !important;
+  justify-items: center !important;
+  gap: 13px !important;
+
+  color: var(--facile-text, #16110c) !important;
+  background: var(--facile-window, #d6d0c4) !important;
+}
+
+/* Texto principal. */
+.facile-classic-loading-content strong {
+  color: var(--facile-text, #16110c) !important;
+
+  font-size: 0.92rem !important;
+  line-height: 1.15 !important;
+  font-weight: 900 !important;
+
+  text-align: center !important;
+}
+
+/* Texto secundario. */
+.facile-classic-loading-content small {
+  color: var(--facile-muted-text, #2f261d) !important;
+
+  font-size: 0.68rem !important;
+  line-height: 1.15 !important;
+  font-weight: 800 !important;
+
+  text-align: center !important;
+}
+
+/* Indicador superior de tres bloques. */
+.facile-classic-loading-symbol {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 5px !important;
+
+  min-height: 20px !important;
+}
+
+.facile-classic-loading-symbol span {
+  width: 12px !important;
+  height: 12px !important;
+
+  display: block !important;
+
+  background: var(--facile-window-soft, #eee8dc) !important;
+
+  border-top: 1px solid var(--facile-window-light, #ffffff) !important;
+  border-left: 1px solid var(--facile-window-light, #ffffff) !important;
+  border-right: 2px solid var(--facile-window-dark, #3a3028) !important;
+  border-bottom: 2px solid var(--facile-window-dark, #3a3028) !important;
+
+  animation:
+    facileClassicLoadingBlocks 720ms steps(1, end) infinite !important;
+}
+
+.facile-classic-loading-symbol span:nth-child(2) {
+  animation-delay: 240ms !important;
+}
+
+.facile-classic-loading-symbol span:nth-child(3) {
+  animation-delay: 480ms !important;
+}
+
+@keyframes facileClassicLoadingBlocks {
+  0%,
+  32% {
+    background: var(--facile-accent-blue, #0b4f9c);
+  }
+
+  33%,
+  65% {
+    background: var(--facile-brown-mid, #9f6632);
+  }
+
+  66%,
+  100% {
+    background: var(--facile-window-soft, #eee8dc);
+  }
+}
+
+/* Marco hundido de la barra de progreso. */
+.facile-classic-loading-progress {
+  width: 100% !important;
+  height: 23px !important;
+  padding: 3px !important;
+  box-sizing: border-box !important;
+
+  overflow: hidden !important;
+
+  background: var(--facile-window-soft, #eee8dc) !important;
+
+  border-top: 2px solid var(--facile-window-dark, #3a3028) !important;
+  border-left: 2px solid var(--facile-window-dark, #3a3028) !important;
+  border-right: 2px solid var(--facile-window-light, #ffffff) !important;
+  border-bottom: 2px solid var(--facile-window-light, #ffffff) !important;
+
+  box-shadow:
+    inset 1px 1px 0 rgba(0, 0, 0, 0.16) !important;
+}
+
+/* Barra animada, no representa un porcentaje falso. */
+.facile-classic-loading-progress-inner {
+  width: 42% !important;
+  height: 100% !important;
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      var(--facile-accent-blue, #0b4f9c) 0,
+      var(--facile-accent-blue, #0b4f9c) 13px,
+      var(--facile-window-light, #ffffff) 13px,
+      var(--facile-window-light, #ffffff) 15px
+    ) !important;
+
+  box-shadow:
+    inset 1px 1px 0 rgba(255, 255, 255, 0.35) !important;
+
+  animation:
+    facileClassicLoadingProgress 820ms steps(6, end) infinite !important;
+}
+
+@keyframes facileClassicLoadingProgress {
+  0% {
+    transform: translateX(-110%);
+  }
+
+  100% {
+    transform: translateX(265%);
+  }
+}
+
+/* Adaptación móvil. */
+@media only screen and (max-width: 520px) {
+  .facile-classic-loading-screen {
+    padding: 12px !important;
+  }
+
+  .facile-classic-loading-window {
+    width: min(340px, calc(100vw - 24px)) !important;
+
+    box-shadow:
+      5px 5px 0 rgba(0, 0, 0, 0.34) !important;
+  }
+
+  .facile-classic-loading-content {
+    padding: 20px 15px 16px !important;
+  }
+
+  .facile-classic-loading-content strong {
+    font-size: 0.84rem !important;
+  }
+
+  .facile-classic-loading-content small {
+    font-size: 0.64rem !important;
+  }
+}
+
+/* Respeto a reducción de movimiento. */
+@media (prefers-reduced-motion: reduce) {
+  .facile-classic-loading-screen,
+  .facile-classic-loading-symbol span,
+  .facile-classic-loading-progress-inner {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .facile-classic-loading-progress-inner {
+    transform: none !important;
+    width: 100% !important;
+  }
+}
