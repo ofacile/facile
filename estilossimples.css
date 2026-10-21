@@ -6161,3 +6161,16 @@ body.facile-classic-page-loading {
     width: 100% !important;
   }
 }
+
+/* FACILE CLASICO - SALIDA SEGURA VENTANILLA CARGA V2 */
+.facile-classic-loading-screen.is-leaving {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+html:not(.facile-classic-document-loading) body:not(.facile-classic-page-loading) {
+  overflow-y: auto !important;
+  touch-action: auto !important;
+}
