@@ -21,28 +21,7 @@
      <noscript>You need to <a href="https://www.openwidget.com/enable-javascript" rel="noopener nofollow">enable JavaScript</a> to use the communication tool powered by <a href="https://www.openwidget.com/" rel="noopener nofollow" target="_blank">OpenWidget</a></noscript>
      <!-- End of OpenWidget code -->
     </head>
-    <body class="facile-classic-is-loading" style="background-image:url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg);">
-<!-- FACILE CLASICO - PANTALLA DE CARGA V1 -->
-<div id="facileClassicLoader" class="facile-classic-loader" role="status" aria-live="polite" aria-label="Cargando Facile clásico">
-  <div class="facile-classic-loader-window">
-    <div class="facile-classic-loader-titlebar">
-      <span>Facile clásico</span>
-      <span class="facile-classic-loader-title-icon" aria-hidden="true">▣</span>
-    </div>
-    <div class="facile-classic-loader-content">
-      <img class="facile-classic-loader-logo" src="https://raw.githubusercontent.com/facileomnibus/facileomnibus/refs/heads/master/facilelogo_blanco.png" alt="Facile">
-      <p class="facile-classic-loader-message" id="facileClassicLoaderMessage">Preparando tu página de inicio...</p>
-      <div class="facile-classic-loader-progress-frame" aria-hidden="true">
-        <div class="facile-classic-loader-progress" id="facileClassicLoaderProgress"></div>
-      </div>
-      <div class="facile-classic-loader-statusline">
-        <span id="facileClassicLoaderStatus">Iniciando componentes</span>
-        <span id="facileClassicLoaderPercent">0%</span>
-      </div>
-    </div>
-  </div>
-</div>
-
+    <body style="background-image:url(https://raw.githubusercontent.com/facileomnibus/facileomnibus/master/facilesimple.jpg);">
     <header class="header">
         <div class="container logo-nav-container">
         <a href="https://ofacile.github.io/facile/clasica" class="logo"><img src="https://raw.githubusercontent.com/facileomnibus/facileomnibus/refs/heads/master/facilelogo_blanco.png" width="225" alt="facile.png"></a>
@@ -1048,9 +1027,8 @@
 })();
 </script>
 <!-- TradingView Widget BEGIN -->
-
 <style>
-/* FACILE CLASICO - TICKER FINANCIERO MODERNO V1
+/* FACILE CLASICO - TICKER FINANCIERO
    Misma funcionalidad que la pagina normal, adaptada a la ventana clasica. */
 .facile-tradingview-ticker-shell{
   width:100%;
@@ -1148,7 +1126,6 @@
     </div>
   </div>
 </div>
-<!-- TradingView Widget END -->
 <script>
 /* FACILE - TRADINGVIEW CARGA DIFERIDA Y PINTURA CONTROLADA V2 */
 (function(){
@@ -1179,7 +1156,7 @@
     ticker.setAttribute("symbols", SYMBOLS);
     ticker.setAttribute("item-size", "compact");
     ticker.setAttribute("color-theme", "dark");
-    ticker.setAttribute("symbol-url", "https://tradingview.com");
+    ticker.setAttribute("symbol-url", "");
 
     viewport.replaceChildren(ticker);
     viewport.classList.remove("is-pending");
@@ -1211,6 +1188,7 @@
   }, { passive: true });
 })();
 </script>
+<!-- TradingView Widget END -->
 <div id="weather-widget" class="weather-widget">
 
 <div id="weather-content">🌍 Cargando clima...</div>
@@ -1730,14 +1708,14 @@ window.facileStartWeather = function(){
         <div id="ia" style="position: relative; top: -200px;"></div>
         <section id="ia">
         <a href="https://chat.openai.com/chat" target="_blank" data-legacy-p="" style="color:lightseagreen;">ChatGPT</a> 
-        <a href="https://chat.deepseek.com/" target="_blank" data-legacy-p="" style="color:royalblue;">DeepSeek</a>
+        <a href="https://claude.ai/login?returnTo=%2F%3F" target="_blank" data-legacy-p="" style="color:chocolate;">Claude</a>
+        <a href="https://gemini.google.com/?hl=es" target="_blank" data-legacy-p="" style="color:rgb(115, 40, 255);">Gemini</a>
         <a href="https://copilot.microsoft.com/" target="_blank" data-legacy-p="" style="color:blue;">Microsoft Copilot</a>
-        <a href="https://gemini.google.com/?hl=es" target="_blank" data-legacy-p="" style="color:rgb(115, 40, 255);">Gemini</a> 
+        <a href="https://chat.deepseek.com/" target="_blank" data-legacy-p="" style="color:royalblue;">DeepSeek</a> 
         <a href="https://grok.com" target="_blank" data-legacy-p="" style="color:rgb(138, 138, 138)">Grok</a> 
         <a href="https://www.perplexity.ai" target="_blank" data-legacy-p="" style="color:deepskyblue;">Perplexity</a>
         <a href="https://www.meta.ai" target="_blank" data-legacy-p="" style="color:rgb(0, 68, 255);">Meta AI</a>
-        <a href="https://chat.qwen.ai" target="_blank" data-legacy-p="" style="color:rgb(81, 31, 210);">Qwen</a>
-        <a href="https://claude.ai/login?returnTo=%2F%3F" target="_blank" data-legacy-p="" style="color:chocolate;">Claude</a>   
+        <a href="https://chat.qwen.ai" target="_blank" data-legacy-p="" style="color:rgb(81, 31, 210);">Qwen</a>   
         <a href="https://pi.ai/talk" target="_blank" data-legacy-p="" style="color:green;">Pi</a>
         <a href="https://www.chatpdf.com/es" target="_blank" data-legacy-p="" style="color:purple;">ChatPDF</a> 
         <a href="https://www.midjourney.com/home" target="_blank" data-legacy-p="" style="color:rgb(138, 138, 138)">Midjourney</a> 
@@ -1992,7 +1970,7 @@ window.facileStartWeather = function(){
         <a href="https://vinted.es/" target="_blank" data-legacy-p="" style="color:teal;">Vinted</a>    
         <a href="https://www.action.com/es-es" target="_blank">Action</a>
         <a href="https://www.autodoc.es" target="_blank" data-legacy-p="" style="color:orangered;">AUTODOC</a>
-        <a href="https://goodsmileeurope.com" target="_blank" data-legacy-p="" style="color:rgb(255, 100, 0);">Good Smile Company</a> 
+        <a href="https://goodsmile-europe.com" target="_blank" data-legacy-p="" style="color:rgb(255, 100, 0);">Good Smile Company</a> 
         <a href="https://www.amiami.com" target="_blank" data-legacy-p="" style="color:orange;">AmiAmi</a>
         <a href="https://www.hlj.com" target="_blank" data-legacy-p="" style="color:rgb(0, 68, 255);">HobbyLink Japan</a>
         <a href="https://www.1999.co.jp/eng" target="_blank" data-legacy-p="" style="color:rgb(130, 130, 130);">Hobby Search</a> 
@@ -2726,81 +2704,6 @@ window.facileStartWeather = function(){
     window.addEventListener("storage",function(event){if(event.key===STORAGE_KEY){items=load();render();}});
     render();
   });
-})();
-</script>
-
-
-<script>
-/* FACILE CLASICO - CONTROL PANTALLA DE CARGA V1 */
-(function(){
-  "use strict";
-  const loader = document.getElementById("facileClassicLoader");
-  const bar = document.getElementById("facileClassicLoaderProgress");
-  const percent = document.getElementById("facileClassicLoaderPercent");
-  const status = document.getElementById("facileClassicLoaderStatus");
-  if (!loader || !bar || !percent || !status) {
-    document.body.classList.remove("facile-classic-is-loading");
-    return;
-  }
-
-  const startedAt = performance.now();
-  const minimumVisibleMs = 900;
-  const maximumVisibleMs = 6500;
-  let progress = 0;
-  let finished = false;
-  let timer = null;
-
-  const stages = [
-    [18, "Cargando preferencias"],
-    [38, "Preparando widgets"],
-    [60, "Organizando accesos"],
-    [78, "Aplicando el tema clásico"],
-    [90, "Terminando de cargar"]
-  ];
-
-  function paint(value){
-    progress = Math.max(progress, Math.min(100, Math.round(value)));
-    bar.style.width = progress + "%";
-    percent.textContent = progress + "%";
-    let text = stages[stages.length - 1][1];
-    for (const stage of stages) {
-      if (progress <= stage[0]) { text = stage[1]; break; }
-    }
-    status.textContent = progress >= 100 ? "Facile está listo" : text;
-  }
-
-  function tick(){
-    if (finished) return;
-    const step = progress < 40 ? 7 : progress < 75 ? 4 : 2;
-    paint(Math.min(92, progress + step));
-    timer = window.setTimeout(tick, 90 + Math.random() * 90);
-  }
-
-  function removeLoader(){
-    if (finished) return;
-    finished = true;
-    if (timer) window.clearTimeout(timer);
-    paint(100);
-    loader.classList.add("is-complete");
-    document.body.classList.remove("facile-classic-is-loading");
-    window.setTimeout(function(){
-      loader.hidden = true;
-      loader.remove();
-    }, 360);
-  }
-
-  function finishWhenReady(){
-    const elapsed = performance.now() - startedAt;
-    window.setTimeout(removeLoader, Math.max(0, minimumVisibleMs - elapsed));
-  }
-
-  paint(6);
-  tick();
-  window.addEventListener("load", finishWhenReady, { once:true });
-  window.setTimeout(removeLoader, maximumVisibleMs);
-  window.addEventListener("pageshow", function(event){
-    if (event.persisted) removeLoader();
-  }, { once:true });
 })();
 </script>
 
