@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-23T21:13:48.962216+00:00",
+  "updatedAt": "2026-10-23T23:56:21.169809+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
+    {
+      "title": "El Supremo exige la lista de afectados por la 'ley de nietos'",
+      "source": "Euronews.com",
+      "summary": "El Supremo exige la lista de afectados por la 'ley de nietos' Euronews.com El Supremo exige al Gobierno la lista de los afectados por la ‘ley de nietos’ y amenaza de multa y posible responsabilidad penal si no lo hace EL PAÍS El Supremo da cinco días a Albares",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0hJNGhqckFjMlRzVmZjVHloVWtXUEtSZnVpNXgtbXVsd2p6dEFCd0RtR1BkUm1hS0YzUXhWOWFSLVR2ZVpjVktuWmkybmJQR1NITkVReTRFTUZ2T0NlSE1ubVpqT0tqYm5wSVZPWXJUNTgzODMwMG1JUUNNdG0xbmREVnUwc2hYek9tMG9uQzlJTEpid1hwZjhVTFFEeHdrRjl5eDBPWU1EVkVBYmpCeDRxM09kbEdZVzBHQUZXWURoQW8?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 16:27:09 GMT"
+    },
+    {
+      "title": "De Felipe VI pidiendo cuidar las formas y las instituciones de la democracia al momento mágico de Patti Smith",
+      "source": "LaSexta",
+      "summary": "De Felipe VI pidiendo cuidar las formas y las instituciones de la democracia al momento mágico de Patti Smith LaSexta El Rey pide mesura ante la “altísima responsabilidad” de las próximas elecciones EL PAÍS Felipe VI recuerda el voto como una \"altísima respons",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZ0FCWXpiT1RwdkljZkRkZFdNdFZqNWwzRFduYWVJbDl1UXBqeXBSbi0wNE55X01HWGthSjRta25FMlA1M0Z3S2dNOXVoVGJJTUJ5aW1ldUVMcGcyZ3dmUmM1d0toT0dhUmdvN3A3SEdGZWRnR0UwZElCc05tVWQ0QnB0aVgzR1k3SVhnV0FqRnZhRndteWFVWjZZUnV0SXFEeGlfNFhncEhUdl9TckYxNTVzNGRVWVlldUo2M3VDUk5IS0hRMU1nVG9lTGZLNWtvSFVDOXJZT3FrNzZZZ2t1aUtaQk5ZZmN6SHZtZEFpV1JGd9IB8gFBVV95cUxOWEJVeklmYlQ3S2NfMGpYc3dRbF9PYVhwcjg2WHgzX3c4SXdaNTRzQUFHTWUtb0lDQndYNjU5VmhJNm1LMW1xVzQtRHFWb0N1dXdESEJ3TDZSZEtFRGxRbGpuSEVlVklQaFdxdGphZWNiSzNMWFNkMmNqdlBKdURXUmF3WVhvRGNlQkJmQU1iSFlEX0dmX2VjQlpvNF83NU5ZenVzeXJ2ZWI3UGFiM2JLQURNSmQzNS1vbUhtU0pmTkdJVGF4TjB6aWp5bmdsMDV6aGg4dkxFYTFoQUY1ZXBxVHdZWGtBRVI5VFFEam9mbDFmQQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 19:15:23 GMT"
+    },
     {
       "title": "Vota y opina: ¿Qué horario prefieres, el de verano o el de invierno?",
       "source": "La Voz de Galicia",
@@ -12,60 +28,44 @@
       "pubDate": "Fri, 23 Oct 2026 13:37:07 GMT"
     },
     {
-      "title": "Felipe VI: \"La democracia requiere de un compromiso diario y exigente, de un cuidado de sus formas e instituciones\"",
-      "source": "El Economista",
-      "summary": "Felipe VI: \"La democracia requiere de un compromiso diario y exigente, de un cuidado de sus formas e instituciones\" El Economista El Rey pide mesura ante la “altísima responsabilidad” de las próximas elecciones EL PAÍS Felipe VI asegura que \"la democracia no s",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQMnBRRXBnR0hUNTVSVEFLUjhQNU5FZEgxbWd1enpRMjVWbE51UmJCWS1BNFpqMXdtd1pHZC1xa2dzV2JVcWFzLUdUaHVwNmlXUjNjR0h4b3VGR2NuVW1jc3NFN0FfaFVrc2RKYU0wQ0d2T1M4dEZ4YVNLMDJfX0Q5bHJ6SWthamRISERILUNlQzVBa1JFbHFFdjVWN1phcTlmbXlzc3pmcUZuX1pLdkJYTVIwSldYV1IxY3lpSmZoOVlTZEFVSmJSLTliVzRrWmE2UkYtWlNwNmRocWxwVjk0OFlybG5rLWIyUjNDNkhKcEpOUVJoZDZiNk5tdnIwVjQ1RzlNNi1mZmNhd2hOcWE5LXlVRUlpSUk4a3lLa9IBhwJBVV95cUxQbElNYjRwZUgteTFTaGUtdEFmcDFxSUkzU3ExdndneTEtS2t0aFNfLVVlTWI4SFQ0NUZCUl9xMlFiRTc2WTdTaWtWRGV1MkIwYWp2TTJTN3loQklXNzZ4TWNVQnZnQmo3bzcyR2lmT3VtZmJ6ell0NW5QRjVvWmtST3prV2xOcDBRczFmSVdObDZLTVl5MzBidk9rN1JTajNOcWFTckx2c01PVy1TS1ZaZk5QSXluWDFEU3ZZNEFsc2U5djh1bW8zTTNubjdqTi1QVHFuSE5qS0JhVVB3UGNUQmJCM1piT0UyS0Z4NDhCSDRrUFBJUm5sdzBEVmhvUVM0RWNnNHlwTQ?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 17:55:39 GMT"
-    },
-    {
-      "title": "El Supremo exige la lista de afectados por la Ley de Nietos",
-      "source": "Euronews",
-      "summary": "El Supremo exige la lista de afectados por la Ley de Nietos Euronews El Supremo exige al Gobierno la lista de los afectados por la ‘ley de nietos’ y amenaza de multa y posible responsabilidad penal si no lo hace EL PAÍS El Supremo da cinco días a Albares y Bol",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0hJNGhqckFjMlRzVmZjVHloVWtXUEtSZnVpNXgtbXVsd2p6dEFCd0RtR1BkUm1hS0YzUXhWOWFSLVR2ZVpjVktuWmkybmJQR1NITkVReTRFTUZ2T0NlSE1ubVpqT0tqYm5wSVZPWXJUNTgzODMwMG1JUUNNdG0xbmREVnUwc2hYek9tMG9uQzlJTEpid1hwZjhVTFFEeHdrRjl5eDBPWU1EVkVBYmpCeDRxM09kbEdZVzBHQUZXWURoQW8?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 16:27:09 GMT"
-    },
-    {
-      "title": "Juan del Val, contundente con Pedro Sánchez por lo que hizo con su nombre en 'La Revuelta': «No se acuerda. Claro, Pedro, claro. Pues así con todo»",
-      "source": "ABC",
-      "summary": "Juan del Val, contundente con Pedro Sánchez por lo que hizo con su nombre en 'La Revuelta': «No se acuerda. Claro, Pedro, claro. Pues así con todo» ABC Jordi Évole avisa a España sobre el resultado de las elecciones tras ver las audiencias de Broncano con Pedr",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdGdLVEhIYVc0X24wY0pjMGhEYkhNZTlQa2JoUzQzX2dZUW5YOEh1aktPQVlVUXZWX2ZqeHZGLUd6enlfbGRXQXBvU2tLYW1aT1hQc3FLYXJvbWlfYTRLVVZKVTVscTd1NEZGeENSYms2MEN3NVlhVVhGSzloaHJtZm56ZDJfZVZxaVdVUUhPZldTUzVQQ014OXpJc2R1T2wySzZreU1TMVRza2JQRnRveFVPMNIBuAFBVV95cUxNbU9FVDFlak5yZ2YxWGdaekRSQUktblQ3UExCZG9ZX2ZEcE5jWjRvTzg4N3FwM3FjbzcyR2dJZVR3WVlQMC1QWGhVSVlJa0Yzak5TSjVXQS1QaGpFQ3drMlRnMUZKZ2lXR0hXdFJ0N2Q4MUxFODZPZjlyNFFMT1Z2R2w1TmV4QkpFUkd4Y3JNb0xJdDlmelpzNG1JTU54WExlV2Eyclo1TEhyRXFZbDhTYlFacmF3eFhu?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 18:01:55 GMT"
-    },
-    {
       "title": "\"Todo lo conseguido desde 1945 se encuentra hoy amenazado\"",
       "source": "La Razón",
-      "summary": "\"Todo lo conseguido desde 1945 se encuentra hoy amenazado\" La Razón De Patti Smith a Timothy Garton Ash, los Premios Princesa de Asturias miran y dibujan el futuro: \"Este premio es un incentivo para dar esperanza a las nuevas generaciones\" El Mundo Los galardo",
+      "summary": "\"Todo lo conseguido desde 1945 se encuentra hoy amenazado\" La Razón De Patti Smith a Timothy Garton Ash, los Premios Princesa de Asturias miran y dibujan el futuro: \"Este premio es un incentivo para dar esperanza a las nuevas generaciones\" El Mundo «Todo lo co",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHhhSVhrR1hOdTJ5ZkNhSVowNkptSG1xT2V4N0JTU1UtYUtSVUs2N18zLUJOaEpkNUZ3Slc4MEg4LVZtM0VhRnZnTzNCTWV1bmYwRWlNTlJMbzBPaWR4WFlMa2JjYndLTzBiU1dmMmV0bFFmMnVGbUdsZWZvQVhvLWZfRE5YLVpQVGlMWDNvbk0yYngzbzBhOFBTeDNNZURhU25ZV1h0TGpBNFZzZXhmY2FRd9IBxwFBVV95cUxPMzFmUWJSOVZoTFMzdzlxblByRXd6cml6LTFLdW02MDdjS1dPQl9EXzY1V2RuOWRzLTFxbkZmN1Q3ZzM4a1dpVzBTRDBUNXNaQ2g0U1VQcHZScXREcU9ILUJhdHcwUE5yWmdMZ1JNRE54c29COUxzaTgxeGNmOVJ1d1ZTeXFZeDg2UTZBM3VLcTlIeXFMTGZLSHVYZkV4Vm1fdjlDVURNS1UyOTlZYjRxRTJQbUdkZmtWUndzeTRPZGtsU0h5djhJ?oc=5",
       "pubDate": "Fri, 23 Oct 2026 17:46:28 GMT"
     },
     {
-      "title": "La ministra Sira Rego tacha de «pollaviejismo» el discurso de Feijoo sobre feminismo",
+      "title": "Alerta por llamamientos yihadistas a atentar contra manifestantes",
+      "source": "Euronews.com",
+      "summary": "Alerta por llamamientos yihadistas a atentar contra manifestantes Euronews.com Interior detecta un llamamiento yihadista para atacar a policías y manifestantes durante las protestas EL PAÍS Interior alerta de una amenaza terrorista en España por los disturbios",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOVU1Ymo4RlFmc2xIZUt1LS1uV2NpSGlabjEyOVBHV3ZYYjZncmFVSWVLNnBqVFIyc0xzbzhrMGZtbWJWZ2I5blp0OEUyVGRWNjJPeDg5RGpmNHg0bkRaWUhadXJKUEhFWkdub0Q4dzl4SndWRDdtSkhVTWJINkxfN2d4WnAzZW50Sm9wV3FTLUxJUi1KYXVDbFJOaElNUjJNa2hXN2RHZVBQQy1kZzFtWjREQnJmSHNWUmluSA?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 20:26:19 GMT"
+    },
+    {
+      "title": "Feijóo reformará la eutanasia y rebrirá el debate sobre los padres en el aborto de menores",
+      "source": "Ultima Hora",
+      "summary": "Feijóo reformará la eutanasia y rebrirá el debate sobre los padres en el aborto de menores Ultima Hora Elecciones generales 29-N: encuestas, última hora de Pedro Sánchez y huelga general, en directo El Confidencial Gabriel Rufián ve la última entrevista de Fei",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUnRTUU9pTklObjY5YmowWnF2RlFjcTdydzM4RGRQZ1hBVWljOXRSc0xIZHBKY3cwM0oxb0RNeXdkR3BxeWhQaGxyNGJCOVMwZEc1MUJjcDJyMWMxWUlvX0NhLUZUTmJzX1drcE9LYXZ6UUpzWFlsdHhqUDhxdm1pVXIxVUU5OElhekoxaXVwazdFRlVMWGJEa3VScXhtMGY3R2RLYm9QTk5oRWJ4dWgxMXEtSFdEWjRrRHFJZVNJTlQ0Ul9ReHR6MVdxQ3ZXb1VGRzlldnpLVjhSNTA?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 09:06:00 GMT"
+    },
+    {
+      "title": "La Junta de Castilla y León niega que hubiera pedido la retirada de 'La bola negra' de los cines",
+      "source": "ABC",
+      "summary": "La Junta de Castilla y León niega que hubiera pedido la retirada de 'La bola negra' de los cines ABC La supuesta prohibición de Castilla y León de proyectar ‘La bola negra’ a partir del 27 de octubre: el Gobierno autonómico y la distribuidora lo niegan y cinco",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcENObFdIUl9QX3UyQXVSelNrM0dSRVNueTBKTjF6NVVFVzFoX3gzekhhbHh5SVFwVUd4QU5VQ1FUUkluTTdlTm5fSWVmaC03c3hoOXg2bDFRRHVCUDgwcnhpaHN6SDdzTmpMTVJIcEpZTWx1OUNBbURiYjRVRHd4Nk5FQUNLT2h3QTR6dy13UTg1M0hoNTlvbHpoWTFUQzVTOFZsLU1oQVY3SE90NHfSAbMBQVVfeXFMT0hQcHJxNWZQeWRkbE9MRHdZdXVYNnZkano5R1VBc2lCZUdSZS1fVXlUZzNNYktLQzlCTVg0VTBoRmhJTy1SMEdfN25VQ2xfdnp3cG9oaWtoWmpyRXBOZER6c21wYkw3ai1SWHhmQV9jdFpLU28yT1cyd1pBWTYwU24xY0s2elJnZkp0bjh2YVBfQWFsVUVSd3k3a3dVQmhGRzM4Q3RLTHVKV2pLMXFHcHR5RzA?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 16:11:00 GMT"
+    },
+    {
+      "title": "Pedro Sánchez arrebata a Rosalía el récord histórico de audiencia de «La revuelta» con 4,3 millones de espectadores",
       "source": "La Voz de Galicia",
-      "summary": "La ministra Sira Rego tacha de «pollaviejismo» el discurso de Feijoo sobre feminismo La Voz de Galicia Gabriel Rufián ve la última entrevista de Feijóo y lanza un pronóstico para las elecciones: «Si este tío sigue hablando sumamos mayoría absoluta» ABC Eleccio",
+      "summary": "Pedro Sánchez arrebata a Rosalía el récord histórico de audiencia de «La revuelta» con 4,3 millones de espectadores La Voz de Galicia Jordi Évole avisa a España sobre el resultado de las elecciones tras ver las audiencias de Broncano con Pedro Sánchez: «Algo s",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPY2NVQ0d6YXdPRTBWZ1EyZkJfeTJVb0FXQ2ZBN1Fhc0EzY1NUOGFfXzhCY0R1LUhNWjd0X0dMSGFFXzBtbUVmaDRnci1fNngwS3F6Zk5KZ1F4SHE4TDFxUEJ0dDFfeHhRcm5MZ3BCRzRFNlBRamhpdlZsLWdaR2JPLVdLeFpKdXF5UzFOc3lmS3Rfc3RGZGtjNEtZUGdCUXJpRWN1VHBTQmpxNUFhMGlWYzk4NUhkNDJYNGJPVXlYeWMzTEVQbjJqeWJhQV9Fd3BJUVFvU3d3S25PY0pCRC1TeUZxR1lIUjRDcEHSAYYCQVVfeXFMT1k3VGhfRTVkZ3ZtY1pSdjRJckNOMHVBTlZDNmFSSzFOLWhGeUlueGRCb2s1X0dEZnVyeVc0NEFMTGh2akhteTd4YXhaa01hS3lHV0xsVXF3bDhIN2hMREJYRUZZSXA4NjVBc2xDTDQyVDZ6ZUR4RW5SRUFZUnhLVjZuWXhiNmM0aXo4ZDFsM0lKb3RqR3NLZ1R1OWdfWUd2WVlUbjlXT2M1RDdQR3ROejdKV2xieVJkbWFVOXVPVjNjaVJyMXdXU0VKZXpqeHlScm5maklacEdUMFM3N0Y0dWhCV25zcFpDN3VaNjRXdVdqMVI1cWdLQ0x6MTBPYklkLUlTU2s3dw?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 15:00:13 GMT"
-    },
-    {
-      "title": "Muere a los 76 años Augusto Delkáder, periodista de raza, miembro del equipo fundador de EL PAÍS y expresidente de honor de la Cadena SER",
-      "source": "EL PAÍS",
-      "summary": "Muere a los 76 años Augusto Delkáder, periodista de raza, miembro del equipo fundador de EL PAÍS y expresidente de honor de la Cadena SER EL PAÍS Muere Augusto Delkáder, uno de los fundadores de El País Diario AS Antonio Yélamo: \"Delkáder fue precursor de la r",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOYmF1UnNOdVlGSFpLcnZ4UTZqT1B1a0pfbmp6M3hjaWxKU1o2UUI3YXZXckpreDJxMEhGTjB2ekk0cGlaQXNpWmhjM0Y4dm5hWlJkNmtJejkzY3ZEMVFuTXBqRWdMb085MV9aNjJfeWtxeHpGeWI3YnB6REdldl93eXpWdXlxbktIYkdGSzZRcEg2bjJvMldJa2JTSTZ4VTJyeFhzNEV0TnhYUkg3c1lGMG41dlgycFh1UHFpMTg1Zl9CVE5pREFtZWx4RUhyYjAydm5FWFJtOUlJLWFWUmVzWkNvMXQ5RGhFa19qejJTZDlVTnRobGRCYllNYXdTS1dBMWZUbGhUWWs3WlVjTkVkRg?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 14:07:04 GMT"
-    },
-    {
-      "title": "Aprobado el reparto de más de 72 millones de euros para programas de cohesión sanitaria, prevención y vigilancia de la salud",
-      "source": "Ministerio de Sanidad",
-      "summary": "Aprobado el reparto de más de 72 millones de euros para programas de cohesión sanitaria, prevención y vigilancia de la salud Ministerio de Sanidad Ver más titulares y perspectivas en Google News",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fZ241YW9neWpDaVBXc0I5Yzc2M1hvTHZxSDdfbGNfMDI4RTgxdERLZkJfS2ZodnZZQmplUXpYUnhIT3VpMDZkMUlwX2gxVF9KRlNxVlhBMUVSVHpyelQ4ZWp6RUJRSmR3UHFkbXhn?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 12:38:10 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQmxJT3gzX2M1TTJoT2VWOU9XWWktUm1BTU93NFlkSnlEU1FRR3lhMEJrT01FZnNUMlVFUnk4eWlWMERtLTliT1RLWFlXMnBZd3hTaGRXTTFpdGFJM0NYYk5WMHhLdkxCV25jcGxWTnBSQjdqVURNZjJzdUZPYWUzNGhPRW1hS3RXajdpVkxOV2VtTW1TaE1Mb1JMc29qcVhkZWp2dDdOM1o1LUJjMzFZQldOSDZHYUt5djM3YjA5RHdNSmZOcEloQzRtY2VsZjlMbnRpZmdYRmF5OVdiRUNUcG9jVDI5bmtWNlEtNnE4U3ZsZ0M5N3ItN2ljeHhOQ2pXaVJQTUpIOTFmUU3SAacCQVVfeXFMTzJleGlkUmZGdURrVGgzSTRIVW96N2hEX3dfX1Z4aVAxb1RMWGxROXgyTDF1M1ROa0xHQVZhY1E5Z2I4TE1tN1E2Tkcwa3dBR3lONWFnZ1ppZWJ5czlueWdTOG1uM3prNnpOVWRCU1Rpd2g0azdGV0pYVlZsaGh2c1lvWjBsMVg3VmpSN1BfclFNOXV2azBvNEZTNGhjOEx1MlRWM2NCYzJfcU80M3RrcDNLZ00wNGtKTVI4cl9rbXRuYlNUSU1HVjVhVkd3ZHNoSjVTRnVpcV9HSFlvRVh4aUlQVUNrU2VJUVcwWFZVaVpwZkthYy1wdW8tOGUwUTc1ZFhlbWRJV3lmUjg0ckVPWkNWREVCb2NwQUp0NFh4Vl9OZVNzc0Vndw?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 07:49:00 GMT"
     }
   ]
 }
