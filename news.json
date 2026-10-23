@@ -1,31 +1,39 @@
 {
-  "updatedAt": "2026-10-23T01:47:41.743881+00:00",
+  "updatedAt": "2026-10-23T07:14:46.448291+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Sánchez, en «La Revuelta»: «¿Qué nota me pongo? Eso se lo dejo a Tezanos»",
+      "title": "Sánchez responde a las bromas de Broncano sobre su futuro en el Gobierno: \"Luego me dicen a mí que esta televisión es mía\"",
+      "source": "La Razón",
+      "summary": "Sánchez responde a las bromas de Broncano sobre su futuro en el Gobierno: \"Luego me dicen a mí que esta televisión es mía\" La Razón Sánchez con Broncano: sesión de control del buen rollito EL PAÍS Sánchez en 'La Revuelta': \"Se acuerdan de mi madre, yo también",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNczRJbE90UFlVMXpmYXh3WnNGUHZUcm01RmNheVFlNnJadTVTaGZUUGtEUndrZkVCYUl3Nkx2RHBOMGhfXzdLMkYyMG84cDdLS05PQlJsNXNVMzJ3V0FRel81SF9QWHg3V3IyUmVldmF2aTQ5VFk5dm9SanI1X250eU9VY1ZwY2lQNTk5NDBNNWdpdE5iZlp0ODR5M0NjWmlfRnpBMVBvNW53WjFCeExvRG5FWk9UZWozc3RQVkxxcGFDeGlIbVM2SC1aNHkwUVVxNGlnQ3RSRlZDWWpCWENkbG9WS0NqTXVsd2R5SlNn0gGCAkFVX3lxTFB2UVdXa0Zzb0txQ1Y4SmpyTGxPVENoa0c0SlJaWmE0S1ZCNEVQcV9ZbzBBN2ZPSmRWcXZ0TmszTEhlTF8tZ3dRd1pweVlHc1VURV9KY0ZYQkhXWTFWYmlPUzlFWkVIYjlkdVRSQzBqQkRaSDFablBCRFNHZU9ZdTJmeU9QRXdvRGdiOG1WNnJpeEFla0hJR1pUb0RfdXNiTHNIbmNRSXhqckhXOG9hQ3kwc0ZzTTBUSk1tRjdIN2tmdzVQakNzZE4zYUdJV2tuREFlNzdUMG0yVU0zZW85TWtzRks2YUpUekNLbE10YUtCT281T1p4Qmx0THNRcW5xSDNZZw?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 20:52:31 GMT"
+    },
+    {
+      "title": "Feijoo elige a Cayetana Álvarez de Toledo y Borja Sémper para seguirle en la lista por Madrid para el 29N",
       "source": "La Voz de Galicia",
-      "summary": "Sánchez, en «La Revuelta»: «¿Qué nota me pongo? Eso se lo dejo a Tezanos» La Voz de Galicia Sánchez con Broncano: sesión de control del buen rollito EL PAÍS Sánchez asume el error con Ábalos y haber podido gestionar mejor la situación en Ceuta ABC La banalidad",
+      "summary": "Feijoo elige a Cayetana Álvarez de Toledo y Borja Sémper para seguirle en la lista por Madrid para el 29N La Voz de Galicia Cayetana Álvarez de Toledo, el valor de la palabra y la ambición política El Mundo Feijóo se refuerza en el Congreso: portavoces de la l",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbVhtRnRYOEpLSVhHTHI0c1FHNWp3NHdJQlZEMkpOTTBsZmRwY1dSQWo4SmNXYXBiVFh1OFFlV3I3bFpib2tGeTNSUWVtUmc4a0k4MExiV1FoQlo0bGtfMGtmcV8yamxScU1weklEVUdySTRJNXJvUE5acGd5NTNEQjE1RW16ZDYtLTdJZ1hlTTFBWHlTMEktd1pKNHdLVmVLLXh0Nlh0UUtzRlVod1hYSE9FSDNhaVZJMWNKTWRRTEVOOFd3RUHSAeIBQVVfeXFMUHYyVDN4Sk5ndzA0MzBvR0Y3cTg0aTNlckpzWktXeXdZa251WE9Fak8tTDVNVnJjV3lhdm0xWFFXeGdOcDNkOGNRcVVTRXNJTkpUa3dqNVVGd2FkdGRJNG9SNFNJN25mR0xtcC1MZTB1MUtvZVJXcWM4bC1wXzg5RzFSOVc3QU85R2hub1NYeUNnUFlSMU9tV2N6aXF5X1Zxcnk3TldkdHVPVmRoRm8xQ2dpRE1WWUZwUS1rNk0xWWFCcF9kYnBXeVJwczYtVXZ1WTU3MnlmdVZhYmZBcl90ak50Zw?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 21:14:50 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcXI5V0JCNG9SXzFlNmpoYzFHWFRSdXJqTXRoRDBTWmNvbVVrdUdJSlBheFpYcHNvYzVxYTNyem84UXlCcklsWkFoY2FJallyaEU4VUZHV0Q3SVhCS3l6WWFoZjluMFVlZVlNUEg2Z0FkYjdfWnZzaFBRWndoLXZrTXRLZFJ1eC1VeUdZenNLVTJRVzNYTFN1VEItUDFPWl9HLWYwdmZ2dTRJTDdWVWxMX1AxVGpRLWlnd1Etd3R4UVQwMUtXaFl4OGdDMGN4Zk9tbVFVWWJ3Sk8wWFAyUUVUZlVMak9fNkNGZV9ubUUtakk?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 09:11:58 GMT"
     },
     {
-      "title": "La Policía Nacional localiza a 74 migrantes en situación irregular en un inmueble de Ceuta",
-      "source": "ministerio-interior",
-      "summary": "La Policía Nacional localiza a 74 migrantes en situación irregular en un inmueble de Ceuta ministerio-interior El ceutí de la 'casa de los horrores' ganaba 1.000 euros al día con 74 inmigrantes hacinados, les esclavizaba en obras bajo su control y dormía con u",
+      "title": "El PP recrea con IA la imagen y la voz de socialistas o exsocialistas admitiendo delitos",
+      "source": "La Voz de Galicia",
+      "summary": "El PP recrea con IA la imagen y la voz de socialistas o exsocialistas admitiendo delitos La Voz de Galicia El PSOE estudia demandar al PP por un vídeo hecho con IA en el que suplantan la identidad de Begoña Gómez, Zapatero o Montse Mínguez elDiario.es ¿Campaña",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOd01pSE82N0ZqTjk3RjFNc21TaHhacUdjU0l1SC0yUk1IU2MxVmI2YWJjelgtT1dLR0FvQk5NYTA4VlppWlBWTFdwdHNhams4RVdSdk13ZlFkTWtweWNOYmVpLS1kdXdhelNEVWZqdjBsU3lmU1VYUGM2aDRNNTlsc2ZyVDN4N1B6em93X3VNYkJOZHp3c3Y1UEFxclY4VjFaYUh1VXVjdWFKSndKT0ZfV1Z0aXVGSFpMS1Azb3BDaUNsN0hTdUtHRy1ybWQxY2RlX2liZE10V2xHd2tQUGVWUXpkMzMwem1iZFNZLVdR?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 15:46:01 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeGVvRno3NklNYzh0LTY4eFNyN0ctcUJsbTNLa2NKVmNVUTZWMkhfSnh5WmdVWHRTUHFSMjVBVVprX2loYlRwU2gwVFlvQlY0anVxcWVsSWVocmdlRjBpZ2hka09ya0NxRkl4YnpvRVgyc0lEZzI2c0xyY0poemhhNWlESVJUcDBWSFUtRGZSUWlpTDFoa3lqWTRRUnl2MEhtMmFJb1JwTXd6ZG84RzEtZ0JlV054SDBiTUN6ajBJWFRlNGRCSzUxYVJQdjYzNDBBdjNoZnRPUm1jc2hwQlRIWVlVSdIB_wFBVV95cUxQTVBibzRub3BnQ2FaMFVKSVdyalJucmk3b3ZNdWJkbnpmY3pIc001SFRJLWxKTnYxdWQ0VkxEZFBIMWRNcklQcGJNOTcxYV9jSnFSWlR1ckxoMnBiRk1JZmJ4cDJUWXlKckpnRmV6Tng0MEotOTZKMnV4Tm5QdURrYy0zZGJteWE0clppMkkwNV9JZlBtZTUzcnZXNnBlZURhbTZfaThTa1NiQ0R3aGFJUnVwWUR1bTVEa1FETTBWYVlPczh1RWVSN2Zrc29ZbHRkbFBPT1gzbzQzRWhYck5TWGd3RHl5VzNoZzdKdTJ5NGxXS1NpWnBHZGJYNE01N0k?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 15:25:05 GMT"
     },
     {
-      "title": "El PP hace equilibrios tras la controvertida visita de Milei",
-      "source": "La Vanguardia",
-      "summary": "El PP hace equilibrios tras la controvertida visita de Milei La Vanguardia Milei agita la campaña con insultos a Sánchez y abrazos a Ayuso EL PAÍS ¿Es aceptable? La Vanguardia Nueva Economía Fórum responde al misterio sobre la falta de patrocinadores en la cha",
+      "title": "La atípica huelga general de CC OO y UGT: \"No aspiramos a parar la actividad laboral sino a lograr movilizaciones masivas\"",
+      "source": "La Razón",
+      "summary": "La atípica huelga general de CC OO y UGT: \"No aspiramos a parar la actividad laboral sino a lograr movilizaciones masivas\" La Razón Los sindicatos piden «paralizar Canarias» el 11N para dejar de tener los salarios más bajos del país Canarias7 Marina Borrego di",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQVBKSmkwaFRRdDJfcm5DeWMwdUphVmIxXzBfNGtfYVJuSy14cWE5YmhxNld6VjVlT3BxYVE1RnNWQzh1bWxLOUhvd2pQVzNSekUxSkJaRDVFMU1tOFJ0RHB1eHhNcmdQTmhjd1dtYzE3SVBKRDBxdnoxNExpczNKZXdna1p5NnI4M1hLOXpSWUdCc2xoNlVUcnBIRVZjT1dIRU1JNtIBqgFBVV95cUxNRGtKcUpfNHlxWUwwaUM1ZEVUWV9IWkxiNU42ZEdOdFNrLWltb3RLSmp5NVkyUjVKWGhSeGpFbVhuTk9qYnBZVXpSRlh0VEpvSWlLSUlaNldpTG9pMXgxREdUWjUtXzJ1NnJYZmliaGg5LXdmZmwyZEl6VE9MbzlWQVVKX2JOWE5HQnB2SDBIdHcwcWNCSDVHNmZJaWdNbHJUM0o4NUVkaHVsQQ?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 17:48:24 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNS1B3TXVucVhmdHU5c1JmdFpjV3UxeHh2Nm54YW10U2tacWw1Q3B6X0Y5QjJsYTV2ZTNhdmhyaVNyUTR1QUpCUktiYUxRemdPMzZISkV0dDZuQ0lGbFFLRk1mRi03aFlwLXFRRlNhVHBZN21TZ2dkSUN5aUxjZU5XNi1wdTN5RVVmN2lhWjRyRWQybTh2elZBQXAzc19WMVNrbXpBMkxTZk9JckcyemFSVW5zWEkzU1EzaEVxdlk1eGFwLXdWOHJvcHBoY09jQmliZ1JaTk9pdUp3NnB4SUxENVVOcTI0aTJZdVVEZThZVGhMUWIwejM4ag?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 21:44:17 GMT"
     },
     {
       "title": "Tenerife se prepara una posible erupción volcánica en la isla",
@@ -36,36 +44,28 @@
       "pubDate": "Thu, 22 Oct 2026 15:30:35 GMT"
     },
     {
-      "title": "Francia al borde del estallido social: cuando la crisis económica toma las calles - Pressenza",
-      "source": "International Press Agency",
-      "summary": "Francia al borde del estallido social: cuando la crisis económica toma las calles Pressenza - International Press Agency Macron anuncia restricciones a manifestaciones en Francia y convoca un Consejo de Defensa RTVE.es El miedo a nuevos disturbios amenaza al t",
+      "title": "Cambio de hora en España | Cuándo hay que atrasar la a cambiar al horario de invierno 2026",
+      "source": "El Economista",
+      "summary": "Cambio de hora en España | Cuándo hay que atrasar la a cambiar al horario de invierno 2026 El Economista Cambio de hora octubre 2026: ¿será el último? ¿dormimos una hora más o menos? Todo lo que necesitas saber RTVE.es Por qué cambiamos la hora en España dos v",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbHlXeWFpaWNsd2JhU3E1X1llbnBEcmVXX2VKZEtKa01YMUo4cWJZSlIzVjk0dFNfYnFKMjRnLUo1Q01lWV9KNHFWNG1GemUwcy1tQzlWV19uS2RxbFNMckRmUUk5czBVOHhyWnNrMGhRYWJTWGNkYkdESDVWc1JFSlhqeUVLVEc0ZGRLbU1Vdy11cU5BWDc5NThxS0lmMVFDaEg5MXNMZ0k2UE91M1B3ZWNVdDF2YWdKOVE?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 20:14:27 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZjdCZ3dLbllnX3JGaDNsY1FjN2tyWkdLQjZmUlZKaC1NMGswNmNDR1poN25KUk01RXRnUTJMYkRYcmpLQmFDZy1vZVlOZlJjMlg1ZWtWYi1PTkVQdU5iM09jU1RuV0JEdWZYYm8zaEl0S2dySW11UW9IVkRDVVVPck1vaE1iZlVaRDNIcjNEZnlPQlpxWXNETVBUWVNldWR0UGlIbVdVY2lSdFU4VFpnSmpiMkU3ZmNBd3BoZFZQWTNCN29ZT1FfcFVfbk1JN1g4cXRyb3gxeFdZa3B4N2l4SFZEQVlQRlVZX0pQaEUzWdIB2gFBVV95cUxPVWFteVpjSTBCUWpySHMwbFllajVmWlc4SWZGOHVmZTg4Vjc2aS1GTEVBN3dLaml2Y1FLUFA2VzFIeEtTLWE4bVNqdmc2MWtNaVVkWEduV0FTejlTTVotR2RJc3dySnhsbzlja29yUXAtcGRudkpqQ1BIbEVHaWQ2R2FXWXd0Qng3TElQNE1qbUtOSTI0YUNRb3dBZVBuTjZiMW1ZaU1aOUo2NU5pc1ZLdExKbWlKQmpNVlJLNE9yTXZCSUluNkZUM2Z3QmppUG9vTW9NX1k0SmlGUQ?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 12:25:47 GMT"
     },
     {
-      "title": "Vicente Vallés, sobre el revés del Constitucional al recurso por la ley de nietos: \"Moncloa pierde esta batalla preelectoral\"",
-      "source": "La Razón",
-      "summary": "Vicente Vallés, sobre el revés del Constitucional al recurso por la ley de nietos: \"Moncloa pierde esta batalla preelectoral\" La Razón Tres afectados por la ‘ley de nietos’, ante el Supremo: “El derecho al sufragio no se puede suspender” EL PAÍS El censo cierr",
+      "title": "Ana Rosa Quintana y Nacho Abad condenan en Mediaset los insultos de Milei a Pedro Sánchez: \"Inadmisible\"",
+      "source": "elDiario.es",
+      "summary": "Ana Rosa Quintana y Nacho Abad condenan en Mediaset los insultos de Milei a Pedro Sánchez: \"Inadmisible\" elDiario.es Milei agita la campaña con insultos a Sánchez y abrazos a Ayuso EL PAÍS La historia detrás de \"Fanático\", la canción que Pedro Sánchez ha dedic",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYThzWW9UOXRpWE1HWk5lREJvNWRSZnU1VFp3N28wTGZabjhaYWpzMFJOM25Na3FnRHQ2OWpBTmdzWFBmcEpjMXMyUnVmQzR1R2xkbFFIRGtKeFFLZnBaZVZWN21BUnV4WTM0MDNxNkMzaFIyUEVJLWFrMWhNTTlkdzhaZUtZS1lVdkphd2kyV0VSU25JUWh5ZUR1NGFrcGNSbnRvX1dPZkxWV3owT0xoSElFZXBJX1djYlFVRWNVc05qNEZJcFRlbzBlR204SEMxcjIwV1I4d29OUm5mbEdjcTNsbDVwUHRYU3hGM1kxM1JpZ3BQWjEwUTZ2VdIBjwJBVV95cUxPTGVpUjJsSTFfdUQxRS1pT2FXYkFtel8xamZRT2xTVVdPQWhCdHRXZmJQT1p0dVU3cUJGcnl6RFV0VTlReUZwRmhHVUdxdjJ4QTUwTWsyYjJGU3RBR25sT1VoYVpuR2tjS19jTmtfMXczdXVhcjVJZzMzX3R6aWFhVlZyNHRvTFBFVW95Tnp4MUFaVWZkd0tBNkdTMlZqT2xXbjZCV2xidkFhS3NtTVk3elY2RWlNOTZtY2o3eGVqQjNwNjhnVjFCVjdsRGxFNEI0WktDWXVuR0lLVFNMMGlkV1RQWmctVVVUckpPNF91alJ2NGpmRVNpVU1raU5qa0pVMEhjMzZWb1JZZURyMjZV?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 08:06:43 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORk41UTVnenNoSUFMTkphOWhKRk51VXQxS3llMzhYdWQ5YkRfUXpKYVg2TWpEWFROVE1wVkhZQ0c3dWhOWUlHYUtoc0JwVkRaR2haTjEzS0ZDdGdtUHh0eDBndEZBVG9zRTNuaDRBNUU0Mzh5N2JodWdaR3VPRzlfQ2lHTzRDNC1sdXh0bmd0WUpxR0llcjlGZXI4Qm53aTItV3VHeDJ4cEJFWld2SkxCNE5wZjVnVzJ4c29QaHB4WUNXLW5IRXUyWDYzMlhtbUtSTXJvU2E4THlINE950gHiAUFVX3lxTE1LMEE1Vy1XX2FuNXBLMGp6UlR6OG9VcGlBbjE1eEhZbGIzS0FEUjFGWEkzYURPQjlrT0Nsb2t0clVSOC16cHNQcjVWQXhRLUl1VjhXOVZOSkFaazNBT2RVYW13dEtYMUQ4NEpnLXcwcUdNWFVua1V5Mmk3RDlROHE3WkdsVzEzckVXV1F1VjFoaXhfSkNsdTBibl9RSXYyYnpCSV83MDQyTEQ0LVlvcmo1T2ZTcmZVSzM0UXppM0tTRjJPeGNZdWRzc0tvT0xqWDdFcFZZanpJbmRxZ3ZVZE5UWVE?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 13:59:25 GMT"
     },
     {
-      "title": "El Día de San Rafael trae el cambio de hora a Córdoba: cuándo hay que retrasar el reloj y consejos para adaptarse",
-      "source": "ABC",
-      "summary": "El Día de San Rafael trae el cambio de hora a Córdoba: cuándo hay que retrasar el reloj y consejos para adaptarse ABC “Una hora más en el reloj no siempre es una hora más de sueño”: los consejos de Alejandro Pastor, especialista del sueño, para una mejor gesti",
+      "title": "El Atlántico entra en fase de ebullición: tres borrascas explosivas en una semana",
+      "source": "La Voz de Galicia",
+      "summary": "El Atlántico entra en fase de ebullición: tres borrascas explosivas en una semana La Voz de Galicia La borrasca Austen golpea España y la Aemet avisa: fuertes vientos, lluvias y olas de hasta 8 metros en estas zonas El Confidencial El tiempo el 23 de octubre:",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTTdwUHpXalJtLWxDaEtEbXA1R3FqZUxlQlNlZ3J6bnp5aDB4eXkzaDFON2hONUhtZzRtbk1rQllXeDdoV2VRZmpGZmVpN0FVT21CcDlwcDJRS3VCSzNvQzBfSzhySkhGdDV1c29UbXdxWXJ2bzczOVZsVVl4OGNsUVZRLTVCQV9LSW5GS2RDTVUxLXpJX0tKWWRfay1td1NPd090SlZDWWp5WmvSAbABQVVfeXFMUGxFdDZWVmE4VUN1UG5Yc2N5UFhVSVdQeVc4TUJUWHJnZTE1eEJzZmFhb0pCQkVHdWh6LWlUZ29wYXRpUk1KUzF0b1B2WVlCV3lXdUpPWkZwUzFVeWNkZnhtRkc1U0w4aWJ6eFdhRWMzT1ItcHNGelFFYWlDekZxUmozUU94WE0zdGZkYmdlTE1LMTNPUDJWQmV2QjRaUklFRFVYa01ZaUpSYS1IVkx2MmI?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 09:58:44 GMT"
-    },
-    {
-      "title": "Álvarez de Toledo, número dos de Feijóo: la defensora incombustible de la libertad",
-      "source": "Libertad Digital",
-      "summary": "Álvarez de Toledo, número dos de Feijóo: la defensora incombustible de la libertad Libertad Digital Feijóo confirma el ascenso de Cayetana Álvarez de Toledo como número dos y mantiene a Sémper como tres: \"En el PP caben todas las sensibilidades\" El Mundo Arist",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZkFPazFudXM4Y1NieWVybjJSVGVnRWRfUXIwSlMzLXBwdzBraFpfdzRBeHltRnNFN2dJX0FHS2ZYeW5SQUtlQUwtQUY2VW9tcEFvZTcxUVI4YXE0VTlwMGpPbnE1NFlqZ01oWHF0TlNTTlB6M2FWd1Y4eTNqRUVSWXF2dEV1NEthLTlIbnJrMkhqRHBCVFVkVll1N3ZYeUF2ZnNGX3BWdGFUdnJXaVFEQkZaSWQxeFhIQTUzUDNwck9ULWZHeUE?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 07:48:13 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNd25aU3E3YXFMYkJ2Y3l4QmtSal83OGJRYlhWZWxlYXNKZWRFN2ZCT3RCRXVDYWJOaVJ5TjBScUlyZl8zT3dlcFRjY0NaUFVnbjJuVTVzSFBaUkZxUEl0NTJZU2s0d3EzU3YyQ0hpYzJ6NEJVUWdObGlwQ0FzUHVCRjhSaUpXWDhUWGkxMzMyVlpTenNRQ1o0VXBTZmExN3VPQUhLZW9xWUZXSEpfV3licF8tTTJEUXptTEptM2ZMLW43OHR4WHY5WmNBZG1BcENGb3F4UTBTX0VPZG9KTkM2d29wd9IB_wFBVV95cUxNMzU1aHAyaWlVekkwMmlCakUzV1JYcEJXVHM1clViX2FGVmVPajZ3Q1dteW5ZWldudGpWUFY2Q2dVYno3ZW5sQmZYTms4bmVjTnUyZ0NmT0lqaFJQMGk1eDRra1E3WHE1VE5JampuQ1pIRzVha1pLNmVOTUxuQS1jVlN3SlRPc3hkclhEWWdsUFJNVElDc2IwN3QzWjRCY0EyeXVpdnQtRDlDeVpRbHhRUV9taWh4QTVPMjJJNkpzS05yNHRGOURnWnowdG5ZclpZdlFOM0c3R293N0VTeEtuXzk3OXFNY04xalU5V29RdGE4RmY4SS14NmcxNXJGdEk?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 13:42:51 GMT"
     }
   ]
 }
