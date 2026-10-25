@@ -1,15 +1,31 @@
 {
-  "updatedAt": "2026-10-24T22:19:34.493914+00:00",
+  "updatedAt": "2026-10-25T00:28:04.436982+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Los Mossos cargan contra manifestantes en Barcelona tras el lanzamiento de piedras y botellas en una protesta \"contra el sistema\"",
-      "source": "LaSexta",
-      "summary": "Los Mossos cargan contra manifestantes en Barcelona tras el lanzamiento de piedras y botellas en una protesta \"contra el sistema\" LaSexta Disturbios, saqueos, quema de contenedores y tiendas cerradas en el centro de Barcelona por una protesta de jóvenes convoc",
+      "title": "Un centenar de jóvenes, convocados por redes sociales, provoca disturbios en Barcelona",
+      "source": "La Voz de Galicia",
+      "summary": "Un centenar de jóvenes, convocados por redes sociales, provoca disturbios en Barcelona La Voz de Galicia Disturbios, saqueos, quema de contenedores y tiendas cerradas en el centro de Barcelona por una protesta de jóvenes convocada por redes sociales El Mundo U",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY1FOdUs5RGlDeVliNWhib29UZTlUOU52dUxxV1l5U2tfbS1PdDVoRUpmWlZMR05VOVE1bFNMU2ZGb2laV0NjNTd0VWk0SVNwaDF5ajhjMFBsOHdkWHVXQ1loTzM1emYxOUtfZXNLNXBQMEZ0eVlHbjFmVmE5aEc2dmJ4NlR4bnNhUjlndTZ4eHRvb3hxV3NJbWRxRHR6c3lVUnlEbXg4R0t2Tk1kZkVXcVZ6U1FDSjJkN1FQSGlEazIzcUNhVFZmYm9Da3F2eFBxUWZZM1dRWEM2aUUxcVdOTU9DaTBWZWY3cWfSAeoBQVVfeXFMTXRacTFfYjN3Z1IxLWFCNFkzYm40YmdVYTg5bDN5SG1NUXZZMGdIOU5CRlN1bzN4MDlGZThodlVEUzZ6endjcllZc0k0RU10dnpNUkpvdWo1TVNtbkFZUy03ZkxuaHc2bm05Nm1WSlFBOW9feVU5U1ZySFdUVWpONGU2NzAydldVWVkyTXhPN0pnYVFOVlRCVDBmZUhId0paWFZBSG5CUHU4OTFrX0hBZXN2QkdYNHI5OUVuQWVrVHdSRnBqZXFoSGREWUw5T2d3a1FDdXFtVko3SWFWOXRzOGJmY2pXRU9JUE5B?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 17:13:06 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS3ltWWZ0VEx3aE1BRTIxenM2STBmUUlpWW5aSDVoajI5QVQxeFZDMGpkakpCQm42UGJ6ZHZDa3NPOGoyMGlVUUFudGFpejhfTk1qLVhzMjhYUGlkeE9YV2QwMG95aFNabUwwZm9vX2xBSlRtZmRNamJEVy12Nm40cFNFeDJVNngzd0NpeFprbGRSS1U2cG1qN0gtT3Q4NlBIc1QxZWZTVWNSQmhvWXkyV05iM3JIQWZFMVA4N1FUWFowZ1BwdW1MekRSR3dwdVZpeDVsVWlfWFhheFBueEF3bXhUY3c0NTllaVpV0gGHAkFVX3lxTFB3TG81b085blJ5R1IyMjNtUnBTU1VUWFgzMXdra2djc0dGMXgtRWdkX1o4NFFuRDR6NzY2cjktOE0wQ2RLM0Z3M2k4R2lmSG5LT3drbmVCSXdyZlR5dkFfdG9CaFhQODByZXUtNUVmeG1BcE5GaG0zUzJUOHIxTU9ibTlROVRBcjZQTGhtWlVlX05SMHFPM1dGLXVaN2xnOF9qS1psY2ZxMDhOSnZHWWV2UC1KZ1dMVDVDc1B5d1ZyS3I1QVFnZFJjTnpuSlRlalpOWm1FdmFNQ3lPTm5yWTRlaVVpN192b2hLSndYQkgtb1FxdjhKNmFFejFWVnFSeXNfQTlBcGNV?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 19:58:47 GMT"
+    },
+    {
+      "title": "Casi 1.000 detenidos en Francia después de que miles de personas salieran a las calles a protestar",
+      "source": "BBC",
+      "summary": "Casi 1.000 detenidos en Francia después de que miles de personas salieran a las calles a protestar BBC La violencia política desborda el blindaje de seguridad en Francia El Mundo Estallan los disturbios en Burdeos tras una jornada de manifestaciones pacíficas",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LVmV4alFmdHF5aV84a3dsUkpPS0hUU3RtX3YxWTJRQmx5VDNwY3d4VVMxOHlubGpCaHJ1elhwQi1zb1FaQlhENE52a3FPZFVnTG1qVEdsYkdXOTZn0gFiQVVfeXFMTnA2SlVpZmlWUzd6MmtqMGtxN3k1SmstV19oNUlBTEwxSWZ4NEZCemViMi1MckNMMWg0NWxjdndnLWx5LVFYRGd5VnRKVXBQOVZnMEd3VlpMbEdlaGk0UFR5cEE?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 17:40:53 GMT"
+    },
+    {
+      "title": "Feijóo acusa al Gobierno de \"crujir al currante\" y dice que el \"muro\" de Sánchez \"alimenta a los extremistas\"",
+      "source": "LaSexta",
+      "summary": "Feijóo acusa al Gobierno de \"crujir al currante\" y dice que el \"muro\" de Sánchez \"alimenta a los extremistas\" LaSexta Feijóo advierte al PSOE de que no va a “indultar corruptos” si gobierna: “Me encargaré de que paguen por todo” EL PAÍS Feijoo en Vigo: «Todo s",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUThPQm1OZkxjcnJLTWpTdmlJdUE0QjNMSnZmUWlQaFhZYXdVbGMzZUJpY3psLVByektNODE1cWJtZ3BvMUtpczBnbmJ5OUdJR21FNk44V0NEQ2FMVjZaUVVzV1ZkRVpjOGNnY3hvcHh2M2h1NFRkT2QtZnpuWjNmTEpDanZLNzVSdWF5U2M0ZVJ5V3JVdFZIQXQ2WWxvQU9wSHU0WmljaDFCSGEzc1hCdTgzYVc4SmI4X2k4WDdfb0h6SXFKakc3Y0VNUFV4WjJ0bnRXU0hvZTR4TW50WHgwcnU4V0R4Z1lzLTI3eEdXbHJ6c18wcnfSAfYBQVVfeXFMTlhNU2pfRGdETm1zSkprOFBNVjUyZWthMzBDRS15UE1Vb2Z2eUwweWg2X2dGZGd5MmthUGg5SEthWnRiX3B6cXVvVWhDZ2FiZmhiTkdqekxZQjVSeUx3a3NMbTZyWFluTjdSSDk0Qlg2S05ObzEzZ2RyV1RwSTBfT3VNdlFGRXhLY2RDZEQ2enVaRGpJSTJOYUdLUGlDTVZ6NGV1ZXI0T1ZqZDJKUVlEM3haRmFjQ3dtZzNwNVJWMGhZMGlKV2ZkNmk0QTN5Mk1RNlpNODFpMkpvaE9FOGFEc3pJVjFPM1lBYXlkU0U4ZVBnWGc3V21B?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 12:01:36 GMT"
     },
     {
       "title": "Exteriores refuerza el personal de los consulados para acelerar la presentación de la lista de la \"ley de nietos\" tras el ultimátum del Supremo",
@@ -20,44 +36,28 @@
       "pubDate": "Sat, 24 Oct 2026 13:51:05 GMT"
     },
     {
-      "title": "Feijoo en Vigo: «Todo se va a limpiar desde el 29N barriendo en las urnas y no les vamos a indultar»",
-      "source": "La Voz de Galicia",
-      "summary": "Feijoo en Vigo: «Todo se va a limpiar desde el 29N barriendo en las urnas y no les vamos a indultar» La Voz de Galicia Feijóo advierte al PSOE de que no va a “indultar corruptos” si gobierna: “Me encargaré de que paguen por todo” EL PAÍS Feijóo llama a \"derrib",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNc1lESExIQm1WMkplcmlhaTNuYWlHWVQ5N0k2b1doMVBJdEZIMVotdXpWOUtWZXhWM29sVUllaGxiWUIxdzJMdVluRFdXOFpqYzJucm9DNkhjNjlEdWdERnlNdkVVWk9kYkZfeEw4WGtfeDJxVTYwWExqR1NBYUxsSi1VSkFzYTNBb3ZJR2lNcWkyQVk4b0NZM0c4ekU0alVlNWRDNXF6MTg1R0xsLVJ5UlNPMGo1Q09HaHFLa21SdXdJZ1otYTVHLWxFaGFEYmNDMWfSAe4BQVVfeXFMTjV1MzlTYUdwamhrRlNrUEtOMzhJalFKLTR6eEl4b3hNbl9nOEpITXNVUzNfSVhjSlhqaEhWbEk0YjBSdVRoRk9zQXllOWlwZFNaZjBZMFYxV2tLQXJOUmdWWkxpOFVVV01LTElOcEZCdzVKMFJwcnIyc2JwUkMwX1JtYlg3SjFzcDFMUFBuQmphMVFOYkZuWVQtZkc5czlob0dKZDVIQTFCSHBfV1RYQjFtcmxENXVYRklubDQzMmE0UW5xbUdMM1E2c2tvWTV6ZExMcTNrUzZub19BSDFfbnRBMTJDbWNXS0ZFaWRrdw?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 16:06:13 GMT"
-    },
-    {
-      "title": "Casi 1.000 detenidos en Francia después de que miles de personas salieran a las calles a protestar",
-      "source": "BBC",
-      "summary": "Casi 1.000 detenidos en Francia después de que miles de personas salieran a las calles a protestar BBC La ira social desborda al blindaje policial en Francia: \"Todo el mundo odia a la Policía\" El Mundo Las protestas en Francia mantienen su fuerza desprovistas",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LVmV4alFmdHF5aV84a3dsUkpPS0hUU3RtX3YxWTJRQmx5VDNwY3d4VVMxOHlubGpCaHJ1elhwQi1zb1FaQlhENE52a3FPZFVnTG1qVEdsYkdXOTZn0gFiQVVfeXFMTnA2SlVpZmlWUzd6MmtqMGtxN3k1SmstV19oNUlBTEwxSWZ4NEZCemViMi1MckNMMWg0NWxjdndnLWx5LVFYRGd5VnRKVXBQOVZnMEd3VlpMbEdlaGk0UFR5cEE?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 17:40:53 GMT"
-    },
-    {
       "title": "Rufián, contra Sánchez por la vivienda: «Monstruo, gobiernas desde hace 6 años»",
       "source": "La Voz de Galicia",
-      "summary": "Rufián, contra Sánchez por la vivienda: «Monstruo, gobiernas desde hace 6 años» La Voz de Galicia Montero y Rufián: “Una izquierda que se presenta en la misma papeleta con el PSOE no va a arreglar los problemas” EL PAÍS Rufián se reivindica ante las críticas d",
+      "summary": "Rufián, contra Sánchez por la vivienda: «Monstruo, gobiernas desde hace 6 años» La Voz de Galicia Montero y Rufián: “Una izquierda que se presenta en la misma papeleta con el PSOE no va a arreglar los problemas” EL PAÍS Rufián y Montero estrenan su tándem con",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeGNoNjR3eGNzYkprWG54cE9pT2diUUhxb01UZko5VWc0YlZTektlSFhXaGdPcGNkTjV1Um45Nno2ZkV6WHNkTUluanR5SjZhRnBYTjVlbW9WakhWZDRVZ3RZMlZYeThFLWlBcVZKd2MwX0tfdG9LdndrRHA3bzVLS3ViTUJzWHJ3R1UwYXVhSXdZeVE0TXNjdVF2LWhMQ1lFZHUyOGhnSXBXeExRdDk4Yk5DVU9LTlNCMnNEdWpOUEJYSFpXanQwZjZRR1lvaWNOR2fSAe4BQVVfeXFMT09hb1FFdHhiUFJIYmx6LWJTdEdFelkyeW1lM0ZKVDFtc2NKYTZsT1NKOWlaRTV2MWpqdWZ0U09JblExMUpNRl8zb3AtTVBnZTJEaENBRjVaOXBwSEFpX1lNa29OSjVlcm16WXBEeDZlV212dk9mN1Jiekc3T1V4MmxrOU9icW95Z1JlZms1R1lpd3A3enRmbDd2UnMzbnNlUm1sNHY3M01BUXJNa2VKX1ZmTFBfR1k3OHlBWlJZcWtaRWR4WkRZZGt4YVBsWUJVMUhVWGdsWHFtazVwTmswREhHSGJzWmxpVk5sVXdUdw?oc=5",
       "pubDate": "Sat, 24 Oct 2026 18:16:56 GMT"
     },
     {
-      "title": "La Familia Real celebra con Llanes su reconocimiento como Pueblo Ejemplar de Asturias 2026",
-      "source": "ABC",
-      "summary": "La Familia Real celebra con Llanes su reconocimiento como Pueblo Ejemplar de Asturias 2026 ABC La Reina sufre un traspié a bordo de una embarcación pesquera durante su visita a Llanes EL PAÍS El menú sencillo y austero que han degustado los reyes Felipe y Leti",
+      "title": "Cercanía, 'selfies', baño de masas y resbalón de Letizia: la visita de los Reyes y sus hijas a Llanes",
+      "source": "Libertad Digital",
+      "summary": "Cercanía, 'selfies', baño de masas y resbalón de Letizia: la visita de los Reyes y sus hijas a Llanes Libertad Digital La Reina sufre un traspié a bordo de una embarcación pesquera durante su visita a Llanes EL PAÍS Folclore, anchoas y Leonor de Austria: la Pr",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcG44bERfTkUtWVk4cXloWXBVVlRoNTNWdVh4ZzMxOTFneWpmU25jb091UE1Zb3hOVW9aSC1XM292QjVxUUpZWEZKZUdsVm9WaVd4aEgzU0x4VldNdjZUaFZacmZRdnNxVzloQ2pCejRLNUE2ZXVlSVU4V1BiRmF2WmNxSzFWaFlpRkNCa1NYNWg2dG4xbkZ1Yk1MOUZRMW9INnFhdnlKRkpOQQ?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 16:07:24 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVXlCQlFTZTd2QUxEOGNETTdZSUNLNlB2RDhJNmhic1FIWDJiTzdQaGdhbHVzWWJ3T0RwS0pCQVozWFNmTmpKMzVjNjExeU1aUVdHM21QTEJIdzhaWE9QckZzcEhiUjYyNU9LeEd6dEVVdnZRVHhXQmdObGxnSTh1MFlWTXVWdFBJVGtHSWpIQVNjNFJNUXduVDZaNEpEZURVMG14UFNDVUdjOXo4c3A4a1Jla1ppX1Naa3JsV2d0Rk5RUHRSN0hNR0sycFNXdXd4MWRxa3ktck5RaXB4TEJrMUlTMzExeEFZX1gxQk44OUhhRG9XOURRT2p3?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 13:24:14 GMT"
     },
     {
-      "title": "La madrugada del sábado al domingo 25 de octubre se retrasarán los relojes para volver al horario de invierno",
-      "source": "Valencia Plaza",
-      "summary": "La madrugada del sábado al domingo 25 de octubre se retrasarán los relojes para volver al horario de invierno Valencia Plaza Cambio de hora hoy en España: a qué hora se cambia el reloj para entrar en el horario de invierno, se adelanta o se atrasa y por qué AB",
+      "title": "Cambio de hora octubre 2026: ¿será el último? ¿dormimos una hora más o menos? Todo lo que necesitas saber",
+      "source": "RTVE.es",
+      "summary": "Cambio de hora octubre 2026: ¿será el último? ¿dormimos una hora más o menos? Todo lo que necesitas saber RTVE.es Cambio de hora hoy en España: a qué hora se cambia el reloj para entrar en el horario de invierno, se adelanta o se atrasa y por qué ABC Cambio de",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNmtBZGtyU3dSVmcxYlhhTkVRRFBsOS16NEpGcUQzaVBHS0dSVl9QSXgtcmZlTkpKdEE5dEh3RjMxT19ZM3ptRXpLNS1lSS1icW5sTTJfM09lSzZ4MTQ2N3JFcVctWXJZbS04djRrdHZJUkR3YTVlLVcwZEpEejVIdXNmOE03S0tFLVZjajhSckdjSVJYOVBkY2lfMDVPbmVmR3U1NjNXNFNWZ2gwaHhrT3NINHVEcGxaN3lSY0NYSHltQVRRMWx4QzFTaFRJcG55bDlJa0t3dUh1dTFibWxkNWFGUnJOa1JQZUkwX2QwZw?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 17:30:06 GMT"
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUmUyRjZTUmEwanpzNlpQc0RqX0c3UjNqczRGOFpNemFnZVdvbmdMaXVoQUtwd2pRREstbjB3WTVIa0QxaVc5aEtkbGMybU5hdG15U0ZySFpKeHpXa1hGempTSHo5S3VGQzZQQ1FIcHJPRTlNbzFxUzFyd0dUdlI0VWY0QkFoUTZsTi1vY3R6M1B1TjVSa0ZqelVLcHdraFU?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 23:29:11 GMT"
     },
     {
       "title": "Miles de personas se manifiestan en Madrid para reclamar unas pensiones dignas y su rechazo a la privatización del sistema",
