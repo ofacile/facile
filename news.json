@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-27T10:50:49.312328+00:00",
+  "updatedAt": "2026-10-27T16:17:55.632793+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Feijóo y Abascal cierran un histórico acuerdo para el Senado: Vox se retira de seis provincias y el PP de tres",
-      "source": "El Confidencial",
-      "summary": "Feijóo y Abascal cierran un histórico acuerdo para el Senado: Vox se retira de seis provincias y el PP de tres El Confidencial Feijóo sobre su pacto con Vox al Senado: “¿El PP ya no es una referencia por renunciar a lo que no tiene?” EL PAÍS Alberto Núñez Feij",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOV1hXeXVwUDZHYUcwQk9QeFBMNHpiUzdTVXUyWF94LWJrLW9TOFBQRVlZTUxMNHE3UkVYdHRKQnF4cFVsdTBpaWJoVU9GVFUwTVBZdG93R09iaGdMaTB5V0lTMG5YeUhNT3B5eUd0TG4wblhVYTBPSnB4OFFsOFd6TUtMV1ZsVzF0Nm03RG52NHh6QzBoeW9abkRhX3FhaVR1WHlVWjBRWkdzdndIRWt0RkF6SzNva3hiSDZ4eERJYkVTWW44R3JGck1ocGxFa1dFWjFWWkIzX1RkM1RJNVdyWlcwQ1hIbEFTZDM5OUJGdjdJVTd3?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 12:48:00 GMT"
-    },
-    {
-      "title": "Vox pedirá conocer la nacionalidad de los más de 100 detenidos por los violentos altercados en Barcelona",
+      "title": "Cataluña se personará como acusación particular por los disturbios en Barcelona del sábado",
       "source": "La Razón",
-      "summary": "Vox pedirá conocer la nacionalidad de los más de 100 detenidos por los violentos altercados en Barcelona La Razón Violencia callejera, y algo más EL PAÍS Lo que sabemos y las incógnitas detrás de los altercados en Barcelona La Vanguardia El juzgado decreta int",
+      "summary": "Cataluña se personará como acusación particular por los disturbios en Barcelona del sábado La Razón Un mando dirige y da instrucciones a los vándalos para sembrar el caos en Barcelona La Vanguardia El Govern se personará como acusación en las causas por los di",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOY25BTkM0SVh0OXRjSzgzUUp6bmx2NGc0MXNnQUVRNGgtSWFBejQzSjZnc3RVU000LXR4VzdXbHFjeGJKd0hqMWFQOEM4UDNDNDlWTDNDeThRREticmlvaHFOb1NTQ25KSTVFSWJua2VuaDJMYWxfMlhNZUlkOW9oZDZHTWgyZjdtTS12bVJNVFRsQnRNWFBkZ2FPSE55NGJma3V5RG1NclZQSklRX2JlbkxHS1N0YmpoR2NpcGx4ZW90dEZEMjJKYmFGckJjMEhFSHdBQm1PZHRCaGpZUW1PN253RDjSAfgBQVVfeXFMTTE1SDdVQmtWY3F5Qkh6b0QtdFpXZ3I0Uktwc0ZlbjdPSS11NXJBUzlEZWY1eUREem40a2RxNDdwa2stUm0wREEzT1pOM1JuRnZERkpRUWJfQ0NNMWp1Sm5ySHRZYUd0bnE1WnVxNVVZXzBobnR2RXFtVV9fNXB5ZGRNV1pSUXNBcTY4R3ZpV1Zkc0xKQjJGRjJTQm1QUVpBNEs5V2wxSFM2VkJHUnRxZk91bzdncUtDdFM1VndtLTJVaXJoVmkxN2Z0YkFPcnFTbVBNWEFPNGg5c011MjloUWFScjU1YUN5b1hJYTNvdkRSd2k0UllJcms?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 07:52:39 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYlo2N0dOMXZjdllrZmllSHF4WThqbkM2UGFYY01faUNkT1lwN2Y0NjBEUVRoQ3VJVzRsM1V4aXVzby1YRDdLeFRRYkJHX0NZQVZ6VG4yNDN3bDdMeEJDVlJKU1hEbnJtUFBHMWVmX2habEpmUThJTC1fMjd5d2xSdWFHWnhsdkpKVkJrdm9FQ21pRVMySy01d2ZQOVJDbXJ5UlFPUzdXeFNBeDVucWZFRTQtUG5tMExEVDlWc2VxN2NPd0lWUHdIN0tSODZoY05abEhiUGMxeE5Bd9IB7gFBVV95cUxOY21rYjBZUHRlQjEwS3VjSHJnSVU4RENseEdaYmlkMDVsODFzT0djSDhXTFBQUDJBV01NSFdwVWZvNDlFbEdNMlRNc0hXWHpJNElUV0RpM0t5M25nLU1PMW9tVTdQQlR4SmRBblFvY1hrWlRpdnFPY0ptNVd6dk1qVkVkdE4xLXF1c2lybDkyaTZUSmYxd2U0M3FwWU9QUDRfcmhQNmdYYjlTeS0zVVJEanU4d2V3a09MUnZLYm1BVHk3U0JJSEplVW04MFh5dFdmN2FxdVptV0czdFhMUG8yWHhEaE9iUHZkeW53Q213?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 12:03:49 GMT"
     },
     {
-      "title": "La UCO acredita los 300.000 euros que Aldama vincula a la financiación ilegal del PSOE",
-      "source": "Hispanidad",
-      "summary": "La UCO acredita los 300.000 euros que Aldama vincula a la financiación ilegal del PSOE Hispanidad Ver más titulares y perspectivas en Google News",
+      "title": "Acuerdo PSC-Frente Amplio para la retirada de los de Colau del Senado en algunas provincias catalanas",
+      "source": "La Razón",
+      "summary": "Acuerdo PSC-Frente Amplio para la retirada de los de Colau del Senado en algunas provincias catalanas La Razón PSC y Frente Amplio pactan en Cataluña para contrarrestar el acuerdo entre PP y Vox en el Senado El Mundo Comuns acuerda con el PSC retirar sus candi",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWk1CVjJTNlQwdHRmUEdxS0NzRFJkSXBJQ3hZLXBheGNXTVYyTE96WXVtbVYzZlhNOGxRaDRrU19qeDA2VnB4UUtfLUlWQnZHbnpkZTd2ME5LNHhKOUhBOG1oaTNzbnZrbHByZGVzQzl4WXBla0Z4cEswT3BRNGJ4dTFPZnNUUHdGZ25VcFlWc1IwZlFHcTNKeWdDZWQ5TnF6MHhvT3V5ZGVMQkNkZVFxczNIM1cyWHVzRjhDY2JZSWRmdWJNX3cxT1dzTTlTNXpMb1JDNjgxdjk?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 06:00:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNejFENlNDU29mRE9QUVlsTkE4VEV3eDJySVlpT095eHFuYWFWMUk1MC15Ti1yczdabkh1Y2ZiT2RKYndUdEVsYWEwNDJRbFdvSlVVZWtaSEN4OUwzNmRCNktVMHhPNC1NYTFvM09uWnh4RDNJa05MVnBlc0dGQVlQd1ZMdVVfWDRWeGtXR0RIRGtOV1EyOURSZkJoQUxFd3pTWmVNaWZPa2FhdjRZNXF3eGJrMGZGbjNTUjJhNktBQ2FJR1ZzRFZB0gHbAUFVX3lxTFBXWS05ZmxFWDdxTkVfMW1oTzZvejA5MWItMllGTnB0MDRtdkg2N2l4Yy1XeFRkR1NwVGFpMElEMFF2alpyZEdrZ05nUkR1SkhGeFg3VTdaVmZjN011a01NSW1Cb1JMOUlacnpubW83VW5QLS1QMXZCeVZVNFF0RG9LOWlmbnQ2LUk1ZVBHUmtJNVZhclF1UFVuOF9TbjA3RTVIbFM4MmJWMUtOMmxnejBiMnd1VXVqZDVuWF9KbVMxUmFpWER5Y3FfZFpmbUJReDgxSThUdks5RjdoOA?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 11:22:11 GMT"
     },
     {
-      "title": "La victoria de Lula en Brasil, \"una derrota para Estados Unidos\" en América Latina",
-      "source": "DW.com",
-      "summary": "La victoria de Lula en Brasil, \"una derrota para Estados Unidos\" en América Latina DW.com La victoria de Lula en Brasil frena en seco el Escudo de las Américas de Donald Trump El Mundo Qué sabemos del retraso en el cierre de la votación en las elecciones de Br",
+      "title": "Convocan disturbios vandálicos en Santa Cruz de Tenerife siguiendo el modelo de Barcelona",
+      "source": "Libertad Digital",
+      "summary": "Convocan disturbios vandálicos en Santa Cruz de Tenerife siguiendo el modelo de Barcelona Libertad Digital La red que convocó los disturbios de Barcelona tiene ramificaciones en 11 comunidades autónomas EL PAÍS VerificaRTVE: Blocus, de las redes a la calle RTV",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYzFNTFRYQ1loTnRIZGlvZE13RXlLOVJVZUMzZk9UQTRlQm0zZ2dtWllQZG9UWFFOU1lwbEJoVFlkSzRyRUc4UTIxOFpCa0lod0plaFlrQmNIU0xqV3dnTzNqcnVNVzRmTEpSdV9hQXZuSkxDbWsxUFF4T1I1eHBUT2N5VHAzODY2aGdwczY3d0xEOVJ3V1h4U2w2NGNhV09tYkowNWlkNm5UUklEQllBSjIxMVk1UDhr0gG4AUFVX3lxTFBObjRpeW5vcDkwaU81RHJ4TUl2d3ByX0wtQmlBNWJtUFJ1RUQ3eXY4aUNMZ0hnSDk4ak5pbUdoWElrUEt6TkNMTlNrNHEwVDIwc3MxUVgyQ0lybTRkSXJBUWZOUWlTVW16WXRPT29OM1VDOG9ScEk2em1ZX1ZyZEpfSUdlZDdoZEhWdmVoRUNtZzlnZWdpRy1BeFpfcUVlTkdhUTdtekh6cHhQeXd5dVZodnBrbF9oUTI?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 07:05:58 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQnZKTmpJdE1qOXBKRmdFTncwMUQ0TVVmQnJQTWx3ZjItLVJCeXBNN3c4RkRaRFQ2T3VjcW9QSW5Za1B5WHdaUnhPa0RoU2M3aXc3RnNHQmlwenJzaGxaaExVc1ZNaEwwa2VzOEpJMlRBdkEzRTBLNFdiVElsTzZSd2tGZlFXTEo1emxjMGVTXzRyMFc3LWxQS3FOMkFGRmtqWjJKVkthV2x5am1yajB4SVVzRkZKRFFhVU1FdTNxSFIxWHQwdVNHeUdIUGpTLTI2MXNsQ1pJazJ6Qzh2T1dqZnNEN23SAe8BQVVfeXFMUGFhYUZCN0tianVubThFbS12SXNXM3hMYWFQSURDc1M2S3VIWV9YRTBWUHAtdzIzRU1mMVBIMWgwaVoxZEx5MTZ2MWU1ckdZOGRGbXJJT0ExREpfTWxfNTIwMjhuX284d0xjWHZkU2phemNOSlVpR2FIQjU4THBVNjZ5OWZydkFYRlkySERGMDlRaThaNU1WMVZpaTdRX09weGZZaE5femdqQ0d0cUNBeWIxUzc3bGljZ3NsWDc1QXBFZktMRXI1TDN1Y3hIbWZ2VV94UVJZMXFQQkVBUUFfWjdlcmxzcjIwelZLNXdwMzg?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 08:46:48 GMT"
     },
     {
-      "title": "El desafío de Benjamin Netanyahu, el \"Señor Seguridad\" de Israel, para conseguir un séptimo mandato como primer ministro",
-      "source": "BBC",
-      "summary": "El desafío de Benjamin Netanyahu, el \"Señor Seguridad\" de Israel, para conseguir un séptimo mandato como primer ministro BBC Netanyahu se juega su futuro en unas elecciones decisivas para todo Oriente Próximo EL PAÍS Exjefe del Ejército y con un hijo caído en",
+      "title": "PP y Vox esperan lograr hasta 140 senadores gracias al pacto para concurrir al Senado",
+      "source": "Europa Press",
+      "summary": "PP y Vox esperan lograr hasta 140 senadores gracias al pacto para concurrir al Senado Europa Press Feijóo, tras pactar con Vox no presentarse en algunas provincias al Senado: “Nadie puede renunciar a lo que no tiene” EL PAÍS La derecha ya es un bloque, aunque",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55NTFITjZUOEE4cFhHYlVrN1E1djY1LU5lOHgxdTlSaVB5dWd4TU1ydGhGRnB1U3NXNENBeXpPRVdaS0VEb3JUQ1ByWm5EY3NkemFmLTVqWDNJY3pj0gFiQVVfeXFMUGJQV3BfSXhKb2pOQ055ZXpmOVd4RXJkVm5CYVYtN0lBNlpwOVJmUnNzbU5zVWtjMjE3UTJHX0g3MUZINFAtSEU4Q2YzOFptSW1KM29xcHhEY0VNYXd5eXFNalE?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 03:46:15 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQelk0OWhQRGxmNFBiemRwYmpNNjhhUWhjVUZ0TFhvdXZ5RnJ0ZmlQV1lkT0lrd1JwUzJtTVM4VTFyS05XVzlRRlZ1NzhQMk9od0s5RzJ5SlVFeWVEcm1lY1NqaWwwRy1fbXZNWFJZaVZHREl0Zm81LTNVaHBuRXRRcDNDaF9Gei1iTktRNUR0MzJHa3dnSGduVEdkUzlGeUNFNXZJVnJsNThDd0lOS3Q3eFlBZ2xGc2x5NW0tLVh3YXlhN29zbTJiU3FB?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 17:59:58 GMT"
     },
     {
-      "title": "El consejo de ministros de la UE aprueba por unanimidad la reforma de la PAC",
-      "source": "Euskadi.eus",
-      "summary": "El consejo de ministros de la UE aprueba por unanimidad la reforma de la PAC Euskadi.eus La Unión Europea alcanza un acuerdo parcial sobre el futuro de la PAC tras más de 12 horas de negociación RTVE.es Los Veintisiete acuerdan las bases de la futura PAC, con",
+      "title": "Empiezan las elecciones en Israel, unos comicios cruciales para Netanyahu",
+      "source": "ABC",
+      "summary": "Empiezan las elecciones en Israel, unos comicios cruciales para Netanyahu ABC Netanyahu denuncia que le quieren “robar las elecciones” entre una participación récord La Vanguardia La participación se dispara en las primeras elecciones en Israel tras la masacre",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTZqSXZMX0ZaanBrWWZrTTc5cVo5UEpkN212dXAzOEx0aDF2TWhUZzVKTV9ucmQydGZCaGJ3VmwyOXRxbWtqVHk4Qnh0R09JVFZIUlQ1NjJ5RjlpU21GRFdRQk1weVM4enFMbnZxY1gzWDNrM2ZoVkduRDc2UDJlOExKN0pZRU1JNnYyUmVLLVNZNG1xMDBONFRPc3VmQ0tvdUlSMEVyeUptck5CMmc?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 09:42:57 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkVIQi1zb1lRT2h1bG1XXzBScTYxS2NjZURSZUI5bmJJRVp3MGVVU2dlRmM5VmQ3R2ROM3J0VmxxS053cFd3c1ZYRFZrY05VeGowU3hIUzZid0lQeEo1U2hybW4xa1phNm9lRVZveXdTWVFFYldMMloydjc0NlNDTnl3TGUxXzNFQUhmNDJ3ekN2amxGWkFpOVh5X2pIZjczeGExZXIxUQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 08:30:31 GMT"
     },
     {
-      "title": "De las redes a la calle: qué es Blocus y cómo se alientan los disturbios en Barcelona y el resto de Europa",
+      "title": "Luis Planas valora el acuerdo sobre la PAC: \"Hemos conseguido mantenerla como política europea'",
+      "source": "La Moncloa",
+      "summary": "Luis Planas valora el acuerdo sobre la PAC: \"Hemos conseguido mantenerla como política europea' La Moncloa El Consejo de la UE logra un acuerdo parcial sobre la futura Política Agraria Común (PAC) El Mundo El consejo de ministros de la UE aprueba por unanimida",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLVdrYWJXN3BoemN0UlBMSGtQZzJ1V3R4NHlDWDNYLWZyRWw0b3dxUjc1SU9SQkFCTlc2aXJQbTV0RTZtVTRiYWtSWEpkYTk2VmVJYTh2S1lIMnpXV1FUWHMxd1ZOVlplUkdFMTFFX2Vscmd6STNfczhWZmRyN1E5Q2JQcjZLaW5qTkRNR2hUMVdmbmhYdEo1Zml0dV9aZjFPX0pITWZTcnkyTjA?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 11:07:19 GMT"
+    },
+    {
+      "title": "El paro sube al 10,2% en el tercer trimestre, con máximos de ocupación y población activa",
       "source": "RTVE.es",
-      "summary": "De las redes a la calle: qué es Blocus y cómo se alientan los disturbios en Barcelona y el resto de Europa RTVE.es Lo que se sabe y lo que se investiga de los disturbios en Barcelona EL PAÍS \"¿Queréis volver a casa con Rolex, Iphone y Gucci?\": Blocus prepara u",
+      "summary": "El paro sube al 10,2% en el tercer trimestre, con máximos de ocupación y población activa RTVE.es El paro repunta en el tercer trimestre hasta el 10,18% EL PAÍS Loli García (CCOO): \"No nos podemos acomodar a tener tasas de paro de dos dígitos\" ABC La Comunitat",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUlOaHk5T2xGOUtaREozV2NwWUcxSjRDZ3NCSENTVmRBRlhYdnlvX0VQcHZibWFGa1l0d0VMX2tfbG1UTkhKSkdQYWY2emdUR1MxOXNWZy13cndEWWFtNXRxR0xBM3hhZ2p4cmU5REhoXzhKY3RxXzgzQVpCV2tORjZHV29uR2tjYy1oYmMwTGI2Y1FfbU9Rc3V5MWpmVGIwNTBZTkkyM2RRVVBYU2NNRFlWeE1icHdVNWlWdUlqUzVwUQ?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 17:45:26 GMT"
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYmIzRF9aWmtlSkJxMlVrbFF1VWxMNUh6WXk3SDhrVjNvQkV2cm1JVHFKUjhrRnFYZXMtZnJ6U3hvbDdLRkVaRGYtYzJWT2YwYkRVSlh0RktkNG52b3oxMGljakowRmluaG5ETENKeVU4dVlhQzYtQVpBVHhQTkF5ZkN0V2IzSzlkb0MwV1J3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 08:21:45 GMT"
     },
     {
-      "title": "Los Franco subastan objetos de Meirás: desde una foto de Juan Carlos I dedicada a Franco a retratos, arte y muebles",
-      "source": "RTVE.es",
-      "summary": "Los Franco subastan objetos de Meirás: desde una foto de Juan Carlos I dedicada a Franco a retratos, arte y muebles RTVE.es Salen a subasta los 700 lotes de objetos retirados por los Franco del pazo de Meirás La Voz de Galicia Los Franco subastan 689 lotes del",
+      "title": "Bildu expresa “su más absoluto rechazo” a los disturbios en Bilbao por la visita de Vito Quiles",
+      "source": "EL PAÍS",
+      "summary": "Bildu expresa “su más absoluto rechazo” a los disturbios en Bilbao por la visita de Vito Quiles EL PAÍS El miedo y la impotencia se quedan en Bilbao tras la noche de los disturbios Infobae Tellado atribuye al Gobierno la \"responsabilidad política\" de los distu",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTGM3MFp1Ymx1ajJoMDRJc1E4U1ZuOFJld21QNzllSndRNHdlMVJQM0pZU3dncmhlYlRpU3hpaEdXVEJRc3B2VkhRWHFRc2lUdnhicERiTEczNXp1MUpDdzdLemhjOWRIM2FGOE54U2dhOE1zdUo3TE9TTTBDR055Rjd4M2pLNnNjN21fWGxkdXpscVZjZ1czR0VmeDNVRVdaNVZmaWdmQ2lXV3FLT3BsRWUxQ19hWXRNRjFnUFpCWEphcHlPRGFoZDdXdTk0NzE5aG03elY5RnE1Qy1WWE9BdXlvbGU?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 10:14:08 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWWRjSXBjWHVtWmtYczllUjA5d3FJYkw3MmRvOG1WdVhXbmVDdlpGTEIyWjl1VW5IT2hzbV9iWExub3NQMnhNQlRvZDM4Y2NyWVdxZkQteVBJd2pEeW5jUGFxaDd2bl91LUpHWjhjdGpuUmpMdUgzMFc3QnhTaWJXRlhGWWJSQl9uR0Q1eXNZXzU4NmlhczA5SHNPYTRDNk9yTUg4S3RkUkh2M1ZzcUpacjExOEIxLUh1SGlJMDBGb0k1ZFRqV2xKR3QzVmFKYjJa0gHkAUFVX3lxTE1TU1ozU1Y5elVRaUN1ZmpaVDloU1REcERJanVZNmw2TTRKMllMRVhDZjFicnVXX2JrNGRMdmpOQVVOWFlwczZDZERaS21SQ25taVJOT3I2clRuMW41WXhGTUlUa2dIZUZpZ0VOZHZYY1pla2JUZ3dZODNHWE5qaWZmdHNiaXI0VGg5Yk0zOHZHUDFHN1l3SEVzcUEySEhSdkRBbnhwY0VXVllpZ0VBZ1BKUFgxNXVCQUdUSjNabGRta1VHQUlYLXQ5WUdHUGNId3VGMVBqa2pYbGswc01kTUE0bDhKTw?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 13:02:44 GMT"
     }
   ]
 }
