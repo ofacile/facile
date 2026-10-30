@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-10-30T08:22:23.528795+00:00",
+  "updatedAt": "2026-10-30T15:13:40.219565+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
       "title": "3 gráficos que explican cómo sucedió el accidente de trenes en España",
       "source": "BBC",
-      "summary": "3 gráficos que explican cómo sucedió el accidente de trenes en España BBC Accidente de tren en Toledo, última hora en directo | Los institutos forenses de C-LM ya han recibido los 69 cuerpos y han practicado 48 autopsias El Mundo Los forenses han recibido ya l",
+      "summary": "3 gráficos que explican cómo sucedió el accidente de trenes en España BBC Accidente de tren en Toledo, última hora en directo | Emiliano García-Page: \"No descartamos que pueda haber más fallecidos\" El Mundo El operador de Adif señalado por Puente se niega a de",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DM3Y5TXZLdUtDRnhOeEtHN0pYbjMtdWk3NTlKRGMzLTVMU05rb28yZHNPQjhZMkhZM2p3ejdyUnFoT0dyejdvM0QxUTk2R3B1bE1abEtOd3RzR0RU?oc=5",
       "pubDate": "Thu, 29 Oct 2026 18:09:06 GMT"
     },
     {
-      "title": "Sin noticias de los desaparecidos en Urda: \"Mantenemos la esperanza\"",
+      "title": "Feijóo culpa al Gobierno del accidente en Urda porque no renovó el sistema de seguridad",
+      "source": "ABC",
+      "summary": "Feijóo culpa al Gobierno del accidente en Urda porque no renovó el sistema de seguridad ABC Feijóo: “Han muerto 69 personas porque el Gobierno no renovó un sistema de seguridad obsoleto” EL PAÍS Feijóo pide la cabeza de Sánchez y Puente: \"Si no dimiten ellos,",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVR3YnFlMDFCNjBUVzFFMDZUYWQ2OEdFQnFoaVdtT2dSYlQyeHUyWkFxdlkwbldjWXpOeGpjLTZyNWlNUTZYUmpPd3h0emZNXzdJNERSNUlRTU9HSGE0SkYwY1FGaUZsZTU3OFF6dnZMbFBWMkxsUTlYRDZoYVVGSlNnRzhVcjgtaUs2UnhGVG1heVdnZnNkb3ZHRnMtRkZVZ2c?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:43:14 GMT"
+    },
+    {
+      "title": "Puente valora cortar la alta velocidad entre Madrid y Barcelona en su próxima renovación",
+      "source": "Diario de Ibiza",
+      "summary": "Puente valora cortar la alta velocidad entre Madrid y Barcelona en su próxima renovación Diario de Ibiza El Gobierno anuncia que se plantea cortar la línea de alta velocidad Madrid Barcelona para acometer obras y Aragón pide \"avales\" que justifiquen la decisió",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN0tTTlVucy1fU25MbTQza0lncUhLaTZDX3gtLXFtS09jVzhRd1RLLUZERUlTd21VNkMya0JLWjU2dXVBekZlaEM1UGlrd0VHYmtaWnhsYnFPWUFIOGFfbDRVRDRUQV9MRGpXSzN5T2FaRVN3TEtJY1Rzam5CTmVkMEl2OU1ranJIenB2NV9iQzVVbUxMSFZVWGgwT3A1VDVkZHFnQ2FodnotQnJoUmh4U19IZ3RqQjV6RHNGS0xoMVhaQlZ4STFIZlJ0a2FsTGJ60gHWAUFVX3lxTE9OVFJHUjhoclVjLThXQW4yVVM2TzJkZHFzNnRlWTYzSTFTcjBpWlFZX3pfYVFKWVRNamJXamZHRldrRzFHRng0TVcxVVNycW1CeUxVb0kwMmRsX1VYR2JsOTZNY1Bidm1QUTNnRnY1UmVaWjB6Y3VsdDk4WmhoSEtoMmRUR0NQQ2FyMVgwMW9fMUFMSk45MjFBTHIwTGhMVXB6cWVqU0ttVDROWER6RzF0YUVMZklXYmlmUmZzRjlnWHlwa19CZDVGNnlpTUttVmlrWWJlZFE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 12:22:32 GMT"
+    },
+    {
+      "title": "Disturbios en Barcelona y resto de España, en directo: última hora de las convocatorias de Blocus para este sábado, detenidos y dispositivo de seguridad de Mossos",
+      "source": "El Periódico",
+      "summary": "Disturbios en Barcelona y resto de España, en directo: última hora de las convocatorias de Blocus para este sábado, detenidos y dispositivo de seguridad de Mossos El Periódico Detenido en Picanya, Valencia, el presunto fundador e impulsor del movimiento Blocus",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaDNyZV96Wkh4cVNnaE1vb3ZfRnlvZzI4MFpYTVJwWmtzWXU0d29fZV9zNklCa3VzQXZBWDBpbjJEWWkwR0Jyak9meU1XOFhLUDhDVW9Jekk3d2JKVzlRdUNmYmp5SFRRX292YWlmVzU1TnNDM25CdTJ1cFBCVmRvZXJEbnVPNnp6Z3UybjE5a2tqa2dJOUJhNHRWb3BvOE5ma01ZTzBtS1lKX2ZoY1VwQkQ5Yjd4MGxJR2wwak1yNEFBSmFBYnIxU0pHdw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 13:30:40 GMT"
+    },
+    {
+      "title": "RTVE pide perdón por su mensaje sobre la muerte de la exministra Fátima Báñez",
       "source": "La Razón",
-      "summary": "Sin noticias de los desaparecidos en Urda: \"Mantenemos la esperanza\" La Razón \"Es insoportable lo que están haciendo con nosotros\": la desesperación de las familias de los 64 desaparecidos El Mundo Horas de tensión e incertidumbre para decenas de familias en T",
+      "summary": "RTVE pide perdón por su mensaje sobre la muerte de la exministra Fátima Báñez La Razón Querida Fátima EL PAÍS El velatorio de Fátima Báñez en Huelva reúne a dirigentes políticos y empresariales ABC Último adiós a Fátima Báñez en Huelva: de su gran amiga Soraya",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ2NVd1dvZVllcVFBcWxndDIxcWFLbGJtNzI4YVYtTkUyTUd4UGNjOFY4N2RoN0k5QXdhM3BrWUU3YXZMbXg0UVFHWVNuRmllVlRZYTd3Y0phbXA3a2x5N3BRYmxabGdFM1hDYzNZMHYxMVhmSTVDQTFjTi1WdHpuSGdBZnU2YnA5SDMzVE9TSW4xVE11ek9kSzV6X1dMSFFNdDI2NDhVOE5oenJJaWZNMDdrVVltMzA4U3fSAc4BQVVfeXFMTTJjTllwY01wcGx6czBVamh3U1Bja3ZrbHNHUnVDcnRNMUt1eFFXUWprOVVJc0U5ZXpCbVpBa045Z2ZhazVCWVotZUpqWm1Jb2ZzRzBKWVRpYlRHTDIwZWFUaUViQlNNcEdqS2pJU1p3MUNQVE9qbGZjU09MeTZCdUJCQVVCbHQwcFFMcjhfWnRuNDZEdjFzbzkxdlZ0Qm9rWEJ3dy1INTJ4ZE82bW1MaWFSek8taEFGcWlXTHhjeDZtOWVjb1lvQXJ0TTF1MkE?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 18:25:32 GMT"
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcm84aXlWbjRUU3hQQjZxTFRMRHdabmJFNDVfbGlvRVBuZWFTRk1ZeWxfaXVCWGtwVmVaOFQzbWFPV2Q0YTNhTERJbGpFa0VGYnhOanI2dDh5TnAwQmxJQTA0UWh6ZHM2cHpqbS1Da2dSMWtBMG5oNWJmS3Q5azJzRl8zQVBscVFuVV9WM3pvVTZfY1hHWGlSTDVJWmdIZUlLSVJiNHlKODVyaFJMNFBLanpsTlBXNXVCM3B1TkVFLUI5SVpXVFHSAdoBQVVfeXFMTWtMWUJLSWp2dDdQdXJ0NUE5UTVvZ25Cb1E3U245aDFMTTVvQmJmblZnTTlOUWNTZkZFRW9VS3pqMzNReEVRcDdqNE5ZTXVTNGtLMU1GRG1kODhkVWd6bms1bmp1WEtfQnE4UTdUNlE2M0tVS2lqa1E4M2dScTNZcmRDYTI3YUUwSGwwUEh6dVd5UkpGejh3bmlxVWZvQ295dm1iRUJydFVuXzFjNFQyYWFoUXJ4UFJvUnpCaDBaaEhmU0pVa0paZmpocm5jc2IweXVoUFdKN29DLUE?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 11:15:18 GMT"
     },
     {
-      "title": "La oposición condena a Netanyahu por acusar a Qatar de interferir en las elecciones de Israel a favor de los partidos árabes",
-      "source": "BBC",
-      "summary": "La oposición condena a Netanyahu por acusar a Qatar de interferir en las elecciones de Israel a favor de los partidos árabes BBC Netanyahu contra las urnas EL PAÍS El comité electoral y la Inteligencia descartan un fraude sistemático en Israel tras las acusaci",
+      "title": "¿Te puede tocar mesa electoral en A Coruña en las elecciones generales? Cuándo se sortea, cómo te avisan y qué excusas puedes presentar",
+      "source": "Cadena SER",
+      "summary": "¿Te puede tocar mesa electoral en A Coruña en las elecciones generales? Cuándo se sortea, cómo te avisan y qué excusas puedes presentar Cadena SER Los canarios, pendientes de ser llamados a una mesa electoral: cómo sé si me toca y si puedo librarme Canarias7 S",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXNnFaVC1MZUt6SmxBT0ktdEtxMWhHVnFqZmxnN0UwX2xLaXJSMDhGbi10WWJQSmV6MWpNT0Z5U2tqLVFIcG9uQVBJY2Z5NnRCT1BrOS1pY29LM1dh?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 23:59:06 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMGdmNzFWUF9YUGRIS1FiRlNoemdMVG5iQ3Mxb2ZYY1VBX3p5b01YZWw0THE1dGJRLVFjZTlWTTVqSUR2OGhDQlNfYXViMy1GdVlyMHJqdElEeVVkMGdyWHVqblRMRmJoN01HWHd4UFByQThhN3hFZTBHc3ZVN1hGNF9DVDlxdS1jWkpSaUtudnZzbkJ2YnRZamhGUFBmcVBrQlZDNk5QcUVvNmE2d2VCRFBsWS1VYmc4MkFxcGRVNHdRLVU4RnlLeGhXRk1FbmRQUjhTYUtNN2h0WFBLNWYzd3BEM0J2SVlxYXNzVEFOcFJJaEJ5b2R0WV9mUXhFQTVhelhhOHoyNndoUdIBngJBVV95cUxObWNKVjdGVmFRQnFjZzlHZEtDN21Tb2Z4cWtUeVZKMy1Zcy1lNDRGa2dQNnFZUEVfbGxXamxCS2hOWGI3SjJQeUE1RTdKQUpIbkZvbXhsOEg1OHhMVEFLYmRJZXRqdHB2X1hYM2JXWXozenBTd1pZQTY4NFdKdWR0ZUIzeGd6SzlxWVRGVzV6TXVTRUpmQkhBbUVtVm1mUWpuWkhjSzBqSGU0Q0ltUlFyb1I4V1pZWUVSV1l1N3VEcUJrdVhYS2tPOV9QbU0tRkl0ZFpad2NjQ3pXei1faTJiUTJPdm95U0p6UGt1MjE2RTljZ2dGUEJzdTJydEFtRjRGUEFxSE9hVEhtbkhZUEZtVURvMWFhQXo2MHFKbkVB?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:23:36 GMT"
     },
     {
-      "title": "El diario de Amilibia: Al menos dejará de bailar",
-      "source": "La Razón",
-      "summary": "El diario de Amilibia: Al menos dejará de bailar La Razón Sánchez se ata a Puente en la campaña pese a los recelos en el PSOE: \"Mientras esté, no se hablará de otra cosa\" 20Minutos Sánchez, decidido a llegar a las elecciones con Puente como ministro, pese a la",
+      "title": "Cada controlador de Adif de la línea Madrid-Sevilla ha pasado de gestionar simultáneamente 15 trenes de alta velocidad a 40 en seis años",
+      "source": "El Periódico",
+      "summary": "Cada controlador de Adif de la línea Madrid-Sevilla ha pasado de gestionar simultáneamente 15 trenes de alta velocidad a 40 en seis años El Periódico Centro de Control de Atocha, un centenar de operarios entre la presión del tráfico y un ‘software’ de vanguard",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZmVyX19GdXA5X3ZrU0dSWUJ6ZUN5alRBRHpvU1pxYmJ0Rk9ZMmNXd0RhckUwUXItd0hsczNJalQxRkNTdERkT2xtd196UHZEZVZ2SzZ3YmRrRTBsTnNKTlM3bkthV3NwdW5PcFYxaVpVMWNCVlptZE51Wm1hQmptdG9LQkxyQ3huYTQzemZLMU56VlI5b25CUVNtTXJQMEwtV0FVSDQ1Y3psMlJu0gHAAUFVX3lxTFA4eXpCdEtZaWp2Uk9kcWRXX194akg4SWlCWnlXZ25NTGllN25MSndJelRyMzhFZlUwaTd6RURPaFFOYko0RzNXb3dSR0VLdVJzb3NuWHlFa1Y0RmtieW8xRTFGa2R2NXl0TkprcTR6QzdwR0hyMjUyamdMQ0hyem1aR2o3NGNJNXBvR0pBbHFwazd1SXdqN3p3QzBGS3YyWTFIeFNFMG56Y25xbkMwaGlDc1ZJWHlNbzVnU25JU3dUbw?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 03:09:06 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRURQZE1fZ2dJaWg1QU9qZ0pDOVh2d0NzYVFCLV9oVkV4a1R1WXF5WEt4cTdNdTZzeHJWUXZPTlF1TTVvNjhNUGw4X19iTVU1aUNQdGpHeTRrV19oLUoybUtHUHktZlQ2ZjVzRG5tejUzTlhDQlpCZTE1TmF6V3NNTXNuaHlYZGVfM29oajV5c01Ga3JOWHljOERreTFjRllFZzcwWkRaYmZaazZhdFZUbjJXVnB1TTBIV0ZaNWtXYzBwZVQ1UUNGS09vTW5OckNSTHlnRVZ0NWxMbkVpVFIyMlU5UdIB4wFBVV95cUxQMktSbEMxRDAxQzdjSnRQdE5xRUNkSFpxVlZKSElVQmlweFktd1QtSEktSmdockJJd3lSd2VyUHc1SkRESUVLaXNWdHBlUVJDM0dGMDI3aXVsRjZ6b0xaQ3NYUkZFUlFSc19yU1p3MG9ndnl1RjF0bGxnc09zQWdHUTYyalJtMlNuN0hmLWhLM1h4bHpRR1A3ZTRFS09pSkpZUXJBS0dJcFppYUx4OUlOV2pCRkoxWnRUMldlUnRieFFta3pzZW9jWHpEUHhuSFNfdzdZZ1hxLXBMdTloRWwzd3Q2bw?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 05:01:28 GMT"
     },
     {
-      "title": "LA esfera política despide a Fátima Báñez tras su muerte en el accidente de Urda",
-      "source": "El Diario Vasco",
-      "summary": "LA esfera política despide a Fátima Báñez tras su muerte en el accidente de Urda El Diario Vasco A Fátima Báñez EL PAÍS Fátima Báñez será enterrada este viernes en San Juan y recibirá velatorio en Huelva El Mundo RTVE pide perdón por su mensaje en redes sobre",
+      "title": "Mortera y Oruña suspenden las actividades lúdicas de Halloween",
+      "source": "Ayuntamiento de Piélagos",
+      "summary": "Mortera y Oruña suspenden las actividades lúdicas de Halloween Ayuntamiento de Piélagos Cambios y cancelaciones de las actividades de Halloween en Málaga capital y provincia Diario Sur Continúan sucediéndose los cambios de agenda de cara al inminente fin de se",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbVNQUXpjVm1nTm94WW5xc3JzT3JiMnN6bElpY1FKNDg2T0pocDd4dzhEWWxTaU8xOWNRTGQwNzZrZ2YyaUwtZ2dxaDZQQml4QnlISDBSU2xtQXItZ1RXV2pFeDQwS1d3dXotYUtKLWJmZlhVRE12NkxnTXJCVW1LSjY3N1UzYnVtTDZiNHVCZlZNWTFUSEVRM3dINXlNRFlXeXRQZ1JTUHBYNnRDN3Rv0gG0AUFVX3lxTE5OQmNCbWtTcXVOMEdySmhsaWtuMmhkcmw0OGpjQjhDV2hHTnI1NTJzZWV2NmdUSkR4V1d1VXFLUGNMMWU2QnJ2dlJNMFRxczZnbmN6RWlFVFpSZXZjLVpqai1wXzJpVXZVMEpXaTdHeWYtMDhpaVh5TDFzUzhkbmN1OFhya2FxaVhJREZOcTZMTDM3MDFPZWdTS0JwM3VBZWRPNDBwemFDdHJVeWNCc25OeENGOQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 17:30:11 GMT"
-    },
-    {
-      "title": "Cómo el tren de alta velocidad de España pasó de ser un modelo mundial a sufrir dos terribles accidentes en menos de un año",
-      "source": "BBC",
-      "summary": "Cómo el tren de alta velocidad de España pasó de ser un modelo mundial a sufrir dos terribles accidentes en menos de un año BBC No fue un fallo humano, es una política inhumana El Mundo ¿Quién le pone el cascabel al AVE? Diario Público Francisco Badea, ingenie",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tYWtYemVERE9VYkM3UlNIN0NOaWZPS2N6RGlFQ2JCNGg1NEZ5WVFveDQwb29MZXhRVGhhd1lIeHlyaGFQb29VTGlyWXVtN0N6eGNUR25razNfaUxT?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 04:14:06 GMT"
-    },
-    {
-      "title": "Centros de regulación y control del tráfico ferroviario: cómo y quienes gestionan la circulación de los trenes en España",
-      "source": "RTVE.es",
-      "summary": "Centros de regulación y control del tráfico ferroviario: cómo y quienes gestionan la circulación de los trenes en España RTVE.es Centro de Control de Atocha, un centenar de operarios entre la presión del tráfico y un ‘software’ de vanguardia EL PAÍS ¿Quién con",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWV8zM1BXVWhzX1RvdVQteDQxMEJVTUlNN2dpZE55aUZsU1ZRVUJQLTdmeDZSWDdWZkhnVVdmZ2lLSGxGRHhoejNNXzc4REFxWWQzNXp3R1dpVElFUUxTRFN6ZGo2S1dZMkZIamhXYU93akRiZ3R2SENNVzNrdG9aTWFTU2FTWDZ1QkNKTjUwc2hZeXdUM3J5M25LbjVEQ3BT?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 18:41:22 GMT"
-    },
-    {
-      "title": "El Rey pone el foco en la investigación mientras la oposición sitúa a Puente en la diana",
-      "source": "EL PAÍS",
-      "summary": "El Rey pone el foco en la investigación mientras la oposición sitúa a Puente en la diana EL PAÍS Felipe VI pide afrontar la tragedia ferroviaria de Urda \"con dignidad y con rigor\": \"Hagámoslo juntos. Unidos\" Vanitatis Una medida para que esto no vuelva a suced",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQa2dOckw1SVZVUXQwSGVkalRRLXBqb01RbnBIUktuQkV4VERwNjdsdkpyaG02Tl9hSVJlZm90S1FZLTctUV9qcXEtbjREZHljblE5bUV3V1N6MzYwR0h4TXF1T1Q4c2Z2bDcyMDF0WGRZZVh1UlNURTdvZDBCV004M1JTVWNYMTg4aWJNNXJaYVdaUjRkcWctV29CcGMxSXprenpUaHdvNVBsdE1zZHliVEtzV1dDTDhyYkE2QlRBVTIwczBTUklhY2N3?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 05:55:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdEVyNDljLWtYcU5iQndTRmhyNHR1RWdSdW5CUjhRaFZiUUtjSkZCZ3dydlozSTBkMmdQQk1nZHNVcjZBUndtTm1ITE5pTzZydE1RczlBYldlWUQ2dDV1TzZ0QzZCWHlpYjN5NUw4a1FyTFBMNzhQZ2RZNUg2TEJ3Wk5zNEV0R1hXQjYxa2dkYzZZZ1g5dHJNT21fRnM0NWlDY2E0X21B?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 09:24:36 GMT"
     }
   ]
 }
