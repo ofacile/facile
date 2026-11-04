@@ -1,31 +1,47 @@
 {
-  "updatedAt": "2026-11-04T02:35:22.196218+00:00",
+  "updatedAt": "2026-11-04T10:41:12.328114+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
     {
-      "title": "Óscar Puente dimite como ministro de Transportes tras la tragedia de Urda",
-      "source": "La Voz de Galicia",
-      "summary": "Óscar Puente dimite como ministro de Transportes tras la tragedia de Urda La Voz de Galicia Puente libera al PSOE de la carga de tenerlo en el Gobierno y en la campaña elDiario.es Óscar Puente, el amigo de Sánchez convertido en cortafuegos El Periódico Puente",
+      "title": "Los demócratas arrasan en las ‘midterms’ a lomos del voto de castigo a la caótica presidencia de Trump",
+      "source": "EL PAÍS",
+      "summary": "Los demócratas arrasan en las ‘midterms’ a lomos del voto de castigo a la caótica presidencia de Trump EL PAÍS ¿Por qué Donald Trump dice que se convertirá en Mr. Veto? Cadena SER ¿El inicio del fin del trumpismo? Claves de la debacle republicana en las \"midte",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeVRaZXdQM0hTaXNzVUMxa3l2TzJrR05jaVpiNU81MEdPeDZpcXR6XzZ6RVhpZmxQVXo1TXhlbTVfUGxLQ05mOURBZW1XbnNpUldkTl9oZy0wak13bkN5UlN4R3hYWEpmc1VHZ21ndlUzbTMzWXUwNWpkemcxa2NKMTBpU1V4cWtBVXFGbGEzelB4eUFmeTVVYTdsNXlnUFJ2bFAwS0lHNzE1eEZrWkRQc3FScUVHNkRYeEpCdGtjTVNydw?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 22:51:20 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPamFJbFo3TnJtNldWNm5RNHh2aU4tTjVkYTZYWlk0bjBQb1NpVXV1UVF1YVlVaTlUQzU3MlZXQm1GV2xGeWMybXNBRHpNWFZVTXBUSzRWOUd6eXFtQmZOZmwzdjMwVFJRd2xTYUd0TkR6WGE1SEdEZlgtV0RSRGhYS2NacGxocEVBLVJRbTVodVZFa3E5VjFrYjU5RTJUUFJWSnNueUVDTzBPMlJBWFFQNWphWjhHSlcwWmhWaUI3S204OUV1MERGYndyeHMxQmt4S1R0WtIB6AFBVV95cUxNMUpiaGd3MXJOZE5VM1ZtUGRLSWNpLUpIQ3UyRDhpM1JCcmpzRnBfY3dGSFNoSjVYTmlxbUhLdDU5c0RQSTFxTEx3Rk44c2lfWG9aYVBkOGd4dHM1T0lBTWswYzNvYlhOaGhYMEQtRlhITi1qb2NCSVpGZlZ3cllrVXIzUVlGN2hvNXJXZE5Nd2ladndKd1FVMHhNNHl0eVdtbkJwYnF5UDdicDNRMEltbmNuWTk4c0dod2VaTlB3S21fZEV5SktDdkNJb1FldHNWTXBhenFGa3dvNnhnU2lVdU5hY3ZHS3N3?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 04:56:54 GMT"
     },
     {
-      "title": "Elecciones en EE.UU.: empiezan a llegar los primeros resultados de unos comicios vistos como un referendo a Trump",
+      "title": "Dimite el ministro de Transportes de España, Óscar Puente, tras el choque de dos trenes de alta velocidad que causó 69 muertos",
       "source": "BBC",
-      "summary": "Elecciones en EE.UU.: empiezan a llegar los primeros resultados de unos comicios vistos como un referendo a Trump BBC ‘Midterms’: ¿Cuándo tendremos resultados y sabremos quién controla el Congreso? EL PAÍS El escrutinio en EE.UU. da señales de optimismo a los",
+      "summary": "Dimite el ministro de Transportes de España, Óscar Puente, tras el choque de dos trenes de alta velocidad que causó 69 muertos BBC Sánchez realizará una declaración institucional a partir de las 9:45 horas en La Moncloa horas después de la dimisión de Puente C",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11OHF5bXhFZHNfUlIxMC1wNm5WalJiVTFSU1FxRThad1pCVGRXRnZ5ZkxYb1VmcXluUDNTSmlrX05iaFRETzJNUDE0ajR1SndtM3BYVDRYSldvTVNF0gFiQVVfeXFMTkZ1ZkJ2YVh4cVU1S3pFejZhaXE4N1IzR3lYc2xsMlFUNkozTHZuUnkwLS1PV1FnWC1pSEFmenMzOGhDSl9CdkRPRjNkdGpTNWZhUXp4R21nREo5U0l1Y1NDLWc?oc=5",
-      "pubDate": "Wed, 04 Nov 2026 00:11:47 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01TWFzakN4bWRGVE5DUGJIdkYtUWM0TkxQNHNfdmpUdUtEb2ZNS3RKQnFqSlRJWUg2MTlwX1dsc19DYktNVlZJM1UzczZoVVc2YkhTaVN1M2hnaGh50gFiQVVfeXFMTjlVS0ltb0lTaUtWc3NTaUdFQkd5SWVTaUJ0MDdnaTlyTS1aY0U1OHJPblVPTUhaeU1ZME9keU1hTk4yZTU5UkxjaFJJT21MMmdoZDdTT0pEbHowZnJHR19UUWc?oc=5",
+      "pubDate": "Tue, 03 Nov 2026 21:16:07 GMT"
     },
     {
-      "title": "García Ayllón hunde la defensa de Óscar Puente: \"Es normalizar la catástrofe\"",
+      "title": "Cuidado con las notificaciones de mesa electoral del 29-N: cómo saber si el aviso en tu buzón es oficial o una estafa",
       "source": "Libertad Digital",
-      "summary": "García Ayllón hunde la defensa de Óscar Puente: \"Es normalizar la catástrofe\" Libertad Digital Todas las víctimas identificadas del accidente de trenes de Urda: la joven ingeniera, el guardia recién casado, el artista mexicano... El Mundo Portada de Papel EL P",
+      "summary": "Cuidado con las notificaciones de mesa electoral del 29-N: cómo saber si el aviso en tu buzón es oficial o una estafa Libertad Digital ¿Te ha tocado estar en una mesa electoral en Pamplona? Ya puedes comprobarlo Noticias de Navarra Elegidos por sorteo los 14.7",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc0hVUmtRUnJsaDZ5SkVYZ3UwSUVzbTRmZ05QT0NnVVFaemxaYzI5YUw1eDY4ZzUybFJNbGN1MExxcGNLLU53eHJlM2s0ek94TTdycUh6TzFuQktYVlVrc0VCWUJiSmlITzBEQlVxWVRBWUhaTVk0MzZreW9tVTNQNTg4N2Rld25mVUlmQWVkb2tCNWlQaER6TGpkWVUtZ2YyNlM3alROS1lMWU1FT0lCTGVPMGQ3Wmt4cEZ6TW15TS02R1k1U2IwNlhLR01jOUhRZ0RjSXBVUFlGYmN4WG8zZtIB6wFBVV95cUxQQ0NmekZ5NmdfZlhNb2NwbjQ2M3Rhc0VxU1R3aFc0LW1pZGJWbUR2MEtEakRIbnRfQ2xqVjNORTNtWmN5djJKY2NtY0xZcjdxSllMRFlSemluNmd3NGpvcGVzYld2bjk2UUxyTWVIaUkzV3ZzU0o4NXMzRDUxbk11bGtfTzdaUlRxY25jc05MeDh0VG9XQmxuUmtuMWRwakQ5RTVQY19Gc19VVC1wVXFLVW9yLUNrYVlfVVpOSG14TmN0TDJLT0F2aUU4bEg1U1l0ZlVvZ1ZpU3VDUlZEUnYyd1pNamZ3M1BvUmVj?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 20:58:59 GMT"
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSVUtQnVXZzBZQl9qS000SWpsVzJLME14YW5IdVl3ZDBYYnlYRmRVMndsN25FQXZGTk8xTFdDUDlFT2Y4akFDWU5MX0x5ZHZ3bHFmR25zOFBBcDU5VmJvX1FOa1YzWDRvc0oydW5KYk9iSU9TMkRlQzktTWc5MWp3V3FqV2h6Z0NvbHJUMHp5QTRvWmhIdXhGZTNFWW9vYXNsX3Yyb0FPUTVoVk1lMUtxd0dJZjBlakdzWTNZLWhYOGl2X0VXdGh3SUdMb1g0U1JaT3hHMXY4YmNNMFBzUVRoRks3eXlTVFRRT18yU2dKSkQzdUdVU3UyOVI4RXRwVFJKcjY1R3V1Qmpobm5BRUVVNVhn0gGcAkFVX3lxTFBfUXdQOGI0Q0M1eDlkUUNOVWhFbG0xVlVNMXNtbUhaR1VpMk1SMWhwOXBDOHN0MmhBMUxvOG9uOWdNdkNoVVgwcE85NlNmNEphNDNPWllnTDFwVFNXNjdtZHlSZGhiM2Zlbk9zQzZzOFgyVy1hOFE0dnV4dF81eEpaZ1pnVzBJazlGVFhSRWFyQ1d5dUQtODZ5dVlzenpQd1ppTko4dG5CclpVWF9hT092OEtraG4yT3h3S0FJaUIxbDI1OEl0dXFzakFZY3c5Z2JEVHNMYktBY3lfX2twVEpWUG8wZWgtLUdxZUhReUFhZzZMYkEyWjBQNkUteG1mTFlvS2JMdnhNT0FiRjFYNVVjcmZjT0p2cDlKckJX?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 05:20:29 GMT"
+    },
+    {
+      "title": "Sordo (CCOO) exige una investigación en profundidad del accidente de Urda",
+      "source": "El Diario Montañés",
+      "summary": "Sordo (CCOO) exige una investigación en profundidad del accidente de Urda El Diario Montañés Todas las víctimas identificadas del accidente de trenes de Urda: la joven ingeniera, el guardia recién casado, el artista mexicano... El Mundo Estadísticas Partido: A",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONE5LaG5yWDhIVHRLTFV2NWpEQks4YVd0clprMFJKMk9BbWVDdkk3Vm5JNXBLd0pPMl9sRXVlWTNCeTYyZllieVZwX3F4RWR3TjNxWTRudkJlYjNBcXJwMDl4cHB1VXA2Tnd2YmVQN0JubGFEak5kUDdiQ1pLYXZXNXVQUzV2Tkhtb1BwamVVV1d5LVB4cE5KSTlUdkFGRnZvbFRjejF1N1pGVGxuWUVCRXpvbDBWc2o0WFJyVQ?oc=5",
+      "pubDate": "Tue, 03 Nov 2026 13:17:14 GMT"
+    },
+    {
+      "title": "Medidas urgentes de apoyo a las víctimas del accidente ferroviario de Urda (Toledo)",
+      "source": "La Moncloa. Gobierno de España",
+      "summary": "Medidas urgentes de apoyo a las víctimas del accidente ferroviario de Urda (Toledo) La Moncloa. Gobierno de España Recuperar la confianza La Vanguardia Los afectados por el accidente ferroviario podrán reclamar todos los daños y gastos derivados, incluidos los",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTWFNUk5GNEVGVkktYkVWVnZVMHB2eHpLY29TSTJ5SUZhb0FvVzdqT2xfYkFJTW1PeUZjclpFM3p2S1BCb2pVcTlFd1FnQ1FIU3I2Xzk2d3hKRWlJUUp5Rl9DQ0RoMXpDNUdkenplOXdZTnZqQkM0aFJfZUFWb3lBeERhbFhYQmFMMjhUb2JkRFFnRTRsYnlIZUpMQjNBd1VLTnlQX0FqRlE2RkZqNzRXblVuZXNKZ3hMWkluYXdBeVBrYjhtaXhaSUFxamctOXlldXRz?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 10:05:13 GMT"
     },
     {
       "title": "Checkpoints, cortes de circulación y empleados municipales con mascaras pantallas faciales para limpiar la acampada de Sol: \"¡Van vestidos de Chernobyl!\"",
@@ -36,36 +52,20 @@
       "pubDate": "Tue, 03 Nov 2026 23:12:00 GMT"
     },
     {
-      "title": "El Gobierno anuncia una línea de ayudas para Urda aún sin cumplir en Adamuz",
-      "source": "La Voz de Galicia",
-      "summary": "El Gobierno anuncia una línea de ayudas para Urda aún sin cumplir en Adamuz La Voz de Galicia El Consejo de Ministros aprueba un escudo de ayudas económicas de 30 millones de euros para las víctimas del accidente ferroviario de Urda (Toledo) El Mundo Recuperar",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZUtNUGtDS0lOTFhnWUNsTmNBNUdJYnRSWFBiT3JmSXVzdHYtUFhHdHNfdXdkV0hVZFYtWDgwQXItREpJSllRekNEWUNyUjlvd1gxMkRUN0RmMGN1Y3ZySVhmOGRmOHRIdzBkME9OdVhEMHpUSUw5TndlNjFvWkdWMjdmN3NyWDlBb3JuVnJCWGg5a2htTF9ETmhZZFRWNU1udGFLc0NCVzJOU0tuaHFfZjRyYWhLN3lYb25MMUdRNTgwR0F2T2tN0gHjAUFVX3lxTE5VMTJBOFZEeWpqYTE0TWYxa0I1d0RFNHJoYlNtWjZlZkRuZTlPcTVvNXRqbXlLT0dYSC1lMGVFemFlakhmcFM2c2FpOTZCRmVsQjFqaE9RNEd4TVFpeEh5ZjNYbUE0MmtyeGtPQW0yc1R5S0JDVk9jeGNrVXNkUmpqWE93VmJiUEZHUldudm9iWEhYa1F0Wlcwa2hpaTFWbEdYbUp1cWZqYkpNRWo0ZWJQVEx6cXd6dFlnM2lGVUY3VGxrVTJtZ3V6eEVxQmxRSm5saDBEcWxneTFQS2llcVRHcDI0?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 20:38:19 GMT"
-    },
-    {
-      "title": "Transportes reduce el tráfico entre Madrid y Sevilla para separar más los trenes hasta que esté en pie el nuevo sistema de seguridad ERTMS",
+      "title": "Una pareja de técnicos de Adif actuó de urgencia en Urda para intentar levantar el sistema LZB con un solo ordenador antes del accidente",
       "source": "EL PAÍS",
-      "summary": "Transportes reduce el tráfico entre Madrid y Sevilla para separar más los trenes hasta que esté en pie el nuevo sistema de seguridad ERTMS EL PAÍS El Gobierno anuncia una batería de medidas para \"minimizar riesgos\" y los sindicatos responden con una huelga fer",
+      "summary": "Una pareja de técnicos de Adif actuó de urgencia en Urda para intentar levantar el sistema LZB con un solo ordenador antes del accidente EL PAÍS El Gobierno anuncia una batería de medidas para \"minimizar riesgos\" y los sindicatos responden con una huelga ferro",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxORy1OZE5uS282M2pCTGdtc0xhbDdySE0zV25zaEE0dXN6UE5MNUtEN1UtZ2xaRVRYS2NBQ0tTNjViYW5aTjJkbVdmUG8zNmR4b0pEcFgyQnFUeVNITVdoZHY5V0ZDSlJiS3oyblBkbFlheUxwVEU1UXNBVXVQa0Q2SW1TQk8tYmJ3V1RhLTZFdDk3VXRZeV9WU2k2T0o2ZnZOclQ0c2NfNXA4SENIazJlQTNHMXJKWV82UUtDX280bkh6NXp5YW9zOU5jR1ozMEV2T3phWFlDdWU2aERTSkwzM1VuM3NWQmxKMmttNGhQaG5Kb2VxYzZycDNrVlRWNFVIV0VsRGVNbHVnLVJnSEx4TXVJdDJaN0U?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 12:42:04 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQbUE0ZFhhd2pDbGdnUFlreVNEakNFXy1ldjVqZUwxX3dfR09HMDlWc1daaHZEd2h6T3owdWo1U2EzWlotWXV5Uk1XTlV4SVNBYkYyUFdtdWtoTzF6TzJ1UGc0Yjc5Z083b04xNXNjd2pGeE9XWWs2emxkWlp1NjB5bWJ0cGtMdFpfc1FrVWNoREJKX0lTQ2RNMlV6QUtwWTJVTjBEQTlEa1ljRkxkZnZtRnBlSWlmTkFxelVRS2J6aWZpaE1zZGVJWWotVUVBUjlWSEtYNWxhRVBzeW56X25ESnJFalMtc3ByTjh1aEhhSUdPWEdud1lxeGEwaHJOLVRIaUtCNU9fd3E0QQ?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 04:30:01 GMT"
     },
     {
-      "title": "Elecciones generales 2026 | Los ciudadanos ya pueden consultar si han sido elegidos para formar parte de una mesa electoral del 29N, antes de recibir la carta",
-      "source": "El Economista",
-      "summary": "Elecciones generales 2026 | Los ciudadanos ya pueden consultar si han sido elegidos para formar parte de una mesa electoral del 29N, antes de recibir la carta El Economista El Ayuntamiento celebra el pleno extraordinario para realizar el sorteo público para la",
+      "title": "La Seguridad Social supera los 22,6 millones de afiliados en octubre, tras sumar 784.573 afiliados en el último año",
+      "source": "Servicio Público de Empleo Estatal",
+      "summary": "La Seguridad Social supera los 22,6 millones de afiliados en octubre, tras sumar 784.573 afiliados en el último año Servicio Público de Empleo Estatal El sector educativo y los extranjeros apuntalan el empleo con más de 186.000 nuevos afiliados en el mejor oct",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNbGt5LUFfa0cwSFkyX0o1TE5WdUJSLXZ5X2t3MEJSMHF4NG16eDdxWndCM2F1QUpFd2oyRjBVWndEcm1VOVBDZWtCRDA5NXBUdkh3dDRGWERNaDh3eDByYkdFUzQ0bHMtbll3NS1iOWotYWl4STNXMlRzZDZaTHRTZEU2NEpBVWJKYS1BZ0JFdl9pM1VBX2c4ZjN3ejIxXzFfUzdmeE1VcDVJVEk1Y2lkemlxZjFoUzJnZUR0bEZDRlFiZ2kwREJBRTdiXzlUelJ2ZTlLLUFmLTE3S0NxMGJHQk1XYU5BRHF5LVdFdnJiODFUU25GSktCYXFKQ0JxZmw0WlhIaWZSeUxNd2RIR3Fld0pPRFpwVlNGcGpjUWt1Tl9qNWdTUi1IWDE2NzVlSzhqNTFzbmRYcWlpY3JYYzdsZDVWUVRYOHlz0gGzAkFVX3lxTE81czEtTW1paV93SDU4Ri0wRlRKWlBXVTMxUEJxLTdSaUZGMzJHYmx5MkxnSWtIMjRaenFNNmZ5eHBRUzN5NVRGSGdBM0ZYWmlLTTFBR2YxekVnalpDMWNwY3dVU2pOYThuNGI5MTZONkNKNHRQY0JNTXJWajNuenJUa1NoNTU4TXhhc2EwQndwelQtZUNvQ2NsZEd4QXdtUlNLUy1kQ2FZSVhuX21ZM29zM2hnbWZvSzdVdUZJMjhqODhvem1XSE10bEw4TlRmN29KUHFaQzhpanBnZFQ0a3VwZndIMHdWR3ZrTEpYdzZmMTU5YzVHLTdaN0ExSDdDN0tKY2tNSGhTUGxfQ1haSVBVbGdOTG8xZXV4SUxjamptN3M0RTF2VlVwVU9kbVBfOGQ0WE0?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 08:32:53 GMT"
-    },
-    {
-      "title": "Vivienda consolida el listón de los 500M' en el presupuesto 2027 con recursos propios y alcanza las 5.174 nuevas viviendas, el 74% del objetivo para final de legislatura - Gobierno Vasco",
-      "source": "Euskadi.eus",
-      "summary": "Vivienda consolida el listón de los 500M' en el presupuesto 2027 con recursos propios y alcanza las 5.174 nuevas viviendas, el 74% del objetivo para final de legislatura - Gobierno Vasco Euskadi.eus El Gobierno Vasco eleva hasta 1.473 las VPO en construcción e",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRnZnaWo0aF9sc3ZOaG10UFZRWk53R3RFR0xNTWJyUkRkWjFkNU1iZEtxMEJOcGUwTndaV2pOT251ZlhDck5hTWNka2l0MjZGSUQwQ1lwUmhoQzZDLXlFXzZ2b1dWNTJBeGNnVS0zM1FvTE8xVzctVk54eGMzSENCMElsYjVnRlNqUDJOYUFRZThiQnNnamxFanhqVlpMa2pWRXFrYU5kWHNXandvazF4NGlHTUhRenI3UUNrRUVEQnRFejlRU1NMQXczWm8wRGhoa1FaLWtxVG5PcEt4VjkyTllvSlBsVFAxR2hzcS1vVWwtdUVyNFM1THNvcC1oRktEWUZJRHRSUFpyTjBvZUFGTEhURXc?oc=5",
-      "pubDate": "Tue, 03 Nov 2026 15:56:56 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWWptNDZlaVpCc0xIUmlBNG1Td2hjTG14SzROOHRUZThubVVhc01sOHZYRS1zWGw0NmNpV1NUR3ZEcThHd0RYc2lVMDBQSlhORjUtTGxLLURuaFItM1VEMU1Qei0xd09MV3hPeXlmX2N6Mk9hcVNiNTM3Z3RZVnd1bGswOUV5UWVBeUZsdHdXbUNia1hzRmpEZDRfQ01icG9ERl8xSFhn?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 08:48:18 GMT"
     }
   ]
 }
