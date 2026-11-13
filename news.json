@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-11-12T18:31:07.924926+00:00",
+  "updatedAt": "2026-11-13T00:00:15.027564+00:00",
   "source": "google-news-rss",
   "query": "",
   "items": [
+    {
+      "title": "Feijóo: \"Vengo a ofrecer algo tan elemental como un Gobierno que no robe\"",
+      "source": "El Confidencial",
+      "summary": "Feijóo: \"Vengo a ofrecer algo tan elemental como un Gobierno que no robe\" El Confidencial Feijóo se presenta como “gestor” para “resolver los problemas” frente al “saqueo” de Sánchez EL PAÍS Feijóo arranca en Cataluña su carrera hacia La Moncloa: \"El cambio es",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzA1UTd5Wk9KSElXcGJXd1dQbUhqNjRXQU54b0FJemk1Mm9XeDV5TURZY09SRDU4Vm8wa0tuRWp2Yi14emFDU3plMmt1blJpXzVCUTM1RnBjLTVuVW5hTkMtVi1RTHh1RVdCdzZPdzVyYkpUN3AxemRDV0hsdFZUVktabUh6WWV4NVlNWm91M1h2TEZZamJXUWtXMFNwU0dSZnU4X05xeGpQMTMtOVNoWEF3THFReXVGdzl3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 20:00:00 GMT"
+    },
     {
       "title": "Consumo calcula que la prórroga de los alquileres ahorraría 4.341 euros por hogar y beneficiaría a casi cinco millones de personas",
       "source": "EL PAÍS",
@@ -12,60 +20,52 @@
       "pubDate": "Thu, 12 Nov 2026 06:00:00 GMT"
     },
     {
-      "title": "Marlaska ordena a la Policía no usar gas lacrimógeno en las manifestaciones y pide investigar las actuaciones durante la huelga",
+      "title": "Arranca la campaña electoral: Sánchez recurre a Begoña Gómez, Feijóo se centra en la migración y Colau clama por la vivienda",
       "source": "LaSexta",
-      "summary": "Marlaska ordena a la Policía no usar gas lacrimógeno en las manifestaciones y pide investigar las actuaciones durante la huelga LaSexta Marlaska promete investigar las cargas policiales mientras la izquierda le pide la dimisión EL PAÍS Marlaska ordena investig",
+      "summary": "Arranca la campaña electoral: Sánchez recurre a Begoña Gómez, Feijóo se centra en la migración y Colau clama por la vivienda LaSexta Pedro Sánchez le da la voz a Begoña Gómez en el mitin de arranque de la campaña: \"El tiempo de las 'señoras de' ya ha pasado; s",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUGtTQ1JtOTVSWHdCcFBmQXprMG0yNkIxWFJEMHdVQzhUM28wRUJBX3RnVHFxUUxLQjVkcmVOcUFRRV9aMDBQaHZSdm1sWFdZSmc2U1FqUnpPMWJtckxURUQzWlM3N3NkQnV4d3ExVlNjdk5UT0VpWDFWdi1FSEZqV19LaHVCTFFKWDMtZ1RybU1XUnVtVjA3UFN1cHhfQzdvRDYySEFHZU1RN2FlcjZ4Uk80VnFjMHV1cTRYZWNoVjg5VjZuN19wWVUyZmw5V1hCNVlERUFKcnlmbzBvUnpwdlBmRGdHZ2tmOTc1dzBONWhHaWxKS1FyaU80aEVpSk1QbHotclpR0gGGAkFVX3lxTFBPUFZROVFsM0pFRjlBaWduWXdBZEgwN3E4dENtZzdNaDRfMjR4NFo2bndEckZ5UUFrc0FUeFBYZ2R0b29xTWI3NDVfMUkxTmJwdmVQR3BTaVBIaEpiWTlsc3J1bkZTcDZfZ2pHcmxybGVtdW1ERHlGN3pHdHhZNzBMcVBmOWhpYVByeGQyd24tNDRWenQ2UGhrbEhWY2puRUNIemZXZmpJdVVjN2dyTE1pTExzT3Z1RFRVTFlzT01OemJoaEZyOURGZktsM2ZISkRLNlpobm5NMzdhWlZWTXZzczJEZDFOc1hqNGVLTTZXazNMaDk4bXpKWUtZbnVOaFRQSVQybHc?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 08:58:37 GMT"
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQNEYyZHg0NkRLUldyQ2hhUXVXSkpSbldGa25BY2o4UjlwbVZ5ZzRDMG1XbjBOMW9oTWdoS0JDcTJrdHpIZVNuRjA2YXVFckJkc3B1aDJpTVQ5Y2MzZmtZUXhtR0xVS0F6NUZYamQ3MkFoZXQ2cUd5V0JFaDRMWlpVLWVxMTk2RzlNM0wwM2Q1cXV6ZUFtM2NnUkxQT2tocGRPYkFpcG9OR1Vld0dmWVFRSWQ5aHR2TEFpRWIzYWVqV0tpdlpqM1dpa2NZcklRbDY1aVphUml1b25EbmNVa0kzYzZvTFBDeFRkWHV1WThQVzFkTkNwYW9zX1ctR3QyRm1Pa015MFFyeVpLalc5ZzhB0gGPAkFVX3lxTFAxTVFOX0d5WThpQWw2Zy1KU2dxOGZWY2c1X0tES0VZbTJaaXYtLXV3Qldnb2Y1U3VTQ1pLQUw0OVV3UWhHVExHZUU1M1JTLUJabnZaZkFrVnNtbkh4RldTeUFJMERKTTZBajhlUlNGY3VQV0cyV1ZrVFV0d0pfblh5NXdoZ1NfR1pybkYyc3gyTk0tTXc2ZXU1SXptSXcxUVF6QUQxaUYzOXd0c01LY0dVeXdIVkY4azR5N0dHbDlpOU5jV2o4ejMtMTIxRjFMYnh3VC1rYjFPQnhBS3lUd1VKUDNTcGQ0NFZ4Y2FvVWRqY0lrZ2NVTkRqSk94VFNrRkotcGZsYm9jZVhPZTh4UWs?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 21:39:51 GMT"
     },
     {
-      "title": "La UCO acude al Tribunal de Cuentas tras detectar anomalías en las donaciones al PSOE",
-      "source": "El Confidencial",
-      "summary": "La UCO acude al Tribunal de Cuentas tras detectar anomalías en las donaciones al PSOE El Confidencial La UCO acude al Tribunal de Cuentas por la investigación sobre los pagos en efectivo en el PSOE EL PAÍS Agentes de la UCO acuden al Tribunal de Cuentas por la",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc2lmZUVqY3JpLUZuOWNHWXhHcXdNOFR6N3FWT3Vza1dfcnpKN1BFUE5Ea2ZGQnNXa2FrczBwelBvQ0FtVXZLUktyYWNhckJnZEh4b2ltcDdzb3haaUNpMjVESjh1UnJwbVVORDFGNjFsOWVtODlma1hpMzJTYjZQVExRXzZqTDhINnEzam9BRDNZVHN3eWJxSWtYV0ttdkhPUzBMaUZvZFlEc0l5Q1E?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 11:19:00 GMT"
-    },
-    {
-      "title": "Sánchez se reunirá con Lula da Silva en Moncloa el próximo lunes",
+      "title": "Pocos votantes indecisos y una actualidad frenética: la escasa repercusión de la huelga general del 11N para las elecciones",
       "source": "LaSexta",
-      "summary": "Sánchez se reunirá con Lula da Silva en Moncloa el próximo lunes LaSexta Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil | Elecciones generales | España EL PAÍS Lula viaja a España para apoyar a Sánchez en su campaña electoral El",
+      "summary": "Pocos votantes indecisos y una actualidad frenética: la escasa repercusión de la huelga general del 11N para las elecciones LaSexta Pinchazo de la huelga de Sánchez El Mundo Agitar el malestar ante el 29-N La Vanguardia Policía Nacional acortó la manifestación",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbzhKZnAzdXhyME14NWJWZHQzUnc4TGxzbVlNeERwLW1HLS1iMHhmNjdQc0gwWVlPd2d6Tmt0dkp3X192RmZsY2NiTHpNX3VoVEpLZUFDODl1elR2NHNhd2o3dGtGYVdlSmE3UnotSk9yeWxDUlBDdk1OQXZzdWlvRTU4a1JxSFpUNlJEbndNU01vLTVvcFdpa2ZFekpZdHFaSE55cnhEQVptd2FlUUI1TzdLREpDRUg0bXhLZ2RwUTZybThfUmJqZnlqLXZYUdIBzgFBVV95cUxQa0RRVTFGa213aUJXVVNydkJmWG9iTjZpSV8wcEVkblJPWG9vNW5JUUJwSWRxZzF6LVkxcWZwUll1VDFqX0lZNFRtaGNYd1pxMFBwbVNiRjNDaUJ2VGF2N2NrVlVOZDlCcy1OSy13Yzh0MWM4cUtmbmw5bkF0T0ZUdE1kenVlMTBmSk9QZnZWWEVoZ2ZMTUkyTXNIb1NjSGVqOE1MTG9BUlVoc3pPdUoyUjlNdWRUamR0bnRTaGVDdm1valFSVlNLd0JxU0VTUQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:22:52 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNdFo1cFpneXJNTUFQOEdtU1A5NlNJNlZaWnZnclVsWEpha1JtS1pra2tGVWh2ZmVPdnBCTWZfUVg4TXFrX3oxTWMyVTFHTXNIOTB4UlpETTZhdHpaVDVJODI4aWZ6MVAxclRhMlVISGdYb2JsUGNwRFlnX1duY1J3aUI5VXI5NzFZRVVVVzlRVnhCVE9JNWlDRF9OR1hLa0J0dE9LUlpIZHJWaElSSHpjdkoySGxHXzNSVTNOM2lvVDEydk15NV9HbW1IQUZIcUp0RTlFRlJDSkNscDBwMy0xSWpiVXF4RFBDNFBoMk9YcXhfV1RoeXc5bDJKckxZbWlEY2tTS29tSWjSAYgCQVVfeXFMUHd2RlhUTzFIR1RMLXlZLUxJa3NseVdCZDBxVE5ZMUtpQ1RYaVVFWHFBY2pkZnoteXozRHZoM3MyY2c2a3dlX1JfVVk2WWlSTjhCTTVnMjFQdjRrNGVWQ0x4MTBkMDd0UGRnT2paenBqYmZ2UFRJYndtbkQybHFVY2tmMUFCUU45SHVQc2E1dmg1T1pWYkNnOFVwMlAyLVRNUnV1UEU0ZWh1RkRDaU9wa2lGWXhpVkJRbS1Fc2ZsWGlUT1E2eVI3TTZ3OXFBZWN5Z2lRZzE0OTh6bW85eENnUUliVFRocWpsTnR3ZEpFMTgyRkhuMklIcVNLNXd3a0tlT0p1dGZkNVNG?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 21:44:04 GMT"
     },
     {
-      "title": "Los \"streamers\" cargan contra Abascal tras su plantón a Jordi Wild y piden a sus seguidores que no voten a Vox: \"Es un partido lleno de retrasados\"",
-      "source": "LaSexta",
-      "summary": "Los \"streamers\" cargan contra Abascal tras su plantón a Jordi Wild y piden a sus seguidores que no voten a Vox: \"Es un partido lleno de retrasados\" LaSexta El ‘error Wild’ de Vox: Abascal tropieza ante el grupo de votantes que más lo apoya EL PAÍS La negativa",
+      "title": "La UCO visita el Tribunal de Cuentas para recopilar información sobre presuntas irregularidades en donaciones al PSOE",
+      "source": "El Economista",
+      "summary": "La UCO visita el Tribunal de Cuentas para recopilar información sobre presuntas irregularidades en donaciones al PSOE El Economista El juez da 10 días al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres b",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQdTFhd0ZBVDNsN01US2hSZUFCOGtuNkRBZVpNYkFvWGxkeDRMRkZFRVRYR0hoOXZzYzJ5NWdHTzMtQU9vemhJLUZoeV95bnZnbEhxbTV6WjJtWmFLYTBLUTBCWjNJc25lX3l0X2pXdzBBOVZMQU5TdlVIQ1lsUW12RXhDbXlZZ3djdDhkRjJDRFVfNzI0T19INVc5c21fd0JQcTZUOXBUNmlpOHh1SER0VXJTZGVBSlM0UXJQbGFIOW5iOWJYVUQ3VHpoUUFMQU5KZVdDUW1rcWV3TWUwT2hsOHlwLU9Rc1FTZnlHb1AwMUc2QzJOVGNKUUV5QnEyUmdtUnlKV0dFMnFmM0JHR2JPMTZDTDjSAZQCQVVfeXFMTVZmdTR4MTFXaXlVaHlrQ3NRZURNRVowX2xTNEpHYWxTRDE5VEN3SDJrMWR5NDFUZkZsbWs0QjdKTGd6ajV6Y0RYR2gwdy02cmx5REhyMEt2NWx5WWlQN0g3NmdfeTBpalNvZElfVmI4RnlEMEtESE9VbGViY0pOV0JXeVQzbDkyQ2Zoak9fSG1aLUc5ZGdaRUZLUjNwZGQ5NjgyRnZHbDdrUEIxVWV4RUtxWi1hbXNzb3lZdTVwbkF5cUplZ0JLV0R0VEYwTFlfbzdqS1M4QWRhNFpBRzVjS2FYdFNpSl90UzBvcm0wcmQ2cUQ1RmtLQzRyckF6bXVUTUNDUVBUNUhrZ0J2QWFUc0V2ZXR0?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:09:40 GMT"
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPSnpjaGlXbU5YLWxUM0FoVEZxSzdNcVgxRGJQWk11UG9fcGhQQ05pRk5YeUNXNlJWUWpQV0p0SXk4VzV3dlJsQl8zQS12bkpJSWktcmhKRi1vVXg2VTVPSGJ4TU52bkp6d3hRaklzSzRodzNFT1NKZzlTbWZYYjZDRV9GV1U5MmRYdE5EX2tQSzVQSXpSblEtazg5MWFBSndmUUEtbHVHSGdsYXRUUE0xRHRmbGxYZTRvWTdiendFN3hxRS1sOVpoSGo2NW9WLXJ4Z2FpMjRqaElWYzhBcGhPY2N0NmZKSm05X2VteWJTd3loNWNoVTM2eVp2Q2gtSHMwVkFVVHhHaUlPdEpnUUw1bEZRTdIB_gFBVV95cUxNQlktV0hoOXZEbjBXY3l1TEJYU0dNU2RQNTREVkotcHpHVW9uN05zallONG1Ha1NpRy14NXowMnFRdi1mU1dkY2NkRl96emJiNTZLRFNsRTJVVHlBUXRnWDBRY3JiUFVpaVJNMjR4ejZDQzlGY1l1eTVaZzBOVHk4Mnd1Um9jakRSVk91dVYzTzlVRElqakowSW5PcGhjZloxazQ4S0NvSWh3bG9qX3Z0VmVpMW4wamtQX0NuOTkxSThqOC1McmU4NDl3bGlaOGwzWUEza21lTHNuVzFuZ3IwbG1lVVp3UEd6UVc5RFJPanlXRkRSdko5MFFMb1M2QQ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:19:58 GMT"
     },
     {
-      "title": "La juez Tardón imputa al exdelegado de Gobierno de Ceuta y lo llama a declarar antes de las elecciones",
-      "source": "Libertad Digital",
-      "summary": "La juez Tardón imputa al exdelegado de Gobierno de Ceuta y lo llama a declarar antes de las elecciones Libertad Digital La jueza imputa al exdelegado del Gobierno en Ceuta por la entrada masiva EL PAÍS La juez Tardón imputa al ex delegado del Gobierno en Ceuta",
+      "title": "El arsenal incautado a Núcleo Nacional: armas de fuego, munición, táseres y defensas extensibles",
+      "source": "La Vanguardia",
+      "summary": "El arsenal incautado a Núcleo Nacional: armas de fuego, munición, táseres y defensas extensibles La Vanguardia La portavoz de Núcleo Nacional guardaba en su casa 13 armas largas y quería “ir a pegar tiros a París” EL PAÍS La juez decreta el cese total de la ac",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQc1JfYVB3VGhmWWJUMnZTWnh5QnJRU2lpM0FQOTllVUpzNl85OWhTVVpUcUlVREl6MDVtZThzQXc5UWt3aEQyUjVEeTN2N2JZLXpPbGpIMWsyWE50QmZHVDdfamhJbUpLeHdEcDY2WVU0TXhpeUVvQjV4QVBSbm4tMktxOVJMal9HT0s1SWtreUdCVjA4dTlINXRIQUc5TGx2X2plUV9SSnhfU3F0aEdNWWxLU0d6dlI4YmEwcG5hdl8zOEdJeU1qeVZpNHZhQm5jbDRuVnpELWVnd3lUZVptMnl1N1J5dkFFem0zNG1kSUU1RnfSAf4BQVVfeXFMTXZVMXZaNjE3ME9jQi1KSHhTbnpLMVpHWmRvTERIMmdWMHdYOXNXZFFIVXVqZkdXOEh1UnpRdFd2R2d5VW5wR3lXa1kyRVR2ZXJCS09XZVQyRHgwMG1WMWtoRldCTlVHd045LV9aSEJTR2Rtc0JlWEwyM3MtSi1JT2FqbEFiRkxhZjhVYnJQNENTb25sMl8yNlNKUXdyWGstRXFlN2VITzUwclZZWlE4VFRKMlBXWHNRd2ljUnduaWVpcUxFdnBybDl0bE03ZW5EWUVYZXJiSnoyczBLeHVGa2JZUV84RzhTWTF4UnhlNnh1Wk45dGpUVUM0SUNDM2c?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:13:05 GMT"
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ2tIUGR5ZFVrLWpfZEVteDVKN3NWTlhWUUhNb3RLWjN0akxrQ2dOTlk5LW53cHA1ak8wblhtN2hnOWpiV2trREptbzhaekNvb21QWEh2VHNMeVFWa2F5OGowTy1idnN5aGRwTGdUNFpFVDJieDFaQ1NudzJMbWtGMFQxeFpyNFZ3TXkwV3V2Wjd0c2h5YUdUTnphU3VHQWx6OEo4VDN0aWN6aDN1ZXpwQ0ZPSkxFODA2aDNPRjZCQlpJSFZZLWZoQjlCT0dHTUZINUJJbGhNR0tLejRm0gHiAUFVX3lxTE9hZkVLMVo0UGVmVnc0V0VsQm1fdFZmUWFSdHBLTkI2YU4yekZMZDAwXzlWOUEyMEV3VGhQUTBKLXlKbFRSckpWX2ZpSi1JeWZBbDJMcGpaMWE0bG0xNnZ4c0V6cTNDMUtqdThYYkttNzJ2R19TbXh6M2c2RjZwUEZiczNzeHhXaWVaTFRLVmY4UGZid1RXYldJSzk4aXpuWF8tM0xOMjJlVFpYSlZoaFBzWnBFRDZIUmF5aUNHVHJzTlRkVlUydmpRQlJWa2gzUXhQYU5yMjhnNjBKYkR2bnR0bnc?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:22:06 GMT"
     },
     {
-      "title": "El CIS da la victoria al PSOE y estima que podría alcanzar la mayoría sin depender de Junts",
+      "title": "La UCO revela mensajes donde Corvillo confirma una reunión con Sánchez",
       "source": "RTVE.es",
-      "summary": "El CIS da la victoria al PSOE y estima que podría alcanzar la mayoría sin depender de Junts RTVE.es El CIS de Tezanos catapulta al PSOE en su macroencuesta preelectoral y lo sitúa ya a ocho puntos del PP El Mundo El CIS sitúa al PSOE como probable ganador en l",
+      "summary": "La UCO revela mensajes donde Corvillo confirma una reunión con Sánchez RTVE.es La UCO señala que Sánchez se reunió 35 minutos en 2023 con el chófer detenido de la trama Koldo, a quien negó conocer El Mundo Anticorrupción señala que el empresario Corvillo ayudó",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd1VnTlRGVkhnU1ktYzNEZVFyZl9rZmRHSzNxbDBXQmpKTXowMldFc0Rmd3VmVmg1Q1pRRE1pTWc3U3V4OVlqb2xyLWlXSFA0QWZXVFF3VG14UUNRR2lHcXY5T0JaUDRsd2ctbkd3X0ZDR2c5ek0ySGE3MDB6ODZiOXdzN2RQcTdaczl6UWRpNnB2NmNjSlhz?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 16:14:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmFTbGsyZ25IWEhHWHNTbkdrYXU5ZEJPLTdqVzUyVTcxTXNIU19leEFXeklsSm94SEYyeWIxWS1MWU5zSFRTUjVGM3ZlTWFPRDdUMXV3Vm9TYnk2UnE0Ti1BeGNCeWtadC1uaW1zSWFCcWg3ZHp6LUxEd3BXaVNUdmVCa3lzQ2VvWmxFNEVJMkRKdWVNVEoyTU1DbWFxQm5LeWZNcWVB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 17:57:37 GMT"
     },
     {
-      "title": "Moncloa y el PSOE, desaparecidos en la celebración de una huelga que durante días han abanderado contra la oposición",
-      "source": "20Minutos",
-      "summary": "Moncloa y el PSOE, desaparecidos en la celebración de una huelga que durante días han abanderado contra la oposición 20Minutos El Gobierno anula su agenda “por respeto” a una huelga cuyas reivindicaciones sociales comparte La Vanguardia El Gobierno se autoimpo",
+      "title": "Abascal defiende que las elecciones del 29N \"no son normales\" porque enfrente \"no hay un Gobierno, hay una mafia criminal\"",
+      "source": "RTVE.es",
+      "summary": "Abascal defiende que las elecciones del 29N \"no son normales\" porque enfrente \"no hay un Gobierno, hay una mafia criminal\" RTVE.es Abascal culmina la precampaña con 22 provincias visitadas y 25 actos en dos semanas EL PAÍS Abascal señala la pérdida de poder ad",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVUFudEQ3WnpRMnJsM3E3X2FTTGQxQ296UmEwMWh3NHFtc01YTXZVSU5aOUtzOG1IZzlWRHVmS3hpQ1lqd3FDM3VqQ0lBZzFsQXY0anNxY0NrREY5NjVDY2hXbFpJSkJRdEtJMy1XeVVDMFlsQ1BjZDBYRTdZS2xiM0U5V0NhN29DMDJ3cU9Ic3hlNEQ4Q3FZLXVTLUVyZ1BXTXZXMk9DV3o1dmVrdEs3UXJrcHZXcHVRTVRSZmRwSmtmenY0b0l1Sk9QSkZ3U1JhZVVQZlRZc1NCR3BTQzFCZg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 04:00:00 GMT"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSFVmZ1l5dU5fZW1BOVhVc2tJa1hsY1B6SjJlNjBNT3pucFFvemktSnB6cV8yYnFQVk9VQUw2NFVjMzUtNElhdlVmUTNSeVVhUlR5d0tvNWRZZ3RHSVQ5LW9wejJtSXpfSHV5NHJxZmx5MExFNW94Tm1jVkVwMHFwSEczd21HQ2l3V1FNbktUUzlQN2RNNExKWkE3NlRCOFYtR1VwZXM3b2w?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 21:23:50 GMT"
     }
   ]
 }
